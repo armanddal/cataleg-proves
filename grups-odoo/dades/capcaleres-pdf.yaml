@@ -1,0 +1,437 @@
+# Text i icona (hash d'imatge) de la capçalera del PDF publicat per a les columnes que el .pub dóna sense nom (colN, buides).
+# Generat per scripts/capcaleres_pdf.py (arch -x86_64 python3). Només lectura del PDF. Clau «gN:taula:clau».
+g10:p21-t1:col4:
+  imatge: c0b55585
+  text: R ASPIRACIÓN HP
+g10:p21-t1:col5:
+  imatge: ef9796c7
+  text: R
+g10:p21-t1:col6:
+  imatge: 6541634d
+  text: R IMPULSIÓN HP
+g10:p21-t1:col7:
+  imatge: fdb5241f
+  text: R
+g10:p22-t1:col4:
+  imatge: ec122b86
+  text: R ASPIRACIÓN HP
+g10:p22-t1:col5:
+  imatge: 7215a6ae
+  text: R
+g10:p22-t1:col6:
+  imatge: a7dd4361
+  text: R IMPULSIÓN HP
+g10:p22-t1:col7:
+  imatge: 8fe2a78f
+  text: R
+g10:p25-t1:col3:
+  text: MURAL / CENTRAL
+g10:p25-t1:col5:
+  text: S
+g10:p31-t3:col3:
+  text: A
+g10:p31-t4:col3:
+  text: HP
+g11:p128-t1:col2:
+  text: EXT
+g11:p128-t1:col9:
+  text: 365 KW
+g11:p129-t2:col2:
+  text: EXT
+g11:p129-t2:col9:
+  text: 365 KW
+g11:p130-t2:col2:
+  text: EXT
+g11:p130-t2:col9:
+  text: 365 KW
+g11:p132-t1:col2:
+  text: EXT
+g11:p132-t1:col9:
+  text: 365 KW
+g11:p135-t1:col2:
+  text: EXT
+g11:p135-t1:col9:
+  text: 365 KW
+g11:p136-t1:col2:
+  text: EXT
+g11:p136-t1:col9:
+  text: 365 KW
+g11:p137-t1:col2:
+  text: EXT
+g11:p137-t1:col9:
+  text: 365 KW
+g11:p140-t1:col8:
+  text: 365 KW
+g11:p149-t1:col8:
+  text: 365 KW
+g11:p167-t2:col8:
+  text: KW 365
+g11:p30-t1:col5:
+  imatge: e2acac4f
+g11:p31-t1:col5:
+  imatge: fbf01b19
+g11:p36-t2:col3:
+  imatge: afb77076
+g11:p37-t4:col3:
+  imatge: 3b2341b5
+g11:p40-t2:col5:
+  imatge: f9fde556
+g11:p43-t2:col5:
+  imatge: f9fde556
+g11:p69-t1:col6:
+  text: DOT
+g11:p69-t1:col9:
+  text: 365 KW
+g11:p70-t1:col6:
+  text: DOT
+g11:p70-t1:col9:
+  text: 365 KW
+g11:p73-t1:col6:
+  text: DOT
+g11:p73-t1:col9:
+  text: 365 KW
+g11:p82-t1:col6:
+  text: DOT
+g11:p82-t1:col9:
+  text: 365 KW
+g11:p92-t1:col5:
+  imatge: f9fde556
+g11:p95-t2:col3:
+  text: SERIE
+g11:p95-t2:col5:
+  text: DOT
+g11:p96-t2:col3:
+  text: SERIE
+g11:p96-t2:col5:
+  text: DOT
+g12:p16-t1:col8:
+  text: 365 KW
+g12:p20-t1:col8:
+  text: 365 KW
+g12:p21-t1:col8:
+  text: 365 KW
+g12:p24-t1:col8:
+  text: 365 KW
+g12:p28-t1:col8:
+  text: 365 KW
+g12:p29-t1:col8:
+  text: 365 KW
+g12:p35-t1:col8:
+  text: 365 KW
+g12:p36-t1:col8:
+  text: 365 KW
+g12:p37-t1:col8:
+  text: 365 KW
+g12:p40-t1:col8:
+  text: 365 KW
+g12:p41-t1:col8:
+  text: 365 KW
+g12:p42-t1:col8:
+  text: 365 KW
+g12:p47-t1:col2:
+  text: EXT
+g12:p47-t1:col9:
+  text: 365 KW
+g12:p48-t1:col2:
+  text: EXT
+g12:p48-t1:col9:
+  text: 365 KW
+g12:p49-t1:col2:
+  text: EXT
+g12:p49-t1:col9:
+  text: 365 KW
+g12:p50-t1:col2:
+  text: EXT
+g12:p50-t1:col9:
+  text: 365 KW
+g12:p51-t1:col2:
+  text: EXT
+g12:p51-t1:col9:
+  text: 365 KW
+g12:p52-t1:col2:
+  text: EXT
+g12:p52-t1:col9:
+  text: 365 KW
+g12:p53-t1:col2:
+  text: EXT
+g12:p53-t1:col9:
+  text: 365 KW
+g12:p57-t1:col7:
+  imatge: 6ed17e27
+  text: 75 cl
+g12:p57-t1:col9:
+  text: 365 KW
+g12:p58-t1:col10:
+  text: 365 KW
+g12:p58-t1:col2:
+  text: EXT
+g12:p58-t1:col8:
+  imatge: f901e187
+  text: 75 cl
+g12:p59-t1:col7:
+  imatge: 4b4ed54a
+  text: 75 cl
+g12:p59-t1:col9:
+  text: 365 KW
+g12:p60-t1:col7:
+  imatge: f906b7b8
+  text: 75 cl
+g12:p60-t1:col9:
+  text: 365 KW
+g12:p61-t1:col7:
+  imatge: b7acb88b
+  text: 75 cl
+g12:p61-t1:col9:
+  text: 365 KW
+g12:p62-t1:col7:
+  imatge: acb1de50
+  text: 75 cl
+g12:p62-t1:col9:
+  text: 365 KW
+g12:p65-t1:col9:
+  text: 365 KW
+g12:p68-t1:col1:
+  imatge: 96a55b75
+  text: MOD./COD.
+g12:p68-t1:col9:
+  text: 365 KW
+g12:p69-t1:col1:
+  imatge: 96a55b75
+  text: MOD./COD.
+g12:p69-t1:col9:
+  text: 365 KW
+g12:p70-t1:col1:
+  imatge: 96a55b75
+  text: MOD./COD.
+g12:p70-t1:col8:
+  text: 365 KW
+g12:p71-t1:col1:
+  imatge: 96a55b75
+  text: MOD./COD.
+g12:p71-t1:col9:
+  text: 365 KW
+g12:p72-t1:col1:
+  imatge: 96a55b75
+  text: MOD./COD.
+g12:p72-t1:col9:
+  text: 365 KW
+g12:p75-t1:col6:
+  text: 365 KW
+g12:p76-t1:col6:
+  text: 365 KW
+g12:p79-t1:col1:
+  imatge: a2eb8a8b
+  text: MOD./COD.
+g12:p79-t1:col10:
+  text: 365 KW
+g12:p80-t1:col9:
+  text: 365 KW
+g12:p89-t3:col1:
+  text: PARA E FOR F POUR
+g13:p21-t8:col1:
+  text: COD.
+g13:p57-t3:col1:
+  text: F E NO NON ASSEMBLY INCLUIDO INCLUS ON LE MONTAJE SITE MONTAGE NOT EN INCLUDED SUR OBRA SITE
+g13:p65-t1:col2:
+  text: PACK
+g13:p65-t3:col1:
+  text: Ø
+g13:p65-t5:col1:
+  imatge: dea155ae
+g13:p65-t7:col2:
+  imatge: 33d822f1
+g13:p66-t4:col2:
+  imatge: 4a1c6b04
+g13:p69-t3:col1:
+  text: PARA E FOR F POUR
+g13:p69-t4:col1:
+  text: PARA E FOR F POUR
+g14:p36-t1:col1:
+  imatge: 46d1dc6f
+  text: MOD./COD.
+g14:p42-t2:col3:
+  text: €
+g14:p42-t2:col4:
+  text: MOD./COD.
+g14:p59-t1:col3:
+  imatge: 6e65b123
+  text: Ø
+g14:p66-t2:col3:
+  imatge: 5684fee9
+g14:p66-t2:col4:
+  text: Ø
+g14:p67-t1:col2:
+  text: €
+g14:p67-t1:col3:
+  text: COD.
+g14:p67-t2:col1:
+  text: PARA MESA □ E FOR TABLE □ F POUR TABLE
+g14:p67-t2:col2:
+  text: €
+g14:p67-t2:col3:
+  text: COD.
+g14:p67-t2:col4:
+  text: PARA MESA □ E FOR TABLE □ F POUR TABLE
+g14:p67-t3:col1:
+  text: PARA MESA □ E FOR TABLE □ F POUR TABLE
+g14:p67-t4:col1:
+  text: PARA PATAS □ E FOR LEGS □ F POUR JAMBES
+g14:p68-t1:col1:
+  text: COLOR □ E COLOUR □ F COULEUR
+g14:p68-t1:col2:
+  text: €
+g14:p68-t1:col3:
+  text: COD.
+g14:p68-t6:col2:
+  text: €
+g14:p68-t6:col3:
+  text: COD.
+g15:p40-t2:col7:
+  text: DOT
+g15:p47-t1:col3:
+  text: EXT
+g15:p47-t1:col5:
+  text: HP
+g15:p48-t1:col3:
+  text: EXT
+g15:p48-t1:col5:
+  text: HP
+g15:p52-t1:col3:
+  text: EXT
+g15:p53-t1:col3:
+  text: EXT
+g15:p54-t2:col3:
+  text: EXT
+g15:p80-t2:col2:
+  text: €
+g15:p80-t2:col3:
+  text: COD.
+g15:p80-t4:col1:
+  text: GN
+g15:p80-t4:col2:
+  imatge: 28398a3c
+g15:p80-t5:col1:
+  imatge: b338dc41
+g15:p81-t2:col1:
+  text: PARA E FOR F POUR
+g15:p81-t3:col3:
+  text: PACK
+g15:p81-t4:col1:
+  text: GN
+g15:p81-t4:col3:
+  text: €
+g15:p81-t4:col4:
+  text: COD.
+g15:p81-t4:col5:
+  text: GN
+g16:p35-t2:col5:
+  text: Magnetrón
+g16:p40-t4:col1:
+  imatge: fdd7c3c5
+  text: '352'
+g16:p40-t4:col2:
+  imatge: a0e794d4
+  text: x 325
+g16:p41-t4:col1:
+  imatge: 04ae0197
+  text: '176'
+g16:p41-t4:col2:
+  imatge: a1b8ac89
+  text: x 108
+g16:p41-t5:col1:
+  imatge: 6e8bae72
+g16:p41-t5:col2:
+  imatge: fa50a023
+g16:p42-t1:col1:
+  text: PARA E FOR F POUR
+g16:p42-t2:col1:
+  text: PARA E FOR F POUR
+g6:p37-t4:col1:
+  text: PARA E FOR F POUR
+g6:p37-t5:col1:
+  text: PACK
+g6:p37-t6:col1:
+  text: PACK
+g6:p38-t2:col1:
+  text: SERIE
+g6:p38-t2:col2:
+  imatge: f7d493a3
+g6:p38-t2:col3:
+  text: PACK
+g6:p38-t3:col1:
+  text: Ø MM.
+g6:p38-t4:col1:
+  text: Ø MM.
+g6:p38-t5:col1:
+  text: KW / Ø MM.
+g7:p35-t5:col2:
+  text: €
+g7:p35-t5:col3:
+  text: COD.
+g7:p35-t6:col1:
+  text: GN
+g7:p35-t6:col2:
+  text: €
+g7:p35-t6:col3:
+  text: COD.
+g7:p35-t6:col4:
+  imatge: 25d380a3
+  text: GN
+g7:p35-t7:col1:
+  text: €
+g7:p35-t7:col2:
+  text: COD.
+g7:p35-t7:col3:
+  imatge: 6865722f
+  text: GN
+g7:p35-t7:col4:
+  imatge: dd91cf0e
+g8:p14-t3:col1:
+  imatge: b65a7172
+g8:p14-t3:col2:
+  imatge: 4de6511e
+g8:p14-t3:col3:
+  imatge: dd91cf0e
+g8:p14-t3:sense_clau:
+  imatge: 3ea4eca2
+  text: '*'
+g8:p18-t3:col5:
+  imatge: '99235256'
+g8:p18-t3:col6:
+  imatge: e8a6affe
+g8:p18-t3:col7:
+  imatge: '21647670'
+g8:p19-t3:col5:
+  imatge: '99235256'
+g8:p19-t3:col6:
+  imatge: e8a6affe
+g8:p19-t3:col7:
+  imatge: '21647670'
+g8:p32-t1:col3:
+  text: SERIE
+g8:p32-t1:col5:
+  text: EN
+g8:p32-t1:col6:
+  text: '*'
+g8:p41-t3:col5:
+  text: EN
+g8:p42-t2:col5:
+  text: EN
+g8:p43-t2:col5:
+  text: EN
+g8:p50-t4:col1:
+  text: SERIE □ E SERIES □ F SÉRIES
+g8:p50-t6:col1:
+  text: □ E SERIES SERIE □ F SÉRIES
+g8:p51-t4:col1:
+  text: MAT
+g8:p51-t5:col1:
+  text: UNIT.
+g8:p51-t7:col2:
+  text: €
+g8:p51-t7:col3:
+  text: COD.
+g8:p51-t8:col2:
+  text: €
+g8:p51-t8:col3:
+  text: COD.

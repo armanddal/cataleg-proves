@@ -1,0 +1,4 @@
+PyMuPDF==1.27.2.3
+PyYAML==6.0.3
+lxml==6.1.1
+Pillow==12.3.0

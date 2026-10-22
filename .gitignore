@@ -1,0 +1,11 @@
+sortida/
+cataleg-viu/estat/
+cataleg-viu/treball/
+cataleg-viu/web/
+cataleg-viu/clients/
+grups-odoo/treball/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.clau*

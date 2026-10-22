@@ -1,0 +1,525 @@
+# Correccions i dades manuals PER GRUP del generador (genera_config / font_odoo). Editable. Res d'això és al codi.
+# Les claus porten el grup: «g4:...». Un grup nou només n'hi afegeix si en necessita.
+#  pdf_mana          «gN:CODI:clau_columna» -> valor del PDF publicat (mana sobre el del .pub quan no coincideixen)
+#  alies_codi        «gN:CODI_DEL_CATALEG» -> codi d'Odoo (mateix producte; el catàleg imprimeix un codi que a Odoo és un altre)
+#  taules_manuals    «gN:id_taula» -> {columnes, files{codi: {clau: valor}}}: taules que l'extractor ha col·lapsat; es llegeixen de la imatge del PDF
+#  titols_manuals    «gN:id_taula» -> {es,en,fr}: títol d'una taula d'accessoris que el .pub no porta
+#  etiquetes_manuals «gN:id_taula:clau» -> {es,en,fr}: capçalera pròpia d'una columna sense icona ni text al .pub
+#  ml_manual         «ES EN FR» enganxat -> {es,en,fr}: valors multillengua que l'extractor dóna enganxats
+#  banners_manuals   «gN:id_taula_nota» -> {es,en,fr}: rètol de grup d'una pàgina d'accessoris que el .pub no porta com a text
+#  faltes_text       paraula mal escrita a les dades originals -> forma correcta, NOMÉS en castellà i NOMÉS al render (no toca Odoo ni la config de càrrega)
+faltes_text:
+  ACCESSORIOS: ACCESORIOS
+  Accessorios: Accesorios
+  accessorios: accesorios
+pdf_mana:
+  g3:30240611:potencia_electrica: 3 KW 230/1V
+alies_codi:
+  g4:4A000806: A4000806
+taules_manuals:
+  g16:p08-t1:
+    afegida: true
+    columnes:
+    - codi
+    - mesures_text
+    - motor
+    - preu
+    files:
+      173MFATS:
+        mesures_text: Ø 170 x 350
+        motor:
+          es: PARA 400 W
+          en: FOR 400 W
+          fr: POUR 400 W
+  g16:p08-t2:
+    afegida: true
+    columnes:
+    - codi
+    - longitud_barra
+    - motor
+    - preu
+    files:
+      170352EM:
+        longitud_barra: '300'
+        motor:
+          es: PARA 250 W
+          en: FOR 250 W
+          fr: POUR 250 W
+      170304EM:
+        longitud_barra: '300'
+        motor:
+          es: PARA 400 W
+          en: FOR 400 W
+          fr: POUR 400 W
+      170404EM:
+        longitud_barra: '400'
+        motor:
+          es: PARA 400 W
+          en: FOR 400 W
+          fr: POUR 400 W
+      170504EM:
+        longitud_barra: '500'
+        motor:
+          es: PARA 400 W
+          en: FOR 400 W
+          fr: POUR 400 W
+      170604EM:
+        longitud_barra: '600'
+        motor:
+          es: PARA 400 W
+          en: FOR 400 W
+          fr: POUR 400 W
+  g13:p21-t8:
+    afegida: true
+    columnes:
+    - codi
+    - preu
+    files:
+      160100R6: {}
+      1601KMEN: {}
+      160300R6: {}
+      '22222299': {}
+      '22222239': {}
+      '22222237': {}
+      '22222233': {}
+  g11:p76-t1:
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes
+    - dimensions_parrilla
+    - gastronorm
+    - capacitat_litres
+    - classe_energetica
+    - kw_365
+    - potencia_electrica
+    - preu
+    files:
+      72A09SRC:
+        portes: '2'
+        dimensions_parrilla: 2 - GN 1/1
+        gastronorm: 'NO'
+        capacitat_litres: '254'
+        classe_energetica: E
+        kw_365: '1194'
+        potencia_electrica: 0,23 KW
+      7CA095RC:
+        portes: '2'
+        dimensions_parrilla: 2 - GN 1/1
+        gastronorm: 5 - GN 1/6-150
+        capacitat_litres: '254'
+        classe_energetica: E
+        kw_365: '1194'
+        potencia_electrica: 0,23 KW
+      73A39SRC:
+        portes: '3'
+        dimensions_parrilla: 3 - GN 1/1
+        gastronorm: 'NO'
+        capacitat_litres: '392'
+        classe_energetica: E
+        kw_365: '1194'
+        potencia_electrica: 0,23 KW
+      7CA395RC:
+        portes: '3'
+        dimensions_parrilla: 3 - GN 1/1
+        gastronorm: 8 - GN 1/6-150
+        capacitat_litres: '392'
+        classe_energetica: E
+        kw_365: '1194'
+        potencia_electrica: 0,23 KW
+  g7:p35-t1:
+    afegida: true
+    columnes:
+    - codi
+    - mesures
+    - preu
+    files:
+      492002P:
+        mesures: 470 x 470
+  g6:p38-t1:
+    columnes:
+    - codi
+    - serie
+    - mesures
+    - mesures_interiors
+    - capacitat_litres
+    - para
+    - preu
+    files:
+      4A062530:
+        serie: '8'
+        mesures: 950x600x750
+        mesures_interiors: 800x500x400
+        capacitat_litres: '160'
+        para:
+          es: MARMITAS Y SARTENES BASCULANTES
+          en: BOILING PANS AND TILTING PANS
+          fr: MARMITES ET SAUTEUSES BASCULANTES
+  g3:p25-t3:
+    columnes:
+    - codi
+    - para
+    - pack
+    - preu
+    files:
+      4A585021:
+        para:
+          es: TODOS
+          en: ALL
+          fr: TOUS
+        pack: '1'
+      4A095021:
+        para:
+          es: FRYTOP
+          en: FRYTOP
+          fr: FRYTOP
+        pack: 1+1
+  g3:p25-t6:
+    columnes:
+    - codi
+    - para
+    - preu
+    files:
+      4A545021:
+        para:
+          es: SOPORTES
+          en: SUPPORTS
+          fr: SUPORTS
+titols_manuals:
+  g16:p40-t1:
+    es: CUBETAS GASTRONORM GN 2/1 (650 x 530)
+    en: GASTRONORM CONTAINERS GN 2/1 (650 x 530)
+    fr: BACS GASTRONORM GN 2/1 (650 x 530)
+  g16:p40-t2:
+    es: CUBETAS GASTRONORM GN 1/1 (530 x 325)
+    en: GASTRONORM CONTAINERS GN 1/1 (530 x 325)
+    fr: BACS GASTRONORM GN 1/1 (530 x 325)
+  g16:p40-t3:
+    es: CUBETAS GASTRONORM GN 1/2 (265 x 325)
+    en: GASTRONORM CONTAINERS GN 1/2 (265 x 325)
+    fr: BACS GASTRONORM GN 1/2 (265 x 325)
+  g16:p40-t4:
+    es: CUBETAS GASTRONORM GN 2/3 (352 x 325)
+    en: GASTRONORM CONTAINERS GN 2/3 (352 x 325)
+    fr: BACS GASTRONORM GN 2/3 (352 x 325)
+  g16:p41-t1:
+    es: CUBETAS GASTRONORM GN 1/3 (325 x 176)
+    en: GASTRONORM CONTAINERS GN 1/3 (325 x 176)
+    fr: BACS GASTRONORM GN 1/3 (325 x 176)
+  g16:p41-t2:
+    es: CUBETAS GASTRONORM GN 1/4 (265 x 162)
+    en: GASTRONORM CONTAINERS GN 1/4 (265 x 162)
+    fr: BACS GASTRONORM GN 1/4 (265 x 162)
+  g16:p41-t3:
+    es: CUBETAS GASTRONORM GN 1/6 (176 x 162)
+    en: GASTRONORM CONTAINERS GN 1/6 (176 x 162)
+    fr: BACS GASTRONORM GN 1/6 (176 x 162)
+  g16:p41-t4:
+    es: CUBETAS GASTRONORM GN 1/9 (176 x 108)
+    en: GASTRONORM CONTAINERS GN 1/9 (176 x 108)
+    fr: BACS GASTRONORM GN 1/9 (176 x 108)
+  g16:p08-t1:
+    es: 'COMPONENTES: BATIDOR'
+    en: 'COMPONENTS: MIXER'
+    fr: 'COMPOSANTS : MÉLANGEUR'
+  g16:p08-t2:
+    es: 'COMPONENTES: TRITURADOR'
+    en: 'COMPONENTS: CRUSHER'
+    fr: 'COMPOSANTS : BROYEUR'
+  g15:p81-t1#2:
+    es: CESTAS VASOS
+    en: GLASS BASKETS
+    fr: PANIERS POUR VERRES
+  g14:p68-t1#2:
+    es: TAPA ARO
+    en: RING LID
+    fr: COUVERCLE D'ANNEAUX
+  g14:p68-t6:
+    es: SOPORTE JAMÓN
+    en: HAM SUPPORT
+    fr: SUPPORT À JAMBON
+  g14:p68-t6#2:
+    es: RECIPIENTES GN PARA ESTANTES INCLINADOS
+    en: GN RECIPIENTS FOR INCLINED PLATES
+    fr: BACS GN POUR LES PLATES INCLINÉES
+  g13:p21-t1: {es: GRIFERÍA, en: TAPS, fr: ROBINETS}
+  g13:p21-t2: {es: GRIFERÍA, en: TAPS, fr: ROBINETS}
+  g13:p21-t3: {es: GRIFERÍA, en: TAPS, fr: ROBINETS}
+  g13:p21-t4: {es: GRIFERÍA, en: TAPS, fr: ROBINETS}
+  g13:p21-t5: {es: GRIFERÍA, en: TAPS, fr: ROBINETS}
+  g13:p21-t6: {es: GRIFERÍA, en: TAPS, fr: ROBINETS}
+  g13:p21-t8:
+    es: 'GRIFERÍA: ENROLLADOR, PEDALES Y COMPLEMENTOS'
+    en: 'TAPS: HOSE REEL, PEDALS AND ACCESSORIES'
+    fr: 'ROBINETS : ENROULEUR, PÉDALES ET ACCESSOIRES'
+  g12:p89-t3:
+    es: BANDEJAS CON 2 BLOQUES DE SAL
+    en: TRAYS WITH 2 SALT BLOCKS
+    fr: PLATEAUX AVEC 2 BLOCS DE SEL
+  g12:p89-t2:
+    es: PARA VINACOTECAS
+    en: FOR WINE DISPLAY CABINETS
+    fr: POUR CAVES À VIN
+  g8:p50-t6:
+    es: RACK PASTELERÍA (PAREJA)
+    en: PASTRY RACK (PAIR)
+    fr: RACK PÂTISSERIE (PAIRE)
+  g8:p51-t8:
+    es: CUBETAS PERFORADAS INOX 18/10 AISI 304
+    en: PERFORATED PANS STAINLESS STEEL 18/10 AISI 304
+    fr: CUVES PERFORÉES EN ACIER INOXYDABLE 18/10 AISI 304
+  g7:p35-t6:
+    es: SEPARADORES RECIPIENTES GN
+    en: GN CONTAINER SEPARATORS
+    fr: SEPARATEURS DE RECIPIENTES GN
+  g7:p35-t6#2:
+    es: REJILLAS ACERO INOX GN
+    en: GN STAINLESS STEEL GRIDS
+    fr: GRILLES EN ACIER INOX GN
+  g7:p35-t7:
+    es: KIT GUÍAS PARA 4 GN 1/1
+    en: GUIDE KIT FOR 4 GN 1/1
+    fr: KIT DE GUIDAGE POUR 4 GN 1/1
+  g7:p35-t7#2:
+    es: DOBLE FONDO PERFORADO BM
+    en: PERFORATED BOTTOM FOR BM
+    fr: DOUBLE FONDS PERFORÉ POUR BM
+  g6:p38-t1:
+    es: CARRO PARA DESCARGA BASCULANTE CON RUEDAS
+    en: TROLLEY FOR TILTING UNLOADING WITH WHEELS
+    fr: CHARIOT À DÉCHARGEMENT BASCULANT AVEC ROUES
+  g5:p51-t2:
+    es: SUPLETORIA
+    en: SUPPLEMENTARY
+    fr: SUPPLÉMENTAIRE
+etiquetes_manuals:
+  g13:p57-t3:col1:
+    es: MONTAJE NO INCLUIDO
+    en: ASSEMBLY NOT INCLUDED
+    fr: MONTAGE NON INCLUS
+  g8:p50-t4:col1: {es: Serie, en: Series, fr: Séries}
+  g8:p50-t6:col1: {es: Serie, en: Series, fr: Séries}
+  g9:p37-t1:material_porta:
+    es: Material de la puerta
+    en: Door material
+    fr: Matériau de la porte
+  g10:p30-t8:col3:
+    es: Ø
+    en: Ø
+    fr: Ø
+  g4:p54-t5:col1:
+    es: Ø
+    en: Ø
+    fr: Ø
+  g5:p52-t5:col1:
+    es: Ø
+    en: Ø
+    fr: Ø
+  g4:p55-t1:col1:
+    es: 2 CON FRENO
+    en: 2 CON FRENO
+    fr: 2 CON FRENO
+  g5:p53-t1:col1:
+    es: 2 CON FRENO
+    en: 2 CON FRENO
+    fr: 2 CON FRENO
+ml_manual:
+  CÚPULA DOME DOMES:
+    es: CÚPULA
+    en: DOME
+    fr: DÔME
+  TODOS ALL TOUT:
+    es: TODOS
+    en: ALL
+    fr: TOUS
+  2 WHIT BRAKE 2 AVEC FREIN:
+    es: 2 CON FRENO
+    en: 2 WHIT BRAKE
+    fr: 2 AVEC FREIN
+  LATERAL LATERAL LATÉRALE 700:
+    es: LATERAL 700
+    en: LATERAL 700
+    fr: LATÉRALE 700
+  LATERAL / LATERAL / LATÉRALE 900:
+    es: LATERAL 900
+    en: LATERAL 900
+    fr: LATÉRALE 900
+  LATERAL LATERAL LATÉRALE 900:
+    es: LATERAL 900
+    en: LATERAL 900
+    fr: LATÉRALE 900
+  ? FREIDORAS FRYERS FRITEUSES FRYTOP FRYTOP FRYTOP CUECE PASTA PASTA COOKERS CUISEUR À PÂTE SARTEN FIJA FIXET BRATT PAN SAUTEUSE FIXE
+  : es: FREIDORAS / FRYTOP / CUECE PASTA / SARTEN FIJA
+    en: FRYERS / FRYTOP / PASTA COOKERS / FIXET BRATT PAN
+    fr: FRITEUSES / FRYTOP / CUISEUR À PÂTE / SAUTEUSE FIXE
+  FREIDORAS FRYERS FRITEUSES FRYTOP FRYTOP FRYTOP CUECE PASTA PASTA COOKERS CUISEUR À PÂTE:
+    es: FREIDORAS / FRYTOP / CUECE PASTA
+    en: FRYERS / FRYTOP / PASTA COOKERS
+    fr: FRITEUSES / FRYTOP / CUISEUR À PÂTE
+  ? FREIDORAS □ FRYERS □ FRITEUSES FRYTOP □ FRYTOP □ FRYTOP CUECE PASTA □ PASTA COOKERS □ CUISEUR À PÂTE □ □ SARTEN FIJA FIXET BRATT PAN SAUTEUSE FIXE
+  : es: FREIDORAS / FRYTOP / CUECE PASTA / SARTEN FIJA
+    en: FRYERS / FRYTOP / PASTA COOKERS / FIXET BRATT PAN
+    fr: FRITEUSES / FRYTOP / CUISEUR À PÂTE / SAUTEUSE FIXE
+banners_manuals:
+  g4:p55-t4:
+    es: ELEMENTOS PARA SOPORTES
+    en: ELEMENTS FOR SUPPORTS
+    fr: ÉLÉMENTS DE SUPPORT
+  g5:p53-t4:
+    es: ELEMENTOS PARA SOPORTES
+    en: ELEMENTS FOR SUPPORTS
+    fr: ÉLÉMENTS DE SUPPORT
+
+# ---------------------------------------------------------------------------------------------------------------------------------
+# Afegit per la càrrega total (G1, G6-G16). Claus «gN:taula:clau».
+#  claus_manuals      «gN:id_taula:clau_del_pub» -> codi de columna (existent o nou, definit a noms-columnes.yaml): una columna sense nom al .pub
+#                     (colN) o amb un nom que a aquesta taula vol dir una altra cosa
+#  columnes_fantasma  «gN:id_taula» -> [claus]: columnes del .pub que no existeixen al catàleg (sense capçalera ni valors útils)
+#  codis_ignorats     «gN:codi» -> motiu: files que no són productes (p. ex. «700»/«800» de G14: fondària de la sèrie que fa de subtítol)
+#  capcalera_a_codi   text de la capçalera del PDF (en majúscules) -> codi de columna (per a columnes sense nom al .pub)
+#  imatge_a_codi      hash de la icona de capçalera del PDF -> codi de columna (idem)
+claus_manuals:
+  g15:p24-t2:col3: cubeta_trapezi
+  g15:p24-t2:col4: diametre_plats
+  g15:p72-t2:col3: cubeta_trapezi
+  g15:p72-t2:col4: diametre_plats
+  g15:p73-t2:col3: cubeta_trapezi
+  g15:p73-t2:col4: diametre_plats
+  g15:p75-t2:col5: denominacio
+  g15:p75-t2:col6: denominacio_2
+  g15:p79-t2:col1: pes
+  g15:p79-t2:col4: mesures
+  g15:p79-t2:col5: denominacio
+  g15:p79-t2:col6: denominacio_2
+  g15:p80-t4:col2: mesures_text
+  g15:p80-t5:col1: mesures_text
+  g16:p40-t4:col1: altura_mm
+  g16:p40-t4:col2: capacitat_litres
+  g16:p41-t4:col1: altura_mm
+  g16:p41-t4:col2: capacitat_litres
+  g16:p41-t5:col1: mesures_text
+  g16:p41-t5:col2: gn
+  g14:p59-t1:col3: diametre_plats
+  g14:p66-t2:col3: cubeta_trapezi
+  g14:p66-t2:col4: diametre_plats
+  g12:p83-t1:col9: kw_365
+  g12:p84-t1:col9: kw_365
+  g12:p87-t1:col9: kw_365
+  g12:p88-t1:col9: kw_365
+  g12:p65-t1:pernil: capacitat_kg
+  g11:p45-t1:ext_int: portes
+  g11:p46-t1:col3: portes
+  g11:p46-t1:col7: kw_365
+  g11:p47-t1:col3: portes
+  g11:p47-t1:col7: kw_365
+  g11:p76-t1:col9: kw_365
+  g11:p85-t1:col6: dot
+  g11:p85-t1:col9: kw_365
+  g11:p95-t2:col3: serie
+  g11:p95-t2:col5: dot
+  g11:p96-t2:col3: serie
+  g11:p96-t2:col5: dot
+  g11:p30-t1:col5: calaixos
+  g11:p31-t1:col5: calaixos
+  g11:p40-t2:col5: calaixos
+  g11:p43-t2:col5: calaixos
+  g11:p92-t1:col5: calaixos
+  g11:p36-t2:col3: calaixos_2
+  g11:p37-t4:col3: calaixos_2
+  g10:p21-t1:col4: ventilador
+  g10:p21-t1:col5: diametre_conducte
+  g10:p21-t1:col6: ventilador_2
+  g10:p21-t1:col7: diametre_conducte_2
+  g10:p22-t1:col4: ventilador
+  g10:p22-t1:col5: diametre_conducte
+  g10:p22-t1:col6: ventilador_2
+  g10:p22-t1:col7: diametre_conducte_2
+  g10:p25-t1:col3: mural_central
+  g10:p25-t1:col5: s_panells
+  g10:p30-t8:col3: diametre_conducte
+  g10:p31-t3:col3: amperis
+  g9:p38-t1:col3: serie
+  g8:p14-t3:col1: energia
+  g8:p14-t3:col2: pes
+  g8:p14-t3:col3: mesures
+  'g8:p14-t3:': gastronorm
+  g8:p18-t3:col5: motor
+  g8:p18-t3:col6: rotacio
+  g8:p18-t3:col7: potencia_electrica
+  g8:p19-t3:col5: motor
+  g8:p19-t3:col6: rotacio
+  g8:p19-t3:col7: potencia_electrica
+  g8:p32-t1:col3: serie
+  g8:p32-t1:col5: euronorm
+  g8:p34-t1:col4: serie
+  g8:p34-t1:col7: euronorm
+  g8:p34-t1:col9: euronorm_2
+  g8:p41-t3:col5: euronorm
+  g8:p42-t2:col5: euronorm
+  g8:p43-t2:col5: euronorm
+  g8:p50-t4:col1: serie
+  g8:p50-t6:col1: serie
+  g8:p51-t4:col1: material
+  g8:p51-t5:col1: unitats
+  g7:p27-t1:310: plats_310
+  g7:p28-t1:310: plats_310
+  g7:p29-t2:310: plats_310
+  g7:p30-t1:310: plats_310
+  g7:p35-t7:col4: mesures_text
+  g7:p35-t2:para_e_for_f_pour: para
+  g7:p35-t4:para_e_for_f_pour: para
+  g6:p38-t2:col1: serie
+  g6:p38-t2:col2: capacitat_litres
+  g1:p15-t1:col6: potencia_electrica
+codis_ignorats:
+  g14:700: fondària de la sèrie que fa de subtítol dins la taula (no és un producte)
+  g14:800: fondària de la sèrie que fa de subtítol dins la taula (no és un producte)
+columnes_fantasma:
+  g15:p73-t2:
+  - col5
+  - col6
+  g8:p32-t1:
+  - col6
+  g8:p34-t1:
+  - col8
+capcalera_a_codi:
+  75 CL: ampolles_75cl
+  EXT: acabat_exterior
+  365 KW: kw_365
+  KW 365: kw_365
+  DOT: dot
+  HP: hp
+  UC*: uc
+  GN: gn
+  PACK: pack
+  MAGNETRÓN: magnetr_n
+imatge_a_codi: {}
+
+# taules amb dues columnes de codi a la mateixa fila i els mateixos valors (G10 caixes de ventilació horitzontal/vertical)
+codis_dobles:
+  g14:p11-t2: true
+  g14:p25-t2: true
+  g14:p26-t2: true
+  g14:p36-t1: true
+  g10:p28-t2: true
+  g10:p29-t2: true
+  g12:p68-t1: true
+  g12:p69-t1: true
+  g12:p70-t1: true
+  g12:p71-t1: true
+  g12:p72-t1: true
+  g12:p79-t1: true
+  g13:p08-t2: true
+  g13:p09-t2: true
+  g13:p10-t2: true
+  g13:p12-t2: true
+  g13:p13-t2: true
+  g13:p15-t2: true
+  g13:p16-t2: true
+  g13:p43-t2: {alt: col1}
+  g13:p44-t2: {alt: col1}
+# claus del .pub que s'han de reanomenar abans de tractar la taula (gN:taula -> {clau: clau_nova})
+claus_renom:
+  g14:p67-t2: {col4: col1_2}
+

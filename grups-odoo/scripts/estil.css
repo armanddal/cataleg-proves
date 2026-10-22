@@ -1,0 +1,203 @@
+@page { size: 210mm 297mm; margin: 0 }
+* { box-sizing: border-box }
+html, body { margin: 0; padding: 0; background: #fff }
+body { font-family: 'Franklin Gothic Book', 'Libre Franklin', 'Helvetica Neue', Arial, sans-serif; color: #000; -webkit-print-color-adjust: exact; print-color-adjust: exact }
+.page { position: relative; width: 210mm; height: 297mm; overflow: hidden; page-break-after: always; break-after: page; background: #fff }
+.abs { position: absolute }
+img { display: block }
+.lt { display: inline-block; border: 1px solid currentColor; border-radius: 2px; font-size: 6.5pt; line-height: 1; padding: 1px 2.5px; margin-right: 4px; font-weight: bold; vertical-align: middle }
+.lt-w { color: #fff } .lt-o { color: var(--taronja-portada) }
+
+/* capcalera */
+.cap { position: absolute; left: 0; top: 0; width: 21cm; height: 2cm; background: var(--vermell-titols); color: #fff }
+.chip { position: absolute; left: .5cm; top: 0; width: 3cm; height: 2.55cm; background: var(--granat); text-align: center; padding-top: .1cm; font: bold 12pt 'Helvetica Neue', Arial, sans-serif }
+.chip img { width: 2.4cm; margin: .1cm auto .1cm }
+.cap-tit { position: absolute; left: 4cm; top: .22cm; width: 16.2cm }
+.t-es { font: 14pt 'Avenir Next Condensed', 'Arial Narrow', Arial, sans-serif; border-bottom: 1px solid #fff; padding-bottom: .03cm; margin-bottom: .1cm; font-weight: 600 }
+.t-x { font: bold 8.5pt 'Avenir Next Condensed', 'Arial Narrow', Arial, sans-serif; margin-top: .06cm }
+
+/* peu */
+.peu { position: absolute; left: 0; bottom: 0; width: 21cm; height: 1.4cm }
+.peu .data { position: absolute; left: 4cm; top: .5cm; color: var(--vermell-titols); font-size: 10pt }
+.peu .logo { position: absolute; left: 7.5cm; top: .3cm; width: 2.2cm }
+.peu .num { position: absolute; left: 10cm; top: .1cm; width: 1cm; height: 1.2cm; background: var(--vermell-titols); color: #fff; text-align: center; line-height: 1.2cm; font-size: 11pt }
+.peu-enllac { position: absolute; left: 11.8cm; top: .2cm; width: 8.4cm; height: 1cm; background: var(--beix-etiqueta); display: flex; align-items: center; gap: .15cm; padding: 0 .2cm }
+.peu-enllac .ull img { width: .9cm }
+.peu-enllac .pg { font-size: 12pt } .peu-enllac .nm { font-size: 8pt }
+.peu-enllac .idi { font-size: 6.5pt }
+.peu-enllac .idi .lt { font-size: 5pt; padding: 0 1.5px }
+
+/* producte */
+.producte, .accessoris { display: flex; flex-direction: column; padding: 2.2cm 0 1.5cm }
+.cos { flex: 1; min-height: 0; display: flex; padding: .3cm .8cm 0 .5cm; gap: .3cm }
+.insig { width: 2.4cm; flex: none; padding-top: .1cm }
+.insig img { width: 2.4cm; margin-bottom: .1cm }
+.fotos { flex: 1; min-height: 0; display: grid; grid-template-columns: 1fr 1fr; grid-auto-rows: 1fr; gap: .2cm .3cm }
+.fotos.n1 { grid-template-columns: 1fr }
+.fotos.n3 figure:nth-child(3) { grid-column: 1 / 3 }
+.fotos.n5 figure:nth-child(5) { grid-column: 1 / 3 }
+.fotos.n7 figure:nth-child(7) { grid-column: 1 / 3 }
+.fotos.n9 figure:nth-child(9) { grid-column: 1 / 3 }
+figure { margin: 0; display: flex; flex-direction: column; align-items: center; min-height: 0; min-width: 0 }
+figure img { flex: 1; min-height: 0; max-width: 100%; object-fit: contain }
+.et { display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: center; gap: .05cm .35cm; margin-top: .05cm; border-top: 1px solid #000; border-bottom: 1px solid #000; padding: .03cm .1cm; font: 10pt Calibri, Carlito, Arial, sans-serif; min-width: 5cm; flex: none }
+.et .cx { display: flex; flex-direction: column; align-items: center }
+.et .cl { display: flex; align-items: center; gap: .1cm }
+.et em { font-style: normal; font-size: 8pt; border-top: 1px solid #000; padding: 0 .1cm }
+.et-fotoic { display: flex; gap: .05cm; align-items: center }
+.et-ico-f { height: .5cm }
+.et .c { background: var(--beix-etiqueta); padding: 0 .1cm }
+.et .fletxa { color: #cc0000; font-style: normal; font-size: 10pt }
+.et-ico { height: .5cm }
+.nota-caixa { align-self: flex-end; margin: .1cm .8cm .2cm; border: 1px solid #000; display: flex; align-items: center; gap: .2cm; padding: .15cm; font-size: 9pt; flex: none }
+.nota-caixa img { height: 1.8cm }
+.tau-box { padding: 0 .7cm; flex: none; margin-top: .2cm }
+.tau { width: 100%; border-collapse: collapse; table-layout: fixed; font: 10pt Calibri, Carlito, Arial, sans-serif }
+.tau th, .tau td { border: 1px solid #000; text-align: center; padding: 0 .08cm }
+.tau thead th { background: var(--taronja-icones); color: #fff; height: 1.25cm; font-weight: normal }
+.tau th.eur { background: #0a0acd; font-size: 20pt; font-weight: bold }
+.tau th.tit { text-align: left; height: auto; padding: .08cm .2cm }
+.tau tbody td { height: .85cm; background: #fff }
+.tau td.preu { background: var(--beix-etiqueta) }
+.tau td.cod { font-size: 10pt }
+.hic { height: .9cm; width: auto; max-width: 100%; margin: 0 auto }
+.cel-ico { height: .62cm; margin: 0 auto }
+.ml-tit .l-es { font: bold 8.5pt Arial, sans-serif } .ml-tit .l-x { font: bold 7pt Arial, sans-serif }
+.ml-cell .l-es, .ml-h .l-es { font-size: 7.5pt } .ml-cell .l-x, .ml-h .l-x { font-size: 6.5pt }
+.ml-h .lt, .ml-cell .lt, .ml-tit .lt { font-size: 5pt; padding: 0 1.5px }
+.ml-tit .lt { border-color: #fff }
+
+/* accessoris */
+.acc-grid { flex: 1; min-height: 0; display: grid; gap: .4cm .6cm; padding: .3cm 1cm 0; grid-auto-rows: 1fr }
+.acc-grid.c1 { grid-template-columns: 11cm; justify-content: center }
+.acc-grid.c2 { grid-template-columns: 1fr 1fr }
+.acc-card { display: flex; flex-direction: column; min-height: 0 }
+.acc-card.full { grid-column: 1 / -1 }
+.acc-fotos { flex: 1; min-height: 0; display: flex; gap: .3cm; justify-content: center; align-items: center; padding-bottom: .2cm }
+.acc-fotos img { max-height: 100%; max-width: 48%; min-height: 0; object-fit: contain }
+.accessoris .tau { font-size: 9pt }
+.accessoris .tau thead th { height: .8cm }
+.accessoris .tau th.eur { font-size: 14pt }
+.accessoris .hic { height: .6cm }
+.acc-ins { display: none }
+
+/* info */
+.info-col { position: absolute; text-align: justify; line-height: 1.17 }
+.info-col h3 { color: var(--vermell-titols); font-size: 1.02em; margin: .32cm 0 .08cm; font-weight: bold }
+.info-col h3:first-child { margin-top: 0 }
+.info-col ul { list-style: none; margin: 0; padding: 0 }
+.info-col li { position: relative; padding-left: .35cm; margin-bottom: .09cm }
+.info-col li::before { content: '\2022'; position: absolute; left: .08cm }
+i.ref { display: inline-block; font-style: normal; border: 1px solid var(--vermell-referencies); color: var(--vermell-referencies); border-radius: 50%; width: 1.1em; height: 1.1em; line-height: 1em; text-align: center; font-size: .8em; font-weight: bold; margin-left: 2px; vertical-align: 1px }
+.foto-ref { display: flex }
+.foto-ref img { width: 100%; height: 100%; object-fit: contain }
+i.ref.big { position: absolute; left: -.55cm; top: 0; width: .7cm; height: .7cm; line-height: .62cm; font-size: 13pt; margin: 0; background: #fff }
+
+/* portada */
+.portada img.abs { }
+.grup-et { position: absolute; right: .5cm; top: .6cm; color: #999; font: 31pt 'Avenir Next Condensed', 'Arial Narrow', Arial, sans-serif; letter-spacing: .03em; display: flex; align-items: center; gap: .5cm; text-transform: uppercase }
+.grup-num { border: 1.5px solid var(--taronja-portada); color: var(--taronja-portada); font-size: 35pt; width: 2.35cm; text-align: center; line-height: 1.5cm; height: 1.5cm; margin-top: .2cm }
+.grup-nom { position: absolute; right: .6cm; bottom: 1.6cm; writing-mode: vertical-rl; transform: rotate(180deg); font: bold 33pt 'Avenir Next Condensed', 'Arial Narrow', Arial, sans-serif; white-space: nowrap; line-height: 1.1; text-transform: uppercase }
+.grup-nom .fl { margin: .5cm 0; font-size: 28pt }
+.cat-tit { position: absolute; left: 1cm; bottom: .6cm; color: var(--taronja-portada); font: italic bold 11pt 'Avenir Next Condensed', 'Arial Narrow', Arial, sans-serif; line-height: 1.5 }
+.cat-tit .e0 { }
+.segell { position: absolute; border: .17cm solid #ff0000; border-radius: 50%; color: #ff0000; font: 900 24pt Impact, 'Arial Black', sans-serif; display: flex; flex-direction: column; align-items: center; justify-content: center; line-height: 1; letter-spacing: .05em }
+
+/* index */
+.franja { position: absolute; top: 0; width: 4cm; height: 29.7cm; background: var(--granat) }
+.franja.esq { left: 0 } .franja.dreta { left: 17cm }
+.franja { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: .6cm; padding: 1cm 0 }
+.vt { writing-mode: vertical-rl; transform: rotate(180deg); color: #fff; font: bold 50pt 'Avenir Next Condensed', Arial, sans-serif; white-space: nowrap; letter-spacing: .03em; line-height: 1 }
+.franja .bl { width: 2.5cm; height: auto }
+.franja img.abs { }
+.card-bar { position: absolute; height: .76cm; background: var(--granat); color: #fff; font: bold 14pt Arial, sans-serif; display: flex; justify-content: space-between; align-items: center; padding: 0 .2cm }
+.card-bar .pre { font-size: 11pt }
+.card-line { display: none }
+
+/* simbologia */
+.sim-grid { position: absolute; top: 2.9cm; left: .5cm; width: 20cm; display: grid; grid-template-columns: 9.5cm 10.5cm; row-gap: .12cm }
+.sim { display: flex; align-items: center; gap: .5cm; height: 2.7cm }
+.sim .si { width: 2cm; flex: none }
+.sim .si img { width: 2cm }
+.ml-s .l-es { font: bold 13pt Arial, sans-serif }
+.ml-s .l-x { font: bold 10.5pt Arial, sans-serif }
+.ml-s .lt { font-size: 8pt }
+.euro-ic { width: 2cm; height: 2cm; border: 2px dotted #bbb; border-radius: 50%; color: #1a7ab0; font: bold 32pt Arial; text-align: center; line-height: 1.8cm }
+.equiv { background: var(--taronja-icones); color: #fff; font: bold 11pt Arial, sans-serif; padding: .3cm .35cm; width: 5.2cm; height: 2cm; display: flex; flex-direction: column; justify-content: center; margin-top: .3cm }
+
+/* condicions */
+.cond { position: absolute; top: 2.4cm; left: 0; width: 21cm }
+.cs { display: flex; gap: .3cm; padding: 0 1cm 0 1cm; margin-bottom: .32cm }
+.csi { width: 1.4cm; height: 1.4cm; flex: none; object-fit: contain }
+.cst { font: bold 12pt Arial, sans-serif; text-transform: none }
+.csp { font: bold 9pt Arial, sans-serif; margin-top: .05cm }
+.barra-id { background: var(--vermell-titols); color: #fff; font: bold 12pt Arial, sans-serif; height: .8cm; display: flex; align-items: center; padding-left: 1cm; margin: .2cm 0 .35cm }
+.barra-id .sp { width: 6.4cm }
+.cs.bi { display: grid; grid-template-columns: 1.4cm 8.2cm 8.2cm; gap: .3cm }
+.cs.bi .cst { font-size: 10pt } .cs.bi .csp { font: 7.8pt Arial, sans-serif; font-weight: bold }
+
+/* contraportada */
+.contra .full { width: 21cm; height: 29.7cm; object-fit: cover }
+.contra-bar { position: absolute; left: .5cm; top: .5cm; width: 20cm; height: .72cm; background: #fff; border: 1px solid #ccc; font: 10.5pt Arial, sans-serif; color: #222; padding: .12cm .2cm }
+
+.col-lang { margin: -.55cm 0 .12cm; } .col-lang .lt { font-size: 9pt; padding: 1px 4px }
+.cs.bi .cst .lt { font-size: 7pt }
+
+.franges-svg { position: absolute; left: 0; top: 0 }
+
+/* simbologia G3-G5: posicions absolutes */
+.sim-t { display: flex; align-items: center }
+.simbologia .ml-s .l-es { font: bold 11pt Arial, sans-serif }
+.simbologia .ml-s .l-x { font: bold 7.5pt Arial, sans-serif }
+.simbologia .ml-s .lt { font-size: 6pt }
+.simbologia .equiv { margin-top: 0; padding: .2cm .3cm; font-size: 9pt; display: flex; flex-direction: column; justify-content: center; background: var(--taronja-icones); color: #fff }
+.simbologia .euro-ic { width: 2cm; height: 2cm }
+
+.ml-cell.ml-i, .ml-h.ml-i { font-size: 7.5pt; line-height: 1.15 }
+.ml-i .l-es { font-size: 7.5pt } .ml-i .lt { font-size: 5pt; padding: 0 1.5px; margin: 0 2px 0 3px }
+.simbologia .ml-s .l-es { font: bold 12pt Arial, sans-serif }
+.simbologia .ml-s .l-x { font: bold 8pt Arial, sans-serif }
+.simbologia .euro-ic { background: var(--taronja-icones); color: #fff; border: none; border-radius: 0; font-size: 34pt }
+.info-col { font-family: 'Arial Narrow', 'Avenir Next Condensed', 'Helvetica Neue', Arial, sans-serif }
+.nota-caixa.wide { align-self: stretch; margin: .1cm .7cm .2cm; justify-content: center }
+.nota-caixa .ml-n .l-es { font-weight: bold }
+.nota-caixa { background: #fff }
+.peu-enllac { box-sizing: border-box; overflow: hidden } .peu-enllac .nm { font-size: 7pt } .peu-enllac .idi { font-size: 5.5pt; white-space: nowrap } .peu-enllac .pg { font-size: 11pt }
+
+th.ban { background: #6b2a2a; color: #fff; text-align: left; padding: .05cm .2cm; height: auto }
+th.ban .l-es { font: bold 8pt Arial, sans-serif } th.ban .l-x { font: bold 6.5pt Arial, sans-serif }
+.llegenda { display: flex; gap: .3cm; align-items: center; margin: .1cm .7cm 0; font: 7.5pt Arial Narrow, Arial, sans-serif; flex: none; border: 1px solid #000; padding: .1cm .2cm }
+.llegenda .ll-img { height: 2cm; width: auto }
+.llegenda .ll-t { font: bold 8pt Arial, sans-serif; margin-bottom: .05cm }
+.llegenda .ll-cols { display: flex; gap: .4cm }
+.llegenda .ll-col { flex: 1 } .llegenda .ll-col .lt { font-size: 5.5pt }
+.llegenda i.ref { margin-right: 2px }
+.acc-fotos img { min-width: 0; flex: 0 1 auto }
+.llegenda.simple { border: none; align-self: flex-start; margin-left: .8cm } .llegenda .ll-s { display: flex; align-items: center; gap: .15cm; font: bold 8pt Arial, sans-serif; margin: .05cm 0 } .llegenda .ll-s img { height: .55cm }
+.tau td.ico { white-space: nowrap } .tau td.ico img.cel-ico { display: inline-block; height: .5cm; margin: 0 .02cm; vertical-align: middle }
+
+/* capçalera de taula «text primer»: nom sempre visible + icona estàndard petita opcional damunt */
+.tau.hct thead th.hc { height: 1.5cm; padding: .06cm .05cm; vertical-align: middle; line-height: 1 }
+.tau .hci { display: block; height: .5cm; width: auto; max-width: 1.25cm; object-fit: contain; margin: 0 auto .07cm }
+.tau .hcn { font: 600 7pt/1.08 Calibri, Carlito, 'Helvetica Neue', Arial, sans-serif; hyphens: manual; overflow-wrap: break-word; word-break: normal }
+.accessoris .tau.hct thead th.hc { height: 1.0cm; padding: .04cm .04cm }
+.accessoris .tau .hci { height: .34cm; max-width: .9cm; margin-bottom: .04cm }
+.accessoris .tau .hcn { font-size: 6.2pt }
+
+/* llegenda de simbologia automàtica */
+.llegenda-auto { display: grid; grid-template-columns: repeat(3, 1fr); align-content: start; bottom: auto }
+.llegenda-auto .le { display: flex; align-items: center; gap: .08cm; padding-right: .15cm }
+.le-tile { flex: none; width: var(--tile); height: var(--tile); background: var(--taronja-icones); display: flex; align-items: center; justify-content: center; overflow: hidden }
+.le-tile img { max-width: 86%; max-height: 80%; object-fit: contain }
+.le-tile .euro { color: #fff; font: bold 34pt Arial, sans-serif }
+.le-tile.sense { background: none; justify-content: flex-end }
+.le-tile.sense i { display: block; width: .22cm; height: 100%; background: var(--taronja-icones) }
+.le-t { min-width: 0; padding-left: .12cm }
+.le-t .ml-s .l-es { font: bold 11pt Arial, sans-serif }
+.le-t .ml-s .l-x { font: bold 7.5pt Arial, sans-serif }
+.le-t .ml-s .lt { font-size: 6pt }
+.le-un { display: inline-block; margin-top: .06cm; font: 7pt Arial, sans-serif; color: var(--taronja-icones); border: .6pt solid var(--taronja-icones); border-radius: 2px; padding: 0 .12cm }
+.equiv-l { width: 100%; padding: .25cm .3cm; background: var(--taronja-icones); color: #fff; font: bold 9pt Arial, sans-serif; line-height: 1.5 }
+
+.le.llarg .le-t .ml-s .l-es { font-size: 9pt } .le.llarg .le-t .ml-s .l-x { font-size: 6.2pt } .le.llarg .le-t .ml-s .lt { font-size: 5pt }
+.tau td.nw, .tau td.cod { white-space: nowrap }

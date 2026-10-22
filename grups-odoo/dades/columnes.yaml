@@ -1,0 +1,78 @@
+# Catàleg de columnes (x_cataleg_columna) compartit pels grups 3, 4 i 5 (i el 2 del pilot). Editable.
+# Les columnes del grup 2 ja són a Staging: les definicions d'aquí han de coincidir amb les d'Odoo (el càrregador
+# s'atura si una columna existent difereix en icona/origen/tipus; no les reescriu).
+#   origen: valor            -> cada producte té el seu valor (x_cataleg_valor)
+#           default_code | x_energia | weight | mesures | list_price -> camp que la fitxa ja té (no es duplica)
+#   icona : clau de la icona de capçalera (dades/icones-grups.yaml, camp «clau»); sense icona, la capçalera és el nom.
+columnes:
+  # --- ja carregades pel pilot (grup 2) -----------------------------------------------------------------
+  codi:               {noms: {es: "MOD./COD.", en: "MOD./COD.", fr: "MOD./COD."}, origen: default_code}
+  energia:            {noms: {es: "Tipo de energía", en: "Energy type", fr: "Type d'énergie"}, icona: energia, origen: x_energia}
+  pes:                {noms: {es: "Peso", en: "Weight", fr: "Poids"}, icona: pes, origen: weight}
+  mesures:            {noms: {es: "Medidas", en: "Dimensions", fr: "Dimensions"}, icona: mesures, origen: mesures}
+  mesures_text:       {noms: {es: "Medidas (texto)", en: "Dimensions (text)", fr: "Dimensions (texte)"}, icona: mesures, origen: valor}
+  fogons:             {noms: {es: "Fuegos gas", en: "Burners", fr: "Feux"}, icona: fogons, origen: valor}
+  fogons_2:           {noms: {es: "Fuegos gas (2)", en: "Burners (2)", fr: "Feux (2)"}, icona: fogons, origen: valor}
+  potencia_gas:       {noms: {es: "Potencia gas", en: "Gas power", fr: "Puissance gaz"}, icona: potencia_gas, origen: valor}
+  placa_quadrada:     {noms: {es: "Placa eléctrica cuadrada", en: "Electric squared plate", fr: "Plaque électrique carrée"}, icona: placa_quadrada, origen: valor}
+  placa_rodona:       {noms: {es: "Placa eléctrica redonda", en: "Electric rounded plate", fr: "Plaque électrique ronde"}, icona: placa_rodona, origen: valor}
+  placa_rodona_2:     {noms: {es: "Placa eléctrica redonda (2)", en: "Electric rounded plate (2)", fr: "Plaque électrique ronde (2)"}, icona: placa_rodona, origen: valor}
+  gastronorm:         {noms: {es: "Gastronorm", en: "Gastronorm", fr: "Gastronorm"}, icona: gastronorm, origen: valor}
+  potencia_electrica: {noms: {es: "Potencia eléctrica", en: "Electric power", fr: "Puissance électrique"}, icona: potencia_electrica, origen: valor}
+  calaixos:           {noms: {es: "Cajones", en: "Drawers", fr: "Tiroirs"}, icona: calaixos, origen: valor}
+  forn_estatic:       {noms: {es: "Horno estático", en: "Static oven", fr: "Four statique"}, icona: forn_estatic, origen: valor}
+  grill:              {noms: {es: "Grill", en: "Grill", fr: "Grill"}, icona: grill, origen: valor}
+  para_soportes:      {noms: {es: "PARA SOPORTES", en: "FOR SUPPORTS", fr: "POUR SUPORTS"}, origen: valor}
+  gn:                 {noms: {es: "GN", en: "GN", fr: "GN"}, origen: valor}
+  kit_cambio:         {noms: {es: "KIT CAMBIO", en: "CHANGE KIT", fr: "KIT DE CHANGEMENT"}, origen: valor}
+  preu:               {noms: {es: "€", en: "€", fr: "€"}, origen: list_price}
+  # --- noves (grups 3, 4 i 5) ---------------------------------------------------------------------------
+  fogons_3:           {noms: {es: "Fuegos gas (3)", en: "Burners (3)", fr: "Feux (3)"}, icona: fogons, origen: valor}
+  forn_estatic_2:     {noms: {es: "Horno estático (2)", en: "Static oven (2)", fr: "Four statique (2)"}, icona: forn_estatic, origen: valor}
+  mesures_interiors:  {noms: {es: "Medidas interiores", en: "Interior dimensions", fr: "Dimensions intérieures"}, icona: mesures_interiors, origen: valor}
+  capacitat_litres:   {noms: {es: "Capacidad (litros)", en: "Capacity (liters)", fr: "Capacité (litres)"}, icona: capacitat_litres, origen: valor}
+  numero_cubes:       {noms: {es: "Número de cubas", en: "Number of tanks", fr: "Nombre de cuves"}, icona: numero_cubes, origen: valor}
+  dimensions_cesta:   {noms: {es: "Medidas cesta", en: "Basket dimensions", fr: "Dimensions du panier"}, icona: dimensions_cesta, origen: valor}
+  dimensions_cuba:    {noms: {es: "Medidas cuba", en: "Tank dimensions", fr: "Dimensions de la cuve"}, icona: dimensions_cuba, origen: valor}
+  dimensions_parrilla: {noms: {es: "Medidas parrilla", en: "Grill dimensions", fr: "Dimensions du gril"}, icona: dimensions_parrilla, origen: valor}
+  dimensions_placa:   {noms: {es: "Medidas placa", en: "Plate dimensions", fr: "Dimensions de la plaque"}, icona: dimensions_placa, origen: valor}
+  placa_lisa:         {noms: {es: "Placa lisa", en: "Smooth plate", fr: "Plaque lisse"}, icona: placa_lisa, origen: valor}
+  placa_1_3_estriada: {noms: {es: "Placa 1/3 estriada", en: "1/3 ribbed plate", fr: "Plaque 1/3 striée"}, icona: placa_1_3_estriada, origen: valor}
+  placa_estriada:     {noms: {es: "Placa estriada", en: "Ribbed plate", fr: "Plaque striée"}, icona: placa_estriada, origen: valor}
+  barbacoa:           {noms: {es: "Barbacoa", en: "Barbecue", fr: "Barbecue"}, icona: barbacoa, origen: valor}
+  soporte_obert:      {noms: {es: "Soporte abierto", en: "Open support", fr: "Support ouvert"}, icona: soporte_obert, origen: valor}
+  portes:             {noms: {es: "Puertas", en: "Doors", fr: "Portes"}, icona: portes, origen: valor}
+  motor:              {noms: {es: "Motor", en: "Motor", fr: "Moteur"}, icona: motor, origen: valor}
+  calor:              {noms: {es: "Tipo de calor", en: "Heat type", fr: "Type de chaleur"}, icona: calor, origen: valor}
+  wok:                {noms: {es: "Wok", en: "Wok", fr: "Wok"}, icona: wok, origen: valor}
+  pack:               {noms: {es: "PACK", en: "PACK", fr: "PACK"}, origen: valor}
+  para:               {noms: {es: "PARA", en: "FOR", fr: "POUR"}, origen: valor}
+
+# Clau de columna de gN.yaml (extractor) -> codi de columna d'Odoo. Per defecte, el mateix codi.
+# Fusions (decisió (b)): variants del mateix concepte que només difereixen en el dibuix de la icona -> una sola columna.
+#   placa_lisa_vertical -> placa_lisa; placa_estriada_vertical -> placa_estriada;
+#   mesures_gastronorm i mesures_interiors_forn -> mesures_interiors (mesures interiors del forn / cassola).
+claus:
+  producte:
+    placa_lisa_vertical: placa_lisa
+    placa_estriada_vertical: placa_estriada
+    mesures_gastronorm: mesures_interiors
+    mesures_interiors_forn: mesures_interiors
+  accessoris:
+    mesures: mesures_text          # a les taules d'accessoris la mesura és un text («320 x 260», «SUPLEMENTARIA»)
+    mesures_2: mesures_text
+    col1: para
+    col2: para
+    para_for_pour: para
+    placa_lisa_vertical: placa_lisa
+    placa_estriada_vertical: placa_estriada
+    mesures_gastronorm: mesures_interiors
+
+# Excepcions per taula («g<grup>:<id de taula>» -> {clau: codi}); guanyen sobre `claus`.
+#  - potència elèctrica del grill (capçalera amb dues icones: potència + grill) -> columna «grill»
+taules:
+  "g4:p08-t2": {potencia_electrica: grill}
+  "g5:p08-t2": {potencia_electrica: grill}
+  # PUERTA REVERSIBLE (G4/G5): la columna «PARA SOPORTES» ja existeix des del pilot
+  "g4:p55-t3": {col1: para_soportes}
+  "g5:p53-t3": {col1: para_soportes}

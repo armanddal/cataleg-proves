@@ -1,0 +1,403 @@
+# Diccionari editable: hash de la imatge (sha1, 10 primers caràcters) -> què significa.
+# nom   = nom del fitxer d'aquesta icona a assets/<gN>/
+# clau  = significat quan és la icona de CAPÇALERA d'una columna de taula
+# valor = significat quan és una icona dins d'una CEL·LA o enganxada a una FOTO/etiqueta
+# phash = hash perceptual (dHash 16x16, hex): permet reconèixer la MATEIXA icona recodificada en un altre grup
+#         (cada .pub recodifica les imatges i el sha1 canvia). L'extractor tria l'entrada amb phash més pròxim (<= 30 bits).
+# nova: true = entrada afegida en generalitzar a G3-G5 (no era al pilot del grup 2); "grups" = on s'ha vist;
+#         "hashes_vistos" = sha1 de les variants de la mateixa icona; "nota" = com s'ha nomenat.
+b6a751a393:
+  nom: icona-energia-gas-electric
+  clau: energia
+  phash: 48698c8e36936b29496d5d659544b54ca55c254d714d616d3321369395ce4a69
+f12cb5ae70:
+  nom: icona-pes
+  clau: pes
+  phash: 08c00b68133412b4333244dd4f0d90e6b4d634d36ccb64f13cc7869e60f11cc4
+e26373da2a:
+  nom: icona-mesures
+  clau: mesures
+  phash: 0024005a0093449392936d3b652b476b565b64db6ccb95b3459304b3018a0204
+'6395650465':
+  nom: icona-fogons
+  clau: fogons
+  phash: 11076cc9b4d2d8e4ccccd4d4c17cdb24db24c17cd4d4ccccd8e4b4d26cc91107
+6bdf9c4052:
+  nom: icona-potencia-gas
+  clau: potencia_gas
+  phash: 049004c8086249314b3687163683369b369334b334561a2499494e3223881980
+713b33fb57:
+  nom: icona-cel-energia-gas
+  valor: gas
+  phash: 4f04b8e27179c31ccb848e969cc2b4e3b4d3b2d2b0b6d0a6d2ec6139b8e24e84
+a5a5a14bcb:
+  nom: icona-cel-energia-electric
+  valor: electric
+  phash: 4f04b9e26439c60c93149096aeca2c0a2c0ba6aa86969714c38c60b9b8e24e84
+44c2066c72:
+  nom: icona-placa-quadrada
+  clau: placa_quadrada
+  phash: 000bd004d004d084d324d4d4c964cb24cb24c964d4d4d324d084d004d004200b
+175b1c1e04:
+  nom: icona-placa-rodona
+  clau: placa_rodona
+  phash: 30f2431d8f0e38e334936b2964c96969496964c96b2934d338e39f06471d20fa
+d22ac524a1:
+  nom: icona-gastronorm
+  clau: gastronorm
+  phash: 0941d00668087449320935a939e93869316935e9360939493a09240b1413802e
+bc17227702:
+  nom: icona-potencia-electrica
+  clau: potencia_electrica
+  phash: 8e200f9801e4e07a1c1d0c0d303840f047c8233411da0c6d042d040603030063
+d77b21605c:
+  nom: icona-calaixos
+  clau: calaixos
+  phash: 2003200b5495d414d414c82cd004d004d004d004d004d004d004528500032003
+8fc9c14097:
+  nom: icona-mesures-interiors-forn
+  clau: mesures_interiors_forn
+  phash: 20005a04b42c60184874c024d0b49094c034d0b4d0b48032ceb170896568e560
+5d8f2cf868:
+  nom: icona-forn-estatic
+  clau: forn_estatic
+  phash: 16976869696928295614c82cd814d414d014d014d014d014d834c00c5025200b
+384dfdabf2:
+  nom: icona-grill
+  clau: grill
+  phash: 22475559eaa98aadd555d085d005d005d005d005d005d005d005d80548892647
+ae7ffc2fd2:
+  nom: insignia-ce
+668fd2a1d3:
+  nom: insignia-modelos-nuevos
+e430adcd21:
+  nom: portada-segell-data-raster
+  nota: 'Segell vermell amb la data 2026/03 COSIDA a la imatge: el renderitzador el redibuixa amb la data d''edició'
+ba1bdd62c0:
+  nom: portada-franges
+a9c731f063:
+  nom: portada-logo-eurast
+0cc1f07918:
+  nom: logo-serie-master
+59c4b89395:
+  nom: logo-serie-5
+103108db03:
+  nom: plantilla-logo-eurast
+8f27a6acfc:
+  nom: contraportada-cataleg
+32093340ec:
+  nom: peu-icona-ull
+  clau: icona_accessoris
+  phash: 2f085cc4b87273397230d67ce65aa61aa61aa69ad69cf3307031b8725cc42f08
+  nova: true
+  nota: Ull gris que acompanya la capçalera «ACCESORIOS» de les taules d'accessoris (i el peu de G2). Al pilot només es feia servir al peu.
+0025e49a9d:
+  nom: icona-placa_estriada
+  clau: placa_estriada
+  phash: 208b502558255025512554a5552554a544a554a554a55525542554a544052083
+  nova: true
+  grups:
+  - 3
+  - 4
+  hashes_vistos:
+  - 0025e49a9d
+  - 49e6afbc6d
+055397bb8a:
+  nom: icona-placa_lisa_vertical
+  clau: placa_lisa_vertical
+  phash: 019b622168c963396ce9739966417909643968c963a16e897a3960e969891667
+  nova: true
+  grups:
+  - 3
+  - 4
+  - 5
+  hashes_vistos:
+  - 055397bb8a
+  nota: 'Placa lisa dibuixada en vertical (frytops: valors FE / Cr.D.). No és a Simbologia; nom deduït de la forma.'
+177cf50277:
+  nom: icona-barbacoa
+  clau: barbacoa
+  phash: 00034a85ca94ca04ca44ca44ca44ca04ca44ca64ca44ca44ca44ca4445052083
+  nova: true
+  grups:
+  - 3
+  - 4
+  - 5
+  hashes_vistos:
+  - 177cf50277
+  - 231843dc9f
+  - 2ac459fe7b
+  nota: Símbol «Barbacoa».
+18e4e8c949:
+  nom: icona-soporte_obert
+  clau: soporte_obert
+  phash: c80b1a11345d4a2d4a2d4a2d4a2d4a2d4a2d4a2d4a2d4a2d4a2d402b7426085c
+  nova: true
+  grups:
+  - 3
+  - 4
+  - 5
+  hashes_vistos:
+  - 18e4e8c949
+  - f7d245e5d1
+  nota: Símbol «Soporte Abierto».
+3c00313cf3:
+  nom: icona-numero_cubes
+  clau: numero_cubes
+  phash: 00014624d204d004d004d004d004d004d004d004d004d004d2046404240912c7
+  nova: true
+  grups:
+  - 3
+  - 4
+  - 5
+  hashes_vistos:
+  - 3c00313cf3
+  - fe1b7f6b5b
+  nota: Símbol «Número de cubas».
+4411b7d636:
+  nom: icona-portes
+  clau: portes
+  phash: 469ddce4c69cc698c69cdca4c4b4c4a4c4a4c4a4c4a4c4a4c4a4c4a4c4a44103
+  nova: true
+  grups:
+  - 3
+  - 4
+  - 5
+  hashes_vistos:
+  - 4411b7d636
+  - 7d40a566cd
+  - 874bd456cf
+  nota: Símbol «Puertas».
+4bdc6d21e3:
+  nom: icona-placa_estriada_vertical
+  clau: placa_estriada_vertical
+  phash: 200b59255b655965592559655b65596559655975596559655b655b655945200b
+  nova: true
+  grups:
+  - 3
+  - 4
+  - 5
+  hashes_vistos:
+  - 4bdc6d21e3
+  nota: 'Placa estriada dibuixada en vertical (frytops: valors FE / Cr.D.). No és a Simbologia; nom deduït de la forma.'
+5cfe90ee48:
+  nom: icona-dimensions_cesta
+  clau: dimensions_cesta
+  phash: 0e80568096801680120112801604128412b012c012841280124212a41295094b
+  nova: true
+  grups:
+  - 3
+  - 4
+  - 5
+  hashes_vistos:
+  - 5cfe90ee48
+  - c6bd6829fe
+  - d745d25b1a
+  nota: Símbol «Dimensiones cesta».
+784c6760b8:
+  nom: icona-dimensions_cuba
+  clau: dimensions_cuba
+  phash: 00015224cd04cd04cd04cc04cc04cc0cdc12b512b512cd14cd046d0420890617
+  nova: true
+  grups:
+  - 3
+  hashes_vistos:
+  - 784c6760b8
+  nota: Símbol «Dimensiones cuba».
+9993acd357:
+  nom: icona-capacitat_litres
+  clau: capacitat_litres
+  phash: 10156a13681367136f136d136c136f136f136c136d136f13675368932b53000e
+  nova: true
+  grups:
+  - 3
+  - 4
+  - 5
+  hashes_vistos:
+  - 9993acd357
+  - fd7d329738
+  nota: Símbol «Capacidad litros».
+9bde1fce63:
+  nom: icona-placa_lisa
+  clau: placa_lisa
+  phash: 0b5bd2a5c58ccb1cd638cc74d8ccb19cd334c664ccd4d9a8f350c6a4cd4d1213
+  nova: true
+  grups:
+  - 3
+  - 4
+  - 5
+  hashes_vistos:
+  - 9bde1fce63
+  nota: Símbol «Placa lisa».
+b47e68c0c8:
+  nom: icona-mesures_interiors
+  clau: mesures_interiors
+  phash: 480798891a095a125a25582dd8adda25da2dd825d8a3a89bfa86da255a4d245a
+  nova: true
+  grups:
+  - 4
+  - 5
+  hashes_vistos:
+  - b47e68c0c8
+  - e31e546395
+  nota: Caixa 3D amb fletxes (mesures interiors de la cassola/cuba). No és a Simbologia; nom deduït del context (valors 305x570x102).
+b61ef31c0e:
+  nom: icona-placa_1_3_estriada
+  clau: placa_1_3_estriada
+  phash: 0b43d0a5c4a4caa4c6a4cca4dcb4e8acd6accca4dca4f8a4f2a4c4a448a51343
+  nova: true
+  grups:
+  - 3
+  - 4
+  - 5
+  hashes_vistos:
+  - b61ef31c0e
+  nota: Símbol «Placa 1/3 estriada».
+dfcbb8308e:
+  nom: icona-calor
+  clau: calor
+  phash: 20fa4f0d98e636db62d94cd5c06cd936d8b4c46c48ed669936d398e6470d30fa
+  nova: true
+  grups:
+  - 5
+  hashes_vistos:
+  - dfcbb8308e
+  nota: 'Símbol «Calor» (valors D/I/A: directa/indirecta/autoclau).'
+e318ce5215:
+  nom: icona-motor
+  clau: motor
+  phash: 0100008818c004c8233c2ccc2ccc2e8c296c296c296c201c20d818e000c80100
+  nova: true
+  grups:
+  - 5
+  hashes_vistos:
+  - e318ce5215
+  nota: Símbol «Motor» (M blanca sobre taronja).
+efa81cb41d:
+  nom: icona-mesures_gastronorm
+  clau: mesures_gastronorm
+  phash: a2ae290180038016c016c816c016c416c816c016c816c016c416c004eb0c7801
+  nova: true
+  grups:
+  - 3
+  hashes_vistos:
+  - efa81cb41d
+  nota: Cassola en negre; la Simbologia la dona com «Medidas Gastronorm» (valors tipus 440x380).
+382ee97e90:
+  nom: icona-valor-forn_estatic
+  valor: forn_estatic
+  phash: d510aaa6150675522aaa0006250a200a200a200a200a200a200a00028226d190
+  nova: true
+  grups:
+  - 4
+  - 5
+  hashes_vistos:
+  - 382ee97e90
+  nota: 'Icona vermella sobre la foto: forn estàtic.'
+c3dfc247eb:
+  nom: icona-valor-forn_conveccio
+  valor: forn_conveccio
+  phash: 0000d204a0ca0303268b2aa33a9313331aa32f4b2d232da306c3223bc9c4c404
+  nova: true
+  grups:
+  - 4
+  - 5
+  hashes_vistos:
+  - c3dfc247eb
+  nota: 'Icona vermella sobre la foto: forn de convecció.'
+f91cf73fe1:
+  nom: icona-valor-forn_electric
+  valor: forn_electric
+  phash: 7080e020fc080f04e1e211e20f00bc00b0105c682e2413900fd20be1007c030c
+  nova: true
+  grups:
+  - 4
+  - 5
+  hashes_vistos:
+  - f91cf73fe1
+  nota: Icona negra sobre la foto (cuines a gas amb forn elèctric).
+0809e41bde:
+  nom: icona-valor-calor_directa
+  valor: calor_directa
+  phash: c004280b000339131b0b18c31ce31ce31ce31ce318c31b0b38130003280bc004
+  nova: true
+  grups:
+  - 5
+  hashes_vistos:
+  - 0809e41bde
+  nota: 'Quadrat lila «D» sobre la foto: calor directa.'
+dac6fc5c21:
+  nom: icona-valor-calor_indirecta
+  valor: calor_indirecta
+  phash: c004200b0003200b2b132b132b132b132b132b132b132b13230b0003230bc004
+  nova: true
+  grups:
+  - 5
+  hashes_vistos:
+  - dac6fc5c21
+  nota: 'Quadrat lila «I» sobre la foto: calor indirecta.'
+cf4df7bc61:
+  nom: icona-valor-autoclau
+  valor: autoclau
+  phash: c004230b0003270b369326932e8b2ccb3cc31b2318e3386332330003280bc004
+  nova: true
+  grups:
+  - 5
+  hashes_vistos:
+  - cf4df7bc61
+  nota: 'Quadrat lila «A» sobre la foto: autoclau.'
+5639d9d2c8:
+  nom: icona-valor-motor
+  valor: motor
+  phash: c084230301033b2318e313331333117316931693169319633b2301032b23c084
+  nova: true
+  grups:
+  - 5
+  hashes_vistos:
+  - 5639d9d2c8
+  nota: 'Quadrat verd «M» dins d''una cel·la: motor present.'
+1eeab8cc86:
+  nom: icona-dimensions_parrilla
+  clau: dimensions_parrilla
+  phash: 120e24952d254b2d4a2d590b964a965ab45624942aa5206d50946a7042685260
+  nova: true
+  grups:
+  - 3
+  - 4
+  - 5
+  hashes_vistos:
+  - 1eeab8cc86
+  - 47ed67f178
+  nota: Símbol «Dimensiones parrilla» (paral·lelogram amb barres).
+3a1c85e34b:
+  nom: icona-dimensions_placa
+  clau: dimensions_placa
+  phash: 120e25152d254d254a2d5a2b904a945ab456289628a41c6dd09662705268d260
+  nova: true
+  grups:
+  - 3
+  - 4
+  - 5
+  hashes_vistos:
+  - 3a1c85e34b
+  - fdeb8660d5
+  nota: Símbol «Dimensiones placa».
+c5a70fc31a:
+  nom: icona-accessoris-ull
+  clau: icona_accessoris
+  phash: 7e0378017f017c01720164b16a115218f31df497732170017c01780978057c05
+  nova: true
+  grups:
+  - 3
+  - 4
+  - 5
+  nota: Variant PNG (G3-G5) de l'ull que acompanya la capçalera «ACCESORIOS».
+46dcbbe0cf:
+  nom: icona-wok
+  clau: wok
+  phash: '0000000000000000000000000000000000000000000000000000000000000000'
+  nova: true
+  grups:
+  - 4
+  - 5
+  nota: Símbol «Wok» (contorn blanc d'un wok; columna de woks a gas).

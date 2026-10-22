@@ -1,0 +1,812 @@
+# Generat per scripts/genera_config.py --grup 2 (editable; es pot regenerar)
+grup:
+  numero: 2
+  codi_odoo: G02
+families:
+- clau: COCINAS SOBRE SOPORTE ABIERTO A GAS
+  noms:
+    es: COCINAS SOBRE SOPORTE ABIERTO A GAS
+    en: GAS COOKERS WITH OPEN SUPPORT
+    fr: FOURNEAUX À GAZ SUR SUPPORT OUVERT
+  sequence: 10
+  tipus: producte
+  pagina: p06
+  taula: p06-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: fogons
+    etiqueta: null
+  - codi: fogons_2
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '33592313'
+    ordre: 10
+    valors:
+      fogons:
+        es: 1 x 10
+        en: 1 x 10
+        fr: 1 x 10
+      fogons_2:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 10 KW
+        en: 10 KW
+        fr: 10 KW
+  - codi: '33692313'
+    ordre: 20
+    valors:
+      fogons:
+        es: 1 x 10
+        en: 1 x 10
+        fr: 1 x 10
+      fogons_2:
+        es: 1 x 6
+        en: 1 x 6
+        fr: 1 x 6
+      potencia_gas:
+        es: 16 KW
+        en: 16 KW
+        fr: 16 KW
+  - codi: '33892313'
+    ordre: 30
+    valors:
+      fogons:
+        es: 2 x 10
+        en: 2 x 10
+        fr: 2 x 10
+      fogons_2:
+        es: 1 x 6
+        en: 1 x 6
+        fr: 1 x 6
+      potencia_gas:
+        es: 26 KW
+        en: 26 KW
+        fr: 26 KW
+  compartits: []
+- clau: COCINAS SOBRE SOPORTE ABIERTO ELÉCTRICAS Y BAÑOS MARÍA
+  noms:
+    es: COCINAS SOBRE SOPORTE ABIERTO ELÉCTRICAS Y BAÑOS MARÍA
+    en: ELECTRIC COOKERS WITH OPEN SUPPORT AND BAIN MARIES
+    fr: FOURNEAUX ÉLÉCTRIQUES SUR SUPPORT OUVERT ET BAIN MARIES
+  sequence: 20
+  tipus: producte
+  pagina: p07
+  taula: p07-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: placa_quadrada
+    etiqueta: null
+  - codi: placa_rodona
+    etiqueta: null
+  - codi: placa_rodona_2
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '30941613'
+    ordre: 10
+    valors:
+      placa_quadrada:
+        es: 1 x 4
+        en: 1 x 4
+        fr: 1 x 4
+      placa_rodona:
+        es: '-'
+        en: '-'
+        fr: '-'
+      placa_rodona_2:
+        es: '-'
+        en: '-'
+        fr: '-'
+      gastronorm:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: 4 KW 230/1V
+        en: 4 KW 230/1V
+        fr: 4 KW 230/1V
+  - codi: '30051613'
+    ordre: 20
+    valors:
+      placa_quadrada:
+        es: 2 x 4
+        en: 2 x 4
+        fr: 2 x 4
+      placa_rodona:
+        es: '-'
+        en: '-'
+        fr: '-'
+      placa_rodona_2:
+        es: '-'
+        en: '-'
+        fr: '-'
+      gastronorm:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: 8 KW 400/3V
+        en: 8 KW 400/3V
+        fr: 8 KW 400/3V
+  - codi: '30511617'
+    ordre: 30
+    valors:
+      placa_quadrada:
+        es: '-'
+        en: '-'
+        fr: '-'
+      placa_rodona:
+        es: 1 x 2,6
+        en: 1 x 2,6
+        fr: 1 x 2,6
+      placa_rodona_2:
+        es: 1 x 1,7
+        en: 1 x 1,7
+        fr: 1 x 1,7
+      gastronorm:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: 4,3 KW 230/1V
+        en: 4,3 KW 230/1V
+        fr: 4,3 KW 230/1V
+  - codi: '30811617'
+    ordre: 40
+    valors:
+      placa_quadrada:
+        es: '-'
+        en: '-'
+        fr: '-'
+      placa_rodona:
+        es: '-'
+        en: '-'
+        fr: '-'
+      placa_rodona_2:
+        es: '-'
+        en: '-'
+        fr: '-'
+      gastronorm:
+        es: GN 1/1
+        en: GN 1/1
+        fr: GN 1/1
+      potencia_electrica:
+        es: 1,3 KW 230/1V
+        en: 1,3 KW 230/1V
+        fr: 1,3 KW 230/1V
+  compartits: []
+- clau: MESAS DE APOYO SOBRE SOPORTE ABIERTO
+  noms:
+    es: MESAS DE APOYO SOBRE SOPORTE ABIERTO
+    en: WORKING AREA TABLES WITH OPEN SUPPORT
+    fr: PLAN DE TRAVAILS SUR SUPPORT OUVERT
+  sequence: 30
+  tipus: producte
+  pagina: p08
+  taula: p08-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: calaixos
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '30311617'
+    ordre: 10
+    valors:
+      calaixos:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '30411617'
+    ordre: 20
+    valors:
+      calaixos:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '30911617'
+    ordre: 30
+    valors:
+      calaixos:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: '30021617'
+    ordre: 40
+    valors:
+      calaixos:
+        es: '1'
+        en: '1'
+        fr: '1'
+  compartits: []
+- clau: HORNILLOS A GAS
+  noms:
+    es: HORNILLOS A GAS
+    en: GAS BOILING TOP
+    fr: RÉCHAUD À GAZ
+  sequence: 40
+  tipus: producte
+  pagina: p11
+  taula: p11-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: fogons
+    etiqueta: null
+  - codi: fogons_2
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '33094655'
+    ordre: 10
+    valors:
+      fogons:
+        es: 1 x 7,5
+        en: 1 x 7,5
+        fr: 1 x 7,5
+      fogons_2:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 7,5 KW
+        en: 7,5 KW
+        fr: 7,5 KW
+  - codi: '33068055'
+    ordre: 20
+    valors:
+      fogons:
+        es: 1 x 7,5
+        en: 1 x 7,5
+        fr: 1 x 7,5
+      fogons_2:
+        es: 1 x 5
+        en: 1 x 5
+        fr: 1 x 5
+      potencia_gas:
+        es: 12,5 KW
+        en: 12,5 KW
+        fr: 12,5 KW
+  - codi: '33051255'
+    ordre: 30
+    valors:
+      fogons:
+        es: 1 x 7,5
+        en: 1 x 7,5
+        fr: 1 x 7,5
+      fogons_2:
+        es: 2 x 5
+        en: 2 x 5
+        fr: 2 x 5
+      potencia_gas:
+        es: 17,5 KW
+        en: 17,5 KW
+        fr: 17,5 KW
+  compartits: []
+- clau: COCINAS SOBRE SOPORTE A GAS
+  noms:
+    es: COCINAS SOBRE SOPORTE A GAS
+    en: GAS COOKERS WITH SUPPORT
+    fr: FOURNEAUX À GAZ SUR SUPPORT
+  sequence: 50
+  tipus: producte
+  pagina: p12
+  taula: p12-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: fogons
+    etiqueta: null
+  - codi: fogons_2
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '33078055'
+    ordre: 10
+    valors:
+      fogons:
+        es: 1 x 7,5
+        en: 1 x 7,5
+        fr: 1 x 7,5
+      fogons_2:
+        es: 1 x 5
+        en: 1 x 5
+        fr: 1 x 5
+      potencia_gas:
+        es: 12,5 KW
+        en: 12,5 KW
+        fr: 12,5 KW
+  - codi: '33081255'
+    ordre: 20
+    valors:
+      fogons:
+        es: 1 x 7,5
+        en: 1 x 7,5
+        fr: 1 x 7,5
+      fogons_2:
+        es: 2 x 5
+        en: 2 x 5
+        fr: 2 x 5
+      potencia_gas:
+        es: 17,5 KW
+        en: 17,5 KW
+        fr: 17,5 KW
+  - codi: '33101255'
+    ordre: 30
+    valors:
+      fogons:
+        es: 1 x 7,5
+        en: 1 x 7,5
+        fr: 1 x 7,5
+      fogons_2:
+        es: 2 x 5
+        en: 2 x 5
+        fr: 2 x 5
+      potencia_gas:
+        es: 17,5 KW
+        en: 17,5 KW
+        fr: 17,5 KW
+  compartits: []
+- clau: COCINAS CON HORNO A GAS
+  noms:
+    es: COCINAS CON HORNO A GAS
+    en: COOKER WITH GAS OVEN
+    fr: FOURNEAUX AVEC FOUR À GAZ
+  sequence: 60
+  tipus: producte
+  pagina: p13
+  taula: p13-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: fogons
+    etiqueta: null
+  - codi: fogons_2
+    etiqueta: null
+  - codi: forn_estatic
+    etiqueta: null
+  - codi: grill
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '33038055'
+    ordre: 10
+    valors:
+      fogons:
+        es: 1 x 7,5
+        en: 1 x 7,5
+        fr: 1 x 7,5
+      fogons_2:
+        es: 1 x 5
+        en: 1 x 5
+        fr: 1 x 5
+      forn_estatic:
+        es: '5'
+        en: '5'
+        fr: '5'
+      grill:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 17,5 KW
+        en: 17,5 KW
+        fr: 17,5 KW
+  - codi: '33011255'
+    ordre: 20
+    valors:
+      fogons:
+        es: 1 x 7,5
+        en: 1 x 7,5
+        fr: 1 x 7,5
+      fogons_2:
+        es: 2 x 5
+        en: 2 x 5
+        fr: 2 x 5
+      forn_estatic:
+        es: '5'
+        en: '5'
+        fr: '5'
+      grill:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 22,5 KW
+        en: 22,5 KW
+        fr: 22,5 KW
+  - codi: '33048055'
+    ordre: 30
+    valors:
+      fogons:
+        es: 1 x 7,5
+        en: 1 x 7,5
+        fr: 1 x 7,5
+      fogons_2:
+        es: 1 x 5
+        en: 1 x 5
+        fr: 1 x 5
+      forn_estatic:
+        es: '5'
+        en: '5'
+        fr: '5'
+      grill:
+        es: 2,25
+        en: 2,25
+        fr: 2,25
+      potencia_electrica:
+        es: 2,25 KW 230/1V
+        en: 2,25 KW 230/1V
+        fr: 2,25 KW 230/1V
+      potencia_gas:
+        es: 17,5 KW
+        en: 17,5 KW
+        fr: 17,5 KW
+  - codi: '33021255'
+    ordre: 40
+    valors:
+      fogons:
+        es: 1 x 7,5
+        en: 1 x 7,5
+        fr: 1 x 7,5
+      fogons_2:
+        es: 2 x 5
+        en: 2 x 5
+        fr: 2 x 5
+      forn_estatic:
+        es: '5'
+        en: '5'
+        fr: '5'
+      grill:
+        es: 2,25
+        en: 2,25
+        fr: 2,25
+      potencia_electrica:
+        es: 2,25 KW 230/1V
+        en: 2,25 KW 230/1V
+        fr: 2,25 KW 230/1V
+      potencia_gas:
+        es: 22,5 KW
+        en: 22,5 KW
+        fr: 22,5 KW
+  compartits: []
+- clau: PARRILLAS
+  noms:
+    es: PARRILLAS
+    en: GRIDDLES
+    fr: GRILLES
+  sequence: 70
+  tipus: accessoris
+  pagina: p14
+  taula: p14-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A010710
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 320 x 260
+        en: 320 x 260
+        fr: 320 x 260
+  - codi: 4A835993
+    ordre: 20
+    valors:
+      mesures_text:
+        es: SUPLETORIA
+        en: SUPPLEMENTARY
+        fr: SUPPLÉMENTAIRE
+  compartits: []
+- clau: PUERTA REVERSIBLE
+  noms:
+    es: PUERTA REVERSIBLE
+    en: REVERSIBLE DOOR
+    fr: PORTE RÉVERSIBLE
+  sequence: 80
+  tipus: accessoris
+  pagina: p14
+  taula: p14-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: para_soportes
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A200913
+    ordre: 10
+    valors:
+      para_soportes:
+        es: ACERO INOX
+        en: STAINLESS STEEL
+        fr: ACIER INOXYDABLE
+  compartits: []
+- clau: DOBLE FONDO PERFORADO PARA BAÑO MARÍA
+  noms:
+    es: DOBLE FONDO PERFORADO PARA BAÑO MARÍA
+    en: PERFORATED BOTTOM FOR BAIN-MARIE
+    fr: DOUBLE FONS PERFORÉ POUR BAIN MARIE
+  sequence: 90
+  tipus: accessoris
+  pagina: p14
+  taula: p14-t3
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: gn
+    etiqueta: null
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A085021
+    ordre: 10
+    valors:
+      gn:
+        es: 1/1
+        en: 1/1
+        fr: 1/1
+      mesures_text:
+        es: 325 x 530
+        en: 325 x 530
+        fr: 325 x 530
+  compartits: []
+- clau: PARRILLAS#2
+  noms:
+    es: PARRILLAS
+    en: GRIDDLES
+    fr: GRILLES
+  sequence: 100
+  tipus: accessoris
+  pagina: p15
+  taula: p15-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A55PA37
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 370 x 370
+        en: 370 x 370
+        fr: 370 x 370
+  compartits:
+  - codi: 4A835993
+    ordre: 20
+    valors:
+      mesures_text:
+        es: SUPLETORIA
+        en: SUPPLEMENTARY
+        fr: SUPPLÉMENTAIRE
+    propietari: PARRILLAS
+- clau: SUPLEMENTO CAMBIO QUEMADOR
+  noms:
+    es: SUPLEMENTO CAMBIO QUEMADOR
+    en: BURNER CHANGE SUPPLEMENT
+    fr: SUPPLÉMENT DE CHANGEMENT DE BRÛLEUR
+  sequence: 110
+  tipus: accessoris
+  pagina: p15
+  taula: p15-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: kit_cambio
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A555075
+    ordre: 10
+    valors:
+      kit_cambio:
+        es: 5 Kw ó 7,5 Kw
+        en: 5 Kw ó 7,5 Kw
+        fr: 5 Kw ó 7,5 Kw
+  compartits: []
+- clau: PLANCHA LISA O ESTRIADA
+  noms:
+    es: PLANCHA LISA O ESTRIADA
+    en: SMOOTH OR RIBBED PLATE
+    fr: PLAQUE LISSE OU NERVURÉE
+  sequence: 120
+  tipus: accessoris
+  pagina: p15
+  taula: p15-t3
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A55PL37
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 370 x 370
+        en: 370 x 370
+        fr: 370 x 370
+  - codi: 4A55PE37
+    ordre: 20
+    valors:
+      mesures_text:
+        es: 370 x 370
+        en: 370 x 370
+        fr: 370 x 370
+  compartits: []
+- clau: REJILLA HORNO
+  noms:
+    es: REJILLA HORNO
+    en: OVEN GRID
+    fr: GRILLE DU FOUR
+  sequence: 130
+  tipus: accessoris
+  pagina: p15
+  taula: p15-t4
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A55120C
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 650 x 350
+        en: 650 x 350
+        fr: 650 x 350
+  compartits: []
+- clau: BANDEJA HORNO
+  noms:
+    es: BANDEJA HORNO
+    en: OVEN TRAY
+    fr: PLATEAU DU FOUR
+  sequence: 140
+  tipus: accessoris
+  pagina: p15
+  taula: p15-t5
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A55100C
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 650 x 370 x 40
+        en: 650 x 370 x 40
+        fr: 650 x 370 x 40
+  compartits: []
+avisos:
+- '4A835993: ja és a «PARRILLAS» (mateix grup); a «PARRILLAS#2» surt com a fila repetida'
+repeticions:
+  PARRILLAS#2:
+  - codi: 4A835993
+    ordre: 20

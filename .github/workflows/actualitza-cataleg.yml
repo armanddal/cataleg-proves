@@ -1,0 +1,74 @@
+name: Actualitza el catàleg
+
+on:
+  repository_dispatch:
+    types: [actualitza-cataleg]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Dues pulsacions seguides no es trepitgen: la segona espera que acabi la primera
+# (i si n'arriben més, només es manté l'última en cua).
+concurrency:
+  group: actualitza-cataleg
+  cancel-in-progress: false
+
+jobs:
+  genera:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    environment:
+      name: github-pages
+      url: ${{ steps.desplega.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4.2.2
+
+      - uses: actions/setup-python@v5.3.0
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Eines del sistema (qpdf, poppler, fonts)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends qpdf poppler-utils fonts-liberation fontconfig
+          sudo apt-get install -y --no-install-recommends fonts-libre-franklin || echo "fonts-libre-franklin no disponible"
+          mkdir -p ~/.config/fontconfig
+          cp ci/fonts.conf ~/.config/fontconfig/fonts.conf
+          fc-cache -f
+
+      - name: Dependències de Python
+        run: pip install -r requirements.txt
+
+      - name: Chrome
+        run: |
+          # Chrome ve preinstal·lat a les imatges ubuntu-24.04 de GitHub
+          CHROME="$(command -v google-chrome || command -v google-chrome-stable || command -v chromium || true)"
+          test -n "$CHROME" || { echo "No hi ha Chrome al runner"; exit 1; }
+          echo "CHROME_BIN=$CHROME" >> "$GITHUB_ENV"
+          echo "CHROME_NO_SANDBOX=1" >> "$GITHUB_ENV"
+          "$CHROME" --version
+
+      - name: Genera el catàleg des d'Odoo Staging (només lectura)
+        env:
+          ODOO_URL: ${{ secrets.ODOO_URL }}
+          ODOO_DB: ${{ secrets.ODOO_DB }}
+          ODOO_USER: ${{ secrets.ODOO_USER }}
+          ODOO_API_KEY: ${{ secrets.ODOO_API_KEY }}
+        run: bash ci/genera.sh
+
+      - name: Escriu estat.json
+        run: python ci/estat.py ok
+
+      - uses: actions/configure-pages@v5.0.0
+
+      - uses: actions/upload-pages-artifact@v3.0.1
+        with:
+          path: sortida/web
+
+      - name: Publica a GitHub Pages
+        id: desplega
+        uses: actions/deploy-pages@v4.0.5

@@ -1,0 +1,1132 @@
+# Columnes proposades automàticament per scripts/genera_config.py per a grups nous (editable; revisar els noms abans de carregar a Odoo).
+# columnes.yaml té prioritat. `revisar` es pot esborrar quan el nom ja és el bo. Un cop carregades a Odoo, no canvieu codi/icona/origen.
+columnes:
+  dutxa:
+    noms:
+      es: Ducha
+      en: Shower
+      fr: Douche
+    origen: valor
+    icona: dutxa
+    revisar: 'proposada per genera_config (G1 p31-t1 «dutxa»; nom: noms-columnes.yaml)'
+  nivells:
+    noms:
+      es: Niveles
+      en: Levels
+      fr: Niveaux
+    origen: valor
+    icona: nivells
+    revisar: 'proposada per genera_config (G1 p36-t1 «nivells»; nom: noms-columnes.yaml)'
+  alcada_interior:
+    noms:
+      es: Altura interior
+      en: Interior height
+      fr: Hauteur intérieure
+    origen: valor
+    icona: alcada_interior
+    revisar: 'proposada per genera_config (G1 p37-t1 «alcada_interior»; nom: simbologia del grup)'
+  safates:
+    noms:
+      es: Bikinis
+      en: Mixed sandwich
+      fr: Sandwich mixte
+    origen: valor
+    icona: safates
+    revisar: 'proposada per genera_config (G1 p40-t1 «safates»; nom: simbologia del grup)'
+  wok_2:
+    noms:
+      es: Wok x Kw
+      en: Wok x Kw
+      fr: Wok x Kw
+    origen: valor
+    icona: wok
+    revisar: 'proposada per genera_config (G6 p28-t1 «wok_2»; nom: simbologia del grup)'
+  serie:
+    noms:
+      es: Serie
+      en: Series
+      fr: Séries
+    origen: valor
+    revisar: 'proposada per genera_config (G6 p38-t1 «serie»; nom: noms-columnes.yaml)'
+  reixa_fogo:
+    noms:
+      es: Parrilla supletoria
+      en: Supplementary grill
+      fr: Grille supplémentaire
+    origen: valor
+    icona: reixa_fogo
+    revisar: 'proposada per genera_config (G7 p05-t1 «reixa_fogo»; nom: simbologia del grup)'
+  tapa_planxa:
+    noms:
+      es: Tapa plancha
+      en: Griddle lid
+      fr: Couvercle de plancha
+    origen: valor
+    icona: tapa_planxa
+    revisar: 'proposada per genera_config (G7 p17-t2 «tapa_planxa»; nom: noms-columnes.yaml)'
+  dot:
+    noms:
+      es: Dotación de serie
+      en: Standard equipment
+      fr: Équipement standard
+    origen: valor
+    revisar: 'proposada per genera_config (G7 p24-t2 «dot»; nom: noms-columnes.yaml)'
+  portes_corredisses:
+    noms:
+      es: Puertas correderas
+      en: Sliding doors
+      fr: Portes coulissantes
+    origen: valor
+    icona: portes_corredisses
+    revisar: 'proposada per genera_config (G7 p27-t1 «portes_corredisses»; nom: simbologia del grup)'
+  guies:
+    noms:
+      es: Pares de guías
+      en: Guide pairs
+      fr: Paires de guides
+    origen: valor
+    icona: guies
+    revisar: 'proposada per genera_config (G7 p33-t2 «guies»; nom: simbologia del grup)'
+  plats_310:
+    noms:
+      es: Capacidad de platos Ø 310
+      en: Plate capacity Ø 310
+      fr: Capacité d'assiettes Ø 310
+    origen: valor
+    revisar: 'proposada per genera_config (G7 p27-t1 «310»; nom: noms-columnes.yaml)'
+  alcada:
+    noms:
+      es: Separación entre guías
+      en: Guide separation
+      fr: Séparation des guides
+    origen: valor
+    icona: alcada
+    revisar: 'proposada per genera_config (G7 p34-t2 «alcada»; nom: noms-columnes.yaml)'
+  rotacio:
+    noms:
+      es: Ventilador inversor
+      en: Swing reversing fan
+      fr: Ventilateur inverseur
+    origen: valor
+    icona: rotacio
+    revisar: 'proposada per genera_config (G8 p07-t2 «rotacio»; nom: simbologia del grup)'
+  nivells_i_separacio:
+    noms:
+      es: Capacidad y Ø pizzas
+      en: Ø and pizza capacity
+      fr: Capacité et Ø des pizzas
+    origen: valor
+    icona: nivells_i_separacio
+    revisar: 'proposada per genera_config (G8 p41-t3 «nivells_i_separacio»; nom: simbologia del grup)'
+  persones:
+    noms:
+      es: Comensales
+      en: Comensales
+      fr: Diners
+    origen: valor
+    icona: persones
+    revisar: 'proposada per genera_config (G8 p48-t2 «persones»; nom: simbologia del grup)'
+  temps:
+    noms:
+      es: Producción horaria
+      en: Hourly production
+      fr: Production horaire
+    origen: valor
+    icona: temps
+    revisar: 'proposada per genera_config (G8 p48-t2 «temps»; nom: simbologia del grup)'
+  diametre_conducte:
+    noms:
+      es: Conducto recomendado
+      en: Recommended duct
+      fr: Conduit recommandé
+    origen: valor
+    icona: diametre_conducte
+    revisar: 'proposada per genera_config (G8 p48-t2 «diametre_conducte»; nom: noms-columnes.yaml)'
+  brasa:
+    noms:
+      es: Potencia calorífica
+      en: Calorific power
+      fr: Puissance calorifique
+    origen: valor
+    icona: brasa
+    revisar: 'proposada per genera_config (G8 p48-t2 «brasa»; nom: simbologia del grup)'
+  euronorm:
+    noms:
+      es: Latas Euronorm
+      en: Euronorm tinplate
+      fr: Fer-blanc Euronorm
+    origen: valor
+    revisar: 'proposada per genera_config (G8 p32-t1 «col5»; nom: noms-columnes.yaml)'
+  euronorm_2:
+    noms:
+      es: Latas Euronorm (2)
+      en: Euronorm tinplate (2)
+      fr: Fer-blanc Euronorm (2)
+    origen: valor
+    revisar: 'proposada per genera_config (G8 p34-t1 «col9»; nom: noms-columnes.yaml)'
+  material:
+    noms:
+      es: Material
+      en: Material
+      fr: Matériau
+    origen: valor
+    revisar: 'proposada per genera_config (G8 p51-t4 «col1»; nom: noms-columnes.yaml)'
+  unitats:
+    noms:
+      es: Unidades
+      en: Units
+      fr: Unités
+    origen: valor
+    revisar: 'proposada per genera_config (G8 p51-t5 «col1»; nom: noms-columnes.yaml)'
+  pollastres:
+    noms:
+      es: Capacidad pollos
+      en: Chicken capacity
+      fr: Capacité poulets
+    origen: valor
+    icona: pollastres
+    revisar: 'proposada per genera_config (G9 p07-t2 «pollastres»; nom: simbologia del grup)'
+  broquetes:
+    noms:
+      es: Cantidad de espadas
+      en: Number of swords
+      fr: Nombre de broches
+    origen: valor
+    icona: broquetes
+    revisar: 'proposada per genera_config (G9 p07-t2 «broquetes»; nom: simbologia del grup)'
+  llum:
+    noms:
+      es: Luz
+      en: Light
+      fr: Lumière
+    origen: valor
+    icona: llum
+    revisar: 'proposada per genera_config (G9 p07-t2 «llum»; nom: simbologia del grup)'
+  material_porta:
+    noms:
+      es: Material de la puerta
+      en: Door material
+      fr: Matériau de la porte
+    origen: valor
+    icona: material_porta
+    revisar: 'proposada per genera_config (G9 p37-t1 «material_porta»; nom: simbologia del grup)'
+  filtres:
+    noms:
+      es: Filtros
+      en: Filters
+      fr: Filtres
+    origen: valor
+    icona: filtres
+    revisar: 'proposada per genera_config (G10 p05-t1 «filtres»; nom: noms-columnes.yaml)'
+  ventilador:
+    noms:
+      es: Ventilador
+      en: Fan
+      fr: Ventilateur
+    origen: valor
+    icona: ventilador
+    revisar: 'proposada per genera_config (G10 p05-t1 «ventilador»; nom: simbologia del grup)'
+  hp:
+    noms:
+      es: HP
+      en: HP
+      fr: HP
+    origen: valor
+    revisar: 'proposada per genera_config (G10 p16-t1 «hp»; nom: noms-columnes.yaml)'
+  extincio_pci:
+    noms:
+      es: Extinción PCI
+      en: Fire extinguishing system
+      fr: Extinction incendie
+    origen: valor
+    icona: extincio_pci
+    revisar: 'proposada per genera_config (G10 p24-t1 «extincio_pci»; nom: noms-columnes.yaml)'
+  extintor:
+    noms:
+      es: Extintor
+      en: Extinguisher
+      fr: Extincteur
+    origen: valor
+    icona: extintor
+    revisar: 'proposada per genera_config (G10 p24-t1 «extintor»; nom: noms-columnes.yaml)'
+  tipo:
+    noms:
+      es: Tipo
+      en: Type
+      fr: Type
+    origen: valor
+    revisar: 'proposada per genera_config (G10 p31-t1 «tipo»; nom: capçalera del .pub)'
+  ventilador_2:
+    noms:
+      es: Ventilador (2)
+      en: Fan (2)
+      fr: Ventilateur (2)
+    origen: valor
+    revisar: 'proposada per genera_config (G10 p21-t1 «col6»; nom: noms-columnes.yaml)'
+  diametre_conducte_2:
+    noms:
+      es: Conducto recomendado (2)
+      en: Recommended duct (2)
+      fr: Conduit recommandé (2)
+    origen: valor
+    revisar: 'proposada per genera_config (G10 p21-t1 «col7»; nom: noms-columnes.yaml)'
+  mural_central:
+    noms:
+      es: Mural / central
+      en: Wall / central
+      fr: Murale / centrale
+    origen: valor
+    revisar: 'proposada per genera_config (G10 p25-t1 «col3»; nom: noms-columnes.yaml)'
+  s_panells:
+    noms:
+      es: S
+      en: S
+      fr: S
+    origen: valor
+    revisar: 'proposada per genera_config (G10 p25-t1 «col5»; nom: noms-columnes.yaml)'
+  amperis:
+    noms:
+      es: Amperios
+      en: Amperes
+      fr: Ampères
+    origen: valor
+    revisar: 'proposada per genera_config (G10 p31-t3 «col3»; nom: noms-columnes.yaml)'
+  classe_energetica:
+    noms:
+      es: Clase energética
+      en: Energy class
+      fr: Classe énergétique
+    origen: valor
+    icona: classe_energetica
+    revisar: 'proposada per genera_config (G11 p09-t1 «classe_energetica»; nom: simbologia del grup)'
+  kw_365:
+    noms:
+      es: Consumo anual
+      en: Annual consumption
+      fr: Consommation annuelle
+    origen: valor
+    revisar: 'proposada per genera_config (G11 p09-t1 «kw_365»; nom: noms-columnes.yaml)'
+  temperatura:
+    noms:
+      es: Temperatura
+      en: Temperature
+      fr: Température
+    origen: valor
+    icona: temperatura
+    revisar: 'proposada per genera_config (G11 p21-t1 «temperatura»; nom: noms-columnes.yaml)'
+  uc:
+    noms:
+      es: Unidad condensadora
+      en: Condensing unit
+      fr: Unité de condensation
+    origen: valor
+    revisar: 'proposada per genera_config (G11 p21-t1 «uc»; nom: noms-columnes.yaml)'
+  g11_p30_t1_col5:
+    noms:
+      es: Columna sense nom (p30-t1 col5)
+      en: Columna sense nom (p30-t1 col5)
+      fr: Columna sense nom (p30-t1 col5)
+    origen: valor
+    revisar: 'proposada per genera_config (G11 p30-t1 «col5»; nom: provisional)'
+  g11_p31_t1_col5:
+    noms:
+      es: Columna sense nom (p31-t1 col5)
+      en: Columna sense nom (p31-t1 col5)
+      fr: Columna sense nom (p31-t1 col5)
+    origen: valor
+    revisar: 'proposada per genera_config (G11 p31-t1 «col5»; nom: provisional)'
+  g11_p36_t2_col3:
+    noms:
+      es: Columna sense nom (p36-t2 col3)
+      en: Columna sense nom (p36-t2 col3)
+      fr: Columna sense nom (p36-t2 col3)
+    origen: valor
+    revisar: 'proposada per genera_config (G11 p36-t2 «col3»; nom: provisional)'
+  g11_p37_t4_col3:
+    noms:
+      es: Columna sense nom (p37-t4 col3)
+      en: Columna sense nom (p37-t4 col3)
+      fr: Columna sense nom (p37-t4 col3)
+    origen: valor
+    revisar: 'proposada per genera_config (G11 p37-t4 «col3»; nom: provisional)'
+  g11_p40_t2_col5:
+    noms:
+      es: Columna sense nom (p40-t2 col5)
+      en: Columna sense nom (p40-t2 col5)
+      fr: Columna sense nom (p40-t2 col5)
+    origen: valor
+    revisar: 'proposada per genera_config (G11 p40-t2 «col5»; nom: provisional)'
+  g11_p43_t2_col5:
+    noms:
+      es: Columna sense nom (p43-t2 col5)
+      en: Columna sense nom (p43-t2 col5)
+      fr: Columna sense nom (p43-t2 col5)
+    origen: valor
+    revisar: 'proposada per genera_config (G11 p43-t2 «col5»; nom: provisional)'
+  ext_int:
+    noms:
+      es: Exterior / interior
+      en: Exterior / interior
+      fr: Extérieur / intérieur
+    origen: valor
+    revisar: 'proposada per genera_config (G11 p45-t1 «ext_int»; nom: noms-columnes.yaml)'
+  g11_p46_t1_col3:
+    noms:
+      es: Columna sense nom (p46-t1 col3)
+      en: Columna sense nom (p46-t1 col3)
+      fr: Columna sense nom (p46-t1 col3)
+    origen: valor
+    revisar: 'proposada per genera_config (G11 p46-t1 «col3»; nom: provisional)'
+  g11_p46_t1_col7:
+    noms:
+      es: Columna sense nom (p46-t1 col7)
+      en: Columna sense nom (p46-t1 col7)
+      fr: Columna sense nom (p46-t1 col7)
+    origen: valor
+    revisar: 'proposada per genera_config (G11 p46-t1 «col7»; nom: provisional)'
+  g11_p47_t1_col3:
+    noms:
+      es: Columna sense nom (p47-t1 col3)
+      en: Columna sense nom (p47-t1 col3)
+      fr: Columna sense nom (p47-t1 col3)
+    origen: valor
+    revisar: 'proposada per genera_config (G11 p47-t1 «col3»; nom: provisional)'
+  g11_p47_t1_col7:
+    noms:
+      es: Columna sense nom (p47-t1 col7)
+      en: Columna sense nom (p47-t1 col7)
+      fr: Columna sense nom (p47-t1 col7)
+    origen: valor
+    revisar: 'proposada per genera_config (G11 p47-t1 «col7»; nom: provisional)'
+  produccio_24h:
+    noms:
+      es: Producción horaria
+      en: Hourly production
+      fr: Production horaire
+    origen: valor
+    icona: produccio_24h
+    revisar: 'proposada per genera_config (G11 p57-t1 «produccio_24h»; nom: simbologia del grup)'
+  produccio_cubets:
+    noms:
+      es: Producción de cubitos
+      en: Ice cube production
+      fr: Production de glaçons
+    origen: valor
+    icona: produccio_cubets
+    revisar: 'proposada per genera_config (G11 p57-t1 «produccio_cubets»; nom: noms-columnes.yaml)'
+  capacitat_kg:
+    noms:
+      es: Capacidad (kg)
+      en: Capacity (kg)
+      fr: Capacité (kg)
+    origen: valor
+    icona: capacitat_kg
+    revisar: 'proposada per genera_config (G11 p57-t1 «capacitat_kg»; nom: noms-columnes.yaml)'
+  produccio_cubets_2:
+    noms:
+      es: Producción de cubitos (2)
+      en: Ice cube production (2)
+      fr: Production de glaçons (2)
+    origen: valor
+    icona: produccio_cubets
+    revisar: 'proposada per genera_config (G11 p57-t1 «produccio_cubets_2»; nom: variant de «produccio_cubets»)'
+  g11_p76_t1_col6:
+    noms:
+      es: Columna sense nom (p76-t1 col6)
+      en: Columna sense nom (p76-t1 col6)
+      fr: Columna sense nom (p76-t1 col6)
+    origen: valor
+    revisar: 'proposada per genera_config (G11 p76-t1 «col6»; nom: provisional)'
+  g11_p76_t1_col9:
+    noms:
+      es: Columna sense nom (p76-t1 col9)
+      en: Columna sense nom (p76-t1 col9)
+      fr: Columna sense nom (p76-t1 col9)
+    origen: valor
+    revisar: 'proposada per genera_config (G11 p76-t1 «col9»; nom: provisional)'
+  g11_p85_t1_col9:
+    noms:
+      es: Columna sense nom (p85-t1 col9)
+      en: Columna sense nom (p85-t1 col9)
+      fr: Columna sense nom (p85-t1 col9)
+    origen: valor
+    revisar: 'proposada per genera_config (G11 p85-t1 «col9»; nom: provisional)'
+  guies_inclinades:
+    noms:
+      es: Guías inclinadas
+      en: Inclined guides
+      fr: Glissières inclinées
+    origen: valor
+    icona: guies_inclinades
+    revisar: 'proposada per genera_config (G11 p92-t1 «guies_inclinades»; nom: noms-columnes.yaml)'
+  g11_p92_t1_col5:
+    noms:
+      es: Columna sense nom (p92-t1 col5)
+      en: Columna sense nom (p92-t1 col5)
+      fr: Columna sense nom (p92-t1 col5)
+    origen: valor
+    revisar: 'proposada per genera_config (G11 p92-t1 «col5»; nom: provisional)'
+  g11_p95_t2_col3:
+    noms:
+      es: ''
+      en: ''
+      fr: SERIE
+    origen: valor
+    revisar: 'proposada per genera_config (G11 p95-t2 «col3»; nom: capçalera del .pub)'
+  g11_p96_t2_col3:
+    noms:
+      es: ''
+      en: ''
+      fr: SERIE
+    origen: valor
+    revisar: 'proposada per genera_config (G11 p96-t2 «col3»; nom: capçalera del .pub)'
+  g11_p128_t1_col2:
+    noms:
+      es: ''
+      en: ''
+      fr: EXT
+    origen: valor
+    revisar: 'proposada per genera_config (G11 p128-t1 «col2»; nom: capçalera del .pub)'
+  g11_p129_t2_col2:
+    noms:
+      es: ''
+      en: ''
+      fr: EXT
+    origen: valor
+    revisar: 'proposada per genera_config (G11 p129-t2 «col2»; nom: capçalera del .pub)'
+  g11_p130_t2_col2:
+    noms:
+      es: ''
+      en: ''
+      fr: EXT
+    origen: valor
+    revisar: 'proposada per genera_config (G11 p130-t2 «col2»; nom: capçalera del .pub)'
+  g11_p132_t1_col2:
+    noms:
+      es: ''
+      en: ''
+      fr: EXT
+    origen: valor
+    revisar: 'proposada per genera_config (G11 p132-t1 «col2»; nom: capçalera del .pub)'
+  cubeta:
+    noms:
+      es: Cubeta
+      en: Tray
+      fr: Bac
+    origen: valor
+    icona: cubeta
+    revisar: 'proposada per genera_config (G11 p132-t1 «cubeta»; nom: noms-columnes.yaml)'
+  g11_p135_t1_col2:
+    noms:
+      es: ''
+      en: ''
+      fr: EXT
+    origen: valor
+    revisar: 'proposada per genera_config (G11 p135-t1 «col2»; nom: capçalera del .pub)'
+  g11_p136_t1_col2:
+    noms:
+      es: ''
+      en: ''
+      fr: EXT
+    origen: valor
+    revisar: 'proposada per genera_config (G11 p136-t1 «col2»; nom: capçalera del .pub)'
+  g11_p137_t1_col2:
+    noms:
+      es: ''
+      en: ''
+      fr: EXT
+    origen: valor
+    revisar: 'proposada per genera_config (G11 p137-t1 «col2»; nom: capçalera del .pub)'
+  calaixos_2:
+    noms:
+      es: Cajones (2)
+      en: Drawers (2)
+      fr: Tiroirs (2)
+    origen: valor
+    revisar: 'proposada per genera_config (G11 p36-t2 «col3»; nom: noms-columnes.yaml)'
+  acabat_exterior:
+    noms:
+      es: Acabado exterior
+      en: External finish
+      fr: Finition extérieure
+    origen: valor
+    revisar: 'proposada per genera_config (G11 p128-t1 «col2»; nom: noms-columnes.yaml)'
+  dimensions_safata:
+    noms:
+      es: Medidas bandeja
+      en: Tray dimensions
+      fr: Dimensions du plateau
+    origen: valor
+    icona: dimensions_safata
+    revisar: 'proposada per genera_config (G12 p12-t1 «dimensions_safata»; nom: noms-columnes.yaml)'
+  frontal_vidre:
+    noms:
+      es: Cristal superior
+      en: Top glass
+      fr: Verre supérieur
+    origen: valor
+    icona: frontal_vidre
+    revisar: 'proposada per genera_config (G12 p12-t1 «frontal_vidre»; nom: simbologia del grup)'
+  nivells_safates:
+    noms:
+      es: Niveles
+      en: Levels
+      fr: Niveaux
+    origen: valor
+    icona: nivells_safates
+    revisar: 'proposada per genera_config (G12 p15-t1 «nivells_safates»; nom: noms-columnes.yaml)'
+  g12_p57_t1_col7:
+    noms:
+      es: ''
+      en: ''
+      fr: 75 cl
+    origen: valor
+    revisar: 'proposada per genera_config (G12 p57-t1 «col7»; nom: capçalera del .pub)'
+  g12_p58_t1_col8:
+    noms:
+      es: ''
+      en: ''
+      fr: 75 cl
+    origen: valor
+    revisar: 'proposada per genera_config (G12 p58-t1 «col8»; nom: capçalera del .pub)'
+  g12_p59_t1_col7:
+    noms:
+      es: ''
+      en: ''
+      fr: 75 cl
+    origen: valor
+    revisar: 'proposada per genera_config (G12 p59-t1 «col7»; nom: capçalera del .pub)'
+  g12_p60_t1_col7:
+    noms:
+      es: ''
+      en: ''
+      fr: 75 cl
+    origen: valor
+    revisar: 'proposada per genera_config (G12 p60-t1 «col7»; nom: capçalera del .pub)'
+  g12_p61_t1_col7:
+    noms:
+      es: ''
+      en: ''
+      fr: 75 cl
+    origen: valor
+    revisar: 'proposada per genera_config (G12 p61-t1 «col7»; nom: capçalera del .pub)'
+  g12_p62_t1_col7:
+    noms:
+      es: ''
+      en: ''
+      fr: 75 cl
+    origen: valor
+    revisar: 'proposada per genera_config (G12 p62-t1 «col7»; nom: capçalera del .pub)'
+  barra_ganxos:
+    noms:
+      es: Barras de carne
+      en: Meat bars
+      fr: Barres de viande
+    origen: valor
+    icona: barra_ganxos
+    revisar: 'proposada per genera_config (G12 p65-t1 «barra_ganxos»; nom: simbologia del grup)'
+  pernil:
+    noms:
+      es: Capacidad Kgs.
+      en: Condensing unit
+      fr: Unité de condensation
+    origen: valor
+    icona: pernil
+    revisar: 'proposada per genera_config (G12 p65-t1 «pernil»; nom: simbologia del grup)'
+  reixeta:
+    noms:
+      es: Separadores
+      en: Dividers
+      fr: Séparateurs
+    origen: valor
+    icona: reixeta
+    revisar: 'proposada per genera_config (G12 p83-t1 «reixeta»; nom: simbologia del grup)'
+  g12_p83_t1_col9:
+    noms:
+      es: Columna sense nom (p83-t1 col9)
+      en: Columna sense nom (p83-t1 col9)
+      fr: Columna sense nom (p83-t1 col9)
+    origen: valor
+    revisar: 'proposada per genera_config (G12 p83-t1 «col9»; nom: provisional)'
+  g12_p84_t1_col9:
+    noms:
+      es: Columna sense nom (p84-t1 col9)
+      en: Columna sense nom (p84-t1 col9)
+      fr: Columna sense nom (p84-t1 col9)
+    origen: valor
+    revisar: 'proposada per genera_config (G12 p84-t1 «col9»; nom: provisional)'
+  cistella:
+    noms:
+      es: Cestas
+      en: Baskets
+      fr: Paniers
+    origen: valor
+    icona: cistella
+    revisar: 'proposada per genera_config (G12 p87-t1 «cistella»; nom: simbologia del grup)'
+  g12_p87_t1_col9:
+    noms:
+      es: Columna sense nom (p87-t1 col9)
+      en: Columna sense nom (p87-t1 col9)
+      fr: Columna sense nom (p87-t1 col9)
+    origen: valor
+    revisar: 'proposada per genera_config (G12 p87-t1 «col9»; nom: provisional)'
+  g12_p88_t1_col9:
+    noms:
+      es: Columna sense nom (p88-t1 col9)
+      en: Columna sense nom (p88-t1 col9)
+      fr: Columna sense nom (p88-t1 col9)
+    origen: valor
+    revisar: 'proposada per genera_config (G12 p88-t1 «col9»; nom: provisional)'
+  ampolles_75cl:
+    noms:
+      es: Botellas 75 cl
+      en: 75 cl bottles
+      fr: Bouteilles 75 cl
+    origen: valor
+    revisar: 'proposada per genera_config (G12 p57-t1 «col7»; nom: noms-columnes.yaml)'
+  prestatge:
+    noms:
+      es: Estantes
+      en: Shelves
+      fr: Étagères
+    origen: valor
+    icona: prestatge
+    revisar: 'proposada per genera_config (G13 p07-t2 «prestatge»; nom: simbologia del grup)'
+  dosificador_sabo:
+    noms:
+      es: Dosificador
+      en: Dispenser
+      fr: Distributeur
+    origen: valor
+    icona: dosificador_sabo
+    revisar: 'proposada per genera_config (G13 p24-t3 «dosificador_sabo»; nom: simbologia del grup)'
+  aixeta:
+    noms:
+      es: Grifo gerontológico
+      en: Gerontological tap
+      fr: Robinet gérontologique
+    origen: valor
+    icona: aixeta
+    revisar: 'proposada per genera_config (G13 p24-t3 «aixeta»; nom: simbologia del grup)'
+  dosificador:
+    noms:
+      es: Grifo con pulsador
+      en: Push-button tap
+      fr: Robinet à bouton
+    origen: valor
+    icona: dosificador
+    revisar: 'proposada per genera_config (G13 p29-t1 «dosificador»; nom: simbologia del grup)'
+  temps_safata:
+    noms:
+      es: Cestas por hora
+      en: Baskets per hour
+      fr: Paniers par heure
+    origen: valor
+    icona: temps_safata
+    revisar: 'proposada per genera_config (G13 p33-t2 «temps_safata»; nom: simbologia del grup)'
+  cicle_aigua:
+    noms:
+      es: Consumo de agua
+      en: Water consumption
+      fr: Consommation d’eau
+    origen: valor
+    icona: cicle_aigua
+    revisar: 'proposada per genera_config (G13 p33-t2 «cicle_aigua»; nom: simbologia del grup)'
+  condensacio_assecat:
+    noms:
+      es: Bomba de desagüe
+      en: Drain pump
+      fr: Pompe de vidange
+    origen: valor
+    icona: condensacio_assecat
+    revisar: 'proposada per genera_config (G13 p33-t2 «condensacio_assecat»; nom: simbologia del grup)'
+  dimensions_safata_mm:
+    noms:
+      es: Dimensiones cesta
+      en: Basket dimensions
+      fr: Dimensions du panier
+    origen: valor
+    icona: dimensions_safata_mm
+    revisar: 'proposada per genera_config (G13 p33-t2 «dimensions_safata_mm»; nom: simbologia del grup)'
+  g13_p43_t2_col1:
+    noms:
+      es: Columna sense nom (p43-t2 col1)
+      en: Columna sense nom (p43-t2 col1)
+      fr: Columna sense nom (p43-t2 col1)
+    origen: valor
+    revisar: 'proposada per genera_config (G13 p43-t2 «col1»; nom: provisional)'
+  g13_p44_t2_col1:
+    noms:
+      es: Columna sense nom (p44-t2 col1)
+      en: Columna sense nom (p44-t2 col1)
+      fr: Columna sense nom (p44-t2 col1)
+    origen: valor
+    revisar: 'proposada per genera_config (G13 p44-t2 «col1»; nom: provisional)'
+  sortida:
+    noms:
+      es: Ø de salida
+      en: Outlet Ø
+      fr: Ø de sortie
+    origen: valor
+    icona: sortida
+    revisar: 'proposada per genera_config (G13 p64-t1 «sortida»; nom: simbologia del grup)'
+  sortida_2:
+    noms:
+      es: Ø de salida (2)
+      en: Outlet Ø (2)
+      fr: Ø de sortie (2)
+    origen: valor
+    icona: sortida
+    revisar: 'proposada per genera_config (G13 p64-t1 «sortida_2»; nom: simbologia del grup)'
+  cubeta_trapezi:
+    noms:
+      es: Capacidad de platos
+      en: Capacity dishes
+      fr: Plats de capacité
+    origen: valor
+    icona: cubeta_trapezi
+    revisar: 'proposada per genera_config (G13 p67-t1 «cubeta_trapezi»; nom: simbologia del grup)'
+  muntatge:
+    noms:
+      es: Montaje incluido
+      en: Assembly included
+      fr: Montage inclus
+    origen: valor
+    icona: muntatge
+    revisar: 'proposada per genera_config (G14 p19-t4 «muntatge»; nom: noms-columnes.yaml)'
+  mesures_2:
+    noms:
+      es: Medidas (2)
+      en: Dimensions (2)
+      fr: Dimensions (2)
+    origen: valor
+    icona: mesures
+    revisar: 'proposada per genera_config (G14 p27-t1 «mesures_2»; nom: noms-columnes.yaml)'
+  distancia:
+    noms:
+      es: Espesor
+      en: Thickness
+      fr: Epaisseur
+    origen: valor
+    icona: distancia
+    revisar: 'proposada per genera_config (G14 p36-t1 «distancia»; nom: simbologia del grup)'
+  junta_goma:
+    noms:
+      es: Junta de goma
+      en: Rubber gasket
+      fr: Joint en caoutchouc
+    origen: valor
+    icona: junta_goma
+    revisar: 'proposada per genera_config (G14 p38-t2 «junta_goma»; nom: noms-columnes.yaml)'
+  muntants:
+    noms:
+      es: Montantes
+      en: Uprights
+      fr: Montants
+    origen: valor
+    revisar: 'proposada per genera_config (G14 p47-t1 «muntants»; nom: noms-columnes.yaml)'
+  estants:
+    noms:
+      es: Estantes
+      en: Shelves
+      fr: Étagères
+    origen: valor
+    revisar: 'proposada per genera_config (G14 p47-t1 «estants»; nom: noms-columnes.yaml)'
+  prestatge_mural:
+    noms:
+      es: Estante mural
+      en: Wall shelf
+      fr: Étagère murale
+    origen: valor
+    icona: prestatge_mural
+    revisar: 'proposada per genera_config (G14 p53-t1 «prestatge_mural»; nom: noms-columnes.yaml)'
+  g14_p59_t1_col3:
+    noms:
+      es: ''
+      en: ''
+      fr: Ø
+    origen: valor
+    revisar: 'proposada per genera_config (G14 p59-t1 «col3»; nom: capçalera del .pub)'
+  regulacio_alcada:
+    noms:
+      es: Distancia entre platos
+      en: Distance between plates
+      fr: Distance entre plats
+    origen: valor
+    icona: regulacio_alcada
+    revisar: 'proposada per genera_config (G14 p59-t1 «regulacio_alcada»; nom: simbologia del grup)'
+  rodes:
+    noms:
+      es: Ruedas
+      en: Wheels
+      fr: Roues
+    origen: valor
+    icona: rodes
+    revisar: 'proposada per genera_config (G14 p59-t1 «rodes»; nom: simbologia del grup)'
+  carrega_maxima:
+    noms:
+      es: Carga máxima
+      en: Maximum load
+      fr: Charge maximale
+    origen: valor
+    icona: carrega_maxima
+    revisar: 'proposada per genera_config (G14 p61-t2 «carrega_maxima»; nom: simbologia del grup)'
+  g14_p66_t2_col3:
+    noms:
+      es: Columna sense nom (p66-t2 col3)
+      en: Columna sense nom (p66-t2 col3)
+      fr: Columna sense nom (p66-t2 col3)
+    origen: valor
+    revisar: 'proposada per genera_config (G14 p66-t2 «col3»; nom: provisional)'
+  g14_p66_t2_col4:
+    noms:
+      es: ''
+      en: ''
+      fr: Ø
+    origen: valor
+    revisar: 'proposada per genera_config (G14 p66-t2 «col4»; nom: capçalera del .pub)'
+  g14_p67_t2_col4:
+    noms:
+      es: PARA MESA
+      en: E FOR TABLE
+      fr: F POUR TABLE
+    origen: valor
+    revisar: 'proposada per genera_config (G14 p67-t2 «col4»; nom: capçalera del .pub)'
+  diametre_plats:
+    noms:
+      es: Ø platos
+      en: Plate Ø
+      fr: Ø assiettes
+    origen: valor
+    revisar: 'proposada per genera_config (G14 p59-t1 «col3»; nom: noms-columnes.yaml)'
+  llum_2:
+    noms:
+      es: Calor
+      en: Heat
+      fr: Chaleur
+    origen: valor
+    icona: llum
+    revisar: 'proposada per genera_config (G15 p21-t2 «llum_2»; nom: simbologia del grup)'
+  denominacio:
+    noms:
+      es: Denominación
+      en: Denomination
+      fr: Dénomination
+    origen: valor
+    revisar: 'proposada per genera_config (G15 p75-t2 «col5»; nom: noms-columnes.yaml)'
+  denominacio_2:
+    noms:
+      es: Denominación (2)
+      en: Denomination (2)
+      fr: Dénomination (2)
+    origen: valor
+    revisar: 'proposada per genera_config (G15 p75-t2 «col6»; nom: noms-columnes.yaml)'
+  velocitat:
+    noms:
+      es: R.p.m.
+      en: R.p.m.
+      fr: R.p.m.
+    origen: valor
+    icona: velocitat
+    revisar: 'proposada per genera_config (G16 p06-t2 «velocitat»; nom: simbologia del grup)'
+  longitud_barra:
+    noms:
+      es: Longitud triturador
+      en: Crusher length
+      fr: Longueur du broyeur
+    origen: valor
+    icona: longitud_barra
+    revisar: 'proposada per genera_config (G16 p06-t2 «longitud_barra»; nom: noms-columnes.yaml)'
+  immersio_mm:
+    noms:
+      es: Inmersión máxima
+      en: Maximum immersion
+      fr: Immersion maximale
+    origen: valor
+    icona: immersio_mm
+    revisar: 'proposada per genera_config (G16 p06-t2 «immersio_mm»; nom: simbologia del grup)'
+  batedora:
+    noms:
+      es: Longitud batidora
+      en: Whisk length
+      fr: Longueur du batteur
+    origen: valor
+    icona: batedora
+    revisar: 'proposada per genera_config (G16 p07-t1 «batedora»; nom: noms-columnes.yaml)'
+  diametre_alcada:
+    noms:
+      es: Ø disco de corte
+      en: Ø cutting disc
+      fr: Ø disque de coupe
+    origen: valor
+    icona: diametre_alcada
+    revisar: 'proposada per genera_config (G16 p09-t1 «diametre_alcada»; nom: simbologia del grup)'
+  dimensions_cubeta:
+    noms:
+      es: Medidas cubeta
+      en: Tank dimensions
+      fr: Dimensions du bac
+    origen: valor
+    icona: dimensions_cubeta
+    revisar: 'proposada per genera_config (G16 p13-t1 «dimensions_cubeta»; nom: noms-columnes.yaml)'
+  diametre:
+    noms:
+      es: Diámetro
+      en: Diameter
+      fr: Diamètre
+    origen: valor
+    icona: diametre
+    revisar: 'proposada per genera_config (G16 p19-t2 «diametre»; nom: noms-columnes.yaml)'
+  pedal:
+    noms:
+      es: Pedal
+      en: Pedal
+      fr: Pédale
+    origen: valor
+    icona: pedal
+    revisar: 'proposada per genera_config (G16 p19-t2 «pedal»; nom: noms-columnes.yaml)'
+  produccio_kg_h:
+    noms:
+      es: Producción horaria
+      en: Hourly production
+      fr: Production horaire
+    origen: valor
+    icona: produccio_kg_h
+    revisar: 'proposada per genera_config (G16 p20-t1 «produccio_kg_h»; nom: simbologia del grup)'
+  dot_kitdiscr:
+    noms:
+      es: Kit de discos
+      en: Disc kit
+      fr: Kit de disques
+    origen: valor
+    revisar: 'proposada per genera_config (G16 p20-t1 «dot_kitdiscr»; nom: noms-columnes.yaml)'
+  entrada:
+    noms:
+      es: Ø de entrada
+      en: Inlet Ø
+      fr: Ø d’entrée
+    origen: valor
+    icona: entrada
+    revisar: 'proposada per genera_config (G16 p24-t1 «entrada»; nom: simbologia del grup)'
+  serra_cinta:
+    noms:
+      es: Largo sierra de cinta
+      en: Long band saw
+      fr: Longue scie à ruban
+    origen: valor
+    icona: serra_cinta
+    revisar: 'proposada per genera_config (G16 p25-t1 «serra_cinta»; nom: simbologia del grup)'
+  kg:
+    noms:
+      es: Kg
+      en: Kg
+      fr: Kg
+    origen: valor
+    revisar: 'proposada per genera_config (G16 p27-t2 «kg»; nom: noms-columnes.yaml)'
+  tall:
+    noms:
+      es: Corte
+      en: Cut
+      fr: Coupe
+    origen: valor
+    icona: tall
+    revisar: 'proposada per genera_config (G16 p30-t2 «tall»; nom: noms-columnes.yaml)'
+  magnetr_n:
+    noms:
+      es: Magnetrón
+      en: Magnetron
+      fr: Magnétron
+    origen: valor
+    revisar: 'proposada per genera_config (G16 p34-t2 «magnetr_n»; nom: noms-columnes.yaml)'
+  altura_mm:
+    noms:
+      es: Altura (mm)
+      en: Height (mm)
+      fr: Hauteur (mm)
+    origen: valor
+    revisar: 'proposada per genera_config (G16 p40-t4 «col1»; nom: noms-columnes.yaml)'
+taules:
+  g8:p51-t4:
+    col1: material
+  g8:p51-t5:
+    col1: unitats
+  g11:p30-t1:
+    col5: g11_p30_t1_col5
+  g11:p31-t1:
+    col5: g11_p31_t1_col5
+  g11:p36-t2:
+    col3: g11_p36_t2_col3
+  g11:p37-t4:
+    col3: g11_p37_t4_col3
+  g11:p40-t2:
+    col5: g11_p40_t2_col5
+  g11:p43-t2:
+    col5: g11_p43_t2_col5
+  g11:p46-t1:
+    col3: g11_p46_t1_col3
+    col7: g11_p46_t1_col7
+  g11:p47-t1:
+    col3: g11_p47_t1_col3
+    col7: g11_p47_t1_col7
+  g11:p76-t1:
+    col6: g11_p76_t1_col6
+    col9: g11_p76_t1_col9
+  g11:p85-t1:
+    col9: g11_p85_t1_col9
+  g11:p92-t1:
+    col5: g11_p92_t1_col5
+  g11:p95-t2:
+    col3: g11_p95_t2_col3
+  g11:p96-t2:
+    col3: g11_p96_t2_col3
+  g11:p128-t1:
+    col2: g11_p128_t1_col2
+  g11:p129-t2:
+    col2: g11_p129_t2_col2
+  g11:p130-t2:
+    col2: g11_p130_t2_col2
+  g11:p132-t1:
+    col2: g11_p132_t1_col2
+  g11:p135-t1:
+    col2: g11_p135_t1_col2
+  g11:p136-t1:
+    col2: g11_p136_t1_col2
+  g11:p137-t1:
+    col2: g11_p137_t1_col2
+  g12:p57-t1:
+    col7: g12_p57_t1_col7
+  g12:p58-t1:
+    col8: g12_p58_t1_col8
+  g12:p59-t1:
+    col7: g12_p59_t1_col7
+  g12:p60-t1:
+    col7: g12_p60_t1_col7
+  g12:p61-t1:
+    col7: g12_p61_t1_col7
+  g12:p62-t1:
+    col7: g12_p62_t1_col7
+  g12:p83-t1:
+    col9: g12_p83_t1_col9
+  g12:p84-t1:
+    col9: g12_p84_t1_col9
+  g12:p87-t1:
+    col9: g12_p87_t1_col9
+  g12:p88-t1:
+    col9: g12_p88_t1_col9
+  g13:p43-t2:
+    col1: g13_p43_t2_col1
+  g13:p44-t2:
+    col1: g13_p44_t2_col1
+  g14:p59-t1:
+    col3: g14_p59_t1_col3
+  g14:p66-t2:
+    col3: g14_p66_t2_col3
+    col4: g14_p66_t2_col4
+  g14:p67-t2:
+    col4: g14_p67_t2_col4
+  g15:p75-t2:
+    col5: denominacio
+    col6: denominacio_2
+  g16:p40-t4:
+    col1: altura_mm
+claus: {}

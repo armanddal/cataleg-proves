@@ -1,0 +1,3593 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo Tarifa — EURAST</title>
+  <link rel="icon" type="image/png" href="favicon.ico">
+  <link rel="apple-touch-icon" href="logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/page-flip@2.0.7/dist/js/page-flip.browser.js"
+          integrity="sha384-L4eWrYFdqQ+LoGA0MMuqLqzV13x7SKkQaqacy4MED8e815dS37tTKlO/6xBEUpZW"
+          crossorigin="anonymous"></script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --primary:   #ED692C;
+      --primary-h: #d45a1e;
+      --surface:   #FAF6F5;
+      --text:      #333436;
+      --border:    #E2DCD9;
+      --grey-lt:   #EBECED;
+      --grey-md:   #A9A9AA;
+    }
+
+    html, body {
+      height: 100%;
+      font-family: 'Montserrat', -apple-system, sans-serif;
+      background: var(--surface);
+      color: var(--text);
+      overflow: hidden;
+    }
+
+    /* ── HEADER ── */
+    header {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      height: 52px;
+      background: #fff;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 16px;
+      z-index: 200;
+      box-shadow: 0 1px 6px rgba(0,0,0,0.07);
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-shrink: 0;
+      text-decoration: none;
+      color: inherit;
+    }
+    .logo-img {
+      height: 36px;
+      width: auto;
+      display: block;
+    }
+    .logo-label {
+      font-size: 12px;
+      font-weight: 500;
+      color: var(--grey-md);
+      white-space: nowrap;
+    }
+
+    .toolbar {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .divider { width: 1px; height: 24px; background: var(--border); }
+
+    .ctrl-group {
+      display: flex;
+      align-items: center;
+      gap: 3px;
+      background: var(--grey-lt);
+      border: 1px solid var(--border);
+      border-radius: 7px;
+      padding: 3px 7px;
+    }
+    .ctrl-group button {
+      background: none; border: none;
+      color: var(--text);
+      font-size: 17px; line-height: 1;
+      padding: 2px 5px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: all .1s;
+      font-family: inherit;
+      font-weight: 600;
+    }
+    .ctrl-group button:hover { background: var(--primary); color: #fff; }
+    .ctrl-group button:disabled { opacity: .3; cursor: default; }
+    .ctrl-group input {
+      width: 52px;
+      background: #fff;
+      border: 1px solid var(--border);
+      color: var(--text);
+      text-align: center;
+      border-radius: 4px;
+      padding: 2px 4px;
+      font-size: 12px;
+      font-family: inherit;
+      font-weight: 600;
+    }
+    .ctrl-group input::-webkit-outer-spin-button,
+    .ctrl-group input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+    .ctrl-group input[type=number] { -moz-appearance: textfield; }
+    .ctrl-group span {
+      font-size: 12px;
+      color: var(--grey-md);
+      font-weight: 500;
+    }
+
+    .btn-dl {
+      background: var(--primary);
+      border: none;
+      color: #fff;
+      padding: 7px 14px;
+      border-radius: 7px;
+      font-size: 12px;
+      font-family: inherit;
+      font-weight: 600;
+      cursor: pointer;
+      text-decoration: none;
+      white-space: nowrap;
+      transition: background .15s;
+    }
+    .btn-dl:hover { background: var(--primary-h); }
+
+    .btn-contact {
+      background: none;
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 7px 14px;
+      border-radius: 7px;
+      font-size: 12px;
+      font-family: inherit;
+      font-weight: 600;
+      cursor: pointer;
+      text-decoration: none;
+      white-space: nowrap;
+      transition: all .15s;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .btn-contact:hover { background: var(--grey-lt); border-color: var(--grey-md); }
+
+    /* ── LAYOUT ── */
+    .layout {
+      position: fixed;
+      top: 52px; left: 0; right: 0; bottom: 0;
+      display: flex;
+    }
+
+    /* ── SIDEBAR ── */
+    .sidebar {
+      width: 230px;
+      flex-shrink: 0;
+      background: #fff;
+      border-right: 1px solid var(--border);
+      overflow: visible;          /* let the group dropdown overflow */
+      display: flex;
+      flex-direction: column;
+    }
+    /* navigation block at the top of the sidebar (page + group nav) */
+    .side-nav {
+      flex-shrink: 0;
+      padding: 10px 10px 12px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .side-pagenav { width: 100%; justify-content: center; }
+    .side-pagenav #pageInput { width: 46px; }
+    .side-nav .group-nav-wrap { width: 100%; }
+    .side-nav .group-pill { width: 100%; justify-content: center; }
+    /* groups index — the only scrolling part */
+    .side-groups {
+      flex: 1;
+      overflow-y: auto;
+      overflow-x: hidden;
+      padding: 10px 8px 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+    .side-groups::-webkit-scrollbar { width: 3px; }
+    .side-groups::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+    /* footer (contact) */
+    .side-footer {
+      flex-shrink: 0;
+      padding: 10px;
+      border-top: 1px solid var(--border);
+    }
+    .side-footer .btn-contact { width: 100%; justify-content: center; }
+
+    /* ── LANGUAGE TABS ── */
+    .lang-tabs {
+      display: flex;
+      gap: 3px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 6px;
+    }
+    .lang-btn {
+      flex: 1;
+      padding: 5px 0;
+      border: 1px solid var(--border);
+      background: none;
+      border-radius: 5px;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: .06em;
+      color: var(--grey-md);
+      cursor: pointer;
+      transition: all .12s;
+      font-family: inherit;
+    }
+    .lang-btn:hover { background: var(--grey-lt); color: var(--text); }
+    .lang-btn.active { background: var(--primary); color: #fff; border-color: var(--primary); }
+
+    .nav-label {
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: .1em;
+      color: var(--grey-md);
+      text-transform: uppercase;
+      padding: 0 6px 6px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 4px;
+    }
+
+    .nav-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 7px 8px;
+      border-radius: 7px;
+      cursor: pointer;
+      transition: background .12s;
+      border: none;
+      background: none;
+      text-align: left;
+      width: 100%;
+    }
+    .nav-item:hover { background: var(--grey-lt); }
+    .nav-item.active { background: rgba(237,105,44,.10); }
+    .nav-item.active .nav-badge { background: var(--primary); color: #fff; }
+    .nav-item.active .nav-name { color: var(--primary); font-weight: 700; }
+
+    .nav-badge {
+      flex-shrink: 0;
+      background: var(--grey-lt);
+      color: var(--grey-md);
+      font-size: 9px;
+      font-weight: 800;
+      letter-spacing: .04em;
+      padding: 2px 5px;
+      border-radius: 4px;
+      min-width: 28px;
+      text-align: center;
+      transition: background .12s, color .12s;
+    }
+    .nav-name {
+      font-size: 11px;
+      font-weight: 500;
+      color: var(--text);
+      line-height: 1.3;
+      transition: color .12s;
+    }
+
+    /* ── VIEWER ── */
+    .viewer {
+      flex: 1;
+      overflow-y: auto;
+      overflow-x: hidden;
+      background: var(--surface);
+      -webkit-overflow-scrolling: touch;
+      will-change: scroll-position;
+    }
+    .viewer::-webkit-scrollbar { width: 7px; }
+    .viewer::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+
+    .page-slot {
+      display: block;
+      margin: 0 auto 12px;
+      background: #fff;
+      box-shadow: 0 2px 12px rgba(57,72,90,0.10), 0 0 0 1px rgba(0,0,0,0.04);
+      position: relative;
+      contain: layout;
+    }
+    /* 2-up (two pages side by side) layout for the normal scroll view */
+    .viewer.two-up {
+      display: flex;
+      flex-wrap: wrap;
+      align-content: flex-start;
+      justify-content: center;
+      gap: 18px 30px;   /* row-gap, column-gap (gap = central separation) */
+      padding: 18px;
+    }
+    .viewer.two-up .page-slot { margin: 0; }
+    .page-slot canvas {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .textLayer {
+      position: absolute;
+      inset: 0;
+      overflow: visible;
+      color: transparent;
+      line-height: 1;
+      transform-origin: 0 0;
+      pointer-events: all;
+    }
+    .textLayer span {
+      color: transparent;
+      position: absolute;
+      white-space: pre;
+      transform-origin: 0% 0%;
+      cursor: text;
+      pointer-events: all;
+      user-select: text;
+      /* Expand hit area: vertical ±6px (not affected by scaleX) + 0.4em rightward.
+         margin-top compensates the padding-top so visual text doesn't shift. */
+      padding-top: 8px;
+      margin-top: -8px;
+      padding-bottom: 8px;
+      padding-right: 0.6em;
+    }
+    .textLayer span::before {
+      content: '';
+      position: absolute;
+      left: -20px;
+      width: 20px;
+      top: 0;
+      bottom: 0;
+      cursor: text;
+    }
+    .textLayer ::selection { background: rgba(0, 100, 255, 0.25); }
+    /* ref trobada per la cerca, ressaltada sobre la pàgina. Una sola caixa per
+       aparició (no un fons per span): pdf.js parteix la ref en diversos spans
+       i els fons translúcids se solaparien com dues seleccions. */
+    .textLayer .ref-hl-box {
+      position: absolute; pointer-events: none;
+      background: rgba(237,105,44,.42);
+      border-radius: 3px;
+      animation: refTextPulse 0.9s ease-in-out 2;
+    }
+    @keyframes refTextPulse {
+      0%, 100% { background: rgba(237,105,44,.42); }
+      50%      { background: rgba(237,105,44,.72); }
+    }
+
+    /* ── PAGE LOADER (per slot) ── */
+    .page-loader {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: #fff;
+      gap: 14px;
+      pointer-events: none;
+    }
+    .page-loader-logo {
+      height: 40px;
+      width: auto;
+      opacity: 0;
+      animation: plsFadeIn .6s ease forwards, plsPulse 2s ease-in-out 0.6s infinite;
+    }
+    @keyframes plsFadeIn {
+      to { opacity: .7; }
+    }
+    @keyframes plsPulse {
+      0%, 100% { opacity: .4; }
+      50%       { opacity: .9; }
+    }
+    .page-loader-bar {
+      width: 64px;
+      height: 3px;
+      background: var(--grey-lt);
+      border-radius: 2px;
+      overflow: hidden;
+      position: relative;
+    }
+    .page-loader-bar::after {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 40px;
+      height: 100%;
+      background: var(--primary);
+      border-radius: 2px;
+      animation: plsSlide 1s ease-in-out infinite;
+    }
+    @keyframes plsSlide {
+      0%   { transform: translateX(-40px); }
+      100% { transform: translateX(64px); }
+    }
+
+    /* ── FULL-SCREEN LOADING OVERLAY ── */
+    #loadingOverlay {
+      position: fixed;
+      inset: 0;
+      background: var(--surface);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 999;
+      gap: 16px;
+      transition: opacity .4s;
+    }
+    #loadingOverlay.hidden { opacity: 0; pointer-events: none; }
+    #errorOverlay {
+      position: fixed; inset: 0; background: var(--surface);
+      display: flex; flex-direction: column; align-items: center;
+      justify-content: center; z-index: 1000; gap: 16px; padding: 24px;
+      text-align: center;
+    }
+    #errorOverlay[hidden] { display: none !important; }
+    #errorOverlay .err-icon { font-size: 40px; }
+    #errorOverlay .err-msg { font-size: 15px; font-weight: 600; color: var(--text); max-width: 360px; }
+    #errorOverlay .err-sub { font-size: 12px; color: var(--grey-md); max-width: 360px; }
+    #errorOverlay .err-btn { background: var(--primary); color: #fff; border: none;
+      border-radius: 8px; padding: 10px 24px; font-size: 14px; font-weight: 600;
+      cursor: pointer; margin-top: 8px; }
+
+    .loading-logo {
+      height: 64px;
+      width: auto;
+      animation: logoReveal .6s cubic-bezier(0.16, 1, 0.3, 1) both,
+                 logoBreath 2.8s ease-in-out .6s infinite;
+    }
+    @keyframes logoReveal {
+      from { opacity: 0; transform: scale(0.93) translateY(4px); }
+      to   { opacity: 1; transform: scale(1) translateY(0); }
+    }
+    @keyframes logoBreath {
+      0%, 100% { transform: scale(1); }
+      50%       { transform: scale(1.025); }
+    }
+    .loading-ring-wrap {
+      position: relative;
+      width: 72px; height: 72px;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .loading-ring {
+      position: absolute; inset: 0;
+      animation: ringSlowSpin 5s linear infinite;
+      transform-origin: center;
+    }
+    @keyframes ringSlowSpin { to { transform: rotate(360deg); } }
+    .ring-track { fill: none; stroke: var(--border); stroke-width: 3; }
+    .ring-fill {
+      fill: none; stroke: var(--primary); stroke-width: 3;
+      stroke-linecap: round;
+      stroke-dasharray: 188.5;
+      stroke-dashoffset: 158.5;
+      transition: stroke-dashoffset .4s ease-out;
+    }
+    .loading-pct {
+      position: relative; z-index: 1;
+      font-size: 12px; font-weight: 700; color: var(--primary);
+      font-variant-numeric: tabular-nums;
+    }
+    .loading-sub { font-size: 12px; color: var(--grey-md); font-weight: 500; }
+    @media (prefers-reduced-motion: reduce) {
+      .loading-logo { animation: none !important; opacity: 1; }
+      .loading-ring { animation: none !important; }
+      .ring-fill { transition: none !important; }
+    }
+
+    /* ── LEAD CAPTURE MODAL ─────────────────────────────────────────── */
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.52);
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+      animation: mOverlayIn .18s ease;
+    }
+    .modal-overlay[hidden] { display: none !important; }
+    @keyframes mOverlayIn { from { opacity: 0; } to { opacity: 1; } }
+
+    .modal-box {
+      background: #fff;
+      border-radius: 18px;
+      padding: 32px 28px 22px;
+      max-width: 390px;
+      width: 100%;
+      box-shadow: 0 24px 64px rgba(0,0,0,0.22);
+      position: relative;
+      animation: mBoxIn .22s cubic-bezier(.34,1.2,.64,1);
+    }
+    @keyframes mBoxIn {
+      from { transform: translateY(18px) scale(.97); opacity: 0; }
+      to   { transform: translateY(0) scale(1);      opacity: 1; }
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 14px; right: 16px;
+      background: none; border: none;
+      font-size: 20px; line-height: 1;
+      color: var(--grey-md);
+      cursor: pointer;
+      padding: 4px 7px;
+      border-radius: 6px;
+      transition: all .12s;
+      font-family: inherit;
+    }
+    .modal-close:hover { background: var(--grey-lt); color: var(--text); }
+
+    .modal-logo  { height: 30px; width: auto; display: block; margin-bottom: 18px; }
+    .modal-title { font-size: 17px; font-weight: 700; color: var(--text); margin-bottom: 5px; line-height: 1.3; }
+    .modal-sub   { font-size: 12px; color: var(--grey-md); font-weight: 500; margin-bottom: 20px; line-height: 1.55; }
+
+    .form-field { margin-bottom: 11px; }
+    .form-field label {
+      display: block;
+      font-size: 11px; font-weight: 600;
+      color: var(--text);
+      margin-bottom: 5px;
+      letter-spacing: .02em;
+    }
+    .form-field input,
+    .form-field select {
+      width: 100%;
+      padding: 9px 11px;
+      border: 1.5px solid var(--border);
+      border-radius: 8px;
+      font-size: 13px;
+      font-family: inherit;
+      color: var(--text);
+      background: #fff;
+      outline: none;
+      transition: border-color .12s;
+      -webkit-appearance: none;
+      appearance: none;
+    }
+    .form-field input:focus,
+    .form-field select:focus { border-color: var(--primary); }
+    .form-field input::placeholder { color: var(--grey-md); font-weight: 400; }
+    .form-field select { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23A9A9AA' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 11px center; padding-right: 30px; }
+
+    /* country combobox (type-to-search) */
+    .combo-field { position: relative; }
+    .combo-list {
+      position: absolute; top: 100%; left: 0; right: 0;
+      margin-top: 4px;
+      background: #fff;
+      border: 1.5px solid var(--border);
+      border-radius: 8px;
+      max-height: 210px; overflow-y: auto;
+      z-index: 1010;
+      box-shadow: 0 10px 28px rgba(0,0,0,0.16);
+    }
+    .combo-list[hidden] { display: none; }
+    .combo-item {
+      padding: 9px 12px; cursor: pointer; font-size: 13px; color: var(--text);
+      display: flex; align-items: center; gap: 8px;
+    }
+    .combo-item:hover, .combo-item.active { background: rgba(237,105,44,.10); }
+    .combo-empty { padding: 9px 12px; font-size: 12px; color: var(--grey-md); }
+
+    .btn-modal-submit {
+      width: 100%; padding: 12px;
+      background: var(--primary); color: #fff;
+      border: none; border-radius: 9px;
+      font-size: 13px; font-weight: 700;
+      font-family: inherit; cursor: pointer;
+      margin-top: 10px;
+      transition: background .15s;
+    }
+    .btn-modal-submit:hover:not(:disabled) { background: var(--primary-h); }
+    .btn-modal-submit:disabled {
+      background: var(--grey-lt);
+      color: var(--grey-md);
+      cursor: not-allowed;
+    }
+
+    /* privacy checkbox */
+    .form-privacy { margin-top: 8px; }
+    .privacy-label {
+      display: flex; gap: 9px; align-items: flex-start;
+      cursor: pointer;
+    }
+    .privacy-label input[type="checkbox"] {
+      flex-shrink: 0;
+      width: 16px; height: 16px;
+      margin-top: 1px;
+      accent-color: var(--primary);
+      cursor: pointer;
+      appearance: auto;
+      -webkit-appearance: checkbox;
+    }
+    .privacy-label span {
+      font-size: 11px; color: var(--grey-md);
+      font-weight: 500; line-height: 1.5;
+    }
+    .privacy-label a { color: var(--primary); text-underline-offset: 2px; }
+    .privacy-label a:hover { text-decoration: none; }
+
+    /* language selector (header) */
+    .lang-select {
+      height: 32px;
+      border: 1px solid var(--border);
+      background: var(--grey-lt);
+      color: var(--text);
+      font-family: inherit;
+      font-size: 11px; font-weight: 700;
+      letter-spacing: .07em;
+      padding: 0 22px 0 9px;
+      border-radius: 7px;
+      cursor: pointer;
+      -webkit-appearance: none; appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='7' viewBox='0 0 10 7'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%23A9A9AA' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 7px center;
+      outline: none;
+      transition: all .12s;
+    }
+    .lang-select:hover { background-color: var(--border); }
+
+    /* mobile menu button (hidden on desktop) */
+    .btn-menu {
+      display: none;
+      background: none; border: none;
+      font-size: 20px; line-height: 1;
+      color: var(--text); cursor: pointer;
+      padding: 4px 8px; border-radius: 6px;
+      transition: background .12s; font-family: inherit;
+    }
+    .btn-menu:hover { background: var(--grey-lt); }
+
+    /* sidebar backdrop (mobile) */
+    #sidebarBackdrop {
+      display: none; position: fixed; inset: 0;
+      z-index: 99; background: rgba(0,0,0,0.32);
+    }
+
+    /* ── MOBILE ─────────────────────────────────────────────────── */
+    @media (max-width: 640px) {
+      .logo-label { display: none; }
+      #zoomGroup { display: none; }
+      #btnPages { display: none; }
+      #btnFlipMode { display: none; }   /* flip book is desktop-only */
+      #dl-label  { display: none; }
+      .btn-dl    { padding: 7px 11px; letter-spacing: .02em; }
+      .toolbar   { gap: 4px; }
+      .btn-menu { display: flex; align-items: center; }
+
+      .sidebar {
+        position: fixed;
+        top: 52px; left: 0; bottom: 0;
+        width: 250px;
+        z-index: 100;
+        transform: translateX(-100%);
+        transition: transform .25s ease;
+        box-shadow: 4px 0 24px rgba(0,0,0,0.18);
+      }
+      .viewer { width: 100%; }
+      .sidebar.open { transform: translateX(0); }
+      #sidebarBackdrop.open { display: block; }
+      header { padding: 0 8px; }
+      .logo-img { height: 28px; }
+      .hsearch { flex: 1 1 70px; min-width: 64px; max-width: none; margin: 0 6px; height: 34px; }
+      .search-overlay { width: 96vw; }
+
+      .modal-overlay { align-items: flex-end; padding: 0; }
+      .modal-box {
+        border-radius: 20px 20px 0 0;
+        padding: 24px 20px 32px;
+        max-width: 100%;
+        position: fixed; bottom: 0; left: 0; right: 0;
+        animation: mBoxMobileIn .25s ease;
+      }
+    }
+    @keyframes mBoxMobileIn {
+      from { transform: translateY(60px); opacity: 0; }
+      to   { transform: translateY(0);    opacity: 1; }
+    }
+
+    /* ── FLIP BOOK ── */
+    .flip-wrap {
+      flex: 1;
+      background: #1e1e1e;
+      position: relative;
+      overflow: auto;
+    }
+    .flip-wrap:not([hidden]) { display: flex; }
+    /* margin:auto centers when it fits and allows scrolling when zoomed */
+    #flipZoom { margin: auto; flex-shrink: 0; overflow: hidden; }
+    #flipSize { position: relative; transform-origin: top left; }
+    /* central separation between left/right page in the 2-page flip spread */
+    #flipSize.spread::after {
+      content: '';
+      position: absolute; top: 0; bottom: 0; left: 50%;
+      width: 2px; transform: translateX(-1px);
+      background: rgba(0,0,0,0.18);
+      box-shadow: 0 0 22px 9px rgba(0,0,0,0.28);
+      pointer-events: none; z-index: 4;
+    }
+    #flipBook { position: relative; }
+    .flip-page {
+      background: #fff;
+      overflow: hidden;
+    }
+    .flip-page canvas {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+    .flip-page-loading {
+      position: absolute; inset: 0;
+      display: flex; align-items: center; justify-content: center;
+      background: #fff;
+    }
+    .flip-arrow {
+      position: absolute;
+      top: 50%; transform: translateY(-50%);
+      z-index: 20;
+      background: rgba(255,255,255,0.92);
+      border: none; border-radius: 50%;
+      width: 48px; height: 48px;
+      font-size: 28px; line-height: 1;
+      cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.35);
+      color: #333;
+      transition: all .15s;
+      font-family: inherit;
+    }
+    .flip-arrow:hover { background: #fff; transform: translateY(-50%) scale(1.08); }
+    .flip-arrow-prev { left: 20px; }
+    .flip-arrow-next { right: 20px; }
+
+    .btn-page-view {
+      background: none;
+      border: none;
+      color: var(--grey-md);
+      width: 36px; height: 32px;
+      border-radius: 7px;
+      cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      transition: all .12s; flex-shrink: 0;
+    }
+    .btn-page-view:hover { background: var(--grey-lt); color: var(--text); }
+    /* [hidden] UA rule doesn't apply to SVG elements */
+    .btn-page-view svg[hidden] { display: none; }
+
+    /* ── SUB-PAGE GROUP ── */
+    .group-nav-wrap { position: relative; flex-shrink: 1; min-width: 0; }
+    .group-pill {
+      display: inline-flex; align-items: stretch; gap: 0;
+      background: var(--primary); color: #fff;
+      border-radius: 18px; overflow: hidden;
+      font-size: 12px; font-weight: 700;
+      white-space: nowrap; letter-spacing: 0.01em;
+      max-width: 100%;
+    }
+    .pill-zone-left {
+      display: flex; align-items: center; gap: 5px;
+      padding: 5px 10px 5px 13px;
+      background: none; border: none; color: #fff;
+      cursor: pointer; font-size: 12px; font-weight: 700;
+      font-family: inherit; white-space: nowrap;
+      transition: background 0.12s;
+      min-width: 0; flex-shrink: 1; overflow: hidden;
+    }
+    .pill-zone-left:hover { background: rgba(255,255,255,0.15); }
+    #pillGroupName { overflow: hidden; text-overflow: ellipsis; max-width: 130px; }
+    .pill-zone-divider { width: 1px; background: rgba(255,255,255,0.35); align-self: stretch; margin: 4px 0; flex-shrink: 0; }
+    .pill-zone-right {
+      display: flex; align-items: center; gap: 4px; flex-shrink: 0;
+      padding: 5px 13px 5px 10px;
+      background: rgba(0,0,0,0.15); border-radius: 0 18px 18px 0;
+      cursor: text; transition: background 0.12s;
+    }
+    .pill-zone-right:hover { background: rgba(0,0,0,0.22); }
+    .pill-sep { opacity: 0.5; font-weight: 400; }
+    .pill-chevron { font-size: 9px; opacity: 0.7; }
+    .pill-pg-input {
+      background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.45);
+      border-radius: 4px; color: #fff;
+      font-weight: 700; font-size: 12px; font-family: inherit;
+      width: 26px; text-align: center; padding: 1px 3px; outline: none; cursor: text;
+      -moz-appearance: textfield;
+    }
+    .pill-pg-input::-webkit-inner-spin-button,
+    .pill-pg-input::-webkit-outer-spin-button { -webkit-appearance: none; }
+    .pill-pg-input:focus {
+      background: rgba(255,255,255,0.25); border-color: rgba(255,255,255,0.9);
+      box-shadow: 0 0 0 2px rgba(255,255,255,0.3);
+    }
+
+    #groupDropdown {
+      position: absolute; top: calc(100% + 6px); left: 0;
+      background: #fff; border: 1px solid #e0e0d8;
+      border-radius: 10px; box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+      z-index: 900; min-width: 260px; max-height: 380px; overflow-y: auto;
+      /* Sense max-width, els títols de secció llargs ("COCINAS SOBRE
+         SOPORTE ABIERTO A GAS") feien créixer la caixa fins als ~600px
+         perquè no hi havia amplada fixa on l'ellipsis pogués tallar —
+         al mòbil (barra de 250px) es desbordava fora de pantalla. */
+      max-width: min(300px, calc(100vw - 24px));
+    }
+    .drop-hdr {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 7px 8px 6px 14px; font-size: 11px; font-weight: 700;
+      letter-spacing: 0.07em; text-transform: uppercase; color: #aaa;
+      border-bottom: 1px solid #f0f0ea;
+      position: sticky; top: 0; background: #fff;
+      border-radius: 10px 10px 0 0;
+    }
+    .drop-group-row { display: flex; align-items: center; }
+    .drop-group-item {
+      display: flex; align-items: center; gap: 10px;
+      padding: 7px 14px; cursor: pointer; font-size: 13px;
+      border: none; background: none; flex: 1; text-align: left;
+    }
+    .drop-group-item:hover, .drop-group-item.active { background: #fff5f0; }
+    /* Fons persistent (no només a l'hover) i mida de toc ~28px perquè es
+       vegi d'entrada que és una acció clicable, no una simple decoració. */
+    .drop-group-chevron {
+      background: #f2f2ec; border: none; cursor: pointer;
+      width: 26px; height: 26px; color: #a8a49c; line-height: 1;
+      display: flex; align-items: center; justify-content: center;
+      border-radius: 7px; margin-right: 6px; flex-shrink: 0;
+      transition: color 0.12s, background 0.12s, transform 0.15s;
+    }
+    .drop-group-chevron svg { width: 14px; height: 14px; }
+    .drop-group-chevron:hover { color: var(--primary); background: rgba(232,82,42,0.12); }
+    .drop-group-chevron.open { color: #fff; background: var(--primary); transform: rotate(90deg); }
+    .drop-g-badge {
+      background: var(--primary); color: #fff; border-radius: 4px;
+      font-size: 11px; font-weight: 700; padding: 1px 5px;
+      min-width: 30px; text-align: center; flex-shrink: 0;
+    }
+    .drop-g-badge.dim { background: #e0e0d8; color: #888; }
+    .drop-g-name { flex: 1; color: #333; }
+    .drop-g-pages { font-size: 11px; color: #c0c0b8; }
+    /* ── Salts de secció dins del grup actiu ── */
+    .drop-section-list { border-bottom: 1px solid #f0f0ea; padding-bottom: 3px; }
+    .drop-section-item {
+      display: flex; align-items: center; gap: 8px;
+      padding: 4px 14px 4px 40px; cursor: pointer; font-size: 12px;
+      border: none; background: none; width: 100%; text-align: left;
+      color: #888; text-transform: uppercase; letter-spacing: 0.02em;
+    }
+    .drop-section-item:hover, .drop-section-item.active { background: #fff5f0; }
+    .drop-section-item.active { color: var(--primary); font-weight: 600; }
+    .drop-sec-title {
+      flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+    }
+    .drop-sec-page { font-size: 11px; color: #c0c0b8; flex-shrink: 0; }
+    .drop-section-item.active .drop-sec-page { color: var(--primary); }
+    .drop-close-btn {
+      background: none; border: none; cursor: pointer;
+      font-size: 16px; line-height: 1; color: #bbb;
+      padding: 2px 5px; border-radius: 4px; flex-shrink: 0;
+    }
+    .drop-close-btn:hover { color: #555; background: #f0f0ea; }
+
+    /* ── SEARCH BUTTON ── */
+    .btn-search {
+      background: none; border: 1px solid var(--border);
+      color: var(--grey-md); width: 32px; height: 32px;
+      border-radius: 7px; padding: 0; cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      transition: all .12s; flex-shrink: 0;
+    }
+    .btn-search:hover { background: var(--grey-lt); color: var(--text); }
+    .btn-search.active { background: var(--primary); color: #fff; border-color: var(--primary); }
+
+    /* ── FAVORITES ── */
+    .btn-fav { position: relative; }
+    .btn-fav.has-favs { color: var(--primary); border-color: var(--primary); }
+    .fav-count {
+      position: absolute; top: -6px; right: -6px;
+      background: var(--primary); color: #fff;
+      font-size: 9px; font-weight: 800; line-height: 1;
+      min-width: 15px; height: 15px; padding: 0 3px;
+      border-radius: 8px; display: flex; align-items: center; justify-content: center;
+    }
+    .fav-count[hidden] { display: none; }
+    .fav-hdr {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 2px 2px 10px;
+    }
+    .fav-hdr-title { font-size: 13px; font-weight: 700; color: var(--text); }
+    /* star toggle inside a result row */
+    .fav-star {
+      flex-shrink: 0; cursor: pointer; padding: 3px 4px; margin-left: 4px;
+      color: var(--grey-md); line-height: 1; border-radius: 5px;
+      transition: color .12s, background .12s;
+    }
+    .fav-star svg { display: block; }
+    .fav-star:hover { background: var(--grey-lt); color: var(--primary); }
+    .fav-star.on { color: var(--primary); }
+
+    /* ── REFS PANEL ── */
+    .refs-panel {
+      position: fixed; right: 16px; top: 50%; transform: translateY(-50%);
+      background: rgba(255,255,255,0.97); border: 1px solid #e0e0d8;
+      border-radius: 14px; padding: 10px 8px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      display: flex; flex-direction: column; align-items: stretch; gap: 4px;
+      z-index: 200; max-height: 60vh; overflow-y: auto;
+      backdrop-filter: blur(8px);
+      animation: refsPanelIn 0.18s ease;
+      scrollbar-width: none;
+    }
+    .refs-panel::-webkit-scrollbar { display: none; }
+    @keyframes refsPanelIn {
+      from { opacity: 0; transform: translateY(-50%) translateX(6px); }
+      to   { opacity: 1; transform: translateY(-50%) translateX(0); }
+    }
+    .refs-panel-label {
+      font-size: 8px; font-weight: 800; letter-spacing: 0.1em;
+      color: #c0c0b8; text-transform: uppercase; text-align: center;
+      padding-bottom: 4px; border-bottom: 1px solid #ebebе4;
+      margin-bottom: 2px;
+    }
+    .refs-chips {
+      display: flex; flex-direction: column; gap: 3px;
+    }
+    .ref-chip {
+      display: flex; align-items: center; gap: 2px;
+      background: #f5f5f0; border: 1px solid #e4e4dc;
+      border-radius: 8px; padding: 3px 4px 3px 8px;
+      font-size: 11px; font-family: ui-monospace, 'Cascadia Code', 'SFMono-Regular', monospace; font-weight: 600;
+      color: #333; white-space: nowrap;
+    }
+    /* ref trobada per la cerca: destaca el chip mentre siguem a la pàgina */
+    .ref-chip.hl {
+      background: rgba(232,82,42,0.12);
+      border-color: var(--primary);
+      color: var(--primary);
+      box-shadow: 0 0 0 2px rgba(232,82,42,0.18);
+      animation: refChipPulse 0.9s ease-in-out 2;
+    }
+    @keyframes refChipPulse {
+      0%, 100% { box-shadow: 0 0 0 2px rgba(232,82,42,0.18); }
+      50%      { box-shadow: 0 0 0 6px rgba(232,82,42,0.30); }
+    }
+    .ref-copy-btn, .ref-star-btn {
+      background: none; border: none; cursor: pointer;
+      padding: 2px 3px; color: #c0c0b8; line-height: 1;
+      display: flex; align-items: center; border-radius: 4px;
+      transition: color 0.12s, background 0.12s;
+    }
+    .ref-copy-btn:hover { color: var(--primary); background: rgba(232,82,42,0.08); }
+    .ref-star-btn:hover { color: var(--primary); background: rgba(232,82,42,0.08); }
+    .ref-star-btn.on { color: var(--primary); }
+    /* relació sobretaula ↔ suport ↔ versió muntada */
+    .ref-rel-btn {
+      background: none; border: none; cursor: pointer;
+      padding: 2px 3px; color: #c0c0b8; line-height: 1;
+      display: flex; align-items: center; border-radius: 4px;
+      transition: color 0.12s, background 0.12s, transform 0.15s;
+    }
+    .ref-rel-btn:hover { color: var(--primary); background: rgba(232,82,42,0.08); }
+    .ref-rel-btn.open { color: var(--primary); transform: rotate(90deg); }
+    .ref-rel-list {
+      display: flex; flex-direction: column; gap: 2px;
+      margin: 1px 0 3px 10px; padding-left: 8px;
+      border-left: 2px solid #ede9e2;
+      max-height: 180px; overflow-y: auto;
+    }
+    .ref-rel-row {
+      background: none; border: none; cursor: pointer; text-align: left;
+      padding: 3px 6px; border-radius: 6px; font-family: inherit;
+      transition: background 0.12s;
+    }
+    .ref-rel-row:hover { background: rgba(232,82,42,0.07); }
+    .ref-rel-kind {
+      display: block; font-size: 8px; font-weight: 700; letter-spacing: 0.04em;
+      color: #a8a49c; text-transform: uppercase;
+    }
+    .ref-rel-main {
+      display: block; font-size: 10.5px; font-weight: 600; color: #333;
+      font-family: ui-monospace, 'Cascadia Code', 'SFMono-Regular', monospace;
+      white-space: nowrap;
+    }
+    .ref-rel-main .rel-price { color: var(--primary); font-weight: 700; }
+    .ref-rel-main .rel-page  { color: #a8a49c; font-weight: 500; }
+    .refs-panel[hidden] { display: none; }
+    @media (max-width: 500px) {
+      .refs-panel { right: 8px; max-height: 50vh; }
+    }
+
+    /* ── SEARCH OVERLAY ── */
+    /* always-visible search bar in the header */
+    .hsearch {
+      flex: 1 1 auto;
+      max-width: 600px;
+      margin: 0 16px;   /* grows to fill the space between logo and toolbar */
+      display: flex; align-items: center; gap: 8px;
+      height: 36px; padding: 0 12px;
+      background: var(--grey-lt);
+      border: 1.5px solid var(--border);
+      border-radius: 10px;
+      color: var(--grey-md);
+      transition: border-color .12s, background .12s;
+    }
+    .hsearch:focus-within { border-color: var(--primary); background: #fff; }
+    .hsearch svg { flex-shrink: 0; }
+    .hsearch-input {
+      flex: 1; min-width: 0;
+      border: none; background: none; outline: none;
+      font-family: inherit; font-size: 13px; color: var(--text);
+    }
+    .hsearch-input::placeholder { color: var(--grey-md); }
+    .hsearch-clear {
+      flex-shrink: 0; border: none; background: none; cursor: pointer;
+      color: var(--grey-md); font-size: 18px; line-height: 1; padding: 0 2px;
+    }
+    .hsearch-clear[hidden] { display: none; }
+    .hsearch-clear:hover { color: var(--text); }
+
+    .search-overlay {
+      position: fixed; top: 50px;
+      left: 50%; transform: translateX(-50%);
+      width: min(580px, 94vw);
+      background: #fff; border: 1px solid var(--border);
+      border-radius: 0 0 12px 12px;
+      box-shadow: 0 14px 34px rgba(0,0,0,0.16);
+      z-index: 150; padding: 10px 14px 14px;
+      animation: searchIn .15s ease;
+    }
+    .search-overlay[hidden] { display: none !important; }
+    @keyframes searchIn {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+    }
+    .search-inner { margin: 0 auto; }
+    .search-input-row {
+      display: flex; align-items: center; gap: 8px;
+      border: 1.5px solid var(--border); border-radius: 10px;
+      padding: 7px 12px; background: var(--grey-lt); transition: all .12s;
+    }
+    .search-input-row:focus-within { border-color: var(--primary); background: #fff; }
+    .search-input-row svg { flex-shrink: 0; color: var(--grey-md); }
+    .search-text-input {
+      flex: 1; border: none; background: none; outline: none;
+      font-family: inherit; font-size: 13px; color: var(--text);
+    }
+    .search-text-input::placeholder { color: var(--grey-md); }
+    .search-close-btn {
+      background: none; border: none; cursor: pointer;
+      color: var(--grey-md); font-size: 20px; line-height: 1;
+      padding: 0 2px; flex-shrink: 0; transition: color .1s;
+    }
+    .search-close-btn:hover { color: var(--text); }
+    .search-status {
+      font-size: 11px; color: var(--grey-md);
+      padding: 6px 2px 2px; min-height: 22px;
+    }
+    .search-index-wrap { display: flex; align-items: center; gap: 8px; }
+    .search-index-bar {
+      flex: 1; height: 3px; background: var(--grey-lt);
+      border-radius: 2px; overflow: hidden;
+    }
+    .search-index-fill {
+      height: 100%; background: var(--primary); border-radius: 2px;
+      transition: width .4s ease;
+    }
+    .search-results {
+      max-height: 300px; overflow-y: auto;
+      display: flex; flex-direction: column; margin-top: 4px;
+    }
+    .search-result {
+      display: flex; align-items: center; gap: 10px;
+      padding: 8px 10px; border-radius: 8px; cursor: pointer;
+      transition: background .1s; border: none; background: none;
+      text-align: left; width: 100%; font-family: inherit;
+    }
+    .search-result:hover, .search-result.selected { background: var(--grey-lt); }
+    .fav-export {
+      display: flex; gap: 8px; margin-top: 8px; padding-top: 8px;
+      border-top: 1px solid var(--grey-lt);
+    }
+    .fav-export-btn {
+      flex: 1; background: none; border: 1px solid #e0e0d8; border-radius: 8px;
+      padding: 6px 10px; font-size: 11px; font-weight: 600; color: var(--grey-md);
+      cursor: pointer; font-family: inherit; transition: color .12s, border-color .12s;
+    }
+    .fav-export-btn:hover { color: var(--primary); border-color: var(--primary); }
+    .search-result-badge {
+      flex-shrink: 0; font-size: 9px; font-weight: 800;
+      background: var(--grey-lt); color: var(--grey-md);
+      padding: 2px 5px; border-radius: 4px; min-width: 28px; text-align: center;
+    }
+    .search-result-page {
+      flex-shrink: 0; font-size: 11px; font-weight: 700;
+      color: var(--primary); min-width: 56px;
+    }
+    .search-result-snippet {
+      font-size: 11px; color: var(--grey-md);
+      overflow: hidden; text-overflow: ellipsis; white-space: nowrap; flex: 1;
+    }
+    .search-result-snippet mark {
+      background: rgba(237,105,44,.18); color: var(--text);
+      border-radius: 2px; padding: 0 1px; font-style: normal;
+    }
+  </style>
+  <script>
+    !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]);t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+" (stub)"},o="init push capture getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures onFeatureFlags posthogPersistence".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+    // Usuaris interns: ?internal=1 per excloure'ls totalment de PostHog.
+    // ?internal=0 ho torna a activar.
+    var __phInternal = false;
+    try {
+      var __phParam = new URLSearchParams(location.search).get('internal');
+      if (__phParam === '1') localStorage.setItem('eurast_internal', '1');
+      else if (__phParam === '0') localStorage.removeItem('eurast_internal');
+      __phInternal = localStorage.getItem('eurast_internal') === '1';
+    } catch (e) { /* localStorage no disponible (incògnit): tracta com a no-intern */ }
+
+    // Identificació d'equip: ?viewer=armand per aparèixer amb nom a PostHog Activity.
+    // ?viewer=0 per esborrar la identitat guardada.
+    var __phViewer = null;
+    try {
+      var __phViewerParam = new URLSearchParams(location.search).get('viewer');
+      if (__phViewerParam === '0') localStorage.removeItem('eurast_viewer');
+      else if (__phViewerParam) localStorage.setItem('eurast_viewer', __phViewerParam);
+      __phViewer = localStorage.getItem('eurast_viewer');
+    } catch (e) {}
+
+    // Només inicialitzar PostHog al domini real de producció. Així els data: URIs,
+    // fitxers locals, localhost i previews de proves no embruten les estadístiques.
+    var __phRealSite = location.hostname === 'tarifa.eurast.com';
+
+    if (!__phInternal && __phRealSite) {
+      posthog.init('phc_pCw8ahDDsmt7NPPGRvMj5ZewRNfF8p3zoa77BF9WdpER', {
+        api_host: 'https://eu.i.posthog.com',
+        person_profiles: 'identified_only',
+        persistence: 'memory',
+        autocapture: false,
+        disable_session_recording: true,
+        capture_pageview: true,
+        loaded: function(ph) {
+          if (__phViewer) {
+            ph.identify('viewer_' + __phViewer, { name: __phViewer, is_internal: true });
+          }
+        }
+      });
+    }
+  </script>
+</head>
+<body>
+
+<!-- ── LEAD CAPTURE MODAL ─────────────────────────────────────── -->
+<div id="leadModal" class="modal-overlay" hidden>
+  <div class="modal-box">
+    <button class="modal-close" id="modalClose" aria-label="Close">×</button>
+    <img src="logo.png" class="modal-logo" alt="EURAST">
+    <h2 class="modal-title" id="modal-title">Descarga el catálogo</h2>
+    <p class="modal-sub"  id="modal-sub">Déjanos tu email para acceder al PDF completo</p>
+    <form id="leadForm" novalidate>
+      <div class="form-field">
+        <label id="modal-email-label" for="leadEmail">Email *</label>
+        <input type="email" id="leadEmail" required autocomplete="email" placeholder="tu@empresa.com">
+      </div>
+      <div class="form-field">
+        <label id="modal-company-label" for="leadCompany">Empresa</label>
+        <input type="text"  id="leadCompany" autocomplete="organization" placeholder="Nombre de tu empresa">
+      </div>
+      <div class="form-field combo-field">
+        <label id="modal-country-label" for="leadCountryInput">País *</label>
+        <input type="text" id="leadCountryInput" autocomplete="off" role="combobox" aria-autocomplete="list" placeholder="Escribe tu país…">
+        <input type="hidden" id="leadCountry">
+        <div id="leadCountryList" class="combo-list" hidden></div>
+      </div>
+      <div class="form-field form-privacy">
+        <label class="privacy-label">
+          <input type="checkbox" id="leadPrivacy">
+          <span id="modal-privacy-span">He leído y acepto la <a href="https://eurast.com/es/apartado/5-politica-de-privacidad/" target="_blank" rel="noopener noreferrer">política de privacidad</a> y acepto recibir comunicaciones comerciales</span>
+        </label>
+      </div>
+      <button type="submit" class="btn-modal-submit" id="modal-submit" disabled>↓ Descargar PDF</button>
+    </form>
+  </div>
+</div>
+
+<div id="loadingOverlay">
+  <img src="logo.png" class="loading-logo" alt="EURAST">
+  <div class="loading-ring-wrap">
+    <svg class="loading-ring" viewBox="0 0 72 72" aria-hidden="true">
+      <circle class="ring-track" cx="36" cy="36" r="30"/>
+      <circle class="ring-fill" id="ringFill" cx="36" cy="36" r="30" transform="rotate(-90 36 36)"/>
+    </svg>
+    <span class="loading-pct" id="pct">0%</span>
+  </div>
+  <div class="loading-sub" id="loading-sub">La primera página aparecerá en unos segundos</div>
+</div>
+<div id="errorOverlay" hidden>
+  <span class="err-icon">⚠️</span>
+  <p class="err-msg" id="errMsg">No s'ha pogut carregar el catàleg</p>
+  <p class="err-sub" id="errSub">Comprova la connexió a internet i torna-ho a intentar.</p>
+  <button class="err-btn" onclick="location.reload()">Recarregar pàgina</button>
+</div>
+
+<header>
+  <a class="logo" href="https://eurast.com/es/" target="_blank" rel="noopener">
+    <img src="logo.png" class="logo-img" alt="EURAST">
+    <div class="logo-label" id="header-label">Catálogo Tarifa RCR Completa</div>
+  </a>
+  <!-- always-visible search bar (center of header) -->
+  <div class="hsearch" id="hsearch">
+    <svg width="15" height="15" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="5.5" cy="5.5" r="4"/><path d="M9 9l3.5 3.5"/>
+    </svg>
+    <input id="searchTextInput" class="hsearch-input" type="text" placeholder="Buscar referencia o nombre…" autocomplete="off">
+    <button class="hsearch-clear" id="btnSearchClear" aria-label="Borrar" hidden>×</button>
+  </div>
+  <div class="toolbar">
+    <button class="btn-menu" id="btnMenu" aria-label="Menu">☰</button>
+    <div class="ctrl-group" id="zoomGroup">
+      <button id="btnZoomOut">−</button>
+      <span id="zoomLbl">100%</span>
+      <button id="btnZoomIn">+</button>
+    </div>
+    <div class="divider"></div>
+    <select class="lang-select" id="langSelect">
+      <option value="es">ES</option>
+      <option value="en">EN</option>
+      <option value="fr">FR</option>
+      <option value="de">DE</option>
+      <option value="it">IT</option>
+      <option value="pt">PT</option>
+    </select>
+    <!-- PAGES: 1 ⟷ 2 pages (works in both scroll and flip modes) -->
+    <button class="btn-page-view" id="btnPages" title="Ver 2 páginas">
+      <!-- two pages icon: shown in 1-page mode (click → 2 pages) -->
+      <svg id="iconPages2" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="3" y="4" width="7" height="16" rx="1"/><rect x="14" y="4" width="7" height="16" rx="1"/>
+      </svg>
+      <!-- one page icon: shown in 2-page mode (click → 1 page) -->
+      <svg id="iconPages1" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" hidden>
+        <rect x="7" y="4" width="10" height="16" rx="1"/>
+      </svg>
+    </button>
+    <!-- VIEW MODE: vertical scroll ⟷ animated flip book (desktop only) -->
+    <button class="btn-page-view" id="btnFlipMode" title="Vista de libro animado" hidden>
+      <!-- open-book icon: shown in scroll mode (click → flip book) -->
+      <svg id="iconBook" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 7v14"/>
+        <path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/>
+      </svg>
+      <!-- stacked pages icon: shown in flip mode (click → vertical scroll) -->
+      <svg id="iconScroll" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" hidden>
+        <rect x="4" y="3" width="16" height="7" rx="1.5"/><rect x="4" y="14" width="16" height="7" rx="1.5"/>
+      </svg>
+    </button>
+    <button class="btn-search btn-fav" id="btnFav" aria-label="Favoritos" title="Referencias guardadas">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+      </svg>
+      <span id="favCount" class="fav-count" hidden>0</span>
+    </button>
+    <button class="btn-search" id="btnShare" aria-label="Compartir" title="Copiar enlace a esta página">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/>
+        <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
+      </svg>
+    </button>
+    <a class="btn-dl" id="btn-dl" href="cataleg.pdf" download>↓ <span id="dl-label">Descargar PDF</span></a>
+  </div>
+</header>
+
+<!-- ── SEARCH RESULTS (drops under the header search bar) ──────── -->
+<div id="searchOverlay" class="search-overlay" hidden>
+  <div class="search-inner">
+    <div id="searchStatus" class="search-status"></div>
+    <div id="searchResults" class="search-results"></div>
+  </div>
+</div>
+
+<!-- ── FAVORITES OVERLAY ─────────────────────────────────────── -->
+<div id="favOverlay" class="search-overlay" hidden>
+  <div class="search-inner">
+    <div class="fav-hdr">
+      <span class="fav-hdr-title" id="favTitle">Referencias guardadas</span>
+      <button class="search-close-btn" id="btnFavClose" aria-label="Cerrar">×</button>
+    </div>
+    <div id="favResults" class="search-results"></div>
+    <div id="favEmpty" class="search-status"></div>
+    <div class="fav-export" id="favExport" hidden>
+      <button class="fav-export-btn" id="btnFavCopy"></button>
+      <button class="fav-export-btn" id="btnFavCsv"></button>
+    </div>
+  </div>
+</div>
+
+<div class="layout">
+  <div id="sidebarBackdrop"></div>
+  <div class="sidebar" id="sidebar">
+    <!-- navigation block (moved from the top bar) -->
+    <div class="side-nav">
+      <div class="ctrl-group side-pagenav">
+        <button id="btnPrev" disabled>‹</button>
+        <input id="pageInput" type="number" value="1" min="1">
+        <span id="totalWrap">/ <span id="totalLbl">—</span></span>
+        <button id="btnNext">›</button>
+      </div>
+      <div class="group-nav-wrap">
+        <div class="group-pill" id="groupPill">
+          <button class="pill-zone-left" id="pillZoneLeft">
+            <span id="pillGroupId">G01</span><span class="pill-sep">·</span><span id="pillGroupName"></span><span class="pill-chevron">▾</span>
+          </button>
+          <div class="pill-zone-divider"></div>
+          <div class="pill-zone-right" id="pillZoneRight">
+            <input class="pill-pg-input" id="pillSubPage" type="number" min="1" value="1"><span class="pill-sep">/</span><span id="pillSubTotal">—</span>
+          </div>
+        </div>
+        <div id="groupDropdown" hidden>
+          <div class="drop-hdr">
+            <span id="dropHdrText"></span>
+            <button class="drop-close-btn" id="dropClose">×</button>
+          </div>
+          <div id="dropGroupList"></div>
+        </div>
+      </div>
+    </div>
+    <!-- groups index (scrolls) -->
+    <div class="side-groups" id="sidebarGroups">
+      <div class="nav-label" id="nav-label">Grupos</div>
+    </div>
+    <!-- footer -->
+    <div class="side-footer">
+      <a class="btn-contact" id="btn-contact" href="https://eurast.com/es/contacto" target="_blank" rel="noopener"><span id="contact-label">Contacto</span></a>
+    </div>
+  </div>
+  <div class="viewer" id="viewer"></div>
+  <div class="flip-wrap" id="flipWrap" hidden>
+    <button class="flip-arrow flip-arrow-prev" id="flipPrev">&#8249;</button>
+    <div id="flipBook"></div>
+    <button class="flip-arrow flip-arrow-next" id="flipNext">&#8250;</button>
+  </div>
+</div>
+
+<script type="module">
+import * as pdfjsLib from 'https://unpkg.com/pdfjs-dist@4.10.38/build/pdf.min.mjs';
+
+// ── ERROR GUARD ────────────────────────────────────────────────────
+// Any uncaught module error surfaces here instead of leaving the user
+// staring at an empty white page.
+function showErrorOverlay(detail) {
+  const el = document.getElementById('errorOverlay');
+  const overlay = document.getElementById('loadingOverlay');
+  if (overlay) { overlay.classList.add('hidden'); setTimeout(() => overlay.remove(), 500); }
+  if (el) el.removeAttribute('hidden');
+  if (detail) console.error('[EURAST viewer]', detail);
+}
+window.addEventListener('unhandledrejection', e => showErrorOverlay(e.reason));
+pdfjsLib.GlobalWorkerOptions.workerSrc =
+  'https://unpkg.com/pdfjs-dist@4.10.38/build/pdf.worker.min.mjs';
+
+// posthog.init() only runs on the production domain (see the head script),
+// so posthog.capture is never defined elsewhere (localhost, previews,
+// ?internal=1). Calling it directly threw and aborted whatever handler
+// called it mid-way — e.g. search results were computed and counted but
+// never appended to the DOM because the capture call above that code threw
+// first. Route every capture through this so analytics failures can't break
+// the feature they're instrumenting.
+function phCapture(event, props) {
+  try { posthog.capture(event, props); } catch(_) {}
+}
+
+// ── STATE ──────────────────────────────────────────────────────────
+// IS_MOBILE is evaluated lazily after the layout wait so that innerWidth
+// reflects the real rendered viewport (not the initial 0 before layout).
+let IS_MOBILE  = window.innerWidth <= 640 || 'ontouchstart' in window;
+let PRERENDER  = IS_MOBILE ? 1 : 2;
+let UNLOAD_FAR = IS_MOBILE ? 4 : 8;
+
+const viewer  = document.getElementById('viewer');
+const sidebar = document.getElementById('sidebar');
+const sidebarGroups = document.getElementById('sidebarGroups');
+
+let pdf, totalPages, zoom = 1.0, currentPage = 1;
+let flipBook_instance = null;
+let flipGoTo = null;     // assigned in flip-book init; navigates flip mode reliably
+let flipApplyZoom = null; // assigned in flip-book init; applies zoom in flip mode
+let flipModeActive = false;     // false = vertical scroll, true = flip book
+// Ref ressaltada per la cerca (vegeu highlightRef). Declarades aquí dalt
+// perquè updateNav ja les llegeix durant l'arrencada (deep link #pag=).
+let hlRef   = null;   // { code, page }
+let hlBoxes = [];     // caixes de ressaltat afegides al textLayer
+let hlClearTimer = null;
+let hlRun = 0;        // testimoni: invalida els sondejos de highlightRef anteriors
+let twoPage = false;            // false = 1 page, true = 2 pages (both modes)
+let flipSetPages = null;        // assigned in flip init; applies twoPage to flip
+const slots    = [];
+const rendered = new Set();
+
+// Sub-page nav state
+let currentGroupStart = 1, currentGroupEnd = 1;
+
+// Search index state
+const searchIndex = [];
+let   indexedCount = 0, isIndexing = false, searchTimer = null;
+
+// ── REFERENCE INDEX (prebuilt) ─────────────────────────────────────
+// References are extracted offline from the PDF (scripts/build-refs.py) into
+// references.json — one entry per price-table page: { p:page, g:groupIdx,
+// f:family, c:[codes] }. Done offline because pdf.js splits code tokens
+// inconsistently in the browser, while the offline extractor reads them whole.
+// Fetched early (not gated behind page rendering) so search works ASAP.
+let refPages = [];
+fetch('references.json')
+  .then(r => r.ok ? r.json() : null)
+  .then(d => { if (d && Array.isArray(d.pages)) refPages = d.pages; })
+  .catch(() => {});
+
+// ── UI STRINGS (multilingual) ──────────────────────────────────────
+const STRINGS = {
+  es: {
+    navLabel: 'Grupos', headerSub: 'Catálogo Tarifa RCR Completa', download: '↓ Descargar PDF', contact: 'Contacto',
+    loading: '0%', loadingSub: 'La primera página aparecerá en unos segundos',
+    modal: {
+      title: 'Descarga el catálogo',
+      sub: 'Déjanos tu email para acceder al PDF completo',
+      emailLabel: 'Email *', emailPh: 'tu@empresa.com',
+      companyLabel: 'Empresa', companyPh: 'Nombre de tu empresa',
+      submit: '↓ Descargar PDF', sending: 'Enviando...',
+      privacyHtml: 'He leído y acepto la <a href="https://eurast.com/es/apartado/5-politica-de-privacidad/" target="_blank" rel="noopener">política de privacidad</a> y acepto recibir comunicaciones comerciales',
+    },
+    search: {
+      ariaSearch: 'Buscar', ariaClose: 'Cerrar',
+      placeholder: 'Buscar referencia, modelo o descripción...',
+      indexing: 'Indexando…', indexingShort: 'indexando',
+      indexedSuffix: 'páginas indexadas · escribe para buscar',
+      noResults: 'Sin resultados', resultOne: 'resultado', resultMany: 'resultados',
+      pageAbbr: 'Pág.',
+    },
+    flip: {
+      enter: 'Vista de libro animado', exit: 'Volver a vista normal',
+      to2: 'Cambiar a 2 páginas', to1: 'Cambiar a 1 página',
+    },
+  },
+  en: {
+    navLabel: 'Groups', headerSub: 'RCR Complete Price List', download: '↓ Download PDF', contact: 'Contact',
+    loading: '0%', loadingSub: 'The first page will appear in a few seconds',
+    modal: {
+      title: 'Download the catalog',
+      sub: 'Leave your email to access the full PDF',
+      emailLabel: 'Email *', emailPh: 'you@company.com',
+      companyLabel: 'Company', companyPh: 'Your company name',
+      submit: '↓ Download PDF', sending: 'Sending...',
+      privacyHtml: 'I have read and accept the <a href="https://eurast.com/es/apartado/5-politica-de-privacidad/" target="_blank" rel="noopener">privacy policy</a> and agree to receive commercial communications',
+    },
+    search: {
+      ariaSearch: 'Search', ariaClose: 'Close',
+      placeholder: 'Search reference, model or description...',
+      indexing: 'Indexing…', indexingShort: 'indexing',
+      indexedSuffix: 'pages indexed · type to search',
+      noResults: 'No results', resultOne: 'result', resultMany: 'results',
+      pageAbbr: 'Page',
+    },
+    flip: {
+      enter: 'Animated book view', exit: 'Back to normal view',
+      to2: 'Switch to 2 pages', to1: 'Switch to 1 page',
+    },
+  },
+  fr: {
+    navLabel: 'Groupes', headerSub: 'Catalogue Tarif RCR Complet', download: '↓ Télécharger PDF', contact: 'Contact',
+    loading: '0%', loadingSub: 'La première page apparaîtra dans quelques secondes',
+    modal: {
+      title: 'Télécharger le catalogue',
+      sub: 'Laissez votre email pour accéder au PDF complet',
+      emailLabel: 'Email *', emailPh: 'vous@entreprise.com',
+      companyLabel: 'Entreprise', companyPh: 'Nom de votre entreprise',
+      submit: '↓ Télécharger PDF', sending: 'Envoi en cours...',
+      privacyHtml: "J'ai lu et j'accepte la <a href=\"https://eurast.com/es/apartado/5-politica-de-privacidad/\" target=\"_blank\" rel=\"noopener\">politique de confidentialité</a> et j'accepte de recevoir des communications commerciales",
+    },
+    search: {
+      ariaSearch: 'Rechercher', ariaClose: 'Fermer',
+      placeholder: 'Rechercher référence, modèle ou description...',
+      indexing: 'Indexation…', indexingShort: 'indexation',
+      indexedSuffix: 'pages indexées · tapez pour rechercher',
+      noResults: 'Aucun résultat', resultOne: 'résultat', resultMany: 'résultats',
+      pageAbbr: 'Page',
+    },
+    flip: {
+      enter: 'Vue livre animé', exit: 'Retour à la vue normale',
+      to2: 'Passer à 2 pages', to1: 'Passer à 1 page',
+    },
+  },
+  de: {
+    navLabel: 'Gruppen', headerSub: 'RCR Vollständiger Preiskatalog', download: '↓ PDF herunterladen', contact: 'Kontakt',
+    loading: '0%', loadingSub: 'Die erste Seite erscheint in wenigen Sekunden',
+    modal: {
+      title: 'Katalog herunterladen',
+      sub: 'Hinterlassen Sie Ihre E-Mail für den vollständigen PDF-Zugriff',
+      emailLabel: 'E-Mail *', emailPh: 'sie@unternehmen.de',
+      companyLabel: 'Unternehmen', companyPh: 'Name Ihres Unternehmens',
+      submit: '↓ PDF herunterladen', sending: 'Wird gesendet...',
+      privacyHtml: 'Ich habe die <a href="https://eurast.com/es/apartado/5-politica-de-privacidad/" target="_blank" rel="noopener">Datenschutzerklärung</a> gelesen, akzeptiere sie und stimme dem Erhalt von Werbemitteilungen zu',
+    },
+    search: {
+      ariaSearch: 'Suchen', ariaClose: 'Schließen',
+      placeholder: 'Referenz, Modell oder Beschreibung suchen...',
+      indexing: 'Indexierung…', indexingShort: 'Indexierung',
+      indexedSuffix: 'Seiten indexiert · zum Suchen tippen',
+      noResults: 'Keine Ergebnisse', resultOne: 'Ergebnis', resultMany: 'Ergebnisse',
+      pageAbbr: 'Seite',
+    },
+    flip: {
+      enter: 'Animierte Buchansicht', exit: 'Zurück zur normalen Ansicht',
+      to2: 'Auf 2 Seiten umschalten', to1: 'Auf 1 Seite umschalten',
+    },
+  },
+  it: {
+    navLabel: 'Gruppi', headerSub: 'Catalogo Prezzi RCR Completo', download: '↓ Scarica PDF', contact: 'Contatto',
+    loading: '0%', loadingSub: 'La prima pagina apparirà tra pochi secondi',
+    modal: {
+      title: 'Scarica il catalogo',
+      sub: 'Lascia la tua email per accedere al PDF completo',
+      emailLabel: 'Email *', emailPh: 'tu@azienda.com',
+      companyLabel: 'Azienda', companyPh: 'Nome della tua azienda',
+      submit: '↓ Scarica PDF', sending: 'Invio in corso...',
+      privacyHtml: 'Ho letto e accetto la <a href="https://eurast.com/es/apartado/5-politica-de-privacidad/" target="_blank" rel="noopener">informativa sulla privacy</a> e acconsento a ricevere comunicazioni commerciali',
+    },
+    search: {
+      ariaSearch: 'Cerca', ariaClose: 'Chiudi',
+      placeholder: 'Cerca referenza, modello o descrizione...',
+      indexing: 'Indicizzazione…', indexingShort: 'indicizzazione',
+      indexedSuffix: 'pagine indicizzate · digita per cercare',
+      noResults: 'Nessun risultato', resultOne: 'risultato', resultMany: 'risultati',
+      pageAbbr: 'Pag.',
+    },
+    flip: {
+      enter: 'Vista libro animato', exit: 'Torna alla vista normale',
+      to2: 'Passa a 2 pagine', to1: 'Passa a 1 pagina',
+    },
+  },
+  pt: {
+    navLabel: 'Grupos', headerSub: 'Catálogo Preços RCR Completo', download: '↓ Descarregar PDF', contact: 'Contacto',
+    loading: '0%', loadingSub: 'A primeira página aparecerá em poucos segundos',
+    modal: {
+      title: 'Descarregar o catálogo',
+      sub: 'Deixe o seu email para aceder ao PDF completo',
+      emailLabel: 'Email *', emailPh: 'voce@empresa.com',
+      companyLabel: 'Empresa', companyPh: 'Nome da sua empresa',
+      submit: '↓ Descarregar PDF', sending: 'A enviar...',
+      privacyHtml: 'Li e aceito a <a href="https://eurast.com/es/apartado/5-politica-de-privacidad/" target="_blank" rel="noopener">política de privacidade</a> e aceito receber comunicações comerciais',
+    },
+    search: {
+      ariaSearch: 'Procurar', ariaClose: 'Fechar',
+      placeholder: 'Procurar referência, modelo ou descrição...',
+      indexing: 'A indexar…', indexingShort: 'a indexar',
+      indexedSuffix: 'páginas indexadas · escreva para procurar',
+      noResults: 'Sem resultados', resultOne: 'resultado', resultMany: 'resultados',
+      pageAbbr: 'Pág.',
+    },
+    flip: {
+      enter: 'Vista de livro animado', exit: 'Voltar à vista normal',
+      to2: 'Mudar para 2 páginas', to1: 'Mudar para 1 página',
+    },
+  },
+};
+let currentLang = 'es';
+
+// Apply ?lang= as early as possible so the loading overlay shows in the
+// right language (setLang runs later, after the PDF is parsed).
+const _urlLang = new URLSearchParams(location.search).get('lang');
+if (_urlLang && STRINGS[_urlLang]) {
+  currentLang = _urlLang;
+  const _lsub = document.getElementById('loading-sub');
+  if (_lsub) _lsub.textContent = STRINGS[_urlLang].loadingSub;
+}
+
+// ── GROUPS — multilingual, declared at top ─────────────────────────
+const GROUPS = [
+  { id: 'G01', page:   2, es: 'Máquinas Bar',       en: 'Bar Machines',             fr: 'Machines Bar',              de: 'Barmaschinen',         it: 'Macchine Bar',                  pt: 'Máquinas Bar' },
+  { id: 'G02', page:  47, es: 'Cocinas 450/550',     en: 'Cooking Ranges 450/550',   fr: 'Cuisinières 450/550',       de: 'Kochgeräte 450/550',   it: 'Cucine 450/550',                pt: 'Fogões 450/550' },
+  { id: 'G03', page:  65, es: 'Cocinas 600',         en: 'Cooking Ranges 600',       fr: 'Cuisinières 600',           de: 'Kochgeräte 600',       it: 'Cucine 600',                    pt: 'Fogões 600' },
+  { id: 'G04', page:  93, es: 'Cocinas 700',         en: 'Cooking Ranges 700',       fr: 'Cuisinières 700',           de: 'Kochgeräte 700',       it: 'Cucine 700',                    pt: 'Fogões 700' },
+  { id: 'G05', page: 151, es: 'Cocinas 900',         en: 'Cooking Ranges 900',       fr: 'Cuisinières 900',           de: 'Kochgeräte 900',       it: 'Cucine 900',                    pt: 'Fogões 900' },
+  { id: 'G06', page: 207, es: 'Gran Producción',     en: 'Large Scale Production',   fr: 'Grande Production',         de: 'Großproduktion',       it: 'Grande Produzione',             pt: 'Grande Produção' },
+  { id: 'G07', page: 248, es: 'Equipos Calientes',   en: 'Hot Equipment',            fr: 'Équipements Chauds',        de: 'Heißgeräte',           it: 'Attrezzature Calde',            pt: 'Equipamentos Quentes' },
+  { id: 'G08', page: 284, es: 'Hornos / Ovens',      en: 'Ovens',                    fr: 'Fours',                     de: 'Öfen',                 it: 'Forni',                         pt: 'Fornos' },
+  { id: 'G09', page: 340, es: 'Asadores & BBQ',      en: 'Grills & BBQ',             fr: 'Rôtissoires & BBQ',         de: 'Grills & BBQ',         it: 'Griglie & BBQ',                 pt: 'Grelhadores & BBQ' },
+  { id: 'G10', page: 389, es: 'Campanas',            en: 'Hoods',                    fr: 'Hottes',                    de: 'Dunstabzugshauben',    it: 'Cappe',                         pt: 'Campânulas' },
+  { id: 'G11', page: 423, es: 'Frío Industrial',     en: 'Industrial Refrigeration', fr: 'Réfrigération Industrielle',de: 'Industriekühlung',     it: 'Refrigerazione Industriale',    pt: 'Frio Industrial' },
+  { id: 'G12', page: 496, es: 'Vitrinas',            en: 'Display Cases',            fr: 'Vitrines Réfrigérées',      de: 'Vitrinen',             it: 'Vetrine Refrigerate',           pt: 'Vitrines Refrigeradas' },
+  { id: 'G13', page: 588, es: 'Lavado / Washing',    en: 'Warewashing',              fr: 'Lavage / Plonge',           de: 'Spülgeräte',           it: 'Lavaggio',                      pt: 'Lavagem' },
+  { id: 'G14', page: 660, es: 'Elementos Neutros',   en: 'Neutral Equipment',        fr: 'Éléments Neutres',          de: 'Neutrale Elemente',    it: 'Elementi Neutri',               pt: 'Elementos Neutros' },
+  { id: 'G15', page: 731, es: 'Drop-in / Buffets',   en: 'Drop-in / Buffets',        fr: 'Drop-in / Buffets',         de: 'Drop-in / Büfetts',    it: 'Drop-in / Buffet',              pt: 'Drop-in / Buffets' },
+  { id: 'G16', page: 815, es: 'Maquinaria Auxiliar', en: 'Auxiliary Machinery',      fr: 'Machines Auxiliaires',      de: 'Hilfsmaschinen',       it: 'Macchinari Ausiliari',          pt: 'Maquinaria Auxiliar' },
+];
+
+// ── LOAD PDF ───────────────────────────────────────────────────────
+// disableAutoFetch: amb servidor amb suport de Range (GitHub Pages) pdf.js
+// només baixa els chunks de les pàgines que es miren, en lloc dels 53 MB
+// sencers en segon pla — primera pàgina molt més ràpida en mòbil/4G. Si el
+// servidor no suporta Range (http.server local), pdf.js ho detecta i baixa
+// el fitxer sencer com abans.
+const task = pdfjsLib.getDocument({ url: 'cataleg.pdf', rangeChunkSize: 65536, disableAutoFetch: true });
+task.onProgress = ({ loaded, total }) => {
+  if (!total) return;
+  const pct = Math.round(loaded / total * 100);
+  document.getElementById('pct').textContent = pct + '%';
+  const circ = 188.5;
+  const arcLen = Math.max(30, pct / 100 * circ);
+  const fill = document.getElementById('ringFill');
+  if (fill) fill.style.strokeDashoffset = (circ - arcLen).toFixed(1);
+};
+pdf = await task.promise;
+totalPages = pdf.numPages;
+
+document.getElementById('totalLbl').textContent = totalPages;
+document.getElementById('pageInput').max = totalPages;
+document.getElementById('btnNext').disabled = totalPages <= 1;
+
+// Hide loading overlay
+const overlay = document.getElementById('loadingOverlay');
+overlay.classList.add('hidden');
+setTimeout(() => overlay.remove(), 500);
+
+// Watchdog: if no page renders within 25 s, offer a reload.
+const _renderWatchdog = setTimeout(() => {
+  if (document.querySelectorAll('.page-slot canvas').length === 0) {
+    showErrorOverlay('Watchdog: cap pàgina renderitzada en 25 s');
+  }
+}, 25000);
+
+// ── SAMPLE PAGE RATIO (with A4 fallback) ──────────────────────────
+// Wrap in try/catch with timeout so a failed getPage(1) doesn't
+// stop initialization
+let sampleRatio = 297 / 210; // A4 default
+try {
+  const ratioTimer = new Promise((_, rej) => setTimeout(() => rej(new Error('timeout')), 8000));
+  const samplePage = await Promise.race([pdf.getPage(1), ratioTimer]);
+  const sampleVP   = samplePage.getViewport({ scale: 1 });
+  sampleRatio      = sampleVP.height / sampleVP.width;
+} catch(e) {
+  console.warn('samplePage failed, using A4 ratio:', e.message);
+}
+
+// ── CALC PAGE WIDTH ────────────────────────────────────────────────
+function calcPageWidth() {
+  const vW = viewer.clientWidth  || (window.innerWidth  - 210);
+  const vH = viewer.clientHeight || (window.innerHeight - 52);
+  if (vW < 10) return 800;
+  if (twoPage && !flipModeActive) {
+    // two pages + the .viewer.two-up padding (18*2) and column-gap (30)
+    const w = Math.floor((vW - 36 - 30) / 2);
+    return Math.max(w, 120) * zoom;
+  }
+  const fitByH = Math.max(vH - 24, 100) / sampleRatio;
+  const maxW   = vW - 8;
+  return Math.min(fitByH, maxW) * zoom;
+}
+
+// ── BUILD PAGE SLOTS ───────────────────────────────────────────────
+const LOADER_HTML = '<div class="page-loader"><img src="logo.png" class="page-loader-logo" alt=""><div class="page-loader-bar"></div></div>';
+
+function buildSlots() {
+  const w = calcPageWidth();
+  viewer.innerHTML = '';
+  slots.length = 0;
+  rendered.clear();
+
+  for (let i = 1; i <= totalPages; i++) {
+    const h    = Math.round(w * sampleRatio);
+    const slot = document.createElement('div');
+    slot.className     = 'page-slot';
+    slot.id            = `p${i}`;
+    slot.dataset.page  = i;
+    slot.style.width   = w + 'px';
+    slot.style.height  = h + 'px';
+    slot.innerHTML     = LOADER_HTML;
+    viewer.appendChild(slot);
+    slots.push(slot);
+  }
+}
+
+// Wait for layout before measuring viewport — re-evaluate IS_MOBILE here
+// so it reflects the real rendered width, not the pre-layout value of 0
+await new Promise(r => setTimeout(r, 50));
+IS_MOBILE  = window.innerWidth <= 640 || 'ontouchstart' in window;
+PRERENDER  = IS_MOBILE ? 1 : 2;
+UNLOAD_FAR = IS_MOBILE ? 4 : 8;
+buildSlots();
+
+// ── RENDER PAGE INTO SLOT ──────────────────────────────────────────
+const renderQueue = new Map(); // num → { promise, task }
+
+// Render pages above their CSS size so they stay sharp on retina/mobile screens
+// and when zoomed. The canvas keeps the CSS (layout) size but holds more pixels.
+const SCROLL_RENDER_QUALITY = Math.min(Math.max(window.devicePixelRatio || 1, 1.5), 2.5);
+
+async function renderSlot(num) {
+  if (rendered.has(num)) return;
+  if (renderQueue.has(num)) return renderQueue.get(num).promise;
+
+  const entry = { promise: null, task: null };
+  renderQueue.set(num, entry);
+
+  entry.promise = (async () => {
+    try {
+      const slot = slots[num - 1];
+      if (!slot) return;
+
+      const page     = await pdf.getPage(num);
+      const baseW    = page.getViewport({ scale: 1 }).width;
+      const cssScale = calcPageWidth() / baseW;
+      const vp       = page.getViewport({ scale: cssScale });          // CSS/layout size
+      const renderVp = page.getViewport({ scale: cssScale * SCROLL_RENDER_QUALITY }); // hi-res pixels
+
+      slot.style.width  = vp.width  + 'px';
+      slot.style.height = vp.height + 'px';
+
+      const canvas = document.createElement('canvas');
+      canvas.width  = Math.round(renderVp.width);
+      canvas.height = Math.round(renderVp.height);
+      slot.appendChild(canvas); // CSS width/height:100% downscales the hi-res canvas → sharp
+
+      entry.task = page.render({ canvasContext: canvas.getContext('2d'), viewport: renderVp });
+      await entry.task.promise;
+      rendered.add(num);
+      slot.querySelector('.page-loader')?.remove();
+      clearTimeout(_renderWatchdog); // first successful render cancels the watchdog
+
+      // Text layer — transparent overlay for text selection / copy
+      try {
+        const textDiv = document.createElement('div');
+        textDiv.className = 'textLayer';
+        // pdf.js v4 TextLayer sizes spans via this CSS variable; without it the
+        // spans are mis-scaled and text selection is broken / shows huge blocks.
+        textDiv.style.setProperty('--scale-factor', vp.scale);
+        textDiv.style.setProperty('--total-scale-factor', vp.scale);
+        slot.appendChild(textDiv);
+        const tl = new pdfjsLib.TextLayer({
+          textContentSource: page.streamTextContent(),
+          container: textDiv,
+          viewport: vp,
+        });
+        await tl.render();
+        cleanTextLayerSelection(textDiv);
+        addGapSelectionHelper(textDiv);
+      } catch(_) {}
+    } catch(e) {
+      // render cancelled or page fetch failed — ignore
+    } finally {
+      renderQueue.delete(num);
+    }
+  })();
+
+  return entry.promise;
+}
+
+function unloadSlot(num) {
+  const entry = renderQueue.get(num);
+  if (entry) {
+    entry.task?.cancel();
+    renderQueue.delete(num);
+  }
+  rendered.delete(num);
+  // Clear slot if it has a canvas — covers both fully-rendered and mid-render (canvas added before render completes)
+  const slot = slots[num - 1];
+  if (slot?.querySelector('canvas')) slot.innerHTML = LOADER_HTML;
+}
+
+// ── VIRTUAL SCROLL OBSERVER ────────────────────────────────────────
+let observerReady = false;
+
+// Pàgina actual = la que ocupa més alçada visible del visor, mesurada amb
+// getBoundingClientRect en cada scroll. Abans es triava amb les entrades de
+// l'IntersectionObserver, però aquest només avisa quan una pàgina creua el
+// llindar 0.3: amb scroll ràpid amunt i avall, o després d'un salt (mentre
+// observerReady és false els avisos es perden), la pàgina que realment es veu
+// podia no sortir a cap batch i el quadre REFS es quedava amb els codis d'una
+// altra pàgina fins a refrescar.
+function pickVisiblePage() {
+  if (!observerReady || flipModeActive) return;
+  const vr = viewer.getBoundingClientRect();
+  let best = null, bestH = 0;
+  for (const s of slots) {
+    const r = s.getBoundingClientRect();
+    if (r.bottom <= vr.top) continue;
+    if (r.top >= vr.bottom) break;   // slots en ordre: ja som sota el visor
+    const h = Math.min(r.bottom, vr.bottom) - Math.max(r.top, vr.top);
+    if (h > bestH) { bestH = h; best = parseInt(s.dataset.page); }
+  }
+  if (best && best !== currentPage) {
+    currentPage = best;
+    updateNav(best);
+  }
+}
+let pickRaf = 0;
+viewer.addEventListener('scroll', () => {
+  if (pickRaf) return;
+  pickRaf = requestAnimationFrame(() => { pickRaf = 0; pickVisiblePage(); });
+}, { passive: true });
+
+const pageObs = new IntersectionObserver(entries => {
+  if (!observerReady) return;
+  entries.forEach(e => {
+    if (!e.isIntersecting) return;
+    const n = parseInt(e.target.dataset.page);
+    for (let i = Math.max(1, n - PRERENDER); i <= Math.min(totalPages, n + PRERENDER); i++) {
+      renderSlot(i);
+    }
+  });
+  pickVisiblePage();
+  // Use DOM as source of truth — rendered Set may lag behind actual state
+  viewer.querySelectorAll('.page-slot canvas').forEach(cvs => {
+    const r = parseInt(cvs.closest('.page-slot')?.dataset.page);
+    if (r && Math.abs(r - currentPage) > UNLOAD_FAR) unloadSlot(r);
+  });
+}, { root: viewer, threshold: 0.3 });
+
+slots.forEach(s => pageObs.observe(s));
+viewer.scrollTop = 0;
+
+// Read hash BEFORE updateNav overwrites it with #pag=1
+const initialHash = location.hash;
+updateNav(1);
+
+// Navigate to #pag=N if present in URL
+const hashMatch = initialHash.match(/^#pag=(\d+)$/);
+const hashTarget = hashMatch ? parseInt(hashMatch[1]) : 1;
+if (hashTarget > 1 && hashTarget <= totalPages) goTo(hashTarget);
+
+// Set initial language from ?lang= URL param (used by per-segment email links).
+// langParam is read here (before MODAL_COUNTRY is initialized), but setLang()
+// must be called later — after MODAL_COUNTRY and combobox constants are declared.
+const langParam = new URLSearchParams(location.search).get('lang');
+
+// ── FLIP BOOK (desktop only, lazy — scroll is default) ────────────
+if (!IS_MOBILE && typeof St !== 'undefined') {
+  document.getElementById('btnFlipMode').hidden = false;
+
+  const availH  = window.innerHeight - 52;
+  const flipH   = Math.floor(availH * 0.96);
+  const flipW   = Math.round(flipH / sampleRatio);
+
+  const flipDivs    = [];
+  const flipPages   = [];
+  const flipRendered = new Set();
+
+  for (let i = 1; i <= totalPages; i++) {
+    const div    = document.createElement('div');
+    div.className = 'flip-page';
+    const canvas  = document.createElement('canvas');
+    canvas.width  = flipW;
+    canvas.height = flipH;
+    div.appendChild(canvas);
+    flipDivs.push(div);
+    flipPages.push(canvas);
+  }
+
+  // The library overrides the block element's width with 100%, so mode is
+  // controlled via a sizing wrapper: narrow → portrait, wide → landscape.
+  // StPageFlip recalculates orientation on window resize — no rebuild needed.
+  // #flipZoom carries the LAYOUT size (base × zoom) so the area is scrollable
+  // when zoomed; #flipSize keeps the base size and is visually scaled.
+  const flipBookEl = document.getElementById('flipBook');
+  const flipZoomEl = document.createElement('div');
+  const flipSizeEl = document.createElement('div');
+  flipZoomEl.id = 'flipZoom';
+  flipSizeEl.id = 'flipSize';
+  flipBookEl.parentNode.insertBefore(flipZoomEl, flipBookEl);
+  flipZoomEl.appendChild(flipSizeEl);
+  flipSizeEl.appendChild(flipBookEl);
+
+  function syncFlipZoom() {
+    const baseW = twoPage ? flipW * 2 : flipW;
+    flipSizeEl.classList.toggle('spread', twoPage); // central separation
+    flipSizeEl.style.width      = baseW + 'px';
+    flipSizeEl.style.height     = flipH + 'px';
+    flipSizeEl.style.transform  = `scale(${zoom})`;
+    flipZoomEl.style.width      = Math.round(baseW * zoom) + 'px';
+    flipZoomEl.style.height     = Math.round(flipH * zoom) + 'px';
+  }
+  syncFlipZoom();
+  flipApplyZoom = syncFlipZoom;
+  // Apply the shared 1/2-page state to the flip book (resize → StPageFlip
+  // recalculates portrait/landscape from the container width).
+  flipSetPages = () => { syncFlipZoom(); window.dispatchEvent(new Event('resize')); };
+
+  flipDivs.forEach(d => flipBookEl.appendChild(d));
+
+  // The StPageFlip instance must be created while its container is VISIBLE and
+  // sized — otherwise it measures 0px and the 1/2-page orientation toggle never
+  // recalculates. So we build it lazily on first entry into flip mode.
+  let flipInited = false;
+  function ensureFlipInit() {
+    if (flipInited) return;
+    flipInited = true;
+    flipBook_instance = new St.PageFlip(flipBookEl, {
+      width: flipW, height: flipH,
+      size: 'fixed',
+      flippingTime: 650,
+      usePortrait: true,
+      drawShadow: true,
+      maxShadowOpacity: 0.4,
+      showCover: false,
+      mobileScrollSupport: false,
+      swipeDistance: 40,
+      useMouseEvents: true,
+    });
+    flipBook_instance.loadFromHTML(flipBookEl.querySelectorAll('.flip-page'));
+    flipBook_instance.on('flip', () => {
+      const p = flipBook_instance.getCurrentPageIndex() + 1;
+      currentPage = p;
+      updateNav(p);
+      prerenderAround(p);
+    });
+  }
+
+  // Render above screen size so CSS-transform zoom stays sharp
+  const FLIP_RENDER_QUALITY = Math.min(2, Math.max(window.devicePixelRatio || 1, 1.5));
+
+  async function renderFlipPage(num) {
+    if (num < 1 || num > totalPages || flipRendered.has(num)) return;
+    flipRendered.add(num);
+    try {
+      const page = await pdf.getPage(num);
+      const scale = (flipW / page.getViewport({ scale: 1 }).width) * FLIP_RENDER_QUALITY;
+      const vp    = page.getViewport({ scale });
+      const cvs   = flipPages[num - 1];
+      cvs.width   = Math.round(vp.width);
+      cvs.height  = Math.round(vp.height);
+      await page.render({ canvasContext: cvs.getContext('2d'), viewport: vp }).promise;
+    } catch(_) { flipRendered.delete(num); }
+  }
+
+  function prerenderAround(n) {
+    for (let i = Math.max(1, n - 5); i <= Math.min(totalPages, n + 5); i++) renderFlipPage(i);
+  }
+
+  // Programmatic jumps use turnToPage (instant, deterministic — flip(idx)
+  // misbehaves on arbitrary targets) and then sync nav state back from the
+  // library, since the spread base index is its source of truth.
+  flipGoTo = (n) => {
+    prerenderAround(n);
+    if (flipBook_instance.getCurrentPageIndex() !== n - 1) {
+      flipBook_instance.turnToPage(n - 1);
+    }
+    setTimeout(() => {
+      const base1 = flipBook_instance.getCurrentPageIndex() + 1; // left page of spread
+      // Keep the requested page when it's within the visible spread
+      const p = (n === base1 || n === base1 + 1) ? n : base1;
+      currentPage = p;
+      updateNav(p);
+    }, 60);
+  };
+
+  // Prev / Next buttons
+  document.getElementById('flipPrev').addEventListener('click', () => flipBook_instance.flipPrev());
+  document.getElementById('flipNext').addEventListener('click', () => flipBook_instance.flipNext());
+
+  // ── FLIP MODE ACTIVATE / DEACTIVATE ─────────────────────────────
+  function activateFlipMode() {
+    flipModeActive = true;
+    pageObs.disconnect();
+    observerReady = false;
+    const target = currentPage;
+    document.getElementById('viewer').hidden = true;
+    document.getElementById('flipWrap').hidden = false;
+    document.getElementById('iconBook').toggleAttribute('hidden', true);
+    document.getElementById('iconScroll').toggleAttribute('hidden', false);
+    document.getElementById('btnFlipMode').title = STRINGS[currentLang].flip.exit;
+    syncFlipZoom(); // reflects the current twoPage state
+    // Container is now visible & sized → safe to build the flip book
+    ensureFlipInit();
+    // Let StPageFlip measure the now-visible container before navigating
+    window.dispatchEvent(new Event('resize'));
+    prerenderAround(target);
+    setTimeout(() => flipGoTo(target), 60);
+  }
+
+  function activateScrollMode() {
+    flipModeActive = false;
+    document.getElementById('viewer').hidden = false;
+    document.getElementById('flipWrap').hidden = true;
+    document.getElementById('iconBook').toggleAttribute('hidden', false);
+    document.getElementById('iconScroll').toggleAttribute('hidden', true);
+    document.getElementById('btnFlipMode').title = STRINGS[currentLang].flip.enter;
+    viewer.classList.toggle('two-up', twoPage); // carry the 1/2-page state over
+    slots.forEach(s => pageObs.observe(s));
+    observerReady = false;
+    relayoutScroll();
+  }
+
+  document.getElementById('btnFlipMode').addEventListener('click', () => {
+    const newMode = flipModeActive ? 'scroll' : 'flip';
+    if (flipModeActive) activateScrollMode(); else activateFlipMode();
+    phCapture('view_mode_changed', { mode: newMode });
+  });
+}
+
+// ── BUILD SIDEBAR GROUP BUTTONS ────────────────────────────────────
+GROUPS.forEach((g, idx) => {
+  const btn = document.createElement('button');
+  btn.className = 'nav-item' + (idx === 0 ? ' active' : '');
+  btn.id        = `nav-${g.id}`;
+  btn.innerHTML = `<span class="nav-badge">${g.id}</span><span class="nav-name">${g[currentLang]}</span>`;
+  btn.addEventListener('click', () => {
+    goTo(g.page);
+    phCapture('group_navigated', { group_id: g.id, group_name: g[currentLang] });
+  });
+  sidebarGroups.appendChild(btn);
+});
+
+// ── LANGUAGE SWITCHER ──────────────────────────────────────────────
+function setLang(lang) {
+  currentLang = lang;
+  const sel = document.getElementById('langSelect');
+  if (sel && sel.value !== lang) sel.value = lang;
+  document.getElementById('nav-label').textContent      = STRINGS[lang].navLabel;
+  document.getElementById('header-label').textContent   = STRINGS[lang].headerSub;
+  document.getElementById('dl-label').textContent       = STRINGS[lang].download.replace(/^↓\s*/, '');
+  document.getElementById('contact-label').textContent  = STRINGS[lang].contact;
+  const loadingSub = document.getElementById('loading-sub');
+  if (loadingSub) loadingSub.textContent = STRINGS[lang].loadingSub;
+  GROUPS.forEach(g => {
+    const btn = document.getElementById(`nav-${g.id}`);
+    if (btn) btn.querySelector('.nav-name').textContent = g[lang];
+  });
+  // Search controls
+  const sx = STRINGS[lang].search;
+  document.getElementById('modalClose').setAttribute('aria-label', sx.ariaClose);
+  document.getElementById('searchTextInput').placeholder = sx.placeholder;
+  // try: la crida inicial per ?lang= arriba abans que la const FAV_STRINGS
+  // (declarada més avall) existeixi — el tooltip es queda en castellà fins
+  // al primer canvi manual d'idioma, però no petem per un tooltip.
+  try { document.getElementById('btnShare').title = (FAV_STRINGS[lang] || FAV_STRINGS.es).share; } catch(_) {}
+  // View-toggle tooltips (reflect current state)
+  const fx = STRINGS[lang].flip;
+  document.getElementById('btnFlipMode').title = flipModeActive ? fx.exit : fx.enter;
+  document.getElementById('btnPages').title = twoPage ? fx.to1 : fx.to2;
+  // Refresh search status / results if the overlay is open
+  if (!document.getElementById('searchOverlay').hidden) {
+    const q = document.getElementById('searchTextInput').value;
+    if (q.trim().length >= 2) doSearch(q); else renderSearchStatus(q);
+  }
+  updateModal(lang);
+  updateSubPage(currentPage);
+}
+
+document.getElementById('langSelect').addEventListener('change', e => setLang(e.target.value));
+
+// ── LEAD CAPTURE MODAL ─────────────────────────────────────────────
+const LEAD_WEBHOOK   = 'https://hook.eu2.make.com/mwd601h4jm5tlgo2glc1aw4fkuyf2gs7';
+const LEAD_LS_KEY    = 'eurast_lead_submitted';
+const LANG_TO_COUNTRY = { es: 'ES', en: 'INT', fr: 'FR', de: 'DE', it: 'IT', pt: 'PT' };
+// Localized label + placeholder for the mandatory country field
+const MODAL_COUNTRY = {
+  es: { label: 'País *', ph: 'Selecciona tu país' },
+  en: { label: 'Country *', ph: 'Select your country' },
+  fr: { label: 'Pays *', ph: 'Sélectionnez votre pays' },
+  de: { label: 'Land *', ph: 'Wählen Sie Ihr Land' },
+  it: { label: 'Paese *', ph: 'Seleziona il tuo paese' },
+  pt: { label: 'País *', ph: 'Selecione o seu país' },
+};
+
+// ── COUNTRY COMBOBOX (type-to-search, localized via Intl.DisplayNames) ──
+const COUNTRY_CODES = "AF AL DZ AD AO AG AR AM AU AT AZ BS BH BD BB BY BE BZ BJ BT BO BA BW BR BN BG BF BI KH CM CA CV CF TD CL CN CO KM CG CD CR CI HR CU CY CZ DK DJ DM DO EC EG SV GQ ER EE SZ ET FJ FI FR GA GM GE DE GH GR GD GT GN GW GY HT HN HU IS IN ID IR IQ IE IL IT JM JP JO KZ KE KI KW KG LA LV LB LS LR LY LI LT LU MG MW MY MV ML MT MH MR MU MX FM MD MC MN ME MA MZ MM NA NR NP NL NZ NI NE NG NO OM PK PW PA PG PY PE PH PL PT QA RO RU RW KN LC VC WS SM ST SA SN RS SC SL SG SK SI SB SO ZA KR SS ES LK SD SR SE CH SY TW TJ TZ TH TL TG TO TT TN TR TM TV UG UA AE GB US UY UZ VU VE VN YE ZM ZW".split(' ');
+const _countryCache = {};
+function localizedCountries(lang) {
+  if (_countryCache[lang]) return _countryCache[lang];
+  let dn = null;
+  try { dn = new Intl.DisplayNames([lang], { type: 'region' }); } catch(_) {}
+  const list = COUNTRY_CODES.map(code => {
+    let name = code;
+    try { if (dn) name = dn.of(code) || code; } catch(_) {}
+    return { code, name };
+  }).sort((a, b) => a.name.localeCompare(b.name, lang));
+  _countryCache[lang] = list;
+  return list;
+}
+
+let _comboItems = [];
+let _comboFiltered = [];
+let _comboActive = -1;
+
+// Rebuild the localized list; keep the displayed name of an already-picked country in sync
+function refreshCountryCombo(lang) {
+  _comboItems = localizedCountries(lang);
+  const hidden = document.getElementById('leadCountry');
+  if (hidden.value) {
+    const found = _comboItems.find(c => c.code === hidden.value);
+    if (found) {
+      document.getElementById('leadCountryInput').value = found.name;
+      hidden.dataset.name = found.name;
+    }
+  }
+}
+
+// Now that MODAL_COUNTRY and combobox constants are initialized, apply ?lang= param.
+if (langParam && STRINGS[langParam]) setLang(langParam);
+
+function renderCombo(query) {
+  const list = document.getElementById('leadCountryList');
+  const q = deburr(query.trim());
+  let items;
+  if (!q) {
+    items = _comboItems;
+  } else {
+    const starts = [], has = [];
+    for (const it of _comboItems) {
+      const n = deburr(it.name);
+      if (n.startsWith(q)) starts.push(it);
+      else if (n.includes(q) || it.code.toLowerCase() === q) has.push(it);
+    }
+    items = starts.concat(has);
+  }
+  _comboFiltered = items.slice(0, 60);
+  _comboActive = -1;
+  list.innerHTML = _comboFiltered.length
+    ? _comboFiltered.map((it, i) => `<div class="combo-item" data-i="${i}">${escapeHtml(it.name)}</div>`).join('')
+    : '<div class="combo-empty">—</div>';
+  list.hidden = false;
+}
+
+function selectCombo(it) {
+  document.getElementById('leadCountryInput').value = it.name;
+  const hidden = document.getElementById('leadCountry');
+  hidden.value = it.code;
+  hidden.dataset.name = it.name;
+  document.getElementById('leadCountryList').hidden = true;
+  updateLeadSubmitState();
+}
+function closeCombo() { document.getElementById('leadCountryList').hidden = true; }
+
+(function wireCombo() {
+  const input = document.getElementById('leadCountryInput');
+  const list  = document.getElementById('leadCountryList');
+  input.addEventListener('focus', () => renderCombo(input.value));
+  input.addEventListener('input', () => {
+    const hidden = document.getElementById('leadCountry');
+    hidden.value = ''; delete hidden.dataset.name; // typing invalidates a prior pick
+    updateLeadSubmitState();
+    renderCombo(input.value);
+  });
+  input.addEventListener('keydown', e => {
+    if (list.hidden) return;
+    if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+      e.preventDefault();
+      const n = _comboFiltered.length; if (!n) return;
+      _comboActive = (_comboActive + (e.key === 'ArrowDown' ? 1 : -1) + n) % n;
+      [...list.children].forEach((el, i) => el.classList.toggle('active', i === _comboActive));
+      list.children[_comboActive]?.scrollIntoView({ block: 'nearest' });
+    } else if (e.key === 'Enter') {
+      e.preventDefault();
+      const pick = _comboActive >= 0 ? _comboFiltered[_comboActive] : _comboFiltered[0];
+      if (pick) selectCombo(pick);
+    } else if (e.key === 'Escape') {
+      closeCombo();
+    }
+  });
+  // mousedown (not click) so it fires before the input's blur hides the list
+  list.addEventListener('mousedown', e => {
+    const item = e.target.closest('.combo-item');
+    if (!item) return;
+    e.preventDefault();
+    const it = _comboFiltered[parseInt(item.dataset.i)];
+    if (it) selectCombo(it);
+  });
+  input.addEventListener('blur', () => setTimeout(closeCombo, 150));
+})();
+
+function updateModal(lang) {
+  const m = STRINGS[lang].modal;
+  document.getElementById('modal-title').textContent         = m.title;
+  document.getElementById('modal-sub').textContent           = m.sub;
+  document.getElementById('modal-email-label').textContent   = m.emailLabel;
+  document.getElementById('leadEmail').placeholder           = m.emailPh;
+  document.getElementById('modal-company-label').textContent = m.companyLabel;
+  document.getElementById('leadCompany').placeholder         = m.companyPh;
+  const c = MODAL_COUNTRY[lang] || MODAL_COUNTRY.es;
+  document.getElementById('modal-country-label').textContent = c.label;
+  document.getElementById('leadCountryInput').placeholder    = c.ph;
+  refreshCountryCombo(lang);
+  document.getElementById('modal-privacy-span').innerHTML    = m.privacyHtml;
+  const submitBtn = document.getElementById('modal-submit');
+  submitBtn.textContent = m.submit;
+}
+
+function triggerDownload() {
+  const a    = document.createElement('a');
+  a.href     = 'cataleg.pdf';
+  a.download = 'Eurast-Cataleg-RCR.pdf';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+}
+
+function openModal() {
+  updateModal(currentLang);
+  document.getElementById('leadModal').hidden = false;
+  phCapture('download_form_opened', { lang: currentLang });
+  setTimeout(() => document.getElementById('leadEmail').focus(), 80);
+}
+
+function closeModal() {
+  document.getElementById('leadModal').hidden = true;
+  document.getElementById('leadPrivacy').checked = false;
+  document.getElementById('leadCountry').value = '';
+  document.getElementById('leadCountryInput').value = '';
+  closeCombo();
+  const btn = document.getElementById('modal-submit');
+  btn.disabled    = true;
+  btn.textContent = STRINGS[currentLang].modal.submit;
+}
+
+async function submitLead(email, company, countryCode, countryName) {
+  const btn = document.getElementById('modal-submit');
+  btn.disabled    = true;
+  btn.textContent = STRINGS[currentLang].modal.sending;
+
+  // Persist a non-PII flag so returning visitors skip the modal
+  // (no guardem l'email en clar a localStorage)
+  localStorage.setItem(LEAD_LS_KEY, '1');
+  phCapture('download_submitted', { country: countryCode, lang: currentLang });
+
+  const sendPromise = fetch(LEAD_WEBHOOK, {
+    method:  'POST',
+    mode:    'no-cors',   // URLSearchParams → application/x-www-form-urlencoded (CORS-safelisted, no preflight)
+    body: new URLSearchParams({
+      email,
+      company,
+      country:      countryCode,   // ISO-2 of the country chosen by the user
+      country_name: countryName,   // human-readable name of that country
+      language:     currentLang,   // UI language (es/en/fr/de/it/pt)
+      source:       'cataleg_download',
+      token:        'EUR_CAT_2026',
+    }),
+  }).catch(err => console.warn('Lead webhook error:', err));
+
+  // Wait max 3 s then download regardless
+  await Promise.race([sendPromise, new Promise(r => setTimeout(r, 3000))]);
+
+  closeModal();
+  triggerDownload();
+}
+
+// Download button: the PDF downloads straight away, no lead form (Sergi, 07/10/2026).
+// The modal is kept in place but no longer opened; to bring it back, call openModal() here.
+document.getElementById('btn-dl').addEventListener('click', e => {
+  e.preventDefault();
+  phCapture('download_clicked', { lang: currentLang });
+  triggerDownload();
+});
+
+// Submit is enabled only when privacy is accepted AND a country is chosen
+function updateLeadSubmitState() {
+  const ok = document.getElementById('leadPrivacy').checked
+          && !!document.getElementById('leadCountry').value;
+  document.getElementById('modal-submit').disabled = !ok;
+}
+document.getElementById('leadPrivacy').addEventListener('change', updateLeadSubmitState);
+document.getElementById('leadCountry').addEventListener('change', updateLeadSubmitState);
+
+// Close modal on backdrop click or X button
+document.getElementById('leadModal').addEventListener('click', e => {
+  if (e.target === e.currentTarget) closeModal();
+});
+document.getElementById('modalClose').addEventListener('click', closeModal);
+
+// Form submit — requires email + country + privacy checkbox
+document.getElementById('leadForm').addEventListener('submit', async e => {
+  e.preventDefault();
+  const email     = document.getElementById('leadEmail').value.trim();
+  const company   = document.getElementById('leadCompany').value.trim();
+  const hiddenC    = document.getElementById('leadCountry');
+  const countryCode = hiddenC.value;
+  const countryName = hiddenC.dataset.name || '';
+
+  if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+    document.getElementById('leadEmail').focus();
+    return;
+  }
+  if (!countryCode) { document.getElementById('leadCountryInput').focus(); return; }
+  await submitLead(email, company, countryCode, countryName);
+});
+
+// ── MOBILE SIDEBAR TOGGLE ──────────────────────────────────────────
+const btnMenu   = document.getElementById('btnMenu');
+const backdrop  = document.getElementById('sidebarBackdrop');
+
+function openSidebar()  { sidebar.classList.add('open'); backdrop.classList.add('open'); }
+function closeSidebar() { sidebar.classList.remove('open'); backdrop.classList.remove('open'); }
+
+btnMenu?.addEventListener('click', () =>
+  sidebar.classList.contains('open') ? closeSidebar() : openSidebar());
+backdrop?.addEventListener('click', closeSidebar);
+
+// Close sidebar when a group is tapped on mobile
+sidebar.addEventListener('click', e => {
+  if (e.target.closest('.nav-item')) closeSidebar();
+});
+
+// ── RENDER INITIAL PAGES (scroll viewer only) ──────────────────────
+// In flip mode the scroll viewer is hidden — rendering it is wasted work,
+// and awaiting it here can stall the rest of the init (nav listeners etc.)
+if (!flipModeActive) {
+  renderSlot(currentPage).catch(() => {});
+  renderSlot(currentPage + 1).catch(() => {});
+  setTimeout(() => { observerReady = true; }, 300);
+}
+
+// ── ACTIVE GROUP HIGHLIGHT ─────────────────────────────────────────
+function updateActiveGroup(pageNum) {
+  let activeGroup = GROUPS[0];
+  for (const g of GROUPS) {
+    if (pageNum >= g.page) activeGroup = g;
+    else break;
+  }
+  document.querySelectorAll('.nav-item').forEach(el => el.classList.remove('active'));
+  const activeEl = document.getElementById(`nav-${activeGroup.id}`);
+  if (activeEl) {
+    activeEl.classList.add('active');
+    activeEl.scrollIntoView({ block: 'nearest' });
+  }
+}
+
+// ── NAVIGATION ─────────────────────────────────────────────────────
+function updateNav(n) {
+  document.getElementById('pageInput').value    = n;
+  document.getElementById('btnPrev').disabled   = n <= 1;
+  document.getElementById('btnNext').disabled   = n >= totalPages;
+  updateActiveGroup(n);
+  updateSubPage(n);
+  history.replaceState(null, '', '#pag=' + n);
+  // En sortir de la pàgina de la ref trobada, deixa de ressaltar-la. Amb
+  // retard: un scroll suau passa per pàgines intermèdies abans d'arribar-hi.
+  // Tolerància d'1 pàgina: la ref sol estar a baix de tot (taula de preus), i
+  // en centrar-la l'observer sovint marca la pàgina següent com a "actual"
+  // encara que la ref segueixi ben visible — no s'ha d'esborrar en aquest cas.
+  if (hlRef) {
+    clearTimeout(hlClearTimer);
+    if (Math.abs(n - hlRef.page) > 1) hlClearTimer = setTimeout(() => {
+      if (hlRef && Math.abs(currentPage - hlRef.page) > 1) clearRefHighlight();
+    }, 1500);
+  }
+  updateRefsPanel();
+}
+
+function goTo(n, { scroll = true } = {}) {
+  n = Math.max(1, Math.min(totalPages, n));
+  if (flipModeActive && flipGoTo) { flipGoTo(n); return; }
+  const dist = Math.abs(n - currentPage);
+
+  if (dist > 4) {
+    // Long jump: disable observer, unload stale pages, pre-render destination, instant scroll
+    observerReady = false;
+    currentPage   = n;
+    updateNav(n);
+    // Unload pages far from destination — use DOM as source of truth, not rendered Set
+    viewer.querySelectorAll('.page-slot canvas').forEach(cvs => {
+      const p = parseInt(cvs.closest('.page-slot')?.dataset.page);
+      if (p && Math.abs(p - n) > UNLOAD_FAR) unloadSlot(p);
+    });
+    renderSlot(n);
+    for (let i = Math.max(1, n - PRERENDER); i <= Math.min(totalPages, n + PRERENDER); i++) {
+      renderSlot(i);
+    }
+    slots[n - 1]?.scrollIntoView({ behavior: 'instant', block: 'start' });
+    setTimeout(() => { observerReady = true; }, 350);
+  } else {
+    // Short jump: SEMPRE renderitza la destinació (i el rang PRERENDER), perquè
+    // amb scroll:false (clic de ref) l'scrollIntoView ja no dispara el
+    // renderitzat via l'IntersectionObserver — highlightRef() faria polling
+    // etern d'un textLayer que no arribaria a existir. Només l'animació de
+    // scroll és condicional; renderSlot és idempotent (early-return si ja
+    // renderitzat o en cua), així que la navegació normal no en surt afectada.
+    renderSlot(n);
+    for (let i = Math.max(1, n - PRERENDER); i <= Math.min(totalPages, n + PRERENDER); i++) {
+      renderSlot(i);
+    }
+    if (scroll) slots[n - 1]?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+}
+
+document.getElementById('btnPrev').addEventListener('click', () => {
+  if (flipModeActive && flipBook_instance) flipBook_instance.flipPrev(); else goTo(currentPage - 1);
+});
+document.getElementById('btnNext').addEventListener('click', () => {
+  if (flipModeActive && flipBook_instance) flipBook_instance.flipNext(); else goTo(currentPage + 1);
+});
+document.getElementById('pageInput').addEventListener('change', e => goTo(parseInt(e.target.value) || 1));
+
+// Navigate when the user edits #pag=N in the URL bar (replaceState from
+// updateNav doesn't fire hashchange, so this only reacts to manual edits)
+window.addEventListener('hashchange', () => {
+  const m = location.hash.match(/^#pag=(\d+)$/);
+  if (!m) return;
+  const n = parseInt(m[1]);
+  if (n >= 1 && n <= totalPages && n !== currentPage) goTo(n);
+});
+
+// ── ZOOM ───────────────────────────────────────────────────────────
+let zoomTimer = null;
+
+function applyZoom() {
+  document.getElementById('zoomLbl').textContent = Math.round(zoom * 100) + '%';
+  if (flipModeActive && flipApplyZoom) { flipApplyZoom(); return; }
+  // Fixa la pàgina ABANS de tocar el layout i atura l'observer: canviar
+  // l'alçada de totes les pàgines el dispara amb el layout nou, reescriu
+  // currentPage i el scrollIntoView de sota acabava en una altra pàgina.
+  const target = currentPage;
+  observerReady = false;
+  const w = calcPageWidth();
+  slots.forEach(s => {
+    s.style.width  = w + 'px';
+    s.style.height = Math.round(w * sampleRatio) + 'px';
+  });
+  slots[target - 1]?.scrollIntoView({ behavior: 'instant', block: 'start' });
+
+  clearTimeout(zoomTimer);
+  zoomTimer = setTimeout(() => {
+    // Cancel any in-progress renders before starting fresh
+    renderQueue.forEach(e => e.task?.cancel());
+    renderQueue.clear();
+    rendered.clear();
+    slots.forEach(s => { s.innerHTML = LOADER_HTML; });
+    currentPage = target;
+    slots[target - 1]?.scrollIntoView({ behavior: 'instant', block: 'start' });
+    renderSlot(target);
+    for (let i = Math.max(1, target - PRERENDER); i <= Math.min(totalPages, target + PRERENDER); i++) {
+      renderSlot(i);
+    }
+    updateNav(target);
+    // El text layer es reconstrueix: torna a pintar la ref ressaltada (sense
+    // moure l'scroll, que el zoom ja l'ha col·locat).
+    if (hlRef && hlRef.page === target) highlightRef(target, hlRef.code, false);
+    setTimeout(() => { observerReady = true; }, 350);
+  }, IS_MOBILE ? 350 : 50);
+}
+
+document.getElementById('btnZoomIn').addEventListener('click', () => {
+  zoom = Math.min(zoom + 0.25, 3.0);
+  applyZoom();
+});
+document.getElementById('btnZoomOut').addEventListener('click', () => {
+  zoom = Math.max(zoom - 0.25, 0.5);
+  applyZoom();
+});
+
+// ── 1 / 2 COLUMNS (normal scroll view) ─────────────────────────────
+// Re-flow the scroll viewer at the current page width and re-render around
+// the current page. Used by the columns toggle.
+function relayoutScroll() {
+  renderQueue.forEach(e => e.task?.cancel());
+  renderQueue.clear();
+  rendered.clear();
+  const w = calcPageWidth();
+  slots.forEach(s => {
+    s.innerHTML    = LOADER_HTML;
+    s.style.width  = w + 'px';
+    s.style.height = Math.round(w * sampleRatio) + 'px';
+  });
+  observerReady = false;
+  for (let i = Math.max(1, currentPage - PRERENDER); i <= Math.min(totalPages, currentPage + PRERENDER); i++) {
+    renderSlot(i);
+  }
+  slots[currentPage - 1]?.scrollIntoView({ behavior: 'instant', block: 'start' });
+  // El text layer es reconstrueix: torna a pintar la ref ressaltada
+  if (hlRef && hlRef.page === currentPage) highlightRef(currentPage, hlRef.code, false);
+  setTimeout(() => { observerReady = true; }, 350);
+}
+
+// PAGES toggle (1 ⟷ 2) — applies to whichever view mode is active
+function updatePagesIcon() {
+  document.getElementById('iconPages2').toggleAttribute('hidden',  twoPage);
+  document.getElementById('iconPages1').toggleAttribute('hidden', !twoPage);
+  const fx = STRINGS[currentLang].flip;
+  document.getElementById('btnPages').title = twoPage ? fx.to1 : fx.to2;
+}
+document.getElementById('btnPages').addEventListener('click', () => {
+  twoPage = !twoPage;
+  phCapture('view_mode_changed', { mode: twoPage ? '2pages' : '1page' });
+  updatePagesIcon();
+  if (flipModeActive) {
+    if (flipSetPages) flipSetPages();
+  } else {
+    viewer.classList.toggle('two-up', twoPage);
+    relayoutScroll();
+  }
+});
+
+// ── RESIZE ────────────────────────────────────────────────────────
+let resizeTimer;
+let lastVW = window.innerWidth;   // per distingir resize d'amplada (zoom) del d'alçada (barra mòbil)
+window.addEventListener('resize', () => {
+  if (flipModeActive) return; // flip handles its own resize via syncFlipZoom
+  clearTimeout(resizeTimer);
+  resizeTimer = setTimeout(() => {
+    rendered.clear();
+    // El zoom del navegador (Ctrl +) arriba aquí com un resize: canvia
+    // l'amplada de pàgina i, per tant, l'alçada de les 861. Sense fixar la
+    // pàgina i aturar l'observer, l'scroll queda on era en píxels i acabes
+    // unes quantes pàgines més enllà a cada pas de zoom.
+    // Només es recol·loca si ha canviat l'AMPLADA: a mòbil, amagar i mostrar
+    // la barra d'adreces mentre es fa scroll dispara resize d'alçada, i
+    // recol·locar-hi tornaria l'usuari a dalt de la pàgina a cada passada.
+    const target = currentPage;
+    const reposicionar = window.innerWidth !== lastVW;
+    lastVW = window.innerWidth;
+    if (reposicionar) observerReady = false;
+    slots.forEach(s => { s.innerHTML = LOADER_HTML; });
+    const w = calcPageWidth();
+    slots.forEach(s => {
+      s.style.width  = w + 'px';
+      s.style.height = Math.round(w * sampleRatio) + 'px';
+    });
+    if (reposicionar) {
+      currentPage = target;
+      slots[target - 1]?.scrollIntoView({ behavior: 'instant', block: 'start' });
+    }
+    for (let i = Math.max(1, target - PRERENDER); i <= Math.min(totalPages, target + PRERENDER); i++) {
+      renderSlot(i);
+    }
+    if (reposicionar) {
+      updateNav(target);
+      setTimeout(() => { observerReady = true; }, 350);
+    }
+    // El text layer es reconstrueix: torna a pintar la ref ressaltada
+    if (hlRef && hlRef.page === target) highlightRef(target, hlRef.code, false);
+  }, 200);
+});
+
+// ── KEYBOARD ──────────────────────────────────────────────────────
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') {
+    if (!document.getElementById('favOverlay').hidden) { closeFavs(); return; }
+    if (!document.getElementById('searchOverlay').hidden) { closeSearch(); return; }
+    closeModal(); return;
+  }
+  if (!document.getElementById('leadModal').hidden) return;
+  if (!document.getElementById('searchOverlay').hidden) return;
+  if (!document.getElementById('favOverlay').hidden) return;
+  // don't navigate pages while typing in the search bar
+  const ae = document.activeElement;
+  if (ae && (ae.tagName === 'INPUT' || ae.tagName === 'TEXTAREA')) return;
+  if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
+    if (flipModeActive && flipBook_instance) flipBook_instance.flipNext(); else goTo(currentPage + 1);
+  }
+  if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+    if (flipModeActive && flipBook_instance) flipBook_instance.flipPrev(); else goTo(currentPage - 1);
+  }
+});
+
+// ── GAP-CLICK SELECTION HELPER ──────────────────────────────────────
+// .textLayer has pointer-events:all so clicks in gaps between spans reach it.
+// This handler snaps the cursor (or drag anchor) to the nearest text char
+// using the browser's native caretRangeFromPoint / caretPositionFromPoint.
+function addGapSelectionHelper(container) {
+  let anchorNode = null, anchorOffset = 0;
+
+  function posAtPoint(x, y) {
+    // Chrome/Safari
+    if (document.caretRangeFromPoint) {
+      const r = document.caretRangeFromPoint(x, y);
+      if (r && container.contains(r.startContainer))
+        return { node: r.startContainer, offset: r.startOffset };
+    }
+    // Firefox
+    if (document.caretPositionFromPoint) {
+      const pos = document.caretPositionFromPoint(x, y);
+      if (pos && container.contains(pos.offsetNode))
+        return { node: pos.offsetNode, offset: pos.offset };
+    }
+    // Fallback: nearest visible span by Euclidean distance
+    const spans = Array.from(container.querySelectorAll('span'));
+    let best = null, bestDist = Infinity;
+    for (const s of spans) {
+      if (!s.firstChild) continue;
+      const r = s.getBoundingClientRect();
+      const dx = Math.max(r.left - x, 0, x - r.right);
+      const dy = Math.max(r.top - y, 0, y - r.bottom);
+      const d = Math.hypot(dx, dy);
+      if (d < bestDist) { bestDist = d; best = s; }
+    }
+    if (!best || bestDist > 80) return null;
+    const rect = best.getBoundingClientRect();
+    const node = best.firstChild;
+    return { node, offset: x > (rect.left + rect.right) / 2 ? node.length : 0 };
+  }
+
+  container.addEventListener('mousedown', function(e) {
+    if (e.target !== this) { anchorNode = null; return; } // span click — browser handles
+    e.preventDefault();
+    const pos = posAtPoint(e.clientX, e.clientY);
+    if (!pos) return;
+    anchorNode = pos.node; anchorOffset = pos.offset;
+    window.getSelection().collapse(anchorNode, anchorOffset);
+  }, { passive: false });
+
+  container.addEventListener('mousemove', function(e) {
+    if (!anchorNode || !(e.buttons & 1)) return;
+    const pos = posAtPoint(e.clientX, e.clientY);
+    if (!pos) return;
+    try { window.getSelection().setBaseAndExtent(anchorNode, anchorOffset, pos.node, pos.offset); }
+    catch (_) {}
+  });
+
+  container.addEventListener('mouseup', () => { anchorNode = null; });
+}
+
+// ── CLEAN TEXT-LAYER SELECTION ─────────────────────────────────────
+// PDF.js pads table cells with trailing spaces in the text layer; with
+// `white-space: pre` those spaces have width and get highlighted as big
+// empty blue blocks when dragging. Trim the trailing whitespace of each
+// span (no effect on its left position) and drop now-empty filler spans
+// from selection, so dragging only highlights the actual values.
+// Trade-off: copying several cells at once loses the separating spaces.
+function cleanTextLayerSelection(container) {
+  for (const span of container.querySelectorAll('span')) {
+    const tn = span.firstChild;
+    if (!tn || tn.nodeType !== 3) continue;
+    const trimmed = tn.data.replace(/\s+$/, '');
+    if (trimmed !== tn.data) tn.data = trimmed;
+    if (trimmed === '') span.style.userSelect = 'none';
+  }
+}
+
+// ── SMARTER DOUBLE-CLICK SELECTION ─────────────────────────────────
+// PDF.js sometimes splits a single reference (e.g. "31960000") across two
+// adjacent text spans, so a plain double-click only grabs half of it. On
+// double-click inside a text layer we extend the selection across spans
+// that touch on the same line, so the whole alphanumeric token is selected.
+const WORD_CHAR = /[\p{L}\p{N}]/u;
+
+function spanTextNode(el) {
+  return el && el.firstChild && el.firstChild.nodeType === 3 ? el.firstChild : null;
+}
+// True if span `a` immediately precedes span `b` on the same visual line.
+function spansTouch(a, b) {
+  const ra = a.getBoundingClientRect(), rb = b.getBoundingClientRect();
+  if (!ra.width || !rb.width) return false;
+  const tol = Math.max(ra.height, rb.height) * 0.6;
+  return Math.abs(ra.top - rb.top) < tol && Math.abs(rb.left - ra.right) < tol;
+}
+
+function extendSelectionToToken() {
+  const sel = window.getSelection();
+  if (!sel || sel.rangeCount === 0 || sel.isCollapsed) return;
+  const range = sel.getRangeAt(0);
+  let sNode = range.startContainer, sOff = range.startOffset;
+  let eNode = range.endContainer,   eOff = range.endOffset;
+  if (sNode.nodeType !== 3 || eNode.nodeType !== 3) return;
+  if (!sNode.parentElement || !sNode.parentElement.closest('.textLayer')) return;
+
+  // Expand backward over word chars, crossing into touching previous spans
+  while (true) {
+    while (sOff > 0 && WORD_CHAR.test(sNode.data[sOff - 1])) sOff--;
+    if (sOff > 0) break;
+    const prevSpan = sNode.parentElement.previousElementSibling;
+    const prevText = spanTextNode(prevSpan);
+    if (prevText && prevText.data.length &&
+        WORD_CHAR.test(prevText.data[prevText.data.length - 1]) &&
+        spansTouch(prevSpan, sNode.parentElement)) {
+      sNode = prevText; sOff = prevText.data.length;
+    } else break;
+  }
+  // Expand forward over word chars, crossing into touching next spans
+  while (true) {
+    while (eOff < eNode.data.length && WORD_CHAR.test(eNode.data[eOff])) eOff++;
+    if (eOff < eNode.data.length) break;
+    const nextSpan = eNode.parentElement.nextElementSibling;
+    const nextText = spanTextNode(nextSpan);
+    if (nextText && nextText.data.length &&
+        WORD_CHAR.test(nextText.data[0]) &&
+        spansTouch(eNode.parentElement, nextSpan)) {
+      eNode = nextText; eOff = 0;
+    } else break;
+  }
+
+  try {
+    const r = document.createRange();
+    r.setStart(sNode, sOff);
+    r.setEnd(eNode, eOff);
+    sel.removeAllRanges();
+    sel.addRange(r);
+  } catch(_) {}
+}
+
+document.addEventListener('dblclick', e => {
+  if (e.target.closest && e.target.closest('.textLayer')) extendSelectionToToken();
+});
+
+// ── RTL TEXT SELECTION FIX ─────────────────────────────────────────
+// The browser loses drag-selection when the mouse passes over empty space
+// between absolutely-positioned spans. We track the anchor manually and
+// use setBaseAndExtent on every mousemove to keep the selection accurate.
+(function() {
+  let anchor = null;
+  function caretAt(x, y) {
+    if (document.caretRangeFromPoint) {
+      const r = document.caretRangeFromPoint(x, y);
+      return r ? { node: r.startContainer, off: r.startOffset } : null;
+    }
+    if (document.caretPositionFromPoint) {
+      const p = document.caretPositionFromPoint(x, y);
+      return p ? { node: p.offsetNode, off: p.offset } : null;
+    }
+    return null;
+  }
+  document.addEventListener('mousedown', e => {
+    if (!e.target.closest('.textLayer')) { anchor = null; return; }
+    anchor = caretAt(e.clientX, e.clientY);
+  }, true);
+  document.addEventListener('mousemove', e => {
+    if (!(e.buttons & 1) || !anchor) return;
+    const focus = caretAt(e.clientX, e.clientY);
+    if (!focus) return;
+    try {
+      window.getSelection().setBaseAndExtent(anchor.node, anchor.off, focus.node, focus.off);
+    } catch(_) {}
+  }, true);
+  document.addEventListener('mouseup', () => { anchor = null; }, true);
+})();
+
+// ── SUB-PAGE NAVIGATION ────────────────────────────────────────────
+function getGroupBounds(pageNum) {
+  let idx = 0;
+  for (let i = 0; i < GROUPS.length; i++) {
+    if (pageNum >= GROUPS[i].page) idx = i;
+    else break;
+  }
+  const start = GROUPS[idx].page;
+  const end   = idx + 1 < GROUPS.length ? GROUPS[idx + 1].page - 1 : totalPages;
+  return { start, end, total: end - start + 1, group: GROUPS[idx] };
+}
+
+function updateSubPage(pageNum) {
+  const { start, end, total, group } = getGroupBounds(pageNum);
+  currentGroupStart = start;
+  currentGroupEnd   = end;
+  document.getElementById('pillGroupId').textContent   = group.id;
+  document.getElementById('pillGroupName').textContent = group[currentLang];
+  const pgInp = document.getElementById('pillSubPage');
+  pgInp.min   = 1;
+  pgInp.max   = total;
+  pgInp.value = pageNum - start + 1;
+  document.getElementById('pillSubTotal').textContent  = total;
+}
+
+// ── GROUP DROPDOWN ────────────────────────────────────────────────
+const DROP_LABEL = { es:'Grupo', en:'Group', fr:'Groupe', de:'Gruppe', it:'Gruppo', pt:'Grupo' };
+let dropExpandedIdx = -1; // índex del grup expandit al desplegable (independent del grup actiu)
+
+function buildDropGroupList() {
+  const list = document.getElementById('dropGroupList');
+  list.innerHTML = '';
+  const curIdx = getGroupIdxForPage(currentPage);
+  GROUPS.forEach((g, idx) => {
+    const endPage = idx + 1 < GROUPS.length ? GROUPS[idx + 1].page - 1 : totalPages;
+    const pages = endPage - g.page + 1;
+    // Fila del grup: cos navegable (drop-group-item) + xebró d'expansió, dins
+    // d'un div (no es poden niar botons).
+    const rowDiv = document.createElement('div');
+    rowDiv.className = 'drop-group-row';
+    const btn = document.createElement('button');
+    btn.className = 'drop-group-item' + (idx === curIdx ? ' active' : '');
+    btn.innerHTML = `<span class="drop-g-badge${idx !== curIdx ? ' dim' : ''}">${g.id}</span>
+      <span class="drop-g-name">${g[currentLang]}</span>
+      <span class="drop-g-pages">${pages}</span>`;
+    btn.addEventListener('click', () => { goTo(g.page); closeGroupDropdown(); });
+    rowDiv.appendChild(btn);
+
+    // Xebró per expandir/plegar les seccions de QUALSEVOL grup (només si en té).
+    if ((groupSections[idx] || []).length > 0) {
+      const chev = document.createElement('button');
+      chev.className = 'drop-group-chevron' + (idx === dropExpandedIdx ? ' open' : '');
+      chev.innerHTML = REL_CHEVRON;
+      chev.addEventListener('click', (e) => {
+        e.stopPropagation();
+        dropExpandedIdx = dropExpandedIdx === idx ? -1 : idx;
+        buildDropGroupList();
+      });
+      rowDiv.appendChild(chev);
+    }
+    list.appendChild(rowDiv);
+
+    // Sota el grup EXPANDIT, mostra els seus salts de secció (famílies) com a
+    // subllista indentada perquè es pugui saltar dins del grup sense scroll.
+    if (idx === dropExpandedIdx) {
+      const secs = groupSections[idx] || [];
+      if (secs.length) {
+        const secWrap = document.createElement('div');
+        secWrap.className = 'drop-section-list';
+        // Secció activa = l'última que comença en una pàgina <= currentPage,
+        // però NOMÉS al grup on ets físicament (les pàgines són globals: en un
+        // altre grup expandit la comparació marcaria una secció errònia).
+        let activeSec = -1;
+        if (idx === curIdx) {
+          secs.forEach((s, si) => { if (s.page <= currentPage) activeSec = si; });
+        }
+        secs.forEach((s, si) => {
+          const sbtn = document.createElement('button');
+          sbtn.className = 'drop-section-item' + (si === activeSec ? ' active' : '');
+          sbtn.innerHTML = `<span class="drop-sec-title">${escapeHtml(s.title)}</span>
+            <span class="drop-sec-page">${s.page}</span>`;
+          sbtn.addEventListener('click', () => {
+            phCapture('section_clicked', { group_id: g.id, title: s.title, page: s.page });
+            goTo(s.page); closeGroupDropdown();
+          });
+          secWrap.appendChild(sbtn);
+        });
+        list.appendChild(secWrap);
+      }
+    }
+  });
+}
+
+function openGroupDropdown() {
+  const dd = document.getElementById('groupDropdown');
+  if (!dd.hidden) { dd.hidden = true; updateRefsPanel(); return; }
+  document.getElementById('dropHdrText').textContent = DROP_LABEL[currentLang];
+  dropExpandedIdx = getGroupIdxForPage(currentPage); // el grup actiu surt expandit per defecte
+  buildDropGroupList();
+  dd.hidden = false;
+  // A mòbil el desplegable viu dins la barra lateral (position:fixed, el seu
+  // propi context d'apilament): el seu z-index no pot competir amb el panell
+  // REFS, que és fixed fora de la barra. S'amaga mentre el desplegable és
+  // obert; es recupera en tancar via updateRefsPanel (mateixa lògica que ja
+  // decideix si hi ha d'haver panell a la pàgina actual).
+  document.getElementById('refsPanel').hidden = true;
+  // Auto-scroll perquè el grup actiu (amb les seves seccions) quedi visible.
+  const activeItem = dd.querySelector('.drop-group-item.active');
+  if (activeItem) activeItem.scrollIntoView({ block: 'nearest' });
+}
+
+function closeGroupDropdown() {
+  document.getElementById('groupDropdown').hidden = true;
+  updateRefsPanel();
+}
+
+function navigateFromPill() {
+  const inp = document.getElementById('pillSubPage');
+  const total = parseInt(inp.max) || 1;
+  const v = Math.max(1, Math.min(total, parseInt(inp.value) || 1));
+  inp.value = v;
+  goTo(currentGroupStart + v - 1);
+  inp.blur();
+}
+
+document.getElementById('pillZoneLeft').addEventListener('click', openGroupDropdown);
+document.getElementById('dropClose').addEventListener('click', closeGroupDropdown);
+document.getElementById('pillSubPage').addEventListener('click', e => e.stopPropagation());
+document.getElementById('pillSubPage').addEventListener('keydown', e => {
+  if (e.key === 'Enter') { e.preventDefault(); navigateFromPill(); }
+  if (e.key === 'Escape') { document.getElementById('pillSubPage').blur(); }
+});
+document.getElementById('pillZoneRight').addEventListener('click', () => {
+  const inp = document.getElementById('pillSubPage');
+  inp.focus(); inp.select();
+});
+document.addEventListener('click', e => {
+  if (!document.getElementById('groupDropdown').hidden &&
+      !document.getElementById('groupPill').contains(e.target) &&
+      !document.getElementById('groupDropdown').contains(e.target)) {
+    closeGroupDropdown();
+  }
+});
+
+// ── SEARCH INDEX ──────────────────────────────────────────────────
+function getGroupIdxForPage(pageNum) {
+  let idx = 0;
+  for (let i = 0; i < GROUPS.length; i++) {
+    if (pageNum >= GROUPS[i].page) idx = i;
+    else break;
+  }
+  return idx;
+}
+
+// Map position in norm string (no spaces) back to position in original text
+function mapNormToText(text, normPos) {
+  let count = 0;
+  for (let i = 0; i < text.length; i++) {
+    if (count >= normPos) return i;
+    if (!/\s/.test(text[i])) count++;
+  }
+  return text.length;
+}
+
+// Full-text index for the fallback search comes from a prebuilt static file
+// (search-text.json, built offline by scripts/build-refs.py). It's fetched
+// once and HTTP-cached by the browser — no PDF text extraction on the client,
+// so nothing is re-indexed on each load. Loaded lazily when search is opened.
+async function buildSearchIndex() {
+  if (isIndexing || indexedCount > 0) return;
+  isIndexing = true;
+  if (!document.getElementById('searchOverlay').hidden) renderSearchStatus('');
+  try {
+    const r = await fetch('search-text.json');
+    const d = await r.json();
+    for (const e of (d.pages || [])) {
+      searchIndex.push({ page: e.p, gIdx: e.g, text: e.t, norm: e.t.replace(/\s+/g, '') });
+    }
+    indexedCount = searchIndex.length;
+  } catch(_) {}
+  isIndexing = false;
+  // Re-run the current query now that the text index is ready
+  const overlay = document.getElementById('searchOverlay');
+  if (overlay && !overlay.hidden) {
+    const q = document.getElementById('searchTextInput').value;
+    if (q && q.trim().length >= 2) doSearch(q); else renderSearchStatus('');
+  }
+}
+
+function renderSearchStatus(query) {
+  const el = document.getElementById('searchStatus');
+  if (!el) return;
+  const s = STRINGS[currentLang].search;
+  if (isIndexing) {
+    const pct = Math.round(indexedCount / totalPages * 100);
+    el.innerHTML = `<div class="search-index-wrap">
+      <span>${s.indexing} ${indexedCount}/${totalPages}</span>
+      <div class="search-index-bar"><div class="search-index-fill" style="width:${pct}%"></div></div>
+    </div>`;
+  } else if (!query || query.length < 2) {
+    el.textContent = indexedCount > 0 ? `${indexedCount} ${s.indexedSuffix}` : '';
+  }
+}
+
+function escapeHtml(s) {
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+          .replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+}
+
+// Accent-insensitive, 1:1 (length-preserving so snippet offsets stay valid).
+const ACCENT_MAP = { 'á':'a','à':'a','â':'a','ä':'a','ã':'a','é':'e','è':'e','ê':'e','ë':'e','í':'i','ì':'i','î':'i','ï':'i','ó':'o','ò':'o','ô':'o','ö':'o','õ':'o','ú':'u','ù':'u','û':'u','ü':'u','ñ':'n','ç':'c' };
+function deburr(s) {
+  return s.toLowerCase().replace(/[áàâäãéèêëíìîïóòôöõúùûüñç]/g, c => ACCENT_MAP[c]);
+}
+
+function setSearchStatus(count) {
+  const statusEl = document.getElementById('searchStatus');
+  const s = STRINGS[currentLang].search;
+  const word = count === 1 ? s.resultOne : s.resultMany;
+  if (isIndexing) {
+    const pct = Math.round(indexedCount / totalPages * 100);
+    statusEl.innerHTML = `<div class="search-index-wrap">
+      <span><strong>${count}</strong> ${word} (${s.indexingShort} ${pct}%…)</span>
+      <div class="search-index-bar"><div class="search-index-fill" style="width:${pct}%"></div></div>
+    </div>`;
+  } else {
+    statusEl.textContent = count === 0 ? s.noResults : `${count} ${word}`;
+  }
+}
+
+// ── FAVORITES (localStorage, no login) ─────────────────────────────
+const FAV_KEY = 'eurast_favs';
+const FAV_STRINGS = {
+  es: { title: 'Referencias guardadas', empty: 'Aún no tienes referencias guardadas. Busca una referencia y toca la estrella ☆ para guardarla.', copy: 'Copiar lista', csv: 'Descargar CSV', copied: '¡Copiada!', share: 'Copiar enlace a esta página', shareCopied: '¡Enlace copiado!' },
+  en: { title: 'Saved references',       empty: 'No saved references yet. Search a reference and tap the star ☆ to save it.', copy: 'Copy list', csv: 'Download CSV', copied: 'Copied!', share: 'Copy link to this page', shareCopied: 'Link copied!' },
+  fr: { title: 'Références enregistrées', empty: 'Aucune référence enregistrée. Cherchez une référence et touchez l’étoile ☆ pour l’enregistrer.', copy: 'Copier la liste', csv: 'Télécharger CSV', copied: 'Copiée !', share: 'Copier le lien de cette page', shareCopied: 'Lien copié !' },
+  de: { title: 'Gespeicherte Referenzen', empty: 'Noch keine gespeicherten Referenzen. Suchen Sie eine Referenz und tippen Sie auf den Stern ☆.', copy: 'Liste kopieren', csv: 'CSV herunterladen', copied: 'Kopiert!', share: 'Link zu dieser Seite kopieren', shareCopied: 'Link kopiert!' },
+  it: { title: 'Riferimenti salvati',     empty: 'Nessun riferimento salvato. Cerca un riferimento e tocca la stella ☆ per salvarlo.', copy: 'Copia lista', csv: 'Scarica CSV', copied: 'Copiata!', share: 'Copia link a questa pagina', shareCopied: 'Link copiato!' },
+  pt: { title: 'Referências guardadas',   empty: 'Ainda não tens referências guardadas. Procura uma referência e toca na estrela ☆ para guardar.', copy: 'Copiar lista', csv: 'Transferir CSV', copied: 'Copiada!', share: 'Copiar link desta página', shareCopied: 'Link copiado!' },
+};
+const STAR_SVG = '<svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>';
+let favs = loadFavs();
+
+function loadFavs() {
+  try { const a = JSON.parse(localStorage.getItem(FAV_KEY)); return Array.isArray(a) ? a : []; }
+  catch(_) { return []; }
+}
+function saveFavs() { try { localStorage.setItem(FAV_KEY, JSON.stringify(favs)); } catch(_) {} }
+function isFav(ref) { return favs.some(f => f.ref === ref); }
+
+// ── REFS PANEL ─────────────────────────────────────────────────────────
+const pageRefs = new Map();
+const COPY_SVG = '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>';
+const SMALL_STAR = '<svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>';
+
+// Load page→refs mapping from references.json (refs are in images, not PDF text)
+const codePage = new Map();   // code → absolute page (per a #ref= deep links)
+// Salts de secció per grup: groupSections[groupIdx] = [{title, page}, …] ordenat
+// per pàgina. Cada secció és una tirada consecutiva de pàgines del mateix grup
+// amb la mateixa família (camp `f`). Es fa servir al desplegable de grups.
+const groupSections = {};
+async function loadPageRefs() {
+  try {
+    const data = await fetch('references.json').then(r => r.json());
+    // Estat per col·lapsar tirades consecutives del mateix grup+família en
+    // una sola secció (la pàgina és la primera de la tirada).
+    let prevG = null, prevF = null;
+    for (const entry of data.pages) {
+      if (!GROUPS[entry.g]) { prevG = null; prevF = null; continue; }
+      const absPage = entry.p;
+      // Construeix els salts de secció del desplegable de grups.
+      const fam = (entry.f || '').trim();
+      if (fam) {
+        if (!(entry.g === prevG && fam === prevF)) {
+          (groupSections[entry.g] || (groupSections[entry.g] = [])).push({ title: fam, page: absPage });
+        }
+        prevG = entry.g; prevF = fam;
+      } else {
+        prevG = null; prevF = null;
+      }
+      // Filter out dimension strings like "400X400" — keep product codes,
+      // both the standard 7-8 char ones and the short all-digit ones (92462)
+      const refs = entry.c.filter(c => /^[0-9][0-9A-Z]{4,7}$/.test(c) && !/\dX\d/.test(c));
+      if (refs.length > 0) pageRefs.set(absPage, refs);
+      refs.forEach(c => { if (!codePage.has(c)) codePage.set(c, absPage); });
+    }
+    updateRefsPanel();
+    // Deep link #ref=CODE (per compartir una referència concreta): salta a
+    // la seva pàgina i la ressalta. Es resol aquí perquè necessita el mapa,
+    // i sobre initialHash perquè updateNav ja ha reescrit location.hash.
+    const m = initialHash.match(/^#ref=([0-9A-Za-z]{7,8})$/);
+    if (m) {
+      const code = m[1].toUpperCase();
+      const pg = codePage.get(code);
+      if (pg) { goTo(pg, { scroll: false }); highlightRef(pg, code); }
+    }
+  } catch(_) {}
+}
+loadPageRefs();
+
+// ── RELACIONS sobretaula ↔ suport ↔ muntada (NOMÉS equip intern) ────────
+// Eina operativa (evitar compres quan es pot muntar amb estoc existent),
+// no informació per al client: només es carrega si el navegador té marca
+// d'equip (?viewer=<nom> o ?internal=1, persistides a localStorage).
+// Dades: relations.json, generat per scripts/build-relations.py (G4+G5).
+const relMap = new Map();
+const IS_TEAM = (() => {
+  try {
+    return localStorage.getItem('eurast_internal') === '1'
+        || !!localStorage.getItem('eurast_viewer');
+  } catch(_) { return false; }
+})();
+async function loadRelations() {
+  if (!IS_TEAM) return;
+  try {
+    const data = await fetch('relations.json').then(r => r.json());
+    for (const code in data.items) relMap.set(code, data.items[code]);
+    updateRefsPanel();
+  } catch(_) {}
+}
+loadRelations();
+
+const REL_STRINGS = {
+  es: { mounted: 'Versión con soporte', top: 'Versión sobremesa', support: 'Soporte', fits: 'Compatible con', open: 'abierto', doors: 'con puertas', drawers: 'con cajones' },
+  en: { mounted: 'Version with support', top: 'Tabletop version', support: 'Support', fits: 'Fits', open: 'open', doors: 'with doors', drawers: 'with drawers' },
+  fr: { mounted: 'Version sur support', top: 'Version de table', support: 'Support', fits: 'Compatible avec', open: 'ouvert', doors: 'avec portes', drawers: 'avec tiroirs' },
+  de: { mounted: 'Version mit Unterbau', top: 'Tischversion', support: 'Unterbau', fits: 'Passt zu', open: 'offen', doors: 'mit Türen', drawers: 'mit Schubladen' },
+  it: { mounted: 'Versione con supporto', top: 'Versione da banco', support: 'Supporto', fits: 'Compatibile con', open: 'aperto', doors: 'con porte', drawers: 'con cassetti' },
+  pt: { mounted: 'Versão com suporte', top: 'Versão de bancada', support: 'Suporte', fits: 'Compatível com', open: 'aberto', doors: 'com portas', drawers: 'com gavetas' },
+};
+const REL_CHEVRON = '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>';
+
+// Llista desplegable de refs relacionades sota un chip del panell REFS.
+function buildRelList(ref) {
+  const rx = REL_STRINGS[currentLang] || REL_STRINGS.es;
+  const s  = STRINGS[currentLang].search;
+  const list = document.createElement('div');
+  list.className = 'ref-rel-list';
+  const entry = relMap.get(ref);
+  entry.rel.forEach(([code, kind]) => {
+    const r = relMap.get(code);
+    if (!r) return;
+    const variant = (kind === 'support' && r.v) ? ` · ${rx[r.v]}` : '';
+    const row = document.createElement('button');
+    row.className = 'ref-rel-row';
+    row.title = r.d;   // dimensions al tooltip
+    row.innerHTML = `<span class="ref-rel-kind">${rx[kind]}${variant}</span>
+      <span class="ref-rel-main">${escapeHtml(code)} · <span class="rel-price">${escapeHtml(r.pr)} €</span> · <span class="rel-page">${s.pageAbbr} ${r.pg}</span></span>`;
+    row.addEventListener('click', () => {
+      phCapture('relation_clicked', { from: ref, to: code, kind, page: r.pg });
+      goTo(r.pg, { scroll: false });
+      highlightRef(r.pg, code);
+    });
+    list.appendChild(row);
+  });
+  return list;
+}
+
+function renderRefsPanel(refs) {
+  const panel = document.getElementById('refsPanel');
+  const chips = document.getElementById('refsChips');
+  if (!panel || !chips) return;
+  if (!refs || refs.length === 0) { panel.hidden = true; return; }
+  chips.innerHTML = '';
+  const gIdx = getGroupIdxForPage(currentPage);
+  refs.forEach(ref => {
+    const chip = document.createElement('div');
+    chip.className = 'ref-chip';
+    chip.dataset.ref = ref;   // per ressaltar-lo quan la cerca hi porta
+    const starred = isFav(ref);
+    chip.innerHTML = `<span>${escapeHtml(ref)}</span>
+      <button class="ref-copy-btn" title="Copiar">${COPY_SVG}</button>
+      <button class="ref-star-btn${starred ? ' on' : ''}" title="Guardar">${SMALL_STAR}</button>`;
+    const copyBtn = chip.querySelector('.ref-copy-btn');
+    copyBtn.addEventListener('click', () => {
+      navigator.clipboard.writeText(ref).catch(() => {});
+      phCapture('ref_copied', { ref, page: currentPage });
+      copyBtn.innerHTML = '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>';
+      setTimeout(() => { copyBtn.innerHTML = COPY_SVG; }, 1400);
+    });
+    const starBtn = chip.querySelector('.ref-star-btn');
+    starBtn.addEventListener('click', () => {
+      const group = GROUPS[gIdx];
+      toggleFav({ ref, family: group ? group[currentLang] : '', page: currentPage, gIdx });
+      starBtn.classList.toggle('on', isFav(ref));
+    });
+    chips.appendChild(chip);
+    // Desplegable de relacions (només equip intern, vegeu loadRelations)
+    if (relMap.has(ref)) {
+      const relBtn = document.createElement('button');
+      relBtn.className = 'ref-rel-btn';
+      relBtn.innerHTML = REL_CHEVRON;
+      chip.appendChild(relBtn);
+      let listEl = null;
+      relBtn.addEventListener('click', () => {
+        if (listEl) { listEl.remove(); listEl = null; relBtn.classList.remove('open'); return; }
+        listEl = buildRelList(ref);
+        chip.after(listEl);
+        relBtn.classList.add('open');
+        phCapture('relations_expanded', { ref, page: currentPage });
+      });
+    }
+  });
+  panel.hidden = false;
+  applyChipHighlight();   // el panell es re-renderitza a cada canvi de pàgina
+}
+
+function updateRefsPanel() {
+  const panel = document.getElementById('refsPanel');
+  if (!panel) return;
+  try {
+    const refs = pageRefs.get(currentPage);
+    if (refs !== undefined) renderRefsPanel(refs);
+    else panel.hidden = true;
+  } catch(_) { panel.hidden = true; }
+}
+function toggleFav(r) {
+  const action = isFav(r.ref) ? 'remove' : 'add';
+  if (isFav(r.ref)) favs = favs.filter(f => f.ref !== r.ref);
+  else favs.unshift({ ref: r.ref, family: r.family || '', page: r.page, gIdx: r.gIdx });
+  phCapture('favorite_toggled', { action, ref: r.ref, group_id: GROUPS[r.gIdx]?.id });
+  saveFavs();
+  updateFavBtn();
+}
+function updateFavBtn() {
+  const btn = document.getElementById('btnFav');
+  const cnt = document.getElementById('favCount');
+  if (!btn) return;
+  btn.classList.toggle('has-favs', favs.length > 0);
+  cnt.textContent = favs.length;
+  cnt.hidden = favs.length === 0;
+}
+
+// Build a reference result row (badge · code · family · star). Shared by the
+// search results and the favorites panel.
+function makeRefRow(r, onStarToggle) {
+  const g = GROUPS[r.gIdx];
+  const s = STRINGS[currentLang].search;
+  const btn = document.createElement('button');
+  btn.className = 'search-result';
+  const parts = [];
+  if (r.family) parts.push(escapeHtml(r.family));
+  if (r.dims)   parts.push(escapeHtml(r.dims));
+  parts.push(`${s.pageAbbr} ${r.page}`);
+  const famHtml = parts.join(' · ');
+  btn.innerHTML = `<span class="search-result-badge">${g.id}</span>
+    <span class="search-result-page">${escapeHtml(r.ref)}</span>
+    <span class="search-result-snippet">${famHtml}</span>
+    <span class="fav-star${isFav(r.ref) ? ' on' : ''}" role="button" aria-label="Favorito">${STAR_SVG}</span>`;
+  btn.addEventListener('click', () => { phCapture('reference_clicked', { ref: r.ref, page: r.page, group_id: g.id }); goTo(r.page, { scroll: false }); closeSearch(); closeFavs(); highlightRef(r.page, r.ref); });
+  const star = btn.querySelector('.fav-star');
+  star.addEventListener('click', e => {
+    e.stopPropagation();
+    toggleFav(r);
+    star.classList.toggle('on', isFav(r.ref));
+    if (onStarToggle) onStarToggle();
+  });
+  return btn;
+}
+
+function openFavs() {
+  closeSearch();
+  const list  = document.getElementById('favResults');
+  const empty = document.getElementById('favEmpty');
+  const fx = FAV_STRINGS[currentLang] || FAV_STRINGS.es;
+  document.getElementById('favTitle').textContent = fx.title;
+  list.innerHTML = '';
+  if (!favs.length) {
+    empty.textContent = fx.empty;
+    empty.hidden = false;
+  } else {
+    empty.hidden = true;
+    favs.forEach(r => list.appendChild(makeRefRow(r, () => { if (!isFav(r.ref)) openFavs(); })));
+  }
+  const exp = document.getElementById('favExport');
+  exp.hidden = !favs.length;
+  document.getElementById('btnFavCopy').textContent = fx.copy;
+  document.getElementById('btnFavCsv').textContent  = fx.csv;
+  document.getElementById('favOverlay').hidden = false;
+  document.getElementById('btnFav').classList.add('active');
+}
+function closeFavs() {
+  document.getElementById('favOverlay').hidden = true;
+  document.getElementById('btnFav').classList.remove('active');
+}
+
+// Exportar favorits — converteix la llista guardada en material de
+// pressupost: copiar com a text (ref + família + pàgina) o baixar CSV.
+function favLine(f) {
+  const gid = GROUPS[f.gIdx]?.id || '';
+  return [f.ref, f.family || '', gid, f.page];
+}
+document.getElementById('btnFavCopy').addEventListener('click', () => {
+  const fx = FAV_STRINGS[currentLang] || FAV_STRINGS.es;
+  const s  = STRINGS[currentLang].search;
+  const text = favs.map(f => favLine(f).slice(0, 3).join('\t') + `\t${s.pageAbbr} ${f.page}`).join('\n');
+  navigator.clipboard.writeText(text).catch(() => {});
+  phCapture('favorites_exported', { format: 'copy', count: favs.length });
+  const btn = document.getElementById('btnFavCopy');
+  btn.textContent = fx.copied;
+  setTimeout(() => { btn.textContent = fx.copy; }, 1400);
+});
+document.getElementById('btnFavCsv').addEventListener('click', () => {
+  const rows = [['referencia', 'familia', 'grupo', 'pagina'], ...favs.map(favLine)];
+  const csv  = '﻿' + rows.map(r => r.join(';')).join('\r\n');  // BOM per a Excel
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(new Blob([csv], { type: 'text/csv;charset=utf-8' }));
+  a.download = 'referencias-eurast.csv';
+  a.click();
+  URL.revokeObjectURL(a.href);
+  phCapture('favorites_exported', { format: 'csv', count: favs.length });
+});
+
+// Compartir: copia l'enllaç directe a la pàgina actual (#pag=N)
+document.getElementById('btnShare').addEventListener('click', () => {
+  const url = `${location.origin}${location.pathname}#pag=${currentPage}`;
+  navigator.clipboard.writeText(url).catch(() => {});
+  phCapture('page_link_copied', { page: currentPage });
+  const btn = document.getElementById('btnShare');
+  const orig = btn.innerHTML;
+  btn.innerHTML = '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>';
+  setTimeout(() => { btn.innerHTML = orig; }, 1400);
+});
+
+// Sinònims de cerca (claus i valors ja passats per deburr). Mapa nascut de
+// les cerques reals sense resultats a PostHog (p.ex. "freidora doble" 24
+// cops → les famílies diuen "DOS CUBAS"; "fritteuse" en alemany) + els
+// termes bàsics dels 6 idiomes del visor. Cada token de la consulta ha de
+// casar amb la família directament o via un d'aquests equivalents.
+const SEARCH_SYN = {
+  'doble': ['dos'], 'dobles': ['dos'], 'double': ['dos'], 'doppel': ['dos'], 'doppia': ['dos'],
+  'fritteuse': ['freidora'], 'fryer': ['freidora'], 'friteuse': ['freidora'], 'friggitrice': ['freidora'], 'fritadeira': ['freidora'],
+  'oven': ['horno'], 'four': ['horno'], 'ofen': ['horno'], 'backofen': ['horno'], 'forno': ['horno'],
+  'nevera': ['frigorific'], 'frigo': ['frigorific'], 'fridge': ['frigorific'], 'refrigerateur': ['frigorific'], 'kuhlschrank': ['frigorific'], 'frigorifero': ['frigorific'],
+  'freezer': ['congelad'], 'congelateur': ['congelad'], 'gefrierschrank': ['congelad'],
+  'dishwasher': ['lavavajillas', 'lavavasos'], 'lavastoviglie': ['lavavajillas'], 'spulmaschine': ['lavavajillas'],
+  'griddle': ['plancha', 'frytop'], 'plaque': ['plancha'],
+  'hood': ['campana'], 'hotte': ['campana'], 'haube': ['campana'], 'cappa': ['campana'],
+  'sink': ['fregadero'], 'evier': ['fregadero'], 'spule': ['fregadero'],
+  'cooker': ['cocina'], 'stove': ['cocina'], 'herd': ['cocina'], 'cuisiniere': ['cocina'], 'cucina': ['cocina'],
+  'support': ['soporte'], 'unterbau': ['soporte'], 'supporto': ['soporte'],
+  'showcase': ['vitrina'], 'vitrine': ['vitrina'],
+  'table': ['mesa'], 'tisch': ['mesa'], 'tavolo': ['mesa'],
+  'grill': ['barbacoa', 'grill'], 'bbq': ['barbacoa'],
+};
+// Token de dimensions: "400x700" o "400x700x280"
+const DIM_TOKEN_RE = /^\d{2,4}x\d{2,4}(x\d{2,4})?$/;
+
+function doSearch(query) {
+  const statusEl  = document.getElementById('searchStatus');
+  const resultsEl = document.getElementById('searchResults');
+  if (!statusEl || !resultsEl) return;
+  const q      = query.toLowerCase().trim();
+  const qNorm  = q.replace(/\s+/g, '');
+  if (!qNorm || qNorm.length < 2) { resultsEl.innerHTML = ''; renderSearchStatus(query); return; }
+
+  // ── Reference-centric results: match by code, family name or dimensions ──
+  const qd  = deburr(q);
+  const qUp = deburr(qNorm).toUpperCase();
+  // Matching per tokens: TOTES les paraules han d'aparèixer a la família
+  // (en qualsevol ordre i posició), no la frase literal sencera — així
+  // "cocinas gas" casa amb "COCINAS ... A GAS". Les dimensions es tracten
+  // com a token propi i es comparen amb la mida WxDxH de cada referència.
+  const rawTokens  = qd.split(/\s+/).filter(t => t.length >= 2);
+  const dimTokens  = rawTokens.filter(t => DIM_TOKEN_RE.test(t));
+  const textTokens = rawTokens.filter(t => !DIM_TOKEN_RE.test(t));
+  const famMatches = f => textTokens.length > 0 && textTokens.every(t =>
+    f.includes(t) || (SEARCH_SYN[t] || []).some(alt => f.includes(alt)));
+  const dimsMatch = dm => !!dm && dimTokens.every(t => dm === t || dm.startsWith(t + 'x'));
+
+  const byRef = new Map();      // ref → { ref, family, dims, page, gIdx, score }
+  const byRefDims = new Map();  // fallback: dims casen però la família no
+  for (const e of refPages) {
+    if (!e.c || !e.c.length) continue;
+    const famMatch = famMatches(deburr(e.f || ''));
+    for (let i = 0; i < e.c.length; i++) {
+      const code = e.c[i];
+      if (/^\d{3,4}X\d{3,4}$/.test(code)) continue;  // artefacte de mides, no és una ref
+      const dm = (e.d && e.d[i]) || '';
+      let score = null, target = byRef;
+      const ci = code.indexOf(qUp);
+      if (!dimTokens.length && qUp.length >= 2 && ci !== -1) {
+        score = code === qUp ? 0 : (ci === 0 ? 1 : 2);
+      } else if (dimTokens.length && dimsMatch(dm)) {
+        if (textTokens.length === 0 || famMatch) score = 3;
+        else { score = 5; target = byRefDims; }  // reserva per si l'estricta no dona res
+      } else if (!dimTokens.length && famMatch) {
+        score = 4;
+      }
+      if (score === null) continue;
+      const prev = target.get(code);
+      if (!prev || score < prev.score) {
+        target.set(code, { ref: code, family: e.f || '', dims: dm, page: e.p, gIdx: e.g, score });
+      }
+    }
+  }
+  // "cocinas gas 1050x580x280": si cap família casa amb el text PERÒ les
+  // mides sí que existeixen, val més ensenyar els productes d'aquella mida
+  // que un "sense resultats" (la mida és la part més específica de la consulta).
+  if (byRef.size === 0 && byRefDims.size > 0) {
+    byRefDims.forEach((v, k) => byRef.set(k, v));
+  }
+
+  const refs = [...byRef.values()].sort((a, b) => a.score - b.score || a.page - b.page);
+
+  if (refs.length) {
+    setSearchStatus(refs.length);
+    phCapture('search_performed', { query, result_count: refs.length, search_type: 'reference' });
+    resultsEl.innerHTML = '';
+    refs.slice(0, 60).forEach(r => resultsEl.appendChild(makeRefRow(r)));
+    return;
+  }
+
+  // ── Fallback: full-text snippet search (specs, words not in a heading) ──
+  fullTextSearch(q, qNorm);
+}
+
+// Full-text fallback: highlight the matched substring in a page-text snippet.
+function fullTextSearch(q, qNorm) {
+  const resultsEl = document.getElementById('searchResults');
+  const qd  = deburr(q);
+  const qNd = deburr(qNorm);
+  const hits = [];
+  const fullHitPages = new Set();
+  for (const e of searchIndex) {
+    const lower = deburr(e.text); // 1:1 with e.text, so offsets stay valid
+    if (qd.length >= 2) {
+      let pos = lower.indexOf(qd), cnt = 0;
+      while (pos !== -1 && cnt < 2) {
+        fullHitPages.add(e.page);
+        const s = Math.max(0, pos - 30), end = Math.min(e.text.length, pos + qd.length + 45);
+        hits.push({ page: e.page, gIdx: e.gIdx, raw: e.text.substring(s, end), mo: pos - s, mLen: qd.length });
+        pos = lower.indexOf(qd, pos + 1); cnt++;
+      }
+    }
+    if (!fullHitPages.has(e.page) && e.norm && qNd.length >= 2) {
+      const npos = deburr(e.norm).indexOf(qNd);
+      if (npos !== -1) {
+        const textPos = mapNormToText(e.text, npos);
+        const textEnd = mapNormToText(e.text, npos + qNorm.length);
+        const s = Math.max(0, textPos - 30), end = Math.min(e.text.length, textEnd + 45);
+        hits.push({ page: e.page, gIdx: e.gIdx, raw: e.text.substring(s, end), mo: textPos - s, mLen: textEnd - textPos });
+      }
+    }
+  }
+  hits.sort((a, b) => a.page - b.page);
+  setSearchStatus(hits.length);
+  phCapture('search_performed', { query: q, result_count: hits.length, search_type: 'fulltext' });
+
+  const s = STRINGS[currentLang].search;
+  resultsEl.innerHTML = '';
+  hits.slice(0, 30).forEach(h => {
+    const g   = GROUPS[h.gIdx];
+    const btn = document.createElement('button');
+    btn.className = 'search-result';
+    const safe = escapeHtml(h.raw);
+    const snip = safe.slice(0, h.mo) + `<mark>${safe.slice(h.mo, h.mo + h.mLen)}</mark>` + safe.slice(h.mo + h.mLen);
+    btn.innerHTML = `<span class="search-result-badge">${g.id}</span>
+      <span class="search-result-page">${s.pageAbbr} ${h.page}</span>
+      <span class="search-result-snippet">${snip}</span>`;
+    btn.addEventListener('click', () => { phCapture('search_result_clicked', { page: h.page, group_id: g.id, search_type: 'fulltext' }); goTo(h.page); closeSearch(); });
+    resultsEl.appendChild(btn);
+  });
+}
+
+// After navigating to a page, scroll to and highlight the reference both in
+// the text layer (scroll viewer only; the flip book is a canvas) and in the
+// REFS panel. El ressaltat es manté mentre siguem a la pàgina — es neteja en
+// canviar de pàgina (updateNav) o en ressaltar-ne una altra.
+function clearRefHighlight() {
+  hlRun++;   // atura qualsevol sondeig en curs (si no, hi pinta la seva caixa)
+  hlBoxes.forEach(b => b.remove());
+  hlBoxes = [];
+  hlRef   = null;
+  document.querySelectorAll('#refsChips .ref-chip.hl')
+    .forEach(c => c.classList.remove('hl'));
+}
+
+// Marca al panell REFS el chip de la ref ressaltada (i el fa visible).
+function applyChipHighlight() {
+  const chips = document.getElementById('refsChips');
+  if (!chips) return;
+  chips.querySelectorAll('.ref-chip').forEach(c => {
+    const on = !!hlRef && c.dataset.ref === hlRef.code;
+    c.classList.toggle('hl', on);
+    if (on) c.scrollIntoView({ block: 'nearest' });
+  });
+}
+
+// El text layer de pdf.js parteix les refs en spans ("4433" + "EP06"), així que
+// cal buscar el codi sobre el text concatenat i tornar tots els spans que el
+// cobreixen — buscar-lo span a span no el trobava mai. Torna un grup d'spans
+// per cada aparició del codi a la pàgina: l'etiqueta de la foto i el codi a la
+// taula de característiques de sota (només el codi, no tota la fila).
+function findRefSpans(tl, code) {
+  const spans = [...tl.querySelectorAll('span')];
+  const owner = [];   // índex de caràcter normalitzat → índex de span
+  let text = '';
+  spans.forEach((sp, i) => {
+    const t = (sp.textContent || '').replace(/\s/g, '').toUpperCase();
+    for (let k = 0; k < t.length; k++) owner.push(i);
+    text += t;
+  });
+  const groups = [];
+  for (let at = text.indexOf(code); at >= 0; at = text.indexOf(code, at + code.length)) {
+    groups.push([...new Set(owner.slice(at, at + code.length))].map(i => spans[i]));
+  }
+  return groups;
+}
+
+// Una caixa que cobreix el conjunt d'spans d'una aparició. Es mesura el text
+// amb un Range i no amb getBoundingClientRect de l'span: els spans porten
+// padding (8px amunt i avall, .6em a la dreta) per ampliar l'àrea de selecció,
+// i la caixa sortiria tres cops més alta que la lletra i trepitjaria la línia
+// del costat. El Range dona el rectangle de les lletres, ja amb el scaleX que
+// pdf.js aplica a cada span. Es desescala amb el zoom del contenidor.
+function addRefHlBox(tl, group) {
+  const base  = tl.getBoundingClientRect();
+  const scale = tl.offsetWidth ? base.width / tl.offsetWidth : 1;
+  const range = document.createRange();
+  let l = Infinity, t = Infinity, r = -Infinity, b = -Infinity;
+  group.forEach(sp => {
+    range.selectNodeContents(sp);
+    const rects = [...range.getClientRects()];
+    (rects.length ? rects : [sp.getBoundingClientRect()]).forEach(q => {
+      l = Math.min(l, (q.left   - base.left) / scale);
+      t = Math.min(t, (q.top    - base.top)  / scale);
+      r = Math.max(r, (q.right  - base.left) / scale);
+      b = Math.max(b, (q.bottom - base.top)  / scale);
+    });
+  });
+  if (!isFinite(l)) return null;
+  const box = document.createElement('div');
+  box.className = 'ref-hl-box';
+  box.style.left   = (l - 2) + 'px';
+  box.style.top    = (t - 2) + 'px';
+  box.style.width  = (r - l + 4) + 'px';
+  box.style.height = (b - t + 4) + 'px';
+  tl.appendChild(box);
+  return box;
+}
+
+function highlightRef(pageNum, code, scroll = true) {
+  code = String(code).replace(/\s/g, '').toUpperCase();
+  clearRefHighlight();
+  const run = hlRun;   // clearRefHighlight l'acaba d'incrementar
+  hlRef = { code, page: pageNum };
+  applyChipHighlight();
+  if (flipModeActive) return;
+  let tries = 0;
+  const timer = setInterval(() => {
+    tries++;
+    // Una altra crida (o un canvi de pàgina) ha pres el relleu
+    if (run !== hlRun || !hlRef) { clearInterval(timer); return; }
+    const slot = slots[pageNum - 1];
+    const tl   = slot && slot.querySelector('.textLayer');
+    if (tl) {
+      const groups = findRefSpans(tl, code);
+      if (groups.length) {
+        groups.forEach(g => { const box = addRefHlBox(tl, g); if (box) hlBoxes.push(box); });
+        // Fixa currentPage a la pàgina de la ref: el hlClearTimer pendent
+        // (programat per updateNav durant el scroll) veurà currentPage ===
+        // hlRef.page en disparar-se i no esborrarà el ressaltat acabat de pintar.
+        currentPage = pageNum;
+        clearTimeout(hlClearTimer);
+        // Scroll a l'inici de la pàgina sencera, no al text concret: si la ref
+        // és a baix de tot, centrar-la tapava la capçalera i mostrava ja el
+        // principi de la pàgina/secció següent.
+        if (scroll) slot.scrollIntoView({ block: 'start', behavior: 'smooth' });
+        clearInterval(timer);
+        return;
+      }
+    }
+    // ~15 s: en connexions lentes la pàgina pot trigar a renderitzar-se
+    if (tries > 100) clearInterval(timer);
+  }, 150);
+}
+
+// ── SEARCH UI (always-visible bar; results drop down below) ───────
+const searchInput = document.getElementById('searchTextInput');
+
+function showResults() { document.getElementById('searchOverlay').hidden = false; }
+// "close" here = hide the results dropdown (the bar itself stays visible)
+function closeSearch() { document.getElementById('searchOverlay').hidden = true; }
+// kept for callers that want to focus the search bar
+function openSearch() { closeFavs(); searchInput.focus(); }
+
+function runSearch() {
+  const q = searchInput.value;
+  document.getElementById('btnSearchClear').hidden = !q;
+  if (q.trim().length >= 2) { showResults(); doSearch(q); }
+  else { closeSearch(); }
+}
+
+searchInput.addEventListener('focus', () => {
+  closeFavs();
+  if (!isIndexing && indexedCount === 0) buildSearchIndex(); // lazy-load text index
+  if (searchInput.value.trim().length >= 2) { showResults(); doSearch(searchInput.value); }
+});
+// Selecció amb ↑↓ dins dels resultats; -1 = cap (Enter agafa el primer)
+let searchSel = -1;
+function moveSearchSel(delta) {
+  const rows = [...document.querySelectorAll('#searchResults .search-result')];
+  if (!rows.length) return;
+  searchSel = Math.max(0, Math.min(rows.length - 1, searchSel + delta));
+  rows.forEach((r, i) => r.classList.toggle('selected', i === searchSel));
+  rows[searchSel].scrollIntoView({ block: 'nearest' });
+}
+searchInput.addEventListener('input', () => {
+  document.getElementById('btnSearchClear').hidden = !searchInput.value;
+  searchSel = -1;
+  clearTimeout(searchTimer);
+  searchTimer = setTimeout(runSearch, 200);
+});
+searchInput.addEventListener('keydown', e => {
+  if (e.key === 'Escape') { closeSearch(); searchInput.blur(); }
+  if (e.key === 'ArrowDown') { e.preventDefault(); moveSearchSel(1); }
+  if (e.key === 'ArrowUp')   { e.preventDefault(); moveSearchSel(-1); }
+  if (e.key === 'Enter') {
+    // Enter = anar al resultat seleccionat amb ↑↓, o al primer si no n'hi
+    // ha cap (runSearch és síncron un cop l'índex està carregat).
+    clearTimeout(searchTimer);
+    if (searchSel < 0) runSearch();
+    const rows = document.querySelectorAll('#searchResults .search-result');
+    const target = rows[searchSel >= 0 && searchSel < rows.length ? searchSel : 0];
+    if (target) { target.click(); searchInput.blur(); searchSel = -1; }
+  }
+});
+// Hide results when focus leaves the bar/results (delay so result clicks land)
+searchInput.addEventListener('blur', () => setTimeout(() => {
+  if (!document.getElementById('searchOverlay').contains(document.activeElement)) closeSearch();
+}, 180));
+document.getElementById('btnSearchClear').addEventListener('click', () => {
+  searchInput.value = '';
+  document.getElementById('btnSearchClear').hidden = true;
+  closeSearch();
+  searchInput.focus();
+});
+
+// Favorites button + panel
+updateFavBtn();
+document.getElementById('btnFav').addEventListener('click', () =>
+  document.getElementById('favOverlay').hidden ? openFavs() : closeFavs());
+document.getElementById('btnFavClose').addEventListener('click', closeFavs);
+// The full-text index (search-text.json) loads lazily on first focus of the
+// search bar — no eager download for users who never search.
+</script>
+
+<div id="refsPanel" class="refs-panel" hidden>
+  <span class="refs-panel-label">REFS</span>
+  <div id="refsChips" class="refs-chips"></div>
+</div>
+
+</body>
+</html>

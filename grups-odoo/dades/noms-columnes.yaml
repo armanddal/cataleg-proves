@@ -1,0 +1,64 @@
+# Noms ES/EN/FR REVISATS de les columnes noves (per a grups nous). Clau = codi de columna (o clau de columna del .pub si coincideix).
+# Precedència a genera_config: (1) aquest fitxer; (2) nom de la pàgina de simbologia del grup (icona de capçalera); (3) text de la capçalera
+# (del .pub o del PDF); (4) variant numerada de la base («(2)»); (5) provisional (avís). Les variants numerades (wok_2, llum_2...) hereten la base.
+# `icona: ''` = sense icona. Quan el mateix dibuix vol dir una altra cosa en un grup (simbologia diferent), la família porta una etiqueta pròpia.
+# Revisats el 22/10/2026 (sessió de càrrega total a Staging); els noms són a validar amb el Sergi (a-revisar-amb-el-sergi-total.md).
+dutxa: {es: Ducha, en: Shower, fr: Douche}
+nivells: {es: Niveles, en: Levels, fr: Niveaux}
+tapa_planxa: {es: Tapa plancha, en: Griddle lid, fr: Couvercle de plancha}
+diametre_conducte: {es: Conducto recomendado, en: Recommended duct, fr: Conduit recommandé}
+extintor: {es: Extintor, en: Extinguisher, fr: Extincteur}
+extincio_pci: {es: Extinción PCI, en: Fire extinguishing system, fr: Extinction incendie}
+temperatura: {es: Temperatura, en: Temperature, fr: Température}
+produccio_cubets: {es: Producción de cubitos, en: Ice cube production, fr: Production de glaçons}
+capacitat_kg: {es: Capacidad (kg), en: Capacity (kg), fr: Capacité (kg)}
+nivells_safates: {es: Niveles, en: Levels, fr: Niveaux}
+cubeta: {es: Cubeta, en: Tray, fr: Bac}
+muntatge: {es: Montaje incluido, en: Assembly included, fr: Montage inclus}
+junta_goma: {es: Junta de goma, en: Rubber gasket, fr: Joint en caoutchouc}
+muntants: {es: Montantes, en: Uprights, fr: Montants}
+estants: {es: Estantes, en: Shelves, fr: Étagères}
+prestatge_mural: {es: Estante mural, en: Wall shelf, fr: Étagère murale}
+dimensions_cubeta: {es: Medidas cubeta, en: Tank dimensions, fr: Dimensions du bac}
+dimensions_safata: {es: Medidas bandeja, en: Tray dimensions, fr: Dimensions du plateau}
+diametre: {es: Diámetro, en: Diameter, fr: Diamètre}
+pedal: {es: Pedal, en: Pedal, fr: Pédale}
+tall: {es: Corte, en: Cut, fr: Coupe}
+kg: {es: Kg, en: Kg, fr: Kg}
+dot: {es: Dotación de serie, en: Standard equipment, fr: Équipement standard}
+dot_kitdiscr: {es: Kit de discos, en: Disc kit, fr: Kit de disques}
+hp: {es: HP, en: HP, fr: HP}
+uc: {es: Unidad condensadora, en: Condensing unit, fr: Unité de condensation}
+kw_365: {es: Consumo anual, en: Annual consumption, fr: Consommation annuelle}
+ext_int: {es: Exterior / interior, en: Exterior / interior, fr: Extérieur / intérieur}
+magnetr_n: {es: Magnetrón, en: Magnetron, fr: Magnétron}
+serie: {es: Serie, en: Series, fr: Séries}
+filtres: {es: Filtros, en: Filters, fr: Filtres}
+guies_inclinades: {es: Guías inclinadas, en: Inclined guides, fr: Glissières inclinées}
+batedora: {es: Longitud batidora, en: Whisk length, fr: Longueur du batteur}
+mesures_2: {es: Medidas (2), en: Dimensions (2), fr: Dimensions (2)}
+plats_310: {es: Capacidad de platos Ø 310, en: Plate capacity Ø 310, fr: Capacité d'assiettes Ø 310, icona: ''}
+alcada: {es: Separación entre guías, en: Guide separation, fr: Séparation des guides}
+euronorm: {es: Latas Euronorm, en: Euronorm tinplate, fr: Fer-blanc Euronorm, icona: ''}
+euronorm_2: {es: Latas Euronorm (2), en: Euronorm tinplate (2), fr: Fer-blanc Euronorm (2), icona: ''}
+material: {es: Material, en: Material, fr: Matériau, icona: ''}
+unitats: {es: Unidades, en: Units, fr: Unités, icona: ''}
+material_porta: {es: Material de la puerta, en: Door material, fr: Matériau de la porte}
+diametre_conducte_2: {es: Conducto recomendado (2), en: Recommended duct (2), fr: Conduit recommandé (2)}
+ventilador_2: {es: Ventilador (2), en: Fan (2), fr: Ventilateur (2)}
+mural_central: {es: Mural / central, en: Wall / central, fr: Murale / centrale, icona: ''}
+s_panells: {es: S, en: S, fr: S, icona: ''}
+amperis: {es: Amperios, en: Amperes, fr: Ampères, icona: ''}
+tipo: {es: Tipo, en: Type, fr: Type, icona: ''}
+acabat_exterior: {es: Acabado exterior, en: External finish, fr: Finition extérieure, icona: ''}
+calaixos_2: {es: Cajones (2), en: Drawers (2), fr: Tiroirs (2)}
+ampolles_75cl: {es: Botellas 75 cl, en: 75 cl bottles, fr: Bouteilles 75 cl, icona: ''}
+sortida: {es: Ø de salida, en: Outlet Ø, fr: Ø de sortie}
+sortida_2: {es: Ø de salida (2), en: Outlet Ø (2), fr: Ø de sortie (2)}
+diametre_plats: {es: Ø platos, en: Plate Ø, fr: Ø assiettes, icona: ''}
+carrega_maxima: {es: Carga máxima, en: Maximum load, fr: Charge maximale}
+denominacio: {es: Denominación, en: Denomination, fr: Dénomination, icona: ''}
+denominacio_2: {es: Denominación (2), en: Denomination (2), fr: Dénomination (2), icona: ''}
+altura_mm: {es: Altura (mm), en: Height (mm), fr: Hauteur (mm), icona: ''}
+longitud_barra: {es: Longitud triturador, en: Crusher length, fr: Longueur du broyeur}
+diametre_alcada: {es: Ø disco de corte, en: Ø cutting disc, fr: Ø disque de coupe}

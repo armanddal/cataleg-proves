@@ -1,0 +1,70 @@
+# Joc ESTÀNDARD d'icones de capçalera de columna (mode «text primer»). Editable.
+#
+# Regla de disseny: el NOM de la columna (x_cataleg_columna.name traduït, o l'etiqueta pròpia de la família) surt SEMPRE a la
+# capçalera; la icona és un afegit opcional, petit, damunt del nom. Una columna que no és aquí no té icona: només el nom.
+# Així una columna nova (o un grup nou) es regenera sola sense haver de dissenyar cap icona.
+#
+# icones: codi de x_cataleg_columna -> fitxer d'icona (nom de fitxer dins d'assets/g3|g4|g5/; es busca al grup que es renderitza
+#         i, si no hi és, als altres). Les variants numerades (fogons_2, fogons_3, forn_estatic_2, placa_rodona_2...) hereten la
+#         icona de la base sense escriure-les aquí.
+# alies:  codi -> codi del qual hereta la icona quan el sufix numèric no ho resol (p. ex. mesures_text, les mesures de text
+#         de les taules d'accessoris).
+# unitats: unitat per a la llegenda quan x_cataleg_columna.unitat és buida a Odoo (a Staging ho és a totes). Si Odoo en té, mana Odoo.
+# fora_llegenda: columnes que NO surten a la llegenda automàtica perquè el seu nom ja s'explica sol (codi, preu, textos literals).
+#
+# Criteri de selecció (columnes-inventari.md de ../grups, freqüència en taules G2-G5 i netedat de la imatge):
+#   triades les 21 més freqüents/netes; descartades les que es llegeixen malament a 0,5 cm o no són fiables (a baix).
+
+icones:
+  energia:             icona-energia-gas-electric.jpg      # 81 taules   (gas + elèctric, dues icones en una)
+  pes:                 icona-pes.jpg                       # 91
+  mesures:             icona-mesures.jpg                   # 125         (tres fletxes llarg/fons/alt; molt ampla: es redueix)
+  potencia_electrica:  icona-potencia-electrica.jpg        # 62
+  potencia_gas:        icona-potencia-gas.jpg              # 51
+  fogons:              icona-fogons.jpg                    # 41
+  gastronorm:          icona-gastronorm.jpg                # 25
+  capacitat_litres:    icona-capacitat_litres.jpg          # 24
+  placa_rodona:        icona-placa-rodona.jpg              # 21
+  forn_estatic:        icona-forn-estatic.jpg              # 20
+  dimensions_placa:    icona-dimensions_placa.jpg          # 14
+  dimensions_parrilla: icona-dimensions_parrilla.jpg       # 11
+  placa_lisa:          icona-placa_lisa.jpg                # 9
+  placa_1_3_estriada:  icona-placa_1_3_estriada.jpg        # 9
+  placa_estriada:      icona-placa_estriada.jpg            # 3 (parella de placa_lisa)
+  placa_quadrada:      icona-placa-quadrada.jpg            # 8
+  calaixos:            icona-calaixos.jpg                  # 7
+  numero_cubes:        icona-numero_cubes.jpg              # 7
+  dimensions_cesta:    icona-dimensions_cesta.jpg          # 7
+  mesures_interiors:   icona-mesures_interiors.jpg         # 5
+  portes:              icona-portes.jpg                    # 3
+
+alies:
+  mesures_text: mesures
+
+# Candidates NO activades (a propòsit):
+#   barbacoa (icona-barbacoa.jpg)         -> és gairebé idèntica a placa_estriada (barres verticals); el nom ja la distingeix.
+#   wok (icona-wok.jpg)                   -> el .jpg és un quadre buit (imatge en blanc); no es pot usar.
+#   mesures_gastronorm (…_gastronorm.png) -> PNG en negre sobre transparent, no coherent amb la resta; ja hi ha «gastronorm».
+#   grill, motor, calor, soporte_obert, dimensions_cuba -> 1-5 taules; icona correcta però poc rendiment: sense icona, només nom.
+#   Per activar-ne una: afegiu «codi: fitxer.jpg» a `icones` (i regenereu).
+
+unitats:
+  mesures:             mm
+  mesures_interiors:   mm
+  dimensions_placa:    mm
+  dimensions_parrilla: mm
+  dimensions_cesta:    mm
+  dimensions_cuba:     mm
+  pes:                 kg
+  capacitat_litres:    l
+  potencia_gas:        kW
+  potencia_electrica:  kW / V
+  fogons:              n x kW
+  forn_estatic:        n x GN / kW
+  placa_rodona:        n x kW
+
+fora_llegenda: [codi, preu, para, pack, gn, kit_cambio, para_soportes]
+
+# Símbols de la pàgina de simbologia de gN.yaml que NO són columnes i es conserven tal com surten del .pub (fitxer d'icona sense extensió).
+# Tota la resta de símbols del .pub (els que són la icona d'una columna) deixen de ser fixos: es generen sols.
+simbols_fixos: [simbol-largo, simbol-fondo, simbol-alto, simbol-gas, simbol-electrico]

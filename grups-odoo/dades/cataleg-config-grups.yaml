@@ -1,0 +1,26 @@
+# Configuració comuna del generador per a QUALSEVOL grup (la de cada grup, famílies i repeticions, és a gN-config.yaml). Editable.
+
+# Ordre en què els grups es carreguen a Odoo Staging. Un producte només pot ser a una família: és del primer grup que el marca, i els
+# grups posteriors el repeteixen a la seva taula (`compartits`). Els grups que no són aquí van darrere, per número.
+# G2 ja és carregat (pilot); G3, G4 i G5 també. Canvieu-ho si carregueu un altre grup abans.
+ordre_carrega: [2, 3, 4, 5, 1, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+
+# Grups que només carreguen el que surt al PDF PUBLICAT (taules amb valors per posició = amb pàgina al PDF). G11: el .pub és d'una edició més gran
+# que el PDF del web (170 pàg. vs 73); el que només és al .pub va a l'informe, no a Odoo.
+nomes_pdf_publicat: [11]
+
+
+# Capacitat mínima de pàgina; una família amb una taula més llarga a la plantilla del .pub conserva aquesta mida.
+# Si una taula passa de les files, continua en una pàgina nova repetint la capçalera.
+capacitats:
+  producte_files: 8                # files de taula per pàgina de producte (G4/G5: «MESAS DE COCCIÓN» en té 9 al .pub i les conserva)
+  accessoris_files_per_targeta: 4  # files per taula d'una pàgina d'accessoris (si la plantilla en té més, també)
+  accessoris_targetes_per_pagina: 6
+
+# Columnes d'una família que a Odoo no en té cap (família nova): CODIS de x_cataleg_columna.
+columnes_defecte: [codi, energia, pes, mesures, preu]
+
+# Amplada (cm) de les columnes que la plantilla de pàgina no coneix (família nova o columna nova).
+# L'amplada és disseny de pàgina, no dada: no és a Odoo.
+ample_defecte_cm: 1.6
+amples_defecte_cm: {codi: 2.5, energia: 2.0, pes: 1.2, mesures: 2.8, preu: 1.4}

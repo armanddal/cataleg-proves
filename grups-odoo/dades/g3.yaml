@@ -1,0 +1,6390 @@
+# Dades del Grup 3 extretes del .pub. Editable a mà.
+# Regenera amb: python3 scripts/extreu_pub.py --grup 3 (ATENCIÓ: sobreescriu aquest fitxer)
+esquema: tarifa-grup/1
+font:
+  fitxer: Tarifa-G3-COCINAS-600-snack.pub
+  titol: Serie Master 600 snack
+  assumpte: Hornillos, cocinas, vitrocerámicas, planchas frytop, freidoras, conservadores de fritos, baños maría, cuece pastas, barbacoas, encimeras
+    neutras, fregaderos y soportes. Versiones a gas y eléctricas
+  autor: Albert Miró
+  paraules_clau: Macfrin group;G3;Tarifa 2019;Grupo 3
+  comentaris: Versión española, inglesa y francesa en 3 marcas
+  convertit_amb: LibreOffice (fodg) -> scripts/extreu_pub.py
+  nota: La data és la que du el .pub (es canvia a grup.data_edicio).
+grup:
+  numero: 3
+  nom: COCINAS - COOKERS SNACK 600
+  series:
+  - 600 SNACK
+  data_edicio: 2026/03
+  format_pagina_cm:
+  - 21.0
+  - 29.7
+plantilla:
+  icones_valor_energia:
+    gas: assets/g3/icona-cel-energia-gas.jpg
+    electric: assets/g3/icona-cel-energia-electric.jpg
+  peu:
+    logo: assets/g3/plantilla-logo-eurast.jpg
+    data_edicio: grup.data_edicio
+    text_peu: Grupo {grup} - {data_edicio}
+    numero_pagina: true
+  colors:
+    granat: '#772f32'
+    vermell_titols: '#a22b2d'
+    taronja_icones: '#bf5130'
+    beix_etiqueta: '#e8e4d2'
+    vermell_referencies: '#cc0000'
+    taronja_portada: '#da5f06'
+  nota: El segell vermell de la portada (2026/03) és un raster amb la data cosida; el renderitzador el redibuixa a partir de grup.data_edicio.
+pagines:
+- id: p01
+  n: 1
+  tipus: portada_grup
+  grup:
+    numero: 3
+    etiqueta:
+      es: GRUPO / GROUP
+    nom: COCINAS - COOKERS SNACK 600
+    serie:
+    - '600'
+    nom_text_pla: COCINAS - COOKERS SNACK        600
+  titol_catalog:
+    es: CATÁLOGO / TARIFA E CATALOG / PRICE LIST F CATALOGUE / LISTE DE PRIX D KATALOG / PREISLISTE
+  imatges:
+  - pos:
+      x: -0.018
+      y: 9.054
+      w: 19.131
+      h: 20.65
+    asset: assets/g3/portada-franges.png
+    ordre: 1
+    rol: franges
+  - pos:
+      x: 0.213
+      y: 6.404
+      w: 18.9
+      h: 10.238
+    asset: assets/g3/portada-02.png
+    ordre: 2
+    rol: foto_producte
+  - pos:
+      x: 1.0
+      y: 17.382
+      w: 17.248
+      h: 8.201
+    asset: assets/g3/portada-03.png
+    ordre: 3
+    rol: foto_producte
+  - pos:
+      x: 0.813
+      y: 0.834
+      w: 10.0
+      h: 4.338
+    asset: assets/g3/portada-04.jpg
+    ordre: 4
+    rol: logo
+  - pos:
+      x: 14.678
+      y: 25.2
+      w: 4.0
+      h: 4.0
+    asset: assets/g3/portada-segell-data-raster.png
+    ordre: 5
+    rol: segell_data
+  omesos_decoratius:
+    filets_i_contorns: 2
+  decoracio:
+  - forma: degradat
+    color: null
+    pos:
+      x: 0.776
+      y: 12.121
+      w: 17.604
+      h: 4.945
+  - forma: degradat
+    color: null
+    pos:
+      x: 1.581
+      y: 22.772
+      w: 17.278
+      h: 3.289
+  n_elements_font: 17
+- id: p02
+  n: 2
+  tipus: index_grup
+  peu_enllac:
+    pagines:
+    - 26
+    text:
+      es: SIMBOLOGÍA E     SYMBOLS    F   SYMBOLOGIE
+      fr: SYMBOLOGIE
+    pos:
+      x: 11.8
+      y: 28.801
+      w: 4.7
+      h: 0.758
+    color_fons: '#e8e4d2'
+    icones:
+    - assets/g3/peu-icona-ull.png
+    - assets/g3/plantilla-quadre-numero.emf
+    - assets/g3/plantilla-quadre-numero.emf
+  banda_lateral: SERIE MASTER 600 SNACK
+  targetes:
+  - ordre: 1
+    enllac_pagines:
+    - 6
+    - 8
+    fotos:
+    - asset: assets/g3/info-p04-2.jpg
+      pos:
+        x: 5.92
+        y: 2.459
+        w: 4.3
+        h: 4.3
+    - asset: assets/g3/foto-42800311.jpg
+      pos:
+        x: 11.11
+        y: 2.459
+        w: 4.3
+        h: 4.3
+    - asset: assets/g3/foto-33100311.jpg
+      pos:
+        x: 16.3
+        y: 3.084
+        w: 3.2
+        h: 3.2
+    pos:
+      x: 5.5
+      y: 0.8
+      w: 14.0
+      h: 0.76
+  - ordre: 2
+    enllac_pagines:
+    - 9
+    - 11
+    fotos:
+    - asset: assets/g3/info-p04-3.jpg
+      pos:
+        x: 5.92
+        y: 9.494
+        w: 4.0
+        h: 4.0
+    - asset: assets/g3/foto-42900611.jpg
+      pos:
+        x: 10.71
+        y: 9.494
+        w: 4.0
+        h: 4.0
+    - asset: assets/g3/index-p02-2-3.jpg
+      pos:
+        x: 15.5
+        y: 9.494
+        w: 4.0
+        h: 4.0
+    pos:
+      x: 5.5
+      y: 7.8
+      w: 14.0
+      h: 0.76
+  - ordre: 3
+    enllac_pagines:
+    - 13
+    - 14
+    fotos:
+    - asset: assets/g3/foto-30020311.jpg
+      pos:
+        x: 5.92
+        y: 16.825
+        w: 4.0
+        h: 4.0
+    - asset: assets/g3/index-p02-3-2.jpg
+      pos:
+        x: 10.71
+        y: 16.825
+        w: 4.0
+        h: 4.0
+    - asset: assets/g3/foto-30620311.jpg
+      pos:
+        x: 15.5
+        y: 16.825
+        w: 4.0
+        h: 4.0
+    pos:
+      x: 5.5
+      y: 14.8
+      w: 14.0
+      h: 0.76
+  - ordre: 4
+    enllac_pagines:
+    - 15
+    fotos:
+    - asset: assets/g3/foto-30230311.jpg
+      pos:
+        x: 7.602
+        y: 22.883
+        w: 4.917
+        h: 4.917
+    - asset: assets/g3/foto-30240611.jpg
+      pos:
+        x: 13.31
+        y: 23.483
+        w: 4.0
+        h: 4.0
+    pos:
+      x: 5.5
+      y: 21.8
+      w: 14.0
+      h: 0.76
+  n_elements_font: 36
+- id: p03
+  n: 3
+  tipus: index_grup
+  peu_enllac:
+    pagines:
+    - 26
+    text:
+      es: SIMBOLOGÍA E     SYMBOLS    F   SYMBOLOGIE
+      fr: SYMBOLOGIE
+    pos:
+      x: 11.8
+      y: 28.801
+      w: 4.7
+      h: 0.758
+    color_fons: '#e8e4d2'
+    icones:
+    - assets/g3/peu-icona-ull.png
+    - assets/g3/plantilla-quadre-numero.emf
+    - assets/g3/plantilla-quadre-numero.emf
+  banda_lateral: SERIE MASTER 600 SNACK
+  targetes:
+  - ordre: 1
+    enllac_pagines:
+    - 18
+    - 19
+    fotos:
+    - asset: assets/g3/foto-30820311.jpg
+      pos:
+        x: 3.086
+        y: 2.526
+        w: 4.0
+        h: 4.0
+    - asset: assets/g3/foto-30930611.jpg
+      pos:
+        x: 10.333
+        y: 2.526
+        w: 2.971
+        h: 3.5
+    pos:
+      x: 1.5
+      y: 0.8
+      w: 14.0
+      h: 0.76
+  - ordre: 2
+    enllac_pagines:
+    - 20
+    - 21
+    fotos:
+    - asset: assets/g3/index-p03-2-1.jpg
+      pos:
+        x: 10.658
+        y: 9.451
+        w: 2.362
+        h: 4.5
+    - asset: assets/g3/foto-30040611.jpg
+      pos:
+        x: 3.847
+        y: 10.218
+        w: 3.107
+        h: 3.063
+    pos:
+      x: 1.5
+      y: 7.8
+      w: 14.0
+      h: 0.76
+  - ordre: 3
+    enllac_pagines:
+    - 22
+    - 23
+    fotos:
+    - asset: assets/g3/index-p03-3-1.jpg
+      pos:
+        x: 10.404
+        y: 16.204
+        w: 4.95
+        h: 4.95
+    - asset: assets/g3/foto-30560011.jpg
+      pos:
+        x: 1.897
+        y: 16.752
+        w: 2.498
+        h: 2.98
+    - asset: assets/g3/foto-30070011.jpg
+      pos:
+        x: 4.769
+        y: 16.889
+        w: 2.517
+        h: 2.766
+    - asset: assets/g3/index-p03-3-4.jpg
+      pos:
+        x: 7.66
+        y: 17.031
+        w: 2.37
+        h: 3.515
+    pos:
+      x: 1.5
+      y: 14.8
+      w: 14.0
+      h: 0.76
+  - ordre: 4
+    enllac_pagines:
+    - 24
+    - 25
+    etiqueta:
+      es: ACCESORIOS / ACCESORIES G3 PAG. 24/25
+    fotos:
+    - asset: assets/g3/index-p03-4-1.jpg
+      pos:
+        x: 5.753
+        y: 24.532
+        w: 5.493
+        h: 3.417
+    pos:
+      x: 1.5
+      y: 22.484
+      w: 14.15
+      h: 0.76
+  decoracio:
+  - forma: rectangle
+    color: '#772f32'
+    pos:
+      x: 1.5
+      y: 23.318
+      w: 14.0
+      h: 0.7
+  - forma: rectangle
+    color: '#772f32'
+    pos:
+      x: 15.5
+      y: 23.318
+      w: 0.15
+      h: 5.2
+  sense_classificar:
+  - tipus_element: frame
+    pos:
+      x: 1.5
+      y: 23.318
+      w: 14.0
+      h: 0.76
+    text: G11
+  n_elements_font: 36
+- id: p04
+  n: 4
+  tipus: informacio_general
+  capcalera:
+    banda: assets/g3/plantilla-quadre-numero.emf
+    xip_color: '#772f32'
+    serie: 600 SNACK
+    logo_serie: assets/g3/logo-serie-master.png
+    titol:
+      es: HORNILLOS Y COCINAS CON HORNO
+      en: BOILING TOPS AND COOKERS WITH OVEN F RÉCHAUDS ET FOURNEAUX AVEC FOUR
+  columnes:
+  - idioma: es
+    paragrafs:
+    - role: titol
+      text: ENCIMERAS DE COCINAS Y HORNILLOS A GAS
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 14.0
+    - role: text
+      text: Construcción en acero inoxidable.
+      estil:
+        color: '#000000'
+        mida: 14.0
+    - role: text
+      text: Encimeras embutidas, con cantos redondeados para facilitar la limpieza.
+      estil:
+        color: '#000000'
+        mida: 14.0
+    - role: text
+      text: Grifos de latón, dotados de máximo regulable y mínimo. Con bobina de seguridad y termopar.
+      estil:
+        color: '#000000'
+        mida: 14.0
+    - role: text
+      text: Con encendido piezo-eléctrico en todos los fuegos. □
+      estil:
+        color: '#000000'
+        mida: 14.0
+    - role: text
+      text: Quemadores de fundición, desmontables para su limpieza. De 3 y 3,6 Kw. de potencia y de alto rendimiento. □
+      estil:
+        color: '#000000'
+        mida: 14.0
+    - role: text
+      text: Con parrillas dobles de fundición vitrificadas. □
+      estil:
+        color: '#000000'
+        mida: 14.0
+    - role: text
+      text: Hornillos con patas regulables
+      estil:
+        color: '#000000'
+        mida: 14.0
+    - role: titol
+      text: ENCIMERAS DE COCINAS Y HORNILLOS ELÉCTRICOS
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 14.0
+    - role: text
+      text: Construcción en acero inoxidable.
+      estil:
+        color: '#000000'
+        mida: 14.0
+    - role: text
+      text: Encimeras embutidas, con cantos redondeados, para facilitar la limpieza, con alojamiento para las placas redondas. □
+      estil:
+        color: '#000000'
+        mida: 14.0
+    - role: text
+      text: Dotadas de conmutadores con 7 niveles de potencia y pilotos indicadores de funcionamiento.
+      estil:
+        color: '#000000'
+        mida: 14.0
+    - role: text
+      text: Con placas redondas de fundición de 180 mm de diámetro y 2 Kw.
+      estil:
+        color: '#000000'
+        mida: 14.0
+    - role: text
+      text: Hornillos con patas regulables
+      estil:
+        color: '#000000'
+        mida: 14.0
+    - role: titol
+      text: ENCIMERAS DE COCINAS Y HORNILLOS VITROCERÁMICOS
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 14.0
+    - role: text
+      text: Construcción en acero inoxidable, con cristal Schott de 6 mm de espesor.
+      estil:
+        color: '#000000'
+        mida: 14.0
+    - role: text
+      text: Dicho cristal es muy fácil de limpiar, al ser totalmente plano. □
+      estil:
+        color: '#000000'
+        mida: 14.0
+    - role: text
+      text: Con conmutadores con 2 niveles y pilotos indicadores de funcionamiento.
+      estil:
+        color: '#000000'
+        mida: 14.0
+    - role: text
+      text: Con resistencias de wolframio, de 2,5 y 1,8 Kw.
+      estil:
+        color: '#000000'
+        mida: 14.0
+    - role: text
+      text: Hornillos con patas regulables.
+      estil:
+        color: '#000000'
+        mida: 14.0
+    - role: titol
+      text: HORNOS A CONVECCIÓN EN COCINAS A GAS, ELÉCTRICAS O VITROCERÁMICAS
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 14.0
+    - role: text
+      text: Construcción exterior en acero inoxidable
+      estil:
+        color: '#000000'
+        mida: 14.0
+    - role: text
+      text: Con motor ventilador y resistencia circular, en la pared del fondo del horno. □
+      estil:
+        color: '#000000'
+        mida: 14.0
+    - role: text
+      text: Con termostato hasta 270 grados y temporizador. Así mismo un piloto indicador de funcionamiento
+      estil:
+        color: '#000000'
+        mida: 14.0
+    - role: text
+      text: Como dotación, equipan una rejilla y una bandeja de horno.
+      estil:
+        color: '#000000'
+        mida: 14.0
+    - role: text
+      text: Puertas con bisagras reforzadas con cierre a presión mediante muelle.
+      estil:
+        color: '#000000'
+        mida: 14.0
+    - role: text
+      text: Marcos hornos dotados de burlete de silicona, para evitar la pérdida de calor y el calentamiento de los mandos de la encimera.
+      estil:
+        color: '#000000'
+        mida: 14.0
+    - role: text
+      text: Puertas de cristal atemperado, doble, con cámara de aire. □
+      estil:
+        color: '#000000'
+        mida: 14.0
+    - role: text
+      text: Cocinas con patas regulables.
+      estil:
+        color: '#000000'
+        mida: 14.0
+    - role: titol
+      text: ACCESORIOS
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 14.0
+    - role: text
+      text: En las páginas correspondientes encontraran los ELEMENTOS DE UNION, entre módulos, (extraíbles), para evitar filtraciones entre los
+        mismos.
+      estil:
+        color: '#000000'
+        mida: 14.0
+    pos:
+      x: 1.146
+      y: 3.234
+      w: 12.054
+      h: 25.0
+  fotos:
+  - asset: assets/g3/info-p04-1.jpg
+    pos:
+      x: 14.119
+      y: 2.532
+      w: 6.0
+      h: 2.623
+    referencia: 1
+  - asset: assets/g3/info-p04-2.jpg
+    pos:
+      x: 14.119
+      y: 5.376
+      w: 6.0
+      h: 4.226
+    referencia: 2
+  - asset: assets/g3/info-p04-3.jpg
+    pos:
+      x: 14.139
+      y: 9.823
+      w: 6.0
+      h: 4.118
+    referencia: 3
+  - asset: assets/g3/info-p04-4.jpg
+    pos:
+      x: 14.119
+      y: 14.161
+      w: 6.0
+      h: 3.781
+    referencia: 4
+  - asset: assets/g3/info-p04-5.jpg
+    pos:
+      x: 14.119
+      y: 18.163
+      w: 6.0
+      h: 5.784
+    referencia: 5
+  - asset: assets/g3/info-p04-6.png
+    pos:
+      x: 14.099
+      y: 24.167
+      w: 6.0
+      h: 4.436
+    referencia: 6
+  omesos_decoratius:
+    filets_i_contorns: 6
+  n_elements_font: 29
+- id: p05
+  n: 5
+  tipus: informacio_general
+  capcalera:
+    banda: assets/g3/plantilla-quadre-numero.emf
+    xip_color: '#772f32'
+    serie: 600 SNACK
+    logo_serie: assets/g3/logo-serie-master.png
+    titol:
+      en: BOILING TOPS AND COOKERS WITH OVEN F RÉCHAUDS ET FOURNEAUX AVEC FOUR
+  columnes:
+  - idioma: en
+    paragrafs:
+    - role: titol
+      text: GAS COUNTERTOP COOKERS AND BOILING TOPS
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 13.2
+    - role: text
+      text: Stainless steel construction.
+      estil:
+        color: '#000000'
+        mida: 13.2
+    - role: text
+      text: Built-in countertops, with rounded edges for easy cleaning.
+      estil:
+        color: '#000000'
+        mida: 13.2
+    - role: text
+      text: Brass taps, equipped with maximum adjustable and minimum. With safety coil and thermocouple.
+      estil:
+        color: '#000000'
+        mida: 13.2
+    - role: text
+      text: With piezo-electric ignition in all fires. □
+      estil:
+        color: '#000000'
+        mida: 13.2
+    - role: text
+      text: Cast iron burners, removable for cleaning. 3 and 3.6 kW. Power and high performance. □
+      estil:
+        color: '#000000'
+        mida: 13.2
+    - role: text
+      text: With vitrified double cast iron grills. □
+      estil:
+        color: '#000000'
+        mida: 13.2
+    - role: text
+      text: Stoves with adjustable legs
+      estil:
+        color: '#000000'
+        mida: 13.2
+    - role: titol
+      text: ELECTRIC COUNTERTOP COOKERS AND BOILING TOPS
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 13.2
+    - role: text
+      text: Stainless steel construction.
+      estil:
+        color: '#000000'
+        mida: 13.2
+    - role: text
+      text: Built-in countertops, with rounded edges, for easy cleaning, with housing for round plates. □
+      estil:
+        color: '#000000'
+        mida: 13.2
+    - role: text
+      text: Equipped with switches with 7 power levels and pilot operation indicators.
+      estil:
+        color: '#000000'
+        mida: 13.2
+    - role: text
+      text: With round cast iron plates 180 mm in diameter and 2 Kw.
+      estil:
+        color: '#000000'
+        mida: 13.2
+    - role: text
+      text: Stoves with adjustable legs.
+      estil:
+        color: '#000000'
+        mida: 13.2
+    - role: titol
+      text: ELECTRIC COUNTERTOP COOKERS AND VITROCERAMIC STOVE TOP
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 13.2
+    - role: text
+      text: Stainless steel construction, with 6 mm thick Schott glass.
+      estil:
+        color: '#000000'
+        mida: 13.2
+    - role: text
+      text: Said glass is very easy to clean, being completely flat. □
+      estil:
+        color: '#000000'
+        mida: 13.2
+    - role: text
+      text: With switches with 2 levels and pilot operation indicators.
+      estil:
+        color: '#000000'
+        mida: 13.2
+    - role: text
+      text: With tungsten resistors, 2.5 and 1.8 Kw.
+      estil:
+        color: '#000000'
+        mida: 13.2
+    - role: text
+      text: Stoves with adjustable legs.
+      estil:
+        color: '#000000'
+        mida: 13.2
+    - role: titol
+      text: CONVECTION OVENS IN GAS, ELECTRIC OR VITROCERAMIC COOKERS
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 13.2
+    - role: text
+      text: Exterior construction in stainless steel.
+      estil:
+        color: '#000000'
+        mida: 13.2
+    - role: text
+      text: With fan motor and circular resistance, on the bottom wall of the oven. □
+      estil:
+        color: '#000000'
+        mida: 13.2
+    - role: text
+      text: With thermostat up to 270 degrees and timer. Likewise a pilot indicator of operation.
+      estil:
+        color: '#000000'
+        mida: 13.2
+    - role: text
+      text: As an endowment, they equip a grill and an oven tray.
+      estil:
+        color: '#000000'
+        mida: 13.2
+    - role: text
+      text: Reinforced hinged doors with snap closure by spring.
+      estil:
+        color: '#000000'
+        mida: 13.2
+    - role: text
+      text: Oven frames equipped with silicone weatherstrip, to avoid heat loss and heating of the countertop faucets.
+      estil:
+        color: '#000000'
+        mida: 13.2
+    - role: text
+      text: Tempered glass doors, double, with air chamber. □
+      estil:
+        color: '#000000'
+        mida: 13.2
+    - role: text
+      text: Cookers with adjustable legs.
+      estil:
+        color: '#000000'
+        mida: 13.2
+    - role: titol
+      text: ACCESSORIES
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 13.2
+    - role: text
+      text: In the corresponding pages you will find the ELEMENTS OF UNION, between modules, (removable), to avoid leaks between them.
+      estil:
+        color: '#000000'
+        mida: 13.2
+    pos:
+      x: 0.98
+      y: 3.234
+      w: 9.386
+      h: 25.0
+  - idioma: fr
+    paragrafs:
+    - role: titol
+      text: COMPTOIRS FOURNEAUX ET RÉCHAUDS À GAZ
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 12.8
+    - role: text
+      text: Construction en acier inoxydable.
+      estil:
+        color: '#000000'
+        mida: 12.8
+    - role: text
+      text: Comptoir en acier encastré, avec des bords arrondis pour un nettoyage facile.
+      estil:
+        color: '#000000'
+        mida: 12.8
+    - role: text
+      text: Robinets en laiton, équipé de maximum, minimum. Avec bobine de sécurité et thermocouple.
+      estil:
+        color: '#000000'
+        mida: 12.8
+    - role: text
+      text: Avec allumage piézo-électrique dans tous les brûleurs. □
+      estil:
+        color: '#000000'
+        mida: 12.8
+    - role: text
+      text: Brûleurs en fonte, amovibles pour le nettoyage. 3 et 3,6 kW. Puissance et haute performance. □
+      estil:
+        color: '#000000'
+        mida: 12.8
+    - role: text
+      text: Avec des double grille en fonte vitrifiée. □
+      estil:
+        color: '#000000'
+        mida: 12.8
+    - role: text
+      text: Réchauds avec pieds réglables.
+      estil:
+        color: '#000000'
+        mida: 12.8
+    - role: titol
+      text: COMPTOIRS FOURNEAUX ET RÉCHAUDS ÉLECTRIQUES
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 12.8
+    - role: text
+      text: Construction en acier inoxydable.
+      estil:
+        color: '#000000'
+        mida: 12.8
+    - role: text
+      text: Comptoir en acier encastré, avec des bords arrondis pour un nettoyage facile, avec boîtier pour plaques rondes. □
+      estil:
+        color: '#000000'
+        mida: 12.8
+    - role: text
+      text: Equipé d'interrupteurs à 7 niveaux de puissance et un voyant de fonctionnement.
+      estil:
+        color: '#000000'
+        mida: 12.8
+    - role: text
+      text: Avec des plaques rondes en fonte de 180 mm de diamètre et 2 Kw.
+      estil:
+        color: '#000000'
+        mida: 12.8
+    - role: text
+      text: Réchauds avec pieds réglables.
+      estil:
+        color: '#000000'
+        mida: 12.8
+    - role: titol
+      text: COMPTOIRS FOURNEAUX ET RÉCHAUDS VITROCERAMIQUES
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 12.8
+    - role: text
+      text: Construction en acier inoxydable, avec verre Schott de 6 mm d'épaisseur.
+      estil:
+        color: '#000000'
+        mida: 12.8
+    - role: text
+      text: Ce verre est très facile à nettoyer, étant complètement lisse. □
+      estil:
+        color: '#000000'
+        mida: 12.8
+    - role: text
+      text: Avec commutateurs à 2 niveaux et indicateurs de fonctionnement pilote.
+      estil:
+        color: '#000000'
+        mida: 12.8
+    - role: text
+      text: Avec résistances au tungstène, 2,5 et 1,8 Kw.
+      estil:
+        color: '#000000'
+        mida: 12.8
+    - role: text
+      text: Réchauds avec pieds réglables.
+      estil:
+        color: '#000000'
+        mida: 12.8
+    - role: titol
+      text: FOURS À CONVECTION DANS DES FOURNEAUX À GAZ, ÉLECTRIQUES OU VITROCÉRAMIQUES
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 12.8
+    - role: text
+      text: Construction extérieur en acier inoxydable.
+      estil:
+        color: '#000000'
+        mida: 12.8
+    - role: text
+      text: Avec moteur de ventilateur et résistance circulaire, sur la paroi du fond du four. □
+      estil:
+        color: '#000000'
+        mida: 12.8
+    - role: text
+      text: Avec thermostat jusqu'à 270 degrés et minuterie. De même un indicateur pilote de fonctionnement.
+      estil:
+        color: '#000000'
+        mida: 12.8
+    - role: text
+      text: En dotation, ils équipent une grille et un plateau au four.
+      estil:
+        color: '#000000'
+        mida: 12.8
+    - role: text
+      text: Portes à charnières renforcées avec fermeture à pression par ressort.
+      estil:
+        color: '#000000'
+        mida: 12.8
+    - role: text
+      text: Les cadres de four équipés d'une bande d'étanchéité en silicone pour éviter les pertes de chaleur et le chauffage des robinets de
+        comptoir.
+      estil:
+        color: '#000000'
+        mida: 12.8
+    - role: text
+      text: Portes en verre trempé double avec chambre à air. □
+      estil:
+        color: '#000000'
+        mida: 12.8
+    - role: text
+      text: Fourneaux avec pieds réglables.
+      estil:
+        color: '#000000'
+        mida: 12.8
+    - role: titol
+      text: ACCESSOIRES
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 12.8
+    - role: text
+      text: Dans les pages correspondantes, vous trouverez les ÉLÉMENTS D'UNION, entre les modules (amovibles), pour éviter les fuites entre eux.
+      estil:
+        color: '#000000'
+        mida: 12.8
+    pos:
+      x: 11.114
+      y: 3.234
+      w: 9.386
+      h: 25.0
+  fotos: []
+  n_elements_font: 13
+- id: p06
+  n: 6
+  tipus: producte
+  peu_enllac:
+    pagines:
+    - 4
+    - 5
+    text:
+      es: CARACTERÍSTICAS GENERALES          E      GENERAL FEATURES    F   CARACTÉRISTIQUES GÉNÉRALES
+      en: GENERAL FEATURES
+      fr: CARACTÉRISTIQUES GÉNÉRALES
+    pos:
+      x: 11.8
+      y: 28.801
+      w: 8.2
+      h: 0.758
+    color_fons: '#e8e4d2'
+    icones:
+    - assets/g3/peu-icona-ull.png
+    - assets/g3/plantilla-quadre-numero.emf
+    - assets/g3/plantilla-quadre-numero.emf
+  capcalera:
+    banda: assets/g3/plantilla-quadre-numero.emf
+    xip_color: '#772f32'
+    serie: 600 SNACK
+    logo_serie: assets/g3/logo-serie-master.png
+    titol:
+      es: COCINAS A GAS CON HORNO A CONVECCIÓN ELÉCTRICO E GAS COOKERS WITH ELECTRIC CONVECTION OVEN
+      fr: FOURNEAUX À GAZ AVEC FOUR À CONVECTION ÉLÉCTRIQUE
+  fotos:
+  - pos:
+      x: 9.019
+      y: 2.863
+      w: 8.8
+      h: 8.8
+    codi: '42600311'
+    asset: assets/g3/info-p04-2.jpg
+  - pos:
+      x: 3.496
+      y: 14.354
+      w: 9.646
+      h: 9.646
+    codi: '42800311'
+    asset: assets/g3/foto-42800311.jpg
+  taules:
+  - id: p06-t1
+    pos:
+      x: 0.75
+      y: 25.5
+      w: 19.5
+      h: 2.726
+    columnes:
+    - idx: 0
+      ample_cm: 1.827
+      text_capcalera:
+        es: MOD./COD.
+      clau: codi
+    - idx: 1
+      ample_cm: 2.069
+      icones_capcalera:
+      - asset: assets/g3/icona-energia-gas-electric.jpg
+        hash: c01949dd7f
+      clau: energia
+    - idx: 2
+      ample_cm: 1.1
+      icones_capcalera:
+      - asset: assets/g3/icona-pes.jpg
+        hash: 1d4cf29748
+      clau: pes
+    - idx: 3
+      ample_cm: 2.78
+      icones_capcalera:
+      - asset: assets/g3/icona-mesures.jpg
+        hash: aa029674e7
+      clau: mesures
+    - idx: 4
+      ample_cm: 1.353
+      icones_capcalera:
+      - asset: assets/g3/icona-fogons.jpg
+        hash: e04c9872c2
+      clau: fogons
+    - idx: 5
+      ample_cm: 1.453
+      icones_capcalera:
+      - asset: assets/g3/icona-fogons.jpg
+        hash: e04c9872c2
+      clau: fogons_2
+    - idx: 6
+      ample_cm: 1.399
+      icones_capcalera:
+      - asset: assets/g3/icona-forn-estatic.jpg
+        hash: f6ec3742ef
+      clau: forn_estatic
+    - idx: 7
+      ample_cm: 2.12
+      icones_capcalera:
+      - asset: assets/g3/icona-mesures_gastronorm.png
+        hash: efa81cb41d
+      clau: mesures_gastronorm
+    - idx: 8
+      ample_cm: 2.43
+      icones_capcalera:
+      - asset: assets/g3/icona-potencia-electrica.jpg
+        hash: 7d7d71eb62
+      clau: potencia_electrica
+    - idx: 9
+      ample_cm: 1.72
+      icones_capcalera:
+      - asset: assets/g3/icona-potencia-gas.jpg
+        hash: 9004c0e80e
+      clau: potencia_gas
+    - idx: 10
+      ample_cm: 1.25
+      text_capcalera:
+        es: €
+      clau: preu
+    files:
+    - codi: '42600311'
+      cel_les:
+        codi: '42600311'
+        energia: gas+electric
+        pes: '78'
+        mesures: 700x600x850
+        fogons: 2 x 3,6
+        fogons_2: 2 x 3
+        forn_estatic: 1 x 2,5
+        mesures_gastronorm: 440x380
+        potencia_electrica: 2,5 KW 230/1V
+        potencia_gas: 13,2 KW
+        preu: '3.035'
+      icones:
+        energia:
+        - asset: assets/g3/icona-cel-energia-gas.jpg
+          hash: 55b1a2eb5c
+        - asset: assets/g3/icona-cel-energia-electric.jpg
+          hash: 340a0e5c4f
+      codi_trossos:
+      - '4260'
+      - '0311'
+      codi_tros_destacat:
+      - 0
+    - codi: '42800311'
+      cel_les:
+        codi: '42800311'
+        energia: gas+electric
+        pes: '90'
+        mesures: 1050x600x850
+        fogons: 3 x 3,6
+        fogons_2: 3 x 3
+        forn_estatic: 1 x 2,5
+        mesures_gastronorm: 440x380
+        potencia_electrica: 2,5 KW 230/1V
+        potencia_gas: 19,8 KW
+        preu: '3.680'
+      icones:
+        energia:
+        - asset: assets/g3/icona-cel-energia-gas.jpg
+          hash: 55b1a2eb5c
+        - asset: assets/g3/icona-cel-energia-electric.jpg
+          hash: 340a0e5c4f
+      codi_trossos:
+      - '4280'
+      - '0311'
+      codi_tros_destacat:
+      - 0
+    format: taula_producte
+  n_elements_font: 46
+- id: p07
+  n: 7
+  tipus: producte
+  peu_enllac:
+    pagines:
+    - 4
+    - 5
+    text:
+      es: CARACTERÍSTICAS GENERALES          E      GENERAL FEATURES    F   CARACTÉRISTIQUES GÉNÉRALES
+      en: GENERAL FEATURES
+      fr: CARACTÉRISTIQUES GÉNÉRALES
+    pos:
+      x: 11.8
+      y: 28.801
+      w: 8.2
+      h: 0.758
+    color_fons: '#e8e4d2'
+    icones:
+    - assets/g3/peu-icona-ull.png
+    - assets/g3/plantilla-quadre-numero.emf
+    - assets/g3/plantilla-quadre-numero.emf
+  capcalera:
+    banda: assets/g3/plantilla-quadre-numero.emf
+    xip_color: '#772f32'
+    serie: 600 SNACK
+    logo_serie: assets/g3/logo-serie-master.png
+    titol:
+      es: HORNILLOS A GAS E GAS BOILING TOPS
+      fr: RÉCHAUD À GAZ
+  fotos:
+  - pos:
+      x: 2.155
+      y: 4.571
+      w: 6.667
+      h: 6.667
+    codi: '33100311'
+    asset: assets/g3/foto-33100311.jpg
+  - pos:
+      x: 9.976
+      y: 4.573
+      w: 10.002
+      h: 7.223
+    codi: '33200311'
+    asset: assets/g3/foto-33200311.jpg
+  - pos:
+      x: 3.824
+      y: 15.1
+      w: 13.855
+      h: 7.818
+    codi: '33300311'
+    asset: assets/g3/foto-33300311.jpg
+  insignies:
+  - asset: assets/g3/insignia-ce.png
+    pos:
+      x: 0.798
+      y: 2.5
+      w: 2.405
+      h: 2.405
+  taules:
+  - id: p07-t1
+    pos:
+      x: 0.725
+      y: 24.73
+      w: 19.499
+      h: 3.623
+    columnes:
+    - idx: 0
+      ample_cm: 2.549
+      text_capcalera:
+        es: MOD./COD.
+      clau: codi
+    - idx: 1
+      ample_cm: 2.157
+      icones_capcalera:
+      - asset: assets/g3/icona-energia-gas-electric.jpg
+        hash: c01949dd7f
+      clau: energia
+    - idx: 2
+      ample_cm: 1.882
+      icones_capcalera:
+      - asset: assets/g3/icona-pes.jpg
+        hash: 1d4cf29748
+      clau: pes
+    - idx: 3
+      ample_cm: 2.73
+      icones_capcalera:
+      - asset: assets/g3/icona-mesures.jpg
+        hash: aa029674e7
+      clau: mesures
+    - idx: 4
+      ample_cm: 2.549
+      icones_capcalera:
+      - asset: assets/g3/icona-fogons.jpg
+        hash: e04c9872c2
+      clau: fogons
+    - idx: 5
+      ample_cm: 2.549
+      icones_capcalera:
+      - asset: assets/g3/icona-fogons.jpg
+        hash: e04c9872c2
+      clau: fogons_2
+    - idx: 6
+      ample_cm: 2.993
+      icones_capcalera:
+      - asset: assets/g3/icona-potencia-gas.jpg
+        hash: 9004c0e80e
+      clau: potencia_gas
+    - idx: 7
+      ample_cm: 2.091
+      text_capcalera:
+        es: €
+      clau: preu
+    files:
+    - codi: '33100311'
+      cel_les:
+        codi: '33100311'
+        energia: gas
+        pes: '19'
+        mesures: 350x600x280
+        fogons: 1 x 3,6
+        fogons_2: 1 x 3
+        potencia_gas: 6,6 KW
+        preu: '975'
+      icones:
+        energia:
+        - asset: assets/g3/icona-cel-energia-gas.jpg
+          hash: 55b1a2eb5c
+      codi_trossos:
+      - '3310'
+      - '0311'
+      codi_tros_destacat:
+      - 0
+    - codi: '33200311'
+      cel_les:
+        codi: '33200311'
+        energia: gas
+        pes: '31'
+        mesures: 700x600x280
+        fogons: 2 x 3,6
+        fogons_2: 2 x 3
+        potencia_gas: 13,2 KW
+        preu: '1.515'
+      icones:
+        energia:
+        - asset: assets/g3/icona-cel-energia-gas.jpg
+          hash: 55b1a2eb5c
+      codi_trossos:
+      - '3320'
+      - '0311'
+      codi_tros_destacat:
+      - 0
+    - codi: '33300311'
+      cel_les:
+        codi: '33300311'
+        energia: gas
+        pes: '77'
+        mesures: 1050x600x280
+        fogons: 3 x 3,6
+        fogons_2: 3 x 3
+        potencia_gas: 19,8 KW
+        preu: '1.900'
+      icones:
+        energia:
+        - asset: assets/g3/icona-cel-energia-gas.jpg
+          hash: 55b1a2eb5c
+      codi_trossos:
+      - '3330'
+      - '0311'
+      codi_tros_destacat:
+      - 0
+    format: taula_producte
+  n_elements_font: 50
+- id: p08
+  n: 8
+  tipus: producte
+  peu_enllac:
+    pagines:
+    - 4
+    - 5
+    text:
+      es: CARACTERÍSTICAS GENERALES          E      GENERAL FEATURES    F   CARACTÉRISTIQUES GÉNÉRALES
+      en: GENERAL FEATURES
+      fr: CARACTÉRISTIQUES GÉNÉRALES
+    pos:
+      x: 11.8
+      y: 28.801
+      w: 8.2
+      h: 0.758
+    color_fons: '#e8e4d2'
+    icones:
+    - assets/g3/peu-icona-ull.png
+    - assets/g3/plantilla-quadre-numero.emf
+    - assets/g3/plantilla-quadre-numero.emf
+  capcalera:
+    banda: assets/g3/plantilla-quadre-numero.emf
+    xip_color: '#772f32'
+    serie: 600 SNACK
+    logo_serie: assets/g3/logo-serie-master.png
+    titol:
+      es: HORNILLOS ELÉCTRICOS E ELECTRIC BOILING TOPS
+      fr: RÉCHAUD ÉLÉCTRIQUES
+  fotos:
+  - pos:
+      x: 9.95
+      y: 3.071
+      w: 8.8
+      h: 8.8
+    codi: '30400611'
+    asset: assets/g3/info-p04-3.jpg
+  - pos:
+      x: 1.55
+      y: 4.904
+      w: 6.167
+      h: 6.167
+    codi: '30200611'
+    asset: assets/g3/foto-30200611.jpg
+  - pos:
+      x: 6.177
+      y: 12.684
+      w: 11.323
+      h: 11.323
+    codi: '30600611'
+    asset: assets/g3/foto-30600611.jpg
+  taules:
+  - id: p08-t1
+    pos:
+      x: 0.743
+      y: 24.854
+      w: 19.499
+      h: 3.623
+    columnes:
+    - idx: 0
+      ample_cm: 2.967
+      text_capcalera:
+        es: MOD./COD.
+      clau: codi
+    - idx: 1
+      ample_cm: 2.511
+      icones_capcalera:
+      - asset: assets/g3/icona-energia-gas-electric.jpg
+        hash: c01949dd7f
+      clau: energia
+    - idx: 2
+      ample_cm: 2.089
+      icones_capcalera:
+      - asset: assets/g3/icona-pes.jpg
+        hash: 1d4cf29748
+      clau: pes
+    - idx: 3
+      ample_cm: 3.178
+      icones_capcalera:
+      - asset: assets/g3/icona-mesures.jpg
+        hash: aa029674e7
+      clau: mesures
+    - idx: 4
+      ample_cm: 2.967
+      icones_capcalera:
+      - asset: assets/g3/icona-placa-rodona.jpg
+        hash: 41fc455a2d
+      clau: placa_rodona
+    - idx: 5
+      ample_cm: 3.484
+      icones_capcalera:
+      - asset: assets/g3/icona-potencia-electrica.jpg
+        hash: 7d7d71eb62
+      clau: potencia_electrica
+    - idx: 6
+      ample_cm: 2.304
+      text_capcalera:
+        es: €
+      clau: preu
+    files:
+    - codi: '30200611'
+      cel_les:
+        codi: '30200611'
+        energia: electric
+        pes: '17'
+        mesures: 350x600x280
+        placa_rodona: 2 x 2
+        potencia_electrica: 4 KW 230/1V
+        preu: '825'
+      icones:
+        energia:
+        - asset: assets/g3/icona-cel-energia-electric.jpg
+          hash: 340a0e5c4f
+      codi_trossos:
+      - '3020'
+      - '0611'
+      codi_tros_destacat:
+      - 0
+    - codi: '30400611'
+      cel_les:
+        codi: '30400611'
+        energia: electric
+        pes: '26'
+        mesures: 700x600x280
+        placa_rodona: 4 x 2
+        potencia_electrica: 8 KW 400/3V
+        preu: '1.495'
+      icones:
+        energia:
+        - asset: assets/g3/icona-cel-energia-electric.jpg
+          hash: 340a0e5c4f
+      codi_trossos:
+      - '3040'
+      - '0611'
+      codi_tros_destacat:
+      - 0
+    - codi: '30600611'
+      cel_les:
+        codi: '30600611'
+        energia: electric
+        pes: '44'
+        mesures: 1050x600x280
+        placa_rodona: 6 x 2
+        potencia_electrica: 12 KW 400/3V
+        preu: '1.885'
+      icones:
+        energia:
+        - asset: assets/g3/icona-cel-energia-electric.jpg
+          hash: 340a0e5c4f
+      codi_trossos:
+      - '3060'
+      - '0611'
+      codi_tros_destacat:
+      - 0
+    format: taula_producte
+  n_elements_font: 48
+- id: p09
+  n: 9
+  tipus: producte
+  peu_enllac:
+    pagines:
+    - 4
+    - 5
+    text:
+      es: CARACTERÍSTICAS GENERALES          E      GENERAL FEATURES    F   CARACTÉRISTIQUES GÉNÉRALES
+      en: GENERAL FEATURES
+      fr: CARACTÉRISTIQUES GÉNÉRALES
+    pos:
+      x: 11.8
+      y: 28.801
+      w: 8.2
+      h: 0.758
+    color_fons: '#e8e4d2'
+    icones:
+    - assets/g3/peu-icona-ull.png
+    - assets/g3/plantilla-quadre-numero.emf
+    - assets/g3/plantilla-quadre-numero.emf
+  capcalera:
+    banda: assets/g3/plantilla-quadre-numero.emf
+    xip_color: '#772f32'
+    serie: 600 SNACK
+    logo_serie: assets/g3/logo-serie-master.png
+    titol:
+      es: COCINAS ELÉCTRICAS CON HORNO A CONVECCIÓN E ELECTRIC COOKERS WITH CONVECTION OVEN
+      fr: FOURNEAUX ÉLÉCTRIQUES AVEC FOUR À CONVECTION
+  fotos:
+  - pos:
+      x: 9.523
+      y: 3.063
+      w: 8.8
+      h: 8.8
+    codi: '42800611'
+    asset: assets/g3/foto-42800611.jpg
+  - pos:
+      x: 4.0
+      y: 14.153
+      w: 9.646
+      h: 9.646
+    codi: '42900611'
+    asset: assets/g3/foto-42900611.jpg
+  taules:
+  - id: p09-t1
+    pos:
+      x: 0.733
+      y: 25.5
+      w: 19.494
+      h: 2.717
+    columnes:
+    - idx: 0
+      ample_cm: 2.102
+      text_capcalera:
+        es: MOD./COD.
+      clau: codi
+    - idx: 1
+      ample_cm: 1.993
+      icones_capcalera:
+      - asset: assets/g3/icona-energia-gas-electric.jpg
+        hash: c01949dd7f
+      clau: energia
+    - idx: 2
+      ample_cm: 1.445
+      icones_capcalera:
+      - asset: assets/g3/icona-pes.jpg
+        hash: 1d4cf29748
+      clau: pes
+    - idx: 3
+      ample_cm: 3.893
+      icones_capcalera:
+      - asset: assets/g3/icona-mesures.jpg
+        hash: aa029674e7
+      clau: mesures
+    - idx: 4
+      ample_cm: 1.556
+      icones_capcalera:
+      - asset: assets/g3/icona-placa-rodona.jpg
+        hash: 41fc455a2d
+      clau: placa_rodona
+    - idx: 5
+      ample_cm: 1.511
+      icones_capcalera:
+      - asset: assets/g3/icona-forn-estatic.jpg
+        hash: f6ec3742ef
+      clau: forn_estatic
+    - idx: 6
+      ample_cm: 2.495
+      icones_capcalera:
+      - asset: assets/g3/icona-mesures_gastronorm.png
+        hash: efa81cb41d
+      clau: mesures_gastronorm
+    - idx: 7
+      ample_cm: 2.795
+      icones_capcalera:
+      - asset: assets/g3/icona-potencia-electrica.jpg
+        hash: 7d7d71eb62
+      clau: potencia_electrica
+    - idx: 8
+      ample_cm: 1.705
+      text_capcalera:
+        es: €
+      clau: preu
+    files:
+    - codi: '42800611'
+      cel_les:
+        codi: '42800611'
+        energia: electric
+        pes: '74'
+        mesures: 700x600x850
+        placa_rodona: 4 x 2
+        forn_estatic: 1 x 2,5
+        mesures_gastronorm: 440x380
+        potencia_electrica: 10,5 KW 400/3V
+        preu: '3.010'
+      icones:
+        energia:
+        - asset: assets/g3/icona-cel-energia-electric.jpg
+          hash: 340a0e5c4f
+      codi_trossos:
+      - '4280'
+      - '0611'
+      codi_tros_destacat:
+      - 0
+    - codi: '42900611'
+      cel_les:
+        codi: '42900611'
+        energia: electric
+        pes: '103'
+        mesures: 1050x600x850
+        placa_rodona: 6 x 2
+        forn_estatic: 1 x 2,5
+        mesures_gastronorm: 440x380
+        potencia_electrica: 14,5 KW 400/3V
+        preu: '3.790'
+      icones:
+        energia:
+        - asset: assets/g3/icona-cel-energia-electric.jpg
+          hash: 340a0e5c4f
+      codi_trossos:
+      - '4290'
+      - '0611'
+      codi_tros_destacat:
+      - 0
+    format: taula_producte
+  n_elements_font: 42
+- id: p10
+  n: 10
+  tipus: producte
+  peu_enllac:
+    pagines:
+    - 4
+    - 5
+    text:
+      es: CARACTERÍSTICAS GENERALES          E      GENERAL FEATURES    F   CARACTÉRISTIQUES GÉNÉRALES
+      en: GENERAL FEATURES
+      fr: CARACTÉRISTIQUES GÉNÉRALES
+    pos:
+      x: 11.8
+      y: 28.801
+      w: 8.2
+      h: 0.758
+    color_fons: '#e8e4d2'
+    icones:
+    - assets/g3/peu-icona-ull.png
+    - assets/g3/plantilla-quadre-numero.emf
+    - assets/g3/plantilla-quadre-numero.emf
+  capcalera:
+    banda: assets/g3/plantilla-quadre-numero.emf
+    xip_color: '#772f32'
+    serie: 600 SNACK
+    logo_serie: assets/g3/logo-serie-master.png
+    titol:
+      es: COCINAS VITROCERÁMICAS E VITROCERAMIC COOKERS
+      fr: RÉCHAUDS ET FOURNEAUX VITROCÉRAMIQUES
+  fotos:
+  - pos:
+      x: 10.173
+      y: 3.071
+      w: 8.8
+      h: 8.8
+    codi: '30310611'
+    asset: assets/g3/foto-30310611.jpg
+  - pos:
+      x: 0.973
+      y: 4.904
+      w: 6.967
+      h: 6.967
+    codi: '30110611'
+    asset: assets/g3/info-p04-4.jpg
+  - pos:
+      x: 5.677
+      y: 12.684
+      w: 11.323
+      h: 11.323
+    codi: '42410611'
+    asset: assets/g3/foto-42410611.jpg
+  taules:
+  - id: p10-t1
+    pos:
+      x: 0.743
+      y: 24.853
+      w: 19.499
+      h: 3.623
+    columnes:
+    - idx: 0
+      ample_cm: 2.7
+      text_capcalera:
+        es: MOD./COD.
+      clau: codi
+    - idx: 1
+      ample_cm: 1.833
+      icones_capcalera:
+      - asset: assets/g3/icona-energia-gas-electric.jpg
+        hash: c01949dd7f
+      clau: energia
+    - idx: 2
+      ample_cm: 1.2
+      icones_capcalera:
+      - asset: assets/g3/icona-pes.jpg
+        hash: 1d4cf29748
+      clau: pes
+    - idx: 3
+      ample_cm: 3.178
+      icones_capcalera:
+      - asset: assets/g3/icona-mesures.jpg
+        hash: aa029674e7
+      clau: mesures
+    - idx: 4
+      ample_cm: 1.589
+      icones_capcalera:
+      - asset: assets/g3/icona-placa-rodona.jpg
+        hash: 41fc455a2d
+      clau: placa_rodona
+    - idx: 5
+      ample_cm: 1.5
+      icones_capcalera:
+      - asset: assets/g3/icona-placa-rodona.jpg
+        hash: 41fc455a2d
+      clau: placa_rodona_2
+    - idx: 6
+      ample_cm: 1.157
+      icones_capcalera:
+      - asset: assets/g3/icona-forn-estatic.jpg
+        hash: f6ec3742ef
+      clau: forn_estatic
+    - idx: 7
+      ample_cm: 1.743
+      icones_capcalera:
+      - asset: assets/g3/icona-mesures_gastronorm.png
+        hash: efa81cb41d
+      clau: mesures_gastronorm
+    - idx: 8
+      ample_cm: 3.1
+      icones_capcalera:
+      - asset: assets/g3/icona-potencia-electrica.jpg
+        hash: 7d7d71eb62
+      clau: potencia_electrica
+    - idx: 9
+      ample_cm: 1.5
+      text_capcalera:
+        es: €
+      clau: preu
+    files:
+    - codi: '30110611'
+      cel_les:
+        codi: '30110611'
+        energia: electric
+        pes: '18'
+        mesures: 350x600x280
+        placa_rodona: 1 X 2,5
+        placa_rodona_2: 1 x 1,8
+        forn_estatic: '-'
+        mesures_gastronorm: '-'
+        potencia_electrica: 4,3 KW 400/3V
+        preu: '1.720'
+      icones:
+        energia:
+        - asset: assets/g3/icona-cel-energia-electric.jpg
+          hash: 340a0e5c4f
+      codi_trossos:
+      - '3011'
+      - '0611'
+      codi_tros_destacat:
+      - 0
+    - codi: '30310611'
+      cel_les:
+        codi: '30310611'
+        energia: electric
+        pes: '29'
+        mesures: 700x600x280
+        placa_rodona: 2 X 2,5
+        placa_rodona_2: 2 x 1,8
+        forn_estatic: '-'
+        mesures_gastronorm: '-'
+        potencia_electrica: 8,6 KW 400/3V
+        preu: '2.890'
+      icones:
+        energia:
+        - asset: assets/g3/icona-cel-energia-electric.jpg
+          hash: 340a0e5c4f
+      codi_trossos:
+      - '3031'
+      - '0611'
+      codi_tros_destacat:
+      - 0
+    - codi: '42410611'
+      cel_les:
+        codi: '42410611'
+        energia: electric
+        pes: '78'
+        mesures: 700x600x850
+        placa_rodona: 2 X 2,5
+        placa_rodona_2: 2 x 1,8
+        forn_estatic: 1 x 2,5
+        mesures_gastronorm: 440x380
+        potencia_electrica: 11,1 KW 400/3V
+        preu: '4.355'
+      icones:
+        energia:
+        - asset: assets/g3/icona-cel-energia-electric.jpg
+          hash: 340a0e5c4f
+      codi_trossos:
+      - '4241'
+      - '0611'
+      codi_tros_destacat:
+      - 0
+    format: taula_producte
+  n_elements_font: 52
+- id: p11
+  n: 11
+  tipus: informacio_general
+  capcalera:
+    banda: assets/g3/plantilla-quadre-numero.emf
+    xip_color: '#772f32'
+    serie: 600 SNACK
+    logo_serie: assets/g3/logo-serie-master.png
+    titol:
+      es: PLANCHAS-FRYTOP Y BARBACOAS
+  columnes:
+  - idioma: es
+    paragrafs:
+    - role: titol
+      text: CONSTRUCCIÓN
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 11.7
+    - role: text
+      text: En acero inoxidable, interior y exterior.
+      estil:
+        color: '#000000'
+        mida: 11.7
+    - role: text
+      text: Patas regulables en todos los aparatos.
+      estil:
+        color: '#000000'
+        mida: 11.7
+    - role: titol
+      text: PLANCHAS-FRYTOP GAS O ELÉCTRICAS
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 11.7
+    - role: text
+      text: Los modelos a gas y con placas de hierro, con grifos de latón, dotados de máximo regulable, mínimo y posición piloto. Con bobina de
+        seguridad y termopar.
+      estil:
+        color: '#000000'
+        mida: 11.7
+    - role: text
+      text: Con quemadores tubulares de acero inoxidable.
+      estil:
+        color: '#000000'
+        mida: 11.7
+    - role: text
+      text: Modelos a gas y con placas de cromo duro, con válvula termostática y piloto de mantenimiento. Con bobina de seguridad y termopar.
+      estil:
+        color: '#000000'
+        mida: 11.7
+    - role: text
+      text: Todas los modelos a gas con encendido piezo-eléctrico.
+      estil:
+        color: '#000000'
+        mida: 11.7
+    - role: text
+      text: Modelos eléctricos con termostato y piloto indicador de funcionamiento.
+      estil:
+        color: '#000000'
+        mida: 11.7
+    - role: text
+      text: Con resistencias blindadas de acero inoxidable, montadas en cajones
+      estil:
+        color: '#000000'
+        mida: 11.7
+    - role: text
+      text: debidamente aislados.
+      estil:
+        color: '#000000'
+        mida: 11.7
+    - role: text
+      text: Todos los modelos con cajón recoge grasas □ en el frontal y tapón de estanqueidad cónico. □
+      estil:
+        color: '#000000'
+        mida: 11.7
+    - role: titol
+      text: PLACAS–FRYTOP
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 11.7
+    - role: text
+      text: Modelos con placas de hierro de 15 mm. de espesor. Con peto de acero inoxidable soldado en todo su contorno superior e inferior para
+        su máxima higiene. Con desagüe frontal.
+      estil:
+        color: '#000000'
+        mida: 11.7
+    - role: text
+      text: La superficie de dichas placas pueden ser lisas, ranuradas totalmente, o mixtas (2/3 lisa y 1/3 ranurada), solo en los modelos de
+        700 mm. de ancho.
+      estil:
+        color: '#000000'
+        mida: 11.7
+    - role: text
+      text: Los modelos con placas de cromo duro de 15mm de espesor, rectificadas y con baño de cromo duro de 50 micras. Con peto de acero inoxidable
+        soldado en todo su contorno superior e inferior para su máxima higiene. Con desagüe frontal.
+      estil:
+        color: '#000000'
+        mida: 11.7
+    - role: text
+      text: Se suministran con una espátula-cúter □ para su limpieza, la cual se debe usar sin golpear, sólo deslizando la cuchilla por la encimera.
+      estil:
+        color: '#000000'
+        mida: 11.7
+    - role: text
+      text: La forma de limpieza, es una vez parada la plancha y al cabo de 30/45 minutos (aún caliente), se deben colocar cubitos de hielo,  los
+        cuales se evaporarán inmediatamente. Entonces la espátula-cutter deberá pasarse suavemente, para eliminar al máximo la grasa, y seguidamente
+        un paño húmedo. No poner desengrasante hasta el día siguiente antes de poner la plancha en marcha y quedará la superficie brillante como
+        nueva.
+      estil:
+        color: '#000000'
+        mida: 11.7
+    - role: text
+      text: Dichas placas siempre son lisas
+      estil:
+        color: '#000000'
+        mida: 11.7
+    - role: titol
+      text: BARBACOAS A GAS
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 11.7
+    - role: text
+      text: Funcionamiento mediante quemadores tubulares de acero inoxidable, que calientan la piedra volcánica, que se halla situada encima de
+        una rejilla-soporte de acero inoxidable. Al calentar la piedra, hace la función de auténtica brasa.
+      estil:
+        color: '#000000'
+        mida: 11.7
+    - role: text
+      text: Con grifos de latón, dotados de máximo regulable, mínimo y posición piloto. Con bobina de seguridad y termopar.
+      estil:
+        color: '#000000'
+        mida: 11.7
+    - role: text
+      text: Con encendido piezo-eléctrico.
+      estil:
+        color: '#000000'
+        mida: 11.7
+    - role: text
+      text: Equipan parrillas, □ formadas por perfiles en “V” siempre de acero inoxidable, de 350 mm. de ancho. (una o dos unidades según modelo),
+        las cuales son ideales para carnes, verduras etc... En ACCESORIOS, pueden ver como opción, la parrilla especial para pescado, las cuales
+        disponen de perfiles cilindricos.
+      estil:
+        color: '#000000'
+        mida: 11.7
+    - role: text
+      text: Con un sistema que permite la colocación de parrilla en 2 posiciones, utilizando para ello las asas de baquelita de que dispone la
+        parrilla y con peto alrededor de la parrilla, para evitar salpicaduras. □
+      estil:
+        color: '#000000'
+        mida: 11.7
+    - role: text
+      text: Con cajón recoje-grasas en el frontal.
+      estil:
+        color: '#000000'
+        mida: 11.7
+    - role: titol
+      text: BARBACOAS ELECTRICAS-GRILL VAPOR
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 11.7
+    - role: text
+      text: La cocción-grill, se realiza mediante resistencias tubulares de acero inoxidable, las cuales basculan para su limpieza, mediante una
+        palanca situada a la derecha, y con un sistema de bloqueo, en su posición elevada. □
+      estil:
+        color: '#000000'
+        mida: 11.7
+    - role: text
+      text: Con un conmutador con varias posiciones y piloto indicador de funcionamiento.
+      estil:
+        color: '#000000'
+        mida: 11.7
+    - role: text
+      text: Debajo, está situada una cuba, que debe ser llenada con agua, en la cual caen las grasas de la cocción, lo cual reduce el humo generado
+        y genera el vapor, para que los alimentos queden sabrosos y muy jugosos.
+      estil:
+        color: '#000000'
+        mida: 11.7
+    - role: text
+      text: Así mismo, es muy fácil de limpiar, puesto que dispone de un grifo de desagüe en el frontal con dispositivo de seguridad, para evitar
+        la abertura accidental. □
+      estil:
+        color: '#000000'
+        mida: 11.7
+    - role: titol
+      text: ACCESORIOS
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 11.7
+    - role: text
+      text: En las páginas correspondientes encontraran los ELEMENTOS DE UNION, entre módulos, (extraíbles), para evitar filtraciones entre los
+        mismos.
+      estil:
+        color: '#000000'
+        mida: 11.7
+    pos:
+      x: 0.828
+      y: 3.5
+      w: 13.847
+      h: 24.918
+  fotos:
+  - asset: assets/g3/info-p11-1.jpg
+    pos:
+      x: 15.5
+      y: 3.5
+      w: 4.5
+      h: 3.162
+    referencia: 1
+  - asset: assets/g3/info-p11-2.jpg
+    pos:
+      x: 15.5
+      y: 7.109
+      w: 4.5
+      h: 4.155
+    referencia: 2
+  - asset: assets/g3/info-p11-3.jpg
+    pos:
+      x: 15.5
+      y: 11.712
+      w: 4.5
+      h: 5.338
+    referencia: 3
+  - asset: assets/g3/info-p11-4.jpg
+    pos:
+      x: 15.5
+      y: 17.497
+      w: 4.5
+      h: 3.008
+    referencia: 4
+  - asset: assets/g3/info-p11-5.png
+    pos:
+      x: 15.48
+      y: 20.952
+      w: 4.5
+      h: 3.795
+    referencia: 5
+  - asset: assets/g3/info-p11-6.jpg
+    pos:
+      x: 15.48
+      y: 25.194
+      w: 4.5
+      h: 3.306
+    referencia: 6
+  omesos_decoratius:
+    filets_i_contorns: 6
+  n_elements_font: 29
+- id: p12
+  n: 12
+  tipus: informacio_general
+  capcalera:
+    banda: assets/g3/plantilla-quadre-numero.emf
+    xip_color: '#772f32'
+    serie: 600 SNACK
+    logo_serie: assets/g3/logo-serie-master.png
+    titol:
+      en: GRIDDLES FRYTOP AND BARBECUES F PLAQUES FRYTOPS ET BARBECUES
+  columnes:
+  - idioma: en
+    paragrafs:
+    - role: titol
+      text: STRUCTURE
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 10.1
+    - role: text
+      text: In stainless steel, interior and exterior.
+      estil:
+        color: '#000000'
+        mida: 10.1
+    - role: text
+      text: Adjustable legs in all appliances.
+      estil:
+        color: '#000000'
+        mida: 10.1
+    - role: titol
+      text: GAS OR ELECTRIC FRYTOPS
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 10.1
+    - role: text
+      text: Gas models with iron plates, with brass taps, equipped with adjustable maximum, minimum and pilot position. With safety coil and thermocouple.
+      estil:
+        color: '#000000'
+        mida: 10.1
+    - role: text
+      text: With tubular stainless steel burners.
+      estil:
+        color: '#000000'
+        mida: 10.1
+    - role: text
+      text: Gas models with hard chrome plates, with thermostatic valve and maintenance pilot. With safety coil and thermocouple.
+      estil:
+        color: '#000000'
+        mida: 10.1
+    - role: text
+      text: All gas models with piezo-electric ignition.
+      estil:
+        color: '#000000'
+        mida: 10.1
+    - role: text
+      text: Electric models with thermostat and pilot operation indicator.
+      estil:
+        color: '#000000'
+        mida: 10.1
+    - role: text
+      text: With armored stainless steel resistors, mounted in drawers properly insulated.
+      estil:
+        color: '#000000'
+        mida: 10.1
+    - role: text
+      text: All models with drawer collects grease □ on the front and conical sealing cap. □
+      estil:
+        color: '#000000'
+        mida: 10.1
+    - role: titol
+      text: FRYTOPS
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 10.1
+    - role: text
+      text: Models with 15 mm iron plates of thickness. With stainless steel breastplate welded in all its upper and lower contour for maximum
+        hygiene. With front drain.
+      estil:
+        color: '#000000'
+        mida: 10.1
+    - role: text
+      text: The surface of these plates can be smooth, fully grooved, or mixed (2/3 smooth and 1/3 grooved), only on 700 mm wide models.
+      estil:
+        color: '#000000'
+        mida: 10.1
+    - role: text
+      text: Models with 15mm thick hard chrome plates, rectified and with 50 micron hard chrome plating. With stainless steel breastplate welded
+        in all its upper and lower contour for maximum hygiene. With front drain.
+      estil:
+        color: '#000000'
+        mida: 10.1
+    - role: text
+      text: They are supplied with a spatula-cutter □ for cleaning, which should be used without hitting, just by sliding the blade over the countertop.
+      estil:
+        color: '#000000'
+        mida: 10.1
+    - role: text
+      text: The cleaning method, once the iron is stopped and after 30/45 minutes (still hot), ice cubes should be placed, which will evaporate
+        immediately. Then the spatula-cutter should be passed gently, to remove the maximum fat, and then a damp cloth. Do not put degreaser until
+        the next day before starting the iron and the surface will be shiny as new.
+      estil:
+        color: '#000000'
+        mida: 10.1
+    - role: text
+      text: These plates are always smooth.
+      estil:
+        color: '#000000'
+        mida: 10.1
+    - role: titol
+      text: GAS BARBECUES
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 10.1
+    - role: text
+      text: Operation by means of stainless steel tubular burners, which heat the volcanic stone, which is located on top of a stainless steel
+        support grid. When heating the stone, it acts as an authentic grill.
+      estil:
+        color: '#000000'
+        mida: 10.1
+    - role: text
+      text: With brass taps, equipped with adjustable maximum, minimum and pilot position. With safety coil and thermocouple.
+      estil:
+        color: '#000000'
+        mida: 10.1
+    - role: text
+      text: With piezo-electric ignition.
+      estil:
+        color: '#000000'
+        mida: 10.1
+    - role: text
+      text: Equipped grills, □ formed by profiles in "V" always stainless steel, 350 mm. Wide. (one or two units depending on the model), which
+        are ideal for meats, vegetables etc ... In ACCESSORIES, you can see as an option, the special grill for fish, which have cylindrical profiles.
+      estil:
+        color: '#000000'
+        mida: 10.1
+    - role: text
+      text: With a system that allows the placement of a grill in 2 positions, using the bakelite handles available on the grill and with bib
+        around the grill, to avoid splashing. □
+      estil:
+        color: '#000000'
+        mida: 10.1
+    - role: text
+      text: With fat-picker drawer on the front.
+      estil:
+        color: '#000000'
+        mida: 10.1
+    - role: titol
+      text: GRILL STEAM ELECTRIC BARBECUE
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 10.1
+    - role: text
+      text: The grill-cooking is carried out by means of stainless steel tubular resistors, which are tilted for cleaning, by means of a lever
+        on the right, and with a locking system, in its elevated position. □
+      estil:
+        color: '#000000'
+        mida: 10.1
+    - role: text
+      text: With a switch with several positions and pilot operation indicator.
+      estil:
+        color: '#000000'
+        mida: 10.1
+    - role: text
+      text: Underneath, a tank is located, which must be filled with water, in which the cooking fats fall, which reduces the smoke generated
+        and generates the steam, so that the food is tasty and very juicy.
+      estil:
+        color: '#000000'
+        mida: 10.1
+    - role: text
+      text: Likewise, it is very easy to clean, since it has a drain tap on the front with safety device, to prevent accidental opening. □
+      estil:
+        color: '#000000'
+        mida: 10.1
+    - role: titol
+      text: ACCESSORIES
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 10.1
+    - role: text
+      text: In the corresponding pages you will find the ELEMENTS OF UNION, between modules, (removable), to avoid leaks between them.
+      estil:
+        color: '#000000'
+        mida: 10.1
+    pos:
+      x: 0.98
+      y: 3.5
+      w: 9.386
+      h: 25.0
+  - idioma: fr
+    paragrafs:
+    - role: titol
+      text: CONSTRUCTION
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 9.4
+    - role: text
+      text: En acier inoxydable, intérieur et extérieur.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: Jambes réglables dans tous les appareils.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: titol
+      text: FRYTOPS GAZ OU ELECTRIQUES
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 9.4
+    - role: text
+      text: Modèles à gaz avec plaques en fer, avec robinets en laiton, équipés de positions de réglage maximum, minimum et pilote. Avec bobine
+        de sécurité et thermocouple.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: Avec brûleurs tubulaires en acier inoxydable.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: Modèles à gaz avec plaques chromées dures, avec vanne thermostatique et pilote de maintenance. Avec bobine de sécurité et thermocouple.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: Tous les modèles à gaz avec allumage piézo-électrique.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: Modèles électriques avec thermostat et indicateur de fonctionnement de la veilleuse.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: Avec résistances blindées en acier inoxydable, montées dans des tiroirs correctement isolé.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: Tous les modèles avec tiroir recueille la graisse □ à l'avant et le capuchon d'étanchéité conique. □
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: titol
+      text: PLAQUES–FRYTOP
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 9.4
+    - role: text
+      text: Modèles avec plaques de fer de 15 mm. épais Avec une cuirasse en acier inoxydable soudée dans tous ses contours supérieur et inférieur
+        pour une hygiène maximale. Avec drain avant.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: La surface de ces plaques peut être lisse, entièrement rainurée ou mélangée (2/3 lisses et 1/3 rainurée), uniquement sur les modèles
+        d’une largeur de 700 mm.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: Modèles avec plaques de chrome dur de 15 mm d'épaisseur, rectifiées et chromées de 50 microns. Avec une cuirasse en acier inoxydable
+        soudée dans tous ses contours supérieur et inférieur pour une hygiène maximale. Avec drain avant.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: Ils sont fournis avec un couteau-spatule □ pour le nettoyage, qui doit être utilisé sans frapper, simplement en faisant glisser la
+        lame sur le comptoir.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: La méthode de nettoyage, une fois que le fer est arrêté et après 30/45 minutes (encore chaud), il faut placer des glaçons qui s’évaporent
+        immédiatement. Ensuite, il faut passer doucement le coupe-spatule pour éliminer le maximum de graisse, puis un chiffon humide. Ne mettez
+        pas de dégraissant avant le lendemain, avant de mettre le fer en marche. La surface sera comme neuve.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: Ces plaques sont toujours lisses
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: titol
+      text: BARBECUE À GAZ
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 9.4
+    - role: text
+      text: Fonctionnement au moyen de brûleurs tubulaires en acier inoxydable chauffant la pierre volcanique située au sommet d’une grille de
+        support en acier inoxydable. En chauffant la pierre, elle agit comme un grill authentique.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: Avec robinets en laiton, équipés de positions de réglage maximum, minimum et pilote. Avec bobine de sécurité et thermocouple.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: Avec allumage piézo-électrique.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: Grilles équipées, □ formées de profils en "V" toujours en acier inoxydable, 350 mm. large. (une ou deux unités selon le modèle), idéales
+        pour les viandes, les légumes, etc. Dans ACCESSOIRES, vous pouvez voir en option le gril spécial pour le poisson, qui a des profils cylindriques.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: Avec un système qui permet de placer un gril dans 2 positions, en utilisant les poignées en bakélite disponibles sur le gril et avec
+        un bavoir autour du gril pour éviter les éclaboussures. □
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: Avec tiroir à graisse sur le devant.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: titol
+      text: BARBECUE ELECTRIQUE GRILL STEAM
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 9.4
+    - role: text
+      text: La cuisson au gril est réalisée au moyen de résistances tubulaires en acier inoxydable inclinées pour le nettoyage, au moyen d'un
+        levier situé à droite et d'un système de verrouillage en position surélevée. □
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: Avec un interrupteur à plusieurs positions et indicateur de fonctionnement du pilote.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: En dessous se trouve un réservoir, qui doit être rempli d'eau, dans lequel tombent les graisses de cuisson, ce qui réduit la fumée
+        générée et génère de la vapeur, de sorte que la nourriture soit savoureuse et très juteuse.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: De même, il est très facile à nettoyer car il dispose d'un robinet de vidange à l'avant avec dispositif de sécurité pour éviter toute
+        ouverture accidentelle. □
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: titol
+      text: ACCESSOIRES
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 9.4
+    - role: text
+      text: Dans les pages correspondantes, vous trouverez les ELEMENTS OF UNION, entre les modules (amovibles), pour éviter les fuites entre
+        eux.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    pos:
+      x: 11.114
+      y: 3.5
+      w: 9.386
+      h: 25.0
+  fotos: []
+  n_elements_font: 14
+- id: p13
+  n: 13
+  tipus: producte
+  peu_enllac:
+    pagines:
+    - 11
+    - 12
+    text:
+      es: CARACTERÍSTICAS GENERALES          E      GENERAL FEATURES    F   CARACTÉRISTIQUES GÉNÉRALES
+      en: GENERAL FEATURES
+      fr: CARACTÉRISTIQUES GÉNÉRALES
+    pos:
+      x: 11.8
+      y: 28.801
+      w: 8.2
+      h: 0.758
+    color_fons: '#e8e4d2'
+    icones:
+    - assets/g3/peu-icona-ull.png
+    - assets/g3/plantilla-quadre-numero.emf
+    - assets/g3/plantilla-quadre-numero.emf
+  capcalera:
+    banda: assets/g3/plantilla-quadre-numero.emf
+    xip_color: '#772f32'
+    serie: 600 SNACK
+    logo_serie: assets/g3/logo-serie-master.png
+    titol:
+      es: PLANCHAS FRYTOP A GAS Y ELÉCTRICAS 350 MM E GAS AND ELECTRIC 350 MM GRIDDLES
+      fr: FRYTOPS À GAZ ET ÉLÉCTRIQUES 350 MM
+  fotos:
+  - pos:
+      x: 3.341
+      y: 3.333
+      w: 8.467
+      h: 8.467
+    codi: '30020311'
+    codis:
+    - codi: '30020311'
+      icones_etiqueta:
+      - assets/g3/icona-cel-energia-gas.jpg
+      valors_etiqueta:
+      - gas
+    - codi: '30510611'
+      icones_etiqueta:
+      - assets/g3/icona-cel-energia-electric.jpg
+      valors_etiqueta:
+      - electric
+    asset: assets/g3/foto-30020311.jpg
+  - pos:
+      x: 11.2
+      y: 3.063
+      w: 8.8
+      h: 8.8
+    codi: '30120311'
+    codis:
+    - codi: '30120311'
+      icones_etiqueta:
+      - assets/g3/icona-cel-energia-gas.jpg
+      valors_etiqueta:
+      - gas
+    - codi: '30810611'
+      icones_etiqueta:
+      - assets/g3/icona-cel-energia-electric.jpg
+      valors_etiqueta:
+      - electric
+    asset: assets/g3/foto-30120311.jpg
+  - pos:
+      x: 4.377
+      y: 12.6
+      w: 9.646
+      h: 9.646
+    codi: '30220311'
+    codis:
+    - codi: '30220311'
+      icones_etiqueta:
+      - assets/g3/icona-cel-energia-gas.jpg
+      valors_etiqueta:
+      - gas
+    - codi: '30120611'
+      icones_etiqueta:
+      - assets/g3/icona-cel-energia-electric.jpg
+      valors_etiqueta:
+      - electric
+    asset: assets/g3/foto-30220311.jpg
+  insignies:
+  - asset: assets/g3/insignia-ce.png
+    pos:
+      x: 0.798
+      y: 2.5
+      w: 2.405
+      h: 2.405
+  taules:
+  - id: p13-t1
+    pos:
+      x: 0.725
+      y: 22.678
+      w: 19.495
+      h: 6.35
+    columnes:
+    - idx: 0
+      ample_cm: 1.833
+      text_capcalera:
+        es: MOD./COD.
+      clau: codi
+    - idx: 1
+      ample_cm: 2.275
+      icones_capcalera:
+      - asset: assets/g3/icona-energia-gas-electric.jpg
+        hash: c01949dd7f
+      clau: energia
+    - idx: 2
+      ample_cm: 1.26
+      icones_capcalera:
+      - asset: assets/g3/icona-pes.jpg
+        hash: 1d4cf29748
+      clau: pes
+    - idx: 3
+      ample_cm: 3.153
+      icones_capcalera:
+      - asset: assets/g3/icona-mesures.jpg
+        hash: aa029674e7
+      clau: mesures
+    - idx: 4
+      ample_cm: 1.404
+      icones_capcalera:
+      - asset: assets/g3/icona-placa_lisa_vertical.jpg
+        hash: 055397bb8a
+      clau: placa_lisa_vertical
+    - idx: 5
+      ample_cm: 1.304
+      icones_capcalera:
+      - asset: assets/g3/icona-placa_estriada_vertical.jpg
+        hash: 4bdc6d21e3
+      clau: placa_estriada_vertical
+    - idx: 6
+      ample_cm: 1.97
+      icones_capcalera:
+      - asset: assets/g3/icona-dimensions_placa.jpg
+        hash: 3a1c85e34b
+      clau: dimensions_placa
+    - idx: 7
+      ample_cm: 2.708
+      icones_capcalera:
+      - asset: assets/g3/icona-potencia-electrica.jpg
+        hash: 7d7d71eb62
+      clau: potencia_electrica
+    - idx: 8
+      ample_cm: 1.942
+      icones_capcalera:
+      - asset: assets/g3/icona-potencia-gas.jpg
+        hash: 9004c0e80e
+      clau: potencia_gas
+    - idx: 9
+      ample_cm: 1.647
+      text_capcalera:
+        es: €
+      clau: preu
+    files:
+    - codi: '30020311'
+      cel_les:
+        codi: '30020311'
+        energia: gas
+        pes: '36'
+        mesures: 350x600x280
+        placa_lisa_vertical: FE
+        placa_estriada_vertical: '-'
+        dimensions_placa: 346 x 564
+        potencia_electrica: '-'
+        potencia_gas: 4 KW
+        preu: '1.395'
+      icones:
+        energia:
+        - asset: assets/g3/icona-cel-energia-gas.jpg
+          hash: 55b1a2eb5c
+      codi_trossos:
+      - '3002'
+      - '0311'
+      codi_tros_destacat:
+      - 0
+    - codi: '30120311'
+      cel_les:
+        codi: '30120311'
+        energia: gas
+        pes: '36'
+        mesures: 350x600x280
+        placa_lisa_vertical: '-'
+        placa_estriada_vertical: FE
+        dimensions_placa: 346 x 564
+        potencia_electrica: '-'
+        potencia_gas: 4 KW
+        preu: '1.585'
+      icones:
+        energia:
+        - asset: assets/g3/icona-cel-energia-gas.jpg
+          hash: 55b1a2eb5c
+      codi_trossos:
+      - '3012'
+      - '0311'
+      codi_tros_destacat:
+      - 0
+    - codi: '30220311'
+      cel_les:
+        codi: '30220311'
+        energia: gas
+        pes: '36'
+        mesures: 350x600x280
+        placa_lisa_vertical: Cr.D.
+        placa_estriada_vertical: '-'
+        dimensions_placa: 346 x 564
+        potencia_electrica: '-'
+        potencia_gas: 4 KW
+        preu: '1.855'
+      icones:
+        energia:
+        - asset: assets/g3/icona-cel-energia-gas.jpg
+          hash: 55b1a2eb5c
+      codi_trossos:
+      - '3022'
+      - '0311'
+      codi_tros_destacat:
+      - 0
+    - codi: '30510611'
+      cel_les:
+        codi: '30510611'
+        energia: electric
+        pes: '37'
+        mesures: 350x600x280
+        placa_lisa_vertical: FE
+        placa_estriada_vertical: '-'
+        dimensions_placa: 346 x 564
+        potencia_electrica: 3,9 KW 230/1V
+        potencia_gas: '-'
+        preu: '1.355'
+      icones:
+        energia:
+        - asset: assets/g3/icona-cel-energia-electric.jpg
+          hash: 340a0e5c4f
+      codi_trossos:
+      - '3051'
+      - '0611'
+      codi_tros_destacat:
+      - 0
+    - codi: '30810611'
+      cel_les:
+        codi: '30810611'
+        energia: electric
+        pes: '37'
+        mesures: 350x600x280
+        placa_lisa_vertical: '-'
+        placa_estriada_vertical: FE
+        dimensions_placa: 346 x 564
+        potencia_electrica: 3,9 KW 400/3V
+        potencia_gas: '-'
+        preu: '1.415'
+      icones:
+        energia:
+        - asset: assets/g3/icona-cel-energia-electric.jpg
+          hash: 340a0e5c4f
+      codi_trossos:
+      - '3081'
+      - '0611'
+      codi_tros_destacat:
+      - 0
+    - codi: '30120611'
+      cel_les:
+        codi: '30120611'
+        energia: electric
+        pes: '37'
+        mesures: 350x600x280
+        placa_lisa_vertical: Cr.D.
+        placa_estriada_vertical: '-'
+        dimensions_placa: 346 x 564
+        potencia_electrica: 3,9 KW 230/1V
+        potencia_gas: '-'
+        preu: '1.690'
+      icones:
+        energia:
+        - asset: assets/g3/icona-cel-energia-electric.jpg
+          hash: 340a0e5c4f
+      codi_trossos:
+      - '3012'
+      - '0611'
+      codi_tros_destacat:
+      - 0
+    format: taula_producte
+  n_elements_font: 67
+- id: p14
+  n: 14
+  tipus: producte
+  peu_enllac:
+    pagines:
+    - 11
+    - 12
+    text:
+      es: CARACTERÍSTICAS GENERALES          E      GENERAL FEATURES    F   CARACTÉRISTIQUES GÉNÉRALES
+      en: GENERAL FEATURES
+      fr: CARACTÉRISTIQUES GÉNÉRALES
+    pos:
+      x: 11.8
+      y: 28.801
+      w: 8.2
+      h: 0.758
+    color_fons: '#e8e4d2'
+    icones:
+    - assets/g3/peu-icona-ull.png
+    - assets/g3/plantilla-quadre-numero.emf
+    - assets/g3/plantilla-quadre-numero.emf
+  capcalera:
+    banda: assets/g3/plantilla-quadre-numero.emf
+    xip_color: '#772f32'
+    serie: 600 SNACK
+    logo_serie: assets/g3/logo-serie-master.png
+    titol:
+      es: PLANCHAS FRYTOP A GAS Y ELÉCTRICAS 700 MM E GAS AND ELECTRIC 700 MM GRIDDLES
+      fr: FRYTOPS À GAZ ET ÉLÉCTRIQUES 700 MM
+  fotos:
+  - pos:
+      x: 11.645
+      y: 1.446
+      w: 8.8
+      h: 8.8
+    codi: '30420311'
+    codis:
+    - codi: '30420311'
+      icones_etiqueta:
+      - assets/g3/icona-cel-energia-gas.jpg
+      valors_etiqueta:
+      - gas
+    - codi: '30720611'
+      icones_etiqueta:
+      - assets/g3/icona-cel-energia-electric.jpg
+      valors_etiqueta:
+      - electric
+    asset: assets/g3/foto-30420311.jpg
+  - pos:
+      x: 1.308
+      y: 3.706
+      w: 8.467
+      h: 8.467
+    codi: '30320311'
+    codis:
+    - codi: '30320311'
+      icones_etiqueta:
+      - assets/g3/icona-cel-energia-gas.jpg
+      valors_etiqueta:
+      - gas
+    - codi: '30520611'
+      icones_etiqueta:
+      - assets/g3/icona-cel-energia-electric.jpg
+      valors_etiqueta:
+      - electric
+    asset: assets/g3/foto-30320311.jpg
+  - pos:
+      x: 8.425
+      y: 11.281
+      w: 8.8
+      h: 8.8
+    codi: '30620311'
+    codis:
+    - codi: '30620311'
+      icones_etiqueta:
+      - assets/g3/icona-cel-energia-gas.jpg
+      valors_etiqueta:
+      - gas
+    - codi: '30130611'
+      icones_etiqueta:
+      - assets/g3/icona-cel-energia-electric.jpg
+      valors_etiqueta:
+      - electric
+    asset: assets/g3/foto-30620311.jpg
+  - pos:
+      x: 0.212
+      y: 12.954
+      w: 8.8
+      h: 8.8
+    codi: '30920611'
+    icones_etiqueta:
+    - assets/g3/icona-cel-energia-electric.jpg
+    valors_etiqueta:
+    - electric
+    asset: assets/g3/foto-30920611.jpg
+  insignies:
+  - asset: assets/g3/insignia-ce.png
+    pos:
+      x: 0.798
+      y: 2.5
+      w: 2.405
+      h: 2.405
+  taules:
+  - id: p14-t1
+    pos:
+      x: 1.0
+      y: 21.952
+      w: 19.495
+      h: 7.256
+    columnes:
+    - idx: 0
+      ample_cm: 1.827
+      text_capcalera:
+        es: MOD./COD.
+      clau: codi
+    - idx: 1
+      ample_cm: 2.069
+      icones_capcalera:
+      - asset: assets/g3/icona-energia-gas-electric.jpg
+        hash: c01949dd7f
+      clau: energia
+    - idx: 2
+      ample_cm: 1.256
+      icones_capcalera:
+      - asset: assets/g3/icona-pes.jpg
+        hash: 1d4cf29748
+      clau: pes
+    - idx: 3
+      ample_cm: 2.744
+      icones_capcalera:
+      - asset: assets/g3/icona-mesures.jpg
+        hash: aa029674e7
+      clau: mesures
+    - idx: 4
+      ample_cm: 1.5
+      icones_capcalera:
+      - asset: assets/g3/icona-placa_lisa.jpg
+        hash: 9bde1fce63
+      clau: placa_lisa
+    - idx: 5
+      ample_cm: 1.5
+      icones_capcalera:
+      - asset: assets/g3/icona-placa_1_3_estriada.jpg
+        hash: b61ef31c0e
+      clau: placa_1_3_estriada
+    - idx: 6
+      ample_cm: 1.4
+      icones_capcalera:
+      - asset: assets/g3/icona-placa_estriada.jpg
+        hash: 0025e49a9d
+      clau: placa_estriada
+    - idx: 7
+      ample_cm: 1.95
+      icones_capcalera:
+      - asset: assets/g3/icona-dimensions_placa.jpg
+        hash: 3a1c85e34b
+      clau: dimensions_placa
+    - idx: 8
+      ample_cm: 2.7
+      icones_capcalera:
+      - asset: assets/g3/icona-potencia-electrica.jpg
+        hash: 7d7d71eb62
+      clau: potencia_electrica
+    - idx: 9
+      ample_cm: 1.35
+      icones_capcalera:
+      - asset: assets/g3/icona-potencia-gas.jpg
+        hash: 9004c0e80e
+      clau: potencia_gas
+    - idx: 10
+      ample_cm: 1.2
+      text_capcalera:
+        es: €
+      clau: preu
+    files:
+    - codi: '30320311'
+      cel_les:
+        codi: '30320311'
+        energia: gas
+        pes: '60'
+        mesures: 700x600x280
+        placa_lisa: FE
+        placa_1_3_estriada: '-'
+        placa_estriada: '-'
+        dimensions_placa: 696 x 564
+        potencia_electrica: '-'
+        potencia_gas: 8 KW
+        preu: '1.965'
+      icones:
+        energia:
+        - asset: assets/g3/icona-cel-energia-gas.jpg
+          hash: 55b1a2eb5c
+      codi_trossos:
+      - '3032'
+      - '0311'
+      codi_tros_destacat:
+      - 0
+    - codi: '30420311'
+      cel_les:
+        codi: '30420311'
+        energia: gas
+        pes: '60'
+        mesures: 700x600x280
+        placa_lisa: '-'
+        placa_1_3_estriada: FE
+        placa_estriada: '-'
+        dimensions_placa: 696 x 564
+        potencia_electrica: '-'
+        potencia_gas: 8 KW
+        preu: '2.130'
+      icones:
+        energia:
+        - asset: assets/g3/icona-cel-energia-gas.jpg
+          hash: 55b1a2eb5c
+      codi_trossos:
+      - '3042'
+      - '0311'
+      codi_tros_destacat:
+      - 0
+    - codi: '30620311'
+      cel_les:
+        codi: '30620311'
+        energia: gas
+        pes: '60'
+        mesures: 700x600x280
+        placa_lisa: Cr.D.
+        placa_1_3_estriada: '-'
+        placa_estriada: '-'
+        dimensions_placa: 696 x 564
+        potencia_electrica: '-'
+        potencia_gas: 8 KW
+        preu: '2.615'
+      icones:
+        energia:
+        - asset: assets/g3/icona-cel-energia-gas.jpg
+          hash: 55b1a2eb5c
+      codi_trossos:
+      - '3062'
+      - '0311'
+      codi_tros_destacat:
+      - 0
+    - codi: '30520611'
+      cel_les:
+        codi: '30520611'
+        energia: electric
+        pes: '62'
+        mesures: 700x600x280
+        placa_lisa: FE
+        placa_1_3_estriada: '-'
+        placa_estriada: '-'
+        dimensions_placa: 696 x 564
+        potencia_electrica: 7,8 KW 400/3V
+        potencia_gas: '-'
+        preu: '1.890'
+      icones:
+        energia:
+        - asset: assets/g3/icona-cel-energia-electric.jpg
+          hash: 340a0e5c4f
+      codi_trossos:
+      - '3052'
+      - '0611'
+      codi_tros_destacat:
+      - 0
+    - codi: '30720611'
+      cel_les:
+        codi: '30720611'
+        energia: electric
+        pes: '62'
+        mesures: 700x600x280
+        placa_lisa: '-'
+        placa_1_3_estriada: FE
+        placa_estriada: '-'
+        dimensions_placa: 696 x 564
+        potencia_electrica: 7,8 KW 400/3V
+        potencia_gas: '-'
+        preu: '2.055'
+      icones:
+        energia:
+        - asset: assets/g3/icona-cel-energia-electric.jpg
+          hash: 340a0e5c4f
+      codi_trossos:
+      - '3072'
+      - '0611'
+      codi_tros_destacat:
+      - 0
+    - codi: '30920611'
+      cel_les:
+        codi: '30920611'
+        energia: electric
+        pes: '62'
+        mesures: 700x600x280
+        placa_lisa: '-'
+        placa_1_3_estriada: '-'
+        placa_estriada: FE
+        dimensions_placa: 696 x 564
+        potencia_electrica: 7,8 KW 400/3V
+        potencia_gas: '-'
+        preu: '2.140'
+      icones:
+        energia:
+        - asset: assets/g3/icona-cel-energia-electric.jpg
+          hash: 340a0e5c4f
+      codi_trossos:
+      - '3092'
+      - '0611'
+      codi_tros_destacat:
+      - 0
+    - codi: '30130611'
+      cel_les:
+        codi: '30130611'
+        energia: electric
+        pes: '62'
+        mesures: 700x600x280
+        placa_lisa: Cr.D.
+        placa_1_3_estriada: '-'
+        placa_estriada: '-'
+        dimensions_placa: 696 x 564
+        potencia_electrica: 7,8 KW 400/3V
+        potencia_gas: '-'
+        preu: '2.460'
+      icones:
+        energia:
+        - asset: assets/g3/icona-cel-energia-electric.jpg
+          hash: 340a0e5c4f
+      codi_trossos:
+      - '3013'
+      - '0611'
+      codi_tros_destacat:
+      - 0
+    format: taula_producte
+  n_elements_font: 77
+- id: p15
+  n: 15
+  tipus: producte
+  peu_enllac:
+    pagines:
+    - 11
+    - 12
+    text:
+      es: CARACTERÍSTICAS GENERALES          E      GENERAL FEATURES    F   CARACTÉRISTIQUES GÉNÉRALES
+      en: GENERAL FEATURES
+      fr: CARACTÉRISTIQUES GÉNÉRALES
+    pos:
+      x: 11.8
+      y: 28.801
+      w: 8.2
+      h: 0.758
+    color_fons: '#e8e4d2'
+    icones:
+    - assets/g3/peu-icona-ull.png
+    - assets/g3/plantilla-quadre-numero.emf
+    - assets/g3/plantilla-quadre-numero.emf
+  capcalera:
+    banda: assets/g3/plantilla-quadre-numero.emf
+    xip_color: '#772f32'
+    serie: 600 SNACK
+    logo_serie: assets/g3/logo-serie-master.png
+    titol:
+      es: BARBACOAS A GAS Y ELÉCTRICAS-GRILL VAPOR E GAS AND ELECTRIC BARBECUES AND STEAM-GRILLS
+      fr: BARBECUES À GAZ ET ÉLÉCTRIQUES À VAPEUR
+  fotos:
+  - pos:
+      x: 10.0
+      y: 2.5
+      w: 10.0
+      h: 10.0
+    codi: '30230311'
+    icones_etiqueta:
+    - assets/g3/icona-cel-energia-gas.jpg
+    valors_etiqueta:
+    - gas
+    asset: assets/g3/foto-30230311.jpg
+  - pos:
+      x: 2.0
+      y: 7.424
+      w: 7.351
+      h: 7.351
+    codi: '30130311'
+    icones_etiqueta:
+    - assets/g3/icona-cel-energia-gas.jpg
+    valors_etiqueta:
+    - gas
+    asset: assets/g3/info-p11-4.jpg
+  - pos:
+      x: 10.0
+      y: 13.0
+      w: 10.0
+      h: 10.0
+    codi: '30440611'
+    icones_etiqueta:
+    - assets/g3/icona-cel-energia-electric.jpg
+    valors_etiqueta:
+    - electric
+    asset: assets/g3/foto-30440611.jpg
+  - pos:
+      x: 1.5
+      y: 15.533
+      w: 7.467
+      h: 7.467
+    codi: '30240611'
+    icones_etiqueta:
+    - assets/g3/icona-cel-energia-electric.jpg
+    valors_etiqueta:
+    - electric
+    asset: assets/g3/foto-30240611.jpg
+  insignies:
+  - asset: assets/g3/insignia-ce.png
+    pos:
+      x: 0.798
+      y: 2.5
+      w: 2.405
+      h: 2.405
+  taules:
+  - id: p15-t1
+    pos:
+      x: 0.731
+      y: 24.032
+      w: 19.495
+      h: 4.529
+    columnes:
+    - idx: 0
+      ample_cm: 2.226
+      text_capcalera:
+        es: MOD./COD.
+      clau: codi
+    - idx: 1
+      ample_cm: 2.269
+      icones_capcalera:
+      - asset: assets/g3/icona-energia-gas-electric.jpg
+        hash: c01949dd7f
+      clau: energia
+    - idx: 2
+      ample_cm: 1.531
+      icones_capcalera:
+      - asset: assets/g3/icona-pes.jpg
+        hash: 1d4cf29748
+      clau: pes
+    - idx: 3
+      ample_cm: 2.975
+      icones_capcalera:
+      - asset: assets/g3/icona-mesures.jpg
+        hash: aa029674e7
+      clau: mesures
+    - idx: 4
+      ample_cm: 1.595
+      icones_capcalera:
+      - asset: assets/g3/icona-barbacoa.jpg
+        hash: 2ac459fe7b
+      clau: barbacoa
+    - idx: 5
+      ample_cm: 2.651
+      icones_capcalera:
+      - asset: assets/g3/icona-dimensions_parrilla.jpg
+        hash: 1eeab8cc86
+      clau: dimensions_parrilla
+    - idx: 6
+      ample_cm: 2.663
+      icones_capcalera:
+      - asset: assets/g3/icona-potencia-electrica.jpg
+        hash: 7d7d71eb62
+      clau: potencia_electrica
+    - idx: 7
+      ample_cm: 1.786
+      icones_capcalera:
+      - asset: assets/g3/icona-potencia-gas.jpg
+        hash: 9004c0e80e
+      clau: potencia_gas
+    - idx: 8
+      ample_cm: 1.8
+      text_capcalera:
+        es: €
+      clau: preu
+    files:
+    - codi: '30130311'
+      cel_les:
+        codi: '30130311'
+        energia: gas
+        pes: '31'
+        mesures: 350x600x280
+        barbacoa: '1'
+        dimensions_parrilla: 300 x 480
+        potencia_electrica: '-'
+        potencia_gas: 6,9 KW
+        preu: '2.030'
+      icones:
+        energia:
+        - asset: assets/g3/icona-cel-energia-gas.jpg
+          hash: 55b1a2eb5c
+      codi_trossos:
+      - '3013'
+      - '0311'
+      codi_tros_destacat:
+      - 0
+    - codi: '30230311'
+      cel_les:
+        codi: '30230311'
+        energia: gas
+        pes: '55'
+        mesures: 700x600x280
+        barbacoa: '2'
+        dimensions_parrilla: 300 x 480
+        potencia_electrica: '-'
+        potencia_gas: 13,8 KW
+        preu: '3.040'
+      icones:
+        energia:
+        - asset: assets/g3/icona-cel-energia-gas.jpg
+          hash: 55b1a2eb5c
+      codi_trossos:
+      - '3023'
+      - '0311'
+      codi_tros_destacat:
+      - 0
+    - codi: '30240611'
+      cel_les:
+        codi: '30240611'
+        energia: electric
+        pes: '24'
+        mesures: 350x600x280
+        barbacoa: '1'
+        dimensions_parrilla: 250 x 400
+        potencia_electrica: 3 KW 400/3V
+        potencia_gas: '-'
+        preu: '1.645'
+      icones:
+        energia:
+        - asset: assets/g3/icona-cel-energia-electric.jpg
+          hash: 340a0e5c4f
+      codi_trossos:
+      - '3024'
+      - '0611'
+      codi_tros_destacat:
+      - 0
+    - codi: '30440611'
+      cel_les:
+        codi: '30440611'
+        energia: electric
+        pes: '39'
+        mesures: 700x600x280
+        barbacoa: '1'
+        dimensions_parrilla: 500 x 400
+        potencia_electrica: 6 KW 400/3V
+        potencia_gas: '-'
+        preu: '2.715'
+      icones:
+        energia:
+        - asset: assets/g3/icona-cel-energia-electric.jpg
+          hash: 340a0e5c4f
+      codi_trossos:
+      - '3044'
+      - '0611'
+      codi_tros_destacat:
+      - 0
+    format: taula_producte
+  n_elements_font: 63
+- id: p16
+  n: 16
+  tipus: informacio_general
+  capcalera:
+    banda: assets/g3/plantilla-quadre-numero.emf
+    xip_color: '#772f32'
+    serie: 600 SNACK
+    logo_serie: assets/g3/logo-serie-master.png
+    titol:
+      es: FREIDORAS, CONSERVADORES DE FRITOS, BAÑOS MARIA, CUECE PASTA Y MESAS SOPORTE
+  columnes:
+  - idioma: es
+    paragrafs:
+    - role: titol
+      text: CONSTRUCCIÓN
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 10.6
+    - role: text
+      text: En acero inoxidable, interior y exterior.
+      estil:
+        color: '#000000'
+        mida: 10.6
+    - role: text
+      text: Patas regulables en todos los aparatos.
+      estil:
+        color: '#000000'
+        mida: 10.6
+    - role: titol
+      text: FREIDORAS A GAS Y ELÉCTRICAS
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 10.6
+    - role: text
+      text: Todos los modelos con cestas de acero inoxidable y tapas con asa.
+      estil:
+        color: '#000000'
+        mida: 10.6
+    - role: text
+      text: Con cubas totalmente soldadas a la encimera, embutida para facilitar la limpieza y así mismo evitar que el aceite rebose.
+      estil:
+        color: '#000000'
+        mida: 10.6
+    - role: text
+      text: Con rejilla perforada para evitar vayan alimentos al fondo.
+      estil:
+        color: '#000000'
+        mida: 10.6
+    - role: text
+      text: Con grifo de vaciado, situado en el frontal de la freidora, con dispositivo de seguridad, para evitar la abertura accidental
+      estil:
+        color: '#000000'
+        mida: 10.6
+    - role: text
+      text: Con generosa zona fría, lo cual aumenta la duración del aceite.
+      estil:
+        color: '#000000'
+        mida: 10.6
+    - role: text
+      text: Modelos a gas, con dos tubos intercambiadores de calor en cada cuba de 10 litros, y con protectores de los bulbos de los termostatos.
+        □
+      estil:
+        color: '#000000'
+        mida: 10.6
+    - role: text
+      text: Los quemadores de fundición, tipo soplete, de gran potencia.
+      estil:
+        color: '#000000'
+        mida: 10.6
+    - role: text
+      text: Con válvula termostática y piloto de mantenimiento. Con bobina de seguridad y termopar.
+      estil:
+        color: '#000000'
+        mida: 10.6
+    - role: text
+      text: Con encendido piezo-eléctrico.
+      estil:
+        color: '#000000'
+        mida: 10.6
+    - role: text
+      text: Modelos eléctricos, con la cuba muy fácil de limpiar, por disponer de un mecanismo para que la resistencia pueda bascular hasta la
+        posición vertical, que se acciona mediante una palanca situada a la derecha y con un sistema de bloqueo, en su posición elevada. □
+      estil:
+        color: '#000000'
+        mida: 10.6
+    - role: text
+      text: Dichas resistencias son de acero inoxidable blindadas.
+      estil:
+        color: '#000000'
+        mida: 10.6
+    - role: text
+      text: Con termostato y piloto indicador de funcionamiento.
+      estil:
+        color: '#000000'
+        mida: 10.6
+    - role: text
+      text: Con termostato de seguridad que pára la freidora en caso de aumento anormal de la temperatura del aceite.
+      estil:
+        color: '#000000'
+        mida: 10.6
+    - role: titol
+      text: CONSERVADORES DE FRITOS ELÉCTRICOS
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 10.6
+    - role: text
+      text: Equipados con una cuba GN 2/3-150, con doble fondo perforado y curvado para facilitar la recogida de fritos, todo ello extraíble para
+        su limpieza.
+      estil:
+        color: '#000000'
+        mida: 10.6
+    - role: text
+      text: Con una resistencia cerámica, situada en la pantalla superior. □
+      estil:
+        color: '#000000'
+        mida: 10.6
+    - role: text
+      text: Dotado de regulador de energía, para adecuar la temperatura deseada y piloto indicador de funcionamiento.
+      estil:
+        color: '#000000'
+        mida: 10.6
+    - role: titol
+      text: BAÑOS MARÍA ELÉCTRICOS
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 10.6
+    - role: text
+      text: Con la cuba, GN 1/1, soldada a la encimera, con todos los cantos internos redondeados.
+      estil:
+        color: '#000000'
+        mida: 10.6
+    - role: text
+      text: Con grifo de desagüe, situado en el frontal, con dispositivo de seguridad, para evitar la abertura accidental.
+      estil:
+        color: '#000000'
+        mida: 10.6
+    - role: text
+      text: Equipados con una resistencia adhesiva, situada en el fondo de la cuba, de manera que el interior de la misma esta totalmente limpio.
+      estil:
+        color: '#000000'
+        mida: 10.6
+    - role: text
+      text: Dotados de termostato y piloto indicador de funcionamiento.
+      estil:
+        color: '#000000'
+        mida: 10.6
+    - role: text
+      text: OPCIONALMENTE, disponemos de un doble fondo perforado de acero inoxidable, □ ver en ACCESORIOS, para el mantenimiento de alimentos
+        en ollas, directamente. O si lo desean, pueden colocar distintas combinaciones de recipientes GN. (Ver catálogo GRUPO-16)
+      estil:
+        color: '#000000'
+        mida: 10.6
+    - role: titol
+      text: CUECE PASTAS A GAS Y ELÉCTRICOS
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 10.6
+    - role: text
+      text: Con la cuba, GN 2/3, fabricada en acero AISI-316, soldada a la encimera.
+      estil:
+        color: '#000000'
+        mida: 10.6
+    - role: text
+      text: Con rejilla perforada pára evitar vayan los alimentos al fondo.
+      estil:
+        color: '#000000'
+        mida: 10.6
+    - role: text
+      text: Dispone de grifos de llenado y de vaciado.
+      estil:
+        color: '#000000'
+        mida: 10.6
+    - role: text
+      text: Con rebosadero para evitar el derrame de agua y a la vez la evacuación del almidón de la pasta, que flota.
+      estil:
+        color: '#000000'
+        mida: 10.6
+    - role: text
+      text: Modelos a gas, con quemador tubular de acero inoxidable
+      estil:
+        color: '#000000'
+        mida: 10.6
+    - role: text
+      text: Con grifo de latón, dotado de máximo regulable, mínimo y posición piloto. Con bobina de seguridad y termopar.
+      estil:
+        color: '#000000'
+        mida: 10.6
+    - role: text
+      text: Con encendido piezo-eléctrico.
+      estil:
+        color: '#000000'
+        mida: 10.6
+    - role: text
+      text: Modelos eléctricos, equipan una resistencia de acero inoxidable, blindada.
+      estil:
+        color: '#000000'
+        mida: 10.6
+    - role: text
+      text: Dotados de conmutador-termostato y piloto de funcionamiento.
+      estil:
+        color: '#000000'
+        mida: 10.6
+    - role: text
+      text: OPCIONALMENTE, disponemos de cestas perforadas con asa/s totalmente de acero inoxidable. Ver en ACCESORIOS los packs que ofrecemos.
+        □
+      estil:
+        color: '#000000'
+        mida: 10.6
+    - role: titol
+      text: MESAS DE APOYO Y FREGADEROS
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 10.6
+    - role: text
+      text: Las mesas pueden disponer de cajón, con guías correderas de máxima calidad.
+      estil:
+        color: '#000000'
+        mida: 10.6
+    - role: text
+      text: Los fregaderos con cuba soldada a la encimera y con válvula de desagüe.
+      estil:
+        color: '#000000'
+        mida: 10.6
+    - role: text
+      text: Con grifo de agua fría-caliente en dotación. □
+      estil:
+        color: '#000000'
+        mida: 10.6
+    - role: titol
+      text: SOPORTES ABIERTOS, CON PUERTAS Ó CON CAJONES
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 10.6
+    - role: text
+      text: Los muebles están fabricados para colocar encima de ellos los elementos de cocción, formando un conjunto.
+      estil:
+        color: '#000000'
+        mida: 10.6
+    - role: text
+      text: OPCIONALMENTE, se pueden colocar guías para GN 1/1, para el almacenamiento de dichos recipientes. □ También ofrecemos un elemento
+        calefactor, que se coloca en la Base del soporte con puerta/s, para mantener alimentos calientes. □ Todo ello lo encontraran en las páginas
+        de ACCESORIOS.
+      estil:
+        color: '#000000'
+        mida: 10.6
+    - role: titol
+      text: TAMBIÉN FABRICAMOS, PARA COLOCAR ENCIMA ELEMENTOS DE SOBREMESA
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 10.6
+    - role: text
+      text: De altura 600 mm.
+      estil:
+        color: '#000000'
+        mida: 10.6
+    - role: text
+      text: MESAS CALIENTES. Ver en Catalogo GRUPO-7 EQUIPOS CALIENTES
+      estil:
+        color: '#000000'
+        mida: 10.6
+    - role: text
+      text: RESERVAS FRIAS. Ver en Catalogo GRUPO-11 FRÍO INDUSTRIAL
+      estil:
+        color: '#000000'
+        mida: 10.6
+    pos:
+      x: 0.5
+      y: 3.0
+      w: 14.5
+      h: 25.4
+  fotos:
+  - asset: assets/g3/info-p16-1.jpg
+    pos:
+      x: 16.9
+      y: 3.0
+      w: 3.1
+      h: 3.01
+    referencia: 1
+  - asset: assets/g3/info-p16-2.png
+    pos:
+      x: 16.9
+      y: 6.162
+      w: 3.1
+      h: 3.09
+    referencia: 2
+  - asset: assets/g3/info-p16-3.png
+    pos:
+      x: 16.9
+      y: 9.404
+      w: 3.1
+      h: 3.872
+    referencia: 3
+  - asset: assets/g3/info-p16-4.png
+    pos:
+      x: 16.9
+      y: 13.427
+      w: 3.1
+      h: 2.349
+    referencia: 4
+  - asset: assets/g3/info-p16-5.jpg
+    pos:
+      x: 16.9
+      y: 15.928
+      w: 3.1
+      h: 3.586
+    referencia: 5
+  - asset: assets/g3/info-p16-6.jpg
+    pos:
+      x: 16.9
+      y: 19.666
+      w: 3.1
+      h: 3.1
+    referencia: 6
+  - asset: assets/g3/info-p16-7.jpg
+    pos:
+      x: 16.9
+      y: 22.918
+      w: 3.1
+      h: 3.1
+    referencia: 7
+  - asset: assets/g3/info-p16-8.png
+    pos:
+      x: 16.9
+      y: 26.17
+      w: 3.1
+      h: 2.23
+    referencia: 8
+  omesos_decoratius:
+    filets_i_contorns: 8
+  n_elements_font: 35
+- id: p17
+  n: 17
+  tipus: informacio_general
+  capcalera:
+    banda: assets/g3/plantilla-quadre-numero.emf
+    xip_color: '#772f32'
+    serie: 600 SNACK
+    logo_serie: assets/g3/logo-serie-master.png
+    titol:
+      en: FRYERS, FRIED CONSERVATORS, BAIN MARIES, PASTA COOKERS AND NEUTRAL SUPPORTS F FRITEUSES, RÉSERVES POUR FRITES, BAIN MARIES, CUISEURS
+        À PÂTES ET SUPPORTS NEUTRES
+  columnes:
+  - idioma: en
+    paragrafs:
+    - role: titol
+      text: STRUCTURE
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 9.4
+    - role: text
+      text: In stainless steel, interior and exterior.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: Adjustable feet in all appliances.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: titol
+      text: GAS AND ELECTRIC FRYERS
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 9.4
+    - role: text
+      text: All models with stainless steel baskets and covers with handle.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: With vats fully welded to the countertop, embedded to facilitate cleaning and also prevent the oil from overflowing.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: With perforated grid to avoid going food to the bottom.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: With drain tap, located on the front of the fryer, with safety device, to prevent accidental opening
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: With generous cold zone, which increases the duration of the oil.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: Gas models, with two heat exchanger tubes in each 10-liter tank, and with thermostats bulb protectors. □
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: Cast iron burners, torch type, high power.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: With thermostatic valve and maintenance pilot. With safety coil and thermocouple.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: With piezo-electric ignition.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: Electric models, with the tank very easy to clean, by having a mechanism so that the resistance can tilt to the vertical position,
+        which is operated by a lever located to the right and with a locking system, in its elevated position.□
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: These resistors are made of armored stainless steel.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: With thermostat and pilot operation indicator.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: With safety thermostat that stops the fryer in case of abnormal increase in oil temperature.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: titol
+      text: ELECTRIC FRIED CONSERVATORS
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 9.4
+    - role: text
+      text: Equipped with a GN 2 / 3-150 tank, with double perforated and curved bottom to facilitate the collection of fried foods, all removable
+        for cleaning.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: With a ceramic resistance, located on the upper screen. □
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: Equipped with an energy regulator, to adjust the desired temperature and pilot operation indicator.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: titol
+      text: ELECTRIC BAIN-MARIES
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 9.4
+    - role: text
+      text: With the tank, GN 1/1, welded to the countertop, with all rounded internal edges.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: With drain tap, located on the front, with safety device, to prevent accidental opening.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: Equipped with an adhesive resistance, located at the bottom of the tank, so that the inside of it is completely clean.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: Equipped with thermostat and pilot operation indicator.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: OPTIONALLY, we have a double perforated stainless steel bottom, □ see in ACCESSORIES, for the maintenance of food in pots, directly.
+        Or if they wish, they can place different combinations of GN containers. (See catalog GROUP-16)
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: titol
+      text: GAS AND ELECTRIC PASTA COOKERS
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 9.4
+    - role: text
+      text: With the tank, GN 2/3, made of AISI-316 steel, welded to the countertop.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: With perforated grid to avoid food going to the bottom.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: It has filling and emptying taps.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: With overflow to avoid the spillage of water and at the same time the evacuation of the starch from the paste, which floats.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: Gas models, with stainless steel tubular burner
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: With brass tap, equipped with adjustable maximum, minimum and pilot position. With safety coil and thermocouple.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: With piezo-electric ignition.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: Electric models, equipped with a stainless steel resistance, armored.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: Equipped with switch-thermostat and pilot operation.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: OPTIONALLY, we have perforated baskets with stainless steel handle / s. See ACCESSORIES for the packs we offer. □
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: titol
+      text: SUPPORT TABLES AND SINKS
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 9.4
+    - role: text
+      text: The tables can have a drawer, with sliding guides of the highest quality.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: The sinks with tub welded to the countertop and with drain valve.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: With hot-cold water tap included. □
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: titol
+      text: OPEN STANDS WITH DOORS OR WITH DRAWERS
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 9.4
+    - role: text
+      text: The furniture is manufactured to place the cooking elements on top of them, forming a set.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: OPTIONALLY, guides for GN 1/1 can be placed for the storage of said containers. □ We also offer a heating element, which is placed
+        in the Base of the support with door / s, to keep food warm. □ You will find all this in the accessory pages.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: titol
+      text: WE ALSO MANUFACTURE, TO PLACE UP TABLE ELEMENTS
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 9.4
+    - role: text
+      text: 600 mm high.
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: HOT TABLES See in group catalog- GROUP-7 HOT EQUIPMENT
+      estil:
+        color: '#000000'
+        mida: 9.4
+    - role: text
+      text: COLD RESERVATIONS. See in catalog GROUP-11 INDUSTRIAL COLD
+      estil:
+        color: '#000000'
+        mida: 9.4
+    pos:
+      x: 0.98
+      y: 3.4
+      w: 9.386
+      h: 25.0
+  - idioma: fr
+    paragrafs:
+    - role: titol
+      text: CONSTRUCTION
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 8.7
+    - role: text
+      text: En acier inoxydable, intérieur et extérieur.
+      estil:
+        color: '#000000'
+        mida: 8.7
+    - role: text
+      text: Pieds réglables dans tous les appareils.
+      estil:
+        color: '#000000'
+        mida: 8.7
+    - role: titol
+      text: FRITEUSES À GAZ ET ÉLECTRIQUES
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 8.7
+    - role: text
+      text: Tous les modèles avec des paniers en acier inoxydable et des couvercles avec poignée.
+      estil:
+        color: '#000000'
+        mida: 8.7
+    - role: text
+      text: Avec des cuves entièrement soudées au comptoir, intégrées pour faciliter le nettoyage et éviter le débordement de l'huile.
+      estil:
+        color: '#000000'
+        mida: 8.7
+    - role: text
+      text: Avec grille perforée pour éviter de déposer de la nourriture au fond.
+      estil:
+        color: '#000000'
+        mida: 8.7
+    - role: text
+      text: Avec robinet de vidange, situé à l'avant de la friteuse, avec dispositif de sécurité pour éviter toute ouverture accidentelle
+      estil:
+        color: '#000000'
+        mida: 8.7
+    - role: text
+      text: Avec zone froide généreuse, ce qui augmente la durée de l'huile.
+      estil:
+        color: '#000000'
+        mida: 8.7
+    - role: text
+      text: Modèles à gaz, avec deux tubes d'échangeur de chaleur dans chaque réservoir de 10 litres et des protecteurs de thermostats. □
+      estil:
+        color: '#000000'
+        mida: 8.7
+    - role: text
+      text: Brûleurs en fonte, type torche, puissance élevée.
+      estil:
+        color: '#000000'
+        mida: 8.7
+    - role: text
+      text: Avec vanne thermostatique et pilote de maintenance. Avec bobine de sécurité et thermocouple.
+      estil:
+        color: '#000000'
+        mida: 8.7
+    - role: text
+      text: Avec allumage piézo-électrique.
+      estil:
+        color: '#000000'
+        mida: 8.7
+    - role: text
+      text: Modèles électriques, avec le réservoir très facile à nettoyer, grâce à un mécanisme permettant à la résistance de basculer en position
+        verticale, qui est actionnée par un levier situé à droite et avec un système de verrouillage, dans sa position surélevée. □
+      estil:
+        color: '#000000'
+        mida: 8.7
+    - role: text
+      text: Ces résistances sont en acier inoxydable blindé.
+      estil:
+        color: '#000000'
+        mida: 8.7
+    - role: text
+      text: Avec thermostat et indicateur de fonctionnement de la veilleuse.
+      estil:
+        color: '#000000'
+        mida: 8.7
+    - role: text
+      text: Avec thermostat de sécurité qui arrête la friteuse en cas d’augmentation anormale de la température de l’huile.
+      estil:
+        color: '#000000'
+        mida: 8.7
+    - role: titol
+      text: RÉSERVES POUR FRITES ÉLECTRIQUES
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 8.7
+    - role: text
+      text: Équipé d'un réservoir GN 2/3-150, avec fond double perforé et incurvé pour faciliter la collecte des aliments frits, tous amovibles
+        pour le nettoyage.
+      estil:
+        color: '#000000'
+        mida: 8.7
+    - role: text
+      text: Avec une résistance en céramique, situé sur l'écran supérieur. □
+      estil:
+        color: '#000000'
+        mida: 8.7
+    - role: text
+      text: Équipé d'un régulateur d'énergie, pour ajuster la température désirée et l'indicateur de fonctionnement du pilote.
+      estil:
+        color: '#000000'
+        mida: 8.7
+    - role: titol
+      text: BAINS-MARIE ÉLECTRIQUES
+      estil:
+        color: '#a22b2d'
+        negreta: true
+        mida: 8.7
+    - role: text
+      text: Avec le réservoir, GN 1/1, soudé au comptoir, avec tous les bords intérieurs arrondis.
+      estil:
+        color: '#000000'
+        mida: 8.7
+    - role: text
+      text: Avec robinet de vidange, situé à l'avant, avec dispositif de sécurité, pour empêcher toute ouverture accidentelle.
+      estil:
+        color: '#000000'
+        mida: 8.7
+    - role: text
+      text: Équipé d'une résistance adhésive, situé au bas de la cuve, de sorte que l'intérieur de celle-ci soit parfaitement propre. Équipé d'un
+        thermostat et d'un indicateur de fonctionnement de la veilleuse. OPTIONNELLEMENT, nous avons un fond en acier inoxydable double perforé,
+        □ voir dans ACCESSOIRES, pour le maintien de la nourriture dans des pots, directement. Ou s'ils le souhaitent, ils peuvent placer différentes
+        combinaisons de conteneurs GN. (Voir catalogue GROUPE 16) CUISEUR A PÂTES À GAZ ET ÉLECTRIQUES Avec le réservoir, GN 2/3, en acier AISI-316,
+        soudé au comptoir. Avec grille perforée pour éviter que les aliments ne tombent au fond. Il a des robinets de remplissage et de vidange.
+        Avec trop-plein pour éviter le déversement d'eau et en même temps l'évacuation de l'amidon de la pâte, qui flotte. Modèles à gaz, avec
+        brûleur tubulaire en acier inoxydable Avec robinet en laiton, équipé de positions de réglage maximum, minimum et pilote. Avec bobine de
+        sécurité et thermocouple. Avec allumage piézo-électrique. Modèles électriques, équipés d'une résistance en acier inoxydable, blindés.
+        Equipé d'interrupteur-thermostat et d'opération pilote. OPTIONNELLEMENT, nous avons des paniers perforés avec poignée / s en acier inoxydable.
+        Voir ACCESSOIRES pour les packs que nous proposons. □ TABLES DE SUPPORT ET ÉVIERS Les tables peuvent avoir un tiroir, avec des guides
+        coulissants de la plus haute qualité. Les éviers avec baignoire soudés au comptoir et avec robinet de vidange. Avec robinet d'eau chaude
+        et froide inclus. □ SUPPORTS OUVERTS, AVEC DES PORTES OU AVEC DES TIROIRS Le mobilier est fabriqué de manière à placer les éléments de
+        cuisson au dessus d’eux, formant ainsi un ensemble. FACULTATIVEMENT, des guides pour GN 1/1 peuvent être placés pour le stockage desdits
+        conteneurs. □ Nous proposons également un élément chauffant, placé dans la base du support avec la / les porte (s), pour maintenir les
+        aliments au chaud. □ Tout cela se trouve dans les pages ACCESSOIRES. NOUS FABRIQUONS AUSSI, POUR PLACER LES ÉLÉMENTS DE COMPTOIR 600 mm
+        de haut. TABLES CHAUDES. Voir dans le catalogue GRUPE-7 ÉQUIPES CHAUDES RÉSERVATIONS FROIDES. Voir le catalogue GROUPE 11 FROID INDUSTRIEL
+      estil:
+        color: '#000000'
+        mida: 8.7
+    pos:
+      x: 11.114
+      y: 3.4
+      w: 9.386
+      h: 25.0
+  fotos: []
+  n_elements_font: 14
+- id: p18
+  n: 18
+  tipus: producte
+  peu_enllac:
+    pagines:
+    - 16
+    - 17
+    text:
+      es: CARACTERÍSTICAS GENERALES          E      GENERAL FEATURES    F   CARACTÉRISTIQUES GÉNÉRALES
+      en: GENERAL FEATURES
+      fr: CARACTÉRISTIQUES GÉNÉRALES
+    pos:
+      x: 11.8
+      y: 28.801
+      w: 8.2
+      h: 0.758
+    color_fons: '#e8e4d2'
+    icones:
+    - assets/g3/peu-icona-ull.png
+    - assets/g3/plantilla-quadre-numero.emf
+    - assets/g3/plantilla-quadre-numero.emf
+  capcalera:
+    banda: assets/g3/plantilla-quadre-numero.emf
+    xip_color: '#772f32'
+    serie: 600 SNACK
+    logo_serie: assets/g3/logo-serie-master.png
+    titol:
+      es: FREIDORAS A GAS E GAS FRYERS
+      fr: FRITEUSES À GAZ
+  fotos:
+  - pos:
+      x: 9.523
+      y: 3.063
+      w: 8.8
+      h: 8.8
+    codi: '30720311'
+    asset: assets/g3/foto-30720311.jpg
+  - pos:
+      x: 4.0
+      y: 14.106
+      w: 11.2
+      h: 8.356
+    codi: '30820311'
+    asset: assets/g3/foto-30820311.jpg
+  insignies:
+  - asset: assets/g3/insignia-ce.png
+    pos:
+      x: 0.798
+      y: 2.5
+      w: 2.405
+      h: 2.405
+  taules:
+  - id: p18-t1
+    pos:
+      x: 0.709
+      y: 25.5
+      w: 19.495
+      h: 2.717
+    columnes:
+    - idx: 0
+      ample_cm: 2.243
+      text_capcalera:
+        es: MOD./COD.
+      clau: codi
+    - idx: 1
+      ample_cm: 2.126
+      icones_capcalera:
+      - asset: assets/g3/icona-energia-gas-electric.jpg
+        hash: c01949dd7f
+      clau: energia
+    - idx: 2
+      ample_cm: 1.542
+      icones_capcalera:
+      - asset: assets/g3/icona-pes.jpg
+        hash: 1d4cf29748
+      clau: pes
+    - idx: 3
+      ample_cm: 3.771
+      icones_capcalera:
+      - asset: assets/g3/icona-mesures.jpg
+        hash: aa029674e7
+      clau: mesures
+    - idx: 4
+      ample_cm: 1.66
+      icones_capcalera:
+      - asset: assets/g3/icona-capacitat_litres.jpg
+        hash: fd7d329738
+      clau: capacitat_litres
+    - idx: 5
+      ample_cm: 1.783
+      icones_capcalera:
+      - asset: assets/g3/icona-numero_cubes.jpg
+        hash: fe1b7f6b5b
+      clau: numero_cubes
+    - idx: 6
+      ample_cm: 2.313
+      icones_capcalera:
+      - asset: assets/g3/icona-dimensions_cesta.jpg
+        hash: 5cfe90ee48
+      clau: dimensions_cesta
+    - idx: 7
+      ample_cm: 2.217
+      icones_capcalera:
+      - asset: assets/g3/icona-potencia-gas.jpg
+        hash: 9004c0e80e
+      clau: potencia_gas
+    - idx: 8
+      ample_cm: 1.841
+      text_capcalera:
+        es: €
+      clau: preu
+    files:
+    - codi: '30720311'
+      cel_les:
+        codi: '30720311'
+        energia: gas
+        pes: '24'
+        mesures: 350x600x280
+        capacitat_litres: '8'
+        numero_cubes: '1'
+        dimensions_cesta: 210x265x105
+        potencia_gas: 6,25 KW
+        preu: '1.845'
+      icones:
+        energia:
+        - asset: assets/g3/icona-cel-energia-gas.jpg
+          hash: 55b1a2eb5c
+      codi_trossos:
+      - '3072'
+      - '0311'
+      codi_tros_destacat:
+      - 0
+    - codi: '30820311'
+      cel_les:
+        codi: '30820311'
+        energia: gas
+        pes: '43'
+        mesures: 700x600x280
+        capacitat_litres: 8+8
+        numero_cubes: '2'
+        dimensions_cesta: 210x265x105
+        potencia_gas: 12,5 KW
+        preu: '3.140'
+      icones:
+        energia:
+        - asset: assets/g3/icona-cel-energia-gas.jpg
+          hash: 55b1a2eb5c
+      codi_trossos:
+      - '3082'
+      - '0311'
+      codi_tros_destacat:
+      - 0
+    format: taula_producte
+  n_elements_font: 43
+- id: p19
+  n: 19
+  tipus: producte
+  peu_enllac:
+    pagines:
+    - 16
+    - 17
+    text:
+      es: CARACTERÍSTICAS GENERALES          E      GENERAL FEATURES    F   CARACTÉRISTIQUES GÉNÉRALES
+      en: GENERAL FEATURES
+      fr: CARACTÉRISTIQUES GÉNÉRALES
+    pos:
+      x: 11.8
+      y: 28.801
+      w: 8.2
+      h: 0.758
+    color_fons: '#e8e4d2'
+    icones:
+    - assets/g3/peu-icona-ull.png
+    - assets/g3/plantilla-quadre-numero.emf
+    - assets/g3/plantilla-quadre-numero.emf
+  capcalera:
+    banda: assets/g3/plantilla-quadre-numero.emf
+    xip_color: '#772f32'
+    serie: 600 SNACK
+    logo_serie: assets/g3/logo-serie-master.png
+    titol:
+      es: FREIDORAS ELÉCTRICAS E ELECTRIC FRYERS
+      fr: FRITEUSES ÉLÉCTRIQUES
+  fotos:
+  - pos:
+      x: 9.019
+      y: 3.138
+      w: 8.8
+      h: 8.8
+    codi: '30430611'
+    asset: assets/g3/foto-30430611.jpg
+  - pos:
+      x: 3.496
+      y: 14.839
+      w: 10.804
+      h: 7.88
+    codi: '30730611'
+    asset: assets/g3/foto-30730611.jpg
+  taules:
+  - id: p19-t1
+    pos:
+      x: 0.731
+      y: 25.5
+      w: 19.499
+      h: 2.717
+    columnes:
+    - idx: 0
+      ample_cm: 2.243
+      text_capcalera:
+        es: MOD./COD.
+      clau: codi
+    - idx: 1
+      ample_cm: 2.126
+      icones_capcalera:
+      - asset: assets/g3/icona-energia-gas-electric.jpg
+        hash: c01949dd7f
+      clau: energia
+    - idx: 2
+      ample_cm: 1.542
+      icones_capcalera:
+      - asset: assets/g3/icona-pes.jpg
+        hash: 1d4cf29748
+      clau: pes
+    - idx: 3
+      ample_cm: 3.189
+      icones_capcalera:
+      - asset: assets/g3/icona-mesures.jpg
+        hash: aa029674e7
+      clau: mesures
+    - idx: 4
+      ample_cm: 1.66
+      icones_capcalera:
+      - asset: assets/g3/icona-capacitat_litres.jpg
+        hash: fd7d329738
+      clau: capacitat_litres
+    - idx: 5
+      ample_cm: 1.783
+      icones_capcalera:
+      - asset: assets/g3/icona-numero_cubes.jpg
+        hash: fe1b7f6b5b
+      clau: numero_cubes
+    - idx: 6
+      ample_cm: 2.313
+      icones_capcalera:
+      - asset: assets/g3/icona-dimensions_cesta.jpg
+        hash: 5cfe90ee48
+      clau: dimensions_cesta
+    - idx: 7
+      ample_cm: 2.743
+      icones_capcalera:
+      - asset: assets/g3/icona-potencia-electrica.jpg
+        hash: 7d7d71eb62
+      clau: potencia_electrica
+    - idx: 8
+      ample_cm: 1.901
+      text_capcalera:
+        es: €
+      clau: preu
+    files:
+    - codi: '30430611'
+      cel_les:
+        codi: '30430611'
+        energia: electric
+        pes: '21'
+        mesures: 350x600x280
+        capacitat_litres: '8'
+        numero_cubes: '1'
+        dimensions_cesta: 210x265x105
+        potencia_electrica: 6 KW 400/3V
+        preu: '1.410'
+      icones:
+        energia:
+        - asset: assets/g3/icona-cel-energia-electric.jpg
+          hash: 340a0e5c4f
+      codi_trossos:
+      - '3043'
+      - '0611'
+      codi_tros_destacat:
+      - 0
+    - codi: '30730611'
+      cel_les:
+        codi: '30730611'
+        energia: electric
+        pes: '37'
+        mesures: 700x600x280
+        capacitat_litres: 8+8
+        numero_cubes: '2'
+        dimensions_cesta: 210x265x105
+        potencia_electrica: 12 KW 400/3V
+        preu: '2.485'
+      icones:
+        energia:
+        - asset: assets/g3/icona-cel-energia-electric.jpg
+          hash: 340a0e5c4f
+      codi_trossos:
+      - '3073'
+      - '0611'
+      codi_tros_destacat:
+      - 0
+    format: taula_producte
+  n_elements_font: 42
+- id: p20
+  n: 20
+  tipus: producte
+  peu_enllac:
+    pagines:
+    - 16
+    - 17
+    text:
+      es: CARACTERÍSTICAS GENERALES          E      GENERAL FEATURES    F   CARACTÉRISTIQUES GÉNÉRALES
+      en: GENERAL FEATURES
+      fr: CARACTÉRISTIQUES GÉNÉRALES
+    pos:
+      x: 11.8
+      y: 28.801
+      w: 8.2
+      h: 0.758
+    color_fons: '#e8e4d2'
+    icones:
+    - assets/g3/peu-icona-ull.png
+    - assets/g3/plantilla-quadre-numero.emf
+    - assets/g3/plantilla-quadre-numero.emf
+  capcalera:
+    banda: assets/g3/plantilla-quadre-numero.emf
+    xip_color: '#772f32'
+    serie: 600 SNACK
+    logo_serie: assets/g3/logo-serie-master.png
+    titol:
+      es: CONSERVA FRITOS Y BAÑOS MARÍA ELÉCTRICOS E ELECTRIC CHIP SCUTTLES AND BAIN MARIES
+      fr: RÉSERVE POUR FRITES ET BAIN MARIES ÉLÉCTRIQUES
+  fotos:
+  - pos:
+      x: 7.674
+      y: 2.474
+      w: 10.826
+      h: 10.826
+    codi: '30930611'
+    asset: assets/g3/foto-30930611.jpg
+  - pos:
+      x: 2.5
+      y: 13.853
+      w: 9.646
+      h: 9.646
+    codi: '30040611'
+    asset: assets/g3/foto-30040611.jpg
+  taules:
+  - id: p20-t1
+    pos:
+      x: 0.733
+      y: 25.5
+      w: 19.495
+      h: 2.717
+    columnes:
+    - idx: 0
+      ample_cm: 2.243
+      text_capcalera:
+        es: MOD./COD.
+      clau: codi
+    - idx: 1
+      ample_cm: 2.126
+      icones_capcalera:
+      - asset: assets/g3/icona-energia-gas-electric.jpg
+        hash: c01949dd7f
+      clau: energia
+    - idx: 2
+      ample_cm: 1.542
+      icones_capcalera:
+      - asset: assets/g3/icona-pes.jpg
+        hash: 1d4cf29748
+      clau: pes
+    - idx: 3
+      ample_cm: 3.771
+      icones_capcalera:
+      - asset: assets/g3/icona-mesures.jpg
+        hash: aa029674e7
+      clau: mesures
+    - idx: 4
+      ample_cm: 1.66
+      icones_capcalera:
+      - asset: assets/g3/icona-capacitat_litres.jpg
+        hash: fd7d329738
+      clau: capacitat_litres
+    - idx: 5
+      ample_cm: 2.313
+      icones_capcalera:
+      - asset: assets/g3/icona-gastronorm.jpg
+        hash: 20fb90ccda
+      clau: gastronorm
+    - idx: 6
+      ample_cm: 3.74
+      icones_capcalera:
+      - asset: assets/g3/icona-potencia-electrica.jpg
+        hash: 7d7d71eb62
+      clau: potencia_electrica
+    - idx: 7
+      ample_cm: 2.101
+      text_capcalera:
+        es: €
+      clau: preu
+    files:
+    - codi: '30930611'
+      cel_les:
+        codi: '30930611'
+        energia: electric
+        pes: '19'
+        mesures: 350x600x280
+        capacitat_litres: '13'
+        gastronorm: GN 2/3
+        potencia_electrica: 650 W 230/1V
+        preu: '1.320'
+      icones:
+        energia:
+        - asset: assets/g3/icona-cel-energia-electric.jpg
+          hash: 340a0e5c4f
+      codi_trossos:
+      - '3093'
+      - '0611'
+      codi_tros_destacat:
+      - 0
+    - codi: '30040611'
+      cel_les:
+        codi: '30040611'
+        energia: electric
+        pes: '17'
+        mesures: 350x600x280
+        capacitat_litres: '21'
+        gastronorm: GN 1/1
+        potencia_electrica: 1,3 KW 230/1V
+        preu: '965'
+      icones:
+        energia:
+        - asset: assets/g3/icona-cel-energia-electric.jpg
+          hash: 340a0e5c4f
+      codi_trossos:
+      - '3004'
+      - '0611'
+      codi_tros_destacat:
+      - 0
+    format: taula_producte
+  n_elements_font: 41
+- id: p21
+  n: 21
+  tipus: producte
+  peu_enllac:
+    pagines:
+    - 16
+    - 17
+    text:
+      es: CARACTERÍSTICAS GENERALES          E      GENERAL FEATURES    F   CARACTÉRISTIQUES GÉNÉRALES
+      en: GENERAL FEATURES
+      fr: CARACTÉRISTIQUES GÉNÉRALES
+    pos:
+      x: 11.8
+      y: 28.801
+      w: 8.2
+      h: 0.758
+    color_fons: '#e8e4d2'
+    icones:
+    - assets/g3/peu-icona-ull.png
+    - assets/g3/plantilla-quadre-numero.emf
+    - assets/g3/plantilla-quadre-numero.emf
+  capcalera:
+    banda: assets/g3/plantilla-quadre-numero.emf
+    xip_color: '#772f32'
+    serie: 600 SNACK
+    logo_serie: assets/g3/logo-serie-master.png
+    titol:
+      es: CUECE PASTA A GAS Y ELÉCTRICOS E GAS AND ELECTRIC PASTA COOKERS
+      fr: CUISEUR À PÂTE À GAZ ET ÉLECTRIQUES
+  fotos:
+  - pos:
+      x: 9.523
+      y: 3.063
+      w: 8.8
+      h: 8.8
+    codi: '30330311'
+    icones_etiqueta:
+    - assets/g3/icona-cel-energia-gas.jpg
+    valors_etiqueta:
+    - gas
+    asset: assets/g3/foto-30330311.jpg
+  - pos:
+      x: 4.0
+      y: 14.354
+      w: 9.646
+      h: 9.646
+    codi: '30940611'
+    icones_etiqueta:
+    - assets/g3/icona-cel-energia-electric.jpg
+    valors_etiqueta:
+    - electric
+    asset: assets/g3/foto-30940611.jpg
+  insignies:
+  - asset: assets/g3/insignia-ce.png
+    pos:
+      x: 0.798
+      y: 2.5
+      w: 2.405
+      h: 2.405
+  taules:
+  - id: p21-t1
+    pos:
+      x: 15.187
+      y: 21.946
+      w: 5.312
+      h: 3.272
+    columnes:
+    - idx: 0
+      ample_cm: 5.313
+      icones_capcalera:
+      - asset: assets/g3/icona-accessoris-ull.png
+        hash: c5a70fc31a
+      clau: icona_accessoris
+    files: []
+    format: nota
+    text_taula:
+    - - es: ACCESORIOS E ACCESSORIES F ACCESSOIRES * Cestos no incluidos en el precio E * Baskets no included in the price F * Paniers non comprises
+          dans le prix
+  - id: p21-t2
+    pos:
+      x: 0.698
+      y: 25.513
+      w: 19.499
+      h: 2.717
+    columnes:
+    - idx: 0
+      ample_cm: 2.099
+      text_capcalera:
+        es: MOD./COD.
+      clau: codi
+    - idx: 1
+      ample_cm: 2.382
+      icones_capcalera:
+      - asset: assets/g3/icona-energia-gas-electric.jpg
+        hash: c01949dd7f
+      clau: energia
+    - idx: 2
+      ample_cm: 1.443
+      icones_capcalera:
+      - asset: assets/g3/icona-pes.jpg
+        hash: 1d4cf29748
+      clau: pes
+    - idx: 3
+      ample_cm: 3.774
+      icones_capcalera:
+      - asset: assets/g3/icona-mesures.jpg
+        hash: aa029674e7
+      clau: mesures
+    - idx: 4
+      ample_cm: 2.165
+      icones_capcalera:
+      - asset: assets/g3/icona-gastronorm.jpg
+        hash: 20fb90ccda
+      clau: gastronorm
+    - idx: 5
+      ample_cm: 1.816
+      icones_capcalera:
+      - asset: assets/g3/icona-capacitat_litres.jpg
+        hash: fd7d329738
+      clau: capacitat_litres
+    - idx: 6
+      ample_cm: 2.751
+      icones_capcalera:
+      - asset: assets/g3/icona-potencia-electrica.jpg
+        hash: 7d7d71eb62
+      clau: potencia_electrica
+    - idx: 7
+      ample_cm: 1.26
+      icones_capcalera:
+      - asset: assets/g3/icona-potencia-gas.jpg
+        hash: 9004c0e80e
+      clau: potencia_gas
+    - idx: 8
+      ample_cm: 1.81
+      text_capcalera:
+        es: €
+      clau: preu
+    files:
+    - codi: '30330311'
+      cel_les:
+        codi: '30330311'
+        energia: gas
+        pes: '47'
+        mesures: 350x600x850
+        gastronorm: GN 2/3 *
+        capacitat_litres: '23'
+        potencia_electrica: '-'
+        potencia_gas: 10 KW
+        preu: '2.590'
+      icones:
+        energia:
+        - asset: assets/g3/icona-cel-energia-gas.jpg
+          hash: 55b1a2eb5c
+      codi_trossos:
+      - '3033'
+      - '0311'
+      codi_tros_destacat:
+      - 0
+    - codi: '30940611'
+      cel_les:
+        codi: '30940611'
+        energia: electric
+        pes: '53'
+        mesures: 350x600x850
+        gastronorm: GN 2/3 *
+        capacitat_litres: '23'
+        potencia_electrica: 4,8 KW 400/3V
+        potencia_gas: '-'
+        preu: '2.745'
+      icones:
+        energia:
+        - asset: assets/g3/icona-cel-energia-electric.jpg
+          hash: 340a0e5c4f
+      codi_trossos:
+      - '3094'
+      - '0611'
+      codi_tros_destacat:
+      - 0
+    format: taula_producte
+  n_elements_font: 47
+- id: p22
+  n: 22
+  tipus: producte
+  peu_enllac:
+    pagines:
+    - 16
+    - 17
+    text:
+      es: CARACTERÍSTICAS GENERALES          E      GENERAL FEATURES    F   CARACTÉRISTIQUES GÉNÉRALES
+      en: GENERAL FEATURES
+      fr: CARACTÉRISTIQUES GÉNÉRALES
+    pos:
+      x: 11.8
+      y: 28.801
+      w: 8.2
+      h: 0.758
+    color_fons: '#e8e4d2'
+    icones:
+    - assets/g3/peu-icona-ull.png
+    - assets/g3/plantilla-quadre-numero.emf
+    - assets/g3/plantilla-quadre-numero.emf
+  capcalera:
+    banda: assets/g3/plantilla-quadre-numero.emf
+    xip_color: '#772f32'
+    serie: 600 SNACK
+    logo_serie: assets/g3/logo-serie-master.png
+    titol:
+      es: ENCIMERAS NEUTRAS Y FREGADERO E WORKING AREA TABLES AND SINK
+      fr: PLAN DE TRAVAILS ET ÉVIER
+  fotos:
+  - pos:
+      x: 0.848
+      y: 3.236
+      w: 10.629
+      h: 10.629
+    codi: '30560011'
+    asset: assets/g3/foto-30560011.jpg
+  - pos:
+      x: 11.2
+      y: 3.071
+      w: 8.8
+      h: 8.8
+    codi: '30070011'
+    asset: assets/g3/foto-30070011.jpg
+  - pos:
+      x: 6.0
+      y: 14.36
+      w: 9.323
+      h: 9.323
+    codi: '30041011'
+    asset: assets/g3/foto-30041011.jpg
+  taules:
+  - id: p22-t1
+    pos:
+      x: 0.733
+      y: 24.806
+      w: 19.499
+      h: 3.193
+    columnes:
+    - idx: 0
+      ample_cm: 3.321
+      text_capcalera:
+        es: MOD./COD.
+      clau: codi
+    - idx: 1
+      ample_cm: 2.045
+      icones_capcalera:
+      - asset: assets/g3/icona-pes.jpg
+        hash: 1d4cf29748
+      clau: pes
+    - idx: 2
+      ample_cm: 4.43
+      icones_capcalera:
+      - asset: assets/g3/icona-mesures.jpg
+        hash: aa029674e7
+      clau: mesures
+    - idx: 3
+      ample_cm: 3.067
+      icones_capcalera:
+      - asset: assets/g3/icona-calaixos.jpg
+        hash: 635e381155
+      clau: calaixos
+    - idx: 4
+      ample_cm: 3.321
+      icones_capcalera:
+      - asset: assets/g3/icona-dimensions_cuba.jpg
+        hash: 784c6760b8
+      clau: dimensions_cuba
+    - idx: 5
+      ample_cm: 3.316
+      text_capcalera:
+        es: €
+      clau: preu
+    files:
+    - codi: '30560011'
+      cel_les:
+        codi: '30560011'
+        pes: '16'
+        mesures: 350x600x280
+        calaixos: '-'
+        dimensions_cuba: 290x400x200
+        preu: '810'
+      codi_trossos:
+      - '3056'
+      - '0011'
+      codi_tros_destacat:
+      - 0
+    - codi: '30070011'
+      cel_les:
+        codi: '30070011'
+        pes: '17'
+        mesures: 350x600x280
+        calaixos: '-'
+        dimensions_cuba: '-'
+        preu: '345'
+      codi_trossos:
+      - '3007'
+      - '0011'
+      codi_tros_destacat:
+      - 0
+    - codi: '30041011'
+      cel_les:
+        codi: '30041011'
+        pes: '20'
+        mesures: 350x600x280
+        calaixos: 1 - GN 1/1
+        dimensions_cuba: '-'
+        preu: '540'
+      codi_trossos:
+      - '3004'
+      - '1011'
+      codi_tros_destacat:
+      - 0
+    format: taula_producte
+  n_elements_font: 44
+- id: p23
+  n: 23
+  tipus: producte
+  peu_enllac:
+    pagines:
+    - 16
+    - 17
+    text:
+      es: CARACTERÍSTICAS GENERALES          E      GENERAL FEATURES    F   CARACTÉRISTIQUES GÉNÉRALES
+      en: GENERAL FEATURES
+      fr: CARACTÉRISTIQUES GÉNÉRALES
+    pos:
+      x: 11.8
+      y: 28.801
+      w: 8.2
+      h: 0.758
+    color_fons: '#e8e4d2'
+    icones:
+    - assets/g3/peu-icona-ull.png
+    - assets/g3/plantilla-quadre-numero.emf
+    - assets/g3/plantilla-quadre-numero.emf
+  capcalera:
+    banda: assets/g3/plantilla-quadre-numero.emf
+    xip_color: '#772f32'
+    serie: 600 SNACK
+    logo_serie: assets/g3/logo-serie-master.png
+    titol:
+      es: SOPORTES ABIERTOS, CON PUERTAS Y CON CAJONES E OPEN SUPPORTS, WITH DOORS AND WITH DRAWERS
+      fr: SUPPORTS OUVERTS, AVEC PORTES ET AVEC TIROIRS
+  fotos:
+  - pos:
+      x: 1.0
+      y: 2.57
+      w: 5.7
+      h: 5.7
+    codi: '30080011'
+    asset: assets/g3/foto-30080011.jpg
+  - pos:
+      x: 7.247
+      y: 2.57
+      w: 5.7
+      h: 5.7
+    codi: '30050611'
+    asset: assets/g3/foto-30050611.jpg
+  - pos:
+      x: 14.15
+      y: 2.57
+      w: 5.7
+      h: 5.7
+    codi: '30150611'
+    asset: assets/g3/foto-30150611.jpg
+  - pos:
+      x: 1.0
+      y: 8.844
+      w: 6.0
+      h: 6.0
+    codi: '30580011'
+    asset: assets/g3/foto-30580011.jpg
+  - pos:
+      x: 10.417
+      y: 8.844
+      w: 6.0
+      h: 6.0
+    codi: '30250611'
+    asset: assets/g3/foto-30250611.jpg
+  - pos:
+      x: 1.0
+      y: 14.938
+      w: 7.57
+      h: 7.57
+    codi: '30051011'
+    asset: assets/g3/foto-30051011.jpg
+  - pos:
+      x: 12.121
+      y: 14.766
+      w: 7.566
+      h: 7.566
+    codi: '30350611'
+    asset: assets/g3/foto-30350611.jpg
+  taules:
+  - id: p23-t1
+    pos:
+      x: 0.73
+      y: 22.021
+      w: 19.496
+      h: 5.94
+    columnes:
+    - idx: 0
+      ample_cm: 2.673
+      text_capcalera:
+        es: MOD./COD.
+      clau: codi
+    - idx: 1
+      ample_cm: 1.838
+      icones_capcalera:
+      - asset: assets/g3/icona-pes.jpg
+        hash: 1d4cf29748
+      clau: pes
+    - idx: 2
+      ample_cm: 4.599
+      icones_capcalera:
+      - asset: assets/g3/icona-mesures.jpg
+        hash: aa029674e7
+      clau: mesures
+    - idx: 3
+      ample_cm: 2.627
+      icones_capcalera:
+      - asset: assets/g3/icona-soporte_obert.jpg
+        hash: 18e4e8c949
+      clau: soporte_obert
+    - idx: 4
+      ample_cm: 2.487
+      icones_capcalera:
+      - asset: assets/g3/icona-portes.jpg
+        hash: 4411b7d636
+      clau: portes
+    - idx: 5
+      ample_cm: 2.873
+      icones_capcalera:
+      - asset: assets/g3/icona-calaixos.jpg
+        hash: 635e381155
+      clau: calaixos
+    - idx: 6
+      ample_cm: 2.4
+      text_capcalera:
+        es: €
+      clau: preu
+    files:
+    - codi: '30080011'
+      cel_les:
+        codi: '30080011'
+        pes: '16'
+        mesures: 350x575x600
+        soporte_obert: '1'
+        portes: '-'
+        calaixos: '-'
+        preu: '420'
+      codi_trossos:
+      - '3008'
+      - '0011'
+      codi_tros_destacat:
+      - 0
+    - codi: '30050611'
+      cel_les:
+        codi: '30050611'
+        pes: '17'
+        mesures: 350x575x600
+        soporte_obert: '-'
+        portes: '1'
+        calaixos: '-'
+        preu: '585'
+      codi_trossos:
+      - '3005'
+      - '0611'
+      codi_tros_destacat:
+      - 0
+    - codi: '30150611'
+      cel_les:
+        codi: '30150611'
+        pes: '19'
+        mesures: 350x575x600
+        soporte_obert: '-'
+        portes: '-'
+        calaixos: 2- GN 1/1
+        preu: '910'
+      codi_trossos:
+      - '3015'
+      - '0611'
+      codi_tros_destacat:
+      - 0
+    - codi: '30580011'
+      cel_les:
+        codi: '30580011'
+        pes: '20'
+        mesures: 700x575x600
+        soporte_obert: '1'
+        portes: '-'
+        calaixos: '-'
+        preu: '485'
+      codi_trossos:
+      - '3058'
+      - '0011'
+      codi_tros_destacat:
+      - 0
+    - codi: '30250611'
+      cel_les:
+        codi: '30250611'
+        pes: '24'
+        mesures: 700x575x600
+        soporte_obert: '-'
+        portes: '2'
+        calaixos: '-'
+        preu: '825'
+      codi_trossos:
+      - '3025'
+      - '0611'
+      codi_tros_destacat:
+      - 0
+    - codi: '30051011'
+      cel_les:
+        codi: '30051011'
+        pes: '25'
+        mesures: 1050x575x600
+        soporte_obert: '1'
+        portes: '-'
+        calaixos: '-'
+        preu: '545'
+      codi_trossos:
+      - '3005'
+      - '1011'
+      codi_tros_destacat:
+      - 0
+    - codi: '30350611'
+      cel_les:
+        codi: '30350611'
+        pes: '30'
+        mesures: 1050x575x600
+        soporte_obert: '-'
+        portes: '3'
+        calaixos: '-'
+        preu: '1.055'
+      codi_trossos:
+      - '3035'
+      - '0611'
+      codi_tros_destacat:
+      - 0
+    format: taula_producte
+  n_elements_font: 73
+- id: p24
+  n: 24
+  tipus: accessoris
+  capcalera:
+    banda: assets/g3/plantilla-quadre-numero.emf
+    xip_color: '#772f32'
+    serie: 600 SNACK
+    logo_serie: assets/g3/logo-serie-master.png
+    titol:
+      es: ACCESSORIOS E ACCESSORIES
+      fr: ACCESSOIRES
+  fotos:
+  - pos:
+      x: 6.56
+      y: 2.687
+      w: 4.25
+      h: 3.913
+    asset: assets/g3/foto-p24.jpg
+    taula_ordre: 2
+  - pos:
+      x: 11.892
+      y: 3.206
+      w: 2.0
+      h: 2.0
+    asset: assets/g3/foto-p24-cfec0f.jpg
+    taula_ordre: 1
+  - pos:
+      x: 3.324
+      y: 8.942
+      w: 4.57
+      h: 3.0
+    asset: assets/g3/foto-p24-1d26f7.jpg
+    taula_ordre: 2
+  - pos:
+      x: 12.994
+      y: 8.942
+      w: 4.729
+      h: 3.0
+    asset: assets/g3/foto-p24-c5e332.jpg
+    taula_ordre: 3
+  - pos:
+      x: 4.11
+      y: 15.162
+      w: 3.0
+      h: 3.0
+    asset: assets/g3/foto-p24-81dc20.jpg
+    taula_ordre: 4
+  - pos:
+      x: 10.091
+      y: 15.162
+      w: 4.908
+      h: 3.0
+    asset: assets/g3/foto-p24-cec6d6.jpg
+    taula_ordre: 5
+  - pos:
+      x: 15.484
+      y: 15.105
+      w: 4.75
+      h: 2.839
+    asset: assets/g3/foto-p24.png
+    taula_ordre: 5
+  - pos:
+      x: 1.734
+      y: 21.39
+      w: 3.0
+      h: 3.0
+    asset: assets/g3/foto-p24-3b87bb.jpg
+    taula_ordre: 6
+  - pos:
+      x: 6.791
+      y: 21.389
+      w: 2.838
+      h: 2.838
+    asset: assets/g3/foto-p24-5d94af.png
+    taula_ordre: 6
+  - pos:
+      x: 12.947
+      y: 21.39
+      w: 4.823
+      h: 3.0
+    asset: assets/g3/foto-p24-be7cd2.jpg
+    taula_ordre: 7
+  - pos:
+      x: 5.66
+      y: 21.552
+      w: 2.838
+      h: 2.838
+    asset: assets/g3/foto-p24-5d94af.png
+    taula_ordre: 6
+  taules:
+  - id: p24-t1
+    pos:
+      x: 5.56
+      y: 5.708
+      w: 9.749
+      h: 3.006
+    titol:
+      es: PARRILLAS
+      en: GRIDDLES
+      fr: GRILLES
+    columnes:
+    - idx: 0
+      ample_cm: 1.806
+      text_capcalera:
+        es: COD.
+      clau: codi
+    - idx: 1
+      ample_cm: 6.75
+      icones_capcalera:
+      - asset: assets/g3/icona-mesures.jpg
+        hash: aa029674e7
+      clau: mesures
+    - idx: 2
+      ample_cm: 1.194
+      text_capcalera:
+        es: €
+      clau: preu
+    files:
+    - codi: 4A000673
+      cel_les:
+        codi: 4A000673
+        mesures: 315 x 520
+        preu: '113'
+      codi_trossos:
+      - 4A00
+      - '0673'
+      codi_tros_destacat:
+      - 0
+    - codi: 4A556021
+      cel_les:
+        codi: 4A556021
+        mesures:
+          es: SUPLETORIA
+          en: SUPPLEMENTARY
+          fr: SUPPLÉMENTAIRE
+        preu: '25'
+      codi_trossos:
+      - 4A55
+      - '6021'
+      codi_tros_destacat:
+      - 0
+    format: taula_producte
+  - id: p24-t2
+    pos:
+      x: 0.734
+      y: 11.935
+      w: 9.749
+      h: 2.339
+    titol:
+      es: REJILLAS HORNO
+      en: GRIDS OVEN
+      fr: GRILLES FOUR
+    columnes:
+    - idx: 0
+      ample_cm: 1.85
+      text_capcalera:
+        es: COD.
+      clau: codi
+    - idx: 1
+      ample_cm: 6.7
+      icones_capcalera:
+      - asset: assets/g3/icona-mesures.jpg
+        hash: aa029674e7
+      clau: mesures
+    - idx: 2
+      ample_cm: 1.2
+      text_capcalera:
+        es: €
+      clau: preu
+    files:
+    - codi: 4A000765
+      cel_les:
+        codi: 4A000765
+        mesures: 440 x 365
+        preu: '39'
+      codi_trossos:
+      - 4A00
+      - '0765'
+      codi_tros_destacat:
+      - 0
+    format: taula_producte
+  - id: p24-t3
+    pos:
+      x: 10.484
+      y: 11.935
+      w: 9.749
+      h: 2.339
+    titol:
+      es: BANDEJAS HORNO
+      en: OVEN TRAY
+      fr: PLATEAU FOUR
+    columnes:
+    - idx: 0
+      ample_cm: 1.85
+      text_capcalera:
+        es: COD.
+      clau: codi
+    - idx: 1
+      ample_cm: 6.7
+      icones_capcalera:
+      - asset: assets/g3/icona-mesures.jpg
+        hash: aa029674e7
+      clau: mesures
+    - idx: 2
+      ample_cm: 1.2
+      text_capcalera:
+        es: €
+      clau: preu
+    files:
+    - codi: 4A000465
+      cel_les:
+        codi: 4A000465
+        mesures: 440 x 380 x 30
+        preu: '95'
+      codi_trossos:
+      - 4A00
+      - '0465'
+      codi_tros_destacat:
+      - 0
+    format: taula_producte
+  - id: p24-t4
+    pos:
+      x: 0.717
+      y: 18.162
+      w: 9.216
+      h: 2.535
+    titol:
+      es: PIEDRA VOLCÁNICA
+      en: LAVA STONE
+      fr: PIERRE VOLCANIQUE
+    columnes:
+    - idx: 0
+      ample_cm: 1.806
+      text_capcalera:
+        es: COD.
+      clau: codi
+    - idx: 1
+      ample_cm: 6.311
+      icones_capcalera:
+      - asset: assets/g3/icona-pes.jpg
+        hash: 1d4cf29748
+      clau: pes
+    - idx: 2
+      ample_cm: 1.1
+      text_capcalera:
+        es: €
+      clau: preu
+    files:
+    - codi: C9500009
+      cel_les:
+        codi: C9500009
+        pes: '3'
+        preu: '42'
+      codi_trossos:
+      - C950
+      - 0009
+      codi_tros_destacat:
+      - 0
+    format: taula_producte
+  - id: p24-t5
+    pos:
+      x: 9.924
+      y: 18.162
+      w: 10.309
+      h: 3.277
+    titol:
+      es: PARRILLAS BARBACOA
+      en: BARBECUE GRIDDLES
+      fr: GRILS BARBECUE
+    columnes:
+    - idx: 0
+      ample_cm: 2.176
+      text_capcalera:
+        es: COD.
+      clau: codi
+    - idx: 1
+      ample_cm: 2.3
+      icones_capcalera:
+      - asset: assets/g3/icona-mesures.jpg
+        hash: aa029674e7
+      clau: mesures
+    - idx: 2
+      ample_cm: 4.634
+      text_capcalera:
+        es: PARA
+        en: FOR
+        fr: POUR
+      clau: para
+    - idx: 3
+      ample_cm: 1.2
+      text_capcalera:
+        es: €
+      clau: preu
+    files:
+    - codi: 4A000145
+      cel_les:
+        codi: 4A000145
+        mesures: 300 x 480
+        para:
+          es: CARNE
+          en: MEAT
+          fr: VIANDE
+        preu: '239'
+      codi_trossos:
+      - 4A00
+      - '0145'
+      codi_tros_destacat:
+      - 0
+    - codi: 4A036621
+      cel_les:
+        codi: 4A036621
+        mesures: 300 x 480
+        para:
+          es: PESCADO
+          en: FISH
+          fr: POISSON
+        preu: '173'
+      codi_trossos:
+      - 4A03
+      - '6621'
+      codi_tros_destacat:
+      - 0
+    format: taula_producte
+  - id: p24-t6
+    pos:
+      x: 0.734
+      y: 24.39
+      w: 9.749
+      h: 3.905
+    titol:
+      es: CESTAS FREIDORA
+      en: FRYER BASKETS
+      fr: PANIERS À FRITEUSE
+    columnes:
+    - idx: 0
+      ample_cm: 1.814
+      text_capcalera:
+        es: COD.
+      clau: codi
+    - idx: 1
+      ample_cm: 4.244
+      icones_capcalera:
+      - asset: assets/g3/icona-mesures.jpg
+        hash: aa029674e7
+      clau: mesures
+    - idx: 2
+      ample_cm: 1.432
+      icones_capcalera:
+      - asset: assets/g3/icona-capacitat_litres.jpg
+        hash: fd7d329738
+      clau: capacitat_litres
+    - idx: 3
+      ample_cm: 1.061
+      text_capcalera:
+        es: PACK
+      clau: pack
+    - idx: 4
+      ample_cm: 1.199
+      text_capcalera:
+        es: €
+      clau: preu
+    files:
+    - codi: 4A575021
+      cel_les:
+        codi: 4A575021
+        mesures: 210 x 265 x 105
+        capacitat_litres: '10'
+        pack: '1'
+        preu: '57'
+      codi_trossos:
+      - 4A57
+      - '5021'
+      codi_tros_destacat:
+      - 0
+    - codi: 4A096021
+      cel_les:
+        codi: 4A096021
+        mesures: 105 x 265 x 105
+        capacitat_litres: 1/2-10
+        pack: '2'
+        preu: '130'
+      codi_trossos:
+      - 4A09
+      - '6021'
+      codi_tros_destacat:
+      - 0
+    format: taula_producte
+  - id: p24-t7
+    pos:
+      x: 10.484
+      y: 24.39
+      w: 9.749
+      h: 3.233
+    titol:
+      es: DOBLE FONDO PERFORADO PARA BAÑO MARÍA
+      en: PERFORATED BOTTOM FOR BAIN-MARIE
+      fr: DOUBLE FONS PERFORÉ POUR BAIN MARIE
+    columnes:
+    - idx: 0
+      ample_cm: 1.85
+      text_capcalera:
+        es: COD.
+      clau: codi
+    - idx: 1
+      ample_cm: 0.932
+      text_capcalera:
+        es: GN
+      clau: gn
+    - idx: 2
+      ample_cm: 5.768
+      icones_capcalera:
+      - asset: assets/g3/icona-mesures.jpg
+        hash: aa029674e7
+      clau: mesures
+    - idx: 3
+      ample_cm: 1.2
+      text_capcalera:
+        es: €
+      clau: preu
+    files:
+    - codi: 4A085021
+      cel_les:
+        codi: 4A085021
+        gn: 1/1
+        mesures: 325 x 530
+        preu: '49'
+      codi_trossos:
+      - 4A08
+      - '5021'
+      codi_tros_destacat:
+      - 0
+    format: taula_producte
+  n_elements_font: 37
+- id: p25
+  n: 25
+  tipus: accessoris
+  capcalera:
+    banda: assets/g3/plantilla-quadre-numero.emf
+    xip_color: '#772f32'
+    serie: 600 SNACK
+    logo_serie: assets/g3/logo-serie-master.png
+    titol:
+      es: ACCESSORIOS E ACCESSORIES
+      fr: ACCESSOIRES
+  fotos:
+  - pos:
+      x: 0.766
+      y: 2.708
+      w: 3.0
+      h: 3.0
+    asset: assets/g3/foto-p25.jpg
+    taula_ordre: 1
+  - pos:
+      x: 5.932
+      y: 2.708
+      w: 3.0
+      h: 3.0
+    asset: assets/g3/foto-p25-6d9923.jpg
+    taula_ordre: 1
+  - pos:
+      x: 11.097
+      y: 2.708
+      w: 3.0
+      h: 3.0
+    asset: assets/g3/foto-p25-525b01.jpg
+    taula_ordre: 1
+  - pos:
+      x: 17.268
+      y: 2.708
+      w: 3.0
+      h: 3.0
+    asset: assets/g3/foto-p25-b073c4.jpg
+    taula_ordre: 1
+  - pos:
+      x: 0.758
+      y: 9.209
+      w: 3.0
+      h: 3.0
+    asset: assets/g3/foto-p25-c33779.jpg
+    taula_ordre: 2
+  - pos:
+      x: 3.536
+      y: 9.209
+      w: 3.0
+      h: 3.0
+    asset: assets/g3/foto-p25-171905.jpg
+    taula_ordre: 2
+  - pos:
+      x: 6.314
+      y: 9.209
+      w: 3.0
+      h: 3.0
+    asset: assets/g3/foto-p25-dbb6b7.jpg
+    taula_ordre: 2
+  - pos:
+      x: 11.508
+      y: 9.209
+      w: 3.0
+      h: 3.0
+    asset: assets/g3/foto-p25-8407be.jpg
+    taula_ordre: 3
+  - pos:
+      x: 16.341
+      y: 9.209
+      w: 3.0
+      h: 3.0
+    asset: assets/g3/foto-p25-ec5955.jpg
+    taula_ordre: 3
+  - pos:
+      x: 8.804
+      y: 10.357
+      w: 1.703
+      h: 1.703
+    asset: assets/g3/foto-p25.png
+    taula_ordre: 2
+  - pos:
+      x: 13.076
+      y: 15.473
+      w: 4.0
+      h: 4.0
+    asset: assets/g3/info-p16-8.png
+    taula_ordre: 4
+  - pos:
+      x: 3.633
+      y: 21.43
+      w: 4.0
+      h: 4.0
+    asset: assets/g3/foto-p25-679619.jpg
+    taula_ordre: 5
+  - pos:
+      x: 13.383
+      y: 21.43
+      w: 4.0
+      h: 4.0
+    asset: assets/g3/foto-p25-8135be.jpg
+    taula_ordre: 6
+  taules:
+  - id: p25-t1
+    pos:
+      x: 0.758
+      y: 5.708
+      w: 19.498
+      h: 3.377
+    titol:
+      es: PAKS CESTOS CUECE PASTA
+      en: BASKET PASTA COOKER PAK
+      fr: PAK PANIER CUISER À PÂTE
+    columnes:
+    - idx: 0
+      ample_cm: 1.808
+      text_capcalera:
+        es: COD.
+      clau: codi
+    - idx: 1
+      ample_cm: 1.551
+      text_capcalera:
+        es: GN
+      clau: gn
+    - idx: 2
+      ample_cm: 5.196
+      icones_capcalera:
+      - asset: assets/g3/icona-mesures.jpg
+        hash: aa029674e7
+      clau: mesures
+    - idx: 3
+      ample_cm: 1.199
+      text_capcalera:
+        es: €
+      clau: preu
+    - idx: 4
+      ample_cm: 1.803
+      text_capcalera:
+        es: COD.
+      clau: codi_2
+    - idx: 5
+      ample_cm: 1.55
+      text_capcalera:
+        es: GN
+      clau: gn_2
+    - idx: 6
+      ample_cm: 5.192
+      icones_capcalera:
+      - asset: assets/g3/icona-mesures.jpg
+        hash: aa029674e7
+      clau: mesures_2
+    - idx: 7
+      ample_cm: 1.2
+      text_capcalera:
+        es: €
+      clau: preu_2
+    files:
+    - codi: 4A536021
+      cel_les:
+        codi: 4A536021
+        gn: 1 x 2/3
+        mesures: 290 x 290 x 200
+        preu: '236'
+        codi_2: 4A066021
+        gn_2: 1 x 1/3 2 x 1/6
+        mesures_2: 290 x 160 x 200 140 x 140 x 200
+        preu_2: '405'
+      codi_trossos:
+      - 4A53
+      - '6021'
+      codi_tros_destacat:
+      - 0
+    - codi: 4A026021
+      cel_les:
+        codi: 4A026021
+        gn: 2 x 1/3
+        mesures: 290 x 160 x 200
+        preu: '355'
+        codi_2: 4A526021
+        gn_2: 4 x 1/6
+        mesures_2: 140 x 140 x 200
+        preu_2: '455'
+      codi_trossos:
+      - 4A02
+      - '6021'
+      codi_tros_destacat:
+      - 0
+    format: taula_producte
+  - id: p25-t2
+    pos:
+      x: 0.758
+      y: 12.588
+      w: 9.749
+      h: 5.093
+    titol:
+      es: CEPILLO Y RASQUETAS
+      en: BRUSH AND SPATULAS
+      fr: BROSSE ET SPATULES
+    columnes:
+    - idx: 0
+      ample_cm: 1.816
+      text_capcalera:
+        es: COD.
+      clau: codi
+    - idx: 1
+      ample_cm: 6.729
+      text_capcalera:
+        es: PARA
+        en: FOR
+        fr: POUR
+      clau: para
+    - idx: 2
+      ample_cm: 1.205
+      text_capcalera:
+        es: €
+      clau: preu
+    files:
+    - codi: '96108'
+      cel_les:
+        codi: '96108'
+        para:
+          es: BARBACOA
+          en: BARBECUE
+          fr: BARBECUE
+        preu: '33'
+    - codi: '96107'
+      cel_les:
+        codi: '96107'
+        para:
+          es: FRYTOPS FE
+          en: IRON FRYTOPS
+          fr: FRYTOPS FER
+        preu: '17'
+    - codi: '93085'
+      cel_les:
+        codi: '93085'
+        para:
+          es: FRYTOPS CrD
+          en: HCr FRYTOPS
+          fr: FRYTOPS CrD
+        preu: '28'
+    - codi: 4A795021
+      cel_les:
+        codi: 4A795021
+        para:
+          es: KIT 10 CUCHILLAS
+          en: KIT 10 KNIVES
+          fr: KIT 10 COUTEAUX
+        preu: '40'
+      codi_trossos:
+      - 4A79
+      - '5021'
+      codi_tros_destacat:
+      - 0
+    format: taula_producte
+  - id: p25-t3
+    pos:
+      x: 10.508
+      y: 12.588
+      w: 9.759
+      h: 3.608
+    titol:
+      es: ELEMENTOS UNIÓN E JOINT ELEMENT F ÉLÉMENT DE L’UNION
+    columnes:
+    - idx: 0
+      ample_cm: 1.809
+      text_capcalera:
+        es: COD.
+      clau: codi
+    - idx: 1
+      ample_cm: 5.56
+      clau: col1
+    - idx: 2
+      ample_cm: 1.195
+      clau: col2
+    - idx: 3
+      ample_cm: 1.196
+      text_capcalera:
+        es: €
+      clau: preu
+    files:
+    - reconstruida: true
+      valors_crus:
+      - TODOS
+      - E
+      - ALL
+      - F
+      - TOUS
+      alineacio: no_assignada
+      text_fila:
+        es: TODOS E ALL F TOUS 40
+      codi: 4A585021
+      cel_les:
+        codi: 4A585021
+        preu: '40'
+    - reconstruida: true
+      valors_crus:
+      - FRYTOP
+      - '101'
+      - PACK
+      alineacio: no_assignada
+      cua:
+      - 1+1
+      text_fila:
+        es: FRYTOP 101 PACK 1 1+1
+      codi: 4A095021
+      cel_les:
+        codi: 4A095021
+        preu: '1'
+    format: taula_producte
+    reconstruida: true
+    capcalera_crua: COD. PARA E FOR F POUR €
+    ordre_lectura: per_files
+    text_cru: ELEMENTOS UNIÓN E JOINT ELEMENT F ÉLÉMENT DE L’UNION COD. PARA E FOR F POUR € 4A585021 TODOS E ALL F TOUS 40 4A095021 FRYTOP 101
+      PACK 1 1+1
+  - id: p25-t4
+    pos:
+      x: 0.758
+      y: 18.994
+      w: 19.499
+      h: 2.313
+    titol:
+      es: ELEMENTO CALEFACTOR PARA SOPORTES
+      en: HEATABLE KIT FOR SUPPORTS
+      fr: KIT DE RÉCHAUFFEMENT POUR SUPORTS
+    columnes:
+    - idx: 0
+      ample_cm: 4.083
+      text_capcalera:
+        es: COD.
+      clau: codi
+    - idx: 1
+      ample_cm: 6.745
+      icones_capcalera:
+      - asset: assets/g3/icona-mesures.jpg
+        hash: aa029674e7
+      clau: mesures
+    - idx: 2
+      ample_cm: 5.705
+      icones_capcalera:
+      - asset: assets/g3/icona-potencia-electrica.jpg
+        hash: 7d7d71eb62
+      clau: potencia_electrica
+    - idx: 3
+      ample_cm: 2.967
+      text_capcalera:
+        es: €
+      clau: preu
+    files:
+    - codi: 4A550611
+      cel_les:
+        codi: 4A550611
+        mesures: 320 x 540 x 95
+        potencia_electrica: 1,3 KW 230/1V
+        preu: '345'
+      codi_trossos:
+      - 4A55
+      - '0611'
+      codi_tros_destacat:
+      - 0
+    format: taula_producte
+  - id: p25-t5
+    pos:
+      x: 0.758
+      y: 25.586
+      w: 9.749
+      h: 2.813
+    titol:
+      es: PUERTA REVERSIBLE
+      en: REVERSIBLE DOOR
+      fr: PORTE RÉVERSIBLE
+    columnes:
+    - idx: 0
+      ample_cm: 1.742
+      text_capcalera:
+        es: COD.
+      clau: codi
+    - idx: 1
+      ample_cm: 6.75
+      text_capcalera:
+        es: PARA
+        en: FOR
+        fr: POUR
+      clau: para
+    - idx: 2
+      ample_cm: 1.258
+      text_capcalera:
+        es: €
+      clau: preu
+    files:
+    - codi: 4A100911
+      cel_les:
+        codi: 4A100911
+        para:
+          es: SOPORTES
+          en: SUPPORTS
+          fr: SUPORTS
+        preu: '173'
+      codi_trossos:
+      - 4A10
+      - 0911
+      codi_tros_destacat:
+      - 0
+    format: taula_producte
+  - id: p25-t6
+    pos:
+      x: 10.508
+      y: 25.557
+      w: 9.749
+      h: 2.831
+    titol:
+      es: KIT GUÍAS PARA GN 1/1 E GUIDE KIT FOR GN 1/1 F KIT DE GUIDAGE POUR GN 1/1
+    columnes:
+    - idx: 0
+      ample_cm: 2.042
+      text_capcalera:
+        es: COD.
+      clau: codi
+    - idx: 1
+      ample_cm: 6.35
+      clau: col1
+    - idx: 2
+      ample_cm: 1.358
+      text_capcalera:
+        es: €
+      clau: preu
+    files:
+    - reconstruida: true
+      valors_crus:
+      - SOPORTES
+      - E
+      - SUPPORTS
+      - F
+      - SUPORTS
+      alineacio: no_assignada
+      text_fila:
+        es: SOPORTES E SUPPORTS F SUPORTS 151
+      codi: 4A545021
+      cel_les:
+        codi: 4A545021
+        preu: '151'
+    format: taula_producte
+    reconstruida: true
+    capcalera_crua: COD. PARA E FOR F POUR €
+    ordre_lectura: per_files
+    text_cru: KIT GUÍAS PARA GN 1/1 E GUIDE KIT FOR GN 1/1 F KIT DE GUIDAGE POUR GN 1/1 COD. PARA E FOR F POUR € 4A545021 SOPORTES E SUPPORTS
+      F SUPORTS 151
+  n_elements_font: 34
+- id: p26
+  n: 26
+  tipus: simbologia
+  capcalera:
+    banda: assets/g3/plantilla-quadre-numero.emf
+    titol:
+      es: SIMBOLOGÍA E SYMBOLS F SYMBOLOGIE
+  simbol_euro:
+    text: €
+    pos:
+      x: 13.5
+      y: 22.43
+      w: 2.0
+      h: 2.0
+    fons_asset: assets/g3/icona-wok.jpg
+  equivalencies:
+  - 1 Kw. Gas = 860 Kcal/h
+  - 1 Kcal/h = 1,16 Kw. Gas
+  - 1 HP = 746 W
+  equivalencies_pos:
+    x: 13.5
+    y: 25.524
+    w: 5.2
+    h: 2.255
+  simbols:
+  - text:
+      es: Largo
+      en: Length
+      fr: Large
+    pos:
+      x: 2.5
+      y: 3.1
+      w: 4.5
+      h: 2.0
+    icona: assets/g3/simbol-largo.jpg
+  - text:
+      es: Fuegos gas
+      en: Burners
+      fr: Feux
+    pos:
+      x: 9.0
+      y: 3.1
+      w: 4.5
+      h: 2.0
+    icona: assets/g3/simbol-fuegos-gas.png
+    icona_components:
+    - assets/g3/icona-wok.jpg
+    - assets/g3/icona-fogons.jpg
+  - text:
+      es: Dimensiones placa
+      en: Plate dimensions
+      fr: Dimensions plaque
+    pos:
+      x: 15.5
+      y: 3.013
+      w: 4.5
+      h: 2.173
+    icona: assets/g3/simbol-dimensiones-placa.png
+    icona_components:
+    - assets/g3/icona-wok.jpg
+    - assets/g3/icona-dimensions_placa.jpg
+  - text:
+      es: Fondo
+      en: Width
+      fr: Profond
+    pos:
+      x: 2.5
+      y: 6.322
+      w: 4.5
+      h: 2.0
+    icona: assets/g3/simbol-fondo.jpg
+  - text:
+      es: Placa eléctrica redonda
+      en: Electric rounded plate
+      fr: Plaque électrique ronde
+    pos:
+      x: 9.0
+      y: 5.983
+      w: 4.5
+      h: 2.677
+    icona: assets/g3/simbol-placa-electrica-redonda.png
+    icona_components:
+    - assets/g3/icona-wok.jpg
+    - assets/g3/icona-placa-rodona.jpg
+  - text:
+      es: Placa lisa
+      en: Smooth plate
+      fr: Plaque lisse
+    pos:
+      x: 15.5
+      y: 6.321
+      w: 4.5
+      h: 2.0
+    icona: assets/g3/simbol-placa-lisa.png
+    icona_components:
+    - assets/g3/icona-wok.jpg
+    - assets/g3/icona-placa_lisa.jpg
+  - text:
+      es: Horno a convección
+      en: Convection oven
+      fr: Four à convection
+    pos:
+      x: 9.0
+      y: 9.478
+      w: 4.5
+      h: 2.131
+    icona: assets/g3/simbol-horno-a-conveccion.png
+    icona_components:
+    - assets/g3/icona-wok.jpg
+    - assets/g3/icona-forn-estatic.jpg
+  - text:
+      es: Placa 1/3 estriada
+      en: 1/3 ribbed plate
+      fr: Plaque 1/3 striée
+    pos:
+      x: 15.5
+      y: 9.456
+      w: 4.5
+      h: 2.173
+    icona: assets/g3/simbol-placa-1-3-estriada.png
+    icona_components:
+    - assets/g3/icona-wok.jpg
+    - assets/g3/icona-placa_1_3_estriada.jpg
+  - text:
+      es: Alto
+      en: Height
+      fr: Haut
+    pos:
+      x: 2.5
+      y: 9.543
+      w: 4.5
+      h: 2.0
+    icona: assets/g3/simbol-alto.jpg
+  - text:
+      es: Peso
+      en: Weight
+      fr: Poids
+    pos:
+      x: 2.551
+      y: 12.765
+      w: 4.449
+      h: 2.0
+    icona: assets/g3/icona-pes.jpg
+  - text:
+      es: Medidas Gastronorm
+      en: Gastronorm sizes
+      fr: Mesures Gastronorm
+    pos:
+      x: 9.0
+      y: 12.536
+      w: 4.5
+      h: 2.457
+    icona: assets/g3/simbol-medidas-gastronorm.png
+    icona_components:
+    - assets/g3/icona-wok.jpg
+    - assets/g3/icona-mesures_gastronorm.png
+  - text:
+      es: Placa estriada
+      en: Ribbed plate
+      fr: Plaque striée
+    pos:
+      x: 15.5
+      y: 12.765
+      w: 4.5
+      h: 2.0
+    icona: assets/g3/simbol-placa-estriada.png
+    icona_components:
+    - assets/g3/icona-wok.jpg
+    - assets/g3/icona-placa_estriada.jpg
+  - text:
+      es: Capacidad litros
+      en: Liters capacity
+      fr: Capacité litres
+    pos:
+      x: 2.5
+      y: 15.987
+      w: 4.5
+      h: 2.0
+    icona: assets/g3/simbol-capacidad-litros.png
+    icona_components:
+    - assets/g3/icona-wok.jpg
+    - assets/g3/icona-capacitat_litres.jpg
+  - text:
+      es: Soporte Abierto
+      en: Open stand
+      fr: Support ouvert
+    pos:
+      x: 9.0
+      y: 15.987
+      w: 4.5
+      h: 2.0
+    icona: assets/g3/simbol-soporte-abierto.png
+    icona_components:
+    - assets/g3/icona-wok.jpg
+    - assets/g3/icona-soporte_obert.jpg
+  - text:
+      es: Gas
+      en: Gas
+      fr: Gaz
+    pos:
+      x: 15.5
+      y: 15.987
+      w: 4.5
+      h: 2.0
+    icona: assets/g3/simbol-gas.png
+    icona_components:
+    - assets/g3/icona-wok.jpg
+    - assets/g3/icona-potencia-gas.jpg
+  - text:
+      es: Número de cubas
+      en: Number of tanks
+      fr: Numéro de cuves
+    pos:
+      x: 2.5
+      y: 19.121
+      w: 4.5
+      h: 2.173
+    icona: assets/g3/simbol-numero-de-cubas.png
+    icona_components:
+    - assets/g3/icona-wok.jpg
+    - assets/g3/icona-numero_cubes.jpg
+  - text:
+      es: Puertas
+      en: Doors
+      fr: Portes
+    pos:
+      x: 9.0
+      y: 19.209
+      w: 4.5
+      h: 2.0
+    icona: assets/g3/simbol-puertas.png
+    icona_components:
+    - assets/g3/icona-wok.jpg
+    - assets/g3/icona-portes.jpg
+  - text:
+      es: Eléctrico
+      en: Electric
+      fr: Eléctrique
+    pos:
+      x: 15.5
+      y: 19.208
+      w: 4.5
+      h: 2.0
+    icona: assets/g3/simbol-electrico.png
+    icona_components:
+    - assets/g3/icona-wok.jpg
+    - assets/g3/icona-potencia-electrica.jpg
+  - text:
+      es: Dimensiones cuba
+      en: Tank dimensions
+      fr: Dimensions de la cuve
+    pos:
+      x: 2.5
+      y: 22.146
+      w: 4.5
+      h: 2.567
+    icona: assets/g3/simbol-dimensiones-cuba.png
+    icona_components:
+    - assets/g3/icona-wok.jpg
+    - assets/g3/icona-dimensions_cuba.jpg
+  - text:
+      es: Cajones
+      en: Drawers
+      fr: Tiroirs
+    pos:
+      x: 9.0
+      y: 22.43
+      w: 4.5
+      h: 2.0
+    icona: assets/g3/simbol-cajones.png
+    icona_components:
+    - assets/g3/icona-wok.jpg
+    - assets/g3/icona-calaixos.jpg
+  - text:
+      es: Precio en EUROS
+      en: Price in EUROS
+      fr: Prix en EUROS
+    pos:
+      x: 15.5
+      y: 22.343
+      w: 4.5
+      h: 2.173
+    icona_ref: simbol_euro
+  - text:
+      es: Dimensiones cesta
+      en: Basket dimensions
+      fr: Dimensions du panier
+    pos:
+      x: 2.5
+      y: 25.368
+      w: 4.5
+      h: 2.567
+    icona: assets/g3/simbol-dimensiones-cesta.png
+    icona_components:
+    - assets/g3/icona-wok.jpg
+    - assets/g3/icona-dimensions_cesta.jpg
+  - text:
+      es: Dimensiones parrilla
+      en: Grill dimensions
+      fr: Dimensions du gril
+    pos:
+      x: 9.0
+      y: 25.608
+      w: 4.5
+      h: 2.087
+    icona: assets/g3/simbol-dimensiones-parrilla.png
+    icona_components:
+    - assets/g3/icona-wok.jpg
+    - assets/g3/icona-dimensions_parrilla.jpg
+  omesos_decoratius:
+    marques_idioma_simbols: 46
+    filets_i_contorns: 1
+  decoracio:
+  - forma: rectangle
+    color: '#bf5130'
+    pos:
+      x: 13.5
+      y: 25.652
+      w: 5.2
+      h: 2.0
+  n_elements_font: 120
+- id: p27
+  n: 27
+  tipus: condicions_venda
+  capcalera:
+    banda: assets/g3/plantilla-quadre-numero.emf
+    titol:
+      es: CONDICIONES DE VENTA
+  seccions:
+  - pos:
+      x: 2.5
+      y: 2.325
+      w: 17.5
+      h: 1.5
+    textos:
+      es:
+      - role: text
+        text: PRECIOS
+      - role: text
+        text: Los precios de la presente tarifa son P.V.P. (Impuestos no incluidos - IVA)
+    icona: assets/g3/condicions-icona-p27-1.png
+  - pos:
+      x: 2.5
+      y: 4.019
+      w: 17.5
+      h: 1.548
+    textos:
+      es:
+      - role: text
+        text: FORMAS DE PAGO
+      - role: text
+        text: Pago anticipado a la confirmación del pedido.
+    icona: assets/g3/condicions-icona-p27-2.png
+  - pos:
+      x: 2.5
+      y: 5.621
+      w: 17.5
+      h: 2.043
+    textos:
+      es:
+      - role: text
+        text: PORTES EN ESPAÑA Pagados en península y Baleares, a partir de 500,- €. En caso de importe inferior (base imponible), se cargarán
+          en factura.
+    icona: assets/g3/condicions-icona-p27-3.png
+  - pos:
+      x: 2.5
+      y: 7.715
+      w: 17.5
+      h: 1.986
+    textos:
+      es:
+      - role: text
+        text: CARACTERÍSTICAS TÉCNICAS
+      - role: text
+        text: Como fabricantes, nos reservamos el derecho de modificar sin previo aviso las características que constan en este catálogo, en beneficio
+          de mejorar nuestros productos.
+    icona: assets/g3/condicions-icona-p27-4.png
+  - pos:
+      x: 2.5
+      y: 9.897
+      w: 17.5
+      h: 3.7
+    textos:
+      es:
+      - role: text
+        text: GARANTIA
+      - role: text
+        text: La garantía se concede solamente en los defectos de fabricación quedando excluidos de ella la utilización indebida. PIEZAS Dicha
+          garantía es de 12 meses en piezas defectuosas, siendo por cuenta del cliente los portes de ida y vuelta de dichas piezas. Todo material
+          remitido en garantía se facturará y se procederá a su correspondiente abono, una vez remitidas las piezas defectuosas y comprobadas
+          por parte del fabricante. MANO DE OBRA El servicio de mano de obra y los desplazamiento son siempre por cuenta del cliente. El fabricante
+          no se hará cargo en ningún caso de ningún tipo o clase de indemnización.
+    icona: assets/g3/condicions-icona-p27-5.png
+  - pos:
+      x: 2.5
+      y: 13.548
+      w: 17.5
+      h: 1.5
+    textos:
+      es:
+      - role: text
+        text: JURISDICCIÓN
+      - role: text
+        text: Serán únicamente competentes, en caso de litigio, los tribunales de Barcelona.
+    icona: assets/g3/condicions-icona-p27-6.png
+  - pos:
+      x: 0.0
+      y: 15.241
+      w: 21.0
+      h: 0.798
+    barra_idiomes:
+      en: SALES CONDITIONS
+      fr: CONDITIONS DE VENTE
+    color_fons: '#a22b2d'
+  - pos:
+      x: 2.5
+      y: 16.078
+      w: 17.5
+      h: 2.0
+    textos:
+      en:
+      - role: text
+        text: PRICES The prices in this list are retail prices (EX-WORKS). F PRIX Les prix du présent tarif correspondent à des Prix de Vente
+          au Public. (EX-WORKS).
+    icona: assets/g3/condicions-icona-p27-1.png
+  - pos:
+      x: 2.5
+      y: 17.747
+      w: 17.5
+      h: 1.8
+    textos:
+      en:
+      - role: text
+        text: PAYMENT CONDITIONS Irrevocable letter of credit or Swift. F FORME DE PAIEMENT Lettre de crédit bancaire irrévocable o virement bancaire.
+    icona: assets/g3/condicions-icona-p27-2.png
+  - pos:
+      x: 2.5
+      y: 19.428
+      w: 17.5
+      h: 2.7
+    textos:
+      en:
+      - role: text
+        text: TECHNICAL CHARACTERISTICS As a manufacturer, we reserve the right to modify the characteristics of our catalogues without prior
+          notice, in the interest of improving our products. F CARACTERISTIQUES TECHNIQUES En tant que fabricants, nous nous réservons le droit
+          de modifier sans préavis, les caractéristiques indiquées dans le présent catalogue, dans le but d’améliorer nos produïts.
+    icona: assets/g3/condicions-icona-p27-4.png
+  - pos:
+      x: 2.5
+      y: 22.104
+      w: 17.5
+      h: 4.9
+    textos:
+      en:
+      - role: text
+        text: GUARANTEE The guarantee only covers manufacturing defects and excludes unauthorized use. PARTS The guarantee for defective parts
+          are 12 months. All shipping costs are to be paid by the consumer. The manufacturer does not accept any responsability for any type of
+          comprensation. F GARANTIE La garantie couvre uniquement les défauts de fabrication, une utilisation incorrecte en étant totalement exclue.
+          PIECES Cette garantie est de 12 mois sur les pièces défectueuses, leurs transports d’aller et de retour étant à la charge du client.
+          Les fabricants n’est en aucun cas responsable d’un quelconque type d’indemnisation.
+    icona: assets/g3/condicions-icona-p27-5.png
+  - pos:
+      x: 2.5
+      y: 26.812
+      w: 17.5
+      h: 1.924
+    textos:
+      en:
+      - role: text
+        text: JURISDICTION In the event of legal action, the only Courts considered competent are those of Barcelona (Spain) F JURIDICTION En
+          cas de litige, seuls les Tribunaux de Barcelona (Espagne) seront compétents.
+    icona: assets/g3/condicions-icona-p27-6.png
+  marques_idioma:
+  - assets/g3/plantilla-quadre-numero.emf
+  - assets/g3/plantilla-quadre-numero.emf
+  - assets/g3/plantilla-quadre-numero.emf
+  - assets/g3/plantilla-quadre-numero.emf
+  - assets/g3/plantilla-quadre-numero.emf
+  - assets/g3/plantilla-quadre-numero.emf
+  - assets/g3/plantilla-quadre-numero.emf
+  - assets/g3/plantilla-quadre-numero.emf
+  - assets/g3/plantilla-quadre-numero.emf
+  - assets/g3/plantilla-quadre-numero.emf
+  - assets/g3/plantilla-quadre-numero.emf
+  - assets/g3/plantilla-quadre-numero.emf
+  n_elements_font: 42
+- id: p28
+  n: 28
+  tipus: contraportada
+  capcalera_text:
+    es: SOLICITE CATALOGO E REQUEST CATALOGS F DEMANDE DE CATALOGUES D KATALOGUE ANFORDERN
+  imatges:
+  - asset: assets/g3/contraportada-cataleg.jpg
+    pos:
+      x: 0.0
+      y: 0.0
+      w: 20.985
+      h: 29.7
+  omesos_decoratius:
+    filets_i_contorns: 2
+    marcs_de_text_buits: 2
+  n_elements_font: 6
+avisos_extraccio:
+- 'pàgina 3: 1 elements sense classificar'
