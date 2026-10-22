@@ -32,10 +32,16 @@ jobs:
           cache: pip
 
       - name: Eines del sistema (qpdf, poppler, fonts)
+        # 22/10: la primera execució es va quedar >20 min aquí. Sense diàlegs, sense reconstruir
+        # l'índex de «man» (molt lent als runners) i amb un límit de temps per no encallar-se.
+        timeout-minutes: 8
+        env:
+          DEBIAN_FRONTEND: noninteractive
         run: |
-          sudo apt-get update
-          sudo apt-get install -y --no-install-recommends qpdf poppler-utils fonts-liberation fontconfig
-          sudo apt-get install -y --no-install-recommends fonts-libre-franklin || echo "fonts-libre-franklin no disponible"
+          sudo rm -f /var/lib/man-db/auto-update
+          sudo apt-get update -o Acquire::Retries=3
+          sudo apt-get install -y --no-install-recommends -o Dpkg::Use-Pty=0 qpdf poppler-utils fonts-liberation fontconfig
+          sudo apt-get install -y --no-install-recommends -o Dpkg::Use-Pty=0 fonts-libre-franklin || echo "fonts-libre-franklin no disponible"
           mkdir -p ~/.config/fontconfig
           cp ci/fonts.conf ~/.config/fontconfig/fonts.conf
           fc-cache -f
