@@ -477,9 +477,30 @@ def agrupa_fotos(fotos):
     return out
 
 
-def columnes_fotos(n):
-    """Com més fotos, més columnes: amb 2 columnes fixes, 13 fotos quedaven en tires de 2 cm."""
-    return 1 if n <= 1 else 2 if n <= 6 else 3 if n <= 9 else 4 if n <= 16 else 5
+def columnes_fotos(n, ratios=None, alt_cm=None):
+    """Com més fotos, més columnes: amb 2 columnes fixes, 13 fotos quedaven en tires de 2 cm.
+    Fins a 6 fotos, si es coneixen les proporcions i l'alçada lliure, tria les columnes que fan les fotos més grans
+    (2 fotos apaïsades ocupen més apilades en una columna que una al costat de l'altra)."""
+    if n <= 1: return 1
+    if n > 6 or not ratios or not alt_cm: return 2 if n <= 6 else 3 if n <= 9 else 4 if n <= 16 else 5
+    ample = 16.6
+    millor, nc = -1, 2
+    for c in range(1, min(n, 3) + 1):
+        files = -(-n // c)
+        w, h = (ample - .3 * (c - 1)) / c, (alt_cm - .2 * (files - 1)) / files - .9     # .9 cm = etiqueta de sota
+        if h < 1.5: continue
+        area = sum(min(w, h * r) * min(w / r, h) for r in ratios)
+        if area > millor * 1.04: millor, nc = area, c        # 4 % de marge: a igualtat es queda amb la disposició amb menys columnes
+    return nc
+
+
+def ratio_foto(asset):
+    try:
+        from PIL import Image
+        w, h = Image.open(os.path.join(ROOT, retalla(asset))).size
+        return w / h
+    except Exception:
+        return 1.3
 
 
 # Partició de les taules massa llargues (G14: prestatgeries amb 60-108 files). La pàgina té alçada fixa i el que no hi cap es perdia
@@ -521,7 +542,9 @@ def pagina_producte(ctx, p, n):
             ii = [ordre_codis.index(c['codi']) for c in (f.get('codis') or [{'codi': f.get('codi')}]) if c['codi'] in ordre_codis]
             return min(ii) if ii else 99
         fotos = agrupa_fotos(sorted(p.get('fotos', []), key=idx))
-        nc = columnes_fotos(len(fotos))
+        files_tau = sum(CAP_TAULA_CM + FILA_CM * len(t['files']) for t in p.get('taules', []) if t['format'] == 'taula_producte')
+        alt_fotos = ALT_UTIL_CM - files_tau - (LLEGENDA_CM if llegenda_html(p) else 0) - .6
+        nc = columnes_fotos(len(fotos), [ratio_foto(f['asset']) for f in fotos], alt_fotos)
         h += f'<div class="fotos n{len(fotos)} c{nc}" style="grid-template-columns:repeat({nc},1fr)">'
         for k, f in enumerate(fotos):
             # l'última foto d'una fila incompleta s'estira fins al final de la fila (centrada), com abans amb 3, 5, 7...
