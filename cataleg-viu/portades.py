@@ -18,46 +18,55 @@ def escapa(t):
 
 
 def html_portada(grups, edicio, logo):
+    """Portada general com la de tarifa.eurast.com: fons taronja, «CATÁLOGOS 2026», banda fosca i índex dels grups en 2 columnes."""
     y, _, m = edicio.partition('/')
     n = len(grups)
-    files = []
-    for g in grups:
-        files.append(
-            '<div class="fila"><div class="num">%d</div><div class="noms"><div class="es">%s</div>'
-            '<div class="altres">%s &nbsp;/&nbsp; %s</div></div><div class="punts"></div><div class="pag">%d</div></div>'
-            % (g['n'], escapa(g['nom']['es']), escapa(g['nom']['en']), escapa(g['nom']['fr']), g['start']))
+    if not n: return None
+    meitat = (n + 1) // 2
+
+    def fila(g):
+        return ('<div class="fila"><span class="num">%02d</span><span class="noms"><b>%s</b><i>%s</i></span><span class="pag">%d</span></div>'
+                % (g['n'], escapa(g['nom']['es']), escapa(g['nom']['en']), g['start']))
+    esq = ''.join(fila(g) for g in grups[:meitat])
+    dre = ''.join(fila(g) for g in grups[meitat:])
     return """<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Catálogo Eurast</title><style>%s
-.vermell { color: #772f32 }
-.logo { position: absolute; left: 16mm; top: 14mm; width: 74mm }
-.segell { position: absolute; right: 16mm; top: 16mm; width: 27mm; height: 27mm; border: 2.2mm solid #cc0000; border-radius: 50%%;
-  display: flex; flex-direction: column; align-items: center; justify-content: center; color: #cc0000; font-weight: 800;
-  font-size: 17pt; line-height: 1.05; background: #fff; z-index: 3 }
-.titol { position: absolute; left: 16mm; top: 58mm; right: 16mm }
-.titol h1 { margin: 0; font-size: 40pt; letter-spacing: .02em; color: #772f32; font-weight: 800; text-transform: uppercase; line-height: 1 }
-.titol .sub { margin-top: 3mm; font-size: 10pt; color: #666; letter-spacing: .03em }
-.titol .sub .lt { display: inline-block; border: .25mm solid currentColor; border-radius: .6mm; font-size: 6.5pt; line-height: 1; padding: .3mm .8mm; margin-right: 1.6mm; font-weight: 700; vertical-align: middle }
-.titol .sub .sep { display: inline-block; margin: 0 3.5mm; color: #aaa }
-.titol .linia { margin-top: 5mm; height: 1.2mm; width: 60mm; background: #da5f06 }
-.llista { position: absolute; left: 16mm; right: 16mm; top: 96mm; bottom: 16mm; display: flex; flex-direction: column }
-.cap { display: flex; font-size: 8pt; letter-spacing: .08em; color: #777; border-bottom: .3mm solid #bbb; padding-bottom: 1.5mm; margin-bottom: 1mm }
-.cap .a { flex: 1 } .cap .b { width: 14mm; text-align: right }
-.fila { flex: 1 1 0; max-height: 17mm; display: flex; align-items: center; gap: 4mm; border-bottom: .2mm solid #e3e3e3 }
-.num { width: 11mm; height: 9mm; border: .35mm solid #a22b2d; color: #a22b2d; font-weight: 700; font-size: 13pt; display: flex;
-  align-items: center; justify-content: center; border-radius: 1mm; flex: none }
-.noms { flex: none; max-width: 120mm }
-.es { font-size: 12.5pt; font-weight: 700; color: #111 }
-.altres { font-size: 8pt; color: #777 }
-.punts { flex: 1; border-bottom: .3mm dotted #aaa; height: 1px; margin-top: 3mm }
-.pag { width: 14mm; text-align: right; font-weight: 700; font-size: 12pt; color: #772f32 }
-.peu { position: absolute; left: 16mm; bottom: 7mm; font-size: 7pt; color: #888 }
+.page { background: #e8640a; font-family: 'Montserrat', 'Libre Franklin', 'Franklin Gothic Medium', 'Helvetica Neue', Arial, sans-serif }
+.logo { position: absolute; left: 50%%; margin-left: -37mm; top: 12mm; width: 74mm }
+.t1 { position: absolute; left: 0; right: 0; top: 56mm; text-align: center; font-size: 66pt; font-weight: 800; color: #151515; line-height: 1; letter-spacing: -.01em }
+.t2 { position: absolute; left: 0; right: 0; top: 83mm; text-align: center; font-size: 78pt; font-weight: 800; color: #fff; line-height: 1 }
+.groc { position: absolute; left: 50%%; margin-left: -17mm; top: 115mm; width: 34mm; height: 1mm; background: #ffd400 }
+.t3 { position: absolute; left: 0; right: 0; top: 120.5mm; text-align: center; font-size: 15pt; font-weight: 800; color: #151515; letter-spacing: .02em }
+.idiomes { position: absolute; left: 50%%; margin-left: -30mm; width: 60mm; top: 132mm; border-top: .25mm solid #b3500a; border-bottom: .25mm solid #b3500a; padding: 1.6mm 0; text-align: center; color: #fff; font-weight: 600; font-size: 9.5pt; line-height: 6mm }
+.idiomes span { margin: 0 1.3mm }
+.pastilla { position: absolute; left: 50%%; margin-left: -14mm; width: 28mm; top: 161mm; height: 7.4mm; border-radius: 4mm; background: #151515; color: #ffd400; font-weight: 800; font-size: 7pt; text-align: center; line-height: 7.4mm; letter-spacing: .04em }
+.banda { position: absolute; left: 0; right: 0; top: 177mm; bottom: 0; background: #c4510a }
+.blanc { position: absolute; left: 0; right: 0; top: 181.5mm; bottom: 0; background: #fff; clip-path: polygon(0 0, 100%% 5mm, 100%% 100%%, 0 100%%) }
+.cap { position: absolute; left: 8mm; right: 8mm; top: 188.5mm; font-size: 5.5pt; font-weight: 600; letter-spacing: .02em; color: #777; border-bottom: .3mm solid #e8640a; padding-bottom: .8mm }
+.cols { position: absolute; left: 8mm; right: 8mm; top: 192.5mm; display: flex; gap: 2mm }
+.col { flex: 1 }
+.fila { display: flex; align-items: center; height: 8.4mm; margin-bottom: .8mm; padding: 0 1.5mm 0 0 }
+.fila:nth-child(odd) { background: #f0f0f0 }
+.num { width: 8mm; text-align: left; padding-left: 1mm; font-size: 10pt; font-weight: 800; color: #e8640a }
+.noms { flex: 1; border-left: .3mm solid #e8640a; padding-left: 2mm; display: flex; flex-direction: column; line-height: 1.25 }
+.noms b { font-size: 7pt; font-weight: 700; color: #222; text-transform: uppercase }
+.noms i { font-size: 5.5pt; font-style: normal; color: #aaa; text-transform: uppercase; font-weight: 400 }
+.pag { font-size: 7pt; font-weight: 700; color: #e8640a }
+.peu1 { position: absolute; left: 8mm; right: 8mm; top: 269mm; border-top: .25mm solid #ccc; padding-top: 3mm; font-size: 6.5pt; color: #999; line-height: 4.8mm }
+.peu1 b { color: #222; font-weight: 700 }
+.segell { position: absolute; right: 8mm; top: 269mm; width: 25mm; height: 25mm; border: .9mm solid #d9120c; border-radius: 50%%; display: flex; flex-direction: column; align-items: center; justify-content: center; color: #d9120c; font-weight: 800; font-size: 13pt; line-height: 1.1; background: #fff }
+.segell small { font-size: 8pt; font-weight: 700 }
 </style></head><body><div class="page">
-<div class="barres"><i style="top:0;background:#da5f06"></i><i style="top:11mm;background:#ececec"></i><i style="top:22mm;background:#e7e7e7"></i></div>
 <img class="logo" src="file://%s">
-<div class="segell"><div>%s</div><div>%s</div></div>
-<div class="titol"><h1>Catálogo / Tarifa</h1>
-<div class="sub"><span class="lt">E</span>CATALOG / PRICE LIST<span class="sep">·</span><span class="lt">F</span>CATALOGUE / LISTE DE PRIX<span class="sep">·</span><span class="lt">D</span>KATALOG / PREISLISTE</div><div class="linia"></div></div>
-<div class="llista"><div class="cap"><div class="a">GRUPO / GROUP / GROUPE</div><div class="b">PÁG.</div></div>%s</div>
-</div></body></html>""" % (CSS_COMU, logo, escapa(y), escapa(m), '\n'.join(files)) if n else None
+<div class="t1">CATÁLOGOS</div><div class="t2">%s</div><div class="groc"></div>
+<div class="t3">EDICIÓN COMPLETA</div>
+<div class="idiomes">CATALOGUE <span>·</span> PRICE LIST<br>CATALOGUE <span>·</span> LISTE DE PRIX<br>KATALOG <span>·</span> PREISLISTE</div>
+<div class="pastilla">%d GRUPOS</div>
+<div class="banda"></div><div class="blanc"></div>
+<div class="cap">ÍNDEX DE GRUPS / INDEX OF GROUPS &nbsp;·&nbsp; PÁG.</div>
+<div class="cols"><div class="col">%s</div><div class="col">%s</div></div>
+<div class="peu1"><b>EDICIÓN COMPLETA DE TODOS LOS CATÁLOGOS</b><br>COMPLETE EDITION OF ALL CATALOGUES<br>ÉDITION COMPLÈTE DE TOUS LES CATALOGUES<br>VOLLSTÄNDIGE AUSGABE ALLER KATALOGE</div>
+<div class="segell"><span>%s</span><small>%s</small></div>
+</div></body></html>""" % (CSS_COMU, logo, escapa(y), n, esq, dre, escapa(y), escapa(m))
 
 
 def html_contraportada(c, logo):
