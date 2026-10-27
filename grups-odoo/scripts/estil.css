@@ -89,9 +89,9 @@ figure img { flex: 1; min-height: 0; max-width: 100%; object-fit: contain }
 .info-col li { position: relative; padding-left: .35cm; margin-bottom: .09cm }
 .info-col li::before { content: '\2022'; position: absolute; left: .08cm }
 i.ref { display: inline-block; font-style: normal; border: 1px solid var(--vermell-referencies); color: var(--vermell-referencies); border-radius: 50%; width: 1.1em; height: 1.1em; line-height: 1em; text-align: center; font-size: .8em; font-weight: bold; margin-left: 2px; vertical-align: 1px }
-.foto-ref { display: flex }
+.foto-ref { display: flex; overflow: visible }
 .foto-ref img { width: 100%; height: 100%; object-fit: contain }
-i.ref.big { position: absolute; left: -.55cm; top: 0; width: .7cm; height: .7cm; line-height: .62cm; font-size: 13pt; margin: 0; background: #fff }
+i.ref.big { position: absolute; z-index: 5; left: -.55cm; top: 0; width: .7cm; height: .7cm; line-height: .62cm; font-size: 13pt; margin: 0; background: #fff }
 
 /* portada */
 .portada img.abs { }
@@ -109,6 +109,7 @@ i.ref.big { position: absolute; left: -.55cm; top: 0; width: .7cm; height: .7cm;
 .franja { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: .6cm; padding: 1cm 0 }
 .vt { writing-mode: vertical-rl; transform: rotate(180deg); color: #fff; font: bold 50pt 'Avenir Next Condensed', Arial, sans-serif; white-space: nowrap; letter-spacing: .03em; line-height: 1 }
 .franja .bl { width: 2.5cm; height: auto }
+.franja .bl[src$=".png"] { filter: brightness(0) invert(1) }      /* els logos PNG (transparents, en negre: SERIE MASTER) es passen a blanc; els JPG ja porten el fons granat */
 .franja img.abs { }
 .card-bar { position: absolute; height: .76cm; background: var(--granat); color: #fff; font: bold 14pt Arial, sans-serif; display: flex; justify-content: space-between; align-items: center; padding: 0 .2cm }
 .card-bar .pre { font-size: 11pt }
