@@ -280,9 +280,48 @@ def pagina_index(ctx, p, n):
     return h + peu(ctx, p, n) + '</div>'
 
 
+_MAJ = 'A-ZÁÉÍÓÚÀÈÒÇÑÜ'
+_TITOL = re.compile(r'(?<![\w])([' + _MAJ + r']{3,}(?: [' + _MAJ + r']{1,}){0,4})(?= [' + _MAJ + r'][a-záéíóúàèòçñü])')
+
+
+def estructura_text(text):
+    """Un paràgraf pla del .pub («CONSTRUCCIÓN En acero... □ PLANCHAS A GAS Con grifos...») es torna a estructurar com l'original:
+    títols de secció en vermell, una vinyeta per frase i els □ (que eren els números de referència a les fotos) com a 1, 2, 3...
+    Retorna [('h', títol) | ('li', text amb §n§ per a les referències)] o None si no sembla un paràgraf d'aquest tipus."""
+    t = re.sub(r'\s+', ' ', text).strip()
+    tit = list(_TITOL.finditer(t))
+    if len(t) < 250 or not tit: return None
+    k = [0]
+
+    def ref(m): k[0] += 1; return f' §{k[0]}§ '
+    t = re.sub(r'\s*\u25a1\s*', ref, t); tit = list(_TITOL.finditer(t))
+    out = []; pos = 0
+    for m in tit + [None]:
+        cos = t[pos:m.start()] if m else t[pos:]
+        for fr in re.split(r'(?<=[.!?§])\s+(?=[' + _MAJ + r'])', cos.strip()):
+            fr = fr.strip()
+            if fr: out.append(('li', fr))
+        if m: out.append(('h', m.group(1))); pos = m.end()
+    return out
+
+
+def _amb_refs(x):
+    return re.sub(r'\s*§(\d+)§', lambda m: f' <i class="ref">{m.group(1)}</i>', E(x)).strip()
+
+
 def parag_html(ps):
     out = []; lst = False
     for q in ps:
+        est = estructura_text(q['text']) if q['role'] != 'titol' else None
+        if est:
+            for tipus, x in est:
+                if tipus == 'h':
+                    if lst: out.append('</ul>'); lst = False
+                    out.append(f'<h3>{E(x)}</h3>')
+                else:
+                    if not lst: out.append('<ul>'); lst = True
+                    out.append(f'<li>{_amb_refs(x)}</li>')
+            continue
         q = dict(q, text=re.sub(r' {2,}', ' ', q['text'].replace('\u25a1', '')).strip())      # □ = número de referència del .pub sense glifo (les refs ja van a q['refs'])
         refs = ''.join(f'<i class="ref">{r}</i>' for r in q.get('refs', []))
         if q['role'] == 'titol':
@@ -630,8 +669,8 @@ document.querySelectorAll('.page.info').forEach(function(pg){
   cols.forEach(function(c){
     var lim = marge(c), fs = parseFloat(getComputedStyle(c).fontSize), n = 0;
     while (c.getBoundingClientRect().bottom > lim && fs > 5 && n < 120) { fs -= 0.2; c.style.fontSize = fs + 'px'; n++; }
-    if (n == 0 && fs < 9 * 4 / 3) {          // lletra petita de l'original: s'augmenta fins on càpiga (màx. 9 pt) perquè no quedi mig full en blanc
-      while (fs < 9 * 4 / 3 && n < 60) { c.style.fontSize = (fs + 0.3) + 'px'; if (c.getBoundingClientRect().bottom > lim) { c.style.fontSize = fs + 'px'; break; } fs += 0.3; n++; }
+    if (n == 0 && fs < 10.5 * 4 / 3) {          // lletra petita de l'original: s'augmenta fins on càpiga (màx. 10,5 pt) perquè no quedi mig full en blanc
+      while (fs < 10.5 * 4 / 3 && n < 60) { c.style.fontSize = (fs + 0.3) + 'px'; if (c.getBoundingClientRect().bottom > lim) { c.style.fontSize = fs + 'px'; break; } fs += 0.3; n++; }
     }
   });
 });
