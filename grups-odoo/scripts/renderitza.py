@@ -10,7 +10,7 @@
   python3 scripts/renderitza.py --grup 3 --idioma en     # noms de columna a les capçaleres en anglès (es|en|fr)
   python3 scripts/renderitza.py --grup 3 --data 2026/10  # força la data d'edició (defecte: mes de l'última modificació de les dades del grup a Odoo)
 """
-import argparse, html, json, os, re, shutil, subprocess, sys, tempfile
+import argparse, hashlib, html, json, os, re, shutil, subprocess, sys, tempfile
 HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
 import yaml
@@ -29,6 +29,10 @@ def _chrome():
 
 
 CHROME = _chrome()
+
+
+def CHROME_ARGS():
+    return [CHROME, '--headless=new', '--disable-gpu'] + (['--no-sandbox', '--disable-dev-shm-usage'] if os.environ.get('CHROME_NO_SANDBOX') else []) + ['--allow-file-access-from-files']
 E = html.escape
 BASE = '../'     # prefix relatiu cap a l'arrel (on és assets/); es recalcula a renderitza()
 # Opcions de disseny (CLI): capçalera 'text' (nom + icona opcional; per defecte) | 'icona' (mode antic: només icona);
@@ -55,6 +59,8 @@ def fmt_preu(v):
 
 # ----------------------------------------------------------------------------- utilitats HTML
 def img(src, cls='', alt=''):
+    if src and src.endswith('.bin') and os.path.exists(os.path.join(ROOT, src[:-4] + '.png')):
+        src = src[:-4] + '.png'          # icones TIFF extretes del .pub: el navegador no les mostra; se'n fa servir la còpia PNG
     return f'<img class="{cls}" src="{BASE}{E(src)}" alt="{E(alt)}">' if src else ''
 
 
@@ -80,7 +86,8 @@ class Ctx:
     def __init__(self, dades, preus):
         self.d = dades; self.preus = preus
         self.pagines = dades['pagines']
-        self.num_de = {p['n']: i + 1 for i, p in enumerate(self.pagines)}   # n original -> número de pàgina renderitzat
+        self.num_de = {}
+        for i, p in enumerate(self.pagines): self.num_de.setdefault(p['n'], i + 1)   # n original -> número de pàgina renderitzat
         self.avisos = []
         self.data = dades['grup']['data_edicio']
         self.grup = dades['grup']['numero']
@@ -88,7 +95,7 @@ class Ctx:
 
     def pag(self, n): return self.num_de.get(n, n)
 
-    def enllac_pags(self, ns): return '/'.join('%02d' % self.pag(n) for n in ns)
+    def enllac_pags(self, ns): return '/'.join('%02d' % self.num_de[n] for n in ns if n in self.num_de)   # una pàgina que ja no hi és (grup sense productes marcats) no s'enllaça
 
 
 # ----------------------------------------------------------------------------- peu i capçalera
@@ -97,7 +104,7 @@ def peu(ctx, p, num_pag):
     logo = ctx.d['plantilla']['peu']['logo']
     enll = ''
     pe = p.get('peu_enllac')
-    if pe:
+    if pe and ctx.enllac_pags(pe['pagines']):
         pgs = ctx.enllac_pags(pe['pagines'])
         t = U.trio_titol(pe['text'])
         ull = next((i for i in pe.get('icones', []) if 'icona-ull' in i), 'assets/peu-icona-ull.png')
@@ -313,7 +320,11 @@ def etiqueta_foto(f):
     codis = f.get('codis') or [{'codi': f['codi']}]
     h = ''.join(img(i['asset'], 'et-ico-f') for i in f.get('icones_foto', []) or [])
     h = f'<span class="et-fotoic">{h}</span>' if h else ''
-    for c in codis:
+    if len(codis) > 6:      # foto compartida per moltes files (prestatgeries): primer i últim codi; la resta són a la taula
+        codis = [codis[0], codis[-1]]; mes = f'<i class="mes">… {len(f["codis"])} models</i>'
+    else: mes = ''
+    for k, c in enumerate(codis):
+        if k == 1 and mes: h += mes
         ic = ''.join(img(a, 'et-ico') for a in c.get('icones_etiqueta', []) or [])
         tx = f'<em>{E(c["text_etiqueta"])}</em>' if c.get('text_etiqueta') else ''
         h += f'<span class="cx"><span class="cl"><i class="fletxa">&#9650;</i><span class="c">{codi_html(c["codi"])}</span>{ic}</span>{tx}</span>'
@@ -371,36 +382,120 @@ def nota_html(t):
     return f'<div class="nota-caixa{ample}">{ics}<div>' + ''.join(lang_lines(l, 'ml-n') for l in nota_linies(t)) + '</div></div>'
 
 
-def pagina_producte(ctx, p, n):
-    h = '<div class="page producte">' + capcalera(ctx, p)
-    h += '<div class="cos">'
-    if p.get('insignies'):
-        h += '<div class="insig">' + ''.join(img(i['asset']) for i in p['insignies']) + '</div>'
-    ordre_codis = [r['cel_les'].get('codi') for t in p.get('taules', []) if t['format'] == 'taula_producte' for r in t['files'] if r['cel_les'].get('codi')]
+_HASH = {}
 
-    def idx(f):
-        ii = [ordre_codis.index(c['codi']) for c in (f.get('codis') or [{'codi': f.get('codi')}]) if c['codi'] in ordre_codis]
-        return min(ii) if ii else 99
-    fotos = sorted(p.get('fotos', []), key=idx)
-    h += f'<div class="fotos n{len(fotos)}">'
+
+def hash_imatge(src):
+    """Contingut de la imatge (no el nom): a Odoo cada variant té la seva còpia de la mateixa foto."""
+    if src not in _HASH:
+        try: _HASH[src] = hashlib.md5(open(os.path.join(ROOT, src), 'rb').read()).hexdigest()
+        except OSError: _HASH[src] = src
+    return _HASH[src]
+
+
+def agrupa_fotos(fotos):
+    """Les fotos idèntiques d'una pàgina (60 prestatgeries amb la mateixa foto) es mostren un sol cop, amb tots els codis a l'etiqueta."""
+    grups = {}
     for f in fotos:
-        h += f'<figure>{img(f["asset"])}{etiqueta_foto(f) if f.get("codi") else ""}</figure>'
-    h += '</div></div>'
-    amb_foto = {c['codi'] for f in fotos for c in (f.get('codis') or [{'codi': f.get('codi')}])}
-    sense_foto = sorted(set(ordre_codis) - amb_foto)
-    if sense_foto: ctx.avisos.append(f'p{p["n"]}: codis sense foto (només a la taula): {", ".join(sense_foto)}')
-    for t in p.get('taules', []):
-        if t['format'] == 'nota': h += nota_html(t)
-    h += llegenda_html(p)
+        k = hash_imatge(f['asset'])
+        if k not in grups: grups[k] = dict(f, codis=list(f.get('codis') or ([{'codi': f['codi']}] if f.get('codi') else [])))
+        else: grups[k]['codis'] += [c for c in (f.get('codis') or [{'codi': f.get('codi')}]) if c.get('codi')]
+    out = list(grups.values())
+    for g in out:
+        if g['codis']: g['codi'] = g['codis'][0]['codi']
+    return out
+
+
+def columnes_fotos(n):
+    """Com més fotos, més columnes: amb 2 columnes fixes, 13 fotos quedaven en tires de 2 cm."""
+    return 1 if n <= 1 else 2 if n <= 6 else 3 if n <= 9 else 4 if n <= 16 else 5
+
+
+# Partició de les taules massa llargues (G14: prestatgeries amb 60-108 files). La pàgina té alçada fixa i el que no hi cap es perdia
+# sense avís; ara les files que sobren van a pàgines de continuació amb la mateixa capçalera de pàgina i de taula.
+ALT_UTIL_CM, FILA_CM, CAP_TAULA_CM, FOTOS_MIN_CM, LLEGENDA_CM = 25.6, .87, 2.4, 5.5, 2.5
+
+
+def parteix_pagina(p, k=0):
+    taules = [t for t in p.get('taules', []) if t['format'] == 'taula_producte']
+    altres = [t for t in p.get('taules', []) if t['format'] != 'taula_producte']
+    f = .82 ** k          # k > 0: la mesura real al Chrome ha dit que no hi cabia; es parteix més
+    alt_util = ALT_UTIL_CM * f
+    lim = (ALT_UTIL_CM - (FOTOS_MIN_CM if p.get('fotos') else 0) - (LLEGENDA_CM if llegenda_html(p) else 0) - 2.0 * len(altres)) * f
+    if sum(CAP_TAULA_CM + FILA_CM * len(t['files']) for t in taules) <= lim: return [p]
+    pags, resta = [[]], lim
+    for t in taules:
+        i = 0
+        while i < len(t['files']):
+            cap = int((resta - CAP_TAULA_CM) // FILA_CM)
+            if cap < 3:
+                pags.append([]); resta = alt_util; continue
+            tros = t['files'][i:i + cap]
+            pags[-1].append(dict(t, files=tros)); i += len(tros)
+            resta -= CAP_TAULA_CM + FILA_CM * len(tros)
+    primera = dict(p, taules=altres + pags[0])
+    cont = [dict(p, taules=tt, fotos=[], insignies=[], textos_pagina=[], sense_classificar=[], continuacio=True) for tt in pags[1:] if tt]
+    return [primera] + cont
+
+
+def pagina_producte(ctx, p, n):
+    h = '<div class="page producte' + (' cont' if p.get('continuacio') else '') + '">' + capcalera(ctx, p)
+    ordre_codis = [r['cel_les'].get('codi') for t in p.get('taules', []) if t['format'] == 'taula_producte' for r in t['files'] if r['cel_les'].get('codi')]
+    if not p.get('continuacio'):
+        h += '<div class="cos">'
+        if p.get('insignies'):
+            h += '<div class="insig">' + ''.join(img(i['asset']) for i in p['insignies']) + '</div>'
+
+        def idx(f):
+            ii = [ordre_codis.index(c['codi']) for c in (f.get('codis') or [{'codi': f.get('codi')}]) if c['codi'] in ordre_codis]
+            return min(ii) if ii else 99
+        fotos = agrupa_fotos(sorted(p.get('fotos', []), key=idx))
+        nc = columnes_fotos(len(fotos))
+        h += f'<div class="fotos n{len(fotos)} c{nc}" style="grid-template-columns:repeat({nc},1fr)">'
+        for k, f in enumerate(fotos):
+            # l'última foto d'una fila incompleta s'estira fins al final de la fila (centrada), com abans amb 3, 5, 7...
+            sobra = len(fotos) % nc
+            est = f' style="grid-column:span {nc - sobra + 1}"' if sobra and k == len(fotos) - 1 else ''
+            h += f'<figure{est}>{img(f["asset"])}{etiqueta_foto(f) if f.get("codi") else ""}</figure>'
+        h += '</div></div>'
+        amb_foto = {c['codi'] for f in p.get('fotos', []) for c in (f.get('codis') or [{'codi': f.get('codi')}])}
+        sense_foto = sorted(set(ordre_codis) - amb_foto)
+        if sense_foto: ctx.avisos.append(f'p{p["n"]}: codis sense foto (només a la taula): {", ".join(sense_foto)}')
+        for t in p.get('taules', []):
+            if t['format'] == 'nota': h += nota_html(t)
+        h += llegenda_html(p)
     for t in p.get('taules', []):
         if t['format'] == 'taula_producte': h += '<div class="tau-box">' + taula_html(ctx, t) + '</div>'
     return h + peu(ctx, p, n) + '</div>'
 
 
+def parteix_accessoris(p, k=0):
+    """Pàgines d'accessoris amb massa taules (G10 p.32: 14 taules, se superposaven): es reparteixen en pàgines que hi càpiguen."""
+    taules = list(enumerate([t for t in p['taules'] if t['format'] == 'taula_producte'], 1))     # mateixa numeració que taula_ordre de les fotos
+    altres = [t for t in p['taules'] if t['format'] != 'taula_producte']
+    if len(taules) <= 1: return [p]
+
+    def alt(kt, t):
+        doble = 2 if any(c.get('bloc') == 2 for c in t['columnes']) else 1      # taula doble: ocupa les dues columnes
+        return doble * (2.4 + .62 * len(t['files']) + (3.0 if any(f.get('taula_ordre') == kt for f in p.get('fotos', [])) else 0))
+    cap = 2 * 23.5 * .82 ** k          # dues columnes de ~24 cm útils; k > 0: la mesura real ha dit que no hi cabia
+    if sum(alt(k, t) for k, t in taules) <= cap: return [p]
+    grups, acum = [[]], 0
+    for kt, t in taules:
+        if grups[-1] and acum + alt(kt, t) > cap * .9: grups.append([]); acum = 0
+        grups[-1].append((kt, t)); acum += alt(kt, t)
+    out = []
+    for i, g in enumerate(grups):
+        ks = {kt for kt, _ in g}; renum = {kt: j for j, (kt, _) in enumerate(g, 1)}
+        out.append(dict(p, taules=(altres if not i else []) + [t for _, t in g], fotos=[dict(f, taula_ordre=renum[f['taula_ordre']]) for f in p.get('fotos', []) if f.get('taula_ordre') in ks],
+                        **({'continuacio': True} if i else {})))
+    return out
+
+
 def pagina_accessoris(ctx, p, n):
     h = '<div class="page accessoris">' + capcalera(ctx, p)
     taules = [t for t in p['taules'] if t['format'] == 'taula_producte']
-    cols = 1 if len(taules) <= 3 else 2
+    cols = 1 if len(taules) <= 1 else 2
     h += f'<div class="acc-grid c{cols}">'
     for k, t in enumerate(taules, 1):
         fots = [f for f in p.get('fotos', []) if f.get('taula_ordre') == k]
@@ -533,7 +628,16 @@ document.querySelectorAll('.page.info').forEach(function(pg){
 CSS = open(os.path.join(HERE, 'estil.css'), encoding='utf8').read()
 
 
-def construeix_html(dades, preus):
+def expandeix(p, k):
+    if p['tipus'] == 'producte': return parteix_pagina(p, k)
+    if p['tipus'] == 'accessoris': return parteix_accessoris(p, k)
+    return [p]
+
+
+def construeix_html(dades, preus, estrenyer=None):
+    """estrenyer: {n original: k} pàgines que a la passada anterior es desbordaven (es parteixen més)."""
+    estrenyer = estrenyer or {}
+    dades = dict(dades, pagines=[q for p in dades['pagines'] for q in expandeix(p, estrenyer.get(p['n'], 0))])
     ctx = Ctx(dades, preus)
     vars_ = ':root{' + ''.join(f'--{k.replace("_", "-")}:{v};' for k, v in ctx.colors.items()) + '}'
     cos = [TIPUS[p['tipus']](ctx, p, i) for i, p in enumerate(dades['pagines'], 1)]
@@ -545,20 +649,52 @@ def construeix_html(dades, preus):
 def genera_pdf(html_path, pdf_path):
     perfil = tempfile.mkdtemp(prefix='chrome-', dir=os.path.join(ROOT, 'treball'))       # perfil propi: es poden generar diversos grups alhora
     try:
-        cmd = [CHROME, '--headless=new', '--disable-gpu'] + (['--no-sandbox', '--disable-dev-shm-usage'] if os.environ.get('CHROME_NO_SANDBOX') else []) + [ '--no-pdf-header-footer', '--allow-file-access-from-files',
-               f'--user-data-dir={perfil}', f'--print-to-pdf={pdf_path}', 'file://' + os.path.abspath(html_path)]
+        cmd = CHROME_ARGS() + ['--no-pdf-header-footer', f'--user-data-dir={perfil}', f'--print-to-pdf={pdf_path}', 'file://' + os.path.abspath(html_path)]
         r = subprocess.run(cmd, capture_output=True, text=True, timeout=300)
     finally:
         shutil.rmtree(perfil, ignore_errors=True)
     if not os.path.exists(pdf_path): raise RuntimeError('Chrome no ha generat el PDF: ' + r.stderr[-500:])
 
 
+MESURA_JS = r'''<script>window.addEventListener('load', function(){ var CM = 37.795, r = [];
+  document.querySelectorAll('.page.producte, .page.accessoris').forEach(function(pg, i){
+    var t = pg.getBoundingClientRect().top, lim = t + (29.7 - 1.4) * CM + 2;
+    var mal = Array.from(pg.querySelectorAll('.tau tr, .acc-card, .llegenda, .nota-caixa')).some(function(e){ var b = e.getBoundingClientRect(); return b.height > 0 && (b.bottom > lim || b.right > pg.getBoundingClientRect().right + 2); });
+    if (mal) r.push(Array.prototype.indexOf.call(document.querySelectorAll('.page'), pg) + 1);
+  });
+  var pre = document.createElement('pre'); pre.id = 'mesura'; pre.textContent = JSON.stringify(r); document.body.appendChild(pre); });</script>'''
+
+
+def pagines_desbordades(html_path):
+    """Mesura real al Chrome: pàgines (1..N) on alguna fila o targeta passa per sota del peu o fora del full."""
+    doc = open(html_path, encoding='utf8').read().replace('</body>', MESURA_JS + '</body>')
+    tmp = html_path + '.mesura.html'
+    open(tmp, 'w', encoding='utf8').write(doc)
+    perfil = tempfile.mkdtemp(prefix='chrome-m-', dir=os.path.join(ROOT, 'treball'))
+    try:
+        r = subprocess.run(CHROME_ARGS() + [f'--user-data-dir={perfil}', '--window-size=794,1123', '--virtual-time-budget=60000', '--dump-dom',
+                                            'file://' + os.path.abspath(tmp)], capture_output=True, text=True, timeout=300)
+    finally:
+        shutil.rmtree(perfil, ignore_errors=True); os.remove(tmp)
+    m = re.search(r'<pre id="mesura">(.*?)</pre>', r.stdout, re.S)
+    return json.loads(m.group(1)) if m else []
+
+
 def renderitza(dades, preus, sortida):
     global BASE
     os.makedirs(os.path.dirname(sortida), exist_ok=True)
     BASE = os.path.relpath(ROOT, os.path.dirname(os.path.abspath(sortida))) + '/'
-    doc, ctx = construeix_html(dades, preus)
-    open(sortida + '.html', 'w', encoding='utf8').write(doc)
+    estrenyer = {}
+    for passada in range(4):
+        doc, ctx = construeix_html(dades, preus, estrenyer)
+        open(sortida + '.html', 'w', encoding='utf8').write(doc)
+        desb = pagines_desbordades(sortida + '.html')
+        if not desb: break
+        for i in desb:
+            n = ctx.pagines[i - 1]['n']
+            if ctx.pagines[i - 1]['tipus'] in ('producte', 'accessoris'): estrenyer[n] = estrenyer.get(n, 0) + 1
+        if passada == 3 or not any(ctx.pagines[i - 1]['tipus'] in ('producte', 'accessoris') for i in desb):
+            ctx.avisos += [f'p{i} (renderitzada): el contingut no hi cap i queda tallat' for i in desb]; break
     if os.path.exists(sortida + '.pdf'): os.remove(sortida + '.pdf')
     genera_pdf(sortida + '.html', sortida + '.pdf')
     return ctx

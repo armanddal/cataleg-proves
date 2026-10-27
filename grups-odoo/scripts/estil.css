@@ -34,10 +34,8 @@ img { display: block }
 .insig img { width: 2.4cm; margin-bottom: .1cm }
 .fotos { flex: 1; min-height: 0; display: grid; grid-template-columns: 1fr 1fr; grid-auto-rows: 1fr; gap: .2cm .3cm }
 .fotos.n1 { grid-template-columns: 1fr }
-.fotos.n3 figure:nth-child(3) { grid-column: 1 / 3 }
-.fotos.n5 figure:nth-child(5) { grid-column: 1 / 3 }
-.fotos.n7 figure:nth-child(7) { grid-column: 1 / 3 }
-.fotos.n9 figure:nth-child(9) { grid-column: 1 / 3 }
+.fotos.c4 .et, .fotos.c5 .et { min-width: 0; font-size: 8.5pt }
+.et .mes { font-style: normal; font-size: 8pt; align-self: center }
 figure { margin: 0; display: flex; flex-direction: column; align-items: center; min-height: 0; min-width: 0 }
 figure img { flex: 1; min-height: 0; max-width: 100%; object-fit: contain }
 .et { display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: center; gap: .05cm .35cm; margin-top: .05cm; border-top: 1px solid #000; border-bottom: 1px solid #000; padding: .03cm .1cm; font: 10pt Calibri, Carlito, Arial, sans-serif; min-width: 5cm; flex: none }
@@ -68,12 +66,14 @@ figure img { flex: 1; min-height: 0; max-width: 100%; object-fit: contain }
 .ml-tit .lt { border-color: #fff }
 
 /* accessoris */
-.acc-grid { flex: 1; min-height: 0; display: grid; gap: .4cm .6cm; padding: .3cm 1cm 0; grid-auto-rows: 1fr }
-.acc-grid.c1 { grid-template-columns: 11cm; justify-content: center }
-.acc-grid.c2 { grid-template-columns: 1fr 1fr }
-.acc-card { display: flex; flex-direction: column; min-height: 0 }
+/* accessoris: quadrícula de 2 columnes amb files d'alçada natural. Si no hi caben, parteix_accessoris() les passa a una altra pàgina
+   (renderitza.py ho mesura al Chrome); abans les files eren iguals i una taula llarga trepitjava la del costat. */
+.acc-grid { flex: 1; min-height: 0; display: grid; grid-template-columns: 1fr 1fr; align-content: start; align-items: start; gap: .45cm .6cm; padding: .3cm 1cm 0 }
+.acc-grid.c1 { grid-template-columns: 13cm; justify-content: center }
+.acc-card { display: flex; flex-direction: column; min-width: 0 }
 .acc-card.full { grid-column: 1 / -1 }
-.acc-fotos { flex: 1; min-height: 0; display: flex; gap: .3cm; justify-content: center; align-items: center; padding-bottom: .2cm }
+.acc-fotos { height: 3cm; display: flex; gap: .3cm; justify-content: center; align-items: center; padding-bottom: .2cm }
+.acc-fotos:empty { display: none }
 .acc-fotos img { max-height: 100%; max-width: 48%; min-height: 0; object-fit: contain }
 .accessoris .tau { font-size: 9pt }
 .accessoris .tau thead th { height: .8cm }
