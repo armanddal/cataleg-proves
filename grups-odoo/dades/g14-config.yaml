@@ -1,0 +1,9824 @@
+# Generat per scripts/genera_config.py --grup 14 (editable; es pot regenerar)
+grup:
+  numero: 14
+  codi_odoo: G14
+families:
+- clau: MUEBLES CAFETEROS
+  noms:
+    es: MUEBLES CAFETEROS
+    en: COFFEE FURNITURE
+    fr: MOBILIER DE CAFÉ
+  sequence: 10
+  tipus: producte
+  pagina: p06
+  taula: p06-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: calaixos
+    etiqueta: null
+  - codi: prestatge
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '13026509'
+    ordre: 10
+    valors:
+      calaixos:
+        es: '2'
+        en: '2'
+        fr: '2'
+      prestatge:
+        es: '2'
+        en: '2'
+        fr: '2'
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: '14026509'
+    ordre: 20
+    valors:
+      calaixos:
+        es: '3'
+        en: '3'
+        fr: '3'
+      prestatge:
+        es: '4'
+        en: '4'
+        fr: '4'
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: '15026509'
+    ordre: 30
+    valors:
+      calaixos:
+        es: '3'
+        en: '3'
+        fr: '3'
+      prestatge:
+        es: '4'
+        en: '4'
+        fr: '4'
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: '16026509'
+    ordre: 40
+    valors:
+      calaixos:
+        es: '3'
+        en: '3'
+        fr: '3'
+      prestatge:
+        es: '4'
+        en: '4'
+        fr: '4'
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+  compartits: []
+- clau: MUEBLES CON ESTANTES
+  noms:
+    es: MUEBLES CON ESTANTES
+    en: FURNITURE WITH SHELVES
+    fr: MEUBLES AVEC ÉTAGÈRES
+  sequence: 20
+  tipus: producte
+  pagina: p07
+  taula: p07-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: prestatge
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '14476009'
+    ordre: 10
+    valors:
+      prestatge:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '16344109'
+    ordre: 20
+    valors:
+      prestatge:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '17344109'
+    ordre: 30
+    valors:
+      prestatge:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '19344109'
+    ordre: 40
+    valors:
+      prestatge:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '10444109'
+    ordre: 50
+    valors:
+      prestatge:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '19755009'
+    ordre: 60
+    valors:
+      prestatge:
+        es: '3'
+        en: '3'
+        fr: '3'
+  compartits: []
+- clau: MESAS CON PUERTAS
+  noms:
+    es: MESAS CON PUERTAS
+    en: TABLES WITH DOORS
+    fr: TABLES AVEC PORTES
+  sequence: 30
+  tipus: producte
+  pagina: p10
+  taula: p10-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: portes_corredisses
+    etiqueta: null
+  - codi: prestatge
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 18006PMF
+    ordre: 10
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes_corredisses:
+        es: '-'
+        en: '-'
+        fr: '-'
+      prestatge:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: 12106PMF
+    ordre: 20
+    valors:
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+      prestatge:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: 16106PMF
+    ordre: 30
+    valors:
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+      prestatge:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: 10206PMF
+    ordre: 40
+    valors:
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+      prestatge:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: 18007PMF
+    ordre: 50
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes_corredisses:
+        es: '-'
+        en: '-'
+        fr: '-'
+      prestatge:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: 12107PMF
+    ordre: 60
+    valors:
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+      prestatge:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: 16107PMF
+    ordre: 70
+    valors:
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+      prestatge:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: 10207PMF
+    ordre: 80
+    valors:
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+      prestatge:
+        es: '2'
+        en: '2'
+        fr: '2'
+  compartits: []
+- clau: MESAS CON PUERTAS Y CAJONES
+  noms:
+    es: MESAS CON PUERTAS Y CAJONES
+    en: TABLES WITH DOORS AND DRAWERS
+    fr: TABLES AVEC PORTES ET TIROIRS
+  sequence: 40
+  tipus: producte
+  pagina: p11
+  taula: p11-t2
+  blocs: 2
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: calaixos
+    etiqueta: null
+  - codi: prestatge
+    etiqueta: null
+  - codi: portes_corredisses
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 1616DBPM
+    ordre: 10
+    valors:
+      calaixos:
+        es: '3'
+        en: '3'
+        fr: '3'
+      prestatge:
+        es: '2'
+        en: '2'
+        fr: '2'
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: 1616IBPM
+    ordre: 1010
+    valors:
+      calaixos:
+        es: '3'
+        en: '3'
+        fr: '3'
+      prestatge:
+        es: '2'
+        en: '2'
+        fr: '2'
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: 1026DBPM
+    ordre: 20
+    valors:
+      calaixos:
+        es: '3'
+        en: '3'
+        fr: '3'
+      prestatge:
+        es: '2'
+        en: '2'
+        fr: '2'
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: 1026IBPM
+    ordre: 1020
+    valors:
+      calaixos:
+        es: '3'
+        en: '3'
+        fr: '3'
+      prestatge:
+        es: '2'
+        en: '2'
+        fr: '2'
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: 1617DBPM
+    ordre: 30
+    valors:
+      calaixos:
+        es: '3'
+        en: '3'
+        fr: '3'
+      prestatge:
+        es: '2'
+        en: '2'
+        fr: '2'
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: 1617IBPM
+    ordre: 1030
+    valors:
+      calaixos:
+        es: '3'
+        en: '3'
+        fr: '3'
+      prestatge:
+        es: '2'
+        en: '2'
+        fr: '2'
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: 1027DBPM
+    ordre: 40
+    valors:
+      calaixos:
+        es: '3'
+        en: '3'
+        fr: '3'
+      prestatge:
+        es: '2'
+        en: '2'
+        fr: '2'
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: 1027IBPM
+    ordre: 1040
+    valors:
+      calaixos:
+        es: '3'
+        en: '3'
+        fr: '3'
+      prestatge:
+        es: '2'
+        en: '2'
+        fr: '2'
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+  compartits: []
+- clau: ARMARIOS CON PUERTAS
+  noms:
+    es: ARMARIOS CON PUERTAS
+    en: CABINETS WITH DOORS
+    fr: ARMOIRES AVEC PORTES
+  sequence: 50
+  tipus: producte
+  pagina: p12
+  taula: p12-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: portes_corredisses
+    etiqueta: null
+  - codi: prestatge
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '10000420'
+    ordre: 10
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes_corredisses:
+        es: '-'
+        en: '-'
+        fr: '-'
+      prestatge:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '16000420'
+    ordre: 20
+    valors:
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      portes_corredisses:
+        es: '-'
+        en: '-'
+        fr: '-'
+      prestatge:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '11000420'
+    ordre: 30
+    valors:
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+      prestatge:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '12000420'
+    ordre: 40
+    valors:
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+      prestatge:
+        es: '4'
+        en: '4'
+        fr: '4'
+  compartits: []
+- clau: MUEBLES PARA TERRAZAS
+  noms:
+    es: MUEBLES PARA TERRAZAS
+    en: TERRACE FURNITURE
+    fr: MEUBLES DE TERRASSE
+  sequence: 60
+  tipus: producte
+  pagina: p13
+  taula: p13-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: prestatge
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '11020420'
+    ordre: 10
+    valors:
+      prestatge:
+        es: '4'
+        en: '4'
+        fr: '4'
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: '12020420'
+    ordre: 20
+    valors:
+      prestatge:
+        es: '4'
+        en: '4'
+        fr: '4'
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+  compartits: []
+- clau: ARMARIOS MURALES
+  noms:
+    es: ARMARIOS MURALES
+    en: WALL CABINETS
+    fr: ARMOIRES MURALES
+  sequence: 70
+  tipus: producte
+  pagina: p14
+  taula: p14-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: portes_corredisses
+    etiqueta: null
+  - codi: prestatge
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '15310420'
+    ordre: 10
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes_corredisses:
+        es: '-'
+        en: '-'
+        fr: '-'
+      prestatge:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: '16310420'
+    ordre: 20
+    valors:
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      portes_corredisses:
+        es: '-'
+        en: '-'
+        fr: '-'
+      prestatge:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: '12010420'
+    ordre: 30
+    valors:
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+      prestatge:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: '13010420'
+    ordre: 40
+    valors:
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+      prestatge:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: '10310420'
+    ordre: 50
+    valors:
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+      portes_corredisses:
+        es: '-'
+        en: '-'
+        fr: '-'
+      prestatge:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: '12310420'
+    ordre: 60
+    valors:
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+      portes_corredisses:
+        es: '-'
+        en: '-'
+        fr: '-'
+      prestatge:
+        es: '2'
+        en: '2'
+        fr: '2'
+  compartits: []
+- clau: MESAS MURALES SIN ESTANTE
+  noms:
+    es: MESAS MURALES SIN ESTANTE
+    en: WALL TABLES WITHOUT SHELF
+    fr: TABLES MURALES SANS ÉTAGÈRE
+  sequence: 80
+  tipus: producte
+  pagina: p19
+  taula: p19-t4
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: muntatge
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 1D80550M
+    ordre: 10
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M80550M
+    ordre: 20
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D01550M
+    ordre: 30
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M01550M
+    ordre: 40
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D21550M
+    ordre: 50
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M21550M
+    ordre: 60
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D41550M
+    ordre: 70
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M41550M
+    ordre: 80
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D80070M
+    ordre: 90
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M80070M
+    ordre: 100
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D21070M
+    ordre: 110
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M21070M
+    ordre: 120
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D61070M
+    ordre: 130
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M61070M
+    ordre: 140
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D02070M
+    ordre: 150
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M02070M
+    ordre: 160
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  compartits: []
+- clau: MESAS MURALES SIN ESTANTE 600
+  noms:
+    es: MESAS MURALES SIN ESTANTE 600
+    en: WALL TABLES WITHOUT SHELF 600
+    fr: TABLES MURALES SANS ÉTAGÈRE 600
+  sequence: 90
+  tipus: producte
+  pagina: p19
+  taula: p19-t5
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: muntatge
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 1D80060M
+    ordre: 10
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M80060M
+    ordre: 20
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D21060M
+    ordre: 30
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M21060M
+    ordre: 40
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D61060M
+    ordre: 50
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M61060M
+    ordre: 60
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D02060M
+    ordre: 70
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M02060M
+    ordre: 80
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D21080M
+    ordre: 90
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M21080M
+    ordre: 100
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D61080M
+    ordre: 110
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M61080M
+    ordre: 120
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D02080M
+    ordre: 130
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M02080M
+    ordre: 140
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D42080M
+    ordre: 150
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M42080M
+    ordre: 160
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  compartits: []
+- clau: MESAS CENTRALES SIN ESTANTE
+  noms:
+    es: MESAS CENTRALES SIN ESTANTE
+    en: CENTRAL TABLES WITHOUT SHELF
+    fr: TABLES CENTRALES SANS ÉTAGÈRE
+  sequence: 100
+  tipus: producte
+  pagina: p20
+  taula: p20-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: muntatge
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 1D80060C
+    ordre: 10
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M80060C
+    ordre: 20
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D21060C
+    ordre: 30
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M21060C
+    ordre: 40
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D61060C
+    ordre: 50
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M61060C
+    ordre: 60
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D02060C
+    ordre: 70
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M02060C
+    ordre: 80
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D21080C
+    ordre: 90
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M21080C
+    ordre: 100
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D61080C
+    ordre: 110
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M61080C
+    ordre: 120
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D02080C
+    ordre: 130
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M02080C
+    ordre: 140
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D42080C
+    ordre: 150
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M42080C
+    ordre: 160
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  compartits: []
+- clau: MESAS CENTRALES SIN ESTANTE 700
+  noms:
+    es: MESAS CENTRALES SIN ESTANTE 700
+    en: CENTRAL TABLES WITHOUT SHELF 700
+    fr: TABLES CENTRALES SANS ÉTAGÈRE 700
+  sequence: 110
+  tipus: producte
+  pagina: p20
+  taula: p20-t3
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: muntatge
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 1D80070C
+    ordre: 10
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M80070C
+    ordre: 20
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D21070C
+    ordre: 30
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M21070C
+    ordre: 40
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D61070C
+    ordre: 50
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M61070C
+    ordre: 60
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D02070C
+    ordre: 70
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M02070C
+    ordre: 80
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  compartits: []
+- clau: MESAS MURALES CON 1 ESTANTE
+  noms:
+    es: MESAS MURALES CON 1 ESTANTE
+    en: WALL TABLES WITH 1 SHELF
+    fr: TABLES MURALES AVEC 1 ÉTAGÈRE
+  sequence: 120
+  tipus: producte
+  pagina: p21
+  taula: p21-t4
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: muntatge
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 1D80551M
+    ordre: 10
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M80551M
+    ordre: 20
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D01551M
+    ordre: 30
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M01551M
+    ordre: 40
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D21551M
+    ordre: 50
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M21551M
+    ordre: 60
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D41551M
+    ordre: 70
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M41551M
+    ordre: 80
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D80071M
+    ordre: 90
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M80071M
+    ordre: 100
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D21071M
+    ordre: 110
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M21071M
+    ordre: 120
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D61071M
+    ordre: 130
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M61071M
+    ordre: 140
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D02071M
+    ordre: 150
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M02071M
+    ordre: 160
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  compartits: []
+- clau: MESAS MURALES CON 1 ESTANTE 600
+  noms:
+    es: MESAS MURALES CON 1 ESTANTE 600
+    en: WALL TABLES WITH 1 SHELF 600
+    fr: TABLES MURALES AVEC 1 ÉTAGÈRE 600
+  sequence: 130
+  tipus: producte
+  pagina: p21
+  taula: p21-t5
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: muntatge
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 1D80061M
+    ordre: 10
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M80061M
+    ordre: 20
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D21061M
+    ordre: 30
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M21061M
+    ordre: 40
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D61061M
+    ordre: 50
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M61061M
+    ordre: 60
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D02061M
+    ordre: 70
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M02061M
+    ordre: 80
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D21081M
+    ordre: 90
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M21081M
+    ordre: 100
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D61081M
+    ordre: 110
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M61081M
+    ordre: 120
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D02081M
+    ordre: 130
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M02081M
+    ordre: 140
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D42081M
+    ordre: 150
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M42081M
+    ordre: 160
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  compartits: []
+- clau: MESAS CENTRALES CON 1 ESTANTE
+  noms:
+    es: MESAS CENTRALES CON 1 ESTANTE
+    en: CENTRAL TABLES WITH 1 SHELF
+    fr: TABLES CENTRALES AVEC 1 ÉTAGÈRE
+  sequence: 140
+  tipus: producte
+  pagina: p22
+  taula: p22-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: muntatge
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 1D80061C
+    ordre: 10
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M80061C
+    ordre: 20
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D21061C
+    ordre: 30
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M21061C
+    ordre: 40
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D61061C
+    ordre: 50
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M61061C
+    ordre: 60
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D02061C
+    ordre: 70
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M02061C
+    ordre: 80
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D21081C
+    ordre: 90
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M21081C
+    ordre: 100
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D61081C
+    ordre: 110
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M61081C
+    ordre: 120
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D02081C
+    ordre: 130
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M02081C
+    ordre: 140
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D42081C
+    ordre: 150
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M42081C
+    ordre: 160
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  compartits: []
+- clau: MESAS CENTRALES CON 1 ESTANTE 700
+  noms:
+    es: MESAS CENTRALES CON 1 ESTANTE 700
+    en: CENTRAL TABLES WITH 1 SHELF 700
+    fr: TABLES CENTRALES AVEC 1 ÉTAGÈRE 700
+  sequence: 150
+  tipus: producte
+  pagina: p22
+  taula: p22-t3
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: muntatge
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 1D80071C
+    ordre: 10
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M80071C
+    ordre: 20
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D21071C
+    ordre: 30
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M21071C
+    ordre: 40
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D61071C
+    ordre: 50
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M61071C
+    ordre: 60
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D02071C
+    ordre: 70
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M02071C
+    ordre: 80
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  compartits: []
+- clau: MESAS MURALES CON 2 ESTANTES
+  noms:
+    es: MESAS MURALES CON 2 ESTANTES
+    en: WALL TABLES WITH 2 SHELFS
+    fr: TABLES MURALES AVEC 2 ÉTAGÈRES
+  sequence: 160
+  tipus: producte
+  pagina: p23
+  taula: p23-t4
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: muntatge
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 1D80552M
+    ordre: 10
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M80552M
+    ordre: 20
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D01552M
+    ordre: 30
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M01552M
+    ordre: 40
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D21552M
+    ordre: 50
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M21552M
+    ordre: 60
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D41552M
+    ordre: 70
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M41552M
+    ordre: 80
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D80072M
+    ordre: 90
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M80072M
+    ordre: 100
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D21072M
+    ordre: 110
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M21072M
+    ordre: 120
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D61072M
+    ordre: 130
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M61072M
+    ordre: 140
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D02072M
+    ordre: 150
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M02072M
+    ordre: 160
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  compartits: []
+- clau: MESAS MURALES CON 2 ESTANTES 600
+  noms:
+    es: MESAS MURALES CON 2 ESTANTES 600
+    en: WALL TABLES WITH 2 SHELFS 600
+    fr: TABLES MURALES AVEC 2 ÉTAGÈRES 600
+  sequence: 170
+  tipus: producte
+  pagina: p23
+  taula: p23-t5
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: muntatge
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 1D80062M
+    ordre: 10
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M80062M
+    ordre: 20
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D21062M
+    ordre: 30
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M21062M
+    ordre: 40
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D61062M
+    ordre: 50
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M61062M
+    ordre: 60
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D02062M
+    ordre: 70
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M02062M
+    ordre: 80
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  compartits: []
+- clau: MESAS CENTRALES CON 2 ESTANTES
+  noms:
+    es: MESAS CENTRALES CON 2 ESTANTES
+    en: CENTRAL TABLES WITH 2 SHELFS
+    fr: TABLES CENTRALES AVEC 2 ÉTAGÈRES
+  sequence: 180
+  tipus: producte
+  pagina: p24
+  taula: p24-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: muntatge
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 1D80062C
+    ordre: 10
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M80062C
+    ordre: 20
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D21062C
+    ordre: 30
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M21062C
+    ordre: 40
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D61062C
+    ordre: 50
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M61062C
+    ordre: 60
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D02062C
+    ordre: 70
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M02062C
+    ordre: 80
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  compartits: []
+- clau: MESAS CENTRALES CON 2 ESTANTES 700
+  noms:
+    es: MESAS CENTRALES CON 2 ESTANTES 700
+    en: CENTRAL TABLES WITH 2 SHELFS 700
+    fr: TABLES CENTRALES AVEC 2 ÉTAGÈRES 700
+  sequence: 190
+  tipus: producte
+  pagina: p24
+  taula: p24-t3
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: muntatge
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 1D80072C
+    ordre: 10
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M80072C
+    ordre: 20
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D21072C
+    ordre: 30
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M21072C
+    ordre: 40
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D61072C
+    ordre: 50
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M61072C
+    ordre: 60
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D02072C
+    ordre: 70
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M02072C
+    ordre: 80
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  compartits: []
+- clau: MESAS CHEFF CON 1 SENO SIN ESTANTE
+  noms:
+    es: MESAS CHEFF CON 1 SENO SIN ESTANTE
+    en: CHEF TABLES WITH 1 SINK WITHOUT SHELF
+    fr: TABLES DE CHEF AVEC 1 ÉVIER SANS ÉTAGÈRE
+  sequence: 200
+  tipus: producte
+  pagina: p25
+  taula: p25-t2
+  blocs: 2
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: mesures_interiors
+    etiqueta: null
+  - codi: muntatge
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 1D2106RD
+    ordre: 10
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1D2106RI
+    ordre: 1010
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M2106RD
+    ordre: 20
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1M2106RI
+    ordre: 1020
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D6106RD
+    ordre: 30
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1D6106RI
+    ordre: 1030
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M6106RD
+    ordre: 40
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1M6106RI
+    ordre: 1040
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D0206RD
+    ordre: 50
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1D0206RI
+    ordre: 1050
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M0206RD
+    ordre: 60
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1M0206RI
+    ordre: 1060
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D2107RD
+    ordre: 70
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1D2107RI
+    ordre: 1070
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M2107RD
+    ordre: 80
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1M2107RI
+    ordre: 1080
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D6107RD
+    ordre: 90
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1D6107RI
+    ordre: 1090
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M6107RD
+    ordre: 100
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1M6107RI
+    ordre: 1100
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D0207RD
+    ordre: 110
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1D0207RI
+    ordre: 1110
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M0207RD
+    ordre: 120
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1M0207RI
+    ordre: 1120
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  compartits: []
+- clau: MESAS CHEFF CON 1 SENO Y 1 ESTANTE
+  noms:
+    es: MESAS CHEFF CON 1 SENO Y 1 ESTANTE
+    en: CHEF TABLES WITH 1 SINK AND 1 SHELF
+    fr: TABLES DE CHEF AVEC 1 ÉVIER ET 1 ÉTAGÈRE
+  sequence: 210
+  tipus: producte
+  pagina: p26
+  taula: p26-t2
+  blocs: 2
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: mesures_interiors
+    etiqueta: null
+  - codi: muntatge
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 1D2106ED
+    ordre: 10
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1D2106EI
+    ordre: 1010
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M2106ED
+    ordre: 20
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1M2106EI
+    ordre: 1020
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D6106ED
+    ordre: 30
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1D6106EI
+    ordre: 1030
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M6106ED
+    ordre: 40
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1M6106EI
+    ordre: 1040
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D0206ED
+    ordre: 50
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1D0206EI
+    ordre: 1050
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M0206ED
+    ordre: 60
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1M0206EI
+    ordre: 1060
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D2107ED
+    ordre: 70
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1D2107EI
+    ordre: 1070
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M2107ED
+    ordre: 80
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1M2107EI
+    ordre: 1080
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D6107ED
+    ordre: 90
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1D6107EI
+    ordre: 1090
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M6107ED
+    ordre: 100
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1M6107EI
+    ordre: 1100
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1D0207ED
+    ordre: 110
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1D0207EI
+    ordre: 1110
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1M0207ED
+    ordre: 120
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1M0207EI
+    ordre: 1120
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  compartits: []
+- clau: COMPLEMENTOS MESAS
+  noms:
+    es: COMPLEMENTOS MESAS
+    en: TABLE ACCESSORIES
+    fr: ACCESSOIRES DE TABLE
+  sequence: 220
+  tipus: producte
+  pagina: p27
+  taula: p27-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: mesures_2
+    etiqueta: null
+  - codi: calaixos
+    etiqueta: null
+  - codi: guies_inclinades
+    etiqueta:
+      es: Pares de guías
+      en: Pair of guides
+      fr: Paire de guides
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '12030200'
+    ordre: 10
+    valors:
+      mesures_2:
+        es: Todas All Toutes
+        en: Todas All Toutes
+        fr: Todas All Toutes
+      calaixos:
+        es: '1'
+        en: '1'
+        fr: '1'
+      guies_inclinades:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 10406C3B
+    ordre: 20
+    valors:
+      mesures_2:
+        es: '600'
+        en: '600'
+        fr: '600'
+      calaixos:
+        es: '3'
+        en: '3'
+        fr: '3'
+      guies_inclinades:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 10407C3B
+    ordre: 30
+    valors:
+      mesures_2:
+        es: 700/800
+        en: 700/800
+        fr: 700/800
+      calaixos:
+        es: '3'
+        en: '3'
+        fr: '3'
+      guies_inclinades:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '10430200'
+    ordre: 40
+    valors:
+      mesures_2:
+        es: '600'
+        en: '600'
+        fr: '600'
+      calaixos:
+        es: '1'
+        en: '1'
+        fr: '1'
+      guies_inclinades:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '11430200'
+    ordre: 50
+    valors:
+      mesures_2:
+        es: 700/800
+        en: 700/800
+        fr: 700/800
+      calaixos:
+        es: '1'
+        en: '1'
+        fr: '1'
+      guies_inclinades:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '12330200'
+    ordre: 60
+    valors:
+      mesures_2:
+        es: 600/700/800
+        en: 600/700/800
+        fr: 600/700/800
+      calaixos:
+        es: '-'
+        en: '-'
+        fr: '-'
+      guies_inclinades:
+        es: 7 - GN 1/1
+        en: 7 - GN 1/1
+        fr: 7 - GN 1/1
+  - codi: '17330200'
+    ordre: 70
+    valors:
+      mesures_2:
+        es: 700/800
+        en: 700/800
+        fr: 700/800
+      calaixos:
+        es: '-'
+        en: '-'
+        fr: '-'
+      guies_inclinades:
+        es: 7 - EN 400x600
+        en: 7 - EN 400x600
+        fr: 7 - EN 400x600
+  compartits: []
+- clau: MESAS SNACK, ALTURA 600
+  noms:
+    es: MESAS SNACK, ALTURA 600
+    en: SNACK TABLES, HEIGHT 600
+    fr: TABLES HAUTEUR 600 POUR MATÉRIEL DE CUISINE
+  sequence: 230
+  tipus: producte
+  pagina: p28
+  taula: p28-t4
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: muntatge
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 1080661C
+    ordre: 10
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1021661C
+    ordre: 20
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1061661C
+    ordre: 30
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1002661C
+    ordre: 40
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  compartits: []
+- clau: MESAS SNACK, ALTURA 600 2
+  noms:
+    es: MESAS SNACK, ALTURA 600 2
+    en: SNACK TABLES, HEIGHT 600 2
+    fr: TABLES HAUTEUR 600 POUR MATÉRIEL DE CUISINE 2
+  sequence: 240
+  tipus: producte
+  pagina: p28
+  taula: p28-t5
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: muntatge
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 1080761C
+    ordre: 10
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1021761C
+    ordre: 20
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1061761C
+    ordre: 30
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1002761C
+    ordre: 40
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1042761C
+    ordre: 50
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 1082761C
+    ordre: 60
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  compartits: []
+- clau: MUEBLES PARA TERRAZAS#2
+  noms:
+    es: MUEBLES PARA TERRAZAS
+    en: TERRACE FURNITURE
+    fr: MEUBLES DE TERRASSE
+  sequence: 250
+  tipus: producte
+  pagina: p29
+  taula: p29-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: calaixos
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: muntatge
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 10607APM
+    ordre: 10
+    valors:
+      calaixos:
+        es: '-'
+        en: '-'
+        fr: '-'
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 10707APM
+    ordre: 20
+    valors:
+      calaixos:
+        es: '-'
+        en: '-'
+        fr: '-'
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 100605BM
+    ordre: 30
+    valors:
+      calaixos:
+        es: '3'
+        en: '3'
+        fr: '3'
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 100705BM
+    ordre: 40
+    valors:
+      calaixos:
+        es: '3'
+        en: '3'
+        fr: '3'
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 100606AM
+    ordre: 50
+    valors:
+      calaixos:
+        es: '-'
+        en: '-'
+        fr: '-'
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 100607AM
+    ordre: 60
+    valors:
+      calaixos:
+        es: '-'
+        en: '-'
+        fr: '-'
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 100706AM
+    ordre: 70
+    valors:
+      calaixos:
+        es: '-'
+        en: '-'
+        fr: '-'
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  - codi: 100707AM
+    ordre: 80
+    valors:
+      calaixos:
+        es: '-'
+        en: '-'
+        fr: '-'
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+  compartits: []
+- clau: ESTANTES DE SOBREMESA Y PANTALLAS CALIENTES
+  noms:
+    es: ESTANTES DE SOBREMESA Y PANTALLAS CALIENTES
+    en: TABLETOP SHELVES AND HOT SCREENS
+    fr: ÉTAGÈRES SÛR TABLE ET ÉCRAN CHAUDS
+  sequence: 260
+  tipus: producte
+  pagina: p30
+  taula: p30-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: prestatge
+    etiqueta: null
+  - codi: mesures_2
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '18000300'
+    ordre: 10
+    valors:
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      mesures_2:
+        es: '1200'
+        en: '1200'
+        fr: '1200'
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '13000300'
+    ordre: 20
+    valors:
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      mesures_2:
+        es: '1600'
+        en: '1600'
+        fr: '1600'
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '15000300'
+    ordre: 30
+    valors:
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      mesures_2:
+        es: '2000'
+        en: '2000'
+        fr: '2000'
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 1800030P
+    ordre: 40
+    valors:
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      mesures_2:
+        es: '1200'
+        en: '1200'
+        fr: '1200'
+      potencia_electrica:
+        es: 600 W 230/1V
+        en: 600 W 230/1V
+        fr: 600 W 230/1V
+  - codi: 1300030P
+    ordre: 50
+    valors:
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      mesures_2:
+        es: '1600'
+        en: '1600'
+        fr: '1600'
+      potencia_electrica:
+        es: 900 W 230/1V
+        en: 900 W 230/1V
+        fr: 900 W 230/1V
+  - codi: 1500030P
+    ordre: 60
+    valors:
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      mesures_2:
+        es: '2000'
+        en: '2000'
+        fr: '2000'
+      potencia_electrica:
+        es: 1200 W 230/1V
+        en: 1200 W 230/1V
+        fr: 1200 W 230/1V
+  - codi: '18010300'
+    ordre: 70
+    valors:
+      prestatge:
+        es: '2'
+        en: '2'
+        fr: '2'
+      mesures_2:
+        es: '1200'
+        en: '1200'
+        fr: '1200'
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '13010300'
+    ordre: 80
+    valors:
+      prestatge:
+        es: '2'
+        en: '2'
+        fr: '2'
+      mesures_2:
+        es: '1600'
+        en: '1600'
+        fr: '1600'
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '15010300'
+    ordre: 90
+    valors:
+      prestatge:
+        es: '2'
+        en: '2'
+        fr: '2'
+      mesures_2:
+        es: '2000'
+        en: '2000'
+        fr: '2000'
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 1801030P
+    ordre: 100
+    valors:
+      prestatge:
+        es: '2'
+        en: '2'
+        fr: '2'
+      mesures_2:
+        es: '1200'
+        en: '1200'
+        fr: '1200'
+      potencia_electrica:
+        es: 600 W 230/1V
+        en: 600 W 230/1V
+        fr: 600 W 230/1V
+  - codi: 1301030P
+    ordre: 110
+    valors:
+      prestatge:
+        es: '2'
+        en: '2'
+        fr: '2'
+      mesures_2:
+        es: '1600'
+        en: '1600'
+        fr: '1600'
+      potencia_electrica:
+        es: 900 W 230/1V
+        en: 900 W 230/1V
+        fr: 900 W 230/1V
+  - codi: 1501030P
+    ordre: 120
+    valors:
+      prestatge:
+        es: '2'
+        en: '2'
+        fr: '2'
+      mesures_2:
+        es: '2000'
+        en: '2000'
+        fr: '2000'
+      potencia_electrica:
+        es: 1200 W 230/1V
+        en: 1200 W 230/1V
+        fr: 1200 W 230/1V
+  - codi: '11060201'
+    ordre: 130
+    valors:
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+      mesures_2:
+        es: '1200'
+        en: '1200'
+        fr: '1200'
+      potencia_electrica:
+        es: 600 W 230/1V
+        en: 600 W 230/1V
+        fr: 600 W 230/1V
+  - codi: '12060201'
+    ordre: 140
+    valors:
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+      mesures_2:
+        es: '1600'
+        en: '1600'
+        fr: '1600'
+      potencia_electrica:
+        es: 900 W 230/1V
+        en: 900 W 230/1V
+        fr: 900 W 230/1V
+  - codi: '13060201'
+    ordre: 150
+    valors:
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+      mesures_2:
+        es: '2000'
+        en: '2000'
+        fr: '2000'
+      potencia_electrica:
+        es: 1200 W 230/1V
+        en: 1200 W 230/1V
+        fr: 1200 W 230/1V
+  compartits: []
+- clau: MUEBLES PARA TERRAZAS#3
+  noms:
+    es: MUEBLES PARA TERRAZAS
+    en: TERRACE FURNITURE
+    fr: MEUBLES DE TERRASSE
+  sequence: 270
+  tipus: producte
+  pagina: p35
+  taula: p35-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: calaixos
+    etiqueta: null
+  - codi: prestatge
+    etiqueta: null
+  - codi: muntatge
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 10100G08
+    ordre: 10
+    valors:
+      calaixos:
+        es: '1'
+        en: '1'
+        fr: '1'
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: '10204470'
+    ordre: 20
+    valors:
+      calaixos:
+        es: '-'
+        en: '-'
+        fr: '-'
+      prestatge:
+        es: '2'
+        en: '2'
+        fr: '2'
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: '10224470'
+    ordre: 30
+    valors:
+      calaixos:
+        es: '-'
+        en: '-'
+        fr: '-'
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: '10784470'
+    ordre: 40
+    valors:
+      calaixos:
+        es: '-'
+        en: '-'
+        fr: '-'
+      prestatge:
+        es: '2'
+        en: '2'
+        fr: '2'
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: '10404470'
+    ordre: 50
+    valors:
+      calaixos:
+        es: '-'
+        en: '-'
+        fr: '-'
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: '10704470'
+    ordre: 60
+    valors:
+      calaixos:
+        es: '-'
+        en: '-'
+        fr: '-'
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: '10604470'
+    ordre: 70
+    valors:
+      calaixos:
+        es: '-'
+        en: '-'
+        fr: '-'
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  compartits: []
+- clau: MUEBLES PARA TERRAZAS#4
+  noms:
+    es: MUEBLES PARA TERRAZAS
+    en: TERRACE FURNITURE
+    fr: MEUBLES DE TERRASSE
+  sequence: 280
+  tipus: producte
+  pagina: p36
+  taula: p36-t1
+  blocs: 2
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: distancia
+    etiqueta: null
+  - codi: muntatge
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '16030300'
+    ordre: 10
+    valors:
+      distancia:
+        es: '50'
+        en: '50'
+        fr: '50'
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: '16530300'
+    ordre: 1010
+    valors:
+      distancia:
+        es: '50'
+        en: '50'
+        fr: '50'
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: '18030300'
+    ordre: 20
+    valors:
+      distancia:
+        es: '50'
+        en: '50'
+        fr: '50'
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: '18530300'
+    ordre: 1020
+    valors:
+      distancia:
+        es: '50'
+        en: '50'
+        fr: '50'
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: '10130300'
+    ordre: 30
+    valors:
+      distancia:
+        es: '50'
+        en: '50'
+        fr: '50'
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: '10630300'
+    ordre: 1030
+    valors:
+      distancia:
+        es: '50'
+        en: '50'
+        fr: '50'
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: '12130300'
+    ordre: 40
+    valors:
+      distancia:
+        es: '50'
+        en: '50'
+        fr: '50'
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: '12630300'
+    ordre: 1040
+    valors:
+      distancia:
+        es: '50'
+        en: '50'
+        fr: '50'
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: '10012170'
+    ordre: 50
+    valors:
+      distancia:
+        es: '30'
+        en: '30'
+        fr: '30'
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: '10062170'
+    ordre: 1050
+    valors:
+      distancia:
+        es: '30'
+        en: '30'
+        fr: '30'
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: '10212170'
+    ordre: 60
+    valors:
+      distancia:
+        es: '30'
+        en: '30'
+        fr: '30'
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: '10262170'
+    ordre: 1060
+    valors:
+      distancia:
+        es: '30'
+        en: '30'
+        fr: '30'
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  compartits: []
+- clau: MUEBLES PARA TERRAZAS#5
+  noms:
+    es: MUEBLES PARA TERRAZAS
+    en: TERRACE FURNITURE
+    fr: MEUBLES DE TERRASSE
+  sequence: 290
+  tipus: producte
+  pagina: p37
+  taula: p37-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: prestatge
+    etiqueta: null
+  - codi: distancia
+    etiqueta: null
+  - codi: muntatge
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '11130320'
+    ordre: 10
+    valors:
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+      distancia:
+        es: '20'
+        en: '20'
+        fr: '20'
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: '12130320'
+    ordre: 20
+    valors:
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+      distancia:
+        es: '20'
+        en: '20'
+        fr: '20'
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: '14130320'
+    ordre: 30
+    valors:
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+      distancia:
+        es: '20'
+        en: '20'
+        fr: '20'
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: '15130320'
+    ordre: 40
+    valors:
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+      distancia:
+        es: '20'
+        en: '20'
+        fr: '20'
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1113E320
+    ordre: 50
+    valors:
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      distancia:
+        es: '20'
+        en: '20'
+        fr: '20'
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1213E320
+    ordre: 60
+    valors:
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      distancia:
+        es: '20'
+        en: '20'
+        fr: '20'
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1413E320
+    ordre: 70
+    valors:
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      distancia:
+        es: '20'
+        en: '20'
+        fr: '20'
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  - codi: 1513E320
+    ordre: 80
+    valors:
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      distancia:
+        es: '20'
+        en: '20'
+        fr: '20'
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+  compartits: []
+- clau: MUEBLES PARA TERRAZAS#6
+  noms:
+    es: MUEBLES PARA TERRAZAS
+    en: TERRACE FURNITURE
+    fr: MEUBLES DE TERRASSE
+  sequence: 300
+  tipus: producte
+  pagina: p38
+  taula: p38-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: muntatge
+    etiqueta: null
+  - codi: junta_goma
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 101062RM
+    ordre: 10
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      junta_goma:
+        es: '2'
+        en: '2'
+        fr: '2'
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 151063RM
+    ordre: 20
+    valors:
+      muntatge:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      junta_goma:
+        es: '3'
+        en: '3'
+        fr: '3'
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '17002700'
+    ordre: 30
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+      junta_goma:
+        es: '2'
+        en: '2'
+        fr: '2'
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: '18002700'
+    ordre: 40
+    valors:
+      muntatge:
+        es: OK
+        en: OK
+        fr: OK
+      junta_goma:
+        es: '3'
+        en: '3'
+        fr: '3'
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+  compartits: []
+- clau: MUEBLES PARA TERRAZAS#7
+  noms:
+    es: MUEBLES PARA TERRAZAS
+    en: TERRACE FURNITURE
+    fr: MEUBLES DE TERRASSE
+  sequence: 310
+  tipus: producte
+  pagina: p39
+  taula: p39-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: prestatge
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '10214180'
+    ordre: 10
+    valors:
+      prestatge:
+        es: '2'
+        en: '2'
+        fr: '2'
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: '10014180'
+    ordre: 20
+    valors:
+      prestatge:
+        es: '4'
+        en: '4'
+        fr: '4'
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: '10604180'
+    ordre: 30
+    valors:
+      prestatge:
+        es: '4'
+        en: '4'
+        fr: '4'
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: '10204180'
+    ordre: 40
+    valors:
+      prestatge:
+        es: '8'
+        en: '8'
+        fr: '8'
+      portes:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '10804180'
+    ordre: 50
+    valors:
+      prestatge:
+        es: '6'
+        en: '6'
+        fr: '6'
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '10404180'
+    ordre: 60
+    valors:
+      prestatge:
+        es: '12'
+        en: '12'
+        fr: '12'
+      portes:
+        es: '6'
+        en: '6'
+        fr: '6'
+  compartits: []
+- clau: COMPONENTES ESTANTERÍAS DE ACERO INOXIDABLE
+  noms:
+    es: COMPONENTES ESTANTERÍAS DE ACERO INOXIDABLE
+    en: STAINLESS STEEL SHELVING COMPONENTS
+    fr: COMPOSANTS DE RAYONNAGE EN ACIER INOXYDABLE
+  sequence: 320
+  tipus: producte
+  pagina: p42
+  taula: p42-t2
+  blocs: 2
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '30600110'
+    ordre: 10
+    valors: {}
+  - codi: '30010110'
+    ordre: 1020
+    valors: {}
+  - codi: '30800110'
+    ordre: 30
+    valors: {}
+  - codi: '30210110'
+    ordre: 1040
+    valors: {}
+  - codi: '30204010'
+    ordre: 50
+    valors: {}
+  - codi: '30814010'
+    ordre: 1060
+    valors: {}
+  - codi: '30404010'
+    ordre: 70
+    valors: {}
+  - codi: '30024010'
+    ordre: 1080
+    valors: {}
+  - codi: '30604010'
+    ordre: 90
+    valors: {}
+  - codi: '30224010'
+    ordre: 1100
+    valors: {}
+  - codi: '30804010'
+    ordre: 110
+    valors: {}
+  - codi: '30424010'
+    ordre: 1120
+    valors: {}
+  - codi: '30014010'
+    ordre: 130
+    valors: {}
+  - codi: '30214010'
+    ordre: 140
+    valors: {}
+  - codi: '30414010'
+    ordre: 150
+    valors: {}
+  - codi: '30614010'
+    ordre: 160
+    valors: {}
+  compartits: []
+- clau: ESTANTERÍAS METÁLICAS DE PIE, DE ACERO INOXIDABLE
+  noms:
+    es: ESTANTERÍAS METÁLICAS DE PIE, DE ACERO INOXIDABLE
+    en: STAINLESS STEEL FLOOR STANDING SHELVES
+    fr: ÉTAGÈRES SUR PIEDS EN ACIER INOXYDABLE
+  sequence: 330
+  tipus: producte
+  pagina: p43
+  taula: p43-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: wok
+    etiqueta: null
+  - codi: prestatge
+    etiqueta: null
+  - codi: distancia
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '38004214'
+    ordre: 10
+    valors:
+      wok:
+        es: '225'
+        en: '225'
+        fr: '225'
+      prestatge:
+        es: '4'
+        en: '4'
+        fr: '4'
+      distancia:
+        es: 1,5 mm
+        en: 1,5 mm
+        fr: 1,5 mm
+  - codi: '38004414'
+    ordre: 20
+    valors:
+      wok:
+        es: '125'
+        en: '125'
+        fr: '125'
+      prestatge:
+        es: '4'
+        en: '4'
+        fr: '4'
+      distancia:
+        es: 1,5 mm
+        en: 1,5 mm
+        fr: 1,5 mm
+  - codi: '38004350'
+    ordre: 30
+    valors:
+      wok:
+        es: '115'
+        en: '115'
+        fr: '115'
+      prestatge:
+        es: '4'
+        en: '4'
+        fr: '4'
+      distancia:
+        es: 1,5 mm
+        en: 1,5 mm
+        fr: 1,5 mm
+  - codi: '38005214'
+    ordre: 40
+    valors:
+      wok:
+        es: '225'
+        en: '225'
+        fr: '225'
+      prestatge:
+        es: '5'
+        en: '5'
+        fr: '5'
+      distancia:
+        es: 1,5 mm
+        en: 1,5 mm
+        fr: 1,5 mm
+  - codi: '38005414'
+    ordre: 50
+    valors:
+      wok:
+        es: '125'
+        en: '125'
+        fr: '125'
+      prestatge:
+        es: '5'
+        en: '5'
+        fr: '5'
+      distancia:
+        es: 1,5 mm
+        en: 1,5 mm
+        fr: 1,5 mm
+  - codi: '38005350'
+    ordre: 60
+    valors:
+      wok:
+        es: '115'
+        en: '115'
+        fr: '115'
+      prestatge:
+        es: '5'
+        en: '5'
+        fr: '5'
+      distancia:
+        es: 1,5 mm
+        en: 1,5 mm
+        fr: 1,5 mm
+  - codi: '38006214'
+    ordre: 70
+    valors:
+      wok:
+        es: '225'
+        en: '225'
+        fr: '225'
+      prestatge:
+        es: '6'
+        en: '6'
+        fr: '6'
+      distancia:
+        es: 1,5 mm
+        en: 1,5 mm
+        fr: 1,5 mm
+  - codi: '38006414'
+    ordre: 80
+    valors:
+      wok:
+        es: '125'
+        en: '125'
+        fr: '125'
+      prestatge:
+        es: '6'
+        en: '6'
+        fr: '6'
+      distancia:
+        es: 1,5 mm
+        en: 1,5 mm
+        fr: 1,5 mm
+  - codi: '38006350'
+    ordre: 90
+    valors:
+      wok:
+        es: '115'
+        en: '115'
+        fr: '115'
+      prestatge:
+        es: '6'
+        en: '6'
+        fr: '6'
+      distancia:
+        es: 1,5 mm
+        en: 1,5 mm
+        fr: 1,5 mm
+  - codi: '38004024'
+    ordre: 100
+    valors:
+      wok:
+        es: '225'
+        en: '225'
+        fr: '225'
+      prestatge:
+        es: '4'
+        en: '4'
+        fr: '4'
+      distancia:
+        es: 1,5 mm
+        en: 1,5 mm
+        fr: 1,5 mm
+  - codi: '38004224'
+    ordre: 110
+    valors:
+      wok:
+        es: '125'
+        en: '125'
+        fr: '125'
+      prestatge:
+        es: '4'
+        en: '4'
+        fr: '4'
+      distancia:
+        es: 1,5 mm
+        en: 1,5 mm
+        fr: 1,5 mm
+  - codi: '38004424'
+    ordre: 120
+    valors:
+      wok:
+        es: '100'
+        en: '100'
+        fr: '100'
+      prestatge:
+        es: '4'
+        en: '4'
+        fr: '4'
+      distancia:
+        es: 1,5 mm
+        en: 1,5 mm
+        fr: 1,5 mm
+  - codi: '38005024'
+    ordre: 130
+    valors:
+      wok:
+        es: '225'
+        en: '225'
+        fr: '225'
+      prestatge:
+        es: '5'
+        en: '5'
+        fr: '5'
+      distancia:
+        es: 1,5 mm
+        en: 1,5 mm
+        fr: 1,5 mm
+  - codi: '38005224'
+    ordre: 140
+    valors:
+      wok:
+        es: '125'
+        en: '125'
+        fr: '125'
+      prestatge:
+        es: '5'
+        en: '5'
+        fr: '5'
+      distancia:
+        es: 1,5 mm
+        en: 1,5 mm
+        fr: 1,5 mm
+  - codi: '38005424'
+    ordre: 150
+    valors:
+      wok:
+        es: '100'
+        en: '100'
+        fr: '100'
+      prestatge:
+        es: '5'
+        en: '5'
+        fr: '5'
+      distancia:
+        es: 1,5 mm
+        en: 1,5 mm
+        fr: 1,5 mm
+  - codi: '38006024'
+    ordre: 160
+    valors:
+      wok:
+        es: '225'
+        en: '225'
+        fr: '225'
+      prestatge:
+        es: '6'
+        en: '6'
+        fr: '6'
+      distancia:
+        es: 1,5 mm
+        en: 1,5 mm
+        fr: 1,5 mm
+  - codi: '38006224'
+    ordre: 170
+    valors:
+      wok:
+        es: '125'
+        en: '125'
+        fr: '125'
+      prestatge:
+        es: '6'
+        en: '6'
+        fr: '6'
+      distancia:
+        es: 1,5 mm
+        en: 1,5 mm
+        fr: 1,5 mm
+  - codi: '38006424'
+    ordre: 180
+    valors:
+      wok:
+        es: '100'
+        en: '100'
+        fr: '100'
+      prestatge:
+        es: '6'
+        en: '6'
+        fr: '6'
+      distancia:
+        es: 1,5 mm
+        en: 1,5 mm
+        fr: 1,5 mm
+  compartits: []
+- clau: ESTANTERÍAS METÁLICAS DE ACERO INOXIDABLE PARA VINOS
+  noms:
+    es: ESTANTERÍAS METÁLICAS DE ACERO INOXIDABLE PARA VINOS
+    en: STAINLESS STEEL VINE SHELVES
+    fr: ÉTAGÈRES À VINS EN ACIER INOXYDABLE
+  sequence: 340
+  tipus: producte
+  pagina: p44
+  taula: p44-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: wok
+    etiqueta: null
+  - codi: prestatge
+    etiqueta: null
+  - codi: distancia
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '30020380'
+    ordre: 10
+    valors:
+      wok:
+        es: '300'
+        en: '300'
+        fr: '300'
+      prestatge:
+        es: '6'
+        en: '6'
+        fr: '6'
+      distancia:
+        es: 1,5 mm
+        en: 1,5 mm
+        fr: 1,5 mm
+  - codi: '30220380'
+    ordre: 20
+    valors:
+      wok:
+        es: '250'
+        en: '250'
+        fr: '250'
+      prestatge:
+        es: '6'
+        en: '6'
+        fr: '6'
+      distancia:
+        es: 1,5 mm
+        en: 1,5 mm
+        fr: 1,5 mm
+  compartits: []
+- clau: ESTANTERÍAS DE DURALUMINIO Y BANCADAS
+  noms:
+    es: ESTANTERÍAS DE DURALUMINIO Y BANCADAS
+    en: DURALUMINIUM SHELVES AND BENCHES
+    fr: ÉTAGÈRES ET BANCS DURALUMINIUM
+  sequence: 350
+  tipus: producte
+  pagina: p45
+  taula: p45-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '79951000'
+    ordre: 10
+    valors: {}
+  - codi: '96351000'
+    ordre: 20
+    valors: {}
+  - codi: '11275100'
+    ordre: 30
+    valors: {}
+  - codi: '13735100'
+    ordre: 40
+    valors: {}
+  compartits: []
+- clau: COMPONENTES ESTANTERÍAS DE DURALUMINIO
+  noms:
+    es: COMPONENTES ESTANTERÍAS DE DURALUMINIO
+    en: DURALUMINIUM SHELVING COMPONENTS
+    fr: COMPOSANTS DE RAYONNAGE EN DURALUMINIUM
+  sequence: 360
+  tipus: producte
+  pagina: p46
+  taula: p46-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: ES1700X3
+    ordre: 10
+    valors: {}
+  - codi: ES2000X3
+    ordre: 20
+    valors: {}
+  - codi: EC0661X3
+    ordre: 30
+    valors: {}
+  - codi: EC0743X3
+    ordre: 40
+    valors: {}
+  - codi: EC0825X3
+    ordre: 50
+    valors: {}
+  - codi: EC0907X3
+    ordre: 60
+    valors: {}
+  - codi: EC0989X3
+    ordre: 70
+    valors: {}
+  - codi: EC1071X3
+    ordre: 80
+    valors: {}
+  - codi: EC1235X3
+    ordre: 90
+    valors: {}
+  - codi: EC1317X3
+    ordre: 100
+    valors: {}
+  - codi: EC1399X3
+    ordre: 110
+    valors: {}
+  - codi: EC1563X3
+    ordre: 120
+    valors: {}
+  - codi: SOPAN370
+    ordre: 130
+    valors: {}
+  compartits: []
+- clau: COMPONENTES ESTANTERÍAS DE DURALUMINIO 2
+  noms:
+    es: COMPONENTES ESTANTERÍAS DE DURALUMINIO 2
+    en: DURALUMINIUM SHELVING COMPONENTS 2
+    fr: COMPOSANTS DE RAYONNAGE EN DURALUMINIUM 2
+  sequence: 370
+  tipus: producte
+  pagina: p46
+  taula: p46-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: ES1700X4
+    ordre: 10
+    valors: {}
+  - codi: ES2000X4
+    ordre: 20
+    valors: {}
+  - codi: EC0661X4
+    ordre: 30
+    valors: {}
+  - codi: EC0743X4
+    ordre: 40
+    valors: {}
+  - codi: EC0825X4
+    ordre: 50
+    valors: {}
+  - codi: EC0907X4
+    ordre: 60
+    valors: {}
+  - codi: EC0989X4
+    ordre: 70
+    valors: {}
+  - codi: EC1071X4
+    ordre: 80
+    valors: {}
+  - codi: EC1235X4
+    ordre: 90
+    valors: {}
+  - codi: EC1317X4
+    ordre: 100
+    valors: {}
+  - codi: EC1399X4
+    ordre: 110
+    valors: {}
+  - codi: EC1563X4
+    ordre: 120
+    valors: {}
+  - codi: SOPAN470
+    ordre: 130
+    valors: {}
+  compartits: []
+- clau: ESTANTERÍAS METÁLICAS DE DURALUMINIO, CON 4 MONTANTES
+  noms:
+    es: ESTANTERÍAS METÁLICAS DE DURALUMINIO, CON 4 MONTANTES
+    en: DURALUMINIUM METAL SHELVES WITH 4 UPRIGHTS
+    fr: ÉTAGÈRES MÉTALLIQUES EN DURALUMIN, AVEC 4 MONTANTS
+  sequence: 380
+  tipus: producte
+  pagina: p47
+  taula: p47-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: muntants
+    etiqueta: null
+  - codi: estants
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '71733000'
+    ordre: 10
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '71734000'
+    ordre: 20
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '71735000'
+    ordre: 30
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '79933000'
+    ordre: 40
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '79934000'
+    ordre: 50
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '79935000'
+    ordre: 60
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '88133000'
+    ordre: 70
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '88134000'
+    ordre: 80
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '88135000'
+    ordre: 90
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '96333000'
+    ordre: 100
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '96334000'
+    ordre: 110
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '96335000'
+    ordre: 120
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '10453300'
+    ordre: 130
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '10453400'
+    ordre: 140
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '10453500'
+    ordre: 150
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '11273300'
+    ordre: 160
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '11273400'
+    ordre: 170
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '11273500'
+    ordre: 180
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '12913300'
+    ordre: 190
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '12913400'
+    ordre: 200
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '12913500'
+    ordre: 210
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '13733300'
+    ordre: 220
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '13733400'
+    ordre: 230
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '13733500'
+    ordre: 240
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '14553300'
+    ordre: 250
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '14553400'
+    ordre: 260
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '14553500'
+    ordre: 270
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '16193300'
+    ordre: 280
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '16193400'
+    ordre: 290
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '16193500'
+    ordre: 300
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '71743000'
+    ordre: 310
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '71744000'
+    ordre: 320
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '71745000'
+    ordre: 330
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '79943000'
+    ordre: 340
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '79944000'
+    ordre: 350
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '79945000'
+    ordre: 360
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '88143000'
+    ordre: 370
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '88144000'
+    ordre: 380
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '88145000'
+    ordre: 390
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '96343000'
+    ordre: 400
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '96344000'
+    ordre: 410
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '96345000'
+    ordre: 420
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '10454300'
+    ordre: 430
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '10454400'
+    ordre: 440
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '10454500'
+    ordre: 450
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '11274300'
+    ordre: 460
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '11274400'
+    ordre: 470
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '11274500'
+    ordre: 480
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '12914300'
+    ordre: 490
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '12914400'
+    ordre: 500
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '12914500'
+    ordre: 510
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '13734300'
+    ordre: 520
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '13734400'
+    ordre: 530
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '13734500'
+    ordre: 540
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '14554300'
+    ordre: 550
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '14554400'
+    ordre: 560
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '14554500'
+    ordre: 570
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '16194300'
+    ordre: 580
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '16194400'
+    ordre: 590
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '16194500'
+    ordre: 600
+    valors:
+      muntants:
+        es: '2'
+        en: '2'
+        fr: '2'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  compartits: []
+- clau: ESTANTERÍAS METÁLICAS DE DURALUMINIO, CON 6 MONTANTES
+  noms:
+    es: ESTANTERÍAS METÁLICAS DE DURALUMINIO, CON 6 MONTANTES
+    en: DURALUMINIUM METAL SHELVES WITH 6 UPRIGHTS
+    fr: ÉTAGÈRES MÉTALLIQUES EN DURALUMIN, AVEC 6 MONTANTS
+  sequence: 390
+  tipus: producte
+  pagina: p48
+  taula: p48-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: muntants
+    etiqueta: null
+  - codi: estants
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '17343300'
+    ordre: 10
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '17343400'
+    ordre: 20
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '17343500'
+    ordre: 30
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '18163300'
+    ordre: 40
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '18163400'
+    ordre: 50
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '18163500'
+    ordre: 60
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '18983300'
+    ordre: 70
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '18983400'
+    ordre: 80
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '18983500'
+    ordre: 90
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '19803300'
+    ordre: 100
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '19803400'
+    ordre: 110
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '19803500'
+    ordre: 120
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '20623300'
+    ordre: 130
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '20623400'
+    ordre: 140
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '20623500'
+    ordre: 150
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '21443300'
+    ordre: 160
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '21443400'
+    ordre: 170
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '21443500'
+    ordre: 180
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '22263300'
+    ordre: 190
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '22263400'
+    ordre: 200
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '22263500'
+    ordre: 210
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '23083300'
+    ordre: 220
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '23083400'
+    ordre: 230
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '23083500'
+    ordre: 240
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '23903300'
+    ordre: 250
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '23903400'
+    ordre: 260
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '23903500'
+    ordre: 270
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '24723300'
+    ordre: 280
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '24723400'
+    ordre: 290
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '24723500'
+    ordre: 300
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '25543300'
+    ordre: 310
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '25543400'
+    ordre: 320
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '25543500'
+    ordre: 330
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '26363300'
+    ordre: 340
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '26363400'
+    ordre: 350
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '26363500'
+    ordre: 360
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '27183300'
+    ordre: 370
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '27183400'
+    ordre: 380
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '27183500'
+    ordre: 390
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '28003300'
+    ordre: 400
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '28003400'
+    ordre: 410
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '28003500'
+    ordre: 420
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '28823300'
+    ordre: 430
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '28823400'
+    ordre: 440
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '28823500'
+    ordre: 450
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '29643300'
+    ordre: 460
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '29643400'
+    ordre: 470
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '29643500'
+    ordre: 480
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '30463300'
+    ordre: 490
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '30463400'
+    ordre: 500
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '30463500'
+    ordre: 510
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '32103300'
+    ordre: 520
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '32103400'
+    ordre: 530
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '32103500'
+    ordre: 540
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '17344300'
+    ordre: 550
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '17344400'
+    ordre: 560
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '17344500'
+    ordre: 570
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '18164300'
+    ordre: 580
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '18164400'
+    ordre: 590
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '18164500'
+    ordre: 600
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '18984300'
+    ordre: 610
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '18984400'
+    ordre: 620
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '18984500'
+    ordre: 630
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '19804300'
+    ordre: 640
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '19804400'
+    ordre: 650
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '19804500'
+    ordre: 660
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '20624300'
+    ordre: 670
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '20624400'
+    ordre: 680
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '20624500'
+    ordre: 690
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '21444300'
+    ordre: 700
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '21444400'
+    ordre: 710
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '21444500'
+    ordre: 720
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '22264300'
+    ordre: 730
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '22264400'
+    ordre: 740
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '22264500'
+    ordre: 750
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '23084300'
+    ordre: 760
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '23084400'
+    ordre: 770
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '23084500'
+    ordre: 780
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '23904300'
+    ordre: 790
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '23904400'
+    ordre: 800
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '23904500'
+    ordre: 810
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '24724300'
+    ordre: 820
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '24724400'
+    ordre: 830
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '24724500'
+    ordre: 840
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '25544300'
+    ordre: 850
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '25544400'
+    ordre: 860
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '25544500'
+    ordre: 870
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '26364300'
+    ordre: 880
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '26364400'
+    ordre: 890
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '26364500'
+    ordre: 900
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '27184300'
+    ordre: 910
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '27184400'
+    ordre: 920
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '27184500'
+    ordre: 930
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '28004300'
+    ordre: 940
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '28004400'
+    ordre: 950
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '28004500'
+    ordre: 960
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '28824300'
+    ordre: 970
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '28824400'
+    ordre: 980
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '28824500'
+    ordre: 990
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '29644300'
+    ordre: 1000
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '29644400'
+    ordre: 1010
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '29644500'
+    ordre: 1020
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '30464300'
+    ordre: 1030
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '30464400'
+    ordre: 1040
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '30464500'
+    ordre: 1050
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '32104300'
+    ordre: 1060
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '32104400'
+    ordre: 1070
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '32104500'
+    ordre: 1080
+    valors:
+      muntants:
+        es: '3'
+        en: '3'
+        fr: '3'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  compartits: []
+- clau: ESTANTERÍAS METÁLICAS DE DURALUMINIO, CON 8 MONTANTES
+  noms:
+    es: ESTANTERÍAS METÁLICAS DE DURALUMINIO, CON 8 MONTANTES
+    en: DURALUMINIUM METAL SHELVES WITH 8 UPRIGHTS
+    fr: ÉTAGÈRES MÉTALLIQUES EN DURALUMIN, AVEC 8 MONTANTS
+  sequence: 400
+  tipus: producte
+  pagina: p49
+  taula: p49-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: muntants
+    etiqueta: null
+  - codi: estants
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '33253300'
+    ordre: 10
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '33253400'
+    ordre: 20
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '33253500'
+    ordre: 30
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '34073300'
+    ordre: 40
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '34073400'
+    ordre: 50
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '34073500'
+    ordre: 60
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '34893300'
+    ordre: 70
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '34893400'
+    ordre: 80
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '34893500'
+    ordre: 90
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '35713300'
+    ordre: 100
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '35713400'
+    ordre: 110
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '35713500'
+    ordre: 120
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '36533300'
+    ordre: 130
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '36533400'
+    ordre: 140
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '36533500'
+    ordre: 150
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '37353300'
+    ordre: 160
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '37353400'
+    ordre: 170
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '37353500'
+    ordre: 180
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '38173300'
+    ordre: 190
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '38173400'
+    ordre: 200
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '38173500'
+    ordre: 210
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '38993300'
+    ordre: 220
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '38993400'
+    ordre: 230
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '38993500'
+    ordre: 240
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '39813300'
+    ordre: 250
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '39813400'
+    ordre: 260
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '39813500'
+    ordre: 270
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '40633300'
+    ordre: 280
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '40633400'
+    ordre: 290
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '40633500'
+    ordre: 300
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '41453300'
+    ordre: 310
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '41453400'
+    ordre: 320
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '41453500'
+    ordre: 330
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '42273300'
+    ordre: 340
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '42273400'
+    ordre: 350
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '42273500'
+    ordre: 360
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '43093300'
+    ordre: 370
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '43093400'
+    ordre: 380
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '43093500'
+    ordre: 390
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '43913300'
+    ordre: 400
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '43913400'
+    ordre: 410
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '43913500'
+    ordre: 420
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '44733300'
+    ordre: 430
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '44733400'
+    ordre: 440
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '44733500'
+    ordre: 450
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '45553300'
+    ordre: 460
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '45553400'
+    ordre: 470
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '45553500'
+    ordre: 480
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '46373300'
+    ordre: 490
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '46373400'
+    ordre: 500
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '46373500'
+    ordre: 510
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '48013300'
+    ordre: 520
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '48013400'
+    ordre: 530
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '48013500'
+    ordre: 540
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '33254300'
+    ordre: 550
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '33254400'
+    ordre: 560
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '33254500'
+    ordre: 570
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '34074300'
+    ordre: 580
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '34074400'
+    ordre: 590
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '34074500'
+    ordre: 600
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '34894300'
+    ordre: 610
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '34894400'
+    ordre: 620
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '34894500'
+    ordre: 630
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '35714300'
+    ordre: 640
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '35714400'
+    ordre: 650
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '35714500'
+    ordre: 660
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '36534300'
+    ordre: 670
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '36534400'
+    ordre: 680
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '36534500'
+    ordre: 690
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '37354300'
+    ordre: 700
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '37354400'
+    ordre: 710
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '37354500'
+    ordre: 720
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '38174300'
+    ordre: 730
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '38174400'
+    ordre: 740
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '38174500'
+    ordre: 750
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '38994300'
+    ordre: 760
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '38994400'
+    ordre: 770
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '38994500'
+    ordre: 780
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '39814300'
+    ordre: 790
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '39814400'
+    ordre: 800
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '39814500'
+    ordre: 810
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '40634300'
+    ordre: 820
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '40634400'
+    ordre: 830
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '40634500'
+    ordre: 840
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '41454300'
+    ordre: 850
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '41454400'
+    ordre: 860
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '41454500'
+    ordre: 870
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '42274300'
+    ordre: 880
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '42274400'
+    ordre: 890
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '42274500'
+    ordre: 900
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '43094300'
+    ordre: 910
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '43094400'
+    ordre: 920
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '43094500'
+    ordre: 930
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '43914300'
+    ordre: 940
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '43914400'
+    ordre: 950
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '43914500'
+    ordre: 960
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '44734300'
+    ordre: 970
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '44734400'
+    ordre: 980
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '44734500'
+    ordre: 990
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '45554300'
+    ordre: 1000
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '45554400'
+    ordre: 1010
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '45554500'
+    ordre: 1020
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '46374300'
+    ordre: 1030
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '46374400'
+    ordre: 1040
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '46374500'
+    ordre: 1050
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '48014300'
+    ordre: 1060
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '48014400'
+    ordre: 1070
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '48014500'
+    ordre: 1080
+    valors:
+      muntants:
+        es: '4'
+        en: '4'
+        fr: '4'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  compartits: []
+- clau: ESTANTERÍAS METÁLICAS DE DURALUMINIO, CON 10 MONTANTES
+  noms:
+    es: ESTANTERÍAS METÁLICAS DE DURALUMINIO, CON 10 MONTANTES
+    en: DURALUMINIUM METAL SHELVES WITH 10 UPRIGHTS
+    fr: ÉTAGÈRES MÉTALLIQUES EN DURALUMIN, AVEC 10 MONTANTS
+  sequence: 410
+  tipus: producte
+  pagina: p50
+  taula: p50-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: muntants
+    etiqueta: null
+  - codi: estants
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '49163300'
+    ordre: 10
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '49163400'
+    ordre: 20
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '49163500'
+    ordre: 30
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '49983300'
+    ordre: 40
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '49983400'
+    ordre: 50
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '49983500'
+    ordre: 60
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '50803300'
+    ordre: 70
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '50803400'
+    ordre: 80
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '50803500'
+    ordre: 90
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '51623300'
+    ordre: 100
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '51623400'
+    ordre: 110
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '51623500'
+    ordre: 120
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '52443300'
+    ordre: 130
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '52443400'
+    ordre: 140
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '52443500'
+    ordre: 150
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '53263300'
+    ordre: 160
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '53263400'
+    ordre: 170
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '53263500'
+    ordre: 180
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '54083300'
+    ordre: 190
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '54083400'
+    ordre: 200
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '54083500'
+    ordre: 210
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '54903300'
+    ordre: 220
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '54903400'
+    ordre: 230
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '54903500'
+    ordre: 240
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '55723300'
+    ordre: 250
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '55723400'
+    ordre: 260
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '55723500'
+    ordre: 270
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '56543300'
+    ordre: 280
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '56543400'
+    ordre: 290
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '56543500'
+    ordre: 300
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '49164300'
+    ordre: 310
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '49164400'
+    ordre: 320
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '49164500'
+    ordre: 330
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '49984300'
+    ordre: 340
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '49984400'
+    ordre: 350
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '49984500'
+    ordre: 360
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '50804300'
+    ordre: 370
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '50804400'
+    ordre: 380
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '50804500'
+    ordre: 390
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '51624300'
+    ordre: 400
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '51624400'
+    ordre: 410
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '51624500'
+    ordre: 420
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '52444300'
+    ordre: 430
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '52444400'
+    ordre: 440
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '52444500'
+    ordre: 450
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '53264300'
+    ordre: 460
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '53264400'
+    ordre: 470
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '53264500'
+    ordre: 480
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '54084300'
+    ordre: 490
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '54084400'
+    ordre: 500
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '54084500'
+    ordre: 510
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '54904300'
+    ordre: 520
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '54904400'
+    ordre: 530
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '54904500'
+    ordre: 540
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '55724300'
+    ordre: 550
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '55724400'
+    ordre: 560
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '55724500'
+    ordre: 570
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '56544300'
+    ordre: 580
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '56544400'
+    ordre: 590
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: '56544500'
+    ordre: 600
+    valors:
+      muntants:
+        es: '5'
+        en: '5'
+        fr: '5'
+      estants:
+        es: '5'
+        en: '5'
+        fr: '5'
+  compartits: []
+- clau: ESTANTERÍAS MURALES
+  noms:
+    es: ESTANTERÍAS MURALES
+    en: WALL SHELVES
+    fr: ÉTAGÈRES MURALES
+  sequence: 420
+  tipus: producte
+  pagina: p53
+  taula: p53-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: prestatge_mural
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '36320010'
+    ordre: 10
+    valors:
+      prestatge_mural:
+        es: '31060010'
+        en: '31060010'
+        fr: '31060010'
+  - codi: '38320010'
+    ordre: 20
+    valors:
+      prestatge_mural:
+        es: '33060010'
+        en: '33060010'
+        fr: '33060010'
+  - codi: '31420010'
+    ordre: 30
+    valors:
+      prestatge_mural:
+        es: '36060010'
+        en: '36060010'
+        fr: '36060010'
+  - codi: '35420010'
+    ordre: 40
+    valors:
+      prestatge_mural:
+        es: '39160010'
+        en: '39160010'
+        fr: '39160010'
+  - codi: '37420010'
+    ordre: 50
+    valors:
+      prestatge_mural:
+        es: '31260010'
+        en: '31260010'
+        fr: '31260010'
+  - codi: '30520010'
+    ordre: 60
+    valors:
+      prestatge_mural:
+        es: '34260010'
+        en: '34260010'
+        fr: '34260010'
+  - codi: '38000010'
+    ordre: 70
+    valors: {}
+  - codi: '32000010'
+    ordre: 80
+    valors: {}
+  - codi: '34000010'
+    ordre: 90
+    valors: {}
+  compartits: []
+- clau: ESTANTES PARA GRATINADORES, PARA CAMPANAS, Y BARRAS DE COLGAR
+  noms:
+    es: ESTANTES PARA GRATINADORES, PARA CAMPANAS, Y BARRAS DE COLGAR
+    en: SHELVES FOR SALAMANDERS, HOODS, AND HANGING BARS
+    fr: ÉTAGÈRES POUR SALAMANDRES, HOTTES, ET BARRES DE SUSPENDUES
+  sequence: 430
+  tipus: producte
+  pagina: p54
+  taula: p54-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '31040020'
+    ordre: 10
+    valors: {}
+  - codi: '32040020'
+    ordre: 20
+    valors: {}
+  - codi: '33040020'
+    ordre: 30
+    valors: {}
+  - codi: '31010020'
+    ordre: 40
+    valors: {}
+  - codi: '32010020'
+    ordre: 50
+    valors: {}
+  - codi: '33010020'
+    ordre: 60
+    valors: {}
+  - codi: '31000120'
+    ordre: 70
+    valors: {}
+  - codi: '32000120'
+    ordre: 80
+    valors: {}
+  - codi: '33000120'
+    ordre: 90
+    valors: {}
+  - codi: '31020120'
+    ordre: 100
+    valors: {}
+  compartits: []
+- clau: COMPONENTES ESTANTERÍAS MURALES
+  noms:
+    es: COMPONENTES ESTANTERÍAS MURALES
+    en: WALL SHELVING COMPONENTS
+    fr: COMPOSANTS D’ÉTAGÈRES MURALES
+  sequence: 440
+  tipus: producte
+  pagina: p55
+  taula: p55-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '31000210'
+    ordre: 10
+    valors:
+      gastronorm:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '32000210'
+    ordre: 20
+    valors:
+      gastronorm:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '33000210'
+    ordre: 30
+    valors:
+      gastronorm:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '31140010'
+    ordre: 40
+    valors:
+      gastronorm:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '33140010'
+    ordre: 50
+    valors:
+      gastronorm:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '32140010'
+    ordre: 60
+    valors:
+      gastronorm:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '31040010'
+    ordre: 70
+    valors:
+      gastronorm:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '33040010'
+    ordre: 80
+    valors:
+      gastronorm:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '32040010'
+    ordre: 90
+    valors:
+      gastronorm:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '31050010'
+    ordre: 100
+    valors:
+      gastronorm:
+        es: 4 x 1/6-100
+        en: 4 x 1/6-100
+        fr: 4 x 1/6-100
+  - codi: '31150010'
+    ordre: 110
+    valors:
+      gastronorm:
+        es: 4 x 1/3-100
+        en: 4 x 1/3-100
+        fr: 4 x 1/3-100
+  compartits: []
+- clau: ESTANTERÍAS MURALES REGULABLES
+  noms:
+    es: ESTANTERÍAS MURALES REGULABLES
+    en: ADJUSTABLE WALL SHELVES
+    fr: ÉTAGÈRES MURALES RÉGLABLES
+  sequence: 450
+  tipus: producte
+  pagina: p56
+  taula: p56-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 3102206N
+    ordre: 10
+    valors:
+      gastronorm:
+        es: 4 x 1/6-100
+        en: 4 x 1/6-100
+        fr: 4 x 1/6-100
+  - codi: '31024200'
+    ordre: 20
+    valors:
+      gastronorm:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '31224200'
+    ordre: 30
+    valors:
+      gastronorm:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '31424200'
+    ordre: 40
+    valors:
+      gastronorm:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '31022000'
+    ordre: 50
+    valors:
+      gastronorm:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '31222000'
+    ordre: 60
+    valors:
+      gastronorm:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '31422000'
+    ordre: 70
+    valors:
+      gastronorm:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '31024000'
+    ordre: 80
+    valors:
+      gastronorm:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '31224000'
+    ordre: 90
+    valors:
+      gastronorm:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '31424000'
+    ordre: 100
+    valors:
+      gastronorm:
+        es: '-'
+        en: '-'
+        fr: '-'
+  compartits: []
+- clau: ESTANTERÍAS MURALES REGULABLES 2
+  noms:
+    es: ESTANTERÍAS MURALES REGULABLES 2
+    en: ADJUSTABLE WALL SHELVES 2
+    fr: ÉTAGÈRES MURALES RÉGLABLES 2
+  sequence: 460
+  tipus: producte
+  pagina: p56
+  taula: p56-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 3103426N
+    ordre: 10
+    valors:
+      gastronorm:
+        es: 4 x 1/3-100
+        en: 4 x 1/3-100
+        fr: 4 x 1/3-100
+  - codi: '31034200'
+    ordre: 20
+    valors:
+      gastronorm:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '31234200'
+    ordre: 30
+    valors:
+      gastronorm:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '31434200'
+    ordre: 40
+    valors:
+      gastronorm:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '31032000'
+    ordre: 50
+    valors:
+      gastronorm:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '31232000'
+    ordre: 60
+    valors:
+      gastronorm:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '31432000'
+    ordre: 70
+    valors:
+      gastronorm:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '31034000'
+    ordre: 80
+    valors:
+      gastronorm:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '31234000'
+    ordre: 90
+    valors:
+      gastronorm:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '31434000'
+    ordre: 100
+    valors:
+      gastronorm:
+        es: '-'
+        en: '-'
+        fr: '-'
+  compartits: []
+- clau: CARROS Y SOPORTES PARA EMPLATAR
+  noms:
+    es: CARROS Y SOPORTES PARA EMPLATAR
+    en: DISHES TROLLEYS AND SUPPORTS
+    fr: CHARIOTS ET SUPPORTS À ASSIETTES
+  sequence: 470
+  tipus: producte
+  pagina: p59
+  taula: p59-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: diametre_plats
+    etiqueta: null
+  - codi: regulacio_alcada
+    etiqueta: null
+  - codi: nivells_safates
+    etiqueta: null
+  - codi: rodes
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '90845009'
+    ordre: 10
+    valors:
+      diametre_plats:
+        es: 100 - 330
+        en: 100 - 330
+        fr: 100 - 330
+      regulacio_alcada:
+        es: '60'
+        en: '60'
+        fr: '60'
+      nivells_safates:
+        es: '25'
+        en: '25'
+        fr: '25'
+      rodes:
+        es: '125'
+        en: '125'
+        fr: '125'
+  - codi: 9084500F
+    ordre: 20
+    valors:
+      diametre_plats:
+        es: 100 - 330
+        en: 100 - 330
+        fr: 100 - 330
+      regulacio_alcada:
+        es: '60'
+        en: '60'
+        fr: '60'
+      nivells_safates:
+        es: '25'
+        en: '25'
+        fr: '25'
+      rodes:
+        es: '125'
+        en: '125'
+        fr: '125'
+  - codi: '92030620'
+    ordre: 30
+    valors:
+      diametre_plats:
+        es: 20 - 320
+        en: 20 - 320
+        fr: 20 - 320
+      regulacio_alcada:
+        es: '76'
+        en: '76'
+        fr: '76'
+      nivells_safates:
+        es: '10'
+        en: '10'
+        fr: '10'
+      rodes:
+        es: '-'
+        en: '-'
+        fr: '-'
+  compartits: []
+- clau: CARROS DE LAVADO Y DE SÓLIDOS
+  noms:
+    es: CARROS DE LAVADO Y DE SÓLIDOS
+    en: WASHING AND SOLIDS TROLLEYS
+    fr: CHARIOTS DE LAVAGE ET DE SOLIDES
+  sequence: 480
+  tipus: producte
+  pagina: p60
+  taula: p60-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: mesures_interiors
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: rodes
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '91070620'
+    ordre: 10
+    valors:
+      mesures_interiors:
+        es: 600x500x300
+        en: 600x500x300
+        fr: 600x500x300
+      capacitat_litres:
+        es: '-'
+        en: '-'
+        fr: '-'
+      rodes:
+        es: '105'
+        en: '105'
+        fr: '105'
+  - codi: '93050620'
+    ordre: 20
+    valors:
+      mesures_interiors:
+        es: '-'
+        en: '-'
+        fr: '-'
+      capacitat_litres:
+        es: '135'
+        en: '135'
+        fr: '135'
+      rodes:
+        es: '50'
+        en: '50'
+        fr: '50'
+  compartits: []
+- clau: CARROS CON ESTANTES
+  noms:
+    es: CARROS CON ESTANTES
+    en: TROLLEYS WITH SHELVES
+    fr: CHARIOTS AVEC ÉTAGÈRES
+  sequence: 490
+  tipus: producte
+  pagina: p61
+  taula: p61-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: carrega_maxima
+    etiqueta:
+      es: Kgs Carga máxima
+      en: Maximum load
+      fr: Charge maximale
+  - codi: alcada
+    etiqueta: null
+  - codi: nivells_safates
+    etiqueta: null
+  - codi: rodes
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '94040620'
+    ordre: 10
+    valors:
+      carrega_maxima:
+        es: '200'
+        en: '200'
+        fr: '200'
+      alcada:
+        es: '250'
+        en: '250'
+        fr: '250'
+      nivells_safates:
+        es: '3'
+        en: '3'
+        fr: '3'
+      rodes:
+        es: '125'
+        en: '125'
+        fr: '125'
+  - codi: '95040620'
+    ordre: 20
+    valors:
+      carrega_maxima:
+        es: '200'
+        en: '200'
+        fr: '200'
+      alcada:
+        es: '250'
+        en: '250'
+        fr: '250'
+      nivells_safates:
+        es: '3'
+        en: '3'
+        fr: '3'
+      rodes:
+        es: '125'
+        en: '125'
+        fr: '125'
+  - codi: '97040620'
+    ordre: 30
+    valors:
+      carrega_maxima:
+        es: '200'
+        en: '200'
+        fr: '200'
+      alcada:
+        es: '250'
+        en: '250'
+        fr: '250'
+      nivells_safates:
+        es: '4'
+        en: '4'
+        fr: '4'
+      rodes:
+        es: '125'
+        en: '125'
+        fr: '125'
+  - codi: '92000620'
+    ordre: 40
+    valors:
+      carrega_maxima:
+        es: '300'
+        en: '300'
+        fr: '300'
+      alcada:
+        es: '-'
+        en: '-'
+        fr: '-'
+      nivells_safates:
+        es: '1'
+        en: '1'
+        fr: '1'
+      rodes:
+        es: '150'
+        en: '150'
+        fr: '150'
+  - codi: '91040620'
+    ordre: 50
+    valors:
+      carrega_maxima:
+        es: '200'
+        en: '200'
+        fr: '200'
+      alcada:
+        es: '535'
+        en: '535'
+        fr: '535'
+      nivells_safates:
+        es: '2'
+        en: '2'
+        fr: '2'
+      rodes:
+        es: '125'
+        en: '125'
+        fr: '125'
+  - codi: '92040620'
+    ordre: 60
+    valors:
+      carrega_maxima:
+        es: '200'
+        en: '200'
+        fr: '200'
+      alcada:
+        es: '535'
+        en: '535'
+        fr: '535'
+      nivells_safates:
+        es: '2'
+        en: '2'
+        fr: '2'
+      rodes:
+        es: '125'
+        en: '125'
+        fr: '125'
+  compartits: []
+- clau: CARROS CON GUÍAS
+  noms:
+    es: CARROS CON GUÍAS
+    en: GUIDE TROLLEYS
+    fr: CHARIOTS AVEC GUIDES
+  sequence: 500
+  tipus: producte
+  pagina: p64
+  taula: p64-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: alcada
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: rodes
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '91060620'
+    ordre: 10
+    valors:
+      alcada:
+        es: '75'
+        en: '75'
+        fr: '75'
+      gastronorm:
+        es: 18 - 1/1
+        en: 18 - 1/1
+        fr: 18 - 1/1
+      rodes:
+        es: '125'
+        en: '125'
+        fr: '125'
+  - codi: '91090620'
+    ordre: 20
+    valors:
+      alcada:
+        es: '75'
+        en: '75'
+        fr: '75'
+      gastronorm:
+        es: 18 - 2/1 ó 36 - 1/1
+        en: 18 - 2/1 ó 36 - 1/1
+        fr: 18 - 2/1 ó 36 - 1/1
+      rodes:
+        es: '125'
+        en: '125'
+        fr: '125'
+  - codi: 9106062F
+    ordre: 30
+    valors:
+      alcada:
+        es: '75'
+        en: '75'
+        fr: '75'
+      gastronorm:
+        es: 18 - 1/1
+        en: 18 - 1/1
+        fr: 18 - 1/1
+      rodes:
+        es: '125'
+        en: '125'
+        fr: '125'
+  - codi: 9109062F
+    ordre: 40
+    valors:
+      alcada:
+        es: '75'
+        en: '75'
+        fr: '75'
+      gastronorm:
+        es: 18 - 2/1 ó 36 - 1/1
+        en: 18 - 2/1 ó 36 - 1/1
+        fr: 18 - 2/1 ó 36 - 1/1
+      rodes:
+        es: '125'
+        en: '125'
+        fr: '125'
+  - codi: '91160620'
+    ordre: 50
+    valors:
+      alcada:
+        es: '75'
+        en: '75'
+        fr: '75'
+      gastronorm:
+        es: 7 - 1/1
+        en: 7 - 1/1
+        fr: 7 - 1/1
+      rodes:
+        es: '125'
+        en: '125'
+        fr: '125'
+  - codi: '91190620'
+    ordre: 60
+    valors:
+      alcada:
+        es: '75'
+        en: '75'
+        fr: '75'
+      gastronorm:
+        es: 7 - 2/1 ó 14 - 1/1
+        en: 7 - 2/1 ó 14 - 1/1
+        fr: 7 - 2/1 ó 14 - 1/1
+      rodes:
+        es: '125'
+        en: '125'
+        fr: '125'
+  - codi: '91001620'
+    ordre: 70
+    valors:
+      alcada:
+        es: '85'
+        en: '85'
+        fr: '85'
+      gastronorm:
+        es: 16 - 400x600
+        en: 16 - 400x600
+        fr: 16 - 400x600
+      rodes:
+        es: '125'
+        en: '125'
+        fr: '125'
+  compartits: []
+- clau: CARROS PARA BANDEJAS SELF-SERVICE
+  noms:
+    es: CARROS PARA BANDEJAS SELF-SERVICE
+    en: TROLLEYS FOR SELF-SERVICE TRAYS
+    fr: CHARIOTS POUR PLATEAUX LIBRE-SERVICE
+  sequence: 510
+  tipus: producte
+  pagina: p65
+  taula: p65-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: alcada
+    etiqueta: null
+  - codi: prestatge
+    etiqueta:
+      es: Bandejas self-service
+      en: Self-service trays
+      fr: Plateaux self-service
+  - codi: rodes
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '91011620'
+    ordre: 10
+    valors:
+      alcada:
+        es: '100'
+        en: '100'
+        fr: '100'
+      prestatge:
+        es: '12'
+        en: '12'
+        fr: '12'
+      rodes:
+        es: '125'
+        en: '125'
+        fr: '125'
+  - codi: '92011620'
+    ordre: 20
+    valors:
+      alcada:
+        es: '100'
+        en: '100'
+        fr: '100'
+      prestatge:
+        es: '12'
+        en: '12'
+        fr: '12'
+      rodes:
+        es: '125'
+        en: '125'
+        fr: '125'
+  - codi: '91021620'
+    ordre: 30
+    valors:
+      alcada:
+        es: '100'
+        en: '100'
+        fr: '100'
+      prestatge:
+        es: 12 + 12
+        en: 12 + 12
+        fr: 12 + 12
+      rodes:
+        es: '125'
+        en: '125'
+        fr: '125'
+  - codi: '92021620'
+    ordre: 40
+    valors:
+      alcada:
+        es: '100'
+        en: '100'
+        fr: '100'
+      prestatge:
+        es: 12 + 12
+        en: 12 + 12
+        fr: 12 + 12
+      rodes:
+        es: '125'
+        en: '125'
+        fr: '125'
+  compartits: []
+- clau: CARROS PARA PLATOS Y CESTAS DE LAVAVAJILLAS DE 500 X 500
+  noms:
+    es: CARROS PARA PLATOS Y CESTAS DE LAVAVAJILLAS DE 500 X 500
+    en: TROLLEYS FOR PLATES AND DISHWASHER BASKETS 500 X 500
+    fr: CHARIOTS POUR ASSIETTES ET PANIERS LAVE-VAISSELLE 500 X 500
+  sequence: 520
+  tipus: producte
+  pagina: p66
+  taula: p66-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: cubeta_trapezi
+    etiqueta: null
+  - codi: diametre_plats
+    etiqueta: null
+  - codi: alcada
+    etiqueta: null
+  - codi: guies_inclinades
+    etiqueta:
+      es: Pares de guías
+      en: Pair of guides
+      fr: Paire de guides
+  - codi: reixeta
+    etiqueta:
+      es: Separador
+      en: Separator
+      fr: Séparateur
+  - codi: prestatge
+    etiqueta: null
+  - codi: rodes
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '91051620'
+    ordre: 10
+    valors:
+      cubeta_trapezi:
+        es: '150'
+        en: '150'
+        fr: '150'
+      diametre_plats:
+        es: '320'
+        en: '320'
+        fr: '320'
+      alcada:
+        es: '-'
+        en: '-'
+        fr: '-'
+      guies_inclinades:
+        es: '-'
+        en: '-'
+        fr: '-'
+      reixeta:
+        es: '2'
+        en: '2'
+        fr: '2'
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+      rodes:
+        es: '125'
+        en: '125'
+        fr: '125'
+  - codi: '91071620'
+    ordre: 20
+    valors:
+      cubeta_trapezi:
+        es: '-'
+        en: '-'
+        fr: '-'
+      diametre_plats:
+        es: '-'
+        en: '-'
+        fr: '-'
+      alcada:
+        es: '200'
+        en: '200'
+        fr: '200'
+      guies_inclinades:
+        es: '7'
+        en: '7'
+        fr: '7'
+      reixeta:
+        es: '-'
+        en: '-'
+        fr: '-'
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+      rodes:
+        es: '125'
+        en: '125'
+        fr: '125'
+  - codi: '91010620'
+    ordre: 30
+    valors:
+      cubeta_trapezi:
+        es: '-'
+        en: '-'
+        fr: '-'
+      diametre_plats:
+        es: '-'
+        en: '-'
+        fr: '-'
+      alcada:
+        es: '-'
+        en: '-'
+        fr: '-'
+      guies_inclinades:
+        es: '-'
+        en: '-'
+        fr: '-'
+      reixeta:
+        es: '-'
+        en: '-'
+        fr: '-'
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      rodes:
+        es: '125'
+        en: '125'
+        fr: '125'
+  - codi: '91000620'
+    ordre: 40
+    valors:
+      cubeta_trapezi:
+        es: '-'
+        en: '-'
+        fr: '-'
+      diametre_plats:
+        es: '-'
+        en: '-'
+        fr: '-'
+      alcada:
+        es: '-'
+        en: '-'
+        fr: '-'
+      guies_inclinades:
+        es: '-'
+        en: '-'
+        fr: '-'
+      reixeta:
+        es: '-'
+        en: '-'
+        fr: '-'
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      rodes:
+        es: '125'
+        en: '125'
+        fr: '125'
+  compartits: []
+- clau: ESTANTES SUPLEMENTARIOS PARA MESAS
+  noms:
+    es: ESTANTES SUPLEMENTARIOS PARA MESAS
+    en: SUPPLEMENTARY SHELVES FOR TABLES
+    fr: ÉTAGÈRES SUPPLÉMENTAIRES POUR TABLES
+  sequence: 530
+  tipus: accessoris
+  pagina: p67
+  taula: p67-t1
+  blocs: 2
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A08006E
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 800x600
+        en: 800x600
+        fr: 800x600
+  - codi: 4A08007E
+    ordre: 1020
+    valors:
+      mesures_text:
+        es: 800x700
+        en: 800x700
+        fr: 800x700
+  - codi: 4A02106E
+    ordre: 30
+    valors:
+      mesures_text:
+        es: 1200x600
+        en: 1200x600
+        fr: 1200x600
+  - codi: 4A02107E
+    ordre: 1040
+    valors:
+      mesures_text:
+        es: 1200x700
+        en: 1200x700
+        fr: 1200x700
+  - codi: 4A06106E
+    ordre: 50
+    valors:
+      mesures_text:
+        es: 1600x600
+        en: 1600x600
+        fr: 1600x600
+  - codi: 4A06107E
+    ordre: 1060
+    valors:
+      mesures_text:
+        es: 1600x700
+        en: 1600x700
+        fr: 1600x700
+  - codi: 4A00206E
+    ordre: 70
+    valors:
+      mesures_text:
+        es: 2000x600
+        en: 2000x600
+        fr: 2000x600
+  - codi: 4A00207E
+    ordre: 1080
+    valors:
+      mesures_text:
+        es: 2000x700
+        en: 2000x700
+        fr: 2000x700
+  compartits: []
+- clau: PETOS LATERALES IZQUIERDO / DERECHO
+  noms:
+    es: PETOS LATERALES IZQUIERDO / DERECHO
+    en: LEFT / RIGHT SIDE BODIES
+    fr: DOSSARD LATÉRAUX GAUCHE / DROIT
+  sequence: 540
+  tipus: accessoris
+  pagina: p67
+  taula: p67-t2
+  blocs: 2
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: para
+    etiqueta:
+      es: PARA MESA
+      en: E FOR TABLE
+      fr: F POUR TABLE
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A610000
+    ordre: 10
+    valors:
+      para:
+        es: '550'
+        en: '550'
+        fr: '550'
+  - codi: 4A510000
+    ordre: 1020
+    valors:
+      para:
+        es: '550'
+        en: '550'
+        fr: '550'
+  - codi: 4A600000
+    ordre: 30
+    valors:
+      para:
+        es: '600'
+        en: '600'
+        fr: '600'
+  - codi: 4A500000
+    ordre: 1040
+    valors:
+      para:
+        es: '600'
+        en: '600'
+        fr: '600'
+  - codi: 4A800000
+    ordre: 50
+    valors:
+      para:
+        es: '700'
+        en: '700'
+        fr: '700'
+  - codi: 4A700000
+    ordre: 1060
+    valors:
+      para:
+        es: '700'
+        en: '700'
+        fr: '700'
+  - codi: 4A810000
+    ordre: 70
+    valors:
+      para:
+        es: '800'
+        en: '800'
+        fr: '800'
+  - codi: 4A710000
+    ordre: 1080
+    valors:
+      para:
+        es: '800'
+        en: '800'
+        fr: '800'
+  compartits: []
+- clau: TAPA LATERAL
+  noms:
+    es: TAPA LATERAL
+    en: SIDE COVER
+    fr: COUVERCLE LATÉRALE
+  sequence: 550
+  tipus: accessoris
+  pagina: p67
+  taula: p67-t3
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: para
+    etiqueta:
+      es: PARA MESA
+      en: E FOR TABLE
+      fr: F POUR TABLE
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A05500L
+    ordre: 10
+    valors:
+      para:
+        es: '550'
+        en: '550'
+        fr: '550'
+  - codi: 4A00600L
+    ordre: 20
+    valors:
+      para:
+        es: '600'
+        en: '600'
+        fr: '600'
+  - codi: 4A00700L
+    ordre: 30
+    valors:
+      para:
+        es: '700'
+        en: '700'
+        fr: '700'
+  - codi: 4A00800L
+    ordre: 40
+    valors:
+      para:
+        es: '800'
+        en: '800'
+        fr: '800'
+  compartits: []
+- clau: KIT 4 RUEDAS, 2 CON FRENO
+  noms:
+    es: KIT 4 RUEDAS, 2 CON FRENO
+    en: WHELS 4 KIT, 2 WHIT BRAKE
+    fr: KIT 4 ROUES, 2 AVEC FREIN
+  sequence: 560
+  tipus: accessoris
+  pagina: p67
+  taula: p67-t4
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: para
+    etiqueta:
+      es: PARA PATAS
+      en: E FOR LEGS
+      fr: F POUR JAMBES
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '42130200'
+    ordre: 10
+    valors:
+      para:
+        es: 40x40
+        en: 40x40
+        fr: 40x40
+  compartits: []
+- clau: AROS DE RECICLAJE
+  noms:
+    es: AROS DE RECICLAJE
+    en: RECYCLING RING
+    fr: ANNEAUX RECYCLAGE TAPA ARO
+  sequence: 570
+  tipus: accessoris
+  pagina: p68
+  taula: p68-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: para
+    etiqueta:
+      es: COLOR
+      en: E COLOUR
+      fr: F COULEUR
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 40R0000R
+    ordre: 10
+    valors:
+      para:
+        es: ROJO
+        en: RED
+        fr: ROUGE
+  - codi: 4EV0000R
+    ordre: 20
+    valors:
+      para:
+        es: AMARILLO
+        en: YELLOW
+        fr: JAUNE
+  - codi: 4MA0000R
+    ordre: 30
+    valors:
+      para:
+        es: AZUL
+        en: BLUE
+        fr: BLEU
+  - codi: 42AD000R
+    ordre: 40
+    valors:
+      para:
+        es: VERDE
+        en: GREEN
+        fr: VERT
+  compartits: []
+- clau: TAPA ARO
+  noms:
+    es: TAPA ARO
+    en: RING LID
+    fr: COUVERCLE D'ANNEAUX
+  sequence: 580
+  tipus: accessoris
+  pagina: p68
+  taula: p68-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes: []
+  compartits:
+  - codi: '16000028'
+    ordre: 10
+    valors: {}
+    propietari: G13
+- clau: SOPORTE BOLSA BASURA
+  noms:
+    es: SOPORTE BOLSA BASURA
+    en: GARBAGE BAG SUPPORT
+    fr: SUPPORT DE SAC À ORDURES
+  sequence: 590
+  tipus: accessoris
+  pagina: p68
+  taula: p68-t3
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A902062
+    ordre: 10
+    valors: {}
+  compartits: []
+- clau: KIT SOPORTE CON 5 CESTOS DE CUBIERTOS
+  noms:
+    es: KIT SOPORTE CON 5 CESTOS DE CUBIERTOS
+    en: SUPPORT KIT WITH 5 CUTLERY BASKETS
+    fr: KIT DE SUPPORT AVEC 5 PANIERS À COUVERTS
+  sequence: 600
+  tipus: accessoris
+  pagina: p68
+  taula: p68-t4
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A012062
+    ordre: 10
+    valors: {}
+  compartits: []
+- clau: KIT SOPORTE CON CUBETA GN 1/3 200
+  noms:
+    es: KIT SOPORTE CON CUBETA GN 1/3 200
+    en: SUPPORT KIT WITH GN 1/3 200 CUB
+    fr: KIT SUPPORT AVEC CUVE GN 1/3 200
+  sequence: 610
+  tipus: accessoris
+  pagina: p68
+  taula: p68-t5
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A702062
+    ordre: 10
+    valors: {}
+  compartits: []
+- clau: SOPORTE JAMÓN
+  noms:
+    es: SOPORTE JAMÓN
+    en: HAM SUPPORT
+    fr: SUPPORT À JAMBON
+  sequence: 620
+  tipus: accessoris
+  pagina: p68
+  taula: p68-t6
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A608140
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 210x140x370
+        en: 210x140x370
+        fr: 210x140x370
+  compartits: []
+- clau: RECIPIENTES GN PARA ESTANTES INCLINADOS
+  noms:
+    es: RECIPIENTES GN PARA ESTANTES INCLINADOS
+    en: GN RECIPIENTS FOR INCLINED PLATES
+    fr: BACS GN POUR LES PLATES INCLINÉES
+  sequence: 630
+  tipus: accessoris
+  pagina: p68
+  taula: p68-t6
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: CP131001
+    ordre: 20
+    valors:
+      gastronorm:
+        es: 1/3 - 100
+        en: 1/3 - 100
+        fr: 1/3 - 100
+  compartits:
+  - codi: CP161001
+    ordre: 10
+    valors:
+      gastronorm:
+        es: 1/6 - 100
+        en: 1/6 - 100
+        fr: 1/6 - 100
+    propietari: G07
+avisos:
+- 'pàgina p32 de tipus «desconeguda»: no es genera (l''extractor no l''ha sabut classificar)'
+- 'p53-t1 38000010: sense valor per a «prestatge_mural»'
+- 'p53-t1 32000010: sense valor per a «prestatge_mural»'
+- 'p53-t1 34000010: sense valor per a «prestatge_mural»'
+- 'p68-t1 40R0000R: text multillengua enganxat sense traducció coneguda: «ROJO □ RED □ ROUGE»'
+- 'p68-t1 4EV0000R: text multillengua enganxat sense traducció coneguda: «AMARILLO □ YELLOW □ JAUNE»'
+- 'p68-t1 4MA0000R: text multillengua enganxat sense traducció coneguda: «AZUL □ BLUE □ BLEU»'
+- 'p68-t1 42AD000R: text multillengua enganxat sense traducció coneguda: «VERDE □ GREEN □ VERT»'
+repeticions:
+  TAPA ARO:
+  - codi: '16000028'
+    ordre: 10
+  RECIPIENTES GN PARA ESTANTES INCLINADOS:
+  - codi: CP161001
+    ordre: 10
+informe:
+  inexistents: []
+  descatalogats: []
+  arxivats: []
+  ambigus: []
+  ignorats: []
+  fora_pdf: []
+  columnes_eliminades:
+  - taula: p30-t2
+    clau: col3
+    motiu: 'fantasma: sense cap valor'
+  families_buides: []
+  taules_dividides:
+  - 'p68-t1: el tros «(2)» (blocs que no encaixen en una sola taula) és una família a part (cap codi es perd)'
+  - 'p68-t6: el tros «(2)» (blocs que no encaixen en una sola taula) és una família a part (cap codi es perd)'

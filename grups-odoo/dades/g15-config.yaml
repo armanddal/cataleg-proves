@@ -1,0 +1,4752 @@
+# Generat per scripts/genera_config.py --grup 15 (editable; es pot regenerar)
+grup:
+  numero: 15
+  codi_odoo: G15
+families:
+- clau: DROP-IN / CUBAS FRÍAS
+  noms:
+    es: DROP-IN / CUBAS FRÍAS
+    en: DROP-IN / COLD TANKS
+    fr: DROP-IN / CUVES FROIDES
+  sequence: 10
+  tipus: producte
+  pagina: p06
+  taula: p06-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: dimensions_cuba
+    etiqueta: null
+  - codi: hp
+    etiqueta: null
+  - codi: uc
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 111326FC
+    ordre: 10
+    valors:
+      gastronorm:
+        es: 3 - GN 1/1 - 65
+        en: 3 - GN 1/1 - 65
+        fr: 3 - GN 1/1 - 65
+      dimensions_cuba:
+        es: 1070x580x510
+        en: 1070x580x510
+        fr: 1070x580x510
+      hp:
+        es: 1/5 HP
+        en: 1/5 HP
+        fr: 1/5 HP
+      uc:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: 380 W 230/1V
+        en: 380 W 230/1V
+        fr: 380 W 230/1V
+  - codi: 111426FC
+    ordre: 20
+    valors:
+      gastronorm:
+        es: 4 - GN 1/1 - 65
+        en: 4 - GN 1/1 - 65
+        fr: 4 - GN 1/1 - 65
+      dimensions_cuba:
+        es: 1400x580x510
+        en: 1400x580x510
+        fr: 1400x580x510
+      hp:
+        es: 1/4 HP
+        en: 1/4 HP
+        fr: 1/4 HP
+      uc:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: 480 W 230/1V
+        en: 480 W 230/1V
+        fr: 480 W 230/1V
+  - codi: 111526FC
+    ordre: 30
+    valors:
+      gastronorm:
+        es: 5 - GN 1/1 - 65 3 - GN 1/1 - 65
+        en: 5 - GN 1/1 - 65 3 - GN 1/1 - 65
+        fr: 5 - GN 1/1 - 65 3 - GN 1/1 - 65
+      dimensions_cuba:
+        es: 1730x580x510 1070x580x130
+        en: 1730x580x510 1070x580x130
+        fr: 1730x580x510 1070x580x130
+      hp:
+        es: 3/8 HP -
+        en: 3/8 HP -
+        fr: 3/8 HP -
+      uc:
+        es: '- 1/5 HP'
+        en: '- 1/5 HP'
+        fr: '- 1/5 HP'
+      potencia_electrica:
+        es: 720 W 230/1V -
+        en: 720 W 230/1V -
+        fr: 720 W 230/1V -
+  - codi: 111320FC
+    ordre: 40
+    valors:
+      gastronorm:
+        es: 5 - GN 1/1 - 65 3 - GN 1/1 - 65
+        en: 5 - GN 1/1 - 65 3 - GN 1/1 - 65
+        fr: 5 - GN 1/1 - 65 3 - GN 1/1 - 65
+      dimensions_cuba:
+        es: 1730x580x510 1070x580x130
+        en: 1730x580x510 1070x580x130
+        fr: 1730x580x510 1070x580x130
+      hp:
+        es: 3/8 HP -
+        en: 3/8 HP -
+        fr: 3/8 HP -
+      uc:
+        es: '- 1/5 HP'
+        en: '- 1/5 HP'
+        fr: '- 1/5 HP'
+      potencia_electrica:
+        es: 720 W 230/1V -
+        en: 720 W 230/1V -
+        fr: 720 W 230/1V -
+  - codi: 111420FC
+    ordre: 50
+    valors:
+      gastronorm:
+        es: 4 - GN 1/1 - 65
+        en: 4 - GN 1/1 - 65
+        fr: 4 - GN 1/1 - 65
+      dimensions_cuba:
+        es: 1400x580x130
+        en: 1400x580x130
+        fr: 1400x580x130
+      hp:
+        es: '-'
+        en: '-'
+        fr: '-'
+      uc:
+        es: 1/4 HP
+        en: 1/4 HP
+        fr: 1/4 HP
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 111520FC
+    ordre: 60
+    valors:
+      gastronorm:
+        es: 5 - GN 1/1 - 65
+        en: 5 - GN 1/1 - 65
+        fr: 5 - GN 1/1 - 65
+      dimensions_cuba:
+        es: 1730x580x130
+        en: 1730x580x130
+        fr: 1730x580x130
+      hp:
+        es: '-'
+        en: '-'
+        fr: '-'
+      uc:
+        es: 3/8 HP
+        en: 3/8 HP
+        fr: 3/8 HP
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+  compartits: []
+- clau: DROP-IN / PLACAS LISAS FRÍAS
+  noms:
+    es: DROP-IN / PLACAS LISAS FRÍAS
+    en: DROP-IN / COLD SMOOTH PLATES
+    fr: DROP-IN / PLAQUES LISSES À FROID
+  sequence: 20
+  tipus: producte
+  pagina: p07
+  taula: p07-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: dimensions_cuba
+    etiqueta: null
+  - codi: hp
+    etiqueta: null
+  - codi: uc
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 111336FP
+    ordre: 10
+    valors:
+      gastronorm:
+        es: 3 - GN 1/1
+        en: 3 - GN 1/1
+        fr: 3 - GN 1/1
+      dimensions_cuba:
+        es: 1070x580x460
+        en: 1070x580x460
+        fr: 1070x580x460
+      hp:
+        es: 1/4 HP
+        en: 1/4 HP
+        fr: 1/4 HP
+      uc:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: 480 W 230/1V
+        en: 480 W 230/1V
+        fr: 480 W 230/1V
+  - codi: 111436FP
+    ordre: 20
+    valors:
+      gastronorm:
+        es: 4 - GN 1/1
+        en: 4 - GN 1/1
+        fr: 4 - GN 1/1
+      dimensions_cuba:
+        es: 1400x580x460
+        en: 1400x580x460
+        fr: 1400x580x460
+      hp:
+        es: 1/3 HP
+        en: 1/3 HP
+        fr: 1/3 HP
+      uc:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: 720 W 230/1V
+        en: 720 W 230/1V
+        fr: 720 W 230/1V
+  - codi: 111536FP
+    ordre: 30
+    valors:
+      gastronorm:
+        es: 5 - GN 1/1 3 - GN 1/1
+        en: 5 - GN 1/1 3 - GN 1/1
+        fr: 5 - GN 1/1 3 - GN 1/1
+      dimensions_cuba:
+        es: 1730x580x460 1070x580x60
+        en: 1730x580x460 1070x580x60
+        fr: 1730x580x460 1070x580x60
+      hp:
+        es: 1/2 HP -
+        en: 1/2 HP -
+        fr: 1/2 HP -
+      uc:
+        es: '- 1/4 HP'
+        en: '- 1/4 HP'
+        fr: '- 1/4 HP'
+      potencia_electrica:
+        es: 960 W 230/1V -
+        en: 960 W 230/1V -
+        fr: 960 W 230/1V -
+  - codi: 111330FP
+    ordre: 40
+    valors:
+      gastronorm:
+        es: 5 - GN 1/1 3 - GN 1/1
+        en: 5 - GN 1/1 3 - GN 1/1
+        fr: 5 - GN 1/1 3 - GN 1/1
+      dimensions_cuba:
+        es: 1730x580x460 1070x580x60
+        en: 1730x580x460 1070x580x60
+        fr: 1730x580x460 1070x580x60
+      hp:
+        es: 1/2 HP -
+        en: 1/2 HP -
+        fr: 1/2 HP -
+      uc:
+        es: '- 1/4 HP'
+        en: '- 1/4 HP'
+        fr: '- 1/4 HP'
+      potencia_electrica:
+        es: 960 W 230/1V -
+        en: 960 W 230/1V -
+        fr: 960 W 230/1V -
+  - codi: 111430FP
+    ordre: 50
+    valors:
+      gastronorm:
+        es: 4 - GN 1/1
+        en: 4 - GN 1/1
+        fr: 4 - GN 1/1
+      dimensions_cuba:
+        es: 1400x580x60
+        en: 1400x580x60
+        fr: 1400x580x60
+      hp:
+        es: '-'
+        en: '-'
+        fr: '-'
+      uc:
+        es: 1/3 HP
+        en: 1/3 HP
+        fr: 1/3 HP
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 111530FP
+    ordre: 60
+    valors:
+      gastronorm:
+        es: 5 - GN 1/1
+        en: 5 - GN 1/1
+        fr: 5 - GN 1/1
+      dimensions_cuba:
+        es: 1730x580x60
+        en: 1730x580x60
+        fr: 1730x580x60
+      hp:
+        es: '-'
+        en: '-'
+        fr: '-'
+      uc:
+        es: 1/2 HP
+        en: 1/2 HP
+        fr: 1/2 HP
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+  compartits: []
+- clau: DROP-IN / VITRINAS FRÍAS ABIERTAS
+  noms:
+    es: DROP-IN / VITRINAS FRÍAS ABIERTAS
+    en: DROP-IN / OPEN COLD CABINETS
+    fr: DROP-IN / VITRINES RÉFRIGÉRÉES OUVERTES
+  sequence: 30
+  tipus: producte
+  pagina: p10
+  taula: p10-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: dimensions_cuba
+    etiqueta: null
+  - codi: nivells_safates
+    etiqueta: null
+  - codi: hp
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 11300CCV
+    ordre: 10
+    valors:
+      gastronorm:
+        es: 3 - GN 1/1 - 200
+        en: 3 - GN 1/1 - 200
+        fr: 3 - GN 1/1 - 200
+      dimensions_cuba:
+        es: 1100x700x780
+        en: 1100x700x780
+        fr: 1100x700x780
+      nivells_safates:
+        es: '3'
+        en: '3'
+        fr: '3'
+      hp:
+        es: 3/4 HP
+        en: 3/4 HP
+        fr: 3/4 HP
+      potencia_electrica:
+        es: 1100 W 230/1V
+        en: 1100 W 230/1V
+        fr: 1100 W 230/1V
+  - codi: 11400CCV
+    ordre: 20
+    valors:
+      gastronorm:
+        es: 4 - GN 1/1 - 200
+        en: 4 - GN 1/1 - 200
+        fr: 4 - GN 1/1 - 200
+      dimensions_cuba:
+        es: 1430x700x780
+        en: 1430x700x780
+        fr: 1430x700x780
+      nivells_safates:
+        es: '3'
+        en: '3'
+        fr: '3'
+      hp:
+        es: 3/4 HP
+        en: 3/4 HP
+        fr: 3/4 HP
+      potencia_electrica:
+        es: 1100 W 230/1V
+        en: 1100 W 230/1V
+        fr: 1100 W 230/1V
+  compartits: []
+- clau: DROP-IN / VITRINAS FRÍAS ABIERTAS#2
+  noms:
+    es: DROP-IN / VITRINAS FRÍAS ABIERTAS
+    en: DROP-IN / OPEN COLD CABINETS
+    fr: DROP-IN / VITRINES RÉFRIGÉRÉES OUVERTES
+  sequence: 40
+  tipus: producte
+  pagina: p11
+  taula: p11-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: dimensions_cuba
+    etiqueta: null
+  - codi: nivells_safates
+    etiqueta: null
+  - codi: hp
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 1130TRCV
+    ordre: 10
+    valors:
+      gastronorm:
+        es: 3 - GN 1/1 - 200
+        en: 3 - GN 1/1 - 200
+        fr: 3 - GN 1/1 - 200
+      dimensions_cuba:
+        es: 1100x700x780
+        en: 1100x700x780
+        fr: 1100x700x780
+      nivells_safates:
+        es: '3'
+        en: '3'
+        fr: '3'
+      hp:
+        es: 3/4 HP
+        en: 3/4 HP
+        fr: 3/4 HP
+      potencia_electrica:
+        es: 1100 W 230/1V
+        en: 1100 W 230/1V
+        fr: 1100 W 230/1V
+  - codi: 1140TRCV
+    ordre: 20
+    valors:
+      gastronorm:
+        es: 4 - GN 1/1 - 200
+        en: 4 - GN 1/1 - 200
+        fr: 4 - GN 1/1 - 200
+      dimensions_cuba:
+        es: 1430x700x780
+        en: 1430x700x780
+        fr: 1430x700x780
+      nivells_safates:
+        es: '3'
+        en: '3'
+        fr: '3'
+      hp:
+        es: 3/4 HP
+        en: 3/4 HP
+        fr: 3/4 HP
+      potencia_electrica:
+        es: 1100 W 230/1V
+        en: 1100 W 230/1V
+        fr: 1100 W 230/1V
+  compartits: []
+- clau: DROP-IN / CUBAS FRÍAS PARA MANTENIMIENTO DE HELADOS
+  noms:
+    es: DROP-IN / CUBAS FRÍAS PARA MANTENIMIENTO DE HELADOS
+    en: DROP-IN / COLD TANKS FOR ICE-CREAM
+    fr: DROP-IN / CUVES POUR LE MANTENANCE DES GLACES
+  sequence: 50
+  tipus: producte
+  pagina: p12
+  taula: p12-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: mesures_interiors
+    etiqueta:
+      es: CH
+      en: CH
+      fr: CH
+  - codi: dimensions_cuba
+    etiqueta: null
+  - codi: hp
+    etiqueta: null
+  - codi: uc
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 111016HC
+    ordre: 10
+    valors:
+      mesures_interiors:
+        es: 4 x 150
+        en: 4 x 150
+        fr: 4 x 150
+      dimensions_cuba:
+        es: 790x570x670
+        en: 790x570x670
+        fr: 790x570x670
+      hp:
+        es: 1/3 HP
+        en: 1/3 HP
+        fr: 1/3 HP
+      uc:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: 720 W 230/1V
+        en: 720 W 230/1V
+        fr: 720 W 230/1V
+  - codi: 111010HC
+    ordre: 20
+    valors:
+      mesures_interiors:
+        es: 4 x 150
+        en: 4 x 150
+        fr: 4 x 150
+      dimensions_cuba:
+        es: 790x570x290
+        en: 790x570x290
+        fr: 790x570x290
+      hp:
+        es: '-'
+        en: '-'
+        fr: '-'
+      uc:
+        es: 1/3 HP
+        en: 1/3 HP
+        fr: 1/3 HP
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 111000HC
+    ordre: 30
+    valors:
+      mesures_interiors:
+        es: 4+4 x 150
+        en: 4+4 x 150
+        fr: 4+4 x 150
+      dimensions_cuba:
+        es: 790x570x470
+        en: 790x570x470
+        fr: 790x570x470
+      hp:
+        es: '-'
+        en: '-'
+        fr: '-'
+      uc:
+        es: 1/2 HP
+        en: 1/2 HP
+        fr: 1/2 HP
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+  compartits: []
+- clau: DROP-IN / CUBAS CALIENTES BAÑO MARÍA
+  noms:
+    es: DROP-IN / CUBAS CALIENTES BAÑO MARÍA
+    en: DROP-IN / BAIN MARIE HOT TANKS
+    fr: DROP-IN / CUVES CHAUDES BAIN-MARIE
+  sequence: 60
+  tipus: producte
+  pagina: p15
+  taula: p15-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: dimensions_cuba
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 11020HM8
+    ordre: 10
+    valors:
+      gastronorm:
+        es: 2 - GN 1/1 - 150
+        en: 2 - GN 1/1 - 150
+        fr: 2 - GN 1/1 - 150
+      dimensions_cuba:
+        es: 740x580x430
+        en: 740x580x430
+        fr: 740x580x430
+      potencia_electrica:
+        es: 1600 W 230/1V
+        en: 1600 W 230/1V
+        fr: 1600 W 230/1V
+  - codi: 11030HM8
+    ordre: 20
+    valors:
+      gastronorm:
+        es: 3 - GN 1/1 - 150
+        en: 3 - GN 1/1 - 150
+        fr: 3 - GN 1/1 - 150
+      dimensions_cuba:
+        es: 1070x580x430
+        en: 1070x580x430
+        fr: 1070x580x430
+      potencia_electrica:
+        es: 2400 W 230/1V
+        en: 2400 W 230/1V
+        fr: 2400 W 230/1V
+  - codi: 11040HM8
+    ordre: 30
+    valors:
+      gastronorm:
+        es: 4 - GN 1/1 - 150
+        en: 4 - GN 1/1 - 150
+        fr: 4 - GN 1/1 - 150
+      dimensions_cuba:
+        es: 1400x580x430
+        en: 1400x580x430
+        fr: 1400x580x430
+      potencia_electrica:
+        es: 3200 W 230/1V
+        en: 3200 W 230/1V
+        fr: 3200 W 230/1V
+  - codi: 11050HM8
+    ordre: 40
+    valors:
+      gastronorm:
+        es: 5 - GN 1/1 - 150
+        en: 5 - GN 1/1 - 150
+        fr: 5 - GN 1/1 - 150
+      dimensions_cuba:
+        es: 1730x580x430
+        en: 1730x580x430
+        fr: 1730x580x430
+      potencia_electrica:
+        es: 4000 W 230/1V
+        en: 4000 W 230/1V
+        fr: 4000 W 230/1V
+  compartits: []
+- clau: DROP-IN / CUBAS CALIENTES SECAS
+  noms:
+    es: DROP-IN / CUBAS CALIENTES SECAS
+    en: DROP-IN / DRY HOT TANKS
+    fr: DROP-IN / CUVES CHAUDES SÈCHES
+  sequence: 70
+  tipus: producte
+  pagina: p16
+  taula: p16-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: dimensions_cuba
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 110225M8
+    ordre: 10
+    valors:
+      gastronorm:
+        es: 2 - GN 1/1 - 100
+        en: 2 - GN 1/1 - 100
+        fr: 2 - GN 1/1 - 100
+      dimensions_cuba:
+        es: 740x580x380
+        en: 740x580x380
+        fr: 740x580x380
+      potencia_electrica:
+        es: 1200 W 230/1V
+        en: 1200 W 230/1V
+        fr: 1200 W 230/1V
+  - codi: 110325M8
+    ordre: 20
+    valors:
+      gastronorm:
+        es: 3 - GN 1/1 - 100
+        en: 3 - GN 1/1 - 100
+        fr: 3 - GN 1/1 - 100
+      dimensions_cuba:
+        es: 1070x580x380
+        en: 1070x580x380
+        fr: 1070x580x380
+      potencia_electrica:
+        es: 2000 W 230/1V
+        en: 2000 W 230/1V
+        fr: 2000 W 230/1V
+  - codi: 110425M8
+    ordre: 30
+    valors:
+      gastronorm:
+        es: 4 - GN 1/1 - 100
+        en: 4 - GN 1/1 - 100
+        fr: 4 - GN 1/1 - 100
+      dimensions_cuba:
+        es: 1400x580x380
+        en: 1400x580x380
+        fr: 1400x580x380
+      potencia_electrica:
+        es: 2400 W 230/1V
+        en: 2400 W 230/1V
+        fr: 2400 W 230/1V
+  - codi: 110525M8
+    ordre: 40
+    valors:
+      gastronorm:
+        es: 5 - GN 1/1 - 100
+        en: 5 - GN 1/1 - 100
+        fr: 5 - GN 1/1 - 100
+      dimensions_cuba:
+        es: 1730x580x380
+        en: 1730x580x380
+        fr: 1730x580x380
+      potencia_electrica:
+        es: 2800 W 230/1V
+        en: 2800 W 230/1V
+        fr: 2800 W 230/1V
+  compartits: []
+- clau: DROP-IN / PLACAS LISAS VITROCERÁMICAS
+  noms:
+    es: DROP-IN / PLACAS LISAS VITROCERÁMICAS
+    en: DROP-IN / GLASS CERAMIC SMOOTH PLATE
+    fr: DROP-IN / PLAQUES CHAUFFANTES EN VITROCÉRAMIQUE LISSE
+  sequence: 80
+  tipus: producte
+  pagina: p17
+  taula: p17-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: dimensions_cuba
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 11023TPC
+    ordre: 10
+    valors:
+      gastronorm:
+        es: 2 - GN 1/1
+        en: 2 - GN 1/1
+        fr: 2 - GN 1/1
+      dimensions_cuba:
+        es: 740x580x220
+        en: 740x580x220
+        fr: 740x580x220
+      potencia_electrica:
+        es: 900 W 230/1V
+        en: 900 W 230/1V
+        fr: 900 W 230/1V
+  - codi: 11033TPC
+    ordre: 20
+    valors:
+      gastronorm:
+        es: 3 - GN 1/1
+        en: 3 - GN 1/1
+        fr: 3 - GN 1/1
+      dimensions_cuba:
+        es: 1070x580x220
+        en: 1070x580x220
+        fr: 1070x580x220
+      potencia_electrica:
+        es: 1400 W 230/1V
+        en: 1400 W 230/1V
+        fr: 1400 W 230/1V
+  - codi: 11043TPC
+    ordre: 30
+    valors:
+      gastronorm:
+        es: 4 - GN 1/1
+        en: 4 - GN 1/1
+        fr: 4 - GN 1/1
+      dimensions_cuba:
+        es: 1400x580x220
+        en: 1400x580x220
+        fr: 1400x580x220
+      potencia_electrica:
+        es: 1800 W 230/1V
+        en: 1800 W 230/1V
+        fr: 1800 W 230/1V
+  - codi: 11053TPC
+    ordre: 40
+    valors:
+      gastronorm:
+        es: 5 - GN 1/1
+        en: 5 - GN 1/1
+        fr: 5 - GN 1/1
+      dimensions_cuba:
+        es: 1730x580x220
+        en: 1730x580x220
+        fr: 1730x580x220
+      potencia_electrica:
+        es: 2300 W 230/1V
+        en: 2300 W 230/1V
+        fr: 2300 W 230/1V
+  compartits: []
+- clau: PLACAS CALIENTES VITROCERÁMICAS DE SOBREMESA
+  noms:
+    es: PLACAS CALIENTES VITROCERÁMICAS DE SOBREMESA
+    en: TABLE-TOP GLASS-CERAMIC HOT PLATES
+    fr: PLAQUES CHAUFFANTES EN VITROCÉRAMIQUE, DE TABLE
+  sequence: 90
+  tipus: producte
+  pagina: p18
+  taula: p18-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 110255TC
+    ordre: 10
+    valors:
+      potencia_electrica:
+        es: 800 W 230/1V
+        en: 800 W 230/1V
+        fr: 800 W 230/1V
+  - codi: 110355TC
+    ordre: 20
+    valors:
+      potencia_electrica:
+        es: 800 W 230/1V
+        en: 800 W 230/1V
+        fr: 800 W 230/1V
+  - codi: 110455TC
+    ordre: 30
+    valors:
+      potencia_electrica:
+        es: 1600 W 230/1V
+        en: 1600 W 230/1V
+        fr: 1600 W 230/1V
+  compartits: []
+- clau: DROP-IN / PANTALLAS CON SOPORTE Y CRISTAL
+  noms:
+    es: DROP-IN / PANTALLAS CON SOPORTE Y CRISTAL
+    en: DROP-IN / SCREENS WITH SUPPORTS AND GLASS
+    fr: DROP-IN / ÉCRANS AVEC SUPPORTS ET VERRE
+  sequence: 100
+  tipus: producte
+  pagina: p21
+  taula: p21-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: temperatura
+    etiqueta: null
+  - codi: llum
+    etiqueta: null
+  - codi: llum_2
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 1122JN5C
+    ordre: 10
+    valors:
+      gastronorm:
+        es: '2'
+        en: '2'
+        fr: '2'
+      temperatura:
+        es: OK
+        en: OK
+        fr: OK
+      llum:
+        es: '-'
+        en: '-'
+        fr: '-'
+      llum_2:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 1123JN5C
+    ordre: 20
+    valors:
+      gastronorm:
+        es: '3'
+        en: '3'
+        fr: '3'
+      temperatura:
+        es: OK
+        en: OK
+        fr: OK
+      llum:
+        es: '-'
+        en: '-'
+        fr: '-'
+      llum_2:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 1124JN5C
+    ordre: 30
+    valors:
+      gastronorm:
+        es: '4'
+        en: '4'
+        fr: '4'
+      temperatura:
+        es: OK
+        en: OK
+        fr: OK
+      llum:
+        es: '-'
+        en: '-'
+        fr: '-'
+      llum_2:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 1125JN5C
+    ordre: 40
+    valors:
+      gastronorm:
+        es: '5'
+        en: '5'
+        fr: '5'
+      temperatura:
+        es: OK
+        en: OK
+        fr: OK
+      llum:
+        es: '-'
+        en: '-'
+        fr: '-'
+      llum_2:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 1112JL5C
+    ordre: 50
+    valors:
+      gastronorm:
+        es: '2'
+        en: '2'
+        fr: '2'
+      temperatura:
+        es: '-'
+        en: '-'
+        fr: '-'
+      llum:
+        es: OK
+        en: OK
+        fr: OK
+      llum_2:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: 8 W 230/1V
+        en: 8 W 230/1V
+        fr: 8 W 230/1V
+  - codi: 1113JL5C
+    ordre: 60
+    valors:
+      gastronorm:
+        es: '3'
+        en: '3'
+        fr: '3'
+      temperatura:
+        es: '-'
+        en: '-'
+        fr: '-'
+      llum:
+        es: OK
+        en: OK
+        fr: OK
+      llum_2:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: 12 W 230/1V
+        en: 12 W 230/1V
+        fr: 12 W 230/1V
+  - codi: 1114JL5C
+    ordre: 70
+    valors:
+      gastronorm:
+        es: '4'
+        en: '4'
+        fr: '4'
+      temperatura:
+        es: '-'
+        en: '-'
+        fr: '-'
+      llum:
+        es: OK
+        en: OK
+        fr: OK
+      llum_2:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: 14 W 230/1V
+        en: 14 W 230/1V
+        fr: 14 W 230/1V
+  - codi: 1115JL5C
+    ordre: 80
+    valors:
+      gastronorm:
+        es: '5'
+        en: '5'
+        fr: '5'
+      temperatura:
+        es: '-'
+        en: '-'
+        fr: '-'
+      llum:
+        es: OK
+        en: OK
+        fr: OK
+      llum_2:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: 18 W 230/1V
+        en: 18 W 230/1V
+        fr: 18 W 230/1V
+  - codi: 1102JCLC
+    ordre: 90
+    valors:
+      gastronorm:
+        es: '2'
+        en: '2'
+        fr: '2'
+      temperatura:
+        es: '-'
+        en: '-'
+        fr: '-'
+      llum:
+        es: '-'
+        en: '-'
+        fr: '-'
+      llum_2:
+        es: OK
+        en: OK
+        fr: OK
+      potencia_electrica:
+        es: 480 W 230/1V
+        en: 480 W 230/1V
+        fr: 480 W 230/1V
+  - codi: 1103JCLC
+    ordre: 100
+    valors:
+      gastronorm:
+        es: '3'
+        en: '3'
+        fr: '3'
+      temperatura:
+        es: '-'
+        en: '-'
+        fr: '-'
+      llum:
+        es: '-'
+        en: '-'
+        fr: '-'
+      llum_2:
+        es: OK
+        en: OK
+        fr: OK
+      potencia_electrica:
+        es: 710 W 230/1V
+        en: 710 W 230/1V
+        fr: 710 W 230/1V
+  - codi: 1104JCLC
+    ordre: 110
+    valors:
+      gastronorm:
+        es: '4'
+        en: '4'
+        fr: '4'
+      temperatura:
+        es: '-'
+        en: '-'
+        fr: '-'
+      llum:
+        es: '-'
+        en: '-'
+        fr: '-'
+      llum_2:
+        es: OK
+        en: OK
+        fr: OK
+      potencia_electrica:
+        es: 960 W 230/1V
+        en: 960 W 230/1V
+        fr: 960 W 230/1V
+  - codi: 1105JCLC
+    ordre: 120
+    valors:
+      gastronorm:
+        es: '5'
+        en: '5'
+        fr: '5'
+      temperatura:
+        es: '-'
+        en: '-'
+        fr: '-'
+      llum:
+        es: '-'
+        en: '-'
+        fr: '-'
+      llum_2:
+        es: OK
+        en: OK
+        fr: OK
+      potencia_electrica:
+        es: 960 W 230/1V
+        en: 960 W 230/1V
+        fr: 960 W 230/1V
+  compartits: []
+- clau: PANTALLAS DE SOBREMESA
+  noms:
+    es: PANTALLAS DE SOBREMESA
+    en: DESKTOP SCREENS
+    fr: ÉCRANS SÛR TABLE
+  sequence: 110
+  tipus: producte
+  pagina: p22
+  taula: p22-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: calor
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 1101CM1P
+    ordre: 10
+    valors:
+      calor:
+        es: OK
+        en: OK
+        fr: OK
+      potencia_electrica:
+        es: 300 W 230/1V
+        en: 300 W 230/1V
+        fr: 300 W 230/1V
+  compartits: []
+- clau: DROP-IN / DISPENSADORES A NIVEL CONSTANTE
+  noms:
+    es: DROP-IN / DISPENSADORES A NIVEL CONSTANTE
+    en: DROP-IN / DISPENSERS AT CONSTANT LEVEL
+    fr: DROP-IN / DISTRIBUTEURS À NIVEAU CONSTANT
+  sequence: 120
+  tipus: producte
+  pagina: p24
+  taula: p24-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: cubeta_trapezi
+    etiqueta: null
+  - codi: diametre_plats
+    etiqueta: null
+  - codi: dimensions_safata
+    etiqueta:
+      es: Cesta lavavajillas
+      en: Dishwasher basket
+      fr: Panier lave-vaisselle
+  - codi: dimensions_cuba
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '11532070'
+    ordre: 10
+    valors:
+      cubeta_trapezi:
+        es: '* 65'
+        en: '* 65'
+        fr: '* 65'
+      diametre_plats:
+        es: 200 / 310
+        en: 200 / 310
+        fr: 200 / 310
+      dimensions_safata:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dimensions_cuba:
+        es: Ø410x670
+        en: Ø410x670
+        fr: Ø410x670
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '11521070'
+    ordre: 20
+    valors:
+      cubeta_trapezi:
+        es: '* 65'
+        en: '* 65'
+        fr: '* 65'
+      diametre_plats:
+        es: 200 / 310
+        en: 200 / 310
+        fr: 200 / 310
+      dimensions_safata:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dimensions_cuba:
+        es: 410x410x730
+        en: 410x410x730
+        fr: 410x410x730
+      potencia_electrica:
+        es: 800 W 230/1V
+        en: 800 W 230/1V
+        fr: 800 W 230/1V
+  - codi: '11543070'
+    ordre: 30
+    valors:
+      cubeta_trapezi:
+        es: '-'
+        en: '-'
+        fr: '-'
+      diametre_plats:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dimensions_safata:
+        es: '* 7'
+        en: '* 7'
+        fr: '* 7'
+      dimensions_cuba:
+        es: 560x560x740
+        en: 560x560x740
+        fr: 560x560x740
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+  compartits: []
+- clau: DROP-IN / SHOW COOKING / ENCIMERAS DE COCINAS A GAS
+  noms:
+    es: DROP-IN / SHOW COOKING / ENCIMERAS DE COCINAS A GAS
+    en: DROP-IN / SHOW COOKING / GAS KITCHEN COUNTERTOPS
+    fr: DROP-IN / SHOW COOKING / COMPTOIRS DE CUISSON À GAZ
+  sequence: 130
+  tipus: producte
+  pagina: p29
+  taula: p29-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: dimensions_cuba
+    etiqueta: null
+  - codi: fogons
+    etiqueta: null
+  - codi: fogons_2
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '12500331'
+    ordre: 10
+    valors:
+      dimensions_cuba:
+        es: 340x590
+        en: 340x590
+        fr: 340x590
+      fogons:
+        es: 1 x 5,2
+        en: 1 x 5,2
+        fr: 1 x 5,2
+      fogons_2:
+        es: 1 x 3,3
+        en: 1 x 3,3
+        fr: 1 x 3,3
+      potencia_gas:
+        es: 8,5 KW
+        en: 8,5 KW
+        fr: 8,5 KW
+  - codi: '12600331'
+    ordre: 20
+    valors:
+      dimensions_cuba:
+        es: 690x590
+        en: 690x590
+        fr: 690x590
+      fogons:
+        es: 2 x 5,2
+        en: 2 x 5,2
+        fr: 2 x 5,2
+      fogons_2:
+        es: 2 x 3,3
+        en: 2 x 3,3
+        fr: 2 x 3,3
+      potencia_gas:
+        es: 17 KW
+        en: 17 KW
+        fr: 17 KW
+  compartits: []
+- clau: DROP-IN / SHOW COOKING / ENCIMERAS DE COCINAS ELÉCTRICAS
+  noms:
+    es: DROP-IN / SHOW COOKING / ENCIMERAS DE COCINAS ELÉCTRICAS
+    en: DROP-IN / SHOW COOKING / ELECTRIC KITCHEN COUNTERTOPS
+    fr: DROP-IN / SHOW COOKING / COMPTOIRS DE CUISSON ÉLECTRIQUES
+  sequence: 140
+  tipus: producte
+  pagina: p30
+  taula: p30-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: dimensions_cuba
+    etiqueta: null
+  - codi: placa_rodona
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '12200631'
+    ordre: 10
+    valors:
+      dimensions_cuba:
+        es: 340x590
+        en: 340x590
+        fr: 340x590
+      placa_rodona:
+        es: 2 x 2,6
+        en: 2 x 2,6
+        fr: 2 x 2,6
+      potencia_electrica:
+        es: 5,2 KW 230/1V
+        en: 5,2 KW 230/1V
+        fr: 5,2 KW 230/1V
+  - codi: '12400631'
+    ordre: 20
+    valors:
+      dimensions_cuba:
+        es: 690x590
+        en: 690x590
+        fr: 690x590
+      placa_rodona:
+        es: 4 x 2,6
+        en: 4 x 2,6
+        fr: 4 x 2,6
+      potencia_electrica:
+        es: 10,4 KW 400/3V
+        en: 10,4 KW 400/3V
+        fr: 10,4 KW 400/3V
+  compartits: []
+- clau: DROP-IN / SHOW COOKING / ENCIMERAS DE COCINAS VITROCERÁMICAS
+  noms:
+    es: DROP-IN / SHOW COOKING / ENCIMERAS DE COCINAS VITROCERÁMICAS
+    en: DROP-IN / SHOW COOKING / VITROCERAMIC KITCHEN COUNTERTOPS
+    fr: DROP-IN / SHOW COOKING / COMPTOIRS DE CUISSON EN VITROCÉRAMIQ
+  sequence: 150
+  tipus: producte
+  pagina: p31
+  taula: p31-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: dimensions_cuba
+    etiqueta: null
+  - codi: placa_rodona
+    etiqueta: null
+  - codi: placa_rodona_2
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '12700631'
+    ordre: 10
+    valors:
+      dimensions_cuba:
+        es: 340x590
+        en: 340x590
+        fr: 340x590
+      placa_rodona:
+        es: 1 x 2,5
+        en: 1 x 2,5
+        fr: 1 x 2,5
+      placa_rodona_2:
+        es: 1 x 1,8
+        en: 1 x 1,8
+        fr: 1 x 1,8
+      potencia_electrica:
+        es: 4,3 KW 230/1V
+        en: 4,3 KW 230/1V
+        fr: 4,3 KW 230/1V
+  - codi: '12800631'
+    ordre: 20
+    valors:
+      dimensions_cuba:
+        es: 690x590
+        en: 690x590
+        fr: 690x590
+      placa_rodona:
+        es: 2 x 2,5
+        en: 2 x 2,5
+        fr: 2 x 2,5
+      placa_rodona_2:
+        es: 2 x 1,8
+        en: 2 x 1,8
+        fr: 2 x 1,8
+      potencia_electrica:
+        es: 8,6 KW 400/3V
+        en: 8,6 KW 400/3V
+        fr: 8,6 KW 400/3V
+  compartits: []
+- clau: DROP-IN / SHOW COOKING / ENCIMERAS DE COCINAS DE INDUCCIÓN
+  noms:
+    es: DROP-IN / SHOW COOKING / ENCIMERAS DE COCINAS DE INDUCCIÓN
+    en: DROP-IN / SHOW COOKING / INDUCTION COUNTERTOPS
+    fr: DROP-IN / SHOW COOKING / COMPTOIRS À INDUCTION
+  sequence: 160
+  tipus: producte
+  pagina: p32
+  taula: p32-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: dimensions_cuba
+    etiqueta: null
+  - codi: placa_rodona
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '12265100'
+    ordre: 10
+    valors:
+      dimensions_cuba:
+        es: 355x355
+        en: 355x355
+        fr: 355x355
+      placa_rodona:
+        es: 1 x 3,5
+        en: 1 x 3,5
+        fr: 1 x 3,5
+      potencia_electrica:
+        es: 3,5 KW 230/1V
+        en: 3,5 KW 230/1V
+        fr: 3,5 KW 230/1V
+  - codi: '12140631'
+    ordre: 20
+    valors:
+      dimensions_cuba:
+        es: 340x590
+        en: 340x590
+        fr: 340x590
+      placa_rodona:
+        es: 2 x 3,5
+        en: 2 x 3,5
+        fr: 2 x 3,5
+      potencia_electrica:
+        es: 7 KW 400/3V
+        en: 7 KW 400/3V
+        fr: 7 KW 400/3V
+  compartits: []
+- clau: DROP-IN / SHOW COOKING / FRYTOPS ELÉCTRICOS DE 350 MM
+  noms:
+    es: DROP-IN / SHOW COOKING / FRYTOPS ELÉCTRICOS DE 350 MM
+    en: DROP-IN / SHOW COOKING / ELECTRIC FRYTOPS 350 MM
+    fr: DROP-IN / SHOW COOKING / FRYTOPES ÉLECTRIQUES 350 MM
+  sequence: 170
+  tipus: producte
+  pagina: p33
+  taula: p33-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: dimensions_cuba
+    etiqueta: null
+  - codi: placa_lisa
+    etiqueta: null
+  - codi: placa_estriada
+    etiqueta: null
+  - codi: dimensions_placa
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '12900631'
+    ordre: 10
+    valors:
+      dimensions_cuba:
+        es: 340x590
+        en: 340x590
+        fr: 340x590
+      placa_lisa:
+        es: FE
+        en: FE
+        fr: FE
+      placa_estriada:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dimensions_placa:
+        es: 346 x 564
+        en: 346 x 564
+        fr: 346 x 564
+      potencia_electrica:
+        es: 3,9 KW 230/1V
+        en: 3,9 KW 230/1V
+        fr: 3,9 KW 230/1V
+  - codi: '12510631'
+    ordre: 20
+    valors:
+      dimensions_cuba:
+        es: 340x590
+        en: 340x590
+        fr: 340x590
+      placa_lisa:
+        es: Cr.D.
+        en: Cr.D.
+        fr: Cr.D.
+      placa_estriada:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dimensions_placa:
+        es: 346 x 564
+        en: 346 x 564
+        fr: 346 x 564
+      potencia_electrica:
+        es: 3,9 KW 230/1V
+        en: 3,9 KW 230/1V
+        fr: 3,9 KW 230/1V
+  - codi: '12210631'
+    ordre: 30
+    valors:
+      dimensions_cuba:
+        es: 340x590
+        en: 340x590
+        fr: 340x590
+      placa_lisa:
+        es: '-'
+        en: '-'
+        fr: '-'
+      placa_estriada:
+        es: FE
+        en: FE
+        fr: FE
+      dimensions_placa:
+        es: 346 x 564
+        en: 346 x 564
+        fr: 346 x 564
+      potencia_electrica:
+        es: 3,9 KW 230/1V
+        en: 3,9 KW 230/1V
+        fr: 3,9 KW 230/1V
+  compartits: []
+- clau: DROP-IN / SHOW COOKING / FRYTOPS ELÉCTRICOS DE 700 MM
+  noms:
+    es: DROP-IN / SHOW COOKING / FRYTOPS ELÉCTRICOS DE 700 MM
+    en: DROP-IN / SHOW COOKING / ELECTRIC FRYTOPS 700 MM
+    fr: DROP-IN / SHOW COOKING / FRYTOPES ÉLECTRIQUES 700 MM
+  sequence: 180
+  tipus: producte
+  pagina: p34
+  taula: p34-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: dimensions_cuba
+    etiqueta: null
+  - codi: placa_lisa
+    etiqueta: null
+  - codi: placa_estriada
+    etiqueta: null
+  - codi: dimensions_placa
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '12810631'
+    ordre: 10
+    valors:
+      dimensions_cuba:
+        es: 690x590
+        en: 690x590
+        fr: 690x590
+      placa_lisa:
+        es: FE
+        en: FE
+        fr: FE
+      placa_estriada:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dimensions_placa:
+        es: 696 x 564
+        en: 696 x 564
+        fr: 696 x 564
+      potencia_electrica:
+        es: 7,8 KW 400/3V
+        en: 7,8 KW 400/3V
+        fr: 7,8 KW 400/3V
+  - codi: '12420631'
+    ordre: 20
+    valors:
+      dimensions_cuba:
+        es: 690x590
+        en: 690x590
+        fr: 690x590
+      placa_lisa:
+        es: Cr.D.
+        en: Cr.D.
+        fr: Cr.D.
+      placa_estriada:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dimensions_placa:
+        es: 696 x 564
+        en: 696 x 564
+        fr: 696 x 564
+      potencia_electrica:
+        es: 7,8 KW 400/3V
+        en: 7,8 KW 400/3V
+        fr: 7,8 KW 400/3V
+  - codi: '12020631'
+    ordre: 30
+    valors:
+      dimensions_cuba:
+        es: 690x590
+        en: 690x590
+        fr: 690x590
+      placa_lisa:
+        es: '-'
+        en: '-'
+        fr: '-'
+      placa_estriada:
+        es: FE
+        en: FE
+        fr: FE
+      dimensions_placa:
+        es: 696 x 564
+        en: 696 x 564
+        fr: 696 x 564
+      potencia_electrica:
+        es: 7,8 KW 400/3V
+        en: 7,8 KW 400/3V
+        fr: 7,8 KW 400/3V
+  compartits: []
+- clau: DROP-IN / SHOW COOKING / FREIDORAS Y CONSERVADORES DE FRITOS ELÉCTRICOS
+  noms:
+    es: DROP-IN / SHOW COOKING / FREIDORAS Y CONSERVADORES DE FRITOS ELÉCTRICOS
+    en: DROP-IN / SHOW COOKING / ELECTRIC FRYERS AND FRIED CONSERVATORS
+    fr: DROP-IN / SHOW COOKING / FRITEUSES ET RESERVES POUR FRITES ÉLECTRIQUES
+  sequence: 190
+  tipus: producte
+  pagina: p39
+  taula: p39-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: dimensions_cuba
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: numero_cubes
+    etiqueta: null
+  - codi: dimensions_cesta
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '12620631'
+    ordre: 10
+    valors:
+      dimensions_cuba:
+        es: 340x590
+        en: 340x590
+        fr: 340x590
+      capacitat_litres:
+        es: '10'
+        en: '10'
+        fr: '10'
+      numero_cubes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_cesta:
+        es: 210x265x105
+        en: 210x265x105
+        fr: 210x265x105
+      potencia_electrica:
+        es: 6 KW 400/3V
+        en: 6 KW 400/3V
+        fr: 6 KW 400/3V
+  - codi: '12430631'
+    ordre: 20
+    valors:
+      dimensions_cuba:
+        es: 340x590
+        en: 340x590
+        fr: 340x590
+      capacitat_litres:
+        es: '13'
+        en: '13'
+        fr: '13'
+      numero_cubes:
+        es: GN 2/3
+        en: GN 2/3
+        fr: GN 2/3
+      dimensions_cesta:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: 650 W 230/1V
+        en: 650 W 230/1V
+        fr: 650 W 230/1V
+  - codi: '12130631'
+    ordre: 30
+    valors:
+      dimensions_cuba:
+        es: 690x590
+        en: 690x590
+        fr: 690x590
+      capacitat_litres:
+        es: 10+10
+        en: 10+10
+        fr: 10+10
+      numero_cubes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_cesta:
+        es: 210x265x105
+        en: 210x265x105
+        fr: 210x265x105
+      potencia_electrica:
+        es: 12 KW 400/3V
+        en: 12 KW 400/3V
+        fr: 12 KW 400/3V
+  compartits: []
+- clau: DROP-IN / SHOW COOKING / BAÑOS MARÍA Y CUECE PASTA ELÉCTRICOS
+  noms:
+    es: DROP-IN / SHOW COOKING / BAÑOS MARÍA Y CUECE PASTA ELÉCTRICOS
+    en: DROP-IN / SHOW COOKING / ELECTRIC BAINS-MARIE AND PASTA COOKER
+    fr: DROP-IN / SHOW COOKING / BAINS-MARIE ET CUISEURS DE PÂTES ÉLECTRIQUES
+  sequence: 200
+  tipus: producte
+  pagina: p40
+  taula: p40-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: dimensions_cuba
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: numero_cubes
+    etiqueta: null
+  - codi: dot
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '12530631'
+    ordre: 10
+    valors:
+      dimensions_cuba:
+        es: 340x590
+        en: 340x590
+        fr: 340x590
+      capacitat_litres:
+        es: '21'
+        en: '21'
+        fr: '21'
+      numero_cubes:
+        es: GN 1/1
+        en: GN 1/1
+        fr: GN 1/1
+      dot:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: 1,3 KW 230/1V
+        en: 1,3 KW 230/1V
+        fr: 1,3 KW 230/1V
+  - codi: '12630631'
+    ordre: 20
+    valors:
+      dimensions_cuba:
+        es: 690x590
+        en: 690x590
+        fr: 690x590
+      capacitat_litres:
+        es: '42'
+        en: '42'
+        fr: '42'
+      numero_cubes:
+        es: GN 2/1
+        en: GN 2/1
+        fr: GN 2/1
+      dot:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: 2,6 KW 230/1V
+        en: 2,6 KW 230/1V
+        fr: 2,6 KW 230/1V
+  - codi: '12830631'
+    ordre: 30
+    valors:
+      dimensions_cuba:
+        es: 340x590
+        en: 340x590
+        fr: 340x590
+      capacitat_litres:
+        es: '23'
+        en: '23'
+        fr: '23'
+      numero_cubes:
+        es: GN 2/3
+        en: GN 2/3
+        fr: GN 2/3
+      dot:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: 4,8 KW 400/3V
+        en: 4,8 KW 400/3V
+        fr: 4,8 KW 400/3V
+  - codi: 1283063C
+    ordre: 40
+    valors:
+      dimensions_cuba:
+        es: 340x590
+        en: 340x590
+        fr: 340x590
+      capacitat_litres:
+        es: '23'
+        en: '23'
+        fr: '23'
+      numero_cubes:
+        es: GN 2/3
+        en: GN 2/3
+        fr: GN 2/3
+      dot:
+        es: 4 - 1/6
+        en: 4 - 1/6
+        fr: 4 - 1/6
+      potencia_electrica:
+        es: 4,8 KW 400/3V
+        en: 4,8 KW 400/3V
+        fr: 4,8 KW 400/3V
+  compartits: []
+- clau: DROP-IN / SHOW COOKING / MAMPARAS PROTECTORAS DE CRISTAL
+  noms:
+    es: DROP-IN / SHOW COOKING / MAMPARAS PROTECTORAS DE CRISTAL
+    en: DROP-IN / SHOW COOKING / GLASS PROTECTIVE SCREENS
+    fr: DROP-IN / SHOW COOKING / PARE-HALEINES EN VERRE
+  sequence: 210
+  tipus: producte
+  pagina: p41
+  taula: p41-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '12514907'
+    ordre: 10
+    valors: {}
+  - codi: '12517290'
+    ordre: 20
+    valors: {}
+  - codi: '12512660'
+    ordre: 30
+    valors: {}
+  - codi: '12513660'
+    ordre: 40
+    valors: {}
+  - codi: '12527290'
+    ordre: 50
+    valors: {}
+  - codi: '12522660'
+    ordre: 60
+    valors: {}
+  - codi: '12523660'
+    ordre: 70
+    valors: {}
+  compartits: []
+- clau: BUFFETS / CHAFING DISH Y OLLAS PARA SOPA
+  noms:
+    es: BUFFETS / CHAFING DISH Y OLLAS PARA SOPA
+    en: BUFFETS / CHAFING DISH AND SOUP POTS
+    fr: BUFFETS / CHAFING DISH ET POTS À SOUPE
+  sequence: 220
+  tipus: producte
+  pagina: p43
+  taula: p43-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '11004066'
+    ordre: 10
+    valors:
+      capacitat_litres:
+        es: '10'
+        en: '10'
+        fr: '10'
+      potencia_electrica:
+        es: 400 W 230/1V
+        en: 400 W 230/1V
+        fr: 400 W 230/1V
+  - codi: '11504066'
+    ordre: 20
+    valors:
+      capacitat_litres:
+        es: '10'
+        en: '10'
+        fr: '10'
+      potencia_electrica:
+        es: 400 W 230/1V
+        en: 400 W 230/1V
+        fr: 400 W 230/1V
+  compartits: []
+- clau: MUEBLES BUFFET FRÍOS CON CUBA Y PANTALLA
+  noms:
+    es: MUEBLES BUFFET FRÍOS CON CUBA Y PANTALLA
+    en: COLD BUFFET FURNITURE WITH TANK AND SCREEN
+    fr: MEUBLE BUFFET FROID AVEC CUVE ET ÉCRAN
+  sequence: 230
+  tipus: producte
+  pagina: p47
+  taula: p47-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: acabat_exterior
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: hp
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 11137WW1
+    ordre: 10
+    valors:
+      acabat_exterior:
+        es: WW
+        en: WW
+        fr: WW
+      gastronorm:
+        es: 3 GN 1/1 - 65
+        en: 3 GN 1/1 - 65
+        fr: 3 GN 1/1 - 65
+      hp:
+        es: 1/5
+        en: 1/5
+        fr: 1/5
+      potencia_electrica:
+        es: 392 W
+        en: 392 W
+        fr: 392 W
+  - codi: 11137WN1
+    ordre: 20
+    valors:
+      acabat_exterior:
+        es: WN
+        en: WN
+        fr: WN
+      gastronorm:
+        es: 3 GN 1/1 - 65
+        en: 3 GN 1/1 - 65
+        fr: 3 GN 1/1 - 65
+      hp:
+        es: 1/5
+        en: 1/5
+        fr: 1/5
+      potencia_electrica:
+        es: 392 W
+        en: 392 W
+        fr: 392 W
+  - codi: 11137NM1
+    ordre: 30
+    valors:
+      acabat_exterior:
+        es: NM
+        en: NM
+        fr: NM
+      gastronorm:
+        es: 3 GN 1/1 - 65
+        en: 3 GN 1/1 - 65
+        fr: 3 GN 1/1 - 65
+      hp:
+        es: 1/5
+        en: 1/5
+        fr: 1/5
+      potencia_electrica:
+        es: 392 W
+        en: 392 W
+        fr: 392 W
+  - codi: 11147WW1
+    ordre: 40
+    valors:
+      acabat_exterior:
+        es: WW
+        en: WW
+        fr: WW
+      gastronorm:
+        es: 4 GN 1/1 - 65
+        en: 4 GN 1/1 - 65
+        fr: 4 GN 1/1 - 65
+      hp:
+        es: 1/4
+        en: 1/4
+        fr: 1/4
+      potencia_electrica:
+        es: 494 W
+        en: 494 W
+        fr: 494 W
+  - codi: 11147WN1
+    ordre: 50
+    valors:
+      acabat_exterior:
+        es: WN
+        en: WN
+        fr: WN
+      gastronorm:
+        es: 4 GN 1/1 - 65
+        en: 4 GN 1/1 - 65
+        fr: 4 GN 1/1 - 65
+      hp:
+        es: 1/4
+        en: 1/4
+        fr: 1/4
+      potencia_electrica:
+        es: 494 W
+        en: 494 W
+        fr: 494 W
+  - codi: 11147NM1
+    ordre: 60
+    valors:
+      acabat_exterior:
+        es: NM
+        en: NM
+        fr: NM
+      gastronorm:
+        es: 4 GN 1/1 - 65
+        en: 4 GN 1/1 - 65
+        fr: 4 GN 1/1 - 65
+      hp:
+        es: 1/4
+        en: 1/4
+        fr: 1/4
+      potencia_electrica:
+        es: 494 W
+        en: 494 W
+        fr: 494 W
+  - codi: 11157WW1
+    ordre: 70
+    valors:
+      acabat_exterior:
+        es: WW
+        en: WW
+        fr: WW
+      gastronorm:
+        es: 5 GN 1/1 - 65
+        en: 5 GN 1/1 - 65
+        fr: 5 GN 1/1 - 65
+      hp:
+        es: 3/8
+        en: 3/8
+        fr: 3/8
+      potencia_electrica:
+        es: 738 W
+        en: 738 W
+        fr: 738 W
+  - codi: 11157WN1
+    ordre: 80
+    valors:
+      acabat_exterior:
+        es: WN
+        en: WN
+        fr: WN
+      gastronorm:
+        es: 5 GN 1/1 - 65
+        en: 5 GN 1/1 - 65
+        fr: 5 GN 1/1 - 65
+      hp:
+        es: 3/8
+        en: 3/8
+        fr: 3/8
+      potencia_electrica:
+        es: 738 W
+        en: 738 W
+        fr: 738 W
+  - codi: 11157NM1
+    ordre: 90
+    valors:
+      acabat_exterior:
+        es: NM
+        en: NM
+        fr: NM
+      gastronorm:
+        es: 5 GN 1/1 - 65
+        en: 5 GN 1/1 - 65
+        fr: 5 GN 1/1 - 65
+      hp:
+        es: 3/8
+        en: 3/8
+        fr: 3/8
+      potencia_electrica:
+        es: 738 W
+        en: 738 W
+        fr: 738 W
+  compartits: []
+- clau: MUEBLES BUFFET FRÍOS CON PLACA LISA Y CON PANTALLA
+  noms:
+    es: MUEBLES BUFFET FRÍOS CON PLACA LISA Y CON PANTALLA
+    en: COLD BUFFET FURNITURE WITH SMOOTH PLATE AND SCREEN
+    fr: MEUBLE BUFFET FROID AVEC PLAQUE LISSE ET ÉCRAN
+  sequence: 240
+  tipus: producte
+  pagina: p48
+  taula: p48-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: acabat_exterior
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: hp
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 11138WW1
+    ordre: 10
+    valors:
+      acabat_exterior:
+        es: WW
+        en: WW
+        fr: WW
+      gastronorm:
+        es: 3 GN 1/1 - 20
+        en: 3 GN 1/1 - 20
+        fr: 3 GN 1/1 - 20
+      hp:
+        es: 1/4
+        en: 1/4
+        fr: 1/4
+      potencia_electrica:
+        es: 392 W
+        en: 392 W
+        fr: 392 W
+  - codi: 11138WN1
+    ordre: 20
+    valors:
+      acabat_exterior:
+        es: WN
+        en: WN
+        fr: WN
+      gastronorm:
+        es: 3 GN 1/1 - 20
+        en: 3 GN 1/1 - 20
+        fr: 3 GN 1/1 - 20
+      hp:
+        es: 1/4
+        en: 1/4
+        fr: 1/4
+      potencia_electrica:
+        es: 392 W
+        en: 392 W
+        fr: 392 W
+  - codi: 11138NM1
+    ordre: 30
+    valors:
+      acabat_exterior:
+        es: NM
+        en: NM
+        fr: NM
+      gastronorm:
+        es: 3 GN 1/1 - 20
+        en: 3 GN 1/1 - 20
+        fr: 3 GN 1/1 - 20
+      hp:
+        es: 1/4
+        en: 1/4
+        fr: 1/4
+      potencia_electrica:
+        es: 392 W
+        en: 392 W
+        fr: 392 W
+  - codi: 11148WW1
+    ordre: 40
+    valors:
+      acabat_exterior:
+        es: WW
+        en: WW
+        fr: WW
+      gastronorm:
+        es: 4 GN 1/1 - 20
+        en: 4 GN 1/1 - 20
+        fr: 4 GN 1/1 - 20
+      hp:
+        es: 1/3
+        en: 1/3
+        fr: 1/3
+      potencia_electrica:
+        es: 494 W
+        en: 494 W
+        fr: 494 W
+  - codi: 11148WN1
+    ordre: 50
+    valors:
+      acabat_exterior:
+        es: WN
+        en: WN
+        fr: WN
+      gastronorm:
+        es: 4 GN 1/1 - 20
+        en: 4 GN 1/1 - 20
+        fr: 4 GN 1/1 - 20
+      hp:
+        es: 1/3
+        en: 1/3
+        fr: 1/3
+      potencia_electrica:
+        es: 494 W
+        en: 494 W
+        fr: 494 W
+  - codi: 11148NM1
+    ordre: 60
+    valors:
+      acabat_exterior:
+        es: NM
+        en: NM
+        fr: NM
+      gastronorm:
+        es: 4 GN 1/1 - 20
+        en: 4 GN 1/1 - 20
+        fr: 4 GN 1/1 - 20
+      hp:
+        es: 1/3
+        en: 1/3
+        fr: 1/3
+      potencia_electrica:
+        es: 494 W
+        en: 494 W
+        fr: 494 W
+  - codi: 11158WW1
+    ordre: 70
+    valors:
+      acabat_exterior:
+        es: WW
+        en: WW
+        fr: WW
+      gastronorm:
+        es: 5 GN 1/1 - 20
+        en: 5 GN 1/1 - 20
+        fr: 5 GN 1/1 - 20
+      hp:
+        es: 1/2
+        en: 1/2
+        fr: 1/2
+      potencia_electrica:
+        es: 738 W
+        en: 738 W
+        fr: 738 W
+  - codi: 11158WN1
+    ordre: 80
+    valors:
+      acabat_exterior:
+        es: WN
+        en: WN
+        fr: WN
+      gastronorm:
+        es: 5 GN 1/1 - 20
+        en: 5 GN 1/1 - 20
+        fr: 5 GN 1/1 - 20
+      hp:
+        es: 1/2
+        en: 1/2
+        fr: 1/2
+      potencia_electrica:
+        es: 738 W
+        en: 738 W
+        fr: 738 W
+  - codi: 11158NM1
+    ordre: 90
+    valors:
+      acabat_exterior:
+        es: NM
+        en: NM
+        fr: NM
+      gastronorm:
+        es: 5 GN 1/1 - 20
+        en: 5 GN 1/1 - 20
+        fr: 5 GN 1/1 - 20
+      hp:
+        es: 1/2
+        en: 1/2
+        fr: 1/2
+      potencia_electrica:
+        es: 738 W
+        en: 738 W
+        fr: 738 W
+  compartits: []
+- clau: MUEBLES BUFFET CALIENTES CON CUBA BAÑO MARÍA Y PANTALLA
+  noms:
+    es: MUEBLES BUFFET CALIENTES CON CUBA BAÑO MARÍA Y PANTALLA
+    en: HOT BUFFET FURNITURE WITH BAIN-MARIE AND SCREEN
+    fr: MEUBLE BUFFET CHAUDE AVEC BAIN-MARIE ET ÉCRAN
+  sequence: 250
+  tipus: producte
+  pagina: p52
+  taula: p52-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: acabat_exterior
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 11037WW1
+    ordre: 10
+    valors:
+      acabat_exterior:
+        es: WW
+        en: WW
+        fr: WW
+      gastronorm:
+        es: 3 GN 1/1 - 150
+        en: 3 GN 1/1 - 150
+        fr: 3 GN 1/1 - 150
+      potencia_electrica:
+        es: 3110 W 230/1V
+        en: 3110 W 230/1V
+        fr: 3110 W 230/1V
+  - codi: 11037WN1
+    ordre: 20
+    valors:
+      acabat_exterior:
+        es: WN
+        en: WN
+        fr: WN
+      gastronorm:
+        es: 3 GN 1/1 - 150
+        en: 3 GN 1/1 - 150
+        fr: 3 GN 1/1 - 150
+      potencia_electrica:
+        es: 3110 W 230/1V
+        en: 3110 W 230/1V
+        fr: 3110 W 230/1V
+  - codi: 11037NM1
+    ordre: 30
+    valors:
+      acabat_exterior:
+        es: NM
+        en: NM
+        fr: NM
+      gastronorm:
+        es: 3 GN 1/1 - 150
+        en: 3 GN 1/1 - 150
+        fr: 3 GN 1/1 - 150
+      potencia_electrica:
+        es: 3110 W 230/1V
+        en: 3110 W 230/1V
+        fr: 3110 W 230/1V
+  - codi: 11047WW1
+    ordre: 40
+    valors:
+      acabat_exterior:
+        es: WW
+        en: WW
+        fr: WW
+      gastronorm:
+        es: 4 GN 1/1 - 150
+        en: 4 GN 1/1 - 150
+        fr: 4 GN 1/1 - 150
+      potencia_electrica:
+        es: 4160 W 230/1V
+        en: 4160 W 230/1V
+        fr: 4160 W 230/1V
+  - codi: 11047WN1
+    ordre: 50
+    valors:
+      acabat_exterior:
+        es: WN
+        en: WN
+        fr: WN
+      gastronorm:
+        es: 4 GN 1/1 - 150
+        en: 4 GN 1/1 - 150
+        fr: 4 GN 1/1 - 150
+      potencia_electrica:
+        es: 4160 W 230/1V
+        en: 4160 W 230/1V
+        fr: 4160 W 230/1V
+  - codi: 11047NM1
+    ordre: 60
+    valors:
+      acabat_exterior:
+        es: NM
+        en: NM
+        fr: NM
+      gastronorm:
+        es: 4 GN 1/1 - 150
+        en: 4 GN 1/1 - 150
+        fr: 4 GN 1/1 - 150
+      potencia_electrica:
+        es: 4160 W 230/1V
+        en: 4160 W 230/1V
+        fr: 4160 W 230/1V
+  - codi: 11057WW1
+    ordre: 70
+    valors:
+      acabat_exterior:
+        es: WW
+        en: WW
+        fr: WW
+      gastronorm:
+        es: 5 GN 1/1 - 150
+        en: 5 GN 1/1 - 150
+        fr: 5 GN 1/1 - 150
+      potencia_electrica:
+        es: 4960 W 230/1V
+        en: 4960 W 230/1V
+        fr: 4960 W 230/1V
+  - codi: 11057WN1
+    ordre: 80
+    valors:
+      acabat_exterior:
+        es: WN
+        en: WN
+        fr: WN
+      gastronorm:
+        es: 5 GN 1/1 - 150
+        en: 5 GN 1/1 - 150
+        fr: 5 GN 1/1 - 150
+      potencia_electrica:
+        es: 4960 W 230/1V
+        en: 4960 W 230/1V
+        fr: 4960 W 230/1V
+  - codi: 11057NM1
+    ordre: 90
+    valors:
+      acabat_exterior:
+        es: NM
+        en: NM
+        fr: NM
+      gastronorm:
+        es: 5 GN 1/1 - 150
+        en: 5 GN 1/1 - 150
+        fr: 5 GN 1/1 - 150
+      potencia_electrica:
+        es: 4960 W 230/1V
+        en: 4960 W 230/1V
+        fr: 4960 W 230/1V
+  compartits: []
+- clau: MUEBLES BUFFET CALIENTES CON PLACA VITROCERÁMICA Y PANTALLA
+  noms:
+    es: MUEBLES BUFFET CALIENTES CON PLACA VITROCERÁMICA Y PANTALLA
+    en: HOT BUFFET FURNITURE WITH GLASS-CERAMIC PLATE AND SCREEN
+    fr: MEUBLE BUFFET CHAUDE AVEC PLAQUE EN VITROCÉRAMIQUE ET ÉCRAN
+  sequence: 260
+  tipus: producte
+  pagina: p53
+  taula: p53-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: acabat_exterior
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 11038WW1
+    ordre: 10
+    valors:
+      acabat_exterior:
+        es: WW
+        en: WW
+        fr: WW
+      gastronorm:
+        es: 3 GN 1/1 - 20
+        en: 3 GN 1/1 - 20
+        fr: 3 GN 1/1 - 20
+      potencia_electrica:
+        es: 2060 W 230/1V
+        en: 2060 W 230/1V
+        fr: 2060 W 230/1V
+  - codi: 11038WN1
+    ordre: 20
+    valors:
+      acabat_exterior:
+        es: WN
+        en: WN
+        fr: WN
+      gastronorm:
+        es: 3 GN 1/1 - 20
+        en: 3 GN 1/1 - 20
+        fr: 3 GN 1/1 - 20
+      potencia_electrica:
+        es: 2060 W 230/1V
+        en: 2060 W 230/1V
+        fr: 2060 W 230/1V
+  - codi: 11038NM1
+    ordre: 30
+    valors:
+      acabat_exterior:
+        es: NM
+        en: NM
+        fr: NM
+      gastronorm:
+        es: 3 GN 1/1 - 20
+        en: 3 GN 1/1 - 20
+        fr: 3 GN 1/1 - 20
+      potencia_electrica:
+        es: 2060 W 230/1V
+        en: 2060 W 230/1V
+        fr: 2060 W 230/1V
+  - codi: 11048WW1
+    ordre: 40
+    valors:
+      acabat_exterior:
+        es: WW
+        en: WW
+        fr: WW
+      gastronorm:
+        es: 4 GN 1/1 - 20
+        en: 4 GN 1/1 - 20
+        fr: 4 GN 1/1 - 20
+      potencia_electrica:
+        es: 2760 W 230/1V
+        en: 2760 W 230/1V
+        fr: 2760 W 230/1V
+  - codi: 11048WN1
+    ordre: 50
+    valors:
+      acabat_exterior:
+        es: WN
+        en: WN
+        fr: WN
+      gastronorm:
+        es: 4 GN 1/1 - 20
+        en: 4 GN 1/1 - 20
+        fr: 4 GN 1/1 - 20
+      potencia_electrica:
+        es: 2760 W 230/1V
+        en: 2760 W 230/1V
+        fr: 2760 W 230/1V
+  - codi: 11048NM1
+    ordre: 60
+    valors:
+      acabat_exterior:
+        es: NM
+        en: NM
+        fr: NM
+      gastronorm:
+        es: 4 GN 1/1 - 20
+        en: 4 GN 1/1 - 20
+        fr: 4 GN 1/1 - 20
+      potencia_electrica:
+        es: 2760 W 230/1V
+        en: 2760 W 230/1V
+        fr: 2760 W 230/1V
+  - codi: 11058WW1
+    ordre: 70
+    valors:
+      acabat_exterior:
+        es: WW
+        en: WW
+        fr: WW
+      gastronorm:
+        es: 5 GN 1/1 - 20
+        en: 5 GN 1/1 - 20
+        fr: 5 GN 1/1 - 20
+      potencia_electrica:
+        es: 3210 W 230/1V
+        en: 3210 W 230/1V
+        fr: 3210 W 230/1V
+  - codi: 11058WN1
+    ordre: 80
+    valors:
+      acabat_exterior:
+        es: WN
+        en: WN
+        fr: WN
+      gastronorm:
+        es: 5 GN 1/1 - 20
+        en: 5 GN 1/1 - 20
+        fr: 5 GN 1/1 - 20
+      potencia_electrica:
+        es: 3210 W 230/1V
+        en: 3210 W 230/1V
+        fr: 3210 W 230/1V
+  - codi: 11058NM1
+    ordre: 90
+    valors:
+      acabat_exterior:
+        es: NM
+        en: NM
+        fr: NM
+      gastronorm:
+        es: 5 GN 1/1 - 20
+        en: 5 GN 1/1 - 20
+        fr: 5 GN 1/1 - 20
+      potencia_electrica:
+        es: 3210 W 230/1V
+        en: 3210 W 230/1V
+        fr: 3210 W 230/1V
+  compartits: []
+- clau: MUEBLES BUFFET NEUTROS
+  noms:
+    es: MUEBLES BUFFET NEUTROS
+    en: NEUTRAL BUFFET FURNITURE
+    fr: MEUBLE BUFFET NEUTRES
+  sequence: 270
+  tipus: producte
+  pagina: p54
+  taula: p54-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: acabat_exterior
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 11236WW0
+    ordre: 10
+    valors:
+      acabat_exterior:
+        es: WW
+        en: WW
+        fr: WW
+  - codi: 11236WN0
+    ordre: 20
+    valors:
+      acabat_exterior:
+        es: WN
+        en: WN
+        fr: WN
+  - codi: 11236NM0
+    ordre: 30
+    valors:
+      acabat_exterior:
+        es: NM
+        en: NM
+        fr: NM
+  - codi: 11246WW0
+    ordre: 40
+    valors:
+      acabat_exterior:
+        es: WW
+        en: WW
+        fr: WW
+  - codi: 11246WN0
+    ordre: 50
+    valors:
+      acabat_exterior:
+        es: WN
+        en: WN
+        fr: WN
+  - codi: 11246NM0
+    ordre: 60
+    valors:
+      acabat_exterior:
+        es: NM
+        en: NM
+        fr: NM
+  - codi: 11256WW0
+    ordre: 70
+    valors:
+      acabat_exterior:
+        es: WW
+        en: WW
+        fr: WW
+  - codi: 11256WN0
+    ordre: 80
+    valors:
+      acabat_exterior:
+        es: WN
+        en: WN
+        fr: WN
+  - codi: 11256NM0
+    ordre: 90
+    valors:
+      acabat_exterior:
+        es: NM
+        en: NM
+        fr: NM
+  compartits: []
+- clau: SELF-SERVICES / MUEBLES FRÍOS CON CUBA SUPERIOR
+  noms:
+    es: SELF-SERVICES / MUEBLES FRÍOS CON CUBA SUPERIOR
+    en: SELF-SERVICES / COLD FURNITURE WITH UPPER TANK
+    fr: SELF-SERVICES / MEUBLES FROIDS AVEC CUVE SUPÉRIEUR
+  sequence: 280
+  tipus: producte
+  pagina: p59
+  taula: p59-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: numero_cubes
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta: null
+  - codi: soporte_obert
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '10773600'
+    ordre: 10
+    valors:
+      numero_cubes:
+        es: 3 - GN 1/1 - 150
+        en: 3 - GN 1/1 - 150
+        fr: 3 - GN 1/1 - 150
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_parrilla:
+        es: 1 - GN 1/1
+        en: 1 - GN 1/1
+        fr: 1 - GN 1/1
+      soporte_obert:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: 0,60 KW
+        en: 0,60 KW
+        fr: 0,60 KW
+  - codi: '10320700'
+    ordre: 20
+    valors:
+      numero_cubes:
+        es: 4 - GN 1/1 - 150
+        en: 4 - GN 1/1 - 150
+        fr: 4 - GN 1/1 - 150
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_parrilla:
+        es: 2 - GN 1/1
+        en: 2 - GN 1/1
+        fr: 2 - GN 1/1
+      soporte_obert:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: 0,70 KW
+        en: 0,70 KW
+        fr: 0,70 KW
+  - codi: '10740330'
+    ordre: 30
+    valors:
+      numero_cubes:
+        es: 3 - GN 1/1 - 150
+        en: 3 - GN 1/1 - 150
+        fr: 3 - GN 1/1 - 150
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dimensions_parrilla:
+        es: '-'
+        en: '-'
+        fr: '-'
+      soporte_obert:
+        es: '1'
+        en: '1'
+        fr: '1'
+      potencia_electrica:
+        es: 0,35 KW
+        en: 0,35 KW
+        fr: 0,35 KW
+  - codi: '10540330'
+    ordre: 40
+    valors:
+      numero_cubes:
+        es: 4 - GN 1/1 - 150
+        en: 4 - GN 1/1 - 150
+        fr: 4 - GN 1/1 - 150
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dimensions_parrilla:
+        es: '-'
+        en: '-'
+        fr: '-'
+      soporte_obert:
+        es: '1'
+        en: '1'
+        fr: '1'
+      potencia_electrica:
+        es: 0,40 KW
+        en: 0,40 KW
+        fr: 0,40 KW
+  compartits: []
+- clau: SELF-SERVICES / MUEBLES FRÍOS CON PLACA LISA
+  noms:
+    es: SELF-SERVICES / MUEBLES FRÍOS CON PLACA LISA
+    en: SELF-SERVICES / COLD FURNITURE WITH SMOOTH PLATE
+    fr: SELF-SERVICES / MEUBLES FROIDS AVEC PLAQUE LISSE
+  sequence: 290
+  tipus: producte
+  pagina: p60
+  taula: p60-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: numero_cubes
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta: null
+  - codi: soporte_obert
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '10676600'
+    ordre: 10
+    valors:
+      numero_cubes:
+        es: 3 - GN 1/1 - 20
+        en: 3 - GN 1/1 - 20
+        fr: 3 - GN 1/1 - 20
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_parrilla:
+        es: 1 - GN 1/1
+        en: 1 - GN 1/1
+        fr: 1 - GN 1/1
+      soporte_obert:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: 0,60 KW
+        en: 0,60 KW
+        fr: 0,60 KW
+  - codi: '10982700'
+    ordre: 20
+    valors:
+      numero_cubes:
+        es: 4 - GN 1/1 - 20
+        en: 4 - GN 1/1 - 20
+        fr: 4 - GN 1/1 - 20
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_parrilla:
+        es: 2 - GN 1/1
+        en: 2 - GN 1/1
+        fr: 2 - GN 1/1
+      soporte_obert:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: 0,70 KW
+        en: 0,70 KW
+        fr: 0,70 KW
+  - codi: '10840330'
+    ordre: 30
+    valors:
+      numero_cubes:
+        es: 3 - GN 1/1 - 20
+        en: 3 - GN 1/1 - 20
+        fr: 3 - GN 1/1 - 20
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dimensions_parrilla:
+        es: '-'
+        en: '-'
+        fr: '-'
+      soporte_obert:
+        es: '1'
+        en: '1'
+        fr: '1'
+      potencia_electrica:
+        es: 0,35 KW
+        en: 0,35 KW
+        fr: 0,35 KW
+  - codi: '10940330'
+    ordre: 40
+    valors:
+      numero_cubes:
+        es: 4 - GN 1/1 - 20
+        en: 4 - GN 1/1 - 20
+        fr: 4 - GN 1/1 - 20
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dimensions_parrilla:
+        es: '-'
+        en: '-'
+        fr: '-'
+      soporte_obert:
+        es: '1'
+        en: '1'
+        fr: '1'
+      potencia_electrica:
+        es: 0,40 KW
+        en: 0,40 KW
+        fr: 0,40 KW
+  compartits: []
+- clau: SELF-SERVICES / MUEBLES FRÍOS CON CUBA, VITRINA CERRADA
+  noms:
+    es: SELF-SERVICES / MUEBLES FRÍOS CON CUBA, VITRINA CERRADA
+    en: SELF-SERVICES / COLD FURNITURE WITH TANK, CLOSED SHOWCASE
+    fr: SELF-SERVICES / MEUBLES FROID AVEC CUVE, VITRINE FERMÉE
+  sequence: 300
+  tipus: producte
+  pagina: p61
+  taula: p61-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: numero_cubes
+    etiqueta: null
+  - codi: nivells_safates
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta: null
+  - codi: soporte_obert
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 10194C0N
+    ordre: 10
+    valors:
+      numero_cubes:
+        es: 4 - GN 1/1 - 150
+        en: 4 - GN 1/1 - 150
+        fr: 4 - GN 1/1 - 150
+      nivells_safates:
+        es: '2'
+        en: '2'
+        fr: '2'
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_parrilla:
+        es: 2 - GN 1/1
+        en: 2 - GN 1/1
+        fr: 2 - GN 1/1
+      soporte_obert:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: 1,90 KW
+        en: 1,90 KW
+        fr: 1,90 KW
+  - codi: 1019451N
+    ordre: 20
+    valors:
+      numero_cubes:
+        es: 4 - GN 1/1 - 150
+        en: 4 - GN 1/1 - 150
+        fr: 4 - GN 1/1 - 150
+      nivells_safates:
+        es: '2'
+        en: '2'
+        fr: '2'
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dimensions_parrilla:
+        es: '-'
+        en: '-'
+        fr: '-'
+      soporte_obert:
+        es: '1'
+        en: '1'
+        fr: '1'
+      potencia_electrica:
+        es: 1,60 KW
+        en: 1,60 KW
+        fr: 1,60 KW
+  compartits: []
+- clau: SELF-SERVICES / MUEBLES FRÍOS CENTRALES CON CUBA SUPERIOR
+  noms:
+    es: SELF-SERVICES / MUEBLES FRÍOS CENTRALES CON CUBA SUPERIOR
+    en: SELF-SERVICES / CENTRAL COLD FURNITURE WITH UPPER TANK
+    fr: SELF-SERVICES / MEUBLES FROIDS CENTRALES AVEC CUVE SUPERIEURE
+  sequence: 310
+  tipus: producte
+  pagina: p62
+  taula: p62-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: numero_cubes
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '10094300'
+    ordre: 10
+    valors:
+      numero_cubes:
+        es: 4 - GN 1/1 - 150
+        en: 4 - GN 1/1 - 150
+        fr: 4 - GN 1/1 - 150
+      potencia_electrica:
+        es: 0,40 KW
+        en: 0,40 KW
+        fr: 0,40 KW
+  compartits: []
+- clau: SELF-SERVICES / MUEBLES CALIENTES CON CUBA / BAÑO MARÍA, SUPERIOR
+  noms:
+    es: SELF-SERVICES / MUEBLES CALIENTES CON CUBA / BAÑO MARÍA, SUPERIOR
+    en: SELF-SERVICES / HOT FURNITURE WITH BAIN-MARIE, SUPERIOR
+    fr: SELF-SERVICES / MEUBLES CHAUDS AVEC BAIN-MARIE, SUPÉRIEUR
+  sequence: 320
+  tipus: producte
+  pagina: p65
+  taula: p65-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: numero_cubes
+    etiqueta: null
+  - codi: portes_corredisses
+    etiqueta: null
+  - codi: nivells_safates
+    etiqueta: null
+  - codi: soporte_obert
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '10273600'
+    ordre: 10
+    valors:
+      numero_cubes:
+        es: 3 - GN 1/1 - 150
+        en: 3 - GN 1/1 - 150
+        fr: 3 - GN 1/1 - 150
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+      nivells_safates:
+        es: '1'
+        en: '1'
+        fr: '1'
+      soporte_obert:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: 3,5 KW 230/1V
+        en: 3,5 KW 230/1V
+        fr: 3,5 KW 230/1V
+  - codi: '10879700'
+    ordre: 20
+    valors:
+      numero_cubes:
+        es: 4 - GN 1/1 - 150
+        en: 4 - GN 1/1 - 150
+        fr: 4 - GN 1/1 - 150
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+      nivells_safates:
+        es: '1'
+        en: '1'
+        fr: '1'
+      soporte_obert:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: 3,5 KW 230/1V
+        en: 3,5 KW 230/1V
+        fr: 3,5 KW 230/1V
+  - codi: '10576600'
+    ordre: 30
+    valors:
+      numero_cubes:
+        es: 3 - GN 1/1 - 150
+        en: 3 - GN 1/1 - 150
+        fr: 3 - GN 1/1 - 150
+      portes_corredisses:
+        es: '-'
+        en: '-'
+        fr: '-'
+      nivells_safates:
+        es: '1'
+        en: '1'
+        fr: '1'
+      soporte_obert:
+        es: '1'
+        en: '1'
+        fr: '1'
+      potencia_electrica:
+        es: 2,1 KW 230/1V
+        en: 2,1 KW 230/1V
+        fr: 2,1 KW 230/1V
+  - codi: '10798700'
+    ordre: 40
+    valors:
+      numero_cubes:
+        es: 4 - GN 1/1 - 150
+        en: 4 - GN 1/1 - 150
+        fr: 4 - GN 1/1 - 150
+      portes_corredisses:
+        es: '-'
+        en: '-'
+        fr: '-'
+      nivells_safates:
+        es: '1'
+        en: '1'
+        fr: '1'
+      soporte_obert:
+        es: '1'
+        en: '1'
+        fr: '1'
+      potencia_electrica:
+        es: 2,1 KW 230/1V
+        en: 2,1 KW 230/1V
+        fr: 2,1 KW 230/1V
+  compartits: []
+- clau: SELF-SERVICES / MUEBLES CALIENTES CENTRALES CON CUBA / BAÑO MARIA SUPERIOR
+  noms:
+    es: SELF-SERVICES / MUEBLES CALIENTES CENTRALES CON CUBA / BAÑO MARIA SUPERIOR
+    en: SELF-SERVICES / CENTRAL HOT FURNITURE WITH BAIN-MARIE SUPERIOR
+    fr: SELF-SERVICES / MEUBLES CHAUDS CENTRALES AVEC BAIN-MARIE, SUPÉRIEUR
+  sequence: 330
+  tipus: producte
+  pagina: p66
+  taula: p66-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: numero_cubes
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '10984300'
+    ordre: 10
+    valors:
+      numero_cubes:
+        es: 4 - GN 1/1 - 150
+        en: 4 - GN 1/1 - 150
+        fr: 4 - GN 1/1 - 150
+      potencia_electrica:
+        es: 2,1 KW 230/1V
+        en: 2,1 KW 230/1V
+        fr: 2,1 KW 230/1V
+  compartits: []
+- clau: SELF-SERVICES / MUEBLES CALIENTES CON ENCIMERA LISA Y MUEBLES NEUTROS ABIERTOS
+  noms:
+    es: SELF-SERVICES / MUEBLES CALIENTES CON ENCIMERA LISA Y MUEBLES NEUTROS ABIERTOS
+    en: SELF-SERVICES / HOT FURNITURE WITH SMOOTH WORKTOP AND OPEN NEUTRAL FURNITURE
+    fr: SELF-SERVICES / MEUBLES CHAUDS AVEC PLAN DE TRAVAIL LISSE ET MEUBLES NEUTRES OUVERTES
+  sequence: 340
+  tipus: producte
+  pagina: p67
+  taula: p67-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes_corredisses
+    etiqueta: null
+  - codi: nivells_safates
+    etiqueta: null
+  - codi: soporte_obert
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '10195500'
+    ordre: 10
+    valors:
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+      nivells_safates:
+        es: '2'
+        en: '2'
+        fr: '2'
+      soporte_obert:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: 2 KW 230/1V
+        en: 2 KW 230/1V
+        fr: 2 KW 230/1V
+  - codi: '10796500'
+    ordre: 20
+    valors:
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+      nivells_safates:
+        es: '2'
+        en: '2'
+        fr: '2'
+      soporte_obert:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: 2,8 KW 230/1V
+        en: 2,8 KW 230/1V
+        fr: 2,8 KW 230/1V
+  - codi: '10250500'
+    ordre: 30
+    valors:
+      portes_corredisses:
+        es: '-'
+        en: '-'
+        fr: '-'
+      nivells_safates:
+        es: '2'
+        en: '2'
+        fr: '2'
+      soporte_obert:
+        es: '1'
+        en: '1'
+        fr: '1'
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '10133500'
+    ordre: 40
+    valors:
+      portes_corredisses:
+        es: '-'
+        en: '-'
+        fr: '-'
+      nivells_safates:
+        es: '2'
+        en: '2'
+        fr: '2'
+      soporte_obert:
+        es: '1'
+        en: '1'
+        fr: '1'
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '10098500'
+    ordre: 50
+    valors:
+      portes_corredisses:
+        es: '-'
+        en: '-'
+        fr: '-'
+      nivells_safates:
+        es: '2'
+        en: '2'
+        fr: '2'
+      soporte_obert:
+        es: '1'
+        en: '1'
+        fr: '1'
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+  compartits: []
+- clau: SELF-SERVICES / MUEBLES DISPENSADORES DE PLATOS Y CESTAS DE VASOS
+  noms:
+    es: SELF-SERVICES / MUEBLES DISPENSADORES DE PLATOS Y CESTAS DE VASOS
+    en: SELF-SERVICES / PLATE DISPENSER FURNITURE AND GLASS BASKETS
+    fr: SELF-SERVICES / MEUBLES DISTRIBUTEURS D’ASSIETTES ET PANIERS À VERRE
+  sequence: 350
+  tipus: producte
+  pagina: p72
+  taula: p72-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: cubeta_trapezi
+    etiqueta: null
+  - codi: diametre_plats
+    etiqueta: null
+  - codi: dimensions_safata
+    etiqueta:
+      es: Cesta lavavajillas
+      en: Dishwasher basket
+      fr: Panier lave-vaisselle
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '10927410'
+    ordre: 10
+    valors:
+      cubeta_trapezi:
+        es: 1 x 45
+        en: 1 x 45
+        fr: 1 x 45
+      diametre_plats:
+        es: 180 / 280
+        en: 180 / 280
+        fr: 180 / 280
+      dimensions_safata:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: Neutral
+        en: Neutral
+        fr: Neutral
+  - codi: '10936110'
+    ordre: 20
+    valors:
+      cubeta_trapezi:
+        es: 1 x 45
+        en: 1 x 45
+        fr: 1 x 45
+      diametre_plats:
+        es: 180 / 280
+        en: 180 / 280
+        fr: 180 / 280
+      dimensions_safata:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: 480 W 230/1V
+        en: 480 W 230/1V
+        fr: 480 W 230/1V
+  - codi: '10714400'
+    ordre: 30
+    valors:
+      cubeta_trapezi:
+        es: 2 x 45 = 90
+        en: 2 x 45 = 90
+        fr: 2 x 45 = 90
+      diametre_plats:
+        es: 180 / 280
+        en: 180 / 280
+        fr: 180 / 280
+      dimensions_safata:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: Neutral
+        en: Neutral
+        fr: Neutral
+  - codi: '10699010'
+    ordre: 40
+    valors:
+      cubeta_trapezi:
+        es: 2 x 45 = 90
+        en: 2 x 45 = 90
+        fr: 2 x 45 = 90
+      diametre_plats:
+        es: 180 / 280
+        en: 180 / 280
+        fr: 180 / 280
+      dimensions_safata:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: 960 W 230/1V
+        en: 960 W 230/1V
+        fr: 960 W 230/1V
+  - codi: '10163010'
+    ordre: 50
+    valors:
+      cubeta_trapezi:
+        es: '-'
+        en: '-'
+        fr: '-'
+      diametre_plats:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dimensions_safata:
+        es: '7'
+        en: '7'
+        fr: '7'
+      potencia_electrica:
+        es: Neutral
+        en: Neutral
+        fr: Neutral
+  compartits: []
+- clau: SELF-SERVICES / MUEBLES PARA CARROS Y CARROS DISPENSADORES DE PLATOS CALIENTES
+  noms:
+    es: SELF-SERVICES / MUEBLES PARA CARROS Y CARROS DISPENSADORES DE PLATOS CALIENTES
+    en: SELF-SERVICES / TROLLEY FURNITURE AND TROLLEYS FOR HOT PLATE DISPENSER
+    fr: SELF-SERVICES / MEUBLES POUR CHARIOTS ET CHARIOTS DISTRIBUTEURS D’ASSIETTES CHAUDS
+  sequence: 360
+  tipus: producte
+  pagina: p73
+  taula: p73-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: cubeta_trapezi
+    etiqueta: null
+  - codi: diametre_plats
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '10874300'
+    ordre: 10
+    valors:
+      cubeta_trapezi:
+        es: '-'
+        en: '-'
+        fr: '-'
+      diametre_plats:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: Neutral
+        en: Neutral
+        fr: Neutral
+  - codi: '10988500'
+    ordre: 20
+    valors:
+      cubeta_trapezi:
+        es: 2 x 45 = 90
+        en: 2 x 45 = 90
+        fr: 2 x 45 = 90
+      diametre_plats:
+        es: 180 / 280
+        en: 180 / 280
+        fr: 180 / 280
+      potencia_electrica:
+        es: KW 230/1V
+        en: KW 230/1V
+        fr: KW 230/1V
+  compartits: []
+- clau: SELF-SERVICES / MUEBLES CAJA
+  noms:
+    es: SELF-SERVICES / MUEBLES CAJA
+    en: SELF-SERVICES / CASH FURNITURE
+    fr: SELF-SERVICES / MEUBLES CAISSES
+  sequence: 370
+  tipus: producte
+  pagina: p74
+  taula: p74-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: calaixos
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '10584300'
+    ordre: 10
+    valors:
+      calaixos:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: '10684300'
+    ordre: 20
+    valors:
+      calaixos:
+        es: '1'
+        en: '1'
+        fr: '1'
+  compartits: []
+- clau: SELF-SERVICES / MUEBLES NEUTROS ANGULARES
+  noms:
+    es: SELF-SERVICES / MUEBLES NEUTROS ANGULARES
+    en: SELF-SERVICES / ANGULAR NEUTRAL FURNITURES
+    fr: SELF-SERVICES / MEUBLES NEUTRE ANGULAIRE
+  sequence: 380
+  tipus: producte
+  pagina: p75
+  taula: p75-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: denominacio
+    etiqueta: null
+  - codi: denominacio_2
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '10484300'
+    ordre: 10
+    valors:
+      denominacio:
+        es: Extern -
+        en: Extern -
+        fr: Extern -
+      denominacio_2:
+        es: 90°
+        en: 90°
+        fr: 90°
+  - codi: '10687500'
+    ordre: 20
+    valors:
+      denominacio:
+        es: Intern -
+        en: Intern -
+        fr: Intern -
+      denominacio_2:
+        es: 90°
+        en: 90°
+        fr: 90°
+  - codi: '10733600'
+    ordre: 30
+    valors:
+      denominacio:
+        es: Extern -
+        en: Extern -
+        fr: Extern -
+      denominacio_2:
+        es: 45°
+        en: 45°
+        fr: 45°
+  - codi: '10633600'
+    ordre: 40
+    valors:
+      denominacio:
+        es: Intern -
+        en: Intern -
+        fr: Intern -
+      denominacio_2:
+        es: 45°
+        en: 45°
+        fr: 45°
+  compartits: []
+- clau: SELF-SERVICES / MUEBLES DISPENSADORES PARA PAN, CUBIERTOS, BANDEJAS Y VASOS
+  noms:
+    es: SELF-SERVICES / MUEBLES DISPENSADORES PARA PAN, CUBIERTOS, BANDEJAS Y VASOS
+    en: SELF-SERVICES / DISPENSER FURNITURE FOR BREAD, CUTLERY, TRAYS AND GLASSES
+    fr: SELF-SERVICES / MEUBLES DISTRIBUTEURS POUR PAIN, COUVERTS, PLATEAUX ET VERRES
+  sequence: 390
+  tipus: producte
+  pagina: p76
+  taula: p76-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: nivells_safates
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '11102000'
+    ordre: 10
+    valors:
+      nivells_safates:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '10707001'
+    ordre: 20
+    valors:
+      nivells_safates:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '10100000'
+    ordre: 30
+    valors:
+      nivells_safates:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: '10607001'
+    ordre: 40
+    valors:
+      nivells_safates:
+        es: '6'
+        en: '6'
+        fr: '6'
+  - codi: '10200000'
+    ordre: 50
+    valors:
+      nivells_safates:
+        es: '* 5'
+        en: '* 5'
+        fr: '* 5'
+  compartits: []
+- clau: SELF-SERVICES / GUÍAS PASA-BANDEJAS Y SOPORTES DE PLATOS
+  noms:
+    es: SELF-SERVICES / GUÍAS PASA-BANDEJAS Y SOPORTES DE PLATOS
+    en: SELF-SERVICES / TRAY GUIDES AND PLATE SUPPORTS
+    fr: SELF-SERVICES / GUIDES PASS PLATEAUX ET ÉTAGÈRES POUR ASSIETTES
+  sequence: 400
+  tipus: producte
+  pagina: p78
+  taula: p78-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '10593300'
+    ordre: 10
+    valors: {}
+  - codi: '10693300'
+    ordre: 20
+    valors: {}
+  - codi: '10366400'
+    ordre: 30
+    valors: {}
+  - codi: '10216400'
+    ordre: 40
+    valors: {}
+  - codi: '10973400'
+    ordre: 50
+    valors: {}
+  - codi: '10114300'
+    ordre: 60
+    valors: {}
+  - codi: '10493300'
+    ordre: 70
+    valors: {}
+  compartits: []
+- clau: SELF-SERVICES / PANELES FRONTALES Y ZÓCALOS
+  noms:
+    es: SELF-SERVICES / PANELES FRONTALES Y ZÓCALOS
+    en: SELF-SERVICES / FRONT PANELS AND SOCKS
+    fr: SELF-SERVICES / PANNEAUX FRONTAUX ET SOCLES
+  sequence: 410
+  tipus: producte
+  pagina: p79
+  taula: p79-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 10FA0400
+    ordre: 10
+    valors: {}
+  - codi: 10FA0800
+    ordre: 20
+    valors: {}
+  - codi: 10FA1200
+    ordre: 30
+    valors: {}
+  - codi: 10FA1600
+    ordre: 40
+    valors: {}
+  - codi: 10FAAE45
+    ordre: 50
+    valors: {}
+  - codi: 10FAAE90
+    ordre: 60
+    valors: {}
+  compartits: []
+- clau: SELF-SERVICES / PANELES FRONTALES Y ZÓCALOS 2
+  noms:
+    es: SELF-SERVICES / PANELES FRONTALES Y ZÓCALOS 2
+    en: SELF-SERVICES / FRONT PANELS AND SOCKS 2
+    fr: SELF-SERVICES / PANNEAUX FRONTAUX ET SOCLES 2
+  sequence: 420
+  tipus: producte
+  pagina: p79
+  taula: p79-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: denominacio
+    etiqueta: null
+  - codi: denominacio_2
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '10817410'
+    ordre: 10
+    valors:
+      denominacio:
+        es: LINEAR
+        en: LINEAR
+        fr: LINEAR
+  - codi: '10794110'
+    ordre: 20
+    valors:
+      denominacio:
+        es: LINEAR
+        en: LINEAR
+        fr: LINEAR
+  - codi: '10449110'
+    ordre: 30
+    valors:
+      denominacio:
+        es: LINEAR
+        en: LINEAR
+        fr: LINEAR
+  - codi: '10105110'
+    ordre: 40
+    valors:
+      denominacio:
+        es: LINEAR
+        en: LINEAR
+        fr: LINEAR
+  - codi: '10994110'
+    ordre: 50
+    valors:
+      denominacio:
+        es: LATERAL /
+        en: LATERAL /
+        fr: LATERAL /
+      denominacio_2:
+        es: SIDE
+        en: SIDE
+        fr: SIDE
+  - codi: '10164400'
+    ordre: 60
+    valors:
+      denominacio:
+        es: EXTERN -
+        en: EXTERN -
+        fr: EXTERN -
+      denominacio_2:
+        es: 45°
+        en: 45°
+        fr: 45°
+  - codi: '10679300'
+    ordre: 70
+    valors:
+      denominacio:
+        es: INTERN -
+        en: INTERN -
+        fr: INTERN -
+      denominacio_2:
+        es: 45°
+        en: 45°
+        fr: 45°
+  - codi: '10644300'
+    ordre: 80
+    valors:
+      denominacio:
+        es: EXTERN -
+        en: EXTERN -
+        fr: EXTERN -
+      denominacio_2:
+        es: 90°
+        en: 90°
+        fr: 90°
+  - codi: '10289300'
+    ordre: 90
+    valors:
+      denominacio:
+        es: INTERN -
+        en: INTERN -
+        fr: INTERN -
+      denominacio_2:
+        es: 90°
+        en: 90°
+        fr: 90°
+  compartits: []
+- clau: TERMÓMETRO EN PANTALLAS DROP-IN
+  noms:
+    es: TERMÓMETRO EN PANTALLAS DROP-IN
+    en: THERMOMETER IN DROP-IN DISPLAYS
+    fr: THERMOMÈTRE SUR ÉCRAN DROP-IN
+  sequence: 430
+  tipus: accessoris
+  pagina: p80
+  taula: p80-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4ATER100
+    ordre: 10
+    valors: {}
+  compartits: []
+- clau: CUBETAS GASTRONORM
+  noms:
+    es: CUBETAS GASTRONORM
+    en: GASTRONORM CONTAINERS
+    fr: RÉCIPIENTS GASTRONORM
+  sequence: 440
+  tipus: accessoris
+  pagina: p80
+  taula: p80-t2
+  blocs: 2
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: CP120201
+    ordre: 1020
+    valors:
+      mesures_text:
+        es: '20'
+        en: '20'
+        fr: '20'
+  - codi: CP1210X1
+    ordre: 1060
+    valors:
+      mesures_text:
+        es: '100'
+        en: '100'
+        fr: '100'
+  - codi: CP1306X1
+    ordre: 1100
+    valors:
+      mesures_text:
+        es: '65'
+        en: '65'
+        fr: '65'
+  - codi: CP231001
+    ordre: 110
+    valors:
+      mesures_text:
+        es: '100'
+        en: '100'
+        fr: '100'
+  compartits:
+  - codi: CP1102X1
+    ordre: 10
+    valors:
+      mesures_text:
+        es: '20'
+        en: '20'
+        fr: '20'
+    propietari: G07
+  - codi: CP1106X1
+    ordre: 30
+    valors:
+      mesures_text:
+        es: '65'
+        en: '65'
+        fr: '65'
+    propietari: G04
+  - codi: CP1206X1
+    ordre: 1040
+    valors:
+      mesures_text:
+        es: '65'
+        en: '65'
+        fr: '65'
+    propietari: G08
+  - codi: CP1110X1
+    ordre: 50
+    valors:
+      mesures_text:
+        es: 100 150 GN 2/3 352 x 325 65
+        en: 100 150 GN 2/3 352 x 325 65
+        fr: 100 150 GN 2/3 352 x 325 65
+    propietari: G07
+  - codi: CP111501
+    ordre: 70
+    valors:
+      mesures_text:
+        es: 100 150 GN 2/3 352 x 325 65
+        en: 100 150 GN 2/3 352 x 325 65
+        fr: 100 150 GN 2/3 352 x 325 65
+    propietari: G07
+  - codi: CP121501
+    ordre: 1080
+    valors:
+      mesures_text:
+        es: '150'
+        en: '150'
+        fr: '150'
+    propietari: G07
+  - codi: CP230651
+    ordre: 90
+    valors:
+      mesures_text:
+        es: 100 150 GN 2/3 352 x 325 65
+        en: 100 150 GN 2/3 352 x 325 65
+        fr: 100 150 GN 2/3 352 x 325 65
+    propietari: G08
+  - codi: CP131001
+    ordre: 1120
+    valors:
+      mesures_text:
+        es: '100'
+        en: '100'
+        fr: '100'
+    propietari: G14
+  - codi: CP231501
+    ordre: 130
+    valors:
+      mesures_text:
+        es: '150'
+        en: '150'
+        fr: '150'
+    propietari: G07
+  - codi: CP131501
+    ordre: 1140
+    valors:
+      mesures_text:
+        es: '150'
+        en: '150'
+        fr: '150'
+    propietari: G07
+  - codi: CP141001
+    ordre: 150
+    valors:
+      mesures_text:
+        es: '100'
+        en: '100'
+        fr: '100'
+    propietari: G07
+  - codi: CP161001
+    ordre: 1160
+    valors:
+      mesures_text:
+        es: '100'
+        en: '100'
+        fr: '100'
+    propietari: G07
+  - codi: CP141501
+    ordre: 170
+    valors:
+      mesures_text:
+        es: '150'
+        en: '150'
+        fr: '150'
+    propietari: G07
+  - codi: CP161501
+    ordre: 1180
+    valors:
+      mesures_text:
+        es: '150'
+        en: '150'
+        fr: '150'
+    propietari: G07
+- clau: DOBLE FONDO PERFORADO MUEBLES CALIENTES O FRÍOS
+  noms:
+    es: DOBLE FONDO PERFORADO MUEBLES CALIENTES O FRÍOS
+    en: DOUBLE PERFORATED BOTTOM HOT OR COLD FURNITURE
+    fr: DOUBLE FOND PERFORÉ POUR MEUBLES CHAUDS OU FROIDS
+  sequence: 450
+  tipus: accessoris
+  pagina: p80
+  taula: p80-t4
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: gn
+    etiqueta: null
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes: []
+  compartits:
+  - codi: 4A085021
+    ordre: 10
+    valors:
+      gn:
+        es: 1/1
+        en: 1/1
+        fr: 1/1
+      mesures_text:
+        es: 530 x 325
+        en: 530 x 325
+        fr: 530 x 325
+    propietari: G02
+- clau: CUBETA HELADERA
+  noms:
+    es: CUBETA HELADERA
+    en: ICE-CREAM CONTAINER
+    fr: BAC DE RÉFRIGÉRATION
+  sequence: 460
+  tipus: accessoris
+  pagina: p80
+  taula: p80-t5
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A027000
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 360x165x150
+        en: 360x165x150
+        fr: 360x165x150
+      capacitat_litres:
+        es: '7'
+        en: '7'
+        fr: '7'
+  compartits: []
+- clau: LAVAPORCIONADOR
+  noms:
+    es: LAVAPORCIONADOR
+    en: PORTIONER WASHER
+    fr: LAVEUSE DE PORTIONS
+  sequence: 470
+  tipus: accessoris
+  pagina: p80
+  taula: p80-t6
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: dimensions_cuba
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A120300
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 110x270x145
+        en: 110x270x145
+        fr: 110x270x145
+      dimensions_cuba:
+        es: 100x260
+        en: 100x260
+        fr: 100x260
+  compartits: []
+- clau: TAPA DISPENSADORES DE PLATOS
+  noms:
+    es: TAPA DISPENSADORES DE PLATOS
+    en: DISPENSER LID FOR PLATE
+    fr: COUVERCLE DU DISTRIBUTEUR D'ASSIETTES
+  sequence: 480
+  tipus: accessoris
+  pagina: p81
+  taula: p81-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta:
+      es: Ø .
+      en: Ø .
+      fr: Ø .
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A117000
+    ordre: 10
+    valors:
+      mesures_text:
+        es: Ø 365 x 140
+        en: Ø 365 x 140
+        fr: Ø 365 x 140
+  compartits: []
+- clau: CESTAS VASOS
+  noms:
+    es: CESTAS VASOS
+    en: GLASS BASKETS
+    fr: PANIERS POUR VERRES
+  sequence: 490
+  tipus: accessoris
+  pagina: p81
+  taula: p81-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: dimensions_safata
+    etiqueta:
+      es: Cesta lavavajillas
+      en: Dishwasher basket
+      fr: Panier lave-vaisselle
+  - codi: preu
+    etiqueta: null
+  productes: []
+  compartits:
+  - codi: '95160'
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 500 x 500 x 80
+        en: 500 x 500 x 80
+        fr: 500 x 500 x 80
+      dimensions_safata:
+        es: 16 - Ø 113
+        en: 16 - Ø 113
+        fr: 16 - Ø 113
+    propietari: G13
+- clau: RASQUETAS
+  noms:
+    es: RASQUETAS
+    en: SPATULAS
+    fr: SPATULES
+  sequence: 500
+  tipus: accessoris
+  pagina: p81
+  taula: p81-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: para
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes: []
+  compartits:
+  - codi: '96107'
+    ordre: 10
+    valors:
+      para:
+        es: FRYTOPS FE
+        en: IRON FRYTOPS
+        fr: FRYTOPS FER
+    propietari: G03
+  - codi: '93085'
+    ordre: 20
+    valors:
+      para:
+        es: FRYTOPS CrD
+        en: HCr FRYTOPS
+        fr: FRYTOPS CrD
+    propietari: G03
+  - codi: 4A795021
+    ordre: 30
+    valors:
+      para:
+        es: KIT 10 CUCHILLAS
+        en: KIT 10 KNIVES
+        fr: KIT 10 COUTEAUX
+    propietari: G03
+- clau: CESTAS FREIDORA
+  noms:
+    es: CESTAS FREIDORA
+    en: FRYER BASKETS
+    fr: PANIERS À FRITEUSE
+  sequence: 510
+  tipus: accessoris
+  pagina: p81
+  taula: p81-t3
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: pack
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes: []
+  compartits:
+  - codi: 4A575021
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 210 x 265 x 105
+        en: 210 x 265 x 105
+        fr: 210 x 265 x 105
+      capacitat_litres:
+        es: '10'
+        en: '10'
+        fr: '10'
+      pack:
+        es: '1'
+        en: '1'
+        fr: '1'
+    propietari: G03
+  - codi: 4A096021
+    ordre: 20
+    valors:
+      mesures_text:
+        es: 105 x 265 x 105
+        en: 105 x 265 x 105
+        fr: 105 x 265 x 105
+      capacitat_litres:
+        es: 1/2-10
+        en: 1/2-10
+        fr: 1/2-10
+      pack:
+        es: '2'
+        en: '2'
+        fr: '2'
+    propietari: G03
+- clau: PAKS CESTOS CUECE PASTA
+  noms:
+    es: PAKS CESTOS CUECE PASTA
+    en: BASKET PASTA COOKER PAK
+    fr: PAK PANIER CUISER À PÂTE
+  sequence: 520
+  tipus: accessoris
+  pagina: p81
+  taula: p81-t4
+  blocs: 2
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: gn
+    etiqueta: null
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes: []
+  compartits:
+  - codi: 4A536021
+    ordre: 10
+    valors:
+      gn:
+        es: 1 x 2/3
+        en: 1 x 2/3
+        fr: 1 x 2/3
+      mesures_text:
+        es: 290 x 290 x 200
+        en: 290 x 290 x 200
+        fr: 290 x 290 x 200
+    propietari: G03
+  - codi: 4A026021
+    ordre: 20
+    valors:
+      gn:
+        es: 2 x 1/3
+        en: 2 x 1/3
+        fr: 2 x 1/3
+      mesures_text:
+        es: 290 x 160 x 200
+        en: 290 x 160 x 200
+        fr: 290 x 160 x 200
+    propietari: G03
+  - codi: 4A066021
+    ordre: 1030
+    valors:
+      gn:
+        es: 1 x 1/3 2 x 1/6
+        en: 1 x 1/3 2 x 1/6
+        fr: 1 x 1/3 2 x 1/6
+      mesures_text:
+        es: 290 x 160 x 200 140 x 140 x 200
+        en: 290 x 160 x 200 140 x 140 x 200
+        fr: 290 x 160 x 200 140 x 140 x 200
+    propietari: G03
+  - codi: 4A526021
+    ordre: 1040
+    valors:
+      gn:
+        es: 4 x 1/6
+        en: 4 x 1/6
+        fr: 4 x 1/6
+      mesures_text:
+        es: 140 x 140 x 200
+        en: 140 x 140 x 200
+        fr: 140 x 140 x 200
+    propietari: G03
+avisos:
+- 'p79-t2 10817410: sense valor per a «denominacio_2»'
+- 'p79-t2 10794110: sense valor per a «denominacio_2»'
+- 'p79-t2 10449110: sense valor per a «denominacio_2»'
+- 'p79-t2 10105110: sense valor per a «denominacio_2»'
+repeticions:
+  CUBETAS GASTRONORM:
+  - codi: CP1102X1
+    ordre: 10
+  - codi: CP1106X1
+    ordre: 30
+  - codi: CP1206X1
+    ordre: 1040
+  - codi: CP1110X1
+    ordre: 50
+  - codi: CP111501
+    ordre: 70
+  - codi: CP121501
+    ordre: 1080
+  - codi: CP230651
+    ordre: 90
+  - codi: CP131001
+    ordre: 1120
+  - codi: CP231501
+    ordre: 130
+  - codi: CP131501
+    ordre: 1140
+  - codi: CP141001
+    ordre: 150
+  - codi: CP161001
+    ordre: 1160
+  - codi: CP141501
+    ordre: 170
+  - codi: CP161501
+    ordre: 1180
+  DOBLE FONDO PERFORADO MUEBLES CALIENTES O FRÍOS:
+  - codi: 4A085021
+    ordre: 10
+  CESTAS VASOS:
+  - codi: '95160'
+    ordre: 10
+  RASQUETAS:
+  - codi: '96107'
+    ordre: 10
+  - codi: '93085'
+    ordre: 20
+  - codi: 4A795021
+    ordre: 30
+  CESTAS FREIDORA:
+  - codi: 4A575021
+    ordre: 10
+  - codi: 4A096021
+    ordre: 20
+  PAKS CESTOS CUECE PASTA:
+  - codi: 4A536021
+    ordre: 10
+  - codi: 4A026021
+    ordre: 20
+  - codi: 4A066021
+    ordre: 1030
+  - codi: 4A526021
+    ordre: 1040
+informe:
+  inexistents: []
+  descatalogats: []
+  arxivats: []
+  ambigus: []
+  ignorats: []
+  fora_pdf: []
+  columnes_eliminades:
+  - taula: p72-t2
+    clau: col6
+    motiu: 'fantasma: sense cap valor'
+  - taula: p73-t2
+    clau: col5
+    motiu: fantasma (correccions.yaml)
+  - taula: p73-t2
+    clau: col6
+    motiu: fantasma (correccions.yaml)
+  - taula: p75-t2
+    clau: col2
+    motiu: 'fantasma: sense cap valor'
+  - taula: p75-t2
+    clau: col3
+    motiu: 'fantasma: sense cap valor'
+  - taula: p79-t2
+    clau: col2
+    motiu: 'fantasma: sense cap valor'
+  - taula: p79-t2
+    clau: col3
+    motiu: 'fantasma: sense cap valor'
+  families_buides: []
+  taules_dividides:
+  - 'p81-t1: el tros «(2)» (blocs que no encaixen en una sola taula) és una família a part (cap codi es perd)'

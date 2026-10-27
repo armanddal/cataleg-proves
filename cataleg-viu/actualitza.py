@@ -19,7 +19,9 @@ import os
 import re
 import subprocess
 import sys
+import threading
 import time
+from concurrent.futures import ThreadPoolExecutor
 
 import yaml
 
@@ -135,6 +137,11 @@ def regenera_grup(cfg, n):
     pags = pagines_pdf(sortida + '.pdf')
     if pags < 1:
         raise RuntimeError('el PDF generat no té pàgines')
+    # Redueix les imatges a ~150 ppp (el PDF dels 16 grups passaria de 300 MB). Si falla, es manté el PDF sense reduir.
+    rc = subprocess.run([sys.executable, os.path.join(L.AQUI, 'comprimeix_pdf.py'), sortida + '.pdf'], capture_output=True, text=True)
+    print('    G%02d: %s' % (n, (rc.stdout.strip() or rc.stderr.strip()[-300:]).splitlines()[-1] if (rc.stdout or rc.stderr) else 'sense sortida'))
+    if rc.returncode != 0 or pagines_pdf(sortida + '.pdf') != pags:
+        raise RuntimeError('no s\'ha pogut reduir el PDF: %s' % rc.stderr[-300:])
     os.replace(sortida + '.pdf', os.path.join(L.GRUPS_DIR, 'g%d.pdf' % n))
     if os.path.exists(sortida + '.html'):
         os.remove(sortida + '.html')
@@ -206,19 +213,29 @@ def cicle(a):
     regenerats, errors = [], []
     for n, motiu in pendents:
         print('    G%02d: %s' % (n, motiu))
-        if a.prova:
-            continue
+    cadenat = threading.Lock()
+
+    def fes(n):
         try:
             pags, seg = regenera_grup(cfg, n)
         except Exception as e:
-            print('    G%02d: ERROR - es manté el PDF anterior. %s' % (n, e))
-            errors.append(n)
-            continue
-        estat['grups'][str(n)] = {'empremta': odoo[n]['empremta'], 'max': odoo[n]['max'], 'resum': odoo[n]['resum'],
-                                  'generat': time.strftime('%Y-%m-%dT%H:%M:%S'), 'segons': round(seg, 1), 'pagines': pags}
-        L.escriu_json(ESTAT, estat)
-        regenerats.append(n)
-        print('    G%02d: regenerat (%d pàgines, %.0f s)' % (n, pags, seg))
+            with cadenat:
+                print('    G%02d: ERROR - es manté el PDF anterior. %s' % (n, e))
+                errors.append(n)
+            return
+        with cadenat:
+            estat['grups'][str(n)] = {'empremta': odoo[n]['empremta'], 'max': odoo[n]['max'], 'resum': odoo[n]['resum'],
+                                      'generat': time.strftime('%Y-%m-%dT%H:%M:%S'), 'segons': round(seg, 1), 'pagines': pags}
+            L.escriu_json(ESTAT, estat)
+            regenerats.append(n)
+            print('    G%02d: regenerat (%d pàgines, %.0f s)' % (n, pags, seg))
+
+    if pendents and not a.prova:
+        # Diversos grups alhora (cada un és un procés Chrome propi). CATALEG_PARALEL = nombre de grups simultanis.
+        paral = max(1, int(os.environ.get('CATALEG_PARALEL', '3')))
+        with ThreadPoolExecutor(max_workers=paral) as ex:
+            list(ex.map(fes, [n for n, _ in pendents]))
+        regenerats.sort()
     if not a.prova:
         for n in retirats:
             p = os.path.join(L.GRUPS_DIR, 'g%d.pdf' % n)

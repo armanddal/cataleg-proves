@@ -1,0 +1,2242 @@
+# Generat per scripts/genera_config.py --grup 7 (editable; es pot regenerar)
+grup:
+  numero: 7
+  codi_odoo: G07
+families:
+- clau: HORNILLOS DE GRAN POTENCIA DE SOBREMESA A GAS
+  noms:
+    es: HORNILLOS DE GRAN POTENCIA DE SOBREMESA A GAS
+    en: HIGH-POWER COUNTERTOP GAS BURNERS
+    fr: FOURNEAU HAUTE PUISSANCE À GAZ DE TABLE
+  sequence: 30
+  tipus: producte
+  pagina: p07
+  taula: p07-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: fogons
+    etiqueta: null
+  - codi: reixa_fogo
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 49305TA0
+    ordre: 10
+    valors:
+      fogons:
+        es: 2 x 12,5
+        en: 2 x 12,5
+        fr: 2 x 12,5
+      reixa_fogo:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      potencia_gas:
+        es: 25 KW
+        en: 25 KW
+        fr: 25 KW
+  - codi: 49305TA5
+    ordre: 20
+    valors:
+      fogons:
+        es: 2 x 12,5
+        en: 2 x 12,5
+        fr: 2 x 12,5
+      reixa_fogo:
+        es: OK
+        en: OK
+        fr: OK
+      potencia_gas:
+        es: 25 KW
+        en: 25 KW
+        fr: 25 KW
+  compartits: []
+- clau: HORNILLOS DE GRAN POTENCIA CON SOPORTE A GAS
+  noms:
+    es: HORNILLOS DE GRAN POTENCIA CON SOPORTE A GAS
+    en: HIGH-POWER GAS BURNERS WITH STAND
+    fr: FOURNEAU HAUTE PUISSANCE À GAZ AVEC SUPPORT
+  sequence: 40
+  tipus: producte
+  pagina: p08
+  taula: p08-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: fogons
+    etiqueta: null
+  - codi: reixa_fogo
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4930H6R0
+    ordre: 10
+    valors:
+      fogons:
+        es: 2 x 12,5
+        en: 2 x 12,5
+        fr: 2 x 12,5
+      reixa_fogo:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      potencia_gas:
+        es: 25 KW
+        en: 25 KW
+        fr: 25 KW
+  - codi: 4930H6R5
+    ordre: 20
+    valors:
+      fogons:
+        es: 2 x 12,5
+        en: 2 x 12,5
+        fr: 2 x 12,5
+      reixa_fogo:
+        es: OK
+        en: OK
+        fr: OK
+      potencia_gas:
+        es: 25 KW
+        en: 25 KW
+        fr: 25 KW
+  compartits: []
+- clau: GRATINADORES ELÉCTRICOS
+  noms:
+    es: GRATINADORES ELÉCTRICOS
+    en: ELECTRIC SALAMANDER
+    fr: SALAMANDRE ELÉCTRIQUE
+  sequence: 50
+  tipus: producte
+  pagina: p11
+  taula: p11-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '43220612'
+    ordre: 10
+    valors:
+      dimensions_parrilla:
+        es: 380 x 380
+        en: 380 x 380
+        fr: 380 x 380
+      gastronorm:
+        es: GN 2/3
+        en: GN 2/3
+        fr: GN 2/3
+      potencia_electrica:
+        es: 2 KW 230/1V
+        en: 2 KW 230/1V
+        fr: 2 KW 230/1V
+  - codi: '43420612'
+    ordre: 20
+    valors:
+      dimensions_parrilla:
+        es: 630 x 380
+        en: 630 x 380
+        fr: 630 x 380
+      gastronorm:
+        es: GN 1/1
+        en: GN 1/1
+        fr: GN 1/1
+      potencia_electrica:
+        es: 4 KW 400/3V - 230/1V
+        en: 4 KW 400/3V - 230/1V
+        fr: 4 KW 400/3V - 230/1V
+  - codi: '43540612'
+    ordre: 30
+    valors:
+      dimensions_parrilla:
+        es: 380 x 400
+        en: 380 x 400
+        fr: 380 x 400
+      gastronorm:
+        es: GN 2/3
+        en: GN 2/3
+        fr: GN 2/3
+      potencia_electrica:
+        es: 2 KW 230/1V
+        en: 2 KW 230/1V
+        fr: 2 KW 230/1V
+  - codi: '43740612'
+    ordre: 40
+    valors:
+      dimensions_parrilla:
+        es: 570 x 400
+        en: 570 x 400
+        fr: 570 x 400
+      gastronorm:
+        es: GN 1/1
+        en: GN 1/1
+        fr: GN 1/1
+      potencia_electrica:
+        es: 4 KW 400/3V - 230/1V
+        en: 4 KW 400/3V - 230/1V
+        fr: 4 KW 400/3V - 230/1V
+  compartits: []
+- clau: GRATINADORES ELÉCTRICOS RÁPIDOS
+  noms:
+    es: GRATINADORES ELÉCTRICOS RÁPIDOS
+    en: FAST ELECTRIC SALAMANDER
+    fr: SALAMANDRE ELÉCTRIQUE RAPIDE
+  sequence: 60
+  tipus: producte
+  pagina: p12
+  taula: p12-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '43500612'
+    ordre: 10
+    valors:
+      dimensions_parrilla:
+        es: 380 x 390
+        en: 380 x 390
+        fr: 380 x 390
+      gastronorm:
+        es: GN 2/3
+        en: GN 2/3
+        fr: GN 2/3
+      potencia_electrica:
+        es: 2 KW 230/1V
+        en: 2 KW 230/1V
+        fr: 2 KW 230/1V
+  - codi: '43800612'
+    ordre: 20
+    valors:
+      dimensions_parrilla:
+        es: 630 x 390
+        en: 630 x 390
+        fr: 630 x 390
+      gastronorm:
+        es: GN 1/1
+        en: GN 1/1
+        fr: GN 1/1
+      potencia_electrica:
+        es: 4 KW 400/3V - 230/1V
+        en: 4 KW 400/3V - 230/1V
+        fr: 4 KW 400/3V - 230/1V
+  - codi: '43730612'
+    ordre: 30
+    valors:
+      dimensions_parrilla:
+        es: 600 x 350
+        en: 600 x 350
+        fr: 600 x 350
+      gastronorm:
+        es: GN 1/1
+        en: GN 1/1
+        fr: GN 1/1
+      potencia_electrica:
+        es: 4 KW 400/3V - 230/1V
+        en: 4 KW 400/3V - 230/1V
+        fr: 4 KW 400/3V - 230/1V
+  compartits: []
+- clau: GRATINADORES A GAS
+  noms:
+    es: GRATINADORES A GAS
+    en: GAS SALAMANDER
+    fr: SALAMANDRE À GAZ
+  sequence: 70
+  tipus: producte
+  pagina: p13
+  taula: p13-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 43050G08
+    ordre: 10
+    valors:
+      dimensions_parrilla:
+        es: 530 x 325
+        en: 530 x 325
+        fr: 530 x 325
+      gastronorm:
+        es: GN 1/1
+        en: GN 1/1
+        fr: GN 1/1
+      potencia_gas:
+        es: 5 KW
+        en: 5 KW
+        fr: 5 KW
+  compartits: []
+- clau: GRATINADORES GRILL A GAS
+  noms:
+    es: GRATINADORES GRILL A GAS
+    en: GAS SALAMANDERS GRILL
+    fr: SALAMANDRES GRILL AU GAZ
+  sequence: 80
+  tipus: producte
+  pagina: p14
+  taula: p14-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: dimensions_placa
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '43000016'
+    ordre: 10
+    valors:
+      dimensions_placa:
+        es: 480 x 370
+        en: 480 x 370
+        fr: 480 x 370
+      potencia_gas:
+        es: 5 KW
+        en: 5 KW
+        fr: 5 KW
+  - codi: '43000026'
+    ordre: 20
+    valors:
+      dimensions_placa:
+        es: 960 x 370
+        en: 960 x 370
+        fr: 960 x 370
+      potencia_gas:
+        es: 10 KW
+        en: 10 KW
+        fr: 10 KW
+  compartits: []
+- clau: FREIDORAS DE PASTELERÍA ELÉCTRICAS
+  noms:
+    es: FREIDORAS DE PASTELERÍA ELÉCTRICAS
+    en: ELECTRIC PASTRY FRYERS
+    fr: FRITEUSES ÉLECTRIQUES POUR PÂTISSERIE
+  sequence: 90
+  tipus: producte
+  pagina: p17
+  taula: p17-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: numero_cubes
+    etiqueta: null
+  - codi: dimensions_cesta
+    etiqueta: null
+  - codi: tapa_planxa
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 394181EF
+    ordre: 10
+    valors:
+      capacitat_litres:
+        es: '20'
+        en: '20'
+        fr: '20'
+      numero_cubes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_cesta:
+        es: 630x365x70
+        en: 630x365x70
+        fr: 630x365x70
+      tapa_planxa:
+        es: '-'
+        en: '-'
+        fr: '-'
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: 9 KW 400/3V
+        en: 9 KW 400/3V
+        fr: 9 KW 400/3V
+  - codi: 394181E5
+    ordre: 20
+    valors:
+      capacitat_litres:
+        es: '20'
+        en: '20'
+        fr: '20'
+      numero_cubes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_cesta:
+        es: 630x365x70
+        en: 630x365x70
+        fr: 630x365x70
+      tapa_planxa:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: 9 KW 400/3V
+        en: 9 KW 400/3V
+        fr: 9 KW 400/3V
+  - codi: 394181EP
+    ordre: 30
+    valors:
+      capacitat_litres:
+        es: '20'
+        en: '20'
+        fr: '20'
+      numero_cubes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_cesta:
+        es: 630x365x70
+        en: 630x365x70
+        fr: 630x365x70
+      tapa_planxa:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      potencia_electrica:
+        es: 9 KW 400/3V
+        en: 9 KW 400/3V
+        fr: 9 KW 400/3V
+  - codi: 393172EF
+    ordre: 40
+    valors:
+      capacitat_litres:
+        es: '35'
+        en: '35'
+        fr: '35'
+      numero_cubes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_cesta:
+        es: 970x365x70
+        en: 970x365x70
+        fr: 970x365x70
+      tapa_planxa:
+        es: '-'
+        en: '-'
+        fr: '-'
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: 10 KW 400/3V
+        en: 10 KW 400/3V
+        fr: 10 KW 400/3V
+  - codi: 393172E5
+    ordre: 50
+    valors:
+      capacitat_litres:
+        es: '35'
+        en: '35'
+        fr: '35'
+      numero_cubes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_cesta:
+        es: 970x365x70
+        en: 970x365x70
+        fr: 970x365x70
+      tapa_planxa:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: 10 KW 400/3V
+        en: 10 KW 400/3V
+        fr: 10 KW 400/3V
+  compartits: []
+- clau: FREIDORAS DE PASTELERÍA A GAS
+  noms:
+    es: FREIDORAS DE PASTELERÍA A GAS
+    en: GAS PASTRY FRYERS
+    fr: FRITEUSES À GAZ POUR PÂTISSERIE
+  sequence: 100
+  tipus: producte
+  pagina: p18
+  taula: p18-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: numero_cubes
+    etiqueta: null
+  - codi: dimensions_cesta
+    etiqueta: null
+  - codi: tapa_planxa
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 390081GF
+    ordre: 10
+    valors:
+      capacitat_litres:
+        es: '20'
+        en: '20'
+        fr: '20'
+      numero_cubes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_cesta:
+        es: 580x320x70
+        en: 580x320x70
+        fr: 580x320x70
+      tapa_planxa:
+        es: '-'
+        en: '-'
+        fr: '-'
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 12 KW
+        en: 12 KW
+        fr: 12 KW
+  - codi: '39008165'
+    ordre: 20
+    valors:
+      capacitat_litres:
+        es: '20'
+        en: '20'
+        fr: '20'
+      numero_cubes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_cesta:
+        es: 580x320x70
+        en: 580x320x70
+        fr: 580x320x70
+      tapa_planxa:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 12 KW
+        en: 12 KW
+        fr: 12 KW
+  - codi: 3900816P
+    ordre: 30
+    valors:
+      capacitat_litres:
+        es: '20'
+        en: '20'
+        fr: '20'
+      numero_cubes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_cesta:
+        es: 580x320x70
+        en: 580x320x70
+        fr: 580x320x70
+      tapa_planxa:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      potencia_gas:
+        es: 12 KW
+        en: 12 KW
+        fr: 12 KW
+  - codi: 39TP376F
+    ordre: 40
+    valors:
+      capacitat_litres:
+        es: '44'
+        en: '44'
+        fr: '44'
+      numero_cubes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_cesta:
+        es: 630x365x70
+        en: 630x365x70
+        fr: 630x365x70
+      tapa_planxa:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      potencia_gas:
+        es: 17,5 KW
+        en: 17,5 KW
+        fr: 17,5 KW
+  compartits: []
+- clau: TOSTADORES DE PAN DE CINTA ELÉCTRICOS
+  noms:
+    es: TOSTADORES DE PAN DE CINTA ELÉCTRICOS
+    en: ELECTRIC RIBBON BREAD TOASTER
+    fr: GRILLE-PAIN AU RUBAN ÉLECTRIQUE
+  sequence: 110
+  tipus: producte
+  pagina: p19
+  taula: p19-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '43616017'
+    ordre: 10
+    valors:
+      dimensions_parrilla:
+        es: 500 x 200
+        en: 500 x 200
+        fr: 500 x 200
+      potencia_electrica:
+        es: 3 KW 230/1V
+        en: 3 KW 230/1V
+        fr: 3 KW 230/1V
+  - codi: '43816017'
+    ordre: 20
+    valors:
+      dimensions_parrilla:
+        es: 260 x 460
+        en: 260 x 460
+        fr: 260 x 460
+      potencia_electrica:
+        es: 3 KW 230/1V
+        en: 3 KW 230/1V
+        fr: 3 KW 230/1V
+  compartits: []
+- clau: BAÑOS MARÍA CON RUEDAS
+  noms:
+    es: BAÑOS MARÍA CON RUEDAS
+    en: BAIN MARIE WITH WHEELS
+    fr: BAIN MARIE À ROULETTES
+  sequence: 120
+  tipus: producte
+  pagina: p22
+  taula: p22-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta:
+      es: '*'
+      en: '*'
+      fr: '*'
+  - codi: tapa_planxa
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '51020240'
+    ordre: 10
+    valors:
+      gastronorm:
+        es: 2 GN 1/1 - 200
+        en: 2 GN 1/1 - 200
+        fr: 2 GN 1/1 - 200
+      tapa_planxa:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: 1,6 KW 230/1V
+        en: 1,6 KW 230/1V
+        fr: 1,6 KW 230/1V
+  - codi: '52020240'
+    ordre: 20
+    valors:
+      gastronorm:
+        es: 3 GN 1/1 - 200
+        en: 3 GN 1/1 - 200
+        fr: 3 GN 1/1 - 200
+      tapa_planxa:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: 2,4 KW 230/1V
+        en: 2,4 KW 230/1V
+        fr: 2,4 KW 230/1V
+  - codi: '53020240'
+    ordre: 30
+    valors:
+      gastronorm:
+        es: 4 GN 1/1 - 200
+        en: 4 GN 1/1 - 200
+        fr: 4 GN 1/1 - 200
+      tapa_planxa:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: 3,2 KW 230/1V
+        en: 3,2 KW 230/1V
+        fr: 3,2 KW 230/1V
+  - codi: '51120240'
+    ordre: 40
+    valors:
+      gastronorm:
+        es: 2 GN 1/1 - 200
+        en: 2 GN 1/1 - 200
+        fr: 2 GN 1/1 - 200
+      tapa_planxa:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      potencia_electrica:
+        es: 2,4 KW 230/1V
+        en: 2,4 KW 230/1V
+        fr: 2,4 KW 230/1V
+  - codi: '52120240'
+    ordre: 50
+    valors:
+      gastronorm:
+        es: 3 GN 1/1 - 200
+        en: 3 GN 1/1 - 200
+        fr: 3 GN 1/1 - 200
+      tapa_planxa:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      potencia_electrica:
+        es: 3,2 KW 230/1V
+        en: 3,2 KW 230/1V
+        fr: 3,2 KW 230/1V
+  compartits: []
+- clau: BAÑOS MARÍA SOBRE SOPORTE
+  noms:
+    es: BAÑOS MARÍA SOBRE SOPORTE
+    en: BAIN MARIE ON SUPPORT
+    fr: BAIN MARIE SUR SUPPORT
+  sequence: 130
+  tipus: producte
+  pagina: p23
+  taula: p23-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta:
+      es: '*'
+      en: '*'
+      fr: '*'
+  - codi: tapa_planxa
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 37040M08
+    ordre: 10
+    valors:
+      gastronorm:
+        es: 2 GN 1/1 - 200
+        en: 2 GN 1/1 - 200
+        fr: 2 GN 1/1 - 200
+      tapa_planxa:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      potencia_electrica:
+        es: 2 KW 230/1V
+        en: 2 KW 230/1V
+        fr: 2 KW 230/1V
+  - codi: '53020340'
+    ordre: 20
+    valors:
+      gastronorm:
+        es: 3 GN 1/1 - 200
+        en: 3 GN 1/1 - 200
+        fr: 3 GN 1/1 - 200
+      tapa_planxa:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: 2,4 KW 230/1V
+        en: 2,4 KW 230/1V
+        fr: 2,4 KW 230/1V
+  - codi: '54020340'
+    ordre: 30
+    valors:
+      gastronorm:
+        es: 4 GN 1/1 - 200
+        en: 4 GN 1/1 - 200
+        fr: 4 GN 1/1 - 200
+      tapa_planxa:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: 3,2 KW 230/1V
+        en: 3,2 KW 230/1V
+        fr: 3,2 KW 230/1V
+  compartits: []
+- clau: BAÑOS MARÍA DE SOBREMESA
+  noms:
+    es: BAÑOS MARÍA DE SOBREMESA
+    en: TABLETOP BAIN MARIE
+    fr: BAIN MARIE SUR TABLE
+  sequence: 140
+  tipus: producte
+  pagina: p24
+  taula: p24-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta:
+      es: '*'
+      en: '*'
+      fr: '*'
+  - codi: dot
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 550041M8
+    ordre: 10
+    valors:
+      gastronorm:
+        es: 1 - 1/1 - 150
+        en: 1 - 1/1 - 150
+        fr: 1 - 1/1 - 150
+      dot:
+        es: 4 x 1/4 - 150
+        en: 4 x 1/4 - 150
+        fr: 4 x 1/4 - 150
+      potencia_electrica:
+        es: 1 KW 230/1V
+        en: 1 KW 230/1V
+        fr: 1 KW 230/1V
+  - codi: 550031M8
+    ordre: 20
+    valors:
+      gastronorm:
+        es: 1 - 1/1 - 150
+        en: 1 - 1/1 - 150
+        fr: 1 - 1/1 - 150
+      dot:
+        es: 3 x 1/3 - 150
+        en: 3 x 1/3 - 150
+        fr: 3 x 1/3 - 150
+      potencia_electrica:
+        es: 1 KW 230/1V
+        en: 1 KW 230/1V
+        fr: 1 KW 230/1V
+  - codi: '51040240'
+    ordre: 30
+    valors:
+      gastronorm:
+        es: 1 - 1/1 - 150
+        en: 1 - 1/1 - 150
+        fr: 1 - 1/1 - 150
+      dot:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      potencia_electrica:
+        es: 0,6 KW 230/1V
+        en: 0,6 KW 230/1V
+        fr: 0,6 KW 230/1V
+  - codi: '53040240'
+    ordre: 40
+    valors:
+      gastronorm:
+        es: 2 - 1/1 - 150
+        en: 2 - 1/1 - 150
+        fr: 2 - 1/1 - 150
+      dot:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      potencia_electrica:
+        es: 1,2 KW 230/1V
+        en: 1,2 KW 230/1V
+        fr: 1,2 KW 230/1V
+  compartits: []
+- clau: MESAS CALIENTES MURALES PARA PLATOS
+  noms:
+    es: MESAS CALIENTES MURALES PARA PLATOS
+    en: WALL HOT TABLES FOR DISHES
+    fr: TABLES CHAUDES MURALES POUR LES PLATS
+  sequence: 150
+  tipus: producte
+  pagina: p27
+  taula: p27-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes_corredisses
+    etiqueta: null
+  - codi: nivells
+    etiqueta: null
+  - codi: plats_310
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '60000440'
+    ordre: 10
+    valors:
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+      nivells:
+        es: '2'
+        en: '2'
+        fr: '2'
+      plats_310:
+        es: '135'
+        en: '135'
+        fr: '135'
+      potencia_electrica:
+        es: 2 KW 230/1V
+        en: 2 KW 230/1V
+        fr: 2 KW 230/1V
+  - codi: '61000440'
+    ordre: 20
+    valors:
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+      nivells:
+        es: '2'
+        en: '2'
+        fr: '2'
+      plats_310:
+        es: '180'
+        en: '180'
+        fr: '180'
+      potencia_electrica:
+        es: 3 KW 230/1V
+        en: 3 KW 230/1V
+        fr: 3 KW 230/1V
+  - codi: '60000340'
+    ordre: 30
+    valors:
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+      nivells:
+        es: '2'
+        en: '2'
+        fr: '2'
+      plats_310:
+        es: '135'
+        en: '135'
+        fr: '135'
+      potencia_electrica:
+        es: 2 KW 230/1V
+        en: 2 KW 230/1V
+        fr: 2 KW 230/1V
+  - codi: '61000340'
+    ordre: 40
+    valors:
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+      nivells:
+        es: '2'
+        en: '2'
+        fr: '2'
+      plats_310:
+        es: '180'
+        en: '180'
+        fr: '180'
+      potencia_electrica:
+        es: 3 KW 230/1V
+        en: 3 KW 230/1V
+        fr: 3 KW 230/1V
+  - codi: '64000340'
+    ordre: 50
+    valors:
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+      nivells:
+        es: '2'
+        en: '2'
+        fr: '2'
+      plats_310:
+        es: '225'
+        en: '225'
+        fr: '225'
+      potencia_electrica:
+        es: 3 KW 230/1V
+        en: 3 KW 230/1V
+        fr: 3 KW 230/1V
+  compartits: []
+- clau: MESAS CALIENTES CENTRALES PARA PLATOS
+  noms:
+    es: MESAS CALIENTES CENTRALES PARA PLATOS
+    en: CENTRAL HOT TABLES FOR DISHES
+    fr: TABLES CHAUDES CENTRALES POUR LES PLATS
+  sequence: 160
+  tipus: producte
+  pagina: p28
+  taula: p28-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes_corredisses
+    etiqueta: null
+  - codi: nivells
+    etiqueta: null
+  - codi: plats_310
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '64010440'
+    ordre: 10
+    valors:
+      portes_corredisses:
+        es: '4'
+        en: '4'
+        fr: '4'
+      nivells:
+        es: '2'
+        en: '2'
+        fr: '2'
+      plats_310:
+        es: '135'
+        en: '135'
+        fr: '135'
+      potencia_electrica:
+        es: 3 KW 230/1V
+        en: 3 KW 230/1V
+        fr: 3 KW 230/1V
+  - codi: '66010440'
+    ordre: 20
+    valors:
+      portes_corredisses:
+        es: '4'
+        en: '4'
+        fr: '4'
+      nivells:
+        es: '2'
+        en: '2'
+        fr: '2'
+      plats_310:
+        es: '180'
+        en: '180'
+        fr: '180'
+      potencia_electrica:
+        es: 3 KW 230/1V
+        en: 3 KW 230/1V
+        fr: 3 KW 230/1V
+  - codi: '60010340'
+    ordre: 30
+    valors:
+      portes_corredisses:
+        es: '4'
+        en: '4'
+        fr: '4'
+      nivells:
+        es: '2'
+        en: '2'
+        fr: '2'
+      plats_310:
+        es: '135'
+        en: '135'
+        fr: '135'
+      potencia_electrica:
+        es: 3 KW 230/1V
+        en: 3 KW 230/1V
+        fr: 3 KW 230/1V
+  - codi: '61010340'
+    ordre: 40
+    valors:
+      portes_corredisses:
+        es: '4'
+        en: '4'
+        fr: '4'
+      nivells:
+        es: '2'
+        en: '2'
+        fr: '2'
+      plats_310:
+        es: '180'
+        en: '180'
+        fr: '180'
+      potencia_electrica:
+        es: 3 KW 230/1V
+        en: 3 KW 230/1V
+        fr: 3 KW 230/1V
+  - codi: '64010340'
+    ordre: 50
+    valors:
+      portes_corredisses:
+        es: '4'
+        en: '4'
+        fr: '4'
+      nivells:
+        es: '2'
+        en: '2'
+        fr: '2'
+      plats_310:
+        es: '225'
+        en: '225'
+        fr: '225'
+      potencia_electrica:
+        es: 3 KW 230/1V
+        en: 3 KW 230/1V
+        fr: 3 KW 230/1V
+  compartits: []
+- clau: RESERVAS CALIENTES PARA PLATOS Y GN 1/1 CON COMIDA
+  noms:
+    es: RESERVAS CALIENTES PARA PLATOS Y GN 1/1 CON COMIDA
+    en: HOT RESERVES FOR DISHES AND GN 1/1 WITH FOOD
+    fr: RÉSERVES CHAUDES POUR PLATS ET GN 1/1 AVEC NOURRITURE
+  sequence: 170
+  tipus: producte
+  pagina: p29
+  taula: p29-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: nivells
+    etiqueta: null
+  - codi: plats_310
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta:
+      es: '*'
+      en: '*'
+      fr: '*'
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 600104BH
+    ordre: 10
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      nivells:
+        es: '- / 3'
+        en: '- / 3'
+        fr: '- / 3'
+      plats_310:
+        es: '-'
+        en: '-'
+        fr: '-'
+      gastronorm:
+        es: 3 GN 1/1 - 65
+        en: 3 GN 1/1 - 65
+        fr: 3 GN 1/1 - 65
+      potencia_electrica:
+        es: 1,3 KW 230/1V
+        en: 1,3 KW 230/1V
+        fr: 1,3 KW 230/1V
+  - codi: 600208BH
+    ordre: 20
+    valors:
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      nivells:
+        es: 1+/3
+        en: 1+/3
+        fr: 1+/3
+      plats_310:
+        es: '30'
+        en: '30'
+        fr: '30'
+      gastronorm:
+        es: 3 GN 1/1 - 65
+        en: 3 GN 1/1 - 65
+        fr: 3 GN 1/1 - 65
+      potencia_electrica:
+        es: 1,3 KW 230/1V
+        en: 1,3 KW 230/1V
+        fr: 1,3 KW 230/1V
+  - codi: 600321BH
+    ordre: 30
+    valors:
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      nivells:
+        es: 1+/3
+        en: 1+/3
+        fr: 1+/3
+      plats_310:
+        es: '60'
+        en: '60'
+        fr: '60'
+      gastronorm:
+        es: 3 GN 1/1 - 65
+        en: 3 GN 1/1 - 65
+        fr: 3 GN 1/1 - 65
+      potencia_electrica:
+        es: 1,3 KW 230/1V
+        en: 1,3 KW 230/1V
+        fr: 1,3 KW 230/1V
+  compartits: []
+- clau: ARMARIOS CALIENTES PARA PLATOS
+  noms:
+    es: ARMARIOS CALIENTES PARA PLATOS
+    en: HOT CUPBOARDS FOR DISHES
+    fr: ARMOIRES CHAUDES POUR PLATS
+  sequence: 180
+  tipus: producte
+  pagina: p30
+  taula: p30-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: nivells
+    etiqueta: null
+  - codi: plats_310
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '61030240'
+    ordre: 10
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      nivells:
+        es: '2'
+        en: '2'
+        fr: '2'
+      plats_310:
+        es: '60'
+        en: '60'
+        fr: '60'
+      potencia_electrica:
+        es: 400 W 230/1V
+        en: 400 W 230/1V
+        fr: 400 W 230/1V
+  - codi: '62030240'
+    ordre: 20
+    valors:
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      nivells:
+        es: '3'
+        en: '3'
+        fr: '3'
+      plats_310:
+        es: '120'
+        en: '120'
+        fr: '120'
+      potencia_electrica:
+        es: 1,5 KW 230/1V
+        en: 1,5 KW 230/1V
+        fr: 1,5 KW 230/1V
+  compartits: []
+- clau: MESAS CALIENTES PARA COMIDAS
+  noms:
+    es: MESAS CALIENTES PARA COMIDAS
+    en: HOT TABLES FOR MEALS
+    fr: TABLES CHAUDES POUR LES REPAS
+  sequence: 190
+  tipus: producte
+  pagina: p33
+  taula: p33-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: guies
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '65002340'
+    ordre: 10
+    valors:
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      guies:
+        es: '14'
+        en: '14'
+        fr: '14'
+      gastronorm:
+        es: GN 1/1 - 65
+        en: GN 1/1 - 65
+        fr: GN 1/1 - 65
+      potencia_electrica:
+        es: 2 KW 230/1V
+        en: 2 KW 230/1V
+        fr: 2 KW 230/1V
+  - codi: '62002340'
+    ordre: 20
+    valors:
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      guies:
+        es: '21'
+        en: '21'
+        fr: '21'
+      gastronorm:
+        es: GN 1/1 - 65
+        en: GN 1/1 - 65
+        fr: GN 1/1 - 65
+      potencia_electrica:
+        es: 3 KW 230/1V
+        en: 3 KW 230/1V
+        fr: 3 KW 230/1V
+  - codi: '80839169'
+    ordre: 30
+    valors:
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      guies:
+        es: 7+7
+        en: 7+7
+        fr: 7+7
+      gastronorm:
+        es: GN 1/1 - 65 ó 600 x 400
+        en: GN 1/1 - 65 ó 600 x 400
+        fr: GN 1/1 - 65 ó 600 x 400
+      potencia_electrica:
+        es: 2,6 KW 230/1V
+        en: 2,6 KW 230/1V
+        fr: 2,6 KW 230/1V
+  compartits: []
+- clau: CARROS CALIENTES PARA COMIDAS
+  noms:
+    es: CARROS CALIENTES PARA COMIDAS
+    en: HOT TABLES FOR MEALS
+    fr: TABLES CHAUDES POUR LES REPAS
+  sequence: 200
+  tipus: producte
+  pagina: p34
+  taula: p34-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: guies
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: alcada
+    etiqueta:
+      es: Separacion entre guías
+      en: Guide separation
+      fr: Séparation des guides
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '63000041'
+    ordre: 10
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      guies:
+        es: '11'
+        en: '11'
+        fr: '11'
+      gastronorm:
+        es: GN 2/1 - GN 1/1
+        en: GN 2/1 - GN 1/1
+        fr: GN 2/1 - GN 1/1
+      alcada:
+        es: '55'
+        en: '55'
+        fr: '55'
+      potencia_electrica:
+        es: 3 KW 230/1V
+        en: 3 KW 230/1V
+        fr: 3 KW 230/1V
+  - codi: '61100041'
+    ordre: 20
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      guies:
+        es: '17'
+        en: '17'
+        fr: '17'
+      gastronorm:
+        es: GN 2/1 - GN 1/1
+        en: GN 2/1 - GN 1/1
+        fr: GN 2/1 - GN 1/1
+      alcada:
+        es: '70'
+        en: '70'
+        fr: '70'
+      potencia_electrica:
+        es: 3 KW 230/1V
+        en: 3 KW 230/1V
+        fr: 3 KW 230/1V
+  - codi: '61000041'
+    ordre: 30
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      guies:
+        es: '22'
+        en: '22'
+        fr: '22'
+      gastronorm:
+        es: GN 2/1 - GN 1/1
+        en: GN 2/1 - GN 1/1
+        fr: GN 2/1 - GN 1/1
+      alcada:
+        es: '55'
+        en: '55'
+        fr: '55'
+      potencia_electrica:
+        es: 3 KW 230/1V
+        en: 3 KW 230/1V
+        fr: 3 KW 230/1V
+  - codi: '61200041'
+    ordre: 40
+    valors:
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      guies:
+        es: '34'
+        en: '34'
+        fr: '34'
+      gastronorm:
+        es: GN 2/1 - GN 1/1
+        en: GN 2/1 - GN 1/1
+        fr: GN 2/1 - GN 1/1
+      alcada:
+        es: '70'
+        en: '70'
+        fr: '70'
+      potencia_electrica:
+        es: 3 KW 230/1V
+        en: 3 KW 230/1V
+        fr: 3 KW 230/1V
+  - codi: '62000041'
+    ordre: 50
+    valors:
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      guies:
+        es: '44'
+        en: '44'
+        fr: '44'
+      gastronorm:
+        es: GN 2/1 - GN 1/1
+        en: GN 2/1 - GN 1/1
+        fr: GN 2/1 - GN 1/1
+      alcada:
+        es: '55'
+        en: '55'
+        fr: '55'
+      potencia_electrica:
+        es: 4 KW 230/1V
+        en: 4 KW 230/1V
+        fr: 4 KW 230/1V
+  compartits: []
+- clau: PARRILLA SUPLETORIA HORNILLOS
+  noms:
+    es: PARRILLA SUPLETORIA HORNILLOS
+    en: SUPPLEMENTARY GRIDDLE COOKERS
+    fr: GRILL SUPPLÉMENTAIRE FOURNEAU
+  sequence: 210
+  tipus: accessoris
+  pagina: p35
+  taula: p35-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 492002P
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 470 x 470
+        en: 470 x 470
+        fr: 470 x 470
+  compartits: []
+- clau: KIT SOPORTES DE PARED PARA GRATINADORES
+  noms:
+    es: KIT SOPORTES DE PARED PARA GRATINADORES
+    en: WALL BRACKET KIT FOR GRILLS
+    fr: KIT DE SUPPORTS MURALS POUR GRILS
+  sequence: 220
+  tipus: accessoris
+  pagina: p35
+  taula: p35-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: para
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A008009
+    ordre: 10
+    valors:
+      para:
+        es: '43800612'
+        en: '43800612'
+        fr: '43800612'
+  - codi: 4A003009
+    ordre: 20
+    valors:
+      para:
+        es: '43730612'
+        en: '43730612'
+        fr: '43730612'
+  compartits: []
+- clau: CESTAS DE FREIDORA DE PASTELERÍA
+  noms:
+    es: CESTAS DE FREIDORA DE PASTELERÍA
+    en: PASTRY FRYER BASKETS
+    fr: PANIERS DE FRITEUSE À PÂTISSERIE
+  sequence: 230
+  tipus: accessoris
+  pagina: p35
+  taula: p35-t3
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A775401
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 580 x 320 x 70
+        en: 580 x 320 x 70
+        fr: 580 x 320 x 70
+  - codi: 4A310301
+    ordre: 20
+    valors:
+      mesures_text:
+        es: 630 x 365 x 70
+        en: 630 x 365 x 70
+        fr: 630 x 365 x 70
+  - codi: 4A916601
+    ordre: 30
+    valors:
+      mesures_text:
+        es: 970 x 365 x 70
+        en: 970 x 365 x 70
+        fr: 970 x 365 x 70
+  compartits: []
+- clau: ESCURRIDORES DE FREIDORA DE PASTELERÍA
+  noms:
+    es: ESCURRIDORES DE FREIDORA DE PASTELERÍA
+    en: PASTRY FRYER DRAINERS
+    fr: ÉGOUTTOIRS POUR FRITEUSE À PÂTISSERIE
+  sequence: 240
+  tipus: accessoris
+  pagina: p35
+  taula: p35-t4
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: para
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A288100
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 645 x 350
+        en: 645 x 350
+        fr: 645 x 350
+      para:
+        es: 390081GF
+        en: 390081GF
+        fr: 390081GF
+  - codi: 4A358100
+    ordre: 20
+    valors:
+      mesures_text:
+        es: 765 x 390
+        en: 765 x 390
+        fr: 765 x 390
+      para:
+        es: 394181EF
+        en: 394181EF
+        fr: 394181EF
+  - codi: 4A009100
+    ordre: 30
+    valors:
+      mesures_text:
+        es: 1125 x 390
+        en: 1125 x 390
+        fr: 1125 x 390
+      para:
+        es: 393172EF
+        en: 393172EF
+        fr: 393172EF
+  compartits: []
+- clau: CUBETAS GASTRONORM INOX 18/10 AISI 304
+  noms:
+    es: CUBETAS GASTRONORM INOX 18/10 AISI 304
+    en: GASTRONORM PANS STAINLESS STEEL 18/10 AISI 304
+    fr: RÉCIPIENTS GASTRONORM EN ACIER INOXYDABLE 18/10 AISI 304
+  sequence: 250
+  tipus: accessoris
+  pagina: p35
+  taula: p35-t5
+  blocs: 2
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: CP210401
+    ordre: 10
+    valors:
+      mesures_text:
+        es: '40'
+        en: '40'
+        fr: '40'
+  - codi: CP232001
+    ordre: 1020
+    valors:
+      mesures_text:
+        es: '200'
+        en: '200'
+        fr: '200'
+  - codi: CP211001
+    ordre: 40
+    valors:
+      mesures_text:
+        es: '100'
+        en: '100'
+        fr: '100'
+  - codi: CP121501
+    ordre: 1050
+    valors:
+      mesures_text:
+        es: '150'
+        en: '150'
+        fr: '150'
+  - codi: CP122001
+    ordre: 1060
+    valors:
+      mesures_text:
+        es: '200'
+        en: '200'
+        fr: '200'
+  - codi: CP1102X1
+    ordre: 70
+    valors:
+      mesures_text:
+        es: '20'
+        en: '20'
+        fr: '20'
+  - codi: CP1104X1
+    ordre: 80
+    valors:
+      mesures_text:
+        es: '40'
+        en: '40'
+        fr: '40'
+  - codi: CP131501
+    ordre: 1090
+    valors:
+      mesures_text:
+        es: '150'
+        en: '150'
+        fr: '150'
+  - codi: CP132001
+    ordre: 1110
+    valors:
+      mesures_text:
+        es: '200'
+        en: '200'
+        fr: '200'
+  - codi: CP1110X1
+    ordre: 120
+    valors:
+      mesures_text:
+        es: '100'
+        en: '100'
+        fr: '100'
+  - codi: CP111501
+    ordre: 130
+    valors:
+      mesures_text:
+        es: '150'
+        en: '150'
+        fr: '150'
+  - codi: CP141001
+    ordre: 1140
+    valors:
+      mesures_text:
+        es: '100'
+        en: '100'
+        fr: '100'
+  - codi: CP112001
+    ordre: 150
+    valors:
+      mesures_text:
+        es: '200'
+        en: '200'
+        fr: '200'
+  - codi: CP141501
+    ordre: 1160
+    valors:
+      mesures_text:
+        es: '150'
+        en: '150'
+        fr: '150'
+  - codi: CP230401
+    ordre: 170
+    valors:
+      mesures_text:
+        es: '40'
+        en: '40'
+        fr: '40'
+  - codi: CP161001
+    ordre: 1180
+    valors:
+      mesures_text:
+        es: '100'
+        en: '100'
+        fr: '100'
+  - codi: CP231501
+    ordre: 190
+    valors:
+      mesures_text:
+        es: '150'
+        en: '150'
+        fr: '150'
+  - codi: CP161501
+    ordre: 1200
+    valors:
+      mesures_text:
+        es: '150'
+        en: '150'
+        fr: '150'
+  compartits:
+  - codi: CP210651
+    ordre: 30
+    valors:
+      mesures_text:
+        es: '65'
+        en: '65'
+        fr: '65'
+    propietari: G04
+  - codi: CP1106X1
+    ordre: 100
+    valors:
+      mesures_text:
+        es: '65'
+        en: '65'
+        fr: '65'
+    propietari: G04
+- clau: SEPARADORES RECIPIENTES GN
+  noms:
+    es: SEPARADORES RECIPIENTES GN
+    en: GN CONTAINER SEPARATORS
+    fr: SEPARATEURS DE RECIPIENTES GN
+  sequence: 260
+  tipus: accessoris
+  pagina: p35
+  taula: p35-t6
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: gn
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: SEPAGN11
+    ordre: 10
+    valors:
+      gn:
+        es: GN 1/1
+        en: GN 1/1
+        fr: GN 1/1
+  - codi: SEPAGN13
+    ordre: 20
+    valors:
+      gn:
+        es: 1/3
+        en: 1/3
+        fr: 1/3
+  compartits: []
+- clau: REJILLAS ACERO INOX GN
+  noms:
+    es: REJILLAS ACERO INOX GN
+    en: GN STAINLESS STEEL GRIDS
+    fr: GRILLES EN ACIER INOX GN
+  sequence: 270
+  tipus: accessoris
+  pagina: p35
+  taula: p35-t6
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: gn
+    etiqueta: null
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes: []
+  compartits:
+  - codi: '31960000'
+    ordre: 10
+    valors:
+      gn:
+        es: 2/1
+        en: 2/1
+        fr: 2/1
+      mesures_text:
+        es: 650 x 530
+        en: 650 x 530
+        fr: 650 x 530
+    propietari: G04
+  - codi: '31950000'
+    ordre: 20
+    valors:
+      gn:
+        es: 1/1
+        en: 1/1
+        fr: 1/1
+      mesures_text:
+        es: 530 x 325
+        en: 530 x 325
+        fr: 530 x 325
+    propietari: G04
+- clau: KIT GUÍAS PARA 4 GN 1/1
+  noms:
+    es: KIT GUÍAS PARA 4 GN 1/1
+    en: GUIDE KIT FOR 4 GN 1/1
+    fr: KIT DE GUIDAGE POUR 4 GN 1/1
+  sequence: 280
+  tipus: accessoris
+  pagina: p35
+  taula: p35-t7
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: preu
+    etiqueta: null
+  productes: []
+  compartits:
+  - codi: 4A205997
+    ordre: 10
+    valors: {}
+    propietari: G04
+- clau: DOBLE FONDO PERFORADO BM
+  noms:
+    es: DOBLE FONDO PERFORADO BM
+    en: PERFORATED BOTTOM FOR BM
+    fr: DOUBLE FONDS PERFORÉ POUR BM
+  sequence: 290
+  tipus: accessoris
+  pagina: p35
+  taula: p35-t7
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: gn
+    etiqueta: null
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes: []
+  compartits:
+  - codi: 4A085021
+    ordre: 10
+    valors:
+      gn:
+        es: 1/1
+        en: 1/1
+        fr: 1/1
+      mesures_text:
+        es: 530 x 325
+        en: 530 x 325
+        fr: 530 x 325
+    propietari: G02
+avisos:
+- 'p05-t1: cap producte carregable; la família «HORNILLOS DE GRAN POTENCIA A GAS» no es crea'
+- 'p06-t1: cap producte carregable; la família «HORNILLOS PAELLEROS A GAS» no es crea'
+repeticions:
+  CUBETAS GASTRONORM INOX 18/10 AISI 304:
+  - codi: CP210651
+    ordre: 30
+  - codi: CP1106X1
+    ordre: 100
+  REJILLAS ACERO INOX GN:
+  - codi: '31960000'
+    ordre: 10
+  - codi: '31950000'
+    ordre: 20
+  KIT GUÍAS PARA 4 GN 1/1:
+  - codi: 4A205997
+    ordre: 10
+  DOBLE FONDO PERFORADO BM:
+  - codi: 4A085021
+    ordre: 10
+informe:
+  inexistents: []
+  descatalogats:
+  - codi: 49200M08
+    taula: p05-t1
+    pagina: p05
+    titol: HORNILLOS DE GRAN POTENCIA A GAS
+    preu_cataleg: '1.400'
+  - codi: 49200M86
+    taula: p05-t1
+    pagina: p05
+    titol: HORNILLOS DE GRAN POTENCIA A GAS
+    preu_cataleg: '1.570'
+  - codi: 49201G13
+    taula: p06-t1
+    pagina: p06
+    titol: HORNILLOS PAELLEROS A GAS
+    preu_cataleg: '1.550'
+  - codi: '49201616'
+    taula: p06-t1
+    pagina: p06
+    titol: HORNILLOS PAELLEROS A GAS
+    preu_cataleg: '1.720'
+  - codi: 49202G13
+    taula: p06-t1
+    pagina: p06
+    titol: HORNILLOS PAELLEROS A GAS
+    preu_cataleg: '2.950'
+  - codi: '49202616'
+    taula: p06-t1
+    pagina: p06
+    titol: HORNILLOS PAELLEROS A GAS
+    preu_cataleg: '3.290'
+  arxivats: []
+  ambigus: []
+  ignorats: []
+  fora_pdf: []
+  columnes_eliminades: []
+  families_buides:
+  - taula: p05-t1
+    pagina: p05
+    titol: HORNILLOS DE GRAN POTENCIA A GAS
+  - taula: p06-t1
+    pagina: p06
+    titol: HORNILLOS PAELLEROS A GAS
+  taules_dividides:
+  - 'p35-t6: el tros «(2)» (blocs que no encaixen en una sola taula) és una família a part (cap codi es perd)'
+  - 'p35-t7: el tros «(2)» (blocs que no encaixen en una sola taula) és una família a part (cap codi es perd)'

@@ -1,0 +1,6153 @@
+# Generat per scripts/genera_config.py --grup 11 (editable; es pot regenerar)
+grup:
+  numero: 11
+  codi_odoo: G11
+families:
+- clau: MESAS FRÍAS DE CONSERVACIÓN
+  noms:
+    es: MESAS FRÍAS DE CONSERVACIÓN
+    en: COLD TABLES
+    fr: TOURS RÉFRIGÉRÉES
+  sequence: 10
+  tipus: producte
+  pagina: p09
+  taula: p09-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta:
+      es: DOT
+      en: DOT
+      fr: DOT
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '72579509'
+    ordre: 10
+    valors:
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_parrilla:
+        es: 2 - 460x405
+        en: 2 - 460x405
+        fr: 2 - 460x405
+      capacitat_litres:
+        es: '250'
+        en: '250'
+        fr: '250'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '1018'
+        en: '1018'
+        fr: '1018'
+      potencia_electrica:
+        es: 0,22 KW
+        en: 0,22 KW
+        fr: 0,22 KW
+  - codi: '71979509'
+    ordre: 20
+    valors:
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      dimensions_parrilla:
+        es: 3 - 460x405
+        en: 3 - 460x405
+        fr: 3 - 460x405
+      capacitat_litres:
+        es: '390'
+        en: '390'
+        fr: '390'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '1119'
+        en: '1119'
+        fr: '1119'
+      potencia_electrica:
+        es: 0,22 KW
+        en: 0,22 KW
+        fr: 0,22 KW
+  - codi: '70289509'
+    ordre: 30
+    valors:
+      portes:
+        es: '4'
+        en: '4'
+        fr: '4'
+      dimensions_parrilla:
+        es: 4 - 460x405
+        en: 4 - 460x405
+        fr: 4 - 460x405
+      capacitat_litres:
+        es: '530'
+        en: '530'
+        fr: '530'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '1919'
+        en: '1919'
+        fr: '1919'
+      potencia_electrica:
+        es: 0,35 KW
+        en: 0,35 KW
+        fr: 0,35 KW
+  - codi: '72589509'
+    ordre: 40
+    valors:
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_parrilla:
+        es: 2 - GN 1/1
+        en: 2 - GN 1/1
+        fr: 2 - GN 1/1
+      capacitat_litres:
+        es: '290'
+        en: '290'
+        fr: '290'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '1018'
+        en: '1018'
+        fr: '1018'
+      potencia_electrica:
+        es: 0,19 KW
+        en: 0,19 KW
+        fr: 0,19 KW
+  - codi: '75789509'
+    ordre: 50
+    valors:
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      dimensions_parrilla:
+        es: 3 - GN 1/1
+        en: 3 - GN 1/1
+        fr: 3 - GN 1/1
+      capacitat_litres:
+        es: '455'
+        en: '455'
+        fr: '455'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '1119'
+        en: '1119'
+        fr: '1119'
+      potencia_electrica:
+        es: 0,19 KW
+        en: 0,19 KW
+        fr: 0,19 KW
+  - codi: '79099509'
+    ordre: 60
+    valors:
+      portes:
+        es: '4'
+        en: '4'
+        fr: '4'
+      dimensions_parrilla:
+        es: 4 - GN 1/1
+        en: 4 - GN 1/1
+        fr: 4 - GN 1/1
+      capacitat_litres:
+        es: '615'
+        en: '615'
+        fr: '615'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '1920'
+        en: '1920'
+        fr: '1920'
+      potencia_electrica:
+        es: 0,33 KW
+        en: 0,33 KW
+        fr: 0,33 KW
+  compartits: []
+- clau: MESAS FRÍAS CENTRALES DE CONSERVACIÓN
+  noms:
+    es: MESAS FRÍAS CENTRALES DE CONSERVACIÓN
+    en: CENTRAL COLD TABLES
+    fr: TOURS RÉFRIGÉRÉES CENTRALES
+  sequence: 20
+  tipus: producte
+  pagina: p10
+  taula: p10-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta:
+      es: DOT
+      en: DOT
+      fr: DOT
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 7C257950
+    ordre: 10
+    valors:
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_parrilla:
+        es: 2 - 460x405
+        en: 2 - 460x405
+        fr: 2 - 460x405
+      capacitat_litres:
+        es: '250'
+        en: '250'
+        fr: '250'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '1018'
+        en: '1018'
+        fr: '1018'
+      potencia_electrica:
+        es: 0,22 KW
+        en: 0,22 KW
+        fr: 0,22 KW
+  - codi: 7C197950
+    ordre: 20
+    valors:
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      dimensions_parrilla:
+        es: 3 - 460x405
+        en: 3 - 460x405
+        fr: 3 - 460x405
+      capacitat_litres:
+        es: '390'
+        en: '390'
+        fr: '390'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '1119'
+        en: '1119'
+        fr: '1119'
+      potencia_electrica:
+        es: 0,22 KW
+        en: 0,22 KW
+        fr: 0,22 KW
+  - codi: 7C028950
+    ordre: 30
+    valors:
+      portes:
+        es: '4'
+        en: '4'
+        fr: '4'
+      dimensions_parrilla:
+        es: 4 - 460x405
+        en: 4 - 460x405
+        fr: 4 - 460x405
+      capacitat_litres:
+        es: '530'
+        en: '530'
+        fr: '530'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '1919'
+        en: '1919'
+        fr: '1919'
+      potencia_electrica:
+        es: 0,35 KW
+        en: 0,35 KW
+        fr: 0,35 KW
+  - codi: 7C258950
+    ordre: 40
+    valors:
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_parrilla:
+        es: 2 - GN 1/1
+        en: 2 - GN 1/1
+        fr: 2 - GN 1/1
+      capacitat_litres:
+        es: '290'
+        en: '290'
+        fr: '290'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '1018'
+        en: '1018'
+        fr: '1018'
+      potencia_electrica:
+        es: 0,19 KW
+        en: 0,19 KW
+        fr: 0,19 KW
+  - codi: 7C578950
+    ordre: 50
+    valors:
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      dimensions_parrilla:
+        es: 3 - GN 1/1
+        en: 3 - GN 1/1
+        fr: 3 - GN 1/1
+      capacitat_litres:
+        es: '455'
+        en: '455'
+        fr: '455'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '1119'
+        en: '1119'
+        fr: '1119'
+      potencia_electrica:
+        es: 0,19 KW
+        en: 0,19 KW
+        fr: 0,19 KW
+  - codi: 7C909950
+    ordre: 60
+    valors:
+      portes:
+        es: '4'
+        en: '4'
+        fr: '4'
+      dimensions_parrilla:
+        es: 4 - GN 1/1
+        en: 4 - GN 1/1
+        fr: 4 - GN 1/1
+      capacitat_litres:
+        es: '615'
+        en: '615'
+        fr: '615'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '1920'
+        en: '1920'
+        fr: '1920'
+      potencia_electrica:
+        es: 0,33 KW
+        en: 0,33 KW
+        fr: 0,33 KW
+  compartits: []
+- clau: MESAS FRÍAS DE CONGELACIÓN
+  noms:
+    es: MESAS FRÍAS DE CONGELACIÓN
+    en: FREEZING TABLES
+    fr: TABLES DE CONGELATION
+  sequence: 30
+  tipus: producte
+  pagina: p11
+  taula: p11-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta:
+      es: DOT
+      en: DOT
+      fr: DOT
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '79389509'
+    ordre: 10
+    valors:
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_parrilla:
+        es: 2 - 460x405
+        en: 2 - 460x405
+        fr: 2 - 460x405
+      capacitat_litres:
+        es: '250'
+        en: '250'
+        fr: '250'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '2212'
+        en: '2212'
+        fr: '2212'
+      potencia_electrica:
+        es: 0,67 KW
+        en: 0,67 KW
+        fr: 0,67 KW
+  - codi: '70489509'
+    ordre: 20
+    valors:
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      dimensions_parrilla:
+        es: 3 - 460x405
+        en: 3 - 460x405
+        fr: 3 - 460x405
+      capacitat_litres:
+        es: '390'
+        en: '390'
+        fr: '390'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '2467'
+        en: '2467'
+        fr: '2467'
+      potencia_electrica:
+        es: 0,68 KW
+        en: 0,68 KW
+        fr: 0,68 KW
+  - codi: '75299509'
+    ordre: 30
+    valors:
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_parrilla:
+        es: 2 - GN 1/1
+        en: 2 - GN 1/1
+        fr: 2 - GN 1/1
+      capacitat_litres:
+        es: '290'
+        en: '290'
+        fr: '290'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '2212'
+        en: '2212'
+        fr: '2212'
+      potencia_electrica:
+        es: 0,67 KW
+        en: 0,67 KW
+        fr: 0,67 KW
+  - codi: '71399509'
+    ordre: 40
+    valors:
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      dimensions_parrilla:
+        es: 3 - GN 1/1
+        en: 3 - GN 1/1
+        fr: 3 - GN 1/1
+      capacitat_litres:
+        es: '455'
+        en: '455'
+        fr: '455'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '2467'
+        en: '2467'
+        fr: '2467'
+      potencia_electrica:
+        es: 0,68 KW
+        en: 0,68 KW
+        fr: 0,68 KW
+  compartits: []
+- clau: MESAS FRÍAS DE CONSERVACIÓN CON LAVAMANOS
+  noms:
+    es: MESAS FRÍAS DE CONSERVACIÓN CON LAVAMANOS
+    en: REFRIGERATED TABLES WITH HAND WASH BASIN
+    fr: TABLES RÉFRIGÉRÉES AVEC LAVE-MAINS
+  sequence: 40
+  tipus: producte
+  pagina: p15
+  taula: p15-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta:
+      es: DOT
+      en: DOT
+      fr: DOT
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '74579509'
+    ordre: 10
+    valors:
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_parrilla:
+        es: 2 - 460x405
+        en: 2 - 460x405
+        fr: 2 - 460x405
+      capacitat_litres:
+        es: '250'
+        en: '250'
+        fr: '250'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '1018'
+        en: '1018'
+        fr: '1018'
+      potencia_electrica:
+        es: 0,22 KW
+        en: 0,22 KW
+        fr: 0,22 KW
+  - codi: '73089509'
+    ordre: 20
+    valors:
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      dimensions_parrilla:
+        es: 3 - 460x405
+        en: 3 - 460x405
+        fr: 3 - 460x405
+      capacitat_litres:
+        es: '390'
+        en: '390'
+        fr: '390'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '1119'
+        en: '1119'
+        fr: '1119'
+      potencia_electrica:
+        es: 0,22 KW
+        en: 0,22 KW
+        fr: 0,22 KW
+  - codi: '70389509'
+    ordre: 30
+    valors:
+      portes:
+        es: '4'
+        en: '4'
+        fr: '4'
+      dimensions_parrilla:
+        es: 4 - 460x405
+        en: 4 - 460x405
+        fr: 4 - 460x405
+      capacitat_litres:
+        es: '530'
+        en: '530'
+        fr: '530'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '1919'
+        en: '1919'
+        fr: '1919'
+      potencia_electrica:
+        es: 0,35 KW
+        en: 0,35 KW
+        fr: 0,35 KW
+  - codi: '79589509'
+    ordre: 40
+    valors:
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_parrilla:
+        es: 2 - GN 1/1
+        en: 2 - GN 1/1
+        fr: 2 - GN 1/1
+      capacitat_litres:
+        es: '290'
+        en: '290'
+        fr: '290'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '1018'
+        en: '1018'
+        fr: '1018'
+      potencia_electrica:
+        es: 0,19 KW
+        en: 0,19 KW
+        fr: 0,19 KW
+  - codi: '72989509'
+    ordre: 50
+    valors:
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      dimensions_parrilla:
+        es: 3 - GN 1/1
+        en: 3 - GN 1/1
+        fr: 3 - GN 1/1
+      capacitat_litres:
+        es: '455'
+        en: '455'
+        fr: '455'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '1119'
+        en: '1119'
+        fr: '1119'
+      potencia_electrica:
+        es: 0,19 KW
+        en: 0,19 KW
+        fr: 0,19 KW
+  - codi: '70199509'
+    ordre: 60
+    valors:
+      portes:
+        es: '4'
+        en: '4'
+        fr: '4'
+      dimensions_parrilla:
+        es: 4 - GN 1/1
+        en: 4 - GN 1/1
+        fr: 4 - GN 1/1
+      capacitat_litres:
+        es: '615'
+        en: '615'
+        fr: '615'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '1920'
+        en: '1920'
+        fr: '1920'
+      potencia_electrica:
+        es: 0,33 KW
+        en: 0,33 KW
+        fr: 0,33 KW
+  compartits: []
+- clau: MESAS FRÍAS CON PUERTAS DE CRISTAL
+  noms:
+    es: MESAS FRÍAS CON PUERTAS DE CRISTAL
+    en: COLD TABLES WITH GLASS DOORS
+    fr: TOURS RÉFRIGÉRÉES À PORTES VITRÉES
+  sequence: 50
+  tipus: producte
+  pagina: p18
+  taula: p18-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta:
+      es: DOT
+      en: DOT
+      fr: DOT
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '75579509'
+    ordre: 10
+    valors:
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_parrilla:
+        es: 2 - 460x405
+        en: 2 - 460x405
+        fr: 2 - 460x405
+      capacitat_litres:
+        es: '250'
+        en: '250'
+        fr: '250'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '1018'
+        en: '1018'
+        fr: '1018'
+      potencia_electrica:
+        es: 0,22 KW
+        en: 0,22 KW
+        fr: 0,22 KW
+  - codi: '77089509'
+    ordre: 20
+    valors:
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      dimensions_parrilla:
+        es: 3 - 460x405
+        en: 3 - 460x405
+        fr: 3 - 460x405
+      capacitat_litres:
+        es: '390'
+        en: '390'
+        fr: '390'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '1119'
+        en: '1119'
+        fr: '1119'
+      potencia_electrica:
+        es: 0,22 KW
+        en: 0,22 KW
+        fr: 0,22 KW
+  - codi: '73289509'
+    ordre: 30
+    valors:
+      portes:
+        es: '4'
+        en: '4'
+        fr: '4'
+      dimensions_parrilla:
+        es: 4 - 460x405
+        en: 4 - 460x405
+        fr: 4 - 460x405
+      capacitat_litres:
+        es: '530'
+        en: '530'
+        fr: '530'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '1919'
+        en: '1919'
+        fr: '1919'
+      potencia_electrica:
+        es: 0,35 KW
+        en: 0,35 KW
+        fr: 0,35 KW
+  - codi: '78589509'
+    ordre: 40
+    valors:
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_parrilla:
+        es: 2 - GN 1/1
+        en: 2 - GN 1/1
+        fr: 2 - GN 1/1
+      capacitat_litres:
+        es: '290'
+        en: '290'
+        fr: '290'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '1018'
+        en: '1018'
+        fr: '1018'
+      potencia_electrica:
+        es: 0,22 KW
+        en: 0,22 KW
+        fr: 0,22 KW
+  - codi: '73548609'
+    ordre: 50
+    valors:
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      dimensions_parrilla:
+        es: 3 - GN 1/1
+        en: 3 - GN 1/1
+        fr: 3 - GN 1/1
+      capacitat_litres:
+        es: '455'
+        en: '455'
+        fr: '455'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '1119'
+        en: '1119'
+        fr: '1119'
+      potencia_electrica:
+        es: 0,22 KW
+        en: 0,22 KW
+        fr: 0,22 KW
+  - codi: '76199509'
+    ordre: 60
+    valors:
+      portes:
+        es: '4'
+        en: '4'
+        fr: '4'
+      dimensions_parrilla:
+        es: 4 - GN 1/1
+        en: 4 - GN 1/1
+        fr: 4 - GN 1/1
+      capacitat_litres:
+        es: '615'
+        en: '615'
+        fr: '615'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '1920'
+        en: '1920'
+        fr: '1920'
+      potencia_electrica:
+        es: 0,35 KW
+        en: 0,35 KW
+        fr: 0,35 KW
+  compartits: []
+- clau: MESAS FRÍAS DE CONSERVACIÓN Y DE CONGELACIÓN PARA MOTOR A DISTANCIA
+  noms:
+    es: MESAS FRÍAS DE CONSERVACIÓN Y DE CONGELACIÓN PARA MOTOR A DISTANCIA
+    en: REMOTE REFRIGERATED AND FREEZER COUNTERS
+    fr: TABLES RÉFRIGÉRÉES ET DE CONGÉLATION À GROUPE FRIGORIFIQUE À DISTANCE
+  sequence: 60
+  tipus: producte
+  pagina: p21
+  taula: p21-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta:
+      es: DOT
+      en: DOT
+      fr: DOT
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: temperatura
+    etiqueta: null
+  - codi: uc
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '76389509'
+    ordre: 10
+    valors:
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_parrilla:
+        es: 2 - 460x405
+        en: 2 - 460x405
+        fr: 2 - 460x405
+      capacitat_litres:
+        es: '250'
+        en: '250'
+        fr: '250'
+      uc:
+        es: 1/4 HP
+        en: 1/4 HP
+        fr: 1/4 HP
+  - codi: '72216709'
+    ordre: 20
+    valors:
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      dimensions_parrilla:
+        es: 3 - 460x405
+        en: 3 - 460x405
+        fr: 3 - 460x405
+      capacitat_litres:
+        es: '390'
+        en: '390'
+        fr: '390'
+      uc:
+        es: 1/3 HP
+        en: 1/3 HP
+        fr: 1/3 HP
+  - codi: '76216709'
+    ordre: 30
+    valors:
+      portes:
+        es: '4'
+        en: '4'
+        fr: '4'
+      dimensions_parrilla:
+        es: 4 - 460x405
+        en: 4 - 460x405
+        fr: 4 - 460x405
+      capacitat_litres:
+        es: '530'
+        en: '530'
+        fr: '530'
+      uc:
+        es: 3/8 HP
+        en: 3/8 HP
+        fr: 3/8 HP
+  - codi: '76689509'
+    ordre: 40
+    valors:
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_parrilla:
+        es: 2 - GN 1/1
+        en: 2 - GN 1/1
+        fr: 2 - GN 1/1
+      capacitat_litres:
+        es: '290'
+        en: '290'
+        fr: '290'
+      uc:
+        es: 1/4 HP
+        en: 1/4 HP
+        fr: 1/4 HP
+  - codi: '79698609'
+    ordre: 50
+    valors:
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      dimensions_parrilla:
+        es: 3 - GN 1/1
+        en: 3 - GN 1/1
+        fr: 3 - GN 1/1
+      capacitat_litres:
+        es: '455'
+        en: '455'
+        fr: '455'
+      uc:
+        es: 1/3 HP
+        en: 1/3 HP
+        fr: 1/3 HP
+  - codi: '70998609'
+    ordre: 60
+    valors:
+      portes:
+        es: '4'
+        en: '4'
+        fr: '4'
+      dimensions_parrilla:
+        es: 4 - GN 1/1
+        en: 4 - GN 1/1
+        fr: 4 - GN 1/1
+      capacitat_litres:
+        es: '615'
+        en: '615'
+        fr: '615'
+      uc:
+        es: 3/8 HP
+        en: 3/8 HP
+        fr: 3/8 HP
+  compartits: []
+- clau: MESAS FRÍAS DE CONSERVACIÓN CON CAJONES Y PUERTAS
+  noms:
+    es: MESAS FRÍAS DE CONSERVACIÓN CON CAJONES Y PUERTAS
+    en: REFRIGERATED COUNTERS WITH DRAWERS AND DOORS
+    fr: TABLES RÉFRIGÉRÉES DE CONSERVATION AVEC TIROIRS ET PORTES
+  sequence: 70
+  tipus: producte
+  pagina: p30
+  taula: p30-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta:
+      es: DOT
+      en: DOT
+      fr: DOT
+  - codi: calaixos
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '71679509'
+    ordre: 10
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_parrilla:
+        es: 1 - 460x405
+        en: 1 - 460x405
+        fr: 1 - 460x405
+      calaixos:
+        es: '2'
+        en: '2'
+        fr: '2'
+      capacitat_litres:
+        es: '250'
+        en: '250'
+        fr: '250'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '1018'
+        en: '1018'
+        fr: '1018'
+      potencia_electrica:
+        es: 0,22 KW
+        en: 0,22 KW
+        fr: 0,22 KW
+  - codi: '70679509'
+    ordre: 20
+    valors:
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dimensions_parrilla:
+        es: '-'
+        en: '-'
+        fr: '-'
+      calaixos:
+        es: '4'
+        en: '4'
+        fr: '4'
+      capacitat_litres:
+        es: '250'
+        en: '250'
+        fr: '250'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '1018'
+        en: '1018'
+        fr: '1018'
+      potencia_electrica:
+        es: 0,22 KW
+        en: 0,22 KW
+        fr: 0,22 KW
+  - codi: '72189509'
+    ordre: 30
+    valors:
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_parrilla:
+        es: 2 - 460x405
+        en: 2 - 460x405
+        fr: 2 - 460x405
+      calaixos:
+        es: '2'
+        en: '2'
+        fr: '2'
+      capacitat_litres:
+        es: '390'
+        en: '390'
+        fr: '390'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '1119'
+        en: '1119'
+        fr: '1119'
+      potencia_electrica:
+        es: 0,22 KW
+        en: 0,22 KW
+        fr: 0,22 KW
+  - codi: '71189509'
+    ordre: 40
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_parrilla:
+        es: 1 - 460x405
+        en: 1 - 460x405
+        fr: 1 - 460x405
+      calaixos:
+        es: '4'
+        en: '4'
+        fr: '4'
+      capacitat_litres:
+        es: '390'
+        en: '390'
+        fr: '390'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '1119'
+        en: '1119'
+        fr: '1119'
+      potencia_electrica:
+        es: 0,22 KW
+        en: 0,22 KW
+        fr: 0,22 KW
+  - codi: '70189509'
+    ordre: 50
+    valors:
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dimensions_parrilla:
+        es: '-'
+        en: '-'
+        fr: '-'
+      calaixos:
+        es: '6'
+        en: '6'
+        fr: '6'
+      capacitat_litres:
+        es: '390'
+        en: '390'
+        fr: '390'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '1119'
+        en: '1119'
+        fr: '1119'
+      potencia_electrica:
+        es: 0,22 KW
+        en: 0,22 KW
+        fr: 0,22 KW
+  - codi: '75689509'
+    ordre: 60
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_parrilla:
+        es: 1 - GN 1/1
+        en: 1 - GN 1/1
+        fr: 1 - GN 1/1
+      calaixos:
+        es: '2'
+        en: '2'
+        fr: '2'
+      capacitat_litres:
+        es: '290'
+        en: '290'
+        fr: '290'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '1018'
+        en: '1018'
+        fr: '1018'
+      potencia_electrica:
+        es: 0,22 KW
+        en: 0,22 KW
+        fr: 0,22 KW
+  - codi: '74689509'
+    ordre: 70
+    valors:
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dimensions_parrilla:
+        es: '-'
+        en: '-'
+        fr: '-'
+      calaixos:
+        es: '4'
+        en: '4'
+        fr: '4'
+      capacitat_litres:
+        es: '290'
+        en: '290'
+        fr: '290'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '1018'
+        en: '1018'
+        fr: '1018'
+      potencia_electrica:
+        es: 0,22 KW
+        en: 0,22 KW
+        fr: 0,22 KW
+  - codi: '77099509'
+    ordre: 80
+    valors:
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_parrilla:
+        es: 2 - GN 1/1
+        en: 2 - GN 1/1
+        fr: 2 - GN 1/1
+      calaixos:
+        es: '2'
+        en: '2'
+        fr: '2'
+      capacitat_litres:
+        es: '455'
+        en: '455'
+        fr: '455'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '1178'
+        en: '1178'
+        fr: '1178'
+      potencia_electrica:
+        es: 0,22 KW
+        en: 0,22 KW
+        fr: 0,22 KW
+  - codi: '76099509'
+    ordre: 90
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_parrilla:
+        es: 1 - GN 1/1
+        en: 1 - GN 1/1
+        fr: 1 - GN 1/1
+      calaixos:
+        es: '4'
+        en: '4'
+        fr: '4'
+      capacitat_litres:
+        es: '455'
+        en: '455'
+        fr: '455'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '1178'
+        en: '1178'
+        fr: '1178'
+      potencia_electrica:
+        es: 0,22 KW
+        en: 0,22 KW
+        fr: 0,22 KW
+  - codi: '78099509'
+    ordre: 100
+    valors:
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dimensions_parrilla:
+        es: '-'
+        en: '-'
+        fr: '-'
+      calaixos:
+        es: '6'
+        en: '6'
+        fr: '6'
+      capacitat_litres:
+        es: '455'
+        en: '455'
+        fr: '455'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '1178'
+        en: '1178'
+        fr: '1178'
+      potencia_electrica:
+        es: 0,22 KW
+        en: 0,22 KW
+        fr: 0,22 KW
+  compartits: []
+- clau: MESAS FRÍAS DE CONSERVACIÓN CON CAJONES Y PUERTAS#2
+  noms:
+    es: MESAS FRÍAS DE CONSERVACIÓN CON CAJONES Y PUERTAS
+    en: REFRIGERATED COUNTERS WITH DRAWERS AND DOORS
+    fr: TABLES RÉFRIGÉRÉES DE CONSERVATION AVEC TIROIRS ET PORTES
+  sequence: 80
+  tipus: producte
+  pagina: p31
+  taula: p31-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta:
+      es: DOT
+      en: DOT
+      fr: DOT
+  - codi: calaixos
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '73770609'
+    ordre: 10
+    valors:
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      dimensions_parrilla:
+        es: 3 - 460x405
+        en: 3 - 460x405
+        fr: 3 - 460x405
+      calaixos:
+        es: '2'
+        en: '2'
+        fr: '2'
+      capacitat_litres:
+        es: '530'
+        en: '530'
+        fr: '530'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '1920'
+        en: '1920'
+        fr: '1920'
+      potencia_electrica:
+        es: 0,35 KW
+        en: 0,35 KW
+        fr: 0,35 KW
+  - codi: '78289509'
+    ordre: 20
+    valors:
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_parrilla:
+        es: 2 - 460x405
+        en: 2 - 460x405
+        fr: 2 - 460x405
+      calaixos:
+        es: '4'
+        en: '4'
+        fr: '4'
+      capacitat_litres:
+        es: '530'
+        en: '530'
+        fr: '530'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '1920'
+        en: '1920'
+        fr: '1920'
+      potencia_electrica:
+        es: 0,35 KW
+        en: 0,35 KW
+        fr: 0,35 KW
+  - codi: '77289509'
+    ordre: 30
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_parrilla:
+        es: 1 - 460x405
+        en: 1 - 460x405
+        fr: 1 - 460x405
+      calaixos:
+        es: '6'
+        en: '6'
+        fr: '6'
+      capacitat_litres:
+        es: '530'
+        en: '530'
+        fr: '530'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '1920'
+        en: '1920'
+        fr: '1920'
+      potencia_electrica:
+        es: 0,35 KW
+        en: 0,35 KW
+        fr: 0,35 KW
+  - codi: '79289509'
+    ordre: 40
+    valors:
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dimensions_parrilla:
+        es: '-'
+        en: '-'
+        fr: '-'
+      calaixos:
+        es: '8'
+        en: '8'
+        fr: '8'
+      capacitat_litres:
+        es: '530'
+        en: '530'
+        fr: '530'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '1920'
+        en: '1920'
+        fr: '1920'
+      potencia_electrica:
+        es: 0,35 KW
+        en: 0,35 KW
+        fr: 0,35 KW
+  - codi: '71299509'
+    ordre: 50
+    valors:
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      dimensions_parrilla:
+        es: 3 - GN 1/1
+        en: 3 - GN 1/1
+        fr: 3 - GN 1/1
+      calaixos:
+        es: '2'
+        en: '2'
+        fr: '2'
+      capacitat_litres:
+        es: '615'
+        en: '615'
+        fr: '615'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '1920'
+        en: '1920'
+        fr: '1920'
+      potencia_electrica:
+        es: 0,35 KW
+        en: 0,35 KW
+        fr: 0,35 KW
+  - codi: '74299509'
+    ordre: 60
+    valors:
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_parrilla:
+        es: 2 - GN 1/1
+        en: 2 - GN 1/1
+        fr: 2 - GN 1/1
+      calaixos:
+        es: '4'
+        en: '4'
+        fr: '4'
+      capacitat_litres:
+        es: '615'
+        en: '615'
+        fr: '615'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '1920'
+        en: '1920'
+        fr: '1920'
+      potencia_electrica:
+        es: 0,35 KW
+        en: 0,35 KW
+        fr: 0,35 KW
+  - codi: '72299509'
+    ordre: 70
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_parrilla:
+        es: 1 - GN 1/1
+        en: 1 - GN 1/1
+        fr: 1 - GN 1/1
+      calaixos:
+        es: '6'
+        en: '6'
+        fr: '6'
+      capacitat_litres:
+        es: '615'
+        en: '615'
+        fr: '615'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '1920'
+        en: '1920'
+        fr: '1920'
+      potencia_electrica:
+        es: 0,35 KW
+        en: 0,35 KW
+        fr: 0,35 KW
+  - codi: '73299509'
+    ordre: 80
+    valors:
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dimensions_parrilla:
+        es: '-'
+        en: '-'
+        fr: '-'
+      calaixos:
+        es: '8'
+        en: '8'
+        fr: '8'
+      capacitat_litres:
+        es: '615'
+        en: '615'
+        fr: '615'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '1920'
+        en: '1920'
+        fr: '1920'
+      potencia_electrica:
+        es: 0,35 KW
+        en: 0,35 KW
+        fr: 0,35 KW
+  compartits: []
+- clau: RESERVAS FRÍAS DE CONSERVACIÓN CON CAJONES
+  noms:
+    es: RESERVAS FRÍAS DE CONSERVACIÓN CON CAJONES
+    en: REFRIGERATED UNDERCOUNTERS WITH DRAWERS
+    fr: MEUBLES BAS RÉFRIGÉRÉS À TIROIRS
+  sequence: 90
+  tipus: producte
+  pagina: p36
+  taula: p36-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: calaixos_2
+    etiqueta: null
+  - codi: calaixos
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '74489509'
+    ordre: 10
+    valors:
+      calaixos_2:
+        es: '2'
+        en: '2'
+        fr: '2'
+      calaixos:
+        es: '-'
+        en: '-'
+        fr: '-'
+      capacitat_litres:
+        es: '105'
+        en: '105'
+        fr: '105'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '1194'
+        en: '1194'
+        fr: '1194'
+      potencia_electrica:
+        es: 0,22 KW
+        en: 0,22 KW
+        fr: 0,22 KW
+  - codi: '75489509'
+    ordre: 20
+    valors:
+      calaixos_2:
+        es: '1'
+        en: '1'
+        fr: '1'
+      calaixos:
+        es: '1'
+        en: '1'
+        fr: '1'
+      capacitat_litres:
+        es: '105'
+        en: '105'
+        fr: '105'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '1194'
+        en: '1194'
+        fr: '1194'
+      potencia_electrica:
+        es: 0,22 KW
+        en: 0,22 KW
+        fr: 0,22 KW
+  - codi: '76489509'
+    ordre: 30
+    valors:
+      calaixos_2:
+        es: '3'
+        en: '3'
+        fr: '3'
+      calaixos:
+        es: '-'
+        en: '-'
+        fr: '-'
+      capacitat_litres:
+        es: '170'
+        en: '170'
+        fr: '170'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '1194'
+        en: '1194'
+        fr: '1194'
+      potencia_electrica:
+        es: 0,22 KW
+        en: 0,22 KW
+        fr: 0,22 KW
+  - codi: '74770609'
+    ordre: 40
+    valors:
+      calaixos_2:
+        es: '1'
+        en: '1'
+        fr: '1'
+      calaixos:
+        es: '2'
+        en: '2'
+        fr: '2'
+      capacitat_litres:
+        es: '170'
+        en: '170'
+        fr: '170'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '1194'
+        en: '1194'
+        fr: '1194'
+      potencia_electrica:
+        es: 0,22 KW
+        en: 0,22 KW
+        fr: 0,22 KW
+  compartits: []
+- clau: RESERVAS FRÍAS DE CONSERVACIÓN CON CAJONES#2
+  noms:
+    es: RESERVAS FRÍAS DE CONSERVACIÓN CON CAJONES
+    en: REFRIGERATED UNDERCOUNTERS WITH DRAWERS
+    fr: MEUBLES BAS RÉFRIGÉRÉS À TIROIRS
+  sequence: 100
+  tipus: producte
+  pagina: p37
+  taula: p37-t4
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: calaixos_2
+    etiqueta: null
+  - codi: calaixos
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '77489509'
+    ordre: 10
+    valors:
+      calaixos_2:
+        es: '4'
+        en: '4'
+        fr: '4'
+      calaixos:
+        es: '-'
+        en: '-'
+        fr: '-'
+      capacitat_litres:
+        es: '230'
+        en: '230'
+        fr: '230'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '1919'
+        en: '1919'
+        fr: '1919'
+      potencia_electrica:
+        es: 0,35 KW
+        en: 0,35 KW
+        fr: 0,35 KW
+  - codi: '78489509'
+    ordre: 20
+    valors:
+      calaixos_2:
+        es: '1'
+        en: '1'
+        fr: '1'
+      calaixos:
+        es: '3'
+        en: '3'
+        fr: '3'
+      capacitat_litres:
+        es: '230'
+        en: '230'
+        fr: '230'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '1919'
+        en: '1919'
+        fr: '1919'
+      potencia_electrica:
+        es: 0,35 KW
+        en: 0,35 KW
+        fr: 0,35 KW
+  compartits: []
+- clau: CONTRA MOSTRADORES FRÍOS DE CONSERVACIÓN
+  noms:
+    es: CONTRA MOSTRADORES FRÍOS DE CONSERVACIÓN
+    en: REFRIGERATED BACK BAR COUNTERS
+    fr: ARRIÈRE-COMPTOIRS RÉFRIGÉRÉS
+  sequence: 110
+  tipus: producte
+  pagina: p40
+  taula: p40-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta:
+      es: DOT
+      en: DOT
+      fr: DOT
+  - codi: calaixos
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '71579509'
+    ordre: 10
+    valors:
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_parrilla:
+        es: 4 - 460x405
+        en: 4 - 460x405
+        fr: 4 - 460x405
+      calaixos:
+        es: '1'
+        en: '1'
+        fr: '1'
+      capacitat_litres:
+        es: '335'
+        en: '335'
+        fr: '335'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '1194'
+        en: '1194'
+        fr: '1194'
+      potencia_electrica:
+        es: 0,22 KW
+        en: 0,22 KW
+        fr: 0,22 KW
+  - codi: '76979509'
+    ordre: 20
+    valors:
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      dimensions_parrilla:
+        es: 6 - 460x405
+        en: 6 - 460x405
+        fr: 6 - 460x405
+      calaixos:
+        es: '1'
+        en: '1'
+        fr: '1'
+      capacitat_litres:
+        es: '520'
+        en: '520'
+        fr: '520'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '1119'
+        en: '1119'
+        fr: '1119'
+      potencia_electrica:
+        es: 0,22 KW
+        en: 0,22 KW
+        fr: 0,22 KW
+  - codi: '73189509'
+    ordre: 30
+    valors:
+      portes:
+        es: '4'
+        en: '4'
+        fr: '4'
+      dimensions_parrilla:
+        es: 8 - 460x405
+        en: 8 - 460x405
+        fr: 8 - 460x405
+      calaixos:
+        es: '1'
+        en: '1'
+        fr: '1'
+      capacitat_litres:
+        es: '700'
+        en: '700'
+        fr: '700'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '1920'
+        en: '1920'
+        fr: '1920'
+      potencia_electrica:
+        es: 0,35 KW
+        en: 0,35 KW
+        fr: 0,35 KW
+  compartits: []
+- clau: CONTRA MOSTRADORES FRÍOS DE CONSERVACIÓN CON PUERTAS DE CRISTAL
+  noms:
+    es: CONTRA MOSTRADORES FRÍOS DE CONSERVACIÓN CON PUERTAS DE CRISTAL
+    en: REFRIGERATED BACK BAR COUNTERS WITH GLASS DOORS
+    fr: ARRIÈRE-COMPTOIRS RÉFRIGÉRÉS AVEC PORTES VITRÉES
+  sequence: 120
+  tipus: producte
+  pagina: p43
+  taula: p43-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta:
+      es: DOT
+      en: DOT
+      fr: DOT
+  - codi: calaixos
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '76969509'
+    ordre: 10
+    valors:
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_parrilla:
+        es: 4 - 460x405
+        en: 4 - 460x405
+        fr: 4 - 460x405
+      calaixos:
+        es: '1'
+        en: '1'
+        fr: '1'
+      capacitat_litres:
+        es: '335'
+        en: '335'
+        fr: '335'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '1194'
+        en: '1194'
+        fr: '1194'
+      potencia_electrica:
+        es: 0,22 KW
+        en: 0,22 KW
+        fr: 0,22 KW
+  - codi: '70879509'
+    ordre: 20
+    valors:
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      dimensions_parrilla:
+        es: 6 - 460x405
+        en: 6 - 460x405
+        fr: 6 - 460x405
+      calaixos:
+        es: '1'
+        en: '1'
+        fr: '1'
+      capacitat_litres:
+        es: '520'
+        en: '520'
+        fr: '520'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '1119'
+        en: '1119'
+        fr: '1119'
+      potencia_electrica:
+        es: 0,22 KW
+        en: 0,22 KW
+        fr: 0,22 KW
+  - codi: '75189509'
+    ordre: 30
+    valors:
+      portes:
+        es: '4'
+        en: '4'
+        fr: '4'
+      dimensions_parrilla:
+        es: 8 - 460x405
+        en: 8 - 460x405
+        fr: 8 - 460x405
+      calaixos:
+        es: '1'
+        en: '1'
+        fr: '1'
+      capacitat_litres:
+        es: '700'
+        en: '700'
+        fr: '700'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '1920'
+        en: '1920'
+        fr: '1920'
+      potencia_electrica:
+        es: 0,35 KW
+        en: 0,35 KW
+        fr: 0,35 KW
+  compartits: []
+- clau: BOTELLEROS FRÍOS CON 2 PUERTAS
+  noms:
+    es: BOTELLEROS FRÍOS CON 2 PUERTAS
+    en: 2-DOOR BOTTLE COOLERS
+    fr: RAFRAÎCHISSEUR À BOUTEILLES À 2 PORTES
+  sequence: 130
+  tipus: producte
+  pagina: p45
+  taula: p45-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta:
+      es: EXT./INT.
+      en: EXT./INT.
+      fr: EXT./INT.
+  - codi: portes_corredisses
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '74699209'
+    ordre: 10
+    valors:
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      capacitat_litres:
+        es: '200'
+        en: '200'
+        fr: '200'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '387'
+        en: '387'
+        fr: '387'
+      potencia_electrica:
+        es: 0,11 KW
+        en: 0,11 KW
+        fr: 0,11 KW
+  compartits: []
+- clau: BOTELLEROS FRÍOS CON 3 PUERTAS
+  noms:
+    es: BOTELLEROS FRÍOS CON 3 PUERTAS
+    en: 3-DOOR BOTTLE COOLERS
+    fr: RAFRAÎCHISSEUR À BOUTEILLES À 3 PORTES
+  sequence: 140
+  tipus: producte
+  pagina: p46
+  taula: p46-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: portes_corredisses
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '75699209'
+    ordre: 10
+    valors:
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      capacitat_litres:
+        es: '365'
+        en: '365'
+        fr: '365'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '445'
+        en: '445'
+        fr: '445'
+      potencia_electrica:
+        es: 0,18 KW
+        en: 0,18 KW
+        fr: 0,18 KW
+  compartits: []
+- clau: BOTELLEROS FRÍOS CON 4 PUERTAS
+  noms:
+    es: BOTELLEROS FRÍOS CON 4 PUERTAS
+    en: 4-DOOR BOTTLE COOLERS
+    fr: RAFRAÎCHISSEUR À BOUTEILLES À 4 PORTES
+  sequence: 150
+  tipus: producte
+  pagina: p47
+  taula: p47-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: portes_corredisses
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '76699209'
+    ordre: 10
+    valors:
+      portes:
+        es: '4'
+        en: '4'
+        fr: '4'
+      capacitat_litres:
+        es: '445'
+        en: '445'
+        fr: '445'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '1018'
+        en: '1018'
+        fr: '1018'
+      potencia_electrica:
+        es: 0,26 KW
+        en: 0,26 KW
+        fr: 0,26 KW
+  compartits: []
+- clau: BOTELLEROS FRÍOS
+  noms:
+    es: BOTELLEROS FRÍOS
+    en: REFRIGERATED BOTTLE COOLERS
+    fr: RAFRAÎCHISSEUR DE BOISSONS RÉFRIGÉRÉS
+  sequence: 160
+  tipus: producte
+  pagina: p49
+  taula: p49-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes_corredisses
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '72712509'
+    ordre: 10
+    valors:
+      portes_corredisses:
+        es: '3'
+        en: '3'
+        fr: '3'
+      capacitat_litres:
+        es: '420'
+        en: '420'
+        fr: '420'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '518'
+        en: '518'
+        fr: '518'
+      potencia_electrica:
+        es: 0,20 KW
+        en: 0,20 KW
+        fr: 0,20 KW
+  - codi: '74712509'
+    ordre: 20
+    valors:
+      portes_corredisses:
+        es: '4'
+        en: '4'
+        fr: '4'
+      capacitat_litres:
+        es: '580'
+        en: '580'
+        fr: '580'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '529'
+        en: '529'
+        fr: '529'
+      potencia_electrica:
+        es: 0,20 KW
+        en: 0,20 KW
+        fr: 0,20 KW
+  - codi: '75712509'
+    ordre: 30
+    valors:
+      portes_corredisses:
+        es: '5'
+        en: '5'
+        fr: '5'
+      capacitat_litres:
+        es: '720'
+        en: '720'
+        fr: '720'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '766'
+        en: '766'
+        fr: '766'
+      potencia_electrica:
+        es: 0,21 KW
+        en: 0,21 KW
+        fr: 0,21 KW
+  compartits: []
+- clau: FABRICADORES DE CUBITOS MACIZOS (De 25 a 50 Kgs/24h)
+  noms:
+    es: FABRICADORES DE CUBITOS MACIZOS (De 25 a 50 Kgs/24h)
+    en: SOLID ICE-CUBE MAKER (From 25 to 50 kg/24 h)
+    fr: MACHINE À GLAÇONS PLEINS (De 25 à 50 kg/24 h)
+  sequence: 170
+  tipus: producte
+  pagina: p57
+  taula: p57-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: produccio_24h
+    etiqueta: null
+  - codi: produccio_cubets
+    etiqueta: null
+  - codi: capacitat_kg
+    etiqueta: null
+  - codi: produccio_cubets_2
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 78100G08
+    ordre: 10
+    valors:
+      produccio_24h:
+        es: 25 Kgs/24h
+        en: 25 Kgs/24h
+        fr: 25 Kgs/24h
+      produccio_cubets:
+        es: '625'
+        en: '625'
+        fr: '625'
+      capacitat_kg:
+        es: '6'
+        en: '6'
+        fr: '6'
+      produccio_cubets_2:
+        es: '150'
+        en: '150'
+        fr: '150'
+      potencia_electrica:
+        es: 500 W
+        en: 500 W
+        fr: 500 W
+  - codi: 78200G08
+    ordre: 20
+    valors:
+      produccio_24h:
+        es: 37 Kgs/24h
+        en: 37 Kgs/24h
+        fr: 37 Kgs/24h
+      produccio_cubets:
+        es: '925'
+        en: '925'
+        fr: '925'
+      capacitat_kg:
+        es: '15'
+        en: '15'
+        fr: '15'
+      produccio_cubets_2:
+        es: '375'
+        en: '375'
+        fr: '375'
+      potencia_electrica:
+        es: 700 W
+        en: 700 W
+        fr: 700 W
+  compartits: []
+- clau: FABRICADORES DE CUBITOS MACIZOS (De 80 a 154 Kgs/24h)
+  noms:
+    es: FABRICADORES DE CUBITOS MACIZOS (De 80 a 154 Kgs/24h)
+    en: SOLID ICE-CUBE MAKER (From 80 to 154 kg/24 h)
+    fr: MACHINE À GLAÇONS SOLIDE (De 80 à 154 kg/24 h)
+  sequence: 180
+  tipus: producte
+  pagina: p58
+  taula: p58-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: produccio_24h
+    etiqueta: null
+  - codi: produccio_cubets
+    etiqueta: null
+  - codi: capacitat_kg
+    etiqueta: null
+  - codi: produccio_cubets_2
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 78500G13
+    ordre: 10
+    valors:
+      produccio_24h:
+        es: 80 Kgs/24h
+        en: 80 Kgs/24h
+        fr: 80 Kgs/24h
+      produccio_cubets:
+        es: '2000'
+        en: '2000'
+        fr: '2000'
+      capacitat_kg:
+        es: '40'
+        en: '40'
+        fr: '40'
+      produccio_cubets_2:
+        es: '1000'
+        en: '1000'
+        fr: '1000'
+      potencia_electrica:
+        es: 1050 W
+        en: 1050 W
+        fr: 1050 W
+  - codi: 78600G13
+    ordre: 20
+    valors:
+      produccio_24h:
+        es: 100 Kgs/24h
+        en: 100 Kgs/24h
+        fr: 100 Kgs/24h
+      produccio_cubets:
+        es: '2500'
+        en: '2500'
+        fr: '2500'
+      capacitat_kg:
+        es: '60'
+        en: '60'
+        fr: '60'
+      produccio_cubets_2:
+        es: '1500'
+        en: '1500'
+        fr: '1500'
+      potencia_electrica:
+        es: 1200 W
+        en: 1200 W
+        fr: 1200 W
+  compartits: []
+- clau: MESAS FRÍAS DE CONSERVACIÓN PARA PREPARACIÓN DE ENSALADAS (GASTRO-CHEFF)
+  noms:
+    es: MESAS FRÍAS DE CONSERVACIÓN PARA PREPARACIÓN DE ENSALADAS (GASTRO-CHEFF)
+    en: REFRIGERATED SALAD PREPARATION COUNTERS (GASTRO-CHEFF)
+    fr: TABLES RÉFRIGÉRÉES POUR LA PRÉPARATION DES SALADES (GASTRO-CHEFF)
+  sequence: 190
+  tipus: producte
+  pagina: p69
+  taula: p69-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: dot
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 701A09RC
+    ordre: 10
+    valors:
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_parrilla:
+        es: 2 - GN 1/1
+        en: 2 - GN 1/1
+        fr: 2 - GN 1/1
+      gastronorm:
+        es: 4 - GN 1/2-150 3 - GN 1/6-150
+        en: 4 - GN 1/2-150 3 - GN 1/6-150
+        fr: 4 - GN 1/2-150 3 - GN 1/6-150
+      dot:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      capacitat_litres:
+        es: '240'
+        en: '240'
+        fr: '240'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '1194'
+        en: '1194'
+        fr: '1194'
+      potencia_electrica:
+        es: 0,23 KW
+        en: 0,23 KW
+        fr: 0,23 KW
+  - codi: 702A39RC
+    ordre: 20
+    valors:
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      dimensions_parrilla:
+        es: 3 - GN 1/1
+        en: 3 - GN 1/1
+        fr: 3 - GN 1/1
+      gastronorm:
+        es: 2 - GN 1/1-150 4 - GN 1/2-150
+        en: 2 - GN 1/1-150 4 - GN 1/2-150
+        fr: 2 - GN 1/1-150 4 - GN 1/2-150
+      dot:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      capacitat_litres:
+        es: '368'
+        en: '368'
+        fr: '368'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '1194'
+        en: '1194'
+        fr: '1194'
+      potencia_electrica:
+        es: 0,23 KW
+        en: 0,23 KW
+        fr: 0,23 KW
+  compartits: []
+- clau: MESAS FRÍAS DE CONSERVACIÓN PARA PREPARACIÓN DE ENSALADAS (GASTRO-CHEFF) CON RECIPIENTES GN
+  noms:
+    es: MESAS FRÍAS DE CONSERVACIÓN PARA PREPARACIÓN DE ENSALADAS (GASTRO-CHEFF) CON RECIPIENTES GN
+    en: REFRIGERATED SALAD PREPARATION COUNTERS (GASTRO-CHEFF) WITH GN CONTAINERS
+    fr: TABLES RÉFRIGÉRÉES POUR LA PRÉPARATION DES SALADES (GASTRO-CHEFF) AVEC BACS GN
+  sequence: 200
+  tipus: producte
+  pagina: p70
+  taula: p70-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: dot
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 7C1A09RC
+    ordre: 10
+    valors:
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_parrilla:
+        es: 2 - GN 1/1
+        en: 2 - GN 1/1
+        fr: 2 - GN 1/1
+      gastronorm:
+        es: 4 - GN 1/2-150 3 - GN 1/6-150
+        en: 4 - GN 1/2-150 3 - GN 1/6-150
+        fr: 4 - GN 1/2-150 3 - GN 1/6-150
+      dot:
+        es: OK
+        en: OK
+        fr: OK
+      capacitat_litres:
+        es: '240'
+        en: '240'
+        fr: '240'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '1194'
+        en: '1194'
+        fr: '1194'
+      potencia_electrica:
+        es: 0,23 KW
+        en: 0,23 KW
+        fr: 0,23 KW
+  - codi: 7C2A39RC
+    ordre: 20
+    valors:
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      dimensions_parrilla:
+        es: 3 - GN 1/1
+        en: 3 - GN 1/1
+        fr: 3 - GN 1/1
+      gastronorm:
+        es: 2 - GN 1/1-150 4 - GN 1/2-150
+        en: 2 - GN 1/1-150 4 - GN 1/2-150
+        fr: 2 - GN 1/1-150 4 - GN 1/2-150
+      dot:
+        es: OK
+        en: OK
+        fr: OK
+      capacitat_litres:
+        es: '368'
+        en: '368'
+        fr: '368'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '1194'
+        en: '1194'
+        fr: '1194'
+      potencia_electrica:
+        es: 0,23 KW
+        en: 0,23 KW
+        fr: 0,23 KW
+  compartits: []
+- clau: MESAS FRÍAS DE CONSERVACIÓN PARA ENSALADAS CON VITRINA
+  noms:
+    es: MESAS FRÍAS DE CONSERVACIÓN PARA ENSALADAS CON VITRINA
+    en: REFRIGERATED SALAD PREPARATION COUNTERS WITH DISPLAY CASE
+    fr: TABLES RÉFRIGÉRÉES POUR LA PRÉPARATION DES SALADES AVEC VITRINE
+  sequence: 210
+  tipus: producte
+  pagina: p73
+  taula: p73-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: dot
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 77A09QRC
+    ordre: 10
+    valors:
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_parrilla:
+        es: 2 - GN 1/1
+        en: 2 - GN 1/1
+        fr: 2 - GN 1/1
+      gastronorm:
+        es: 4 - GN 1/2-150 3 - GN 1/6-150
+        en: 4 - GN 1/2-150 3 - GN 1/6-150
+        fr: 4 - GN 1/2-150 3 - GN 1/6-150
+      dot:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      capacitat_litres:
+        es: '240'
+        en: '240'
+        fr: '240'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '1194'
+        en: '1194'
+        fr: '1194'
+      potencia_electrica:
+        es: 0,23 KW
+        en: 0,23 KW
+        fr: 0,23 KW
+  - codi: 7CA09QRC
+    ordre: 20
+    valors:
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_parrilla:
+        es: 2 - GN 1/1
+        en: 2 - GN 1/1
+        fr: 2 - GN 1/1
+      gastronorm:
+        es: 4 - GN 1/2-150 3 - GN 1/6-150
+        en: 4 - GN 1/2-150 3 - GN 1/6-150
+        fr: 4 - GN 1/2-150 3 - GN 1/6-150
+      dot:
+        es: OK
+        en: OK
+        fr: OK
+      capacitat_litres:
+        es: '240'
+        en: '240'
+        fr: '240'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '1194'
+        en: '1194'
+        fr: '1194'
+      potencia_electrica:
+        es: 0,23 KW
+        en: 0,23 KW
+        fr: 0,23 KW
+  - codi: 78A39QRC
+    ordre: 30
+    valors:
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      dimensions_parrilla:
+        es: 3 - GN 1/1
+        en: 3 - GN 1/1
+        fr: 3 - GN 1/1
+      gastronorm:
+        es: 2 - GN 1/1-150 4 - GN 1/2-150
+        en: 2 - GN 1/1-150 4 - GN 1/2-150
+        fr: 2 - GN 1/1-150 4 - GN 1/2-150
+      dot:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      capacitat_litres:
+        es: '368'
+        en: '368'
+        fr: '368'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '1194'
+        en: '1194'
+        fr: '1194'
+      potencia_electrica:
+        es: 0,23 KW
+        en: 0,23 KW
+        fr: 0,23 KW
+  - codi: 7CA39QRC
+    ordre: 40
+    valors:
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      dimensions_parrilla:
+        es: 3 - GN 1/1
+        en: 3 - GN 1/1
+        fr: 3 - GN 1/1
+      gastronorm:
+        es: 2 - GN 1/1-150 4 - GN 1/2-150
+        en: 2 - GN 1/1-150 4 - GN 1/2-150
+        fr: 2 - GN 1/1-150 4 - GN 1/2-150
+      dot:
+        es: OK
+        en: OK
+        fr: OK
+      capacitat_litres:
+        es: '368'
+        en: '368'
+        fr: '368'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '1194'
+        en: '1194'
+        fr: '1194'
+      potencia_electrica:
+        es: 0,23 KW
+        en: 0,23 KW
+        fr: 0,23 KW
+  compartits: []
+- clau: MESAS FRÍAS DE PREPARACIÓN DE BOCADILLOS Y PIZZAS
+  noms:
+    es: MESAS FRÍAS DE PREPARACIÓN DE BOCADILLOS Y PIZZAS
+    en: REFRIGERATED SANDWICH AND PIZZA PREPARATION COUNTERS
+    fr: TABLES RÉFRIGÉRÉES POUR LA PRÉPARATION DE SANDWICHS ET DE PIZZAS
+  sequence: 220
+  tipus: producte
+  pagina: p76
+  taula: p76-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 72A09SRC
+    ordre: 10
+    valors:
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_parrilla:
+        es: 2 - GN 1/1
+        en: 2 - GN 1/1
+        fr: 2 - GN 1/1
+      gastronorm:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      capacitat_litres:
+        es: '254'
+        en: '254'
+        fr: '254'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '1194'
+        en: '1194'
+        fr: '1194'
+      potencia_electrica:
+        es: 0,23 KW
+        en: 0,23 KW
+        fr: 0,23 KW
+  - codi: 7CA095RC
+    ordre: 20
+    valors:
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_parrilla:
+        es: 2 - GN 1/1
+        en: 2 - GN 1/1
+        fr: 2 - GN 1/1
+      gastronorm:
+        es: 5 - GN 1/6-150
+        en: 5 - GN 1/6-150
+        fr: 5 - GN 1/6-150
+      capacitat_litres:
+        es: '254'
+        en: '254'
+        fr: '254'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '1194'
+        en: '1194'
+        fr: '1194'
+      potencia_electrica:
+        es: 0,23 KW
+        en: 0,23 KW
+        fr: 0,23 KW
+  - codi: 73A39SRC
+    ordre: 30
+    valors:
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      dimensions_parrilla:
+        es: 3 - GN 1/1
+        en: 3 - GN 1/1
+        fr: 3 - GN 1/1
+      gastronorm:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      capacitat_litres:
+        es: '392'
+        en: '392'
+        fr: '392'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '1194'
+        en: '1194'
+        fr: '1194'
+      potencia_electrica:
+        es: 0,23 KW
+        en: 0,23 KW
+        fr: 0,23 KW
+  - codi: 7CA395RC
+    ordre: 40
+    valors:
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      dimensions_parrilla:
+        es: 3 - GN 1/1
+        en: 3 - GN 1/1
+        fr: 3 - GN 1/1
+      gastronorm:
+        es: 8 - GN 1/6-150
+        en: 8 - GN 1/6-150
+        fr: 8 - GN 1/6-150
+      capacitat_litres:
+        es: '392'
+        en: '392'
+        fr: '392'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '1194'
+        en: '1194'
+        fr: '1194'
+      potencia_electrica:
+        es: 0,23 KW
+        en: 0,23 KW
+        fr: 0,23 KW
+  compartits: []
+- clau: MESAS FRÍAS DE PREPARACIÓN DE PIZZAS
+  noms:
+    es: MESAS FRÍAS DE PREPARACIÓN DE PIZZAS
+    en: REFRIGERATED PIZZA PREPARATION TABLES
+    fr: TABLES RÉFRIGÉRÉES DE PRÉPARATION DE PIZZAS
+  sequence: 230
+  tipus: producte
+  pagina: p82
+  taula: p82-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: dot
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 74A09PRC
+    ordre: 10
+    valors:
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_parrilla:
+        es: 2 - GN 1/1
+        en: 2 - GN 1/1
+        fr: 2 - GN 1/1
+      gastronorm:
+        es: 5 - GN 1/6 - 150
+        en: 5 - GN 1/6 - 150
+        fr: 5 - GN 1/6 - 150
+      dot:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      capacitat_litres:
+        es: '288'
+        en: '288'
+        fr: '288'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '1194'
+        en: '1194'
+        fr: '1194'
+      potencia_electrica:
+        es: 0,23 KW
+        en: 0,23 KW
+        fr: 0,23 KW
+  - codi: 7CA09PRC
+    ordre: 20
+    valors:
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_parrilla:
+        es: 2 - GN 1/1
+        en: 2 - GN 1/1
+        fr: 2 - GN 1/1
+      gastronorm:
+        es: 5 - GN 1/6 - 150
+        en: 5 - GN 1/6 - 150
+        fr: 5 - GN 1/6 - 150
+      dot:
+        es: OK
+        en: OK
+        fr: OK
+      capacitat_litres:
+        es: '288'
+        en: '288'
+        fr: '288'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '1194'
+        en: '1194'
+        fr: '1194'
+      potencia_electrica:
+        es: 0,23 KW
+        en: 0,23 KW
+        fr: 0,23 KW
+  - codi: 75A39PRC
+    ordre: 30
+    valors:
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      dimensions_parrilla:
+        es: 3 - GN 1/1
+        en: 3 - GN 1/1
+        fr: 3 - GN 1/1
+      gastronorm:
+        es: 8 - GN 1/6 - 150
+        en: 8 - GN 1/6 - 150
+        fr: 8 - GN 1/6 - 150
+      dot:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      capacitat_litres:
+        es: '416'
+        en: '416'
+        fr: '416'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '1194'
+        en: '1194'
+        fr: '1194'
+      potencia_electrica:
+        es: 0,23 KW
+        en: 0,23 KW
+        fr: 0,23 KW
+  - codi: 7CA39PRC
+    ordre: 40
+    valors:
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      dimensions_parrilla:
+        es: 3 - GN 1/1
+        en: 3 - GN 1/1
+        fr: 3 - GN 1/1
+      gastronorm:
+        es: 8 - GN 1/6 - 150
+        en: 8 - GN 1/6 - 150
+        fr: 8 - GN 1/6 - 150
+      dot:
+        es: OK
+        en: OK
+        fr: OK
+      capacitat_litres:
+        es: '416'
+        en: '416'
+        fr: '416'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '1194'
+        en: '1194'
+        fr: '1194'
+      potencia_electrica:
+        es: 0,23 KW
+        en: 0,23 KW
+        fr: 0,23 KW
+  compartits: []
+- clau: MESAS FRÍAS DE PREPARACIÓN DE PIZZAS#2
+  noms:
+    es: MESAS FRÍAS DE PREPARACIÓN DE PIZZAS
+    en: REFRIGERATED PIZZA PREPARATION TABLES
+    fr: TABLES RÉFRIGÉRÉES POUR LA PRÉPARATION DE PIZZAS
+  sequence: 240
+  tipus: producte
+  pagina: p85
+  taula: p85-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: dot
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 76A39MRC
+    ordre: 10
+    valors:
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      dimensions_parrilla:
+        es: 3 - GN 1/1
+        en: 3 - GN 1/1
+        fr: 3 - GN 1/1
+      gastronorm:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dot:
+        es: '-'
+        en: '-'
+        fr: '-'
+      capacitat_litres:
+        es: '368'
+        en: '368'
+        fr: '368'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '2102'
+        en: '2102'
+        fr: '2102'
+      potencia_electrica:
+        es: 0,43 KW
+        en: 0,43 KW
+        fr: 0,43 KW
+  compartits: []
+- clau: MESAS FRÍAS DE PREPARACIÓN PIZZAS CON PUERTAS GN 1/1
+  noms:
+    es: MESAS FRÍAS DE PREPARACIÓN PIZZAS CON PUERTAS GN 1/1
+    en: REFRIGERATED PIZZA PREPARATION TABLES WITH GN 1/1 DOORS
+    fr: TABLES RÉFRIGÉRÉES DE PRÉPARATION POUR PIZZAS AVEC PORTES GN 1/1
+  sequence: 250
+  tipus: producte
+  pagina: p88
+  taula: p88-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta:
+      es: DOT
+      en: DOT
+      fr: DOT
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '77220609'
+    ordre: 10
+    valors:
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_parrilla:
+        es: 2 - GN 1/1
+        en: 2 - GN 1/1
+        fr: 2 - GN 1/1
+      capacitat_litres:
+        es: '290'
+        en: '290'
+        fr: '290'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '1018'
+        en: '1018'
+        fr: '1018'
+      potencia_electrica:
+        es: 0,19 KW
+        en: 0,19 KW
+        fr: 0,19 KW
+  - codi: '78770609'
+    ordre: 20
+    valors:
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      dimensions_parrilla:
+        es: 3 - GN 1/1
+        en: 3 - GN 1/1
+        fr: 3 - GN 1/1
+      capacitat_litres:
+        es: '455'
+        en: '455'
+        fr: '455'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '1119'
+        en: '1119'
+        fr: '1119'
+      potencia_electrica:
+        es: 0,19 KW
+        en: 0,19 KW
+        fr: 0,19 KW
+  compartits: []
+- clau: MESAS FRÍAS DE PREPARACIÓN PIZZAS CON PUERTAS EN 400x600
+  noms:
+    es: MESAS FRÍAS DE PREPARACIÓN PIZZAS CON PUERTAS EN 400x600
+    en: PIZZA PREPARATION REFRIGERATED TABLES WITH 400x600 DOORS
+    fr: TABLES RÉFRIGÉRÉES POUR LA PRÉPARATION DE PIZZAS AVEC PORTES EN 400x600
+  sequence: 260
+  tipus: producte
+  pagina: p92
+  taula: p92-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: guies_inclinades
+    etiqueta:
+      es: Pares de guías
+      en: Guide pairs
+      fr: Paires de guides
+  - codi: calaixos
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 7CFN0062
+    ordre: 10
+    valors:
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      guies_inclinades:
+        es: '14'
+        en: '14'
+        fr: '14'
+      calaixos:
+        es: '-'
+        en: '-'
+        fr: '-'
+      capacitat_litres:
+        es: '390'
+        en: '390'
+        fr: '390'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '1220'
+        en: '1220'
+        fr: '1220'
+      potencia_electrica:
+        es: 0,27 KW
+        en: 0,27 KW
+        fr: 0,27 KW
+  - codi: 7CFN0063
+    ordre: 20
+    valors:
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      guies_inclinades:
+        es: '21'
+        en: '21'
+        fr: '21'
+      calaixos:
+        es: '-'
+        en: '-'
+        fr: '-'
+      capacitat_litres:
+        es: '580'
+        en: '580'
+        fr: '580'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '1330'
+        en: '1330'
+        fr: '1330'
+      potencia_electrica:
+        es: 0,27 KW
+        en: 0,27 KW
+        fr: 0,27 KW
+  - codi: 7490005D
+    ordre: 30
+    valors:
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+      guies_inclinades:
+        es: '-'
+        en: '-'
+        fr: '-'
+      calaixos:
+        es: '5'
+        en: '5'
+        fr: '5'
+      capacitat_litres:
+        es: '123'
+        en: '123'
+        fr: '123'
+      classe_energetica:
+        es: '-'
+        en: '-'
+        fr: '-'
+      kw_365:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+  compartits: []
+- clau: REFRIGERADORES DE INGREDIENTES CON VITRINA
+  noms:
+    es: REFRIGERADORES DE INGREDIENTES CON VITRINA
+    en: INGREDIENT REFRIGERATORS WITH DISPLAY CASE
+    fr: REFROIDISSEURS À INGRÉDIENTS AVEC VITRINE
+  sequence: 270
+  tipus: producte
+  pagina: p95
+  taula: p95-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: serie
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: dot
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 7514120V
+    ordre: 10
+    valors:
+      serie:
+        es: '2'
+        en: '2'
+        fr: '2'
+      gastronorm:
+        es: 5 - GN 1/4 - 150
+        en: 5 - GN 1/4 - 150
+        fr: 5 - GN 1/4 - 150
+      dot:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      potencia_electrica:
+        es: 160 W
+        en: 160 W
+        fr: 160 W
+  - codi: 751412CV
+    ordre: 20
+    valors:
+      serie:
+        es: '2'
+        en: '2'
+        fr: '2'
+      gastronorm:
+        es: 5 - GN 1/4 - 150
+        en: 5 - GN 1/4 - 150
+        fr: 5 - GN 1/4 - 150
+      dot:
+        es: OK
+        en: OK
+        fr: OK
+      potencia_electrica:
+        es: 160 W
+        en: 160 W
+        fr: 160 W
+  - codi: 7614140V
+    ordre: 30
+    valors:
+      serie:
+        es: '5'
+        en: '5'
+        fr: '5'
+      gastronorm:
+        es: 6 - GN 1/4 - 150
+        en: 6 - GN 1/4 - 150
+        fr: 6 - GN 1/4 - 150
+      dot:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      potencia_electrica:
+        es: 160 W
+        en: 160 W
+        fr: 160 W
+  - codi: 761414CV
+    ordre: 40
+    valors:
+      serie:
+        es: '5'
+        en: '5'
+        fr: '5'
+      gastronorm:
+        es: 6 - GN 1/4 - 150
+        en: 6 - GN 1/4 - 150
+        fr: 6 - GN 1/4 - 150
+      dot:
+        es: OK
+        en: OK
+        fr: OK
+      potencia_electrica:
+        es: 160 W
+        en: 160 W
+        fr: 160 W
+  - codi: 7814180V
+    ordre: 50
+    valors:
+      serie:
+        es: '5'
+        en: '5'
+        fr: '5'
+      gastronorm:
+        es: 8 - GN 1/4 - 150
+        en: 8 - GN 1/4 - 150
+        fr: 8 - GN 1/4 - 150
+      dot:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      potencia_electrica:
+        es: 160 W
+        en: 160 W
+        fr: 160 W
+  - codi: 781418CV
+    ordre: 60
+    valors:
+      serie:
+        es: '5'
+        en: '5'
+        fr: '5'
+      gastronorm:
+        es: 8 - GN 1/4 - 150
+        en: 8 - GN 1/4 - 150
+        fr: 8 - GN 1/4 - 150
+      dot:
+        es: OK
+        en: OK
+        fr: OK
+      potencia_electrica:
+        es: 160 W
+        en: 160 W
+        fr: 160 W
+  - codi: 7613150V
+    ordre: 70
+    valors:
+      serie:
+        es: '8'
+        en: '8'
+        fr: '8'
+      gastronorm:
+        es: 5 - GN 1/3 - 150 1 - GN 1/2 - 150
+        en: 5 - GN 1/3 - 150 1 - GN 1/2 - 150
+        fr: 5 - GN 1/3 - 150 1 - GN 1/2 - 150
+      dot:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      potencia_electrica:
+        es: 160 W
+        en: 160 W
+        fr: 160 W
+  - codi: 761315CV
+    ordre: 80
+    valors:
+      serie:
+        es: '8'
+        en: '8'
+        fr: '8'
+      gastronorm:
+        es: 5 - GN 1/3 - 150 1 - GN 1/2 - 150
+        en: 5 - GN 1/3 - 150 1 - GN 1/2 - 150
+        fr: 5 - GN 1/3 - 150 1 - GN 1/2 - 150
+      dot:
+        es: OK
+        en: OK
+        fr: OK
+      potencia_electrica:
+        es: 160 W
+        en: 160 W
+        fr: 160 W
+  - codi: 7913200V
+    ordre: 90
+    valors:
+      serie:
+        es: '8'
+        en: '8'
+        fr: '8'
+      gastronorm:
+        es: 9 - GN 1/3 - 150
+        en: 9 - GN 1/3 - 150
+        fr: 9 - GN 1/3 - 150
+      dot:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      potencia_electrica:
+        es: 160 W
+        en: 160 W
+        fr: 160 W
+  - codi: 791320CV
+    ordre: 100
+    valors:
+      serie:
+        es: '8'
+        en: '8'
+        fr: '8'
+      gastronorm:
+        es: 9 - GN 1/3 - 150
+        en: 9 - GN 1/3 - 150
+        fr: 9 - GN 1/3 - 150
+      dot:
+        es: OK
+        en: OK
+        fr: OK
+      potencia_electrica:
+        es: 160 W
+        en: 160 W
+        fr: 160 W
+  compartits: []
+- clau: REFRIGERADORES DE INGREDIENTES CON TAPA
+  noms:
+    es: REFRIGERADORES DE INGREDIENTES CON TAPA
+    en: INGREDIENT REFRIGERATORS WITH LID
+    fr: REFROIDISSEURS À INGRÉDIENTS AVEC COUVERCLE
+  sequence: 280
+  tipus: producte
+  pagina: p96
+  taula: p96-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: serie
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: dot
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 7514120T
+    ordre: 10
+    valors:
+      serie:
+        es: '2'
+        en: '2'
+        fr: '2'
+      gastronorm:
+        es: 5 - GN 1/4 - 150
+        en: 5 - GN 1/4 - 150
+        fr: 5 - GN 1/4 - 150
+      dot:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      potencia_electrica:
+        es: 160 W
+        en: 160 W
+        fr: 160 W
+  - codi: 751412CT
+    ordre: 20
+    valors:
+      serie:
+        es: '2'
+        en: '2'
+        fr: '2'
+      gastronorm:
+        es: 5 - GN 1/4 - 150
+        en: 5 - GN 1/4 - 150
+        fr: 5 - GN 1/4 - 150
+      dot:
+        es: OK
+        en: OK
+        fr: OK
+      potencia_electrica:
+        es: 160 W
+        en: 160 W
+        fr: 160 W
+  - codi: 7614140T
+    ordre: 30
+    valors:
+      serie:
+        es: '5'
+        en: '5'
+        fr: '5'
+      gastronorm:
+        es: 6 - GN 1/4 - 150
+        en: 6 - GN 1/4 - 150
+        fr: 6 - GN 1/4 - 150
+      dot:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      potencia_electrica:
+        es: 160 W
+        en: 160 W
+        fr: 160 W
+  - codi: 761414CT
+    ordre: 40
+    valors:
+      serie:
+        es: '5'
+        en: '5'
+        fr: '5'
+      gastronorm:
+        es: 6 - GN 1/4 - 150
+        en: 6 - GN 1/4 - 150
+        fr: 6 - GN 1/4 - 150
+      dot:
+        es: OK
+        en: OK
+        fr: OK
+      potencia_electrica:
+        es: 160 W
+        en: 160 W
+        fr: 160 W
+  - codi: 7814180T
+    ordre: 50
+    valors:
+      serie:
+        es: '5'
+        en: '5'
+        fr: '5'
+      gastronorm:
+        es: 8 - GN 1/4 - 150
+        en: 8 - GN 1/4 - 150
+        fr: 8 - GN 1/4 - 150
+      dot:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      potencia_electrica:
+        es: 160 W
+        en: 160 W
+        fr: 160 W
+  - codi: 781418CT
+    ordre: 60
+    valors:
+      serie:
+        es: '5'
+        en: '5'
+        fr: '5'
+      gastronorm:
+        es: 8 - GN 1/4 - 150
+        en: 8 - GN 1/4 - 150
+        fr: 8 - GN 1/4 - 150
+      dot:
+        es: OK
+        en: OK
+        fr: OK
+      potencia_electrica:
+        es: 160 W
+        en: 160 W
+        fr: 160 W
+  - codi: 7613150T
+    ordre: 70
+    valors:
+      serie:
+        es: '8'
+        en: '8'
+        fr: '8'
+      gastronorm:
+        es: 5 - GN 1/3 - 150 1 - GN 1/2 - 150
+        en: 5 - GN 1/3 - 150 1 - GN 1/2 - 150
+        fr: 5 - GN 1/3 - 150 1 - GN 1/2 - 150
+      dot:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      potencia_electrica:
+        es: 160 W
+        en: 160 W
+        fr: 160 W
+  - codi: 761315CT
+    ordre: 80
+    valors:
+      serie:
+        es: '8'
+        en: '8'
+        fr: '8'
+      gastronorm:
+        es: 5 - GN 1/3 - 150 1 - GN 1/2 - 150
+        en: 5 - GN 1/3 - 150 1 - GN 1/2 - 150
+        fr: 5 - GN 1/3 - 150 1 - GN 1/2 - 150
+      dot:
+        es: OK
+        en: OK
+        fr: OK
+      potencia_electrica:
+        es: 160 W
+        en: 160 W
+        fr: 160 W
+  - codi: 7913200T
+    ordre: 90
+    valors:
+      serie:
+        es: '8'
+        en: '8'
+        fr: '8'
+      gastronorm:
+        es: 9 - GN 1/3 - 150
+        en: 9 - GN 1/3 - 150
+        fr: 9 - GN 1/3 - 150
+      dot:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      potencia_electrica:
+        es: 160 W
+        en: 160 W
+        fr: 160 W
+  - codi: 791320CT
+    ordre: 100
+    valors:
+      serie:
+        es: '8'
+        en: '8'
+        fr: '8'
+      gastronorm:
+        es: 9 - GN 1/3 - 150
+        en: 9 - GN 1/3 - 150
+        fr: 9 - GN 1/3 - 150
+      dot:
+        es: OK
+        en: OK
+        fr: OK
+      potencia_electrica:
+        es: 160 W
+        en: 160 W
+        fr: 160 W
+  compartits: []
+- clau: ARMARIOS FRIGORÍFICOS ESTÁTICOS (200 l.)
+  noms:
+    es: ARMARIOS FRIGORÍFICOS ESTÁTICOS (200 l.)
+    en: STATIC REFRIGERATING CABINETS (200 l.)
+    fr: ARMOIRES FRIGORIFIQUES STATIQUES (200 l.)
+  sequence: 290
+  tipus: producte
+  pagina: p128
+  taula: p128-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: acabat_exterior
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '73608409'
+    ordre: 10
+    valors:
+      acabat_exterior:
+        es: INOX
+        en: INOX
+        fr: INOX
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_parrilla:
+        es: 3 - 507x415
+        en: 3 - 507x415
+        fr: 3 - 507x415
+      capacitat_litres:
+        es: '150'
+        en: '150'
+        fr: '150'
+      classe_energetica:
+        es: A
+        en: A
+        fr: A
+      kw_365:
+        es: '387'
+        en: '387'
+        fr: '387'
+      potencia_electrica:
+        es: 0,09 KW
+        en: 0,09 KW
+        fr: 0,09 KW
+  - codi: '74408409'
+    ordre: 20
+    valors:
+      acabat_exterior:
+        es: WHITE
+        en: WHITE
+        fr: WHITE
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_parrilla:
+        es: 3 - 507x415
+        en: 3 - 507x415
+        fr: 3 - 507x415
+      capacitat_litres:
+        es: '150'
+        en: '150'
+        fr: '150'
+      classe_energetica:
+        es: A
+        en: A
+        fr: A
+      kw_365:
+        es: '387'
+        en: '387'
+        fr: '387'
+      potencia_electrica:
+        es: 0,09 KW
+        en: 0,09 KW
+        fr: 0,09 KW
+  - codi: '72608409'
+    ordre: 30
+    valors:
+      acabat_exterior:
+        es: WHITE
+        en: WHITE
+        fr: WHITE
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_parrilla:
+        es: 3 - FIXED
+        en: 3 - FIXED
+        fr: 3 - FIXED
+      capacitat_litres:
+        es: '150'
+        en: '150'
+        fr: '150'
+      classe_energetica:
+        es: A
+        en: A
+        fr: A
+      kw_365:
+        es: '990'
+        en: '990'
+        fr: '990'
+      potencia_electrica:
+        es: 0,14 KW
+        en: 0,14 KW
+        fr: 0,14 KW
+  - codi: '74608409'
+    ordre: 40
+    valors:
+      acabat_exterior:
+        es: INOX
+        en: INOX
+        fr: INOX
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_parrilla:
+        es: 3 - FIXED
+        en: 3 - FIXED
+        fr: 3 - FIXED
+      capacitat_litres:
+        es: '150'
+        en: '150'
+        fr: '150'
+      classe_energetica:
+        es: A
+        en: A
+        fr: A
+      kw_365:
+        es: '990'
+        en: '990'
+        fr: '990'
+      potencia_electrica:
+        es: 0,14 KW
+        en: 0,14 KW
+        fr: 0,14 KW
+  compartits: []
+- clau: ARMARIOS FRIGORÍFICOS ESTÁTICOS (400 l.)
+  noms:
+    es: ARMARIOS FRIGORÍFICOS ESTÁTICOS (400 l.)
+    en: STATIC REFRIGERATING CABINETS (400 l.)
+    fr: ARMOIRES FRIGORIFIQUES STATIQUES (400 l.)
+  sequence: 300
+  tipus: producte
+  pagina: p129
+  taula: p129-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: acabat_exterior
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '70692409'
+    ordre: 10
+    valors:
+      acabat_exterior:
+        es: INOX
+        en: INOX
+        fr: INOX
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_parrilla:
+        es: 3 - 507x415
+        en: 3 - 507x415
+        fr: 3 - 507x415
+      capacitat_litres:
+        es: '460'
+        en: '460'
+        fr: '460'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '880'
+        en: '880'
+        fr: '880'
+      potencia_electrica:
+        es: 0,19 KW
+        en: 0,19 KW
+        fr: 0,19 KW
+  - codi: '75592409'
+    ordre: 20
+    valors:
+      acabat_exterior:
+        es: WHITE
+        en: WHITE
+        fr: WHITE
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_parrilla:
+        es: 3 - 507x415
+        en: 3 - 507x415
+        fr: 3 - 507x415
+      capacitat_litres:
+        es: '460'
+        en: '460'
+        fr: '460'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '880'
+        en: '880'
+        fr: '880'
+      potencia_electrica:
+        es: 0,19 KW
+        en: 0,19 KW
+        fr: 0,19 KW
+  - codi: '72692409'
+    ordre: 30
+    valors:
+      acabat_exterior:
+        es: WHITE
+        en: WHITE
+        fr: WHITE
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_parrilla:
+        es: 7 - FIXED
+        en: 7 - FIXED
+        fr: 7 - FIXED
+      capacitat_litres:
+        es: '460'
+        en: '460'
+        fr: '460'
+      classe_energetica:
+        es: B
+        en: B
+        fr: B
+      kw_365:
+        es: '1100'
+        en: '1100'
+        fr: '1100'
+      potencia_electrica:
+        es: 0,14 KW
+        en: 0,14 KW
+        fr: 0,14 KW
+  - codi: '74692409'
+    ordre: 40
+    valors:
+      acabat_exterior:
+        es: INOX
+        en: INOX
+        fr: INOX
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_parrilla:
+        es: 7 - FIXED
+        en: 7 - FIXED
+        fr: 7 - FIXED
+      capacitat_litres:
+        es: '460'
+        en: '460'
+        fr: '460'
+      classe_energetica:
+        es: B
+        en: B
+        fr: B
+      kw_365:
+        es: '1100'
+        en: '1100'
+        fr: '1100'
+      potencia_electrica:
+        es: 0,14 KW
+        en: 0,14 KW
+        fr: 0,14 KW
+  compartits: []
+- clau: ARMARIOS FRIGORÍFICOS ESTÁTICOS (600 l.)
+  noms:
+    es: ARMARIOS FRIGORÍFICOS ESTÁTICOS (600 l.)
+    en: STATIC REFRIGERATING CABINETS (600 l.)
+    fr: ARMOIRES FRIGORIFIQUES STATIQUES (600 l.)
+  sequence: 310
+  tipus: producte
+  pagina: p130
+  taula: p130-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: acabat_exterior
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '71692409'
+    ordre: 10
+    valors:
+      acabat_exterior:
+        es: INOX
+        en: INOX
+        fr: INOX
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_parrilla:
+        es: 3 - 650x525
+        en: 3 - 650x525
+        fr: 3 - 650x525
+      capacitat_litres:
+        es: '600'
+        en: '600'
+        fr: '600'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '880'
+        en: '880'
+        fr: '880'
+      potencia_electrica:
+        es: 0,19 KW
+        en: 0,19 KW
+        fr: 0,19 KW
+  - codi: '77592409'
+    ordre: 20
+    valors:
+      acabat_exterior:
+        es: WHITE
+        en: WHITE
+        fr: WHITE
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_parrilla:
+        es: 3 - 650x525
+        en: 3 - 650x525
+        fr: 3 - 650x525
+      capacitat_litres:
+        es: '600'
+        en: '600'
+        fr: '600'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '880'
+        en: '880'
+        fr: '880'
+      potencia_electrica:
+        es: 0,19 KW
+        en: 0,19 KW
+        fr: 0,19 KW
+  - codi: '73692409'
+    ordre: 30
+    valors:
+      acabat_exterior:
+        es: WHITE
+        en: WHITE
+        fr: WHITE
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_parrilla:
+        es: 7 - FIXED
+        en: 7 - FIXED
+        fr: 7 - FIXED
+      capacitat_litres:
+        es: '600'
+        en: '600'
+        fr: '600'
+      classe_energetica:
+        es: B
+        en: B
+        fr: B
+      kw_365:
+        es: '1150'
+        en: '1150'
+        fr: '1150'
+      potencia_electrica:
+        es: 0,15 KW
+        en: 0,15 KW
+        fr: 0,15 KW
+  - codi: '75692409'
+    ordre: 40
+    valors:
+      acabat_exterior:
+        es: INOX
+        en: INOX
+        fr: INOX
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_parrilla:
+        es: 7 - FIXED
+        en: 7 - FIXED
+        fr: 7 - FIXED
+      capacitat_litres:
+        es: '600'
+        en: '600'
+        fr: '600'
+      classe_energetica:
+        es: B
+        en: B
+        fr: B
+      kw_365:
+        es: '1150'
+        en: '1150'
+        fr: '1150'
+      potencia_electrica:
+        es: 0,15 KW
+        en: 0,15 KW
+        fr: 0,15 KW
+  compartits: []
+- clau: ARMARIOS DE CONGELACIÓN ESTÁTICOS CON CESTAS (600 l.)
+  noms:
+    es: ARMARIOS DE CONGELACIÓN ESTÁTICOS CON CESTAS (600 l.)
+    en: STATIC FREEZER CABINETS WITH BASKETS (600 l.)
+    fr: ARMOIRES CONGÉLATEURS STATIQUES AVEC PANIERS (600 l.)
+  sequence: 320
+  tipus: producte
+  pagina: p132
+  taula: p132-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: acabat_exterior
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: cubeta
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 7569240C
+    ordre: 10
+    valors:
+      acabat_exterior:
+        es: INOX
+        en: INOX
+        fr: INOX
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      cubeta:
+        es: 13 CESTAS
+        en: 13 CESTAS
+        fr: 13 CESTAS
+      capacitat_litres:
+        es: '600'
+        en: '600'
+        fr: '600'
+      classe_energetica:
+        es: B
+        en: B
+        fr: B
+      kw_365:
+        es: '1150'
+        en: '1150'
+        fr: '1150'
+      potencia_electrica:
+        es: 0,15 KW
+        en: 0,15 KW
+        fr: 0,15 KW
+  - codi: 7369240C
+    ordre: 20
+    valors:
+      acabat_exterior:
+        es: WHITE
+        en: WHITE
+        fr: WHITE
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      cubeta:
+        es: 13 CESTAS
+        en: 13 CESTAS
+        fr: 13 CESTAS
+      capacitat_litres:
+        es: '600'
+        en: '600'
+        fr: '600'
+      classe_energetica:
+        es: B
+        en: B
+        fr: B
+      kw_365:
+        es: '1150'
+        en: '1150'
+        fr: '1150'
+      potencia_electrica:
+        es: 0,15 KW
+        en: 0,15 KW
+        fr: 0,15 KW
+  compartits: []
+- clau: ARMARIOS FRIGORÍFICOS ESTÁTICOS CON PUERTAS DE CRISTAL (200 l.)
+  noms:
+    es: ARMARIOS FRIGORÍFICOS ESTÁTICOS CON PUERTAS DE CRISTAL (200 l.)
+    en: STATIC REFRIGERATING CABINETS WITH GLASS DOOR (200 l.)
+    fr: ARMOIRES FRIGORIFIQUES STATIQUES AVEC PORTE VITRÉE (200 l.)
+  sequence: 330
+  tipus: producte
+  pagina: p135
+  taula: p135-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: acabat_exterior
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '79970609'
+    ordre: 10
+    valors:
+      acabat_exterior:
+        es: INOX
+        en: INOX
+        fr: INOX
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_parrilla:
+        es: 2 - 500x415 1 - 500x210
+        en: 2 - 500x415 1 - 500x210
+        fr: 2 - 500x415 1 - 500x210
+      capacitat_litres:
+        es: '130'
+        en: '130'
+        fr: '130'
+      classe_energetica:
+        es: B
+        en: B
+        fr: B
+      kw_365:
+        es: '387'
+        en: '387'
+        fr: '387'
+      potencia_electrica:
+        es: 0,09 KW
+        en: 0,09 KW
+        fr: 0,09 KW
+  - codi: '75408409'
+    ordre: 20
+    valors:
+      acabat_exterior:
+        es: WHITE
+        en: WHITE
+        fr: WHITE
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_parrilla:
+        es: 2 - 500x415 1 - 500x210
+        en: 2 - 500x415 1 - 500x210
+        fr: 2 - 500x415 1 - 500x210
+      capacitat_litres:
+        es: '130'
+        en: '130'
+        fr: '130'
+      classe_energetica:
+        es: B
+        en: B
+        fr: B
+      kw_365:
+        es: '387'
+        en: '387'
+        fr: '387'
+      potencia_electrica:
+        es: 0,09 KW
+        en: 0,09 KW
+        fr: 0,09 KW
+  - codi: 76002FE6
+    ordre: 30
+    valors:
+      acabat_exterior:
+        es: WHITE
+        en: WHITE
+        fr: WHITE
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_parrilla:
+        es: 3 - FIXED
+        en: 3 - FIXED
+        fr: 3 - FIXED
+      capacitat_litres:
+        es: '200'
+        en: '200'
+        fr: '200'
+      classe_energetica:
+        es: A
+        en: A
+        fr: A
+      kw_365:
+        es: '990'
+        en: '990'
+        fr: '990'
+      potencia_electrica:
+        es: 0,14 KW
+        en: 0,14 KW
+        fr: 0,14 KW
+  - codi: 7556002F
+    ordre: 40
+    valors:
+      acabat_exterior:
+        es: INOX
+        en: INOX
+        fr: INOX
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_parrilla:
+        es: 3 - FIXED
+        en: 3 - FIXED
+        fr: 3 - FIXED
+      capacitat_litres:
+        es: '200'
+        en: '200'
+        fr: '200'
+      classe_energetica:
+        es: A
+        en: A
+        fr: A
+      kw_365:
+        es: '990'
+        en: '990'
+        fr: '990'
+      potencia_electrica:
+        es: 0,14 KW
+        en: 0,14 KW
+        fr: 0,14 KW
+  compartits: []
+- clau: ARMARIOS FRIGORÍFICOS ESTÁTICOS CON PUERTAS DE CRISTAL (400 l.)
+  noms:
+    es: ARMARIOS FRIGORÍFICOS ESTÁTICOS CON PUERTAS DE CRISTAL (400 l.)
+    en: STATIC REFRIGERATING CABINETS WITH GLASS DOOR (400 l.)
+    fr: ARMOIRES FRIGORIFIQUES STATIQUES AVEC PORTE VITRÉE (400 l.)
+  sequence: 340
+  tipus: producte
+  pagina: p136
+  taula: p136-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: acabat_exterior
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '72080609'
+    ordre: 10
+    valors:
+      acabat_exterior:
+        es: INOX
+        en: INOX
+        fr: INOX
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_parrilla:
+        es: 3 - 507x415 1 - 507x225
+        en: 3 - 507x415 1 - 507x225
+        fr: 3 - 507x415 1 - 507x225
+      capacitat_litres:
+        es: '460'
+        en: '460'
+        fr: '460'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '880'
+        en: '880'
+        fr: '880'
+      potencia_electrica:
+        es: 0,19 KW
+        en: 0,19 KW
+        fr: 0,19 KW
+  - codi: '78592409'
+    ordre: 20
+    valors:
+      acabat_exterior:
+        es: WHITE
+        en: WHITE
+        fr: WHITE
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_parrilla:
+        es: 3 - 507x415 1 - 507x225
+        en: 3 - 507x415 1 - 507x225
+        fr: 3 - 507x415 1 - 507x225
+      capacitat_litres:
+        es: '460'
+        en: '460'
+        fr: '460'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '880'
+        en: '880'
+        fr: '880'
+      potencia_electrica:
+        es: 0,19 KW
+        en: 0,19 KW
+        fr: 0,19 KW
+  - codi: '74592709'
+    ordre: 30
+    valors:
+      acabat_exterior:
+        es: WHITE
+        en: WHITE
+        fr: WHITE
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_parrilla:
+        es: 7 - FIXED
+        en: 7 - FIXED
+        fr: 7 - FIXED
+      capacitat_litres:
+        es: '350'
+        en: '350'
+        fr: '350'
+      classe_energetica:
+        es: B
+        en: B
+        fr: B
+      kw_365:
+        es: '1100'
+        en: '1100'
+        fr: '1100'
+      potencia_electrica:
+        es: 0,14 KW
+        en: 0,14 KW
+        fr: 0,14 KW
+  - codi: 7556004F
+    ordre: 40
+    valors:
+      acabat_exterior:
+        es: INOX
+        en: INOX
+        fr: INOX
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_parrilla:
+        es: 6 - FIXED
+        en: 6 - FIXED
+        fr: 6 - FIXED
+      capacitat_litres:
+        es: '400'
+        en: '400'
+        fr: '400'
+      classe_energetica:
+        es: B
+        en: B
+        fr: B
+      kw_365:
+        es: '1100'
+        en: '1100'
+        fr: '1100'
+      potencia_electrica:
+        es: 0,14 KW
+        en: 0,14 KW
+        fr: 0,14 KW
+  compartits: []
+- clau: ARMARIOS FRIGORÍFICOS ESTÁTICOS CON PUERTAS DE CRISTAL (600 l.)
+  noms:
+    es: ARMARIOS FRIGORÍFICOS ESTÁTICOS CON PUERTAS DE CRISTAL (600 l.)
+    en: STATIC REFRIGERATING CABINETS WITH GLASS DOOR (600 l.)
+    fr: ARMOIRES FRIGORIFIQUES STATIQUES AVEC PORTE VITRÉE (600 l.)
+  sequence: 350
+  tipus: producte
+  pagina: p137
+  taula: p137-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: acabat_exterior
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '73080609'
+    ordre: 10
+    valors:
+      acabat_exterior:
+        es: INOX
+        en: INOX
+        fr: INOX
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_parrilla:
+        es: 3 - 650x525 1 - 650x330
+        en: 3 - 650x525 1 - 650x330
+        fr: 3 - 650x525 1 - 650x330
+      capacitat_litres:
+        es: '600'
+        en: '600'
+        fr: '600'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '880'
+        en: '880'
+        fr: '880'
+      potencia_electrica:
+        es: 0,19 KW
+        en: 0,19 KW
+        fr: 0,19 KW
+  - codi: '79592409'
+    ordre: 20
+    valors:
+      acabat_exterior:
+        es: WHITE
+        en: WHITE
+        fr: WHITE
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_parrilla:
+        es: 3 - 650x525 1 - 650x330
+        en: 3 - 650x525 1 - 650x330
+        fr: 3 - 650x525 1 - 650x330
+      capacitat_litres:
+        es: '600'
+        en: '600'
+        fr: '600'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '880'
+        en: '880'
+        fr: '880'
+      potencia_electrica:
+        es: 0,19 KW
+        en: 0,19 KW
+        fr: 0,19 KW
+  - codi: '75592709'
+    ordre: 30
+    valors:
+      acabat_exterior:
+        es: WHITE
+        en: WHITE
+        fr: WHITE
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_parrilla:
+        es: 6 - FIXED
+        en: 6 - FIXED
+        fr: 6 - FIXED
+      capacitat_litres:
+        es: '600'
+        en: '600'
+        fr: '600'
+      classe_energetica:
+        es: B
+        en: B
+        fr: B
+      kw_365:
+        es: '1150'
+        en: '1150'
+        fr: '1150'
+      potencia_electrica:
+        es: 0,15 KW
+        en: 0,15 KW
+        fr: 0,15 KW
+  - codi: 7556006F
+    ordre: 40
+    valors:
+      acabat_exterior:
+        es: INOX
+        en: INOX
+        fr: INOX
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_parrilla:
+        es: 6 - FIXED
+        en: 6 - FIXED
+        fr: 6 - FIXED
+      capacitat_litres:
+        es: '600'
+        en: '600'
+        fr: '600'
+      classe_energetica:
+        es: B
+        en: B
+        fr: B
+      kw_365:
+        es: '1150'
+        en: '1150'
+        fr: '1150'
+      potencia_electrica:
+        es: 0,15 KW
+        en: 0,15 KW
+        fr: 0,15 KW
+  compartits: []
+- clau: ARMARIOS FRIGORÍFICOS DE CONSERVACIÓN Y DE CONGELACIÓN
+  noms:
+    es: ARMARIOS FRIGORÍFICOS DE CONSERVACIÓN Y DE CONGELACIÓN
+    en: REFRIGERATED STORAGE AND FREEZER CABINETS
+    fr: ARMOIRES RÉFRIGÉRÉES DE CONSERVATION ET DE CONGÉLATION
+  sequence: 360
+  tipus: producte
+  pagina: p140
+  taula: p140-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '78810609'
+    ordre: 10
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_parrilla:
+        es: 3 - 560x542
+        en: 3 - 560x542
+        fr: 3 - 560x542
+      capacitat_litres:
+        es: '600'
+        en: '600'
+        fr: '600'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '923'
+        en: '923'
+        fr: '923'
+      potencia_electrica:
+        es: 0,19 KW
+        en: 0,19 KW
+        fr: 0,19 KW
+  - codi: '79810609'
+    ordre: 20
+    valors:
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_parrilla:
+        es: 3 - 560x542
+        en: 3 - 560x542
+        fr: 3 - 560x542
+      capacitat_litres:
+        es: '600'
+        en: '600'
+        fr: '600'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '923'
+        en: '923'
+        fr: '923'
+      potencia_electrica:
+        es: 0,19 KW
+        en: 0,19 KW
+        fr: 0,19 KW
+  - codi: '72120609'
+    ordre: 30
+    valors:
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_parrilla:
+        es: 3 - 560x542
+        en: 3 - 560x542
+        fr: 3 - 560x542
+      capacitat_litres:
+        es: '600'
+        en: '600'
+        fr: '600'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '2179'
+        en: '2179'
+        fr: '2179'
+      potencia_electrica:
+        es: 0,70 KW
+        en: 0,70 KW
+        fr: 0,70 KW
+  - codi: '79020609'
+    ordre: 40
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_parrilla:
+        es: 3 - 560x542
+        en: 3 - 560x542
+        fr: 3 - 560x542
+      capacitat_litres:
+        es: '600'
+        en: '600'
+        fr: '600'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '2179'
+        en: '2179'
+        fr: '2179'
+      potencia_electrica:
+        es: 0,70 KW
+        en: 0,70 KW
+        fr: 0,70 KW
+  compartits: []
+- clau: ARMARIOS FRIGORÍFICOS DE CONSERVACIÓN Y DE CONGELACIÓN#2
+  noms:
+    es: ARMARIOS FRIGORÍFICOS DE CONSERVACIÓN Y DE CONGELACIÓN
+    en: REFRIGERATED STORAGE AND FREEZER CABINETS
+    fr: ARMOIRES RÉFRIGÉRÉES DE CONSERVATION ET DE CONGÉLATION
+  sequence: 370
+  tipus: producte
+  pagina: p141
+  taula: p141-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta:
+      es: DOT
+      en: DOT
+      fr: DOT
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '74020609'
+    ordre: 10
+    valors:
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_parrilla:
+        es: 6 - 560x542
+        en: 6 - 560x542
+        fr: 6 - 560x542
+      capacitat_litres:
+        es: '1200'
+        en: '1200'
+        fr: '1200'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '1713'
+        en: '1713'
+        fr: '1713'
+      potencia_electrica:
+        es: 0,34 KW
+        en: 0,34 KW
+        fr: 0,34 KW
+  - codi: '76020609'
+    ordre: 20
+    valors:
+      portes:
+        es: '4'
+        en: '4'
+        fr: '4'
+      dimensions_parrilla:
+        es: 6 - 560x542
+        en: 6 - 560x542
+        fr: 6 - 560x542
+      capacitat_litres:
+        es: '1200'
+        en: '1200'
+        fr: '1200'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '1713'
+        en: '1713'
+        fr: '1713'
+      potencia_electrica:
+        es: 0,34 KW
+        en: 0,34 KW
+        fr: 0,34 KW
+  - codi: '73120609'
+    ordre: 30
+    valors:
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_parrilla:
+        es: 6 - 560x542
+        en: 6 - 560x542
+        fr: 6 - 560x542
+      capacitat_litres:
+        es: '1200'
+        en: '1200'
+        fr: '1200'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '4855'
+        en: '4855'
+        fr: '4855'
+      potencia_electrica:
+        es: 1,25 KW
+        en: 1,25 KW
+        fr: 1,25 KW
+  - codi: '76120609'
+    ordre: 40
+    valors:
+      portes:
+        es: '4'
+        en: '4'
+        fr: '4'
+      dimensions_parrilla:
+        es: 6 - 560x542
+        en: 6 - 560x542
+        fr: 6 - 560x542
+      capacitat_litres:
+        es: '1200'
+        en: '1200'
+        fr: '1200'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '4855'
+        en: '4855'
+        fr: '4855'
+      potencia_electrica:
+        es: 1,25 KW
+        en: 1,25 KW
+        fr: 1,25 KW
+  compartits: []
+- clau: ARMARIOS FRIGORÍFICOS DE CONSERVACIÓN Y DE CONGELACIÓN#3
+  noms:
+    es: ARMARIOS FRIGORÍFICOS DE CONSERVACIÓN Y DE CONGELACIÓN
+    en: REFRIGERATED STORAGE AND FREEZER CABINETS
+    fr: ARMOIRES RÉFRIGÉRÉES DE CONSERVATION ET DE CONGÉLATION
+  sequence: 380
+  tipus: producte
+  pagina: p142
+  taula: p142-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta:
+      es: DOT
+      en: DOT
+      fr: DOT
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '78120609'
+    ordre: 10
+    valors:
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_parrilla:
+        es: 1 - 560x542
+        en: 1 - 560x542
+        fr: 1 - 560x542
+      capacitat_litres:
+        es: '600'
+        en: '600'
+        fr: '600'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '679'
+        en: '679'
+        fr: '679'
+      potencia_electrica:
+        es: 0,65 KW
+        en: 0,65 KW
+        fr: 0,65 KW
+  - codi: '70220609'
+    ordre: 20
+    valors:
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      dimensions_parrilla:
+        es: 4 - 560x542
+        en: 4 - 560x542
+        fr: 4 - 560x542
+      capacitat_litres:
+        es: '1200'
+        en: '1200'
+        fr: '1200'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '1105'
+        en: '1105'
+        fr: '1105'
+      potencia_electrica:
+        es: 0,81 KW
+        en: 0,81 KW
+        fr: 0,81 KW
+  compartits: []
+- clau: ARMARIOS FRIGORÍFICOS DE CONSERVACIÓN CON DEPARTAMENTO PARA PESCADO
+  noms:
+    es: ARMARIOS FRIGORÍFICOS DE CONSERVACIÓN CON DEPARTAMENTO PARA PESCADO
+    en: REFRIGERATED STORAGE CABINETS WITH FISH COMPARTMENT
+    fr: ARMOIRES RÉFRIGÉRÉES DE CONSERVATION AVEC COMPARTIMENT POUR POISSON
+  sequence: 390
+  tipus: producte
+  pagina: p146
+  taula: p146-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta:
+      es: DOT
+      en: DOT
+      fr: DOT
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '77120609'
+    ordre: 10
+    valors:
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_parrilla:
+        es: 1 - 560x542
+        en: 1 - 560x542
+        fr: 1 - 560x542
+      capacitat_litres:
+        es: '600'
+        en: '600'
+        fr: '600'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '679'
+        en: '679'
+        fr: '679'
+      potencia_electrica:
+        es: 0,65 KW
+        en: 0,65 KW
+        fr: 0,65 KW
+  - codi: '79120609'
+    ordre: 20
+    valors:
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      dimensions_parrilla:
+        es: 4 - 560x542
+        en: 4 - 560x542
+        fr: 4 - 560x542
+      capacitat_litres:
+        es: '1200'
+        en: '1200'
+        fr: '1200'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '1105'
+        en: '1105'
+        fr: '1105'
+      potencia_electrica:
+        es: 0,81 KW
+        en: 0,81 KW
+        fr: 0,81 KW
+  compartits: []
+- clau: ARMARIOS FRIGORÍFICOS DE CONSERVACIÓN Y DE CONGELACIÓN CON PUERTAS DE CRISTAL
+  noms:
+    es: ARMARIOS FRIGORÍFICOS DE CONSERVACIÓN Y DE CONGELACIÓN CON PUERTAS DE CRISTAL
+    en: REFRIGERATED AND FREEZER CABINETS WITH GLASS DOORS
+    fr: ARMOIRES RÉFRIGÉRÉES DE CONSERVATION ET DE CONGÉLATION AVEC PORTES VITRÉES
+  sequence: 400
+  tipus: producte
+  pagina: p149
+  taula: p149-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '72020609'
+    ordre: 10
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_parrilla:
+        es: 3 - 560x542
+        en: 3 - 560x542
+        fr: 3 - 560x542
+      capacitat_litres:
+        es: '600'
+        en: '600'
+        fr: '600'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '923'
+        en: '923'
+        fr: '923'
+      potencia_electrica:
+        es: 0,19 KW
+        en: 0,19 KW
+        fr: 0,19 KW
+  - codi: '77020609'
+    ordre: 20
+    valors:
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_parrilla:
+        es: 6 - 560x542
+        en: 6 - 560x542
+        fr: 6 - 560x542
+      capacitat_litres:
+        es: '1200'
+        en: '1200'
+        fr: '1200'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '1713'
+        en: '1713'
+        fr: '1713'
+      potencia_electrica:
+        es: 0,34 KW
+        en: 0,34 KW
+        fr: 0,34 KW
+  compartits: []
+- clau: ARMARIOS FRIGORÍFICOS DE CONSERVACIÓN Y CONGELACIÓN (GN 1/1)
+  noms:
+    es: ARMARIOS FRIGORÍFICOS DE CONSERVACIÓN Y CONGELACIÓN (GN 1/1)
+    en: REFRIGERATED AND FREEZER CABINETS (GN 1/1)
+    fr: ARMOIRES RÉFRIGÉRÉES DE CONSERVATION ET DE CONGÉLATION (GN 1/1)
+  sequence: 410
+  tipus: producte
+  pagina: p152
+  taula: p152-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta:
+      es: DOT
+      en: DOT
+      fr: DOT
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '72774109'
+    ordre: 10
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_parrilla:
+        es: 3 - 325x530 GN 1/1
+        en: 3 - 325x530 GN 1/1
+        fr: 3 - 325x530 GN 1/1
+      capacitat_litres:
+        es: '500'
+        en: '500'
+        fr: '500'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '730'
+        en: '730'
+        fr: '730'
+      potencia_electrica:
+        es: 0,21 KW
+        en: 0,21 KW
+        fr: 0,21 KW
+  - codi: '73774109'
+    ordre: 20
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_parrilla:
+        es: 3 - 325x530 GN 1/1
+        en: 3 - 325x530 GN 1/1
+        fr: 3 - 325x530 GN 1/1
+      capacitat_litres:
+        es: '500'
+        en: '500'
+        fr: '500'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '2200'
+        en: '2200'
+        fr: '2200'
+      potencia_electrica:
+        es: 0,35 KW
+        en: 0,35 KW
+        fr: 0,35 KW
+  compartits: []
+- clau: ARMARIOS FRIGORÍFICOS PARA PESCADO
+  noms:
+    es: ARMARIOS FRIGORÍFICOS PARA PESCADO
+    en: REFRIGERATED FISH CONSERVATION CABINETS
+    fr: ARMOIRES FRIGORIFIQUES DE CONSERVATION À POISSON
+  sequence: 420
+  tipus: producte
+  pagina: p167
+  taula: p167-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: calaixos
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '70899509'
+    ordre: 10
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      calaixos:
+        es: 7 - 600x400x120
+        en: 7 - 600x400x120
+        fr: 7 - 600x400x120
+      capacitat_litres:
+        es: '600'
+        en: '600'
+        fr: '600'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '679'
+        en: '679'
+        fr: '679'
+      potencia_electrica:
+        es: 0,62 KW
+        en: 0,62 KW
+        fr: 0,62 KW
+  compartits: []
+avisos:
+- 'p21-t1 76389509: sense valor per a «temperatura»'
+- 'p21-t1 72216709: sense valor per a «temperatura»'
+- 'p21-t1 76216709: sense valor per a «temperatura»'
+- 'p21-t1 76689509: sense valor per a «temperatura»'
+- 'p21-t1 79698609: sense valor per a «temperatura»'
+- 'p21-t1 70998609: sense valor per a «temperatura»'
+- 'p45-t1 74699209: sense valor per a «portes_corredisses»'
+- 'p46-t1 75699209: sense valor per a «portes_corredisses»'
+- 'p47-t1 76699209: sense valor per a «portes_corredisses»'
+repeticions: {}
+informe:
+  inexistents: []
+  descatalogats: []
+  arxivats: []
+  ambigus: []
+  ignorats: []
+  fora_pdf:
+  - taula: p06-t1
+    pagina: p06
+    titol: MESAS FRÍAS CONSERVACIÓN Y DE CONGELACIÓN
+    codis:
+    - 70A09XRC
+    - 70A39XRC
+    - 70A54XRC
+    - 70V09XNC
+    - 70V39XNC
+  - taula: p12-t1
+    pagina: p12
+    titol: MESAS FRÍAS MITXAS DE CONSERVACIÓN Y DE CONGELACIÓN
+    codis:
+    - '70405119'
+    - '79305119'
+  - taula: p24-t1
+    pagina: p24
+    titol: MESAS FRÍAS DE CONSERVACIÓN CON CAJONES Y PUERTAS
+    codis:
+    - 70A29DRC
+    - 70A49DRC
+    - 70A54DRC
+    - 70A69DRC
+  - taula: p27-t1
+    pagina: p27
+    titol: MESAS FRÍAS DE CONSERVACIÓN /CONGELACIÓN CON 2 CAJONES
+    codis:
+    - 70029TWD
+    - 70221TWD
+  - taula: p34-t1
+    pagina: p34
+    titol: RESERVAS FRÍAS DE CONSERVACIÓN /CONGELACIÓN CON CAJONES
+    codis:
+    - 70009TWD
+    - 70021TWD
+  - taula: p52-t1
+    pagina: p52
+    titol: BOTELLEROS FRÍOS CON CAJONES
+    codis:
+    - 70C001E8
+    - 70C002E8
+    - 70C051E8
+  - taula: p55-t1
+    pagina: p55
+    titol: MESAS FRÍAS PARA BARRILES DE CERVEZA
+    codis:
+    - 7D61106V
+    - 7D61148V
+    - 7D61163V
+  - taula: p60-t1
+    pagina: p60
+    titol: FABRICADORES DE CUBITOS MACIZOS DE GRAN PRODUCIÓN SOBRE DEPÓSITO
+    codis:
+    - 78900G13
+    - 79000G13
+  - taula: p62-t1
+    pagina: p62
+    titol: FABRICADORES DE HIELO TRITURADO (ESCAMAS)
+    codis:
+    - '70020986'
+    - '70030986'
+    - '70045186'
+    - '70555186'
+  - taula: p64-t1
+    pagina: p64
+    titol: FABRICADORES DE HIELO TRITURADO DE GRAN PRODUCIÓN SOBRE DEPÓSITO
+    codis:
+    - '70156011'
+    - '70826011'
+  - taula: p66-t1
+    pagina: p66
+    titol: DEPÓSITOS ENFRIADORES DE AGUA
+    codis:
+    - 7H0011PA
+    - 7V5711PA
+  - taula: p79-t1
+    pagina: p79
+    titol: MESAS FRÍAS DE PREPARACIÓN DE BOCADILLOS Y PIZZAS
+    codis:
+    - '76639709'
+    - 7663970C
+    - '77639709'
+    - 7763970C
+  - taula: p89-t1
+    pagina: p89
+    titol: MESAS FRÍAS DE PASTELERÍA
+    codis:
+    - 7R220609
+    - 7R770609
+  - taula: p93-t1
+    pagina: p93
+    titol: MESAS FRÍAS DE PASTELERÍA
+    codis:
+    - 7RFN0062
+    - 7RFN0063
+  - taula: p98-t1
+    pagina: p98
+    titol: MESAS FRÍAS DE CONSERVACIÓN Y DE CONGELACIÓN CON PETO (EN 400x600)
+    codis:
+    - '71236709'
+    - '72421709'
+    - '73421709'
+    - 7P002PCM
+    - 7P051PCM
+  - taula: p99-t1
+    pagina: p99
+    titol: MESAS FRÍAS DE CONSERVACIÓN Y DE CONGELACIÓN CON PETO (EN 400x600)
+    codis:
+    - 700012AP
+    - 700013AP
+    - 700014AP
+    - 7C002PCM
+    - 7C051PCM
+  - taula: p101-t1
+    pagina: p101
+    titol: MESAS FRÍAS DE CONSERVACIÓN CON ENCIMERA DE GRANITO EN 400x600
+    codis:
+    - 7T0002AP
+    - 7T0051AP
+  - taula: p103-t1
+    pagina: p103
+    titol: MESAS FRÍAS DE CONSERVACIÓN Y CONGELACIÓN CON PUERTAS DE CRISTAL EN 400x600
+    codis:
+    - 7002VPCM
+    - 7002VPRM
+    - 7051VPCM
+    - 7051VPRM
+    - 7052VPRM
+  - taula: p106-t1
+    pagina: p106
+    titol: ARMARIOS FRIGORÍFICOS DE CONSERVACIÓN Y DE CONGELACIÓN EN 400x600
+    codis:
+    - 7FT104NA
+    - 7FT209NA
+    - 7T8104NA
+    - 7T8209NA
+  - taula: p109-t1
+    pagina: p109
+    titol: ARMARIOS FRIGORÍFICOS DE CONSERVACIÓN CON PUERTAS DE CRISTAL EN 400x600
+    codis:
+    - 7RC104NA
+    - 7RC209NA
+  - taula: p112-t1
+    pagina: p112
+    titol: ARMARIOS FRIGORÍFICOS DE CONSERVACIÓN Y DE CONGELACIÓN (EN)
+    codis:
+    - 70047CPQ
+    - 70047NPQ
+    - '71258609'
+    - '72981609'
+    - 7NT008AP
+    - 7T8008AP
+  - taula: p113-t1
+    pagina: p113
+    titol: ARMARIOS FRIGORÍFICOS DE CONSERVACIÓN Y DE CONGELACIÓN EN 400x600
+    codis:
+    - 70461CPQ
+    - 70461NPQ
+    - '75981609'
+    - '79699509'
+  - taula: p116-t1
+    pagina: p116
+    titol: ARMARIOS FRIGORÍFICOS DE CONSERVACIÓN CON PUERTAS DE CRISTAL EN 400x600
+    codis:
+    - 7057VRPA
+    - 72001VRP
+  - taula: p119-t1
+    pagina: p119
+    titol: ARMARIOS FRIGORÍFICOS DE CONSERVACIÓN Y CONGELACIÓN CON CARRO EN 400x600
+    codis:
+    - 7P1CCA46
+    - 7P1CRA46
+    - 7P2CCA46
+    - 7P2CRA46
+  - taula: p122-t1
+    pagina: p122
+    titol: ARMARIOS FRIGORÍFICOS DE CONGELACIÓN PARA HELADOS
+    codis:
+    - 75886TE6
+    - 7V886XE6
+  - taula: p125-t1
+    pagina: p125
+    titol: ARMARIOS FRIGORÍFICOS DE CONGELACIÓN PARA HELADOS
+    codis:
+    - 70059C1A
+    - 7T8008E6
+    - 7T810986
+  - taula: p131-t1
+    pagina: p131
+    titol: ARMARIOS DE CONGELACIÓN ESTÁTICOS CON CESTAS (400 l.)
+    codis:
+    - 700704NC
+    - 70704XNC
+  - taula: p143-t2
+    pagina: p143
+    titol: ARMARIOS FRIGORÍFICOS MIXTOS DE CONSERVACIÓN Y DE CONGELACIÓN
+    codis:
+    - '77737809'
+  - taula: p153-t1
+    pagina: p153
+    titol: ARMARIOS FRIGORÍFICOS DE CONSERVACIÓN Y CONGELACIÓN (GN 2/1)
+    codis:
+    - '70541119'
+    - '77541119'
+    - '78541119'
+    - '79441119'
+  - taula: p154-t1
+    pagina: p154
+    titol: ARMARIOS FRIGORÍFICOS DE CONSERVACIÓN Y CONGELACIÓN (GN 2/1)
+    codis:
+    - '70641119'
+    - '72541119'
+    - '72641119'
+    - '74541119'
+  - taula: p157-t1
+    pagina: p157
+    titol: ARMARIOS FRIGORÍFICOS MIXTOS DE CONGELACIÓN (GN 2/1) CON DEPARTAMENTO DE CONSERVACIÓN (EN 400x600)
+    codis:
+    - '74356909'
+    - '79056909'
+  - taula: p160-t1
+    pagina: p160
+    titol: ARMARIOS FRIGORÍFICOS DE CONSERVACIÓN Y CONGELACIÓN CON PUERTAS DE CRISTAL (GN 1/1)
+    codis:
+    - 7005E6CA
+    - '79880609'
+    - 7RCD06N6
+  - taula: p161-t1
+    pagina: p161
+    titol: ARMARIOS FRIGORÍFICOS DE CONSERVACIÓN Y CONGELACIÓN CON PUERTAS DE CRISTAL (GN 2/1)
+    codis:
+    - '71541119'
+    - '75541119'
+    - 7FP157E6
+    - 7FP2001E
+  - taula: p164-t1
+    pagina: p164
+    titol: ARMARIOS FRIGORÍFICOS PARA PESCADO
+    codis:
+    - 700041P0
+    - 7HF886XR
+  columnes_eliminades:
+  - taula: p128-t1
+    clau: temperatura
+    motiu: només icones al PDF, sense text («Temperatura»)
+  - taula: p129-t2
+    clau: temperatura
+    motiu: només icones al PDF, sense text («Temperatura»)
+  - taula: p130-t2
+    clau: temperatura
+    motiu: només icones al PDF, sense text («Temperatura»)
+  - taula: p132-t1
+    clau: temperatura
+    motiu: només icones al PDF, sense text («Temperatura»)
+  - taula: p135-t1
+    clau: temperatura
+    motiu: només icones al PDF, sense text («Temperatura»)
+  - taula: p136-t1
+    clau: temperatura
+    motiu: només icones al PDF, sense text («Temperatura»)
+  - taula: p137-t1
+    clau: temperatura
+    motiu: només icones al PDF, sense text («Temperatura»)
+  - taula: p140-t1
+    clau: temperatura
+    motiu: només icones al PDF, sense text («Temperatura»)
+  - taula: p141-t1
+    clau: temperatura
+    motiu: només icones al PDF, sense text («Temperatura»)
+  - taula: p142-t2
+    clau: temperatura
+    motiu: només icones al PDF, sense text («Temperatura»)
+  - taula: p146-t2
+    clau: temperatura
+    motiu: només icones al PDF, sense text («Temperatura»)
+  - taula: p149-t1
+    clau: temperatura
+    motiu: només icones al PDF, sense text («Temperatura»)
+  - taula: p152-t1
+    clau: temperatura
+    motiu: només icones al PDF, sense text («Temperatura»)
+  - taula: p167-t2
+    clau: temperatura
+    motiu: només icones al PDF, sense text («Temperatura»)
+  families_buides: []
+  taules_dividides: []

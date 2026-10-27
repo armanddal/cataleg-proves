@@ -1,0 +1,2450 @@
+esquema: tarifa-columnes-posicio/1
+grup: 10
+metode: posicio sobre el PDF publicat (intervals X = cel.les de la fila de capcalera del PDF; files = codi + vores de cel.la del PDF)
+font_pdf: cataleg_original_web.pdf
+nota: 'Per taula: fila (codi) -> columna (clau del gN.yaml) -> text tal com surt al PDF publicat. "-" = guio del catalag; "[icona]" = cel.la amb una icona (energia gas/electric...), sense text. icones_en_columna
+  = columnes amb una icona a la cel.la. cel_les_combinades (si n hi ha) = valor de cel.la combinada copiat a totes les files que cobreix. codi_al_pdf = el PDF porta un codi diferent del .pub.'
+pagines:
+- pagina_pub: 5
+  pagina_pdf: 395
+  taules:
+  - id: p05-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - filtres
+    - ventilador
+    - diametre_conducte
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 31025MMP
+      cel_les:
+        codi: 31025MMP
+        pes: '20'
+        mesures: 600x530x250
+        filtres: 2 - 245x325x9
+        ventilador: 7/7 - 1/10
+        diametre_conducte: '150'
+        potencia_electrica: 150 W 230/1V
+        preu: '1.835'
+    - codi: 31035MMP
+      cel_les:
+        codi: 31035MMP
+        pes: '28'
+        mesures: 900x530x250
+        filtres: 3 - 245x325x9
+        ventilador: 7/7 - 1/5
+        diametre_conducte: '200'
+        potencia_electrica: 150 W 230/1V
+        preu: '2.225'
+    - codi: 31045MMP
+      cel_les:
+        codi: 31045MMP
+        pes: '38'
+        mesures: 1200x530x250
+        filtres: 4 - 245x325x9
+        ventilador: 7/7 - 1/5
+        diametre_conducte: '200'
+        potencia_electrica: 150 W 230/1V
+        preu: '2.440'
+- pagina_pub: 6
+  pagina_pdf: 396
+  taules:
+  - id: p06-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - filtres
+    - ventilador
+    - diametre_conducte
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 31025MM5
+      cel_les:
+        codi: 31025MM5
+        pes: '39'
+        mesures: 1000x500x500
+        filtres: 2 - 500x500x50
+        ventilador: 7/7 - 1/5
+        diametre_conducte: '200'
+        potencia_electrica: 150 W 230/1V
+        preu: '2.555'
+    - codi: 31035MM5
+      cel_les:
+        codi: 31035MM5
+        pes: '47'
+        mesures: 1500x500x500
+        filtres: 3 - 500x500x50
+        ventilador: 7/7 - 1/5
+        diametre_conducte: '250'
+        potencia_electrica: 150 W 230/1V
+        preu: '2.665'
+    - codi: 31045MM5
+      cel_les:
+        codi: 31045MM5
+        pes: '55'
+        mesures: 2000x500x500
+        filtres: 4 - 500x500x50
+        ventilador: 7/7 - 1/5
+        diametre_conducte: '250'
+        potencia_electrica: 150 W 230/1V
+        preu: '2.900'
+- pagina_pub: 8
+  pagina_pdf: 398
+  taules:
+  - id: p08-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - filtres
+    - ventilador
+    - diametre_conducte
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 31027MMP
+      cel_les:
+        codi: 31027MMP
+        pes: '44'
+        mesures: 1000x800x680
+        filtres: 2 - 500x500x50
+        ventilador: 9/9 - 1/2
+        diametre_conducte: '250'
+        potencia_electrica: 250 W 230/1V
+        preu: '2.100'
+    - codi: 31037MMP
+      cel_les:
+        codi: 31037MMP
+        pes: '54'
+        mesures: 1500x800x680
+        filtres: 3 - 500x500x50
+        ventilador: 9/9 - 1/2
+        diametre_conducte: '250'
+        potencia_electrica: 250 W 230/1V
+        preu: '2.420'
+    - codi: 31047MMP
+      cel_les:
+        codi: 31047MMP
+        pes: '67'
+        mesures: 2000x800x680
+        filtres: 4 - 500x500x50
+        ventilador: 10/10 - 1/3
+        diametre_conducte: '300'
+        potencia_electrica: 250 W 230/1V
+        preu: '2.745'
+    - codi: 31057MMP
+      cel_les:
+        codi: 31057MMP
+        pes: '76'
+        mesures: 2500x800x680
+        filtres: 5 - 500x500x50
+        ventilador: 10/10 - 1/3
+        diametre_conducte: '350'
+        potencia_electrica: 250 W 230/1V
+        preu: '3.060'
+    - codi: 31031MMP
+      cel_les:
+        codi: 31031MMP
+        pes: '56'
+        mesures: 1500x1100x680
+        filtres: 3 - 500x500x50
+        ventilador: 9/9 - 1/2
+        diametre_conducte: '250'
+        potencia_electrica: 250 W 230/1V
+        preu: '2.640'
+    - codi: 31041MMP
+      cel_les:
+        codi: 31041MMP
+        pes: '69'
+        mesures: 2000x1100x680
+        filtres: 4 - 500x500x50
+        ventilador: 9/9 - 1/2
+        diametre_conducte: '300'
+        potencia_electrica: 250 W 230/1V
+        preu: '2.990'
+    - codi: 31051MMP
+      cel_les:
+        codi: 31051MMP
+        pes: '80'
+        mesures: 2500x1100x680
+        filtres: 5 - 500x500x50
+        ventilador: 10/10 - 1/3
+        diametre_conducte: '350'
+        potencia_electrica: 250 W 230/1V
+        preu: '3.330'
+- pagina_pub: 9
+  pagina_pdf: 399
+  taules:
+  - id: p09-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - filtres
+    - ventilador
+    - diametre_conducte
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 31027M4P
+      cel_les:
+        codi: 31027M4P
+        pes: '44'
+        mesures: 1000x750x650
+        filtres: 2 - 500x500x50
+        ventilador: 9/9 - 1/3
+        diametre_conducte: '250'
+        potencia_electrica: 250 W 230/1V
+        preu: '5.045'
+    - codi: 31037M4P
+      cel_les:
+        codi: 31037M4P
+        pes: '54'
+        mesures: 1500x750x650
+        filtres: 3 - 500x500x50
+        ventilador: 9/9 - 1/3
+        diametre_conducte: '250'
+        potencia_electrica: 250 W 230/1V
+        preu: '5.475'
+    - codi: 31047M4P
+      cel_les:
+        codi: 31047M4P
+        pes: '67'
+        mesures: 2000x750x650
+        filtres: 4 - 500x500x50
+        ventilador: 10/10 - 1/3
+        diametre_conducte: '300'
+        potencia_electrica: 250 W 230/1V
+        preu: '5.970'
+    - codi: 31031M4P
+      cel_les:
+        codi: 31031M4P
+        pes: '56'
+        mesures: 1500x1000x650
+        filtres: 3 - 500x500x50
+        ventilador: 9/9 - 1/3
+        diametre_conducte: '250'
+        potencia_electrica: 250 W 230/1V
+        preu: '5.580'
+    - codi: 31041M4P
+      cel_les:
+        codi: 31041M4P
+        pes: '69'
+        mesures: 2000x1000x650
+        filtres: 4 - 500x500x50
+        ventilador: 10/10 - 1/3
+        diametre_conducte: '300'
+        potencia_electrica: 250 W 230/1V
+        preu: '6.055'
+    - codi: 31051M4P
+      cel_les:
+        codi: 31051M4P
+        pes: '80'
+        mesures: 2500x1000x650
+        filtres: 5 - 500x500x50
+        ventilador: 10/10 - 1/3
+        diametre_conducte: '350'
+        potencia_electrica: 250 W 230/1V
+        preu: '6.485'
+- pagina_pub: 10
+  pagina_pdf: 400
+  taules:
+  - id: p10-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - filtres
+    - ventilador
+    - diametre_conducte
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 31061CMP
+      cel_les:
+        codi: 31061CMP
+        pes: '84'
+        mesures: 1500x1675x685
+        filtres: 6 - 500x500x50
+        ventilador: 12/9 - 1
+        diametre_conducte: '400'
+        potencia_electrica: 750 W 230/1V
+        preu: '4.090'
+    - codi: 31081CMP
+      cel_les:
+        codi: 31081CMP
+        pes: '94'
+        mesures: 2000x1675x685
+        filtres: 8 - 500x500x50
+        ventilador: 12/9 - 1
+        diametre_conducte: '450'
+        potencia_electrica: 1125 W 230/1V
+        preu: '4.620'
+    - codi: 31101CMP
+      cel_les:
+        codi: 31101CMP
+        pes: '104'
+        mesures: 2500x1675x685
+        filtres: 10 - 500x500x50
+        ventilador: 12/12 - 1,5
+        diametre_conducte: '500'
+        potencia_electrica: 1125 W 230/1V
+        preu: '5.170'
+- pagina_pub: 11
+  pagina_pdf: 401
+  taules:
+  - id: p11-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - filtres
+    - ventilador
+    - diametre_conducte
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 31061C4P
+      cel_les:
+        codi: 31061C4P
+        pes: '84'
+        mesures: 1500x1500x685
+        filtres: 6 - 500x500x50
+        ventilador: 12/12 - 1,5
+        diametre_conducte: '400'
+        potencia_electrica: 1125 W 400/3V
+        preu: '8.665'
+    - codi: 31081C4P
+      cel_les:
+        codi: 31081C4P
+        pes: '94'
+        mesures: 2000x1500x685
+        filtres: 8 - 500x500x50
+        ventilador: 12/12 - 1,5
+        diametre_conducte: '450'
+        potencia_electrica: 1125 W 400/3V
+        preu: '8.910'
+    - codi: 31101C4P
+      cel_les:
+        codi: 31101C4P
+        pes: '104'
+        mesures: 2500x1500x685
+        filtres: 10 - 500x500x50
+        ventilador: 12/12 - 1,5
+        diametre_conducte: '500'
+        potencia_electrica: 1125 W 400/3V
+        preu: '9.790'
+- pagina_pub: 13
+  pagina_pdf: 403
+  taules:
+  - id: p13-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - serie
+    - gastronorm
+    - ventilador
+    - diametre_conducte
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '31815080'
+      cel_les:
+        codi: '31815080'
+        pes: '35'
+        mesures: 520x1100x300
+        serie: MINI
+        gastronorm: 6-10 1/1
+        ventilador: 7/7 - 1/10
+        diametre_conducte: '150'
+        potencia_electrica: 100 W 230/1V
+        preu: '2.015'
+    - codi: '31915080'
+      cel_les:
+        codi: '31915080'
+        pes: '40'
+        mesures: 520x1100x300
+        serie: MINI
+        gastronorm: 6-10 1/1
+        ventilador: 7/7 - 1/10
+        diametre_conducte: '-'
+        potencia_electrica: 400 W 230/1V
+        preu: '3.655'
+    - codi: '31715080'
+      cel_les:
+        codi: '31715080'
+        pes: '50'
+        mesures: 900x1100x300
+        serie: 2/5
+        gastronorm: 5-10 1/1
+        ventilador: 7/7 - 1/10
+        diametre_conducte: '150'
+        potencia_electrica: 100 W 230/1V
+        preu: '2.455'
+    - codi: '31585080'
+      cel_les:
+        codi: '31585080'
+        pes: '55'
+        mesures: 900x1100x300
+        serie: 2/5
+        gastronorm: 5-10 1/1
+        ventilador: 7/7 - 1/10
+        diametre_conducte: '-'
+        potencia_electrica: 300 W 230/1V
+        preu: '2.950'
+    - codi: '31685080'
+      cel_les:
+        codi: '31685080'
+        pes: '60'
+        mesures: 860x1100x300
+        serie: '8'
+        gastronorm: 6-10 1/1
+        ventilador: 7/7 - 1/10
+        diametre_conducte: '-'
+        potencia_electrica: 400 W 230/1V
+        preu: '3.395'
+    - codi: '31285080'
+      cel_les:
+        codi: '31285080'
+        pes: '75'
+        mesures: 1120x1150x300
+        serie: '8'
+        gastronorm: 6-10 2/1
+        ventilador: 7/7 - 1/10
+        diametre_conducte: '-'
+        potencia_electrica: 400 W 230/1V
+        preu: '3.550'
+- pagina_pub: 16
+  pagina_pdf: 406
+  taules:
+  - id: p16-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - filtres
+    - ventilador
+    - hp
+    - diametre_conducte
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 31021MDA
+      cel_les:
+        codi: 31021MDA
+        pes: '30'
+        mesures: 1000x1150x500
+        filtres: 2 - 500x500x50
+        ventilador: 10/10 -
+        hp: 3/4
+        diametre_conducte: '250'
+        preu: '1.885'
+    - codi: 31031MDA
+      cel_les:
+        codi: 31031MDA
+        pes: '40'
+        mesures: 1500x1150x500
+        filtres: 3 - 500x500x50
+        ventilador: 10/10 -
+        hp: '1'
+        diametre_conducte: '300'
+        preu: '2.335'
+    - codi: 31041MDA
+      cel_les:
+        codi: 31041MDA
+        pes: '50'
+        mesures: 2000x1150x500
+        filtres: 4 - 500x500x50
+        ventilador: 10/10 -
+        hp: 1,5
+        diametre_conducte: '350'
+        preu: '2.790'
+    - codi: 31051MDA
+      cel_les:
+        codi: 31051MDA
+        pes: '60'
+        mesures: 2500x1150x500
+        filtres: 5 - 500x500x50
+        ventilador: 12/12 -
+        hp: 1,5
+        diametre_conducte: '400'
+        preu: '3.265'
+    - codi: 31061MDA
+      cel_les:
+        codi: 31061MDA
+        pes: '70'
+        mesures: 3000x1150x500
+        filtres: 6 - 500x500x50
+        ventilador: 12/12 -
+        hp: 1,5
+        diametre_conducte: '400'
+        preu: '4.070'
+    - codi: 31022MDA
+      cel_les:
+        codi: 31022MDA
+        pes: '40'
+        mesures: 1000x1500x500
+        filtres: 2 - 500x500x50
+        ventilador: 10/10 -
+        hp: 3/4
+        diametre_conducte: '250'
+        preu: '2.050'
+    - codi: 31032MDA
+      cel_les:
+        codi: 31032MDA
+        pes: '50'
+        mesures: 1500x1500x500
+        filtres: 3 - 500x500x50
+        ventilador: 10/10 -
+        hp: '1'
+        diametre_conducte: '300'
+        preu: '2.520'
+    - codi: 31042MDA
+      cel_les:
+        codi: 31042MDA
+        pes: '60'
+        mesures: 2000x1500x500
+        filtres: 4 - 500x500x50
+        ventilador: 10/10 -
+        hp: 1,5
+        diametre_conducte: '350'
+        preu: '2.975'
+    - codi: 31052MDA
+      cel_les:
+        codi: 31052MDA
+        pes: '70'
+        mesures: 2500x1500x500
+        filtres: 5 - 500x500x50
+        ventilador: 12/12 -
+        hp: 1,5
+        diametre_conducte: '400'
+        preu: '3.450'
+    - codi: 31062MDA
+      cel_les:
+        codi: 31062MDA
+        pes: '80'
+        mesures: 3000x1500x500
+        filtres: 6 - 500x500x50
+        ventilador: 12/12 -
+        hp: 1,5
+        diametre_conducte: '400'
+        preu: '4.330'
+- pagina_pub: 17
+  pagina_pdf: 407
+  taules:
+  - id: p17-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - filtres
+    - ventilador
+    - hp
+    - diametre_conducte
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 31037MDM
+      cel_les:
+        codi: 31037MDM
+        pes: '36'
+        mesures: 1500x800x680
+        filtres: 3 - 500x500x50
+        ventilador: 10/10 -
+        hp: '1'
+        diametre_conducte: '300'
+        preu: '1.725'
+    - codi: 31047MDM
+      cel_les:
+        codi: 31047MDM
+        pes: '44'
+        mesures: 2000x800x680
+        filtres: 4 - 500x500x50
+        ventilador: 10/10 -
+        hp: 1,5
+        diametre_conducte: '350'
+        preu: '2.050'
+    - codi: 31057MDM
+      cel_les:
+        codi: 31057MDM
+        pes: '52'
+        mesures: 2500x800x680
+        filtres: 5 - 500x500x50
+        ventilador: 12/12 -
+        hp: 1,5
+        diametre_conducte: '400'
+        preu: '2.350'
+    - codi: 31067MDM
+      cel_les:
+        codi: 31067MDM
+        pes: '60'
+        mesures: 3000x800x680
+        filtres: 6 - 500x500x50
+        ventilador: 12/12 -
+        hp: 1,5
+        diametre_conducte: '400'
+        preu: '2.975'
+    - codi: 31031MDM
+      cel_les:
+        codi: 31031MDM
+        pes: '39'
+        mesures: 1500x1100x680
+        filtres: 3 - 500x500x50
+        ventilador: 10/10 -
+        hp: '1'
+        diametre_conducte: '300'
+        preu: '1.950'
+    - codi: 31041MDM
+      cel_les:
+        codi: 31041MDM
+        pes: '49'
+        mesures: 2000x1100x680
+        filtres: 4 - 500x500x50
+        ventilador: 10/10 -
+        hp: 1,5
+        diametre_conducte: '350'
+        preu: '2.300'
+    - codi: 31051MDM
+      cel_les:
+        codi: 31051MDM
+        pes: '59'
+        mesures: 2500x1100x680
+        filtres: 5 - 500x500x50
+        ventilador: 12/12 -
+        hp: 1,5
+        diametre_conducte: '400'
+        preu: '2.620'
+    - codi: 31061MDM
+      cel_les:
+        codi: 31061MDM
+        pes: '69'
+        mesures: 3000x1100x680
+        filtres: 6 - 500x500x50
+        ventilador: 12/12 -
+        hp: 1,5
+        diametre_conducte: '400'
+        preu: '3.285'
+- pagina_pub: 18
+  pagina_pdf: 408
+  taules:
+  - id: p18-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - filtres
+    - ventilador
+    - hp
+    - diametre_conducte
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 31037MDR
+      cel_les:
+        codi: 31037MDR
+        pes: '36'
+        mesures: 1500x800x680
+        filtres: 3 - 500x500x50
+        ventilador: 10/10 -
+        hp: '1'
+        diametre_conducte: '300'
+        preu: '1.985'
+    - codi: 31047MDR
+      cel_les:
+        codi: 31047MDR
+        pes: '44'
+        mesures: 2000x800x680
+        filtres: 4 - 500x500x50
+        ventilador: 10/10 -
+        hp: 1,5
+        diametre_conducte: '350'
+        preu: '2.345'
+    - codi: 31057MDR
+      cel_les:
+        codi: 31057MDR
+        pes: '52'
+        mesures: 2500x800x680
+        filtres: 5 - 500x500x50
+        ventilador: 12/12 -
+        hp: 1,5
+        diametre_conducte: '400'
+        preu: '2.760'
+    - codi: 31067MDR
+      cel_les:
+        codi: 31067MDR
+        pes: '60'
+        mesures: 3000x800x680
+        filtres: 6 - 500x500x50
+        ventilador: 12/12 -
+        hp: 1,5
+        diametre_conducte: '400'
+        preu: '3.495'
+    - codi: 31031MDR
+      cel_les:
+        codi: 31031MDR
+        pes: '39'
+        mesures: 1500x1100x680
+        filtres: 3 - 500x500x50
+        ventilador: 10/10 -
+        hp: '1'
+        diametre_conducte: '300'
+        preu: '2.225'
+    - codi: 31041MDR
+      cel_les:
+        codi: 31041MDR
+        pes: '49'
+        mesures: 2000x1100x680
+        filtres: 4 - 500x500x50
+        ventilador: 10/10 -
+        hp: 1,5
+        diametre_conducte: '350'
+        preu: '2.605'
+    - codi: 31051MDR
+      cel_les:
+        codi: 31051MDR
+        pes: '59'
+        mesures: 2500x1100x680
+        filtres: 5 - 500x500x50
+        ventilador: 12/12 -
+        hp: 1,5
+        diametre_conducte: '400'
+        preu: '3.055'
+    - codi: 31061MDR
+      cel_les:
+        codi: 31061MDR
+        pes: '69'
+        mesures: 3000x1100x680
+        filtres: 6 - 500x500x50
+        ventilador: 12/12 -
+        hp: 1,5
+        diametre_conducte: '400'
+        preu: '3.825'
+- pagina_pub: 19
+  pagina_pdf: 409
+  taules:
+  - id: p19-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - filtres
+    - ventilador
+    - hp
+    - diametre_conducte
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 31061CDM
+      cel_les:
+        codi: 31061CDM
+        pes: '51'
+        mesures: 1500x1675x680
+        filtres: 6 - 500x500x50
+        ventilador: 12/12 -
+        hp: 1,5
+        diametre_conducte: '400'
+        preu: '2.970'
+    - codi: 31081CDM
+      cel_les:
+        codi: 31081CDM
+        pes: '63'
+        mesures: 2000x1675x680
+        filtres: 8 - 500x500x50
+        ventilador: 15/15 -
+        hp: '2'
+        diametre_conducte: '450'
+        preu: '3.505'
+    - codi: 31101CDM
+      cel_les:
+        codi: 31101CDM
+        pes: '75'
+        mesures: 2500x1675x680
+        filtres: 10 - 500x500x50
+        ventilador: 18/18 -
+        hp: '2'
+        diametre_conducte: '550'
+        preu: '4.050'
+    - codi: 31121CDM
+      cel_les:
+        codi: 31121CDM
+        pes: '90'
+        mesures: 3000x1675x680
+        filtres: 12 - 500x500x50
+        ventilador: 18/18 -
+        hp: '3'
+        diametre_conducte: '600'
+        preu: '5.085'
+- pagina_pub: 20
+  pagina_pdf: 410
+  taules:
+  - id: p20-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - filtres
+    - ventilador
+    - hp
+    - diametre_conducte
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 31082CDR
+      cel_les:
+        codi: 31082CDR
+        pes: '73'
+        mesures: 2000x2200x750
+        filtres: 8 - 500x500x50
+        ventilador: 15/15 -
+        hp: '2'
+        diametre_conducte: '450'
+        preu: '5.945'
+    - codi: 31102CDR
+      cel_les:
+        codi: 31102CDR
+        pes: '86'
+        mesures: 2500x2200x750
+        filtres: 10 - 500x500x50
+        ventilador: 18/18 -
+        hp: '2'
+        diametre_conducte: '550'
+        preu: '6.735'
+    - codi: 31122CDR
+      cel_les:
+        codi: 31122CDR
+        pes: '103'
+        mesures: 3000x2200x750
+        filtres: 12 - 500x500x50
+        ventilador: 18/18 -
+        hp: '3'
+        diametre_conducte: '600'
+        preu: '8.275'
+    - codi: 31142CDR
+      cel_les:
+        codi: 31142CDR
+        pes: '120'
+        mesures: 3500x2200x750
+        filtres: 14 - 500x500x50
+        ventilador: 18/18 -
+        hp: '3'
+        diametre_conducte: '650'
+        preu: '9.415'
+    - codi: 31162CDR
+      cel_les:
+        codi: 31162CDR
+        pes: '137'
+        mesures: 4000x2200x750
+        filtres: 16 - 500x500x50
+        ventilador: 18/18 -
+        hp: '4'
+        diametre_conducte: '650'
+        preu: '10.580'
+    - codi: 31182CDR
+      cel_les:
+        codi: 31182CDR
+        pes: '154'
+        mesures: 4500x2200x750
+        filtres: 18 - 500x500x50
+        ventilador: 18/18 -
+        hp: 5,5
+        diametre_conducte: '700'
+        preu: '11.365'
+    - codi: 31202CDR
+      cel_les:
+        codi: 31202CDR
+        pes: '170'
+        mesures: 5000x2200x750
+        filtres: 20 - 500x500x50
+        ventilador: 22/22 -
+        hp: 5,5
+        diametre_conducte: '750'
+        preu: '12.160'
+- pagina_pub: 21
+  pagina_pdf: 411
+  taules:
+  - id: p21-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - filtres
+    - col4
+    - col5
+    - col6
+    - col7
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 31031MDC
+      cel_les:
+        codi: 31031MDC
+        pes: '75'
+        mesures: 1500x1200x750
+        filtres: 3 - 500x500x50
+        col4: 10/10 - 1
+        col5: '300'
+        col6: 9/9 - 1/3
+        col7: '250'
+        preu: '3.010'
+    - codi: 31041MDC
+      cel_les:
+        codi: 31041MDC
+        pes: '97'
+        mesures: 2000x1200x750
+        filtres: 4 - 500x500x50
+        col4: 10/10 - 1,5
+        col5: '350'
+        col6: 9/9 - 1/3
+        col7: '300'
+        preu: '3.680'
+    - codi: 31051MDC
+      cel_les:
+        codi: 31051MDC
+        pes: '119'
+        mesures: 2500x1200x750
+        filtres: 5 - 500x500x50
+        col4: 12/12 - 1,5
+        col5: '400'
+        col6: 10/10 - 1/3
+        col7: '300'
+        preu: '4.220'
+    - codi: 31061MDC
+      cel_les:
+        codi: 31061MDC
+        pes: '141'
+        mesures: 3000x1200x750
+        filtres: 6 - 500x500x50
+        col4: 12/12 - 1,5
+        col5: '400'
+        col6: 10/10 - 1/3
+        col7: '350'
+        preu: '5.225'
+    - codi: 31071MDC
+      cel_les:
+        codi: 31071MDC
+        pes: '163'
+        mesures: 3500x1200x750
+        filtres: 7 - 500x500x50
+        col4: 15/15 - 1,5
+        col5: '450'
+        col6: 10/10 - 1/3
+        col7: '350'
+        preu: '5.900'
+    - codi: 31081MDC
+      cel_les:
+        codi: 31081MDC
+        pes: '185'
+        mesures: 4000x1200x750
+        filtres: 8 - 500x500x50
+        col4: 15/15 - 2
+        col5: '450'
+        col6: 10/10 - 1/3
+        col7: '350'
+        preu: '6.575'
+    - codi: 31091MDC
+      cel_les:
+        codi: 31091MDC
+        pes: '207'
+        mesures: 4500x1200x750
+        filtres: 9 - 500x500x50
+        col4: 18/18 - 2
+        col5: '500'
+        col6: 12/12 - 1
+        col7: '400'
+        preu: '7.110'
+    - codi: 31101MDC
+      cel_les:
+        codi: 31101MDC
+        pes: '229'
+        mesures: 5000x1200x750
+        filtres: 10 - 500x500x50
+        col4: 18/18 - 2
+        col5: '550'
+        col6: 12/12 - 1
+        col7: '400'
+        preu: '7.645'
+- pagina_pub: 22
+  pagina_pdf: 412
+  taules:
+  - id: p22-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - filtres
+    - col4
+    - col5
+    - col6
+    - col7
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 31082CDC
+      cel_les:
+        codi: 31082CDC
+        pes: '153'
+        mesures: 2000x2200x750
+        filtres: 8 - 500x500x50
+        col4: 15/15 - 2
+        col5: '450'
+        col6: 10/10 - 3/4
+        col7: '350'
+        preu: '6.725'
+    - codi: 31102CDC
+      cel_les:
+        codi: 31102CDC
+        pes: '186'
+        mesures: 2500x2200x750
+        filtres: 10 - 500x500x50
+        col4: 18/18 - 2
+        col5: '550'
+        col6: 12/12 - 1
+        col7: '400'
+        preu: '7.615'
+    - codi: 31122CDC
+      cel_les:
+        codi: 31122CDC
+        pes: '223'
+        mesures: 3000x2200x750
+        filtres: 12 - 500x500x50
+        col4: 18/18 - 3
+        col5: '600'
+        col6: 12/12 - 1,5
+        col7: '450'
+        preu: '9.360'
+    - codi: 31142CDC
+      cel_les:
+        codi: 31142CDC
+        pes: '260'
+        mesures: 3500x2200x750
+        filtres: 14 - 500x500x50
+        col4: 18/18 - 3
+        col5: '650'
+        col6: 12/12 - 1,5
+        col7: '500'
+        preu: '10.980'
+    - codi: 31162CDC
+      cel_les:
+        codi: 31162CDC
+        pes: '297'
+        mesures: 4000x2200x750
+        filtres: 16 - 500x500x50
+        col4: 18/18 - 4
+        col5: '650'
+        col6: 15/15 - 3
+        col7: '500'
+        preu: '11.960'
+    - codi: 31182CDC
+      cel_les:
+        codi: 31182CDC
+        pes: '334'
+        mesures: 4500x2200x750
+        filtres: 18 - 500x500x50
+        col4: 18/18 - 5,5
+        col5: '700'
+        col6: 15/15 - 3
+        col7: '500'
+        preu: '12.850'
+    - codi: 31202CDC
+      cel_les:
+        codi: 31202CDC
+        pes: '370'
+        mesures: 5000x2200x750
+        filtres: 20 - 500x500x50
+        col4: 22/22 - 5,5
+        col5: '750'
+        col6: 15/15 - 3
+        col7: '500'
+        preu: '13.740'
+- pagina_pub: 24
+  pagina_pdf: 414
+  taules:
+  - id: p24-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - mesures
+    - extincio_pci
+    - extintor
+    - filtres
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 3108PG13
+      cel_les:
+        codi: 3108PG13
+        mesures: '1000'
+        extincio_pci: '1'
+        extintor: '1'
+        filtres: '2'
+        preu: '3.910'
+    - codi: 3109PG13
+      cel_les:
+        codi: 3109PG13
+        mesures: '1500'
+        extincio_pci: '2'
+        extintor: '1'
+        filtres: '3'
+        preu: '4.010'
+    - codi: 3110PG13
+      cel_les:
+        codi: 3110PG13
+        mesures: '2000'
+        extincio_pci: '3'
+        extintor: '1'
+        filtres: '4'
+        preu: '4.110'
+    - codi: 3111PG13
+      cel_les:
+        codi: 3111PG13
+        mesures: '2500'
+        extincio_pci: '3'
+        extintor: '1'
+        filtres: '5'
+        preu: '4.110'
+    - codi: 3112PG13
+      cel_les:
+        codi: 3112PG13 3129PG13
+        mesures: 3000 1500
+        extincio_pci: 4 4
+        extintor: 1 1
+        filtres: 6 6 (3+3)
+        preu: 4.210 4.210
+      icones_en_columna:
+      - extincio_pci
+      cel_les_combinades:
+      - codi
+      - extincio_pci
+      - extintor
+      - filtres
+      - mesures
+      - preu
+    - codi: 3129PG13
+      cel_les:
+        codi: 3112PG13 3129PG13
+        mesures: 3000 1500
+        extincio_pci: 4 4
+        extintor: 1 1
+        filtres: 6 6 (3+3)
+        preu: 4.210 4.210
+      icones_en_columna:
+      - extincio_pci
+      cel_les_combinades:
+      - codi
+      - extincio_pci
+      - extintor
+      - filtres
+      - mesures
+      - preu
+    - codi: 3130PG13
+      cel_les:
+        codi: 3130PG13
+        mesures: '2000'
+        extincio_pci: '6'
+        extintor: '2'
+        filtres: 8 (4+4)
+        preu: '5.195'
+    - codi: 3131PG13
+      cel_les:
+        codi: 3131PG13
+        mesures: '2500'
+        extincio_pci: '6'
+        extintor: '2'
+        filtres: 10 (5+5)
+        preu: '5.195'
+    - codi: 3132PG13
+      cel_les:
+        codi: 3132PG13
+        mesures: '3000'
+        extincio_pci: '8'
+        extintor: '2'
+        filtres: 12 (6+6)
+        preu: '5.395'
+    - codi: 3133PG13
+      cel_les:
+        codi: 3133PG13
+        mesures: '3500'
+        extincio_pci: '8'
+        extintor: '2'
+        filtres: 14 (7+7)
+        preu: '5.395'
+    - codi: 3134PG13
+      cel_les:
+        codi: 3134PG13
+        mesures: '4000'
+        extincio_pci: '10'
+        extintor: '3'
+        filtres: 16 (8+8)
+        preu: '6.655'
+    - codi: 3135PG13
+      cel_les:
+        codi: 3135PG13
+        mesures: '4500'
+        extincio_pci: '10'
+        extintor: '3'
+        filtres: 18 (9+9)
+        preu: '6.655'
+    - codi: 3136PG13
+      cel_les:
+        codi: 3136PG13
+        mesures: '5000'
+        extincio_pci: '12'
+        extintor: '3'
+        filtres: 20 (10+10)
+        preu: '6.855'
+    mapa_columnes: sense_colN(1 eliminades)
+- pagina_pub: 25
+  pagina_pdf: 415
+  taules:
+  - id: p25-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - col3
+    - filtres
+    - col5
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 3102PP10
+      cel_les:
+        codi: 3102PP10
+        pes: '18'
+        mesures: 1000x1200x1,5
+        col3: M
+        filtres: '2'
+        col5: '1'
+        preu: '1.010'
+    - codi: 3103PP15
+      cel_les:
+        codi: 3103PP15
+        pes: '27'
+        mesures: 1500x1200x1,5
+        col3: M
+        filtres: '3'
+        col5: '1'
+        preu: '1.170'
+    - codi: 3104PP20
+      cel_les:
+        codi: 3104PP20
+        pes: '36'
+        mesures: 2000x1200x1,5
+        col3: M
+        filtres: '4'
+        col5: '1'
+        preu: '1.390'
+    - codi: 3105PP25
+      cel_les:
+        codi: 3105PP25
+        pes: '45'
+        mesures: 2500x1200x1,5
+        col3: M
+        filtres: '5'
+        col5: '1'
+        preu: '1.835'
+    - codi: 3106PP30
+      cel_les:
+        codi: 3106PP30
+        pes: '54'
+        mesures: 3000x1200x1,5
+        col3: M
+        filtres: '6'
+        col5: '2'
+        preu: '2.225'
+    - codi: 3107PP35
+      cel_les:
+        codi: 3107PP35
+        pes: '63'
+        mesures: 3500x1200x1,5
+        col3: M
+        filtres: '7'
+        col5: '2'
+        preu: '2.440'
+    - codi: 3108PP40
+      cel_les:
+        codi: 3108PP40
+        pes: '72'
+        mesures: 4000x1200x1,5
+        col3: M
+        filtres: '8'
+        col5: '2'
+        preu: '2.635'
+    - codi: 3109PP45
+      cel_les:
+        codi: 3109PP45
+        pes: '81'
+        mesures: 4500x1200x1,5
+        col3: M
+        filtres: '9'
+        col5: '2'
+        preu: '3.085'
+    - codi: 3110PP50
+      cel_les:
+        codi: 3110PP50
+        pes: '90'
+        mesures: 5000x1200x1,5
+        col3: M
+        filtres: '10'
+        col5: '2'
+        preu: '3.485'
+- pagina_pub: 28
+  pagina_pdf: 418
+  taules:
+  - id: p28-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - codi_2
+    - pes
+    - mesures
+    - ventilador
+    - col5
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 270913HN
+      cel_les:
+        codi: 270913HN
+        codi_2: 270913VN
+        pes: '32'
+        mesures: 490x540x540
+        ventilador: 9/9 - 1/3
+        col5: ''
+        potencia_electrica: 220/1V
+        preu: '895'
+    - codi: 271013HN
+      cel_les:
+        codi: 271013HN
+        codi_2: 271013VN
+        pes: '34'
+        mesures: 490x540x540
+        ventilador: 10/10 - 1/3
+        col5: ''
+        potencia_electrica: 220/1V
+        preu: '930'
+    - codi: 271034HN
+      cel_les:
+        codi: 271034HN
+        codi_2: 271034VN
+        pes: '55'
+        mesures: 850x680x580
+        ventilador: 10/10 - 3/4
+        col5: ''
+        potencia_electrica: 400/3V
+        preu: '1.995'
+    - codi: 271010HN
+      cel_les:
+        codi: 271010HN
+        codi_2: 271010VN
+        pes: '55'
+        mesures: 850x680x580
+        ventilador: 10/10 - 1
+        col5: ''
+        potencia_electrica: 400/3V
+        preu: '2.050'
+    - codi: 271015HN
+      cel_les:
+        codi: 271015HN
+        codi_2: 271015VN
+        pes: '55'
+        mesures: 850x680x580
+        ventilador: 10/10 - 1,5
+        col5: ''
+        potencia_electrica: 400/3V
+        preu: '2.150'
+    - codi: 271215HN
+      cel_les:
+        codi: 271215HN
+        codi_2: 271215VN
+        pes: '72'
+        mesures: 1000x780x680
+        ventilador: 12/12 - 1,5
+        col5: ''
+        potencia_electrica: 400/3V
+        preu: '2.360'
+    - codi: 271515HN
+      cel_les:
+        codi: 271515HN
+        codi_2: 271515VN
+        pes: '90'
+        mesures: 1100x880x780
+        ventilador: 15/15 - 1,5
+        col5: ''
+        potencia_electrica: 400/3V
+        preu: '2.650'
+    - codi: 271530HN
+      cel_les:
+        codi: 271530HN
+        codi_2: 271530VN
+        pes: '90'
+        mesures: 1100x880x780
+        ventilador: 15/15 - 3
+        col5: ''
+        potencia_electrica: 400/3V
+        preu: '2.900'
+    - codi: 271820HN
+      cel_les:
+        codi: 271820HN
+        codi_2: 271820VN
+        pes: '130'
+        mesures: 1300x980x880
+        ventilador: 18/18 - 2
+        col5: ''
+        potencia_electrica: 400/3V
+        preu: '3.165'
+    - codi: 272255HN
+      cel_les:
+        codi: 272255HN
+        codi_2: 272255VN
+        pes: '220'
+        mesures: 1700x1280x1180
+        ventilador: 22/22 - 5,5
+        col5: ''
+        potencia_electrica: 400/3V
+        preu: '6.730'
+    - codi: 271210HN
+      cel_les:
+        codi: 271210HN
+        codi_2: 271210VN
+        pes: '72'
+        mesures: 1000x780x680
+        ventilador: 12/12 - 1
+        col5: ''
+        potencia_electrica: 400/3V
+        preu: '2.215'
+    - codi: 271830HN
+      cel_les:
+        codi: 271830HN
+        codi_2: 271830VN
+        pes: '130'
+        mesures: 1300x980x880
+        ventilador: 18/18 - 3
+        col5: ''
+        potencia_electrica: 400/3V
+        preu: '3.400'
+    - codi: 271840HN
+      cel_les:
+        codi: 271840HN
+        codi_2: 271840VN
+        pes: '130'
+        mesures: 1300x980x880
+        ventilador: 18/18 - 4
+        col5: ''
+        potencia_electrica: 400/3V
+        preu: '3.565'
+    - codi: 271855HN
+      cel_les:
+        codi: 271855HN
+        codi_2: 271855VN
+        pes: '130'
+        mesures: 1300x980x880
+        ventilador: 18/18 - 5,5
+        col5: ''
+        potencia_electrica: 400/3V
+        preu: '3.820'
+    - codi: 271520HN
+      cel_les:
+        codi: 271520HN
+        codi_2: 271520VN
+        pes: '90'
+        mesures: 1100x880x780
+        ventilador: 15/15 - 2
+        col5: ''
+        potencia_electrica: 400/3V
+        preu: '2.775'
+- pagina_pub: 29
+  pagina_pdf: 419
+  taules:
+  - id: p29-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - codi_2
+    - pes
+    - mesures
+    - ventilador
+    - col5
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 271010H4
+      cel_les:
+        codi: 271010H4
+        codi_2: 271010V4
+        pes: '93'
+        mesures: 930x820x615
+        ventilador: 10/10 - 1
+        col5: ''
+        potencia_electrica: 400/3V
+        preu: '2.375'
+    - codi: 271015H4
+      cel_les:
+        codi: 271015H4
+        codi_2: 271015V4
+        pes: '93'
+        mesures: 930x820x615
+        ventilador: 10/10 - 1,5
+        col5: ''
+        potencia_electrica: 400/3V
+        preu: '2.445'
+    - codi: 271210H4
+      cel_les:
+        codi: 271210H4
+        codi_2: 271210V4
+        pes: '101'
+        mesures: 995x940x680
+        ventilador: 12/12 - 1
+        col5: ''
+        potencia_electrica: 400/3V
+        preu: '3.035'
+    - codi: 271215H4
+      cel_les:
+        codi: 271215H4
+        codi_2: 271215V4
+        pes: '101'
+        mesures: 995x940x680
+        ventilador: 12/12 - 1,5
+        col5: ''
+        potencia_electrica: 400/3V
+        preu: '3.095'
+    - codi: 271515H4
+      cel_les:
+        codi: 271515H4
+        codi_2: 271515V4
+        pes: '130'
+        mesures: 1085x1090x770
+        ventilador: 15/15 - 1,5
+        col5: ''
+        potencia_electrica: 400/3V
+        preu: '3.730'
+    - codi: 271520H4
+      cel_les:
+        codi: 271520H4
+        codi_2: 271520V4
+        pes: '130'
+        mesures: 1085x1090x770
+        ventilador: 15/15 - 2
+        col5: ''
+        potencia_electrica: 400/3V
+        preu: '3.865'
+    - codi: 271530H4
+      cel_les:
+        codi: 271530H4
+        codi_2: 271530V4
+        pes: '130'
+        mesures: 1085x1090x770
+        ventilador: 15/15 - 3
+        col5: ''
+        potencia_electrica: 400/3V
+        preu: '4.005'
+    - codi: 271820H4
+      cel_les:
+        codi: 271820H4
+        codi_2: 271820V4
+        pes: '180'
+        mesures: 1215x1260x900
+        ventilador: 18/18 - 2
+        col5: ''
+        potencia_electrica: 400/3V
+        preu: '4.185'
+    - codi: 271830H4
+      cel_les:
+        codi: 271830H4
+        codi_2: 271830V4
+        pes: '180'
+        mesures: 1215x1260x900
+        ventilador: 18/18 - 3
+        col5: ''
+        potencia_electrica: 400/3V
+        preu: '4.355'
+    - codi: 271840H4
+      cel_les:
+        codi: 271840H4
+        codi_2: 271840V4
+        pes: '180'
+        mesures: 1215x1260x900
+        ventilador: 18/18 - 4
+        col5: ''
+        potencia_electrica: 400/3V
+        preu: '4.440'
+    - codi: 271855H4
+      cel_les:
+        codi: 271855H4
+        codi_2: 271855V4
+        pes: '180'
+        mesures: 1215x1260x900
+        ventilador: 18/18 - 5,5
+        col5: ''
+        potencia_electrica: 400/3V
+        preu: '4.725'
+    - codi: 272255H4
+      cel_les:
+        codi: 272255H4
+        codi_2: 272255V4
+        pes: '230'
+        mesures: 1625x1500x1165
+        ventilador: 22/22 - 5,5
+        col5: ''
+        potencia_electrica: 400/3V
+        preu: '8.155'
+- pagina_pub: 30
+  pagina_pdf: 420
+  taules:
+  - id: p30-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - col1
+    - mesures
+    - preu
+    columnes_segons: amp
+    files:
+    - codi: '80400150'
+      cel_les:
+        codi: '80400150'
+        col1: ''
+        mesures: 150x1000
+        preu: '19'
+    - codi: '80400000'
+      cel_les:
+        codi: '80400000'
+        col1: ''
+        mesures: 200x1000
+        preu: '25'
+    - codi: '80410000'
+      cel_les:
+        codi: '80410000'
+        col1: ''
+        mesures: 250x1000
+        preu: '29'
+    - codi: '80420000'
+      cel_les:
+        codi: '80420000'
+        col1: ''
+        mesures: 300x1000
+        preu: '36'
+    - codi: '80430000'
+      cel_les:
+        codi: '80430000'
+        col1: ''
+        mesures: 350x1000
+        preu: '46'
+    - codi: '80440000'
+      cel_les:
+        codi: '80440000'
+        col1: ''
+        mesures: 400x1000
+        preu: '56'
+    - codi: '80450000'
+      cel_les:
+        codi: '80450000'
+        col1: ''
+        mesures: 450x1000
+        preu: '70'
+    - codi: '80460000'
+      cel_les:
+        codi: '80460000'
+        col1: ''
+        mesures: 500x1000
+        preu: '85'
+    - codi: '80470000'
+      cel_les:
+        codi: '80470000'
+        col1: ''
+        mesures: 550x1000
+        preu: '93'
+    avisos:
+    - hdr:sense_capcalera
+  - id: p30-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - col1
+    - col2
+    - preu
+    columnes_segons: amp
+    files:
+    - codi: '80480150'
+      cel_les:
+        codi: '80480150'
+        col1: ''
+        col2: '150'
+        preu: '9'
+    - codi: '80480000'
+      cel_les:
+        codi: '80480000'
+        col1: ''
+        col2: '200'
+        preu: '10'
+    - codi: '80490000'
+      cel_les:
+        codi: '80490000'
+        col1: ''
+        col2: '250'
+        preu: '11'
+    - codi: '80500000'
+      cel_les:
+        codi: '80500000'
+        col1: ''
+        col2: '300'
+        preu: '14'
+    - codi: '80510000'
+      cel_les:
+        codi: '80510000'
+        col1: ''
+        col2: '350'
+        preu: '16'
+    - codi: '80520000'
+      cel_les:
+        codi: '80520000'
+        col1: ''
+        col2: '400'
+        preu: '19'
+    - codi: '80530000'
+      cel_les:
+        codi: '80530000'
+        col1: ''
+        col2: '450'
+        preu: '23'
+    - codi: '80540000'
+      cel_les:
+        codi: '80540000'
+        col1: ''
+        col2: '500'
+        preu: '28'
+    - codi: '80550000'
+      cel_les:
+        codi: '80550000'
+        col1: ''
+        col2: '550'
+        preu: '30'
+    avisos:
+    - hdr:sense_capcalera
+  - id: p30-t3
+    reconstruida: true
+    columnes:
+    - codi
+    - col1
+    - col2
+    - preu
+    columnes_segons: amp
+    files:
+    - codi: '80560150'
+      cel_les:
+        codi: '80560150'
+        col1: ''
+        col2: '150'
+        preu: '23'
+    - codi: '80560000'
+      cel_les:
+        codi: '80560000'
+        col1: ''
+        col2: '200'
+        preu: '28'
+    - codi: '80570000'
+      cel_les:
+        codi: '80570000'
+        col1: ''
+        col2: '250'
+        preu: '31'
+    - codi: '80580000'
+      cel_les:
+        codi: '80580000'
+        col1: ''
+        col2: '300'
+        preu: '36'
+    - codi: '80590000'
+      cel_les:
+        codi: '80590000'
+        col1: ''
+        col2: '350'
+        preu: '38'
+    - codi: '80600000'
+      cel_les:
+        codi: '80600000'
+        col1: ''
+        col2: '400'
+        preu: '40'
+    - codi: '80610000'
+      cel_les:
+        codi: '80610000'
+        col1: ''
+        col2: '450'
+        preu: '41'
+    - codi: '80620000'
+      cel_les:
+        codi: '80620000'
+        col1: ''
+        col2: '500'
+        preu: '45'
+    - codi: '80630000'
+      cel_les:
+        codi: '80630000'
+        col1: ''
+        col2: '550'
+        preu: '48'
+    avisos:
+    - hdr:sense_capcalera
+  - id: p30-t4
+    reconstruida: true
+    columnes:
+    - codi
+    - col1
+    - col2
+    - preu
+    columnes_segons: amp
+    files:
+    - codi: '80800150'
+      cel_les:
+        codi: '80800150'
+        col1: ''
+        col2: '150'
+        preu: '38'
+    - codi: '80800000'
+      cel_les:
+        codi: '80800000'
+        col1: ''
+        col2: '200'
+        preu: '54'
+    - codi: '80810000'
+      cel_les:
+        codi: '80810000'
+        col1: ''
+        col2: '250'
+        preu: '66'
+    - codi: '80820000'
+      cel_les:
+        codi: '80820000'
+        col1: ''
+        col2: '300'
+        preu: '95'
+    - codi: '80830000'
+      cel_les:
+        codi: '80830000'
+        col1: ''
+        col2: '350'
+        preu: '105'
+    - codi: '80840000'
+      cel_les:
+        codi: '80840000'
+        col1: ''
+        col2: '400'
+        preu: '131'
+    - codi: '80850000'
+      cel_les:
+        codi: '80850000'
+        col1: ''
+        col2: '450'
+        preu: '163'
+    - codi: '80860000'
+      cel_les:
+        codi: '80860000'
+        col1: ''
+        col2: '500'
+        preu: '201'
+    - codi: '80870000'
+      cel_les:
+        codi: '80870000'
+        col1: ''
+        col2: '550'
+        preu: '245'
+    avisos:
+    - hdr:sense_capcalera
+  - id: p30-t5
+    reconstruida: true
+    columnes:
+    - codi
+    - col1
+    - col2
+    - preu
+    columnes_segons: amp
+    files:
+    - codi: '80720150'
+      cel_les:
+        codi: '80720150'
+        col1: ''
+        col2: '150'
+        preu: '28'
+    - codi: '80720000'
+      cel_les:
+        codi: '80720000'
+        col1: ''
+        col2: '200'
+        preu: '44'
+    - codi: '80730000'
+      cel_les:
+        codi: '80730000'
+        col1: ''
+        col2: '250'
+        preu: '50'
+    - codi: '80740000'
+      cel_les:
+        codi: '80740000'
+        col1: ''
+        col2: '300'
+        preu: '68'
+    - codi: '80750000'
+      cel_les:
+        codi: '80750000'
+        col1: ''
+        col2: '350'
+        preu: '76'
+    - codi: '80760000'
+      cel_les:
+        codi: '80760000'
+        col1: ''
+        col2: '400'
+        preu: '89'
+    - codi: '80770000'
+      cel_les:
+        codi: '80770000'
+        col1: ''
+        col2: '450'
+        preu: '104'
+    - codi: '80780000'
+      cel_les:
+        codi: '80780000'
+        col1: ''
+        col2: '500'
+        preu: '120'
+    - codi: '80790000'
+      cel_les:
+        codi: '80790000'
+        col1: ''
+        col2: '550'
+        preu: '165'
+    avisos:
+    - hdr:sense_capcalera
+  - id: p30-t6
+    reconstruida: true
+    columnes:
+    - codi
+    - col1
+    - col2
+    - preu
+    columnes_segons: amp
+    files:
+    - codi: '80880150'
+      cel_les:
+        codi: '80880150'
+        col1: ''
+        col2: '150'
+        preu: '318'
+    - codi: '80880013'
+      cel_les:
+        codi: '80880013'
+        col1: ''
+        col2: '200'
+        preu: '321'
+    - codi: '80890013'
+      cel_les:
+        codi: '80890013'
+        col1: ''
+        col2: '250'
+        preu: '346'
+    - codi: '80900013'
+      cel_les:
+        codi: '80900013'
+        col1: ''
+        col2: '300'
+        preu: '369'
+    - codi: '80910013'
+      cel_les:
+        codi: '80910013'
+        col1: ''
+        col2: '350'
+        preu: '458'
+    - codi: '80920013'
+      cel_les:
+        codi: '80920013'
+        col1: ''
+        col2: '400'
+        preu: '525'
+    - codi: '80930013'
+      cel_les:
+        codi: '80930013'
+        col1: ''
+        col2: '450'
+        preu: '605'
+    - codi: '80940013'
+      cel_les:
+        codi: '80940013'
+        col1: ''
+        col2: '500'
+        preu: '726'
+    - codi: '80950013'
+      cel_les:
+        codi: '80950013'
+        col1: ''
+        col2: '550'
+        preu: '788'
+    avisos:
+    - hdr:sense_capcalera
+  - id: p30-t7
+    reconstruida: true
+    columnes:
+    - codi
+    - col1
+    - col2
+    - preu
+    columnes_segons: amp
+    files:
+    - codi: '80640000'
+      cel_les:
+        codi: '80640000'
+        col1: ''
+        col2: '200'
+        preu: '30'
+    - codi: '80650000'
+      cel_les:
+        codi: '80650000'
+        col1: ''
+        col2: '250'
+        preu: '34'
+    - codi: '80660000'
+      cel_les:
+        codi: '80660000'
+        col1: ''
+        col2: '300'
+        preu: '38'
+    - codi: '80670000'
+      cel_les:
+        codi: '80670000'
+        col1: ''
+        col2: '350'
+        preu: '48'
+    - codi: '80680000'
+      cel_les:
+        codi: '80680000'
+        col1: ''
+        col2: '400'
+        preu: '59'
+    - codi: '80690000'
+      cel_les:
+        codi: '80690000'
+        col1: ''
+        col2: '450'
+        preu: '63'
+    - codi: '80700000'
+      cel_les:
+        codi: '80700000'
+        col1: ''
+        col2: '500'
+        preu: '70'
+    - codi: '80710000'
+      cel_les:
+        codi: '80710000'
+        col1: ''
+        col2: '550'
+        preu: '79'
+    avisos:
+    - hdr:sense_capcalera
+  - id: p30-t8
+    reconstruida: true
+    columnes:
+    - codi
+    - ventilador
+    - mesures
+    - col3
+    - preu
+    columnes_segons: amp
+    files:
+    - codi: 80MCR150
+      cel_les:
+        codi: 80MCR150
+        ventilador: BAR.
+        mesures: 237x108
+        col3: '150'
+        preu: '136'
+      icones_en_columna:
+      - col3
+      - mesures
+      - preu
+      - ventilador
+    - codi: 80MCR200
+      cel_les:
+        codi: 80MCR200
+        ventilador: BAR.
+        mesures: 237x108
+        col3: '200'
+        preu: '140'
+    - codi: '80000200'
+      cel_les:
+        codi: '80000200'
+        ventilador: 7/7
+        mesures: 240x215
+        col3: '200'
+        preu: '145'
+    - codi: '80010250'
+      cel_les:
+        codi: '80010250'
+        ventilador: 7/7
+        mesures: 240x215
+        col3: '250'
+        preu: '149'
+    - codi: '80020250'
+      cel_les:
+        codi: '80020250'
+        ventilador: 9/9
+        mesures: 310x270
+        col3: '250'
+        preu: '153'
+    - codi: '80030300'
+      cel_les:
+        codi: '80030300'
+        ventilador: 9/9
+        mesures: 310x270
+        col3: '300'
+        preu: '156'
+    - codi: '80040000'
+      cel_les:
+        codi: '80040000'
+        ventilador: 10/10
+        mesures: 340x300
+        col3: '250'
+        preu: '161'
+    - codi: '80050000'
+      cel_les:
+        codi: '80050000'
+        ventilador: 10/10
+        mesures: 340x300
+        col3: '300'
+        preu: '165'
+    - codi: '80060000'
+      cel_les:
+        codi: '80060000'
+        ventilador: 10/10
+        mesures: 340x300
+        col3: '350'
+        preu: '169'
+    - codi: '80074000'
+      cel_les:
+        codi: '80074000'
+        ventilador: 12/9
+        mesures: 365x325
+        col3: '400'
+        preu: '174'
+    - codi: '80080000'
+      cel_les:
+        codi: '80080000'
+        ventilador: 12/12
+        mesures: 410x365
+        col3: '400'
+        preu: '190'
+    - codi: '80090000'
+      cel_les:
+        codi: '80090000'
+        ventilador: 12/12
+        mesures: 410x365
+        col3: '450'
+        preu: '194'
+    - codi: '80100000'
+      cel_les:
+        codi: '80100000'
+        ventilador: 12/12
+        mesures: 410x365
+        col3: '500'
+        preu: '199'
+    - codi: '80110000'
+      cel_les:
+        codi: '80110000'
+        ventilador: 15/15
+        mesures: 485x420
+        col3: '450'
+        preu: '210'
+    - codi: '80120000'
+      cel_les:
+        codi: '80120000'
+        ventilador: 15/15
+        mesures: 485x420
+        col3: '500'
+        preu: '214'
+    - codi: '80130000'
+      cel_les:
+        codi: '80130000'
+        ventilador: 18/18
+        mesures: 575x500
+        col3: '500'
+        preu: '245'
+    - codi: '80140000'
+      cel_les:
+        codi: '80140000'
+        ventilador: 18/18
+        mesures: 575x500
+        col3: '550'
+        preu: '250'
+    avisos:
+    - hdr:sense_capcalera
+  - id: p30-t9
+    reconstruida: true
+    columnes:
+    - codi
+    - preu
+    columnes_segons: amp
+    files:
+    - codi: '81030000'
+      cel_les:
+        codi: '81030000'
+        preu: '145'
+    avisos:
+    - hdr:sense_capcalera
+  - id: p30-t10
+    reconstruida: true
+    columnes:
+    - codi
+    - mesures
+    - preu
+    columnes_segons: amp
+    files:
+    - codi: '81040000'
+      cel_les:
+        codi: '81040000'
+        mesures: 50 mts x 50 mm
+        preu: '23'
+    avisos:
+    - hdr:sense_capcalera
+- pagina_pub: 31
+  pagina_pdf: 421
+  taules:
+  - id: p31-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - col1
+    - mesures
+    - col3
+    - tipo
+    - material
+    - preu
+    columnes_segons: amp
+    files:
+    - codi: 80310MCR
+      cel_les:
+        codi: 80310MCR
+        col1: '1'
+        mesures: 245x325x9
+        col3: ''
+        tipo: Malla Mesch A mailles
+        material: EF Aluminio Aluminium
+        preu: '24'
+    - codi: '80320000'
+      cel_les:
+        codi: '80320000'
+        col1: '2'
+        mesures: 490x490x50
+        col3: ''
+        tipo: Malla Mesch A mailles
+        material: Galvanizado Galvanized Galvanisé
+        preu: '79'
+    - codi: '80330000'
+      cel_les:
+        codi: '80330000'
+        col1: '2'
+        mesures: 490x490x25
+        col3: ''
+        tipo: Malla Mesch A mailles
+        material: Galvanizado Galvanized Galvanisé
+        preu: '61'
+    - codi: '80350000'
+      cel_les:
+        codi: '80350000'
+        col1: '3'
+        mesures: 490x490x50
+        col3: ''
+        tipo: Lamas Louvred Lames
+        material: Inox 430 Stainless Steel 430
+        preu: '165'
+    - codi: '80360000'
+      cel_les:
+        codi: '80360000'
+        col1: '4'
+        mesures: 490x490x25
+        col3: ''
+        tipo: Carbón Charcoal Charbon
+        material: Galvanizado Galvanized Galvanisé
+        preu: '140'
+    avisos:
+    - hdr:sense_capcalera
+  - id: p31-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - mesures
+    - preu
+    - codi_2
+    - mesures_2
+    - preu_2
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 318200RE
+      cel_les:
+        codi: 318200RE
+        mesures: 706x236x55
+        preu: '645'
+        codi_2: 318200AR
+        mesures_2: 1306x236x55
+        preu_2: '700'
+    mapa_columnes: sense_colN(1 eliminades)
+  - id: p31-t3
+    reconstruida: true
+    columnes:
+    - codi
+    - mesures
+    - potencia_electrica
+    - col3
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 800301MR
+      cel_les:
+        codi: 800301MR
+        mesures: 80x80x145
+        potencia_electrica: 230V
+        col3: '3'
+        preu: '209'
+    - codi: 800502MR
+      cel_les:
+        codi: 800502MR
+        mesures: 95x85x165
+        potencia_electrica: 230V
+        col3: '5'
+        preu: '163'
+    - codi: 801003MR
+      cel_les:
+        codi: 801003MR
+        mesures: 95x85x165
+        potencia_electrica: 230V
+        col3: '10'
+        preu: '264'
+  - id: p31-t4
+    reconstruida: true
+    columnes:
+    - codi
+    - mesures
+    - potencia_electrica
+    - col3
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 8001A561
+      cel_les:
+        codi: 8001A561
+        mesures: 70x130x130
+        potencia_electrica: 440V
+        col3: '1'
+        preu: '877'
+    - codi: 8002A561
+      cel_les:
+        codi: 8002A561
+        mesures: 100x130x130
+        potencia_electrica: 440V
+        col3: '2'
+        preu: '1110'
+    - codi: 8003A561
+      cel_les:
+        codi: 8003A561
+        mesures: 140x155x130
+        potencia_electrica: 440V
+        col3: '3'
+        preu: '1.260'
+    - codi: 8055A561
+      cel_les:
+        codi: 8055A561
+        mesures: 140x155x130
+        potencia_electrica: 440V
+        col3: 5,5
+        preu: '1.640'
+  - id: p31-t6
+    reconstruida: false
+    columnes:
+    - codi
+    - potencia_electrica
+    - hp
+    - preu
+    - codi_2
+    - potencia_electrica_2
+    - hp_2
+    - preu_2
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '80340400'
+      cel_les:
+        codi: '80340400'
+        potencia_electrica: 400/3V
+        hp: 3/4
+        preu: '300'
+        codi_2: '80340230'
+        potencia_electrica_2: 230/1V
+        hp_2: 3/4
+        preu_2: '407'
+    - codi: '80100400'
+      cel_les:
+        codi: '80100400'
+        potencia_electrica: 400/3V
+        hp: '1'
+        preu: '345'
+        codi_2: '80100230'
+        potencia_electrica_2: 230/1V
+        hp_2: '1'
+        preu_2: '495'
+    - codi: '80150400'
+      cel_les:
+        codi: '80150400'
+        potencia_electrica: 400/3V
+        hp: 1,5
+        preu: '400'
+        codi_2: '80150230'
+        potencia_electrica_2: 230/1V
+        hp_2: 1,5
+        preu_2: '540'
+    - codi: '80200400'
+      cel_les:
+        codi: '80200400'
+        potencia_electrica: 400/3V
+        hp: '2'
+        preu: '472'
+        codi_2: '80200230'
+        potencia_electrica_2: 230/1V
+        hp_2: '2'
+        preu_2: '627'
+    - codi: '80400400'
+      cel_les:
+        codi: '80400400'
+        potencia_electrica: 400/3V
+        hp: '3'
+        preu: '580'
+        codi_2: '80400230'
+        potencia_electrica_2: 230/1V
+        hp_2: '3'
+        preu_2: '682'

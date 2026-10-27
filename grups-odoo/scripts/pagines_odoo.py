@@ -672,7 +672,8 @@ def baixa_binaris(lect, model, ids_wd, camp, carpeta, nom_fitxer, lot=4):
             if not r[camp]: continue
             b = base64.b64decode(r[camp])
             f = os.path.join(carpeta, f"{nom_fitxer(r['id'], ids_wd[r['id']])}.{_ext(b)}")
-            open(f, 'wb').write(b)
+            tmp = os.path.join(carpeta, '.%d-%s' % (os.getpid(), os.path.basename(f)))      # escriptura atòmica: es generen diversos grups alhora i comparteixen aquesta carpeta
+            open(tmp, 'wb').write(b); os.replace(tmp, f)
             res[r['id']] = (os.path.relpath(f, ROOT), hashlib.sha1(b).hexdigest())
     return res
 

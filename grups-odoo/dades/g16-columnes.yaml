@@ -1,0 +1,2397 @@
+esquema: tarifa-columnes-posicio/1
+grup: 16
+metode: posicio sobre el PDF publicat (intervals X = cel.les de la fila de capcalera del PDF; files = codi + vores de cel.la del PDF)
+font_pdf: cataleg_original_web.pdf
+nota: 'Per taula: fila (codi) -> columna (clau del gN.yaml) -> text tal com surt al PDF publicat. "-" = guio del catalag; "[icona]" = cel.la amb una icona (energia gas/electric...), sense text. icones_en_columna
+  = columnes amb una icona a la cel.la. cel_les_combinades (si n hi ha) = valor de cel.la combinada copiat a totes les files que cobreix. codi_al_pdf = el PDF porta un codi diferent del .pub.'
+pagines:
+- pagina_pub: 6
+  pagina_pdf: 822
+  taules:
+  - id: p06-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - velocitat
+    - longitud_barra
+    - immersio_mm
+    - capacitat_litres
+    - motor
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 170052XM
+      cel_les:
+        codi: 170052XM
+        pes: 2,2
+        mesures: 135x100x600
+        velocitat: '13000'
+        longitud_barra: '300'
+        immersio_mm: '190'
+        capacitat_litres: '30'
+        motor: 250 W 230/1V
+        preu: '395'
+    - codi: 17304MXF
+      cel_les:
+        codi: 17304MXF
+        pes: 3,3
+        mesures: 155x120x640
+        velocitat: 2500/11000
+        longitud_barra: '300'
+        immersio_mm: '190'
+        capacitat_litres: '30'
+        motor: 400 W 230/1V
+        preu: '575'
+    - codi: 17404MXF
+      cel_les:
+        codi: 17404MXF
+        pes: 3,5
+        mesures: 155x120x740
+        velocitat: 2500/11000
+        longitud_barra: '400'
+        immersio_mm: '290'
+        capacitat_litres: '60'
+        motor: 400 W 230/1V
+        preu: '570'
+    - codi: 17504MXF
+      cel_les:
+        codi: 17504MXF
+        pes: 3,7
+        mesures: 155x120x840
+        velocitat: 2500/11000
+        longitud_barra: '500'
+        immersio_mm: '390'
+        capacitat_litres: '100'
+        motor: 400 W 230/1V
+        preu: '590'
+    - codi: 17604MXF
+      cel_les:
+        codi: 17604MXF
+        pes: 3,9
+        mesures: 155x120x940
+        velocitat: 2500/11000
+        longitud_barra: '600'
+        immersio_mm: '490'
+        capacitat_litres: '150'
+        motor: 400 W 230/1V
+        preu: '630'
+- pagina_pub: 7
+  pagina_pdf: 823
+  taules:
+  - id: p07-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - velocitat
+    - batedora
+    - longitud_barra
+    - immersio_mm
+    - capacitat_litres
+    - motor
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 170F4MXF
+      cel_les:
+        codi: 170F4MXF
+        pes: 3,1
+        mesures: 155x120x690
+        velocitat: 250/1500
+        batedora: '350'
+        longitud_barra: '-'
+        immersio_mm: '190'
+        capacitat_litres: '30'
+        motor: 400 W 230/1V
+        preu: '580'
+    - codi: 173F4MXF
+      cel_les:
+        codi: 173F4MXF
+        pes: 4,3
+        mesures: 155x120x690/640
+        velocitat: 250/1500 2500/11000
+        batedora: '350'
+        longitud_barra: '300'
+        immersio_mm: '190'
+        capacitat_litres: '30'
+        motor: 400 W 230/1V
+        preu: '825'
+      cel_les_combinades:
+      - velocitat
+    - codi: 174F4MXF
+      cel_les:
+        codi: 174F4MXF
+        pes: 4,5
+        mesures: 155x120x690/740
+        velocitat: 250/1500 2500/11000
+        batedora: '350'
+        longitud_barra: '400'
+        immersio_mm: '290'
+        capacitat_litres: '60'
+        motor: 400 W 230/1V
+        preu: '770'
+      cel_les_combinades:
+      - velocitat
+    - codi: 175F4MXF
+      cel_les:
+        codi: 175F4MXF
+        pes: 4,7
+        mesures: 155x120x690/840
+        velocitat: 250/1500 2500/11000
+        batedora: '350'
+        longitud_barra: '500'
+        immersio_mm: '390'
+        capacitat_litres: '100'
+        motor: 400 W 230/1V
+        preu: '840'
+      cel_les_combinades:
+      - velocitat
+    - codi: 176F4MXF
+      cel_les:
+        codi: 176F4MXF
+        pes: 4,9
+        mesures: 155x120x690/940
+        velocitat: 250/1500 2500/11000
+        batedora: '350'
+        longitud_barra: '600'
+        immersio_mm: '490'
+        capacitat_litres: '150'
+        motor: 400 W 230/1V
+        preu: '875'
+      cel_les_combinades:
+      - velocitat
+- pagina_pub: 8
+  pagina_pdf: 824
+  taules:
+  - id: p08-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - ''
+    - mesures
+    - col3
+    - col4
+    - motor
+    - col6
+    - col7
+    - preu
+    columnes_segons: amp
+    files:
+    - codi: 173MFATS
+      cel_les:
+        codi: 173MFATS
+        ? ''
+        : 170x350
+        mesures: ''
+        col3: ''
+        col4: PARA
+        motor: FOR
+        col6: POUR 400
+        col7: W
+        preu: '245'
+    avisos:
+    - hdr:recompte(4 vs 9)
+  - id: p08-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - mesures
+    - motor
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 170352EM
+      cel_les:
+        codi: 170352EM
+        mesures: '300'
+        motor: PARA FOR POUR 250 W
+        preu: '180'
+    - codi: 170304EM
+      cel_les:
+        codi: 170304EM
+        mesures: '300'
+        motor: PARA FOR POUR 400 W
+        preu: '225'
+    - codi: 170404EM
+      cel_les:
+        codi: 170404EM
+        mesures: '400'
+        motor: PARA FOR POUR 400 W
+        preu: '225'
+    - codi: 170504EM
+      cel_les:
+        codi: 170504EM
+        mesures: '500'
+        motor: PARA FOR POUR 400 W
+        preu: '240'
+    - codi: 170604EM
+      cel_les:
+        codi: 170604EM
+        mesures: '600'
+        motor: PARA FOR POUR 400 W
+        preu: '275'
+    mapa_columnes: sense_colN(5 eliminades)
+- pagina_pub: 9
+  pagina_pdf: 825
+  taules:
+  - id: p09-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - diametre_alcada
+    - distancia
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '17539310'
+      cel_les:
+        codi: '17539310'
+        pes: '13'
+        mesures: 350x400x410
+        diametre_alcada: '220'
+        distancia: '13'
+        potencia_electrica: 210 W 230/1V
+        preu: '665'
+    - codi: '17572210'
+      cel_les:
+        codi: '17572210'
+        pes: '14'
+        mesures: 390x420x470
+        diametre_alcada: '250'
+        distancia: '13'
+        potencia_electrica: 240 W 230/1V
+        preu: '760'
+    - codi: 170030CE
+      cel_les:
+        codi: 170030CE
+        pes: '17'
+        mesures: 440x525x590
+        diametre_alcada: '300'
+        distancia: '18'
+        potencia_electrica: 270 W 230/1V
+        preu: '1.045'
+- pagina_pub: 10
+  pagina_pdf: 826
+  taules:
+  - id: p10-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - diametre_alcada
+    - distancia
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '17865000'
+      cel_les:
+        codi: '17865000'
+        pes: '30'
+        mesures: 540x650x450
+        diametre_alcada: '300'
+        distancia: '15'
+        potencia_electrica: 260 W 230/1V
+        preu: '4.165'
+    - codi: '17965000'
+      cel_les:
+        codi: '17965000'
+        pes: '48'
+        mesures: 580x720x470
+        diametre_alcada: '350'
+        distancia: '15'
+        potencia_electrica: 370 W 230/1V
+        preu: '5.105'
+- pagina_pub: 13
+  pagina_pdf: 829
+  taules:
+  - id: p13-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - capacitat_litres
+    - dimensions_cubeta
+    - velocitat
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '55010121'
+      cel_les:
+        codi: '55010121'
+        pes: '34'
+        mesures: 290x450x550
+        capacitat_litres: '7'
+        dimensions_cubeta: Ø 240 x 160
+        velocitat: '70'
+        potencia_electrica: 230 W 230/1V
+        preu: '1.530'
+    - codi: '55510121'
+      cel_les:
+        codi: '55510121'
+        pes: '68'
+        mesures: 400x630x700
+        capacitat_litres: '16'
+        dimensions_cubeta: Ø 320 x 210
+        velocitat: '85'
+        potencia_electrica: 550 W 230/1V
+        preu: '2.075'
+    - codi: '55020121'
+      cel_les:
+        codi: '55020121'
+        pes: '69'
+        mesures: 400x670x700
+        capacitat_litres: '21'
+        dimensions_cubeta: Ø 360 x 210
+        velocitat: '85'
+        potencia_electrica: 750 W 230/1V
+        preu: '2.030'
+    - codi: '55030121'
+      cel_les:
+        codi: '55030121'
+        pes: '95'
+        mesures: 440x680x780
+        capacitat_litres: '32'
+        dimensions_cubeta: Ø 400 x 260
+        velocitat: '92'
+        potencia_electrica: 1100 W 230/1V
+        preu: '2.430'
+- pagina_pub: 14
+  pagina_pdf: 830
+  taules:
+  - id: p14-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - capacitat_litres
+    - dimensions_cubeta
+    - velocitat
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '55020221'
+      cel_les:
+        codi: '55020221'
+        pes: '80'
+        mesures: 390x670x730
+        capacitat_litres: '21'
+        dimensions_cubeta: Ø 380 x 210
+        velocitat: '85'
+        potencia_electrica: 750 W 230/1V
+        preu: '3.035'
+    - codi: '55020261'
+      cel_les:
+        codi: '55020261'
+        pes: '82'
+        mesures: 390x670x730
+        capacitat_litres: '21'
+        dimensions_cubeta: Ø 380 x 210
+        velocitat: 85/170
+        potencia_electrica: 750 W 230/1V
+        preu: '3.455'
+    - codi: '55030221'
+      cel_les:
+        codi: '55030221'
+        pes: '99'
+        mesures: 430x740x810
+        capacitat_litres: '32'
+        dimensions_cubeta: Ø 400 x 260
+        velocitat: '92'
+        potencia_electrica: 1100 W 230/1V
+        preu: '3.290'
+    - codi: '55030261'
+      cel_les:
+        codi: '55030261'
+        pes: '100'
+        mesures: 430x740x810
+        capacitat_litres: '32'
+        dimensions_cubeta: Ø 400 x 260
+        velocitat: 92/184
+        potencia_electrica: 1500 W 230/1V
+        preu: '4.000'
+    - codi: '55040221'
+      cel_les:
+        codi: '55040221'
+        pes: '114'
+        mesures: 480x810x830
+        capacitat_litres: '41'
+        dimensions_cubeta: Ø 450 x 260
+        velocitat: '92'
+        potencia_electrica: 1100 W 230/1V
+        preu: '3.900'
+    - codi: '55040261'
+      cel_les:
+        codi: '55040261'
+        pes: '116'
+        mesures: 480x810x830
+        capacitat_litres: '41'
+        dimensions_cubeta: Ø 450 x 260
+        velocitat: 92/184
+        potencia_electrica: 2200 W 230/1V
+        preu: '4.615'
+    - codi: '55050221'
+      cel_les:
+        codi: '55050221'
+        pes: '136'
+        mesures: 480x810x870
+        capacitat_litres: '48'
+        dimensions_cubeta: Ø 450 x 300
+        velocitat: '92'
+        potencia_electrica: 1500 W 230/1V
+        preu: '4.045'
+    - codi: '55050261'
+      cel_les:
+        codi: '55050261'
+        pes: '137'
+        mesures: 480x810x870
+        capacitat_litres: '48'
+        dimensions_cubeta: Ø 450 x 300
+        velocitat: 92/184
+        potencia_electrica: 2200 W 230/1V
+        preu: '4.860'
+- pagina_pub: 15
+  pagina_pdf: 831
+  taules:
+  - id: p15-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - capacitat_litres
+    - dimensions_cubeta
+    - velocitat
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '55010521'
+      cel_les:
+        codi: '55010521'
+        pes: '56'
+        mesures: 450x430x610
+        capacitat_litres: '10'
+        dimensions_cubeta: Ø 300 x 210
+        velocitat: 113/184/341
+        potencia_electrica: 450 W 230/1V
+        preu: '1.675'
+    - codi: '55020521'
+      cel_les:
+        codi: '55020521'
+        pes: '94'
+        mesures: 530x500x780
+        capacitat_litres: '20'
+        dimensions_cubeta: Ø 380 x 210
+        velocitat: 108/161/382
+        potencia_electrica: 1100 W 230/1V
+        preu: '2.015'
+    - codi: '55030521'
+      cel_les:
+        codi: '55030521'
+        pes: '105'
+        mesures: 550x510x850
+        capacitat_litres: '30'
+        dimensions_cubeta: Ø 400 x 260
+        velocitat: 108/161/382
+        potencia_electrica: 1100 W 400/3V
+        preu: '2.905'
+    - codi: '55040521'
+      cel_les:
+        codi: '55040521'
+        pes: '150'
+        mesures: 640x530x1000
+        capacitat_litres: '40'
+        dimensions_cubeta: Ø 450 x 260
+        velocitat: 84/151/270
+        potencia_electrica: 2200 W 400/3V
+        preu: '3.915'
+- pagina_pub: 16
+  pagina_pdf: 832
+  taules:
+  - id: p16-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - capacitat_litres
+    - dimensions_cubeta
+    - velocitat
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '55124005'
+      cel_les:
+        codi: '55124005'
+        pes: '13'
+        mesures: 240x380x400
+        capacitat_litres: '5'
+        dimensions_cubeta: Ø 240 x 180
+        velocitat: 0 a 302
+        potencia_electrica: 500 W 230/1V
+        preu: '690'
+    - codi: '55124007'
+      cel_les:
+        codi: '55124007'
+        pes: '15'
+        mesures: 240x380x420
+        capacitat_litres: 7,5
+        dimensions_cubeta: Ø 240 x 200
+        velocitat: 0 a 302
+        potencia_electrica: 500 W 230/1V
+        preu: '720'
+    - codi: '55124010'
+      cel_les:
+        codi: '55124010'
+        pes: '18'
+        mesures: 240x380x450
+        capacitat_litres: '10'
+        dimensions_cubeta: Ø 240 x 230
+        velocitat: 0 a 302
+        potencia_electrica: 500 W 230/1V
+        preu: '920'
+- pagina_pub: 19
+  pagina_pdf: 835
+  taules:
+  - id: p19-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - diametre
+    - pedal
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '55105012'
+      cel_les:
+        codi: '55105012'
+        pes: '25'
+        mesures: 650x355x355
+        diametre: Ø 260 / 450
+        pedal: 'NO'
+        potencia_electrica: 370 W 230/1V
+        preu: '1.340'
+    - codi: 5510501P
+      cel_les:
+        codi: 5510501P
+        pes: '25'
+        mesures: 650x355x355
+        diametre: Ø 260 / 450
+        pedal: OK
+        potencia_electrica: 370 W 230/1V
+        preu: '1.415'
+    - codi: 55130R13
+      cel_les:
+        codi: 55130R13
+        pes: '27'
+        mesures: 440x365x640
+        diametre: Ø 140 / 300
+        pedal: 'NO'
+        potencia_electrica: 370 W 230/1V
+        preu: '1.460'
+    - codi: 55130R1P
+      cel_les:
+        codi: 55130R1P
+        pes: '27'
+        mesures: 440x365x640
+        diametre: Ø 140 / 300
+        pedal: OK
+        potencia_electrica: 370 W 230/1V
+        preu: '1.530'
+    - codi: 55140R13
+      cel_les:
+        codi: 55140R13
+        pes: '34'
+        mesures: 550x365x750
+        diametre: Ø 260 / 400
+        pedal: 'NO'
+        potencia_electrica: 370 W 230/1V
+        preu: '1.790'
+    - codi: 55140R1P
+      cel_les:
+        codi: 55140R1P
+        pes: '34'
+        mesures: 550x365x750
+        diametre: Ø 260 / 400
+        pedal: OK
+        potencia_electrica: 370 W 230/1V
+        preu: '1.860'
+    - codi: '55100111'
+      cel_les:
+        codi: '55100111'
+        pes: 0,5
+        mesures: ''
+        diametre: PEDAL FOOTPEDAL
+        pedal: PÉDALE
+        potencia_electrica: ''
+        preu: '72'
+- pagina_pub: 20
+  pagina_pdf: 836
+  taules:
+  - id: p20-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - produccio_kg_h
+    - dot_kitdiscr
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '55502121'
+      cel_les:
+        codi: '55502121'
+        pes: '22'
+        mesures: 260x605x520
+        produccio_kg_h: '200'
+        dot_kitdiscr: 'NO'
+        potencia_electrica: 370 W 230/1V
+        preu: '1.645'
+    - codi: '55552121'
+      cel_les:
+        codi: '55552121'
+        pes: '24'
+        mesures: 260x605x520
+        produccio_kg_h: '200'
+        dot_kitdiscr: OK
+        potencia_electrica: 370 W 230/1V
+        preu: '2.230'
+    - codi: KITDISCR
+      cel_les:
+        codi: KITDISCR
+        pes: ''
+        mesures: KIT DE
+        produccio_kg_h: DISCOS DISC KIT
+        dot_kitdiscr: KIT DE DISQUES
+        potencia_electrica: ''
+        preu: '639'
+- pagina_pub: 21
+  pagina_pdf: 837
+  taules:
+  - id: p21-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - distancia
+    - preu
+    - codi_2
+    - distancia_2
+    - preu_2
+    - codi_3
+    - distancia_3
+    - preu_3
+    - codi_4
+    - distancia_4
+    - preu_4
+    columnes_segons: amp
+    files:
+    - codi: DF011100
+      cel_les:
+        codi: DF011100
+        distancia: '1'
+        preu: '102'
+        codi_2: DF041400
+        distancia_2: '4'
+        preu_2: '90'
+    - codi: DF25N200
+      cel_les:
+        codi: DF25N200 ○ * Deben
+        distancia: 2,5 combinar Combiner avec
+        preu: 99 con disco Combine with disque de
+        codi_4: PS081700
+        distancia_4: '8'
+        preu_4: '215'
+      icones_en_columna:
+      - codi
+    - codi: DF101010
+      cel_les:
+        codi_3: DF101010
+        distancia_3: '10'
+        preu_3: '90'
+        codi_4: PS101800
+        distancia_4: '10'
+        preu_4: '190'
+      icones_en_columna:
+      - codi_3
+      - distancia_3
+      - distancia_4
+      - preu_4
+    - codi: DF141410
+      cel_les:
+        codi_3: DF141410
+        distancia_3: '14'
+        preu_3: '90'
+        codi_4: PS141010
+        distancia_4: '14'
+        preu_4: '180'
+    avisos:
+    - hdr:sense_capcalera
+    paraules_orfes:
+    - de
+    - cortar
+    - del
+    - mismo
+    - espesor
+    - same
+    - size
+    - slicing
+    - disc
+    - trancher
+    - de
+    - même
+    - êpaisseur
+  - id: p21-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - distancia
+    - preu
+    - codi_2
+    - distancia_2
+    - preu_2
+    columnes_segons: amp
+    files:
+    - codi: DQ044000
+      cel_les:
+        codi: DQ044000
+        distancia: '4'
+        preu: '171'
+        codi_2: DTV11000
+        distancia_2: '1'
+        preu_2: '81'
+      icones_en_columna:
+      - distancia
+    - codi: DQ066000
+      cel_les:
+        codi: DQ066000
+        distancia: '6'
+        preu: '171'
+        codi_2: DT021200
+        distancia_2: '2'
+        preu_2: '103'
+    - codi: DQ088000
+      cel_les:
+        codi: DQ088000
+        distancia: '8'
+        preu: '160'
+        codi_2: DT031300
+        distancia_2: '3'
+        preu_2: '100'
+    - codi: DQ100100
+      cel_les:
+        codi: DQ100100
+        distancia: '10'
+        preu: '160'
+        codi_2: DT041400
+        distancia_2: '4'
+        preu_2: '100'
+    avisos:
+    - hdr:sense_capcalera
+- pagina_pub: 24
+  pagina_pdf: 840
+  taules:
+  - id: p24-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - produccio_kg_h
+    - dimensions_safata_mm
+    - entrada
+    - sortida
+    - potencia_electrica
+    - preu
+    columnes_segons: amp
+    files:
+    - codi: '17445100'
+      cel_les:
+        codi: '17445100'
+        pes: '10'
+        mesures: 280x290x360
+        produccio_kg_h: '75'
+        dimensions_safata_mm: 250x200x50
+        entrada: '50'
+        sortida: '60'
+        potencia_electrica: 380 W 230/1V
+        preu: '970'
+    - codi: '17735100'
+      cel_les:
+        codi: '17735100'
+        pes: '22'
+        mesures: 250x410x430
+        produccio_kg_h: '200'
+        dimensions_safata_mm: 340x250x50
+        entrada: '50'
+        sortida: '70'
+        potencia_electrica: 750 W 230/1V
+        preu: '1.480'
+    - codi: '17835100'
+      cel_les:
+        codi: '17835100'
+        pes: '25'
+        mesures: 250x460x430
+        produccio_kg_h: '300'
+        dimensions_safata_mm: 340x250x50
+        entrada: '50'
+        sortida: '82'
+        potencia_electrica: 1100 W 230/1V
+        preu: '2.060'
+    - codi: '17345100'
+      cel_les:
+        codi: '17345100'
+        pes: '35'
+        mesures: 350x540x530
+        produccio_kg_h: '400'
+        dimensions_safata_mm: 400x350x50
+        entrada: '50'
+        sortida: '98'
+        potencia_electrica: 1500 W 230/1V
+        preu: '3.550'
+    avisos:
+    - hdr:recompte(12 vs 9)
+- pagina_pub: 25
+  pagina_pdf: 841
+  taules:
+  - id: p25-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - dimensions_placa
+    - serra_cinta
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 17A0381E
+      cel_les:
+        codi: 17A0381E
+        pes: '39'
+        mesures: 630x450x970
+        dimensions_placa: 410x410
+        serra_cinta: '1830'
+        potencia_electrica: 750 W 230/1V
+        preu: '4.105'
+    - codi: 17A0202E
+      cel_les:
+        codi: 17A0202E
+        pes: '52'
+        mesures: 750x500x1070
+        dimensions_placa: 535x500
+        serra_cinta: '2020'
+        potencia_electrica: 1500 W 230/1V
+        preu: '5.000'
+- pagina_pub: 27
+  pagina_pdf: 843
+  taules:
+  - id: p27-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - kg
+    - produccio_kg_h
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 17005NPP
+      cel_les:
+        codi: 17005NPP
+        pes: '28'
+        mesures: 520x630x600
+        kg: '5'
+        produccio_kg_h: '60'
+        potencia_electrica: 370 W 230/1V
+        preu: '2.870'
+    - codi: 17005FPP
+      cel_les:
+        codi: 17005FPP
+        pes: '30'
+        mesures: 520x700x1010
+        kg: '5'
+        produccio_kg_h: '60'
+        potencia_electrica: 370 W 230/1V
+        preu: '2.870'
+    - codi: 17M01FPP
+      cel_les:
+        codi: 17M01FPP
+        pes: '34'
+        mesures: 380x770x1160
+        kg: '10'
+        produccio_kg_h: '120'
+        potencia_electrica: 750 W 230/1V
+        preu: '3.095'
+    - codi: 17M81FPP
+      cel_les:
+        codi: 17M81FPP
+        pes: '39'
+        mesures: 380x770x1230
+        kg: '18'
+        produccio_kg_h: '220'
+        potencia_electrica: 1100 W 230/1V
+        preu: '3.220'
+    - codi: 17052FPP
+      cel_les:
+        codi: 17052FPP
+        pes: '57'
+        mesures: 450x900x1350
+        kg: '25'
+        produccio_kg_h: '450'
+        potencia_electrica: 1100 W 230/1V
+        preu: '5.345'
+- pagina_pub: 30
+  pagina_pdf: 846
+  taules:
+  - id: p30-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - dimensions_cuba
+    - tall
+    - motor
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '17425670'
+      cel_les:
+        codi: '17425670'
+        pes: '34'
+        mesures: 350x475x400
+        dimensions_cuba: 305x380x75
+        tall: 1x260
+        motor: '8'
+        potencia_electrica: 370 W 230/1V
+        preu: '1.565'
+    - codi: '17325860'
+      cel_les:
+        codi: '17325860'
+        pes: '38'
+        mesures: 400x480x400
+        dimensions_cuba: 345x380x120
+        tall: 1x300
+        motor: '10'
+        potencia_electrica: 370 W 230/1V
+        preu: '2.090'
+    - codi: '17225670'
+      cel_les:
+        codi: '17225670'
+        pes: '105'
+        mesures: 590x680x960
+        dimensions_cuba: 525x550x180
+        tall: 2x500
+        motor: '20'
+        potencia_electrica: 900 W 230/1V
+        preu: '3.765'
+    - codi: '17225860'
+      cel_les:
+        codi: '17225860'
+        pes: '60'
+        mesures: 510x570x490
+        dimensions_cuba: 440x445x180
+        tall: 2x400
+        motor: '20'
+        potencia_electrica: 750 W 230/1V
+        preu: '2.415'
+    - codi: '17325670'
+      cel_les:
+        codi: '17325670'
+        pes: '82'
+        mesures: 580x680x550
+        dimensions_cuba: 500x525x180
+        tall: 2x500
+        motor: '20'
+        potencia_electrica: 750 W 230/1V
+        preu: '3.260'
+- pagina_pub: 31
+  pagina_pdf: 847
+  taules:
+  - id: p31-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - capacitat_litres
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '17837860'
+      cel_les:
+        codi: '17837860'
+        pes: '32'
+        mesures: 340x540x270
+        capacitat_litres: '25'
+        potencia_electrica: 700 W 230/1V
+        preu: '1.000'
+    mapa_columnes: sense_colN(1 eliminades)
+- pagina_pub: 34
+  pagina_pdf: 850
+  taules:
+  - id: p34-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - mesures_interiors_forn
+    - capacitat_litres
+    - magnetr_n
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 17P00901
+      cel_les:
+        codi: 17P00901
+        pes: '15'
+        mesures: 480x380x275
+        mesures_interiors_forn: 340x320x220
+        capacitat_litres: '25'
+        magnetr_n: 1 = 900 W
+        potencia_electrica: 900 W 230/1V
+        preu: '270'
+    - codi: 17PG0119
+      cel_les:
+        codi: 17PG0119
+        pes: '16'
+        mesures: 515x400x305
+        mesures_interiors_forn: 330x350x220
+        capacitat_litres: '25'
+        magnetr_n: 1 = 900 W
+        potencia_electrica: 1450 W 230/1V
+        preu: '680'
+    - codi: 17PGC918
+      cel_les:
+        codi: 17PGC918
+        pes: '17'
+        mesures: 515x465x305
+        mesures_interiors_forn: 330x340x230
+        capacitat_litres: '25'
+        magnetr_n: 1 = 900 W
+        potencia_electrica: 2400 W 230/1V
+        preu: '780'
+- pagina_pub: 35
+  pagina_pdf: 851
+  taules:
+  - id: p35-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - mesures_interiors_forn
+    - capacitat_litres
+    - col5
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '17798660'
+      cel_les:
+        codi: '17798660'
+        pes: '15'
+        mesures: 515x430x310
+        mesures_interiors_forn: 330x340x230
+        capacitat_litres: '25'
+        col5: 1 = 1000 W
+        potencia_electrica: 1500 W 230/1V
+        preu: '660'
+    - codi: '17409660'
+      cel_les:
+        codi: '17409660'
+        pes: '31'
+        mesures: 575x530x370
+        mesures_interiors_forn: 360x400x240
+        capacitat_litres: '34'
+        col5: 2 = 2800 W
+        potencia_electrica: 2800 W 230/1V
+        preu: '1.800'
+    - codi: 173561EN
+      cel_les:
+        codi: 173561EN
+        pes: '30'
+        mesures: 422x508x337
+        mesures_interiors_forn: 330x310x175
+        capacitat_litres: '20'
+        col5: 2 = 2600 W
+        potencia_electrica: 2600 W 230/1V
+        preu: '2.750'
+- pagina_pub: 38
+  pagina_pdf: 854
+  taules:
+  - id: p38-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - dimensions_placa
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '17309060'
+      cel_les:
+        codi: '17309060'
+        energia: '[icona]'
+        pes: '13'
+        mesures: 383x460x90
+        dimensions_placa: 380x380
+        potencia_electrica: 3,5 KW 230/1V
+        preu: '595'
+      icones_en_columna:
+      - energia
+    - codi: '17475290'
+      cel_les:
+        codi: '17475290'
+        energia: '[icona]'
+        pes: '16'
+        mesures: 400x525x180
+        dimensions_placa: 330x330
+        potencia_electrica: 5 KW 400/3V
+        preu: '905'
+      icones_en_columna:
+      - energia
+    - codi: 1792967W
+      cel_les:
+        codi: 1792967W
+        energia: '[icona]'
+        pes: '18'
+        mesures: 340x440x120
+        dimensions_placa: Ø 280
+        potencia_electrica: 3,5 KW 230/1V
+        preu: '610'
+      icones_en_columna:
+      - energia
+- pagina_pub: 39
+  pagina_pdf: 855
+  taules:
+  - id: p39-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - dimensions_placa
+    - placa_rodona
+    - placa_rodona_2
+    - placa_quadrada
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '17194240'
+      cel_les:
+        codi: '17194240'
+        energia: '[icona]'
+        pes: '12'
+        mesures: 320x350x80
+        dimensions_placa: 310x350
+        placa_rodona: 1 x 2,5 / 1 x 1
+        placa_rodona_2: '-'
+        placa_quadrada: '-'
+        potencia_electrica: 2,5 KW 230/1V
+        preu: '1.345'
+      icones_en_columna:
+      - energia
+    - codi: 30420G08
+      cel_les:
+        codi: 30420G08
+        energia: '[icona]'
+        pes: '16'
+        mesures: 350x600x80
+        dimensions_placa: 340x500
+        placa_rodona: 1 x 2,5 / 1 x 1
+        placa_rodona_2: 1 x 1,8
+        placa_quadrada: '-'
+        potencia_electrica: 4,3 KW 230/1V
+        preu: '790'
+      icones_en_columna:
+      - energia
+- pagina_pub: 40
+  pagina_pdf: 856
+  taules:
+  - id: p40-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - mesures
+    - capacitat_litres
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: CP210201
+      cel_les:
+        codi: CP210201
+        mesures: '20'
+        capacitat_litres: 5,25
+        preu: '59'
+    - codi: CP210401
+      cel_les:
+        codi: CP210401
+        mesures: '40'
+        capacitat_litres: 10,5
+        preu: '67'
+    - codi: CP210651
+      cel_les:
+        codi: CP210651
+        mesures: '65'
+        capacitat_litres: 18,5
+        preu: '76'
+    - codi: CP211001
+      cel_les:
+        codi: CP211001
+        mesures: '100'
+        capacitat_litres: '28'
+        preu: '94'
+    - codi: CP211501
+      cel_les:
+        codi: CP211501
+        mesures: '150'
+        capacitat_litres: '42'
+        preu: '116'
+    - codi: CP212001
+      cel_les:
+        codi: CP212001
+        mesures: '200'
+        capacitat_litres: 56,5
+        preu: '147'
+    - codi: CP210402
+      cel_les:
+        codi: CP210402
+        mesures: '40'
+        capacitat_litres: 10,5
+        preu: '83'
+    - codi: CP210652
+      cel_les:
+        codi: CP210652
+        mesures: '65'
+        capacitat_litres: 18,5
+        preu: '106'
+    - codi: CP211002
+      cel_les:
+        codi: CP211002
+        mesures: '100'
+        capacitat_litres: '28'
+        preu: '131'
+    - codi: CP215000
+      cel_les:
+        codi: CP215000
+        mesures: '-'
+        capacitat_litres: '-'
+        preu: '122'
+    paraules_orfes:
+    - CUBETAS
+    - PERFORADAS
+    - INOX
+    - PERFORATED
+    - CONTAINERS
+    - STAINLESS
+    - STEEL
+    - BACS
+    - PERFORÉES
+    - EN
+    - ACIER
+    - INOXYDABLE
+    - FONDO
+    - PERFORADO
+    - INOX
+    - PUNCHED
+    - STAINLESS
+    - STEEL
+    - BASE
+    - BASE
+    - PERFORÉ
+    - EN
+    - ACIER
+    - INOXYDABLE
+    - COD.
+    - €
+    - CUBETAS
+    - INOX
+    - STAINLESS
+    - STEEL
+    - CONTAINERS
+    - BACS
+    - EN
+    - ACIER
+    - INOXYDABLE
+    - CP230201
+    - '20'
+    - 1,6
+    - '25'
+    - CP230401
+    - '40'
+    - 3,2
+    - '33'
+    - CP230651
+    - '65'
+    - 5,5
+    - '38'
+    - CP231001
+    - '100'
+    - 8,7
+    - '47'
+    - CP231501
+    - '150'
+    - '13'
+    - '65'
+    - CP232001
+    - '200'
+    - '18'
+    - '87'
+    - FONDO
+    - PERFORADO
+    - INOX
+    - PUNCHED
+    - STAINLESS
+    - STEEL
+    - BASE
+    - BASE
+    - PERFORÉ
+    - EN
+    - ACIER
+    - INOXYDABLE
+    - CP235000
+    - '-'
+    - '-'
+    - '53'
+    - TAPA
+    - INOX
+    - STAINLESS
+    - STEEL
+    - LID
+    - COUVERCLE
+    - EN
+    - ACIER
+    - INOXYDABLE
+    - CP230000
+    - '-'
+    - '-'
+    - '22'
+    - '352'
+    - x
+    - '325'
+    - 2/3
+  - id: p40-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - mesures
+    - capacitat_litres
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: CP1102X1
+      cel_les:
+        codi: CP1102X1
+        mesures: '20'
+        capacitat_litres: 2,75
+        preu: '29'
+    - codi: CP1104X1
+      cel_les:
+        codi: CP1104X1
+        mesures: '40'
+        capacitat_litres: 5,5
+        preu: '32'
+    - codi: CP1106X1
+      cel_les:
+        codi: CP1106X1
+        mesures: '65'
+        capacitat_litres: 9,5
+        preu: '36'
+    - codi: CP1110X1
+      cel_les:
+        codi: CP1110X1
+        mesures: '100'
+        capacitat_litres: '14'
+        preu: '48'
+    - codi: CP111501
+      cel_les:
+        codi: CP111501
+        mesures: '150'
+        capacitat_litres: '21'
+        preu: '63'
+    - codi: CP112001
+      cel_les:
+        codi: CP112001
+        mesures: '200'
+        capacitat_litres: '28'
+        preu: '76'
+    - codi: CP110402
+      cel_les:
+        codi: CP110402
+        mesures: '40'
+        capacitat_litres: 5,5
+        preu: '54'
+    - codi: CP110652
+      cel_les:
+        codi: CP110652
+        mesures: '65'
+        capacitat_litres: 9,5
+        preu: '61'
+    - codi: CP111002
+      cel_les:
+        codi: CP111002
+        mesures: '100'
+        capacitat_litres: '14'
+        preu: '79'
+    - codi: CP115000
+      cel_les:
+        codi: CP115000
+        mesures: '-'
+        capacitat_litres: '-'
+        preu: '60'
+    - codi: CP1100X1
+      cel_les:
+        codi: CP1100X1
+        mesures: '-'
+        capacitat_litres: '-'
+        preu: '28'
+    - codi: CP1106P1
+      cel_les:
+        codi: CP1106P1
+        mesures: '65'
+        capacitat_litres: 9,5
+        preu: '15'
+    - codi: CP1110P1
+      cel_les:
+        codi: CP1110P1
+        mesures: '100'
+        capacitat_litres: '14'
+        preu: '16'
+    - codi: CP1115P1
+      cel_les:
+        codi: CP1115P1
+        mesures: '150'
+        capacitat_litres: '21'
+        preu: '19'
+    - codi: CP1120P1
+      cel_les:
+        codi: CP1120P1
+        mesures: '200'
+        capacitat_litres: '28'
+        preu: '21'
+    - codi: CP1150P1
+      cel_les:
+        codi: CP1150P1
+        mesures: '-'
+        capacitat_litres: '-'
+        preu: '21'
+    - codi: CP1100P1
+      cel_les:
+        codi: CP1100P1
+        mesures: '-'
+        capacitat_litres: '-'
+        preu: '26'
+    paraules_orfes:
+    - CUBETAS
+    - PERFORADAS
+    - INOX
+    - PERFORATED
+    - CONTAINERS
+    - STAINLESS
+    - STEEL
+    - BACS
+    - PERFORÉES
+    - EN
+    - ACIER
+    - INOXYDABLE
+    - FONDO
+    - PERFORADO
+    - INOX
+    - PUNCHED
+    - STAINLESS
+    - STEEL
+    - BASE
+    - BASE
+    - PERFORÉ
+    - EN
+    - ACIER
+    - INOXYDABLE
+    - TAPA
+    - INOX
+    - STAINLESS
+    - STEEL
+    - LID
+    - COUVERCLE
+    - EN
+    - ACIER
+    - INOXIDABLE
+    - CUBETAS
+    - DE
+    - POLIPROPILENO
+    - POLYPROPYLENE
+    - CONTAINERS
+    - BACS
+    - EN
+    - POLYPROPYLÉNE
+    - FONDO
+    - PERFORADO
+    - DE
+    - POLIPROPILENO
+    - PUNCHED
+    - POLYPROPYLENE
+    - BASE
+    - BASE
+    - PERFORÉ
+    - EN
+    - POLYPROPYLÉNE
+    - TAPA
+    - DE
+    - POLIPROPILENO
+    - POLYPROPYLENE
+    - LID
+    - COUVERCLE
+    - EN
+    - POLYPROPYLÉNE
+  - id: p40-t3
+    reconstruida: true
+    columnes:
+    - codi
+    - mesures
+    - capacitat_litres
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: CP120201
+      cel_les:
+        codi: CP120201
+        mesures: '20'
+        capacitat_litres: 1,1
+        preu: '19'
+    - codi: CP1204X1
+      cel_les:
+        codi: CP1204X1
+        mesures: '40'
+        capacitat_litres: 2,2
+        preu: '22'
+    - codi: CP1206X1
+      cel_les:
+        codi: CP1206X1
+        mesures: '65'
+        capacitat_litres: 3,7
+        preu: '26'
+    - codi: CP1210X1
+      cel_les:
+        codi: CP1210X1
+        mesures: '100'
+        capacitat_litres: 6,5
+        preu: '33'
+    - codi: CP121501
+      cel_les:
+        codi: CP121501
+        mesures: '150'
+        capacitat_litres: 9,5
+        preu: '41'
+    - codi: CP122001
+      cel_les:
+        codi: CP122001
+        mesures: '200'
+        capacitat_litres: 12,5
+        preu: '55'
+    - codi: CP125000
+      cel_les:
+        codi: CP125000
+        mesures: '-'
+        capacitat_litres: '-'
+        preu: '41'
+    - codi: CP1200X1
+      cel_les:
+        codi: CP1200X1
+        mesures: '-'
+        capacitat_litres: '-'
+        preu: '18'
+    - codi: CP1206P1
+      cel_les:
+        codi: CP1206P1
+        mesures: '65'
+        capacitat_litres: 3,7
+        preu: '9'
+    - codi: CP1210P1
+      cel_les:
+        codi: CP1210P1
+        mesures: '100'
+        capacitat_litres: 6,5
+        preu: '11'
+    - codi: CP1215P1
+      cel_les:
+        codi: CP1215P1
+        mesures: '150'
+        capacitat_litres: 9,5
+        preu: '12'
+    - codi: CP1220P1
+      cel_les:
+        codi: CP1220P1
+        mesures: '200'
+        capacitat_litres: 12,5
+        preu: '14'
+    - codi: CP1250P1
+      cel_les:
+        codi: CP1250P1
+        mesures: '-'
+        capacitat_litres: '-'
+        preu: '9'
+    - codi: CP1200P1
+      cel_les:
+        codi: CP1200P1
+        mesures: '-'
+        capacitat_litres: '-'
+        preu: '14'
+    paraules_orfes:
+    - FONDO
+    - PERFORADO
+    - INOX
+    - PUNCHED
+    - STAINLESS
+    - STEEL
+    - BASE
+    - BASE
+    - PERFORÉ
+    - EN
+    - ACIER
+    - INOXYDABLE
+    - TAPA
+    - INOX
+    - STAINLESS
+    - STEEL
+    - LID
+    - COUVERCLE
+    - EN
+    - ACIER
+    - INOXYDABLE
+    - CUBETAS
+    - DE
+    - POLIPROPILENO
+    - POLYPROPYLENE
+    - CONTAINERS
+    - BACS
+    - EN
+    - POLYPROPYLÉNE
+    - FONDO
+    - PERFORADO
+    - DE
+    - POLIPROPILENO
+    - PUNCHED
+    - POLYPROPYLENE
+    - BASE
+    - BASE
+    - PERFORÉ
+    - EN
+    - POLYPROPYLÉNE
+    - TAPA
+    - DE
+    - POLIPROPILENO
+    - POLYPROPYLENE
+    - LID
+    - COUVERCLE
+    - EN
+    - POLYPROPYLÉNE
+  - id: p40-t4
+    reconstruida: true
+    columnes:
+    - codi
+    - col1
+    - col2
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: CP230201
+      cel_les:
+        codi: CP230201
+        col1: '20'
+        col2: 1,6
+        preu: '25'
+    - codi: CP230401
+      cel_les:
+        codi: CP230401
+        col1: '40'
+        col2: 3,2
+        preu: '33'
+    - codi: CP230651
+      cel_les:
+        codi: CP230651
+        col1: '65'
+        col2: 5,5
+        preu: '38'
+    - codi: CP231001
+      cel_les:
+        codi: CP231001
+        col1: '100'
+        col2: 8,7
+        preu: '47'
+    - codi: CP231501
+      cel_les:
+        codi: CP231501
+        col1: '150'
+        col2: '13'
+        preu: '65'
+    - codi: CP232001
+      cel_les:
+        codi: CP232001
+        col1: '200'
+        col2: '18'
+        preu: '87'
+    - codi: CP235000
+      cel_les:
+        codi: CP235000
+        col1: '-'
+        col2: '-'
+        preu: '53'
+    - codi: CP230000
+      cel_les:
+        codi: CP230000
+        col1: '-'
+        col2: '-'
+        preu: '22'
+    paraules_orfes:
+    - FONDO
+    - PERFORADO
+    - INOX
+    - PUNCHED
+    - STAINLESS
+    - STEEL
+    - BASE
+    - BASE
+    - PERFORÉ
+    - EN
+    - ACIER
+    - INOXYDABLE
+    - TAPA
+    - INOX
+    - STAINLESS
+    - STEEL
+    - LID
+    - COUVERCLE
+    - EN
+    - ACIER
+    - INOXYDABLE
+- pagina_pub: 41
+  pagina_pdf: 857
+  taules:
+  - id: p41-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - mesures
+    - capacitat_litres
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: CP1304X1
+      cel_les:
+        codi: CP1304X1
+        mesures: '40'
+        capacitat_litres: 1,5
+        preu: '19'
+    - codi: CP1306X1
+      cel_les:
+        codi: CP1306X1
+        mesures: '65'
+        capacitat_litres: 2,5
+        preu: '21'
+    - codi: CP131001
+      cel_les:
+        codi: CP131001
+        mesures: '100'
+        capacitat_litres: 3,7
+        preu: '27'
+    - codi: CP131501
+      cel_les:
+        codi: CP131501
+        mesures: '150'
+        capacitat_litres: 5,7
+        preu: '41'
+    - codi: CP132001
+      cel_les:
+        codi: CP132001
+        mesures: '200'
+        capacitat_litres: 7,7
+        preu: '48'
+    - codi: CP135000
+      cel_les:
+        codi: CP135000
+        mesures: '-'
+        capacitat_litres: '-'
+        preu: '31'
+    - codi: CP1300X1
+      cel_les:
+        codi: CP1300X1
+        mesures: '-'
+        capacitat_litres: '-'
+        preu: '15'
+    - codi: CP1306P1
+      cel_les:
+        codi: CP1306P1
+        mesures: '65'
+        capacitat_litres: 2,5
+        preu: '7'
+    - codi: CP1310P1
+      cel_les:
+        codi: CP1310P1
+        mesures: '100'
+        capacitat_litres: 3,7
+        preu: '8'
+    - codi: CP1315P1
+      cel_les:
+        codi: CP1315P1
+        mesures: '150'
+        capacitat_litres: 5,7
+        preu: '9'
+    - codi: CP1320P1
+      cel_les:
+        codi: CP1320P1
+        mesures: '200'
+        capacitat_litres: 7,7
+        preu: '10'
+    - codi: CP1350P1
+      cel_les:
+        codi: CP1350P1
+        mesures: '-'
+        capacitat_litres: '-'
+        preu: '8'
+    - codi: CP1300P1
+      cel_les:
+        codi: CP1300P1
+        mesures: '-'
+        capacitat_litres: '-'
+        preu: '11'
+    paraules_orfes:
+    - FONDO
+    - PERFORADO
+    - INOX
+    - PUNCHED
+    - STAINLESS
+    - STEEL
+    - BASE
+    - BASE
+    - PERFORÉ
+    - EN
+    - ACIER
+    - INOXYDABLE
+    - TAPA
+    - INOX
+    - STAINLESS
+    - STEEL
+    - LID
+    - COUVERCLE
+    - EN
+    - ACIER
+    - INOXYDABLE
+    - CUBETAS
+    - DE
+    - POLIPROPILENO
+    - POLYPROPYLENE
+    - CONTAINERS
+    - BACS
+    - EN
+    - POLYPROPYLÉNE
+    - FONDO
+    - PERFORADO
+    - DE
+    - POLIPROPILENO
+    - PUNCHED
+    - POLYPROPYLENE
+    - BASE
+    - BASE
+    - PERFORÉ
+    - EN
+    - POLYPROPYLÉNE
+    - TAPA
+    - DE
+    - POLIPROPILENO
+    - POLYPROPYLENE
+    - LID
+    - COUVERCLE
+    - EN
+    - POLYPROPYLÉNE
+    - PERFILES
+    - DIVISORIOS
+    - DIVIDING
+    - PROFILES
+    - PROFILS
+    - DE
+    - DIVISION
+    - COD.
+    - €
+    - SEPAGN11
+    - '530'
+    - 1/1
+    - '12'
+    - SEPAGN13
+    - '325'
+    - 1/3
+    - '9'
+  - id: p41-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - mesures
+    - capacitat_litres
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: CP1406X1
+      cel_les:
+        codi: CP1406X1
+        mesures: '65'
+        capacitat_litres: 1,6
+        preu: '19'
+    - codi: CP141001
+      cel_les:
+        codi: CP141001
+        mesures: '100'
+        capacitat_litres: 2,7
+        preu: '23'
+    - codi: CP141501
+      cel_les:
+        codi: CP141501
+        mesures: '150'
+        capacitat_litres: 4,2
+        preu: '33'
+    - codi: CP142001
+      cel_les:
+        codi: CP142001
+        mesures: '200'
+        capacitat_litres: 5,7
+        preu: '45'
+    - codi: CP145000
+      cel_les:
+        codi: CP145000
+        mesures: '-'
+        capacitat_litres: '-'
+        preu: '26'
+    - codi: CP1400X1
+      cel_les:
+        codi: CP1400X1
+        mesures: '-'
+        capacitat_litres: '-'
+        preu: '13'
+    - codi: CP1406P1
+      cel_les:
+        codi: CP1406P1
+        mesures: '65'
+        capacitat_litres: 1,6
+        preu: '5'
+    - codi: CP1410P1
+      cel_les:
+        codi: CP1410P1
+        mesures: '100'
+        capacitat_litres: 2,7
+        preu: '6'
+    - codi: CP1415P1
+      cel_les:
+        codi: CP1415P1
+        mesures: '150'
+        capacitat_litres: 4,2
+        preu: '7'
+    - codi: CP1450P1
+      cel_les:
+        codi: CP1450P1
+        mesures: '-'
+        capacitat_litres: '-'
+        preu: '7'
+    - codi: CP1400P1
+      cel_les:
+        codi: CP1400P1
+        mesures: '-'
+        capacitat_litres: '-'
+        preu: '8'
+    paraules_orfes:
+    - BACS
+    - EN
+    - ACIER
+    - INOXYDABLE
+    - FONDO
+    - PERFORADO
+    - INOX
+    - PUNCHED
+    - STAINLESS
+    - STEEL
+    - BASE
+    - BASE
+    - PERFORÉ
+    - EN
+    - ACIER
+    - INOXYDABLE
+    - TAPA
+    - INOX
+    - STAINLESS
+    - STEEL
+    - LID
+    - COUVERCLE
+    - EN
+    - ACIER
+    - INOXYDABLE
+    - CUBETAS
+    - DE
+    - POLIPROPILENO
+    - POLYPROPYLENE
+    - CONTAINERS
+    - BACS
+    - EN
+    - POLYPROPYLÉNE
+    - FONDO
+    - PERFORADO
+    - DE
+    - POLIPROPILENO
+    - PUNCHED
+    - POLYPROPYLENE
+    - BASE
+    - BASE
+    - PERFORÉ
+    - EN
+    - POLYPROPYLÉNE
+    - TAPA
+    - DE
+    - POLIPROPILENO
+    - POLYPROPYLENE
+    - LID
+    - COUVERCLE
+    - EN
+    - POLYPROPYLÉNE
+  - id: p41-t3
+    reconstruida: true
+    columnes:
+    - codi
+    - mesures
+    - capacitat_litres
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: CP160651
+      cel_les:
+        codi: CP160651
+        mesures: '65'
+        capacitat_litres: '1'
+        preu: '18'
+    - codi: CP161001
+      cel_les:
+        codi: CP161001
+        mesures: '100'
+        capacitat_litres: 1,6
+        preu: '22'
+    - codi: CP161501
+      cel_les:
+        codi: CP161501
+        mesures: '150'
+        capacitat_litres: 2,4
+        preu: '33'
+    - codi: CP162001
+      cel_les:
+        codi: CP162001
+        mesures: '200'
+        capacitat_litres: 2,5
+        preu: '40'
+    - codi: CP160000
+      cel_les:
+        codi: CP160000
+        mesures: '-'
+        capacitat_litres: '-'
+        preu: '12'
+    - codi: CP1606P1
+      cel_les:
+        codi: CP1606P1
+        mesures: '65'
+        capacitat_litres: '1'
+        preu: '4'
+    - codi: CP1610P1
+      cel_les:
+        codi: CP1610P1
+        mesures: '100'
+        capacitat_litres: 1,6
+        preu: '5'
+    - codi: CP1615P1
+      cel_les:
+        codi: CP1615P1
+        mesures: '150'
+        capacitat_litres: 2,4
+        preu: '6'
+    - codi: CP1600P1
+      cel_les:
+        codi: CP1600P1
+        mesures: '-'
+        capacitat_litres: '-'
+        preu: '7'
+    paraules_orfes:
+    - 1/9
+    - TAPA
+    - INOX
+    - STAINLESS
+    - STEEL
+    - LID
+    - COUVERCLE
+    - EN
+    - ACIER
+    - INOXYDABLE
+    - CUBETAS
+    - DE
+    - POLIPROPILENO
+    - POLYPROPYLENE
+    - CONTAINERS
+    - BACS
+    - EN
+    - POLYPROPYLÉNE
+    - TAPA
+    - DE
+    - POLIPROPILENO
+    - POLYPROPYLENE
+    - LID
+    - COUVERCLE
+    - EN
+    - POLYPROPYLÉNE
+    - COD.
+    - €
+    - CUBETAS
+    - INOX
+    - STAINLESS
+    - STEEL
+    - CONTAINERS
+    - BACS
+    - EN
+    - ACIER
+    - INOXYDABLE
+    - CP190651
+    - '65'
+    - 0,5
+    - '13'
+    - CP191001
+    - '100'
+    - 0,9
+    - '20'
+    - TAPA
+    - INOX
+    - STAINLESS
+    - STEEL
+    - LID
+    - COUVERCLE
+    - EN
+    - ACIER
+    - INOXYDABLE
+    - CP190000
+    - '-'
+    - '-'
+    - '10'
+    - CUBETAS
+    - DE
+    - POLIPROPILENO
+    - POLYPROPYLENE
+    - CONTAINERS
+    - BACS
+    - EN
+    - POLYPROPYLÉNE
+    - CP1906P1
+    - '65'
+    - 0,5
+    - '4'
+    - CP1910P1
+    - '100'
+    - 0,9
+    - '5'
+    - TAPA
+    - DE
+    - POLIPROPILENO
+    - POLYPROPYLENE
+    - LID
+    - COUVERCLE
+    - EN
+    - POLYPROPYLÉNE
+    - CP1900P1
+    - '-'
+    - '-'
+    - '7'
+    - '176'
+    - x
+    - '108'
+  - id: p41-t4
+    reconstruida: true
+    columnes:
+    - codi
+    - col1
+    - col2
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: CP190651
+      cel_les:
+        codi: CP190651
+        col1: '65'
+        col2: 0,5
+        preu: '13'
+    - codi: CP191001
+      cel_les:
+        codi: CP191001
+        col1: '100'
+        col2: 0,9
+        preu: '20'
+    - codi: CP190000
+      cel_les:
+        codi: CP190000
+        col1: '-'
+        col2: '-'
+        preu: '10'
+    - codi: CP1906P1
+      cel_les:
+        codi: CP1906P1
+        col1: '65'
+        col2: 0,5
+        preu: '4'
+    - codi: CP1910P1
+      cel_les:
+        codi: CP1910P1
+        col1: '100'
+        col2: 0,9
+        preu: '5'
+    - codi: CP1900P1
+      cel_les:
+        codi: CP1900P1
+        col1: '-'
+        col2: '-'
+        preu: '7'
+    paraules_orfes:
+    - BACS
+    - EN
+    - ACIER
+    - INOXYDABLE
+    - TAPA
+    - INOX
+    - STAINLESS
+    - STEEL
+    - LID
+    - COUVERCLE
+    - EN
+    - ACIER
+    - INOXYDABLE
+    - CUBETAS
+    - DE
+    - POLIPROPILENO
+    - POLYPROPYLENE
+    - CONTAINERS
+    - BACS
+    - EN
+    - POLYPROPYLÉNE
+    - TAPA
+    - DE
+    - POLIPROPILENO
+    - POLYPROPYLENE
+    - LID
+    - COUVERCLE
+    - EN
+    - POLYPROPYLÉNE
+  - id: p41-t5
+    reconstruida: true
+    columnes:
+    - codi
+    - col1
+    - col2
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: SEPAGN11
+      cel_les:
+        codi: COD. SEPAGN11
+        col1: '530'
+        col2: 1/1
+        preu: € 12
+      icones_en_columna:
+      - col1
+      - col2
+    - codi: SEPAGN13
+      cel_les:
+        codi: SEPAGN13
+        col1: '325'
+        col2: 1/3
+        preu: '9'
+- pagina_pub: 42
+  pagina_pdf: 858
+  taules:
+  - id: p42-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - col1
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A000ATP
+      cel_les:
+        codi: 4A000ATP
+        col1: 5, 10 Y 18 Kgs.
+        preu: '295'
+    - codi: 4A000BTP
+      cel_les:
+        codi: 4A000BTP
+        col1: 25 Kgs.
+        preu: '395'
+  - id: p42-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - col1
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A000FCC
+      cel_les:
+        codi: 4A000FCC
+        col1: 10 Y 15 Kgs.
+        preu: '395'
+  - id: p42-t3
+    reconstruida: true
+    columnes:
+    - codi
+    - mesures
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '31040020'
+      cel_les:
+        codi: '31040020'
+        mesures: 600x400x230
+        preu: '280'
+    - codi: '33040020'
+      cel_les:
+        codi: '33040020'
+        mesures: 700x500x280
+        preu: '305'
+  - id: p42-t4
+    reconstruida: false
+    columnes:
+    - codi
+    - mesures
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '17238400'
+      cel_les:
+        codi: '17238400'
+        mesures: 810x630x850
+        preu: '745'

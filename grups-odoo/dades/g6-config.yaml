@@ -1,0 +1,3512 @@
+# Generat per scripts/genera_config.py --grup 6 (editable; es pot regenerar)
+grup:
+  numero: 6
+  codi_odoo: G06
+families:
+- clau: COCINAS CENTRALES FONDO 1.050, DE 4 FUEGOS, A GAS
+  noms:
+    es: COCINAS CENTRALES FONDO 1.050, DE 4 FUEGOS, A GAS
+    en: CENTRAL GAS STOVES, 1,050 DEPTH, 4 BURNERS
+    fr: CUISINES CENTRALES À GAZ, PROFONDEUR 1 050, 4 FEUX
+  sequence: 10
+  tipus: producte
+  pagina: p06
+  taula: p06-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: fogons
+    etiqueta: null
+  - codi: fogons_2
+    etiqueta: null
+  - codi: forn_estatic
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '40071010'
+    ordre: 10
+    valors:
+      fogons:
+        es: 1 x 7,5
+        en: 1 x 7,5
+        fr: 1 x 7,5
+      fogons_2:
+        es: 3 x 5
+        en: 3 x 5
+        fr: 3 x 5
+      forn_estatic:
+        es: 1 x 7
+        en: 1 x 7
+        fr: 1 x 7
+      potencia_gas:
+        es: 29,5 KW
+        en: 29,5 KW
+        fr: 29,5 KW
+  - codi: '40101010'
+    ordre: 20
+    valors:
+      fogons:
+        es: 1 x 7,5
+        en: 1 x 7,5
+        fr: 1 x 7,5
+      fogons_2:
+        es: 3 x 5
+        en: 3 x 5
+        fr: 3 x 5
+      forn_estatic:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 22,5 KW
+        en: 22,5 KW
+        fr: 22,5 KW
+  compartits: []
+- clau: COCINAS CENTRALES FONDO 1.050, DE 6 FUEGOS, A GAS
+  noms:
+    es: COCINAS CENTRALES FONDO 1.050, DE 6 FUEGOS, A GAS
+    en: CENTRAL GAS STOVES, 1,050 DEPTH, 6 BURNERS
+    fr: CUISINES CENTRALES À GAZ, PROFONDEUR 1 050, 6 FEUX
+  sequence: 20
+  tipus: producte
+  pagina: p07
+  taula: p07-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: fogons
+    etiqueta: null
+  - codi: fogons_2
+    etiqueta: null
+  - codi: forn_estatic
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '40121410'
+    ordre: 10
+    valors:
+      fogons:
+        es: 1 x 7,5
+        en: 1 x 7,5
+        fr: 1 x 7,5
+      fogons_2:
+        es: 5 x 5
+        en: 5 x 5
+        fr: 5 x 5
+      forn_estatic:
+        es: 1 x 7
+        en: 1 x 7
+        fr: 1 x 7
+      potencia_gas:
+        es: 39,5 KW
+        en: 39,5 KW
+        fr: 39,5 KW
+  - codi: '40141410'
+    ordre: 20
+    valors:
+      fogons:
+        es: 1 x 7,5
+        en: 1 x 7,5
+        fr: 1 x 7,5
+      fogons_2:
+        es: 5 x 5
+        en: 5 x 5
+        fr: 5 x 5
+      forn_estatic:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 32,5 KW
+        en: 32,5 KW
+        fr: 32,5 KW
+  compartits: []
+- clau: COCINAS CENTRALES FONDO 1.050, DE 8 FUEGOS, A GAS
+  noms:
+    es: COCINAS CENTRALES FONDO 1.050, DE 8 FUEGOS, A GAS
+    en: CENTRAL GAS STOVES, 1,050 DEPTH, 8 BURNERS
+    fr: CUISINES CENTRALES À GAZ, PROFONDEUR 1 050, 8 FEUX
+  sequence: 30
+  tipus: producte
+  pagina: p08
+  taula: p08-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: fogons
+    etiqueta: null
+  - codi: fogons_2
+    etiqueta: null
+  - codi: forn_estatic
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '40011810'
+    ordre: 10
+    valors:
+      fogons:
+        es: 2 x 7,5
+        en: 2 x 7,5
+        fr: 2 x 7,5
+      fogons_2:
+        es: 6 x 5
+        en: 6 x 5
+        fr: 6 x 5
+      forn_estatic:
+        es: 2 x 7
+        en: 2 x 7
+        fr: 2 x 7
+      potencia_gas:
+        es: 59 KW
+        en: 59 KW
+        fr: 59 KW
+  - codi: '40041810'
+    ordre: 20
+    valors:
+      fogons:
+        es: 2 x 7,5
+        en: 2 x 7,5
+        fr: 2 x 7,5
+      fogons_2:
+        es: 6 x 5
+        en: 6 x 5
+        fr: 6 x 5
+      forn_estatic:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 45 KW
+        en: 45 KW
+        fr: 45 KW
+  compartits: []
+- clau: PLANCHAS-FRYTOP CENTRALES DE ANCHO 450, DE FONDO 1O50, A GAS
+  noms:
+    es: PLANCHAS-FRYTOP CENTRALES DE ANCHO 450, DE FONDO 1O50, A GAS
+    en: CENTRAL GAS FRYTOP GRIDDLES, 450 WIDTH, 1,050 DEPTH
+    fr: PLAQUES-FRYTOPS CENTRALES À GAZ, LARGEUR 450, PROFONDEUR 1 050
+  sequence: 40
+  tipus: producte
+  pagina: p09
+  taula: p09-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: placa_lisa
+    etiqueta: null
+  - codi: placa_estriada
+    etiqueta: null
+  - codi: dimensions_placa
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '40084510'
+    ordre: 10
+    valors:
+      placa_lisa:
+        es: FE
+        en: FE
+        fr: FE
+      placa_estriada:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dimensions_placa:
+        es: 375 x 775
+        en: 375 x 775
+        fr: 375 x 775
+      potencia_gas:
+        es: 10 KW
+        en: 10 KW
+        fr: 10 KW
+  - codi: '40074510'
+    ordre: 20
+    valors:
+      placa_lisa:
+        es: '-'
+        en: '-'
+        fr: '-'
+      placa_estriada:
+        es: FE
+        en: FE
+        fr: FE
+      dimensions_placa:
+        es: 375 x 775
+        en: 375 x 775
+        fr: 375 x 775
+      potencia_gas:
+        es: 10 KW
+        en: 10 KW
+        fr: 10 KW
+  - codi: '40094510'
+    ordre: 30
+    valors:
+      placa_lisa:
+        es: Cr.D.
+        en: Cr.D.
+        fr: Cr.D.
+      placa_estriada:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dimensions_placa:
+        es: 375 x 775
+        en: 375 x 775
+        fr: 375 x 775
+      potencia_gas:
+        es: 10 KW
+        en: 10 KW
+        fr: 10 KW
+  compartits: []
+- clau: PLANCHAS-FRYTOP CENTRALES DE ANCHO 850, DE FONDO 1O50, A GAS
+  noms:
+    es: PLANCHAS-FRYTOP CENTRALES DE ANCHO 850, DE FONDO 1O50, A GAS
+    en: CENTRAL GAS FRYTOP GRIDDLES, 850 WIDTH, 1,050 DEPTH
+    fr: PLAQUES-FRYTOPS CENTRALES À GAZ, LARGEUR 850, PROFONDEUR 1 050
+  sequence: 50
+  tipus: producte
+  pagina: p10
+  taula: p10-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: placa_lisa
+    etiqueta: null
+  - codi: placa_1_3_estriada
+    etiqueta: null
+  - codi: dimensions_placa
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '40138510'
+    ordre: 10
+    valors:
+      placa_lisa:
+        es: FE
+        en: FE
+        fr: FE
+      placa_1_3_estriada:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dimensions_placa:
+        es: 735 x 775
+        en: 735 x 775
+        fr: 735 x 775
+      potencia_gas:
+        es: 20 KW
+        en: 20 KW
+        fr: 20 KW
+  - codi: '40128510'
+    ordre: 20
+    valors:
+      placa_lisa:
+        es: '-'
+        en: '-'
+        fr: '-'
+      placa_1_3_estriada:
+        es: FE
+        en: FE
+        fr: FE
+      dimensions_placa:
+        es: 735 x 775
+        en: 735 x 775
+        fr: 735 x 775
+      potencia_gas:
+        es: 20 KW
+        en: 20 KW
+        fr: 20 KW
+  - codi: '40148510'
+    ordre: 30
+    valors:
+      placa_lisa:
+        es: Cr.D.
+        en: Cr.D.
+        fr: Cr.D.
+      placa_1_3_estriada:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dimensions_placa:
+        es: 735 x 775
+        en: 735 x 775
+        fr: 735 x 775
+      potencia_gas:
+        es: 20 KW
+        en: 20 KW
+        fr: 20 KW
+  compartits: []
+- clau: SARTENES BASCULANTES SOBRE MUEBLE TÉCNICO, A GAS Y ELÉCTRICAS DE 150 Y 200 LITROS
+  noms:
+    es: SARTENES BASCULANTES SOBRE MUEBLE TÉCNICO, A GAS Y ELÉCTRICAS DE 150 Y 200 LITROS
+    en: TILTING PANS ON TECHNICAL FURNITURE, GAS AND ELECTRIC, 150 AND 200 LITERS
+    fr: SAUTEUSES BASCULANTES SUR MEUBLE TECHNIQUE, À GAZ ET ÉLECTRIQUES, 150 ET 200 LITRES
+  sequence: 60
+  tipus: producte
+  pagina: p13
+  taula: p13-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: mesures_interiors
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: motor
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 186V2150
+    ordre: 10
+    valors:
+      mesures_interiors:
+        es: 1120x570x253
+        en: 1120x570x253
+        fr: 1120x570x253
+      capacitat_litres:
+        es: '150'
+        en: '150'
+        fr: '150'
+      motor:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 33 KW
+        en: 33 KW
+        fr: 33 KW
+  - codi: 18EV2150
+    ordre: 20
+    valors:
+      mesures_interiors:
+        es: 1120x570x253
+        en: 1120x570x253
+        fr: 1120x570x253
+      capacitat_litres:
+        es: '150'
+        en: '150'
+        fr: '150'
+      motor:
+        es: 15 KW 400/3V
+        en: 15 KW 400/3V
+        fr: 15 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 186M2150
+    ordre: 30
+    valors:
+      mesures_interiors:
+        es: 1120x570x253
+        en: 1120x570x253
+        fr: 1120x570x253
+      capacitat_litres:
+        es: '150'
+        en: '150'
+        fr: '150'
+      motor:
+        es: 100 W 230/1V
+        en: 100 W 230/1V
+        fr: 100 W 230/1V
+      potencia_gas:
+        es: 33 KW
+        en: 33 KW
+        fr: 33 KW
+  - codi: 18EM2150
+    ordre: 40
+    valors:
+      mesures_interiors:
+        es: 1120x570x253
+        en: 1120x570x253
+        fr: 1120x570x253
+      capacitat_litres:
+        es: '150'
+        en: '150'
+        fr: '150'
+      motor:
+        es: 15 KW 400/3V
+        en: 15 KW 400/3V
+        fr: 15 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 186M2200
+    ordre: 50
+    valors:
+      mesures_interiors:
+        es: 1520x570x253
+        en: 1520x570x253
+        fr: 1520x570x253
+      capacitat_litres:
+        es: '200'
+        en: '200'
+        fr: '200'
+      motor:
+        es: 100 W 230/1V
+        en: 100 W 230/1V
+        fr: 100 W 230/1V
+      potencia_gas:
+        es: 44 KW
+        en: 44 KW
+        fr: 44 KW
+  - codi: 18EM2200
+    ordre: 60
+    valors:
+      mesures_interiors:
+        es: 1520x570x253
+        en: 1520x570x253
+        fr: 1520x570x253
+      capacitat_litres:
+        es: '200'
+        en: '200'
+        fr: '200'
+      motor:
+        es: 20 KW 400/3V
+        en: 20 KW 400/3V
+        fr: 20 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  compartits: []
+- clau: SARTENES BASCULANTES SOBRE MONTANTES, A GAS Y ELÉCTRICAS DE 130, 150, 165 y 210 LITROS
+  noms:
+    es: SARTENES BASCULANTES SOBRE MONTANTES, A GAS Y ELÉCTRICAS DE 130, 150, 165 y 210 LITROS
+    en: TILTING PANS ON SUPPORTS, GAS AND ELECTRIC, 130, 150, 165, AND 210 LITERS
+    fr: SAUTEUSES BASCULANTES SUR MONTANTS, À GAZ ET ÉLECTRIQUES, 130, 150, 165 ET 210 LITRES
+  sequence: 70
+  tipus: producte
+  pagina: p14
+  taula: p14-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: mesures_interiors
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: motor
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 186M5130
+    ordre: 10
+    valors:
+      mesures_interiors:
+        es: 1120x570x230
+        en: 1120x570x230
+        fr: 1120x570x230
+      capacitat_litres:
+        es: '130'
+        en: '130'
+        fr: '130'
+      motor:
+        es: 400 W 230/1V
+        en: 400 W 230/1V
+        fr: 400 W 230/1V
+      potencia_gas:
+        es: 30 KW
+        en: 30 KW
+        fr: 30 KW
+  - codi: 18EM5130
+    ordre: 20
+    valors:
+      mesures_interiors:
+        es: 1120x570x230
+        en: 1120x570x230
+        fr: 1120x570x230
+      capacitat_litres:
+        es: '130'
+        en: '130'
+        fr: '130'
+      motor:
+        es: 15,4 KW 400/3V
+        en: 15,4 KW 400/3V
+        fr: 15,4 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 186M5150
+    ordre: 30
+    valors:
+      mesures_interiors:
+        es: 1120x570x255
+        en: 1120x570x255
+        fr: 1120x570x255
+      capacitat_litres:
+        es: '150'
+        en: '150'
+        fr: '150'
+      motor:
+        es: 400 W 230/1V
+        en: 400 W 230/1V
+        fr: 400 W 230/1V
+      potencia_gas:
+        es: 30 KW
+        en: 30 KW
+        fr: 30 KW
+  - codi: 18EM5150
+    ordre: 40
+    valors:
+      mesures_interiors:
+        es: 1120x570x255
+        en: 1120x570x255
+        fr: 1120x570x255
+      capacitat_litres:
+        es: '150'
+        en: '150'
+        fr: '150'
+      motor:
+        es: 15,4 KW 400/3V
+        en: 15,4 KW 400/3V
+        fr: 15,4 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 186M5165
+    ordre: 50
+    valors:
+      mesures_interiors:
+        es: 1520x570x230
+        en: 1520x570x230
+        fr: 1520x570x230
+      capacitat_litres:
+        es: '165'
+        en: '165'
+        fr: '165'
+      motor:
+        es: 400 W 230/1V
+        en: 400 W 230/1V
+        fr: 400 W 230/1V
+      potencia_gas:
+        es: 39 KW
+        en: 39 KW
+        fr: 39 KW
+  - codi: 18EM5165
+    ordre: 60
+    valors:
+      mesures_interiors:
+        es: 1520x570x230
+        en: 1520x570x230
+        fr: 1520x570x230
+      capacitat_litres:
+        es: '165'
+        en: '165'
+        fr: '165'
+      motor:
+        es: 20,4 KW 400/3V
+        en: 20,4 KW 400/3V
+        fr: 20,4 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 186M5210
+    ordre: 70
+    valors:
+      mesures_interiors:
+        es: 1520x570x255
+        en: 1520x570x255
+        fr: 1520x570x255
+      capacitat_litres:
+        es: '210'
+        en: '210'
+        fr: '210'
+      motor:
+        es: 400 W 230/1V
+        en: 400 W 230/1V
+        fr: 400 W 230/1V
+      potencia_gas:
+        es: 39 KW
+        en: 39 KW
+        fr: 39 KW
+  - codi: 18EM5210
+    ordre: 80
+    valors:
+      mesures_interiors:
+        es: 1520x570x255
+        en: 1520x570x255
+        fr: 1520x570x255
+      capacitat_litres:
+        es: '210'
+        en: '210'
+        fr: '210'
+      motor:
+        es: 20,4 KW 400/3V
+        en: 20,4 KW 400/3V
+        fr: 20,4 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  compartits: []
+- clau: SARTENES BASCULANTES SOBRE MONTANTES, A GAS Y ELÉCTRICAS DE 300 Y 400 LITROS
+  noms:
+    es: SARTENES BASCULANTES SOBRE MONTANTES, A GAS Y ELÉCTRICAS DE 300 Y 400 LITROS
+    en: TILTING PANS ON SUPPORTS, GAS AND ELECTRIC, 300, AND 400 LITERS
+    fr: SAUTEUSES BASCULANTES SUR MONTANTS, À GAZ ET ÉLECTRIQUES, 300 ET 400 LITRES
+  sequence: 80
+  tipus: producte
+  pagina: p15
+  taula: p15-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: mesures_interiors
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: motor
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 186M5300
+    ordre: 10
+    valors:
+      mesures_interiors:
+        es: 1095x900x335
+        en: 1095x900x335
+        fr: 1095x900x335
+      capacitat_litres:
+        es: '300'
+        en: '300'
+        fr: '300'
+      motor:
+        es: 750 W 230/1V
+        en: 750 W 230/1V
+        fr: 750 W 230/1V
+      potencia_gas:
+        es: 33 KW
+        en: 33 KW
+        fr: 33 KW
+  - codi: 18EM5300
+    ordre: 20
+    valors:
+      mesures_interiors:
+        es: 1095x900x335
+        en: 1095x900x335
+        fr: 1095x900x335
+      capacitat_litres:
+        es: '300'
+        en: '300'
+        fr: '300'
+      motor:
+        es: 28,8 KW 400/3V
+        en: 28,8 KW 400/3V
+        fr: 28,8 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 186M5400
+    ordre: 30
+    valors:
+      mesures_interiors:
+        es: 1095x900x445
+        en: 1095x900x445
+        fr: 1095x900x445
+      capacitat_litres:
+        es: '400'
+        en: '400'
+        fr: '400'
+      motor:
+        es: 750 W 230/1V
+        en: 750 W 230/1V
+        fr: 750 W 230/1V
+      potencia_gas:
+        es: 33 KW
+        en: 33 KW
+        fr: 33 KW
+  - codi: 18EM5400
+    ordre: 40
+    valors:
+      mesures_interiors:
+        es: 1095x900x445
+        en: 1095x900x445
+        fr: 1095x900x445
+      capacitat_litres:
+        es: '400'
+        en: '400'
+        fr: '400'
+      motor:
+        es: 28,8 KW 400/3V
+        en: 28,8 KW 400/3V
+        fr: 28,8 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  compartits: []
+- clau: SARTENES BASCULANTES SOBRE MONTANTES, CON MEZCLADOR, A GAS Y ELÉCTRICAS DE 180, 290, Y 350 LITROS
+  noms:
+    es: SARTENES BASCULANTES SOBRE MONTANTES, CON MEZCLADOR, A GAS Y ELÉCTRICAS DE 180, 290, Y 350 LITROS
+    en: TILTING PANS ON SUPPORTS, WITH MIXER, GAS AND ELECTRIC, 180, 290, AND 350 LITERS
+    fr: SAUTEUSES BASCULANTES SUR MONTANTS, AVEC MÉLANGEUR, À GAZ ET ÉLECTRIQUES, 180, 290 ET 350 LITRES
+  sequence: 90
+  tipus: producte
+  pagina: p16
+  taula: p16-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: mesures_interiors
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: motor
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 186M8180
+    ordre: 10
+    valors:
+      mesures_interiors:
+        es: Ø760x400
+        en: Ø760x400
+        fr: Ø760x400
+      capacitat_litres:
+        es: '180'
+        en: '180'
+        fr: '180'
+      motor:
+        es: 750 W 230/1V
+        en: 750 W 230/1V
+        fr: 750 W 230/1V
+      potencia_gas:
+        es: 28 KW
+        en: 28 KW
+        fr: 28 KW
+  - codi: 18EM8180
+    ordre: 20
+    valors:
+      mesures_interiors:
+        es: Ø760x400
+        en: Ø760x400
+        fr: Ø760x400
+      capacitat_litres:
+        es: '180'
+        en: '180'
+        fr: '180'
+      motor:
+        es: 23 KW 400/3V
+        en: 23 KW 400/3V
+        fr: 23 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 186M8290
+    ordre: 30
+    valors:
+      mesures_interiors:
+        es: Ø960x400
+        en: Ø960x400
+        fr: Ø960x400
+      capacitat_litres:
+        es: '290'
+        en: '290'
+        fr: '290'
+      motor:
+        es: 750 W 230/1V
+        en: 750 W 230/1V
+        fr: 750 W 230/1V
+      potencia_gas:
+        es: 32 KW
+        en: 32 KW
+        fr: 32 KW
+  - codi: 18EM8290
+    ordre: 40
+    valors:
+      mesures_interiors:
+        es: Ø960x400
+        en: Ø960x400
+        fr: Ø960x400
+      capacitat_litres:
+        es: '290'
+        en: '290'
+        fr: '290'
+      motor:
+        es: 28 KW 400/3V
+        en: 28 KW 400/3V
+        fr: 28 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 186M8350
+    ordre: 50
+    valors:
+      mesures_interiors:
+        es: Ø1060x400
+        en: Ø1060x400
+        fr: Ø1060x400
+      capacitat_litres:
+        es: '350'
+        en: '350'
+        fr: '350'
+      motor:
+        es: 750 W 230/1V
+        en: 750 W 230/1V
+        fr: 750 W 230/1V
+      potencia_gas:
+        es: 42 KW
+        en: 42 KW
+        fr: 42 KW
+  - codi: 18EM8350
+    ordre: 60
+    valors:
+      mesures_interiors:
+        es: Ø1060x400
+        en: Ø1060x400
+        fr: Ø1060x400
+      capacitat_litres:
+        es: '350'
+        en: '350'
+        fr: '350'
+      motor:
+        es: 42 KW 400/3V
+        en: 42 KW 400/3V
+        fr: 42 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  compartits: []
+- clau: MARMITAS CUADRADAS, CON CUBA REDONDA, CALOR INDIRECTO Y AUTOCLAVE, A GAS Y ELÉCTRICAS DE 200, 300 Y 500 LITROS
+  noms:
+    es: MARMITAS CUADRADAS, CON CUBA REDONDA, CALOR INDIRECTO Y AUTOCLAVE, A GAS Y ELÉCTRICAS DE 200, 300 Y 500 LITROS
+    en: SQUARE BOILING PANS WITH ROUND PAN, INDIRECT HEATING AND AUTOCLAVE, GAS AND ELECTRIC, 200, 300, AND 500 LITERS
+    fr: MARMITES CARRÉES AVEC CUVE RONDE, À CHAUFFAGE INDIRECT ET AUTOCLAVE, À GAZ ET ÉLECTRIQUES, 200, 300 ET 500 LITRES
+  sequence: 100
+  tipus: producte
+  pagina: p19
+  taula: p19-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: mesures_interiors
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '18612200'
+    ordre: 10
+    valors:
+      mesures_interiors:
+        es: Ø760x500
+        en: Ø760x500
+        fr: Ø760x500
+      capacitat_litres:
+        es: '200'
+        en: '200'
+        fr: '200'
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 39 KW
+        en: 39 KW
+        fr: 39 KW
+  - codi: 18E12200
+    ordre: 20
+    valors:
+      mesures_interiors:
+        es: Ø760x500
+        en: Ø760x500
+        fr: Ø760x500
+      capacitat_litres:
+        es: '200'
+        en: '200'
+        fr: '200'
+      potencia_electrica:
+        es: 24 KW 400/3V
+        en: 24 KW 400/3V
+        fr: 24 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '18612300'
+    ordre: 30
+    valors:
+      mesures_interiors:
+        es: Ø960x500
+        en: Ø960x500
+        fr: Ø960x500
+      capacitat_litres:
+        es: '300'
+        en: '300'
+        fr: '300'
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 48 KW
+        en: 48 KW
+        fr: 48 KW
+  - codi: 18E12300
+    ordre: 40
+    valors:
+      mesures_interiors:
+        es: Ø960x500
+        en: Ø960x500
+        fr: Ø960x500
+      capacitat_litres:
+        es: '300'
+        en: '300'
+        fr: '300'
+      potencia_electrica:
+        es: 36 KW 400/3V
+        en: 36 KW 400/3V
+        fr: 36 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '18612500'
+    ordre: 50
+    valors:
+      mesures_interiors:
+        es: Ø1060x600
+        en: Ø1060x600
+        fr: Ø1060x600
+      capacitat_litres:
+        es: '500'
+        en: '500'
+        fr: '500'
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 55 KW
+        en: 55 KW
+        fr: 55 KW
+  - codi: 18E12500
+    ordre: 60
+    valors:
+      mesures_interiors:
+        es: Ø1060x600
+        en: Ø1060x600
+        fr: Ø1060x600
+      capacitat_litres:
+        es: '500'
+        en: '500'
+        fr: '500'
+      potencia_electrica:
+        es: 48 KW 400/3V
+        en: 48 KW 400/3V
+        fr: 48 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 186A2200
+    ordre: 70
+    valors:
+      mesures_interiors:
+        es: Ø760x500
+        en: Ø760x500
+        fr: Ø760x500
+      capacitat_litres:
+        es: '200'
+        en: '200'
+        fr: '200'
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 39 KW
+        en: 39 KW
+        fr: 39 KW
+  - codi: 18EA2200
+    ordre: 80
+    valors:
+      mesures_interiors:
+        es: Ø760x500
+        en: Ø760x500
+        fr: Ø760x500
+      capacitat_litres:
+        es: '200'
+        en: '200'
+        fr: '200'
+      potencia_electrica:
+        es: 24 KW 400/3V
+        en: 24 KW 400/3V
+        fr: 24 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 186A2300
+    ordre: 90
+    valors:
+      mesures_interiors:
+        es: Ø960x500
+        en: Ø960x500
+        fr: Ø960x500
+      capacitat_litres:
+        es: '300'
+        en: '300'
+        fr: '300'
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 48 KW
+        en: 48 KW
+        fr: 48 KW
+  - codi: 18EA2300
+    ordre: 100
+    valors:
+      mesures_interiors:
+        es: Ø960x500
+        en: Ø960x500
+        fr: Ø960x500
+      capacitat_litres:
+        es: '300'
+        en: '300'
+        fr: '300'
+      potencia_electrica:
+        es: 36 KW 400/3V
+        en: 36 KW 400/3V
+        fr: 36 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 186A2500
+    ordre: 110
+    valors:
+      mesures_interiors:
+        es: Ø1060x600
+        en: Ø1060x600
+        fr: Ø1060x600
+      capacitat_litres:
+        es: '500'
+        en: '500'
+        fr: '500'
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 55 KW
+        en: 55 KW
+        fr: 55 KW
+  - codi: 18EA2500
+    ordre: 120
+    valors:
+      mesures_interiors:
+        es: Ø1060x600
+        en: Ø1060x600
+        fr: Ø1060x600
+      capacitat_litres:
+        es: '500'
+        en: '500'
+        fr: '500'
+      potencia_electrica:
+        es: 48 KW 400/3V
+        en: 48 KW 400/3V
+        fr: 48 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  compartits: []
+- clau: MARMITAS CILÍNDRICAS, CALOR INDIRECTO, A GAS, ELÉCTRICAS Y A VAPOR DE 300, 400 Y 500 LITROS
+  noms:
+    es: MARMITAS CILÍNDRICAS, CALOR INDIRECTO, A GAS, ELÉCTRICAS Y A VAPOR DE 300, 400 Y 500 LITROS
+    en: CYLINDRICAL BOILING PANS, INDIRECT HEATING, GAS, ELECTRIC AND STEAM, 300, 400, AND 500 LITERS
+    fr: MARMITES CYLINDRIQUES, À CHAUFFAGE INDIRECT, À GAZ, ÉLECTRIQUES ET VAPEUR, 300, 400 ET 500 LITRES
+  sequence: 110
+  tipus: producte
+  pagina: p20
+  taula: p20-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: mesures_interiors
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '18613300'
+    ordre: 10
+    valors:
+      mesures_interiors:
+        es: Ø960x370
+        en: Ø960x370
+        fr: Ø960x370
+      capacitat_litres:
+        es: '300'
+        en: '300'
+        fr: '300'
+      potencia_electrica:
+        es: 115 W 230/1V
+        en: 115 W 230/1V
+        fr: 115 W 230/1V
+      potencia_gas:
+        es: 46 KW
+        en: 46 KW
+        fr: 46 KW
+  - codi: 18E13300
+    ordre: 20
+    valors:
+      mesures_interiors:
+        es: Ø960x370
+        en: Ø960x370
+        fr: Ø960x370
+      capacitat_litres:
+        es: '300'
+        en: '300'
+        fr: '300'
+      potencia_electrica:
+        es: 36 KW 400/3V
+        en: 36 KW 400/3V
+        fr: 36 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '18613400'
+    ordre: 30
+    valors:
+      mesures_interiors:
+        es: Ø960x500
+        en: Ø960x500
+        fr: Ø960x500
+      capacitat_litres:
+        es: '400'
+        en: '400'
+        fr: '400'
+      potencia_electrica:
+        es: 115 W 230/1V
+        en: 115 W 230/1V
+        fr: 115 W 230/1V
+      potencia_gas:
+        es: 46 KW
+        en: 46 KW
+        fr: 46 KW
+  - codi: 18E13400
+    ordre: 40
+    valors:
+      mesures_interiors:
+        es: Ø960x500
+        en: Ø960x500
+        fr: Ø960x500
+      capacitat_litres:
+        es: '400'
+        en: '400'
+        fr: '400'
+      potencia_electrica:
+        es: 36 KW 400/3V
+        en: 36 KW 400/3V
+        fr: 36 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '18613500'
+    ordre: 50
+    valors:
+      mesures_interiors:
+        es: Ø960x610
+        en: Ø960x610
+        fr: Ø960x610
+      capacitat_litres:
+        es: '500'
+        en: '500'
+        fr: '500'
+      potencia_electrica:
+        es: 115 W 230/1V
+        en: 115 W 230/1V
+        fr: 115 W 230/1V
+      potencia_gas:
+        es: 46 KW
+        en: 46 KW
+        fr: 46 KW
+  - codi: 18E13500
+    ordre: 60
+    valors:
+      mesures_interiors:
+        es: Ø960x610
+        en: Ø960x610
+        fr: Ø960x610
+      capacitat_litres:
+        es: '500'
+        en: '500'
+        fr: '500'
+      potencia_electrica:
+        es: 36 KW 400/3V
+        en: 36 KW 400/3V
+        fr: 36 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 18V03300
+    ordre: 70
+    valors:
+      mesures_interiors:
+        es: Ø960x370
+        en: Ø960x370
+        fr: Ø960x370
+      capacitat_litres:
+        es: '300'
+        en: '300'
+        fr: '300'
+      potencia_electrica:
+        es: 170 Kg/h.
+        en: 170 Kg/h.
+        fr: 170 Kg/h.
+  - codi: 18V03400
+    ordre: 80
+    valors:
+      mesures_interiors:
+        es: Ø960x500
+        en: Ø960x500
+        fr: Ø960x500
+      capacitat_litres:
+        es: '400'
+        en: '400'
+        fr: '400'
+      potencia_electrica:
+        es: 170 Kg/h.
+        en: 170 Kg/h.
+        fr: 170 Kg/h.
+  - codi: 18V03500
+    ordre: 90
+    valors:
+      mesures_interiors:
+        es: Ø960x610
+        en: Ø960x610
+        fr: Ø960x610
+      capacitat_litres:
+        es: '500'
+        en: '500'
+        fr: '500'
+      potencia_electrica:
+        es: 170 Kg/h.
+        en: 170 Kg/h.
+        fr: 170 Kg/h.
+  compartits: []
+- clau: MARMITAS CILÍNDRICAS, CALOR INDIRECTO Y AUTOCLAVE, A GAS Y ELÉCTRICAS DE 200, 300 Y 500 LITROS
+  noms:
+    es: MARMITAS CILÍNDRICAS, CALOR INDIRECTO Y AUTOCLAVE, A GAS Y ELÉCTRICAS DE 200, 300 Y 500 LITROS
+    en: CILINDRICAL BOILING PANS, INDIRECT HEATING AND AUTOCLAVE, GAS AND ELECTRIC, 200, 300, AND 500 LITERS
+    fr: MARMITES CYLINDRIQUES, À CHAUFFAGE INDIRECT ET AUTOCLAVE, À GAZ ET ÉLECTRIQUES, 200, 300 ET 500 LITRES
+  sequence: 120
+  tipus: producte
+  pagina: p21
+  taula: p21-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: mesures_interiors
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '18614200'
+    ordre: 10
+    valors:
+      mesures_interiors:
+        es: Ø760x460
+        en: Ø760x460
+        fr: Ø760x460
+      capacitat_litres:
+        es: '200'
+        en: '200'
+        fr: '200'
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 39 KW
+        en: 39 KW
+        fr: 39 KW
+  - codi: 18E14200
+    ordre: 20
+    valors:
+      mesures_interiors:
+        es: Ø760x460
+        en: Ø760x460
+        fr: Ø760x460
+      capacitat_litres:
+        es: '200'
+        en: '200'
+        fr: '200'
+      potencia_electrica:
+        es: 24 KW 400/3V
+        en: 24 KW 400/3V
+        fr: 24 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '18614300'
+    ordre: 30
+    valors:
+      mesures_interiors:
+        es: Ø960x500
+        en: Ø960x500
+        fr: Ø960x500
+      capacitat_litres:
+        es: '300'
+        en: '300'
+        fr: '300'
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 48 KW
+        en: 48 KW
+        fr: 48 KW
+  - codi: 18E14300
+    ordre: 40
+    valors:
+      mesures_interiors:
+        es: Ø960x500
+        en: Ø960x500
+        fr: Ø960x500
+      capacitat_litres:
+        es: '300'
+        en: '300'
+        fr: '300'
+      potencia_electrica:
+        es: 36 KW 400/3V
+        en: 36 KW 400/3V
+        fr: 36 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '18614500'
+    ordre: 50
+    valors:
+      mesures_interiors:
+        es: Ø1060x600
+        en: Ø1060x600
+        fr: Ø1060x600
+      capacitat_litres:
+        es: '500'
+        en: '500'
+        fr: '500'
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 55 KW
+        en: 55 KW
+        fr: 55 KW
+  - codi: 18E14500
+    ordre: 60
+    valors:
+      mesures_interiors:
+        es: Ø1060x600
+        en: Ø1060x600
+        fr: Ø1060x600
+      capacitat_litres:
+        es: '500'
+        en: '500'
+        fr: '500'
+      potencia_electrica:
+        es: 48 KW 400/3V
+        en: 48 KW 400/3V
+        fr: 48 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 186A4200
+    ordre: 70
+    valors:
+      mesures_interiors:
+        es: Ø760x460
+        en: Ø760x460
+        fr: Ø760x460
+      capacitat_litres:
+        es: '200'
+        en: '200'
+        fr: '200'
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 39 KW
+        en: 39 KW
+        fr: 39 KW
+  - codi: 18EA4200
+    ordre: 80
+    valors:
+      mesures_interiors:
+        es: Ø760x460
+        en: Ø760x460
+        fr: Ø760x460
+      capacitat_litres:
+        es: '200'
+        en: '200'
+        fr: '200'
+      potencia_electrica:
+        es: 24 KW 400/3V
+        en: 24 KW 400/3V
+        fr: 24 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 186A4300
+    ordre: 90
+    valors:
+      mesures_interiors:
+        es: Ø960x500
+        en: Ø960x500
+        fr: Ø960x500
+      capacitat_litres:
+        es: '300'
+        en: '300'
+        fr: '300'
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 48 KW
+        en: 48 KW
+        fr: 48 KW
+  - codi: 18EA4300
+    ordre: 100
+    valors:
+      mesures_interiors:
+        es: Ø960x500
+        en: Ø960x500
+        fr: Ø960x500
+      capacitat_litres:
+        es: '300'
+        en: '300'
+        fr: '300'
+      potencia_electrica:
+        es: 36 KW 400/3V
+        en: 36 KW 400/3V
+        fr: 36 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 186A4500
+    ordre: 110
+    valors:
+      mesures_interiors:
+        es: Ø1060x600
+        en: Ø1060x600
+        fr: Ø1060x600
+      capacitat_litres:
+        es: '500'
+        en: '500'
+        fr: '500'
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 55 KW
+        en: 55 KW
+        fr: 55 KW
+  - codi: 18EA4500
+    ordre: 120
+    valors:
+      mesures_interiors:
+        es: Ø1060x600
+        en: Ø1060x600
+        fr: Ø1060x600
+      capacitat_litres:
+        es: '500'
+        en: '500'
+        fr: '500'
+      potencia_electrica:
+        es: 48 KW 400/3V
+        en: 48 KW 400/3V
+        fr: 48 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  compartits: []
+- clau: MARMITAS CILÍNDRICAS, CALOR INDIRECTO Y AUTOCLAVE, CON MEZCLADOR, ELÉCTRICAS DE 200, 300 Y 500 LITROS
+  noms:
+    es: MARMITAS CILÍNDRICAS, CALOR INDIRECTO Y AUTOCLAVE, CON MEZCLADOR, ELÉCTRICAS DE 200, 300 Y 500 LITROS
+    en: CILINDRICAL BOILING PANS, INDIRECT HEATING AND AUTOCLAVE, WITH MIXER, ELECTRIC, 200, 300, AND 500 LITERS
+    fr: MARMITES CYLINDRIQUES, À CHAUFFAGE INDIRECT ET AUTOCLAVE, AVEC MÉLANGEUR, ÉLECTRIQUES, 200, 300 ET 500 LITRES
+  sequence: 130
+  tipus: producte
+  pagina: p22
+  taula: p22-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: mesures_interiors
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 18E15200
+    ordre: 10
+    valors:
+      mesures_interiors:
+        es: Ø760x460
+        en: Ø760x460
+        fr: Ø760x460
+      capacitat_litres:
+        es: '200'
+        en: '200'
+        fr: '200'
+      potencia_electrica:
+        es: 24,4 KW 400/3V
+        en: 24,4 KW 400/3V
+        fr: 24,4 KW 400/3V
+  - codi: 18E15300
+    ordre: 20
+    valors:
+      mesures_interiors:
+        es: Ø960x500
+        en: Ø960x500
+        fr: Ø960x500
+      capacitat_litres:
+        es: '300'
+        en: '300'
+        fr: '300'
+      potencia_electrica:
+        es: 36,4 KW 400/3V
+        en: 36,4 KW 400/3V
+        fr: 36,4 KW 400/3V
+  - codi: 18E15500
+    ordre: 30
+    valors:
+      mesures_interiors:
+        es: Ø1060x600
+        en: Ø1060x600
+        fr: Ø1060x600
+      capacitat_litres:
+        es: '500'
+        en: '500'
+        fr: '500'
+      potencia_electrica:
+        es: 48,4 KW 400/3V
+        en: 48,4 KW 400/3V
+        fr: 48,4 KW 400/3V
+  - codi: 18EA5200
+    ordre: 40
+    valors:
+      mesures_interiors:
+        es: Ø760x460
+        en: Ø760x460
+        fr: Ø760x460
+      capacitat_litres:
+        es: '200'
+        en: '200'
+        fr: '200'
+      potencia_electrica:
+        es: 24,4 KW 400/3V
+        en: 24,4 KW 400/3V
+        fr: 24,4 KW 400/3V
+  - codi: 18EA5300
+    ordre: 50
+    valors:
+      mesures_interiors:
+        es: Ø960x500
+        en: Ø960x500
+        fr: Ø960x500
+      capacitat_litres:
+        es: '300'
+        en: '300'
+        fr: '300'
+      potencia_electrica:
+        es: 36,4 KW 400/3V
+        en: 36,4 KW 400/3V
+        fr: 36,4 KW 400/3V
+  - codi: 18EA5500
+    ordre: 60
+    valors:
+      mesures_interiors:
+        es: Ø1060x600
+        en: Ø1060x600
+        fr: Ø1060x600
+      capacitat_litres:
+        es: '500'
+        en: '500'
+        fr: '500'
+      potencia_electrica:
+        es: 48,4 KW 400/3V
+        en: 48,4 KW 400/3V
+        fr: 48,4 KW 400/3V
+  compartits: []
+- clau: MARMITAS RECTANGULARES, CALOR INDIRECTO, A GAS, ELÉCTRICAS Y A VAPOR DE 200 Y 300 LITROS
+  noms:
+    es: MARMITAS RECTANGULARES, CALOR INDIRECTO, A GAS, ELÉCTRICAS Y A VAPOR DE 200 Y 300 LITROS
+    en: RECTANGULAR BOILING PANS, INDIRECT HEATING, GAS, ELECTRIC AND STEAM, 200, AND 300 LITERS
+    fr: MARMITES RECTANGULAIRES, CHAUFFAGE INDIRECT, À GAZ, ÉLECTRIQUES ET A VAPEUR, 200 ET 300 LITRES
+  sequence: 140
+  tipus: producte
+  pagina: p23
+  taula: p23-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: mesures_interiors
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '18616200'
+    ordre: 10
+    valors:
+      mesures_interiors:
+        es: 1040x550x370
+        en: 1040x550x370
+        fr: 1040x550x370
+      capacitat_litres:
+        es: '200'
+        en: '200'
+        fr: '200'
+      potencia_electrica:
+        es: 100 W 230/1V
+        en: 100 W 230/1V
+        fr: 100 W 230/1V
+      potencia_gas:
+        es: 25 KW
+        en: 25 KW
+        fr: 25 KW
+  - codi: 18E16200
+    ordre: 20
+    valors:
+      mesures_interiors:
+        es: 1040x550x370
+        en: 1040x550x370
+        fr: 1040x550x370
+      capacitat_litres:
+        es: '200'
+        en: '200'
+        fr: '200'
+      potencia_electrica:
+        es: 30 KW 400/3V
+        en: 30 KW 400/3V
+        fr: 30 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '18616300'
+    ordre: 30
+    valors:
+      mesures_interiors:
+        es: 1040x550x550
+        en: 1040x550x550
+        fr: 1040x550x550
+      capacitat_litres:
+        es: '300'
+        en: '300'
+        fr: '300'
+      potencia_electrica:
+        es: 100 W 230/1V
+        en: 100 W 230/1V
+        fr: 100 W 230/1V
+      potencia_gas:
+        es: 32 KW
+        en: 32 KW
+        fr: 32 KW
+  - codi: 18E16300
+    ordre: 40
+    valors:
+      mesures_interiors:
+        es: 1040x550x550
+        en: 1040x550x550
+        fr: 1040x550x550
+      capacitat_litres:
+        es: '300'
+        en: '300'
+        fr: '300'
+      potencia_electrica:
+        es: 36 KW 400/3V
+        en: 36 KW 400/3V
+        fr: 36 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 18V16200
+    ordre: 50
+    valors:
+      mesures_interiors:
+        es: 1040x550x370
+        en: 1040x550x370
+        fr: 1040x550x370
+      capacitat_litres:
+        es: '200'
+        en: '200'
+        fr: '200'
+      potencia_electrica:
+        es: 100 Kg/h.
+        en: 100 Kg/h.
+        fr: 100 Kg/h.
+  - codi: 18V16300
+    ordre: 60
+    valors:
+      mesures_interiors:
+        es: 1040x550x550
+        en: 1040x550x550
+        fr: 1040x550x550
+      capacitat_litres:
+        es: '300'
+        en: '300'
+        fr: '300'
+      potencia_electrica:
+        es: 100 Kg/h.
+        en: 100 Kg/h.
+        fr: 100 Kg/h.
+  compartits: []
+- clau: MARMITAS BASCULANTES, CALOR INDIRECTO, A GAS Y ELÉCTRICAS, DE 200, 300 Y 500 LITROS
+  noms:
+    es: MARMITAS BASCULANTES, CALOR INDIRECTO, A GAS Y ELÉCTRICAS, DE 200, 300 Y 500 LITROS
+    en: TILTING BOILING PANS, INDIRECT, GAS AND ELECTRIC, 200, 300, AND 500 LITERS
+    fr: MARMITES BASCULANTES, CHAUFFAGE INDIRECT, À GAZ ET ÉLECTRIQUES DE 200, 300 ET 500 LITRES
+  sequence: 150
+  tipus: producte
+  pagina: p24
+  taula: p24-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: mesures_interiors
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: motor
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '18617200'
+    ordre: 10
+    valors:
+      mesures_interiors:
+        es: Ø760x500
+        en: Ø760x500
+        fr: Ø760x500
+      capacitat_litres:
+        es: '200'
+        en: '200'
+        fr: '200'
+      motor:
+        es: 400 W 230/1V
+        en: 400 W 230/1V
+        fr: 400 W 230/1V
+      potencia_gas:
+        es: 39KW
+        en: 39KW
+        fr: 39KW
+  - codi: 18E17200
+    ordre: 20
+    valors:
+      mesures_interiors:
+        es: Ø760x500
+        en: Ø760x500
+        fr: Ø760x500
+      capacitat_litres:
+        es: '200'
+        en: '200'
+        fr: '200'
+      motor:
+        es: 24,4 KW 400/3V
+        en: 24,4 KW 400/3V
+        fr: 24,4 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '18617300'
+    ordre: 30
+    valors:
+      mesures_interiors:
+        es: Ø960x500
+        en: Ø960x500
+        fr: Ø960x500
+      capacitat_litres:
+        es: '300'
+        en: '300'
+        fr: '300'
+      motor:
+        es: 400 W 230/1V
+        en: 400 W 230/1V
+        fr: 400 W 230/1V
+      potencia_gas:
+        es: 48 KW
+        en: 48 KW
+        fr: 48 KW
+  - codi: 18E17300
+    ordre: 40
+    valors:
+      mesures_interiors:
+        es: Ø960x500
+        en: Ø960x500
+        fr: Ø960x500
+      capacitat_litres:
+        es: '300'
+        en: '300'
+        fr: '300'
+      motor:
+        es: 36,4 KW 400/3V
+        en: 36,4 KW 400/3V
+        fr: 36,4 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '18617500'
+    ordre: 50
+    valors:
+      mesures_interiors:
+        es: Ø1060x600
+        en: Ø1060x600
+        fr: Ø1060x600
+      capacitat_litres:
+        es: '500'
+        en: '500'
+        fr: '500'
+      motor:
+        es: 400 W 230/1V
+        en: 400 W 230/1V
+        fr: 400 W 230/1V
+      potencia_gas:
+        es: 55 KW
+        en: 55 KW
+        fr: 55 KW
+  - codi: 18E17500
+    ordre: 60
+    valors:
+      mesures_interiors:
+        es: Ø1060x600
+        en: Ø1060x600
+        fr: Ø1060x600
+      capacitat_litres:
+        es: '500'
+        en: '500'
+        fr: '500'
+      motor:
+        es: 48,4 KW 400/3V
+        en: 48,4 KW 400/3V
+        fr: 48,4 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  compartits: []
+- clau: MARMITAS BASCULANTES, CALOR INDIRECTO, A GAS Y ELÉCTRICAS CON MEZCLADOR DE 200, 300 Y 500 LITROS
+  noms:
+    es: MARMITAS BASCULANTES, CALOR INDIRECTO, A GAS Y ELÉCTRICAS CON MEZCLADOR DE 200, 300 Y 500 LITROS
+    en: TILTING BOILING PANS, INDIRECT HEAT, GAS AND ELECTRIC WITH MIXER, 200, 300, AND 500 LITERS
+    fr: MARMITES BASCULANTES, CHAUFFAGE INDIRECT, GAZ ET ÉLECTRIQUES AVEC MÉLANGEUR DE 200, 300 ET 500 LITRES
+  sequence: 160
+  tipus: producte
+  pagina: p25
+  taula: p25-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: mesures_interiors
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: motor
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '18618200'
+    ordre: 10
+    valors:
+      mesures_interiors:
+        es: Ø760x500
+        en: Ø760x500
+        fr: Ø760x500
+      capacitat_litres:
+        es: '200'
+        en: '200'
+        fr: '200'
+      motor:
+        es: 750 W 230/1V
+        en: 750 W 230/1V
+        fr: 750 W 230/1V
+      potencia_gas:
+        es: 39 KW
+        en: 39 KW
+        fr: 39 KW
+  - codi: 18E18200
+    ordre: 20
+    valors:
+      mesures_interiors:
+        es: Ø760x500
+        en: Ø760x500
+        fr: Ø760x500
+      capacitat_litres:
+        es: '200'
+        en: '200'
+        fr: '200'
+      motor:
+        es: 24,75 KW 400/3V
+        en: 24,75 KW 400/3V
+        fr: 24,75 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '18618300'
+    ordre: 30
+    valors:
+      mesures_interiors:
+        es: Ø960x500
+        en: Ø960x500
+        fr: Ø960x500
+      capacitat_litres:
+        es: '300'
+        en: '300'
+        fr: '300'
+      motor:
+        es: 750 W 230/1V
+        en: 750 W 230/1V
+        fr: 750 W 230/1V
+      potencia_gas:
+        es: 48 KW
+        en: 48 KW
+        fr: 48 KW
+  - codi: 18E18300
+    ordre: 40
+    valors:
+      mesures_interiors:
+        es: Ø960x500
+        en: Ø960x500
+        fr: Ø960x500
+      capacitat_litres:
+        es: '300'
+        en: '300'
+        fr: '300'
+      motor:
+        es: 36,75 KW 400/3V
+        en: 36,75 KW 400/3V
+        fr: 36,75 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '18618500'
+    ordre: 50
+    valors:
+      mesures_interiors:
+        es: Ø1060x500
+        en: Ø1060x500
+        fr: Ø1060x500
+      capacitat_litres:
+        es: '500'
+        en: '500'
+        fr: '500'
+      motor:
+        es: 750 W 230/1V
+        en: 750 W 230/1V
+        fr: 750 W 230/1V
+      potencia_gas:
+        es: 55 KW
+        en: 55 KW
+        fr: 55 KW
+  - codi: 18E18500
+    ordre: 60
+    valors:
+      mesures_interiors:
+        es: Ø1060x500
+        en: Ø1060x500
+        fr: Ø1060x500
+      capacitat_litres:
+        es: '500'
+        en: '500'
+        fr: '500'
+      motor:
+        es: 48,75KW 400/3V
+        en: 48,75KW 400/3V
+        fr: 48,75KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  compartits: []
+- clau: WOKS DE SOBREMESA, FONDO 700, A GAS
+  noms:
+    es: WOKS DE SOBREMESA, FONDO 700, A GAS
+    en: WOKS TABLETOP, 700 DEPTH, GAS
+    fr: WOKS DE TABLE, FOND 700, À GAZ
+  sequence: 170
+  tipus: producte
+  pagina: p28
+  taula: p28-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: wok
+    etiqueta: null
+  - codi: wok_2
+    etiqueta: null
+  - codi: dutxa
+    etiqueta:
+      es: Columna de agua
+      en: Water Column
+      fr: Colonne d'Eau
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 320675LT
+    ordre: 10
+    valors:
+      wok:
+        es: 1x14
+        en: 1x14
+        fr: 1x14
+      wok_2:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dutxa:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 14 KW
+        en: 14 KW
+        fr: 14 KW
+  - codi: 321075LT
+    ordre: 20
+    valors:
+      wok:
+        es: 1x14
+        en: 1x14
+        fr: 1x14
+      wok_2:
+        es: 1x21
+        en: 1x21
+        fr: 1x21
+      dutxa:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 35 KW
+        en: 35 KW
+        fr: 35 KW
+  - codi: 321575LT
+    ordre: 30
+    valors:
+      wok:
+        es: 2x14
+        en: 2x14
+        fr: 2x14
+      wok_2:
+        es: 1x21
+        en: 1x21
+        fr: 1x21
+      dutxa:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 49 KW
+        en: 49 KW
+        fr: 49 KW
+  - codi: 322075LT
+    ordre: 40
+    valors:
+      wok:
+        es: 2x14
+        en: 2x14
+        fr: 2x14
+      wok_2:
+        es: 2x21
+        en: 2x21
+        fr: 2x21
+      dutxa:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 70 KW
+        en: 70 KW
+        fr: 70 KW
+  compartits: []
+- clau: WOKS SOBRE SOPORTE, FONDO 700, A GAS
+  noms:
+    es: WOKS SOBRE SOPORTE, FONDO 700, A GAS
+    en: WOKS ON SUPPORT, 700 DEPTH, GAS
+    fr: WOKS SUR SUPPORT, FOND 700, À GAZ
+  sequence: 180
+  tipus: producte
+  pagina: p29
+  taula: p29-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: wok
+    etiqueta: null
+  - codi: wok_2
+    etiqueta: null
+  - codi: dutxa
+    etiqueta:
+      es: Columna de agua
+      en: Water Column
+      fr: Colonne d'Eau
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 320675L5
+    ordre: 10
+    valors:
+      wok:
+        es: 1x14
+        en: 1x14
+        fr: 1x14
+      wok_2:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dutxa:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 14 KW
+        en: 14 KW
+        fr: 14 KW
+  - codi: 321075L5
+    ordre: 20
+    valors:
+      wok:
+        es: 1x14
+        en: 1x14
+        fr: 1x14
+      wok_2:
+        es: 1x21
+        en: 1x21
+        fr: 1x21
+      dutxa:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 35 KW
+        en: 35 KW
+        fr: 35 KW
+  - codi: 321575L5
+    ordre: 30
+    valors:
+      wok:
+        es: 2x14
+        en: 2x14
+        fr: 2x14
+      wok_2:
+        es: 1x21
+        en: 1x21
+        fr: 1x21
+      dutxa:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 49 KW
+        en: 49 KW
+        fr: 49 KW
+  - codi: 322075L5
+    ordre: 40
+    valors:
+      wok:
+        es: 2x14
+        en: 2x14
+        fr: 2x14
+      wok_2:
+        es: 2x21
+        en: 2x21
+        fr: 2x21
+      dutxa:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 70 KW
+        en: 70 KW
+        fr: 70 KW
+  compartits: []
+- clau: WOKS REFRIGERADOS SOBRE SOPORTE, FONDO 700, A GAS
+  noms:
+    es: WOKS REFRIGERADOS SOBRE SOPORTE, FONDO 700, A GAS
+    en: REFRIGERATED WOKS ON SUPPORT, 700 DEPTH, GAS
+    fr: WOKS RÉFRIGÉRÉS SUR SUPPORT, FOND 700, À GAZ
+  sequence: 190
+  tipus: producte
+  pagina: p30
+  taula: p30-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: wok
+    etiqueta: null
+  - codi: wok_2
+    etiqueta: null
+  - codi: dutxa
+    etiqueta:
+      es: Columna de agua
+      en: Water Column
+      fr: Colonne d'Eau
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 32067CK5
+    ordre: 10
+    valors:
+      wok:
+        es: 1x14
+        en: 1x14
+        fr: 1x14
+      wok_2:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dutxa:
+        es: '1'
+        en: '1'
+        fr: '1'
+      potencia_gas:
+        es: 14 KW
+        en: 14 KW
+        fr: 14 KW
+  - codi: 32107CK5
+    ordre: 20
+    valors:
+      wok:
+        es: 1x14
+        en: 1x14
+        fr: 1x14
+      wok_2:
+        es: 1x21
+        en: 1x21
+        fr: 1x21
+      dutxa:
+        es: '1'
+        en: '1'
+        fr: '1'
+      potencia_gas:
+        es: 35 KW
+        en: 35 KW
+        fr: 35 KW
+  - codi: 32157CK5
+    ordre: 30
+    valors:
+      wok:
+        es: 2x14
+        en: 2x14
+        fr: 2x14
+      wok_2:
+        es: 1x21
+        en: 1x21
+        fr: 1x21
+      dutxa:
+        es: '1'
+        en: '1'
+        fr: '1'
+      potencia_gas:
+        es: 49 KW
+        en: 49 KW
+        fr: 49 KW
+  - codi: 32207CK5
+    ordre: 40
+    valors:
+      wok:
+        es: 2x14
+        en: 2x14
+        fr: 2x14
+      wok_2:
+        es: 2x21
+        en: 2x21
+        fr: 2x21
+      dutxa:
+        es: '1'
+        en: '1'
+        fr: '1'
+      potencia_gas:
+        es: 70 KW
+        en: 70 KW
+        fr: 70 KW
+  compartits: []
+- clau: WOKS REFRIGERADOS SOBRE MONTANTES, FONDO 900, A GAS
+  noms:
+    es: WOKS REFRIGERADOS SOBRE MONTANTES, FONDO 900, A GAS
+    en: REFRIGERATED WOKS ON UPRIGHTS, 900 DEPTH, GAS
+    fr: WOKS RÉFRIGÉRÉS SUR MONTANTS, FOND 900, À GAZ
+  sequence: 200
+  tipus: producte
+  pagina: p31
+  taula: p31-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: wok
+    etiqueta: null
+  - codi: wok_2
+    etiqueta: null
+  - codi: dutxa
+    etiqueta:
+      es: Columna de agua
+      en: Water Column
+      fr: Colonne d'Eau
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 32109DEM
+    ordre: 10
+    valors:
+      wok:
+        es: 1x14
+        en: 1x14
+        fr: 1x14
+      wok_2:
+        es: 1x21
+        en: 1x21
+        fr: 1x21
+      dutxa:
+        es: '1'
+        en: '1'
+        fr: '1'
+      potencia_gas:
+        es: 35 KW
+        en: 35 KW
+        fr: 35 KW
+  - codi: 32159DEM
+    ordre: 20
+    valors:
+      wok:
+        es: 2x14
+        en: 2x14
+        fr: 2x14
+      wok_2:
+        es: 1x21
+        en: 1x21
+        fr: 1x21
+      dutxa:
+        es: '1'
+        en: '1'
+        fr: '1'
+      potencia_gas:
+        es: 49 KW
+        en: 49 KW
+        fr: 49 KW
+  - codi: 32209DEM
+    ordre: 30
+    valors:
+      wok:
+        es: 2x14
+        en: 2x14
+        fr: 2x14
+      wok_2:
+        es: 2x21
+        en: 2x21
+        fr: 2x21
+      dutxa:
+        es: '1'
+        en: '1'
+        fr: '1'
+      potencia_gas:
+        es: 70 KW
+        en: 70 KW
+        fr: 70 KW
+  compartits: []
+- clau: WOKS REFRIGERADOS SOBRE MONTANTES, FONDO 900, A GAS#2
+  noms:
+    es: WOKS REFRIGERADOS SOBRE MONTANTES, FONDO 900, A GAS
+    en: REFRIGERATED WOKS ON UPRIGHTS, 900 DEPTH, GAS
+    fr: WOKS RÉFRIGÉRÉS SUR MONTANTS, FOND 900, À GAZ
+  sequence: 210
+  tipus: producte
+  pagina: p32
+  taula: p32-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: wok
+    etiqueta: null
+  - codi: wok_2
+    etiqueta: null
+  - codi: dutxa
+    etiqueta:
+      es: Columna de agua
+      en: Water Column
+      fr: Colonne d'Eau
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 32259DEM
+    ordre: 10
+    valors:
+      wok:
+        es: 2x14
+        en: 2x14
+        fr: 2x14
+      wok_2:
+        es: 3x21
+        en: 3x21
+        fr: 3x21
+      dutxa:
+        es: '2'
+        en: '2'
+        fr: '2'
+      potencia_gas:
+        es: 91 KW
+        en: 91 KW
+        fr: 91 KW
+  - codi: 32309DEM
+    ordre: 20
+    valors:
+      wok:
+        es: 3x14
+        en: 3x14
+        fr: 3x14
+      wok_2:
+        es: 3x21
+        en: 3x21
+        fr: 3x21
+      dutxa:
+        es: '2'
+        en: '2'
+        fr: '2'
+      potencia_gas:
+        es: 105 KW
+        en: 105 KW
+        fr: 105 KW
+  - codi: 32359DEM
+    ordre: 30
+    valors:
+      wok:
+        es: 3x14
+        en: 3x14
+        fr: 3x14
+      wok_2:
+        es: 4x21
+        en: 4x21
+        fr: 4x21
+      dutxa:
+        es: '3'
+        en: '3'
+        fr: '3'
+      potencia_gas:
+        es: 126 KW
+        en: 126 KW
+        fr: 126 KW
+  compartits: []
+- clau: FRYTOPS-TEPPANYAKI DE SOBREMESA, FONDO 720, A GAS Y ELÉCTRICOS
+  noms:
+    es: FRYTOPS-TEPPANYAKI DE SOBREMESA, FONDO 720, A GAS Y ELÉCTRICOS
+    en: COUNTERTOP FRYTOPS-TEPPANYAKI, 720 MM DEPTH, GAS AND ELECTRIC
+    fr: FRYTOPS-TEPPANYAKI DE TABLE, PROFONDEUR 720, À GAZ ET ÉLECTRIQUES
+  sequence: 220
+  tipus: producte
+  pagina: p35
+  taula: p35-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: placa_lisa
+    etiqueta: null
+  - codi: dimensions_placa
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 3212765M
+    ordre: 10
+    valors:
+      placa_lisa:
+        es: Cr.D.
+        en: Cr.D.
+        fr: Cr.D.
+      dimensions_placa:
+        es: 1195 x 645
+        en: 1195 x 645
+        fr: 1195 x 645
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 17,4 KW
+        en: 17,4 KW
+        fr: 17,4 KW
+  - codi: 32127E5M
+    ordre: 20
+    valors:
+      placa_lisa:
+        es: Cr.D.
+        en: Cr.D.
+        fr: Cr.D.
+      dimensions_placa:
+        es: 1195 x 645
+        en: 1195 x 645
+        fr: 1195 x 645
+      potencia_electrica:
+        es: 16,2 KW 400/3V
+        en: 16,2 KW 400/3V
+        fr: 16,2 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 3216765M
+    ordre: 30
+    valors:
+      placa_lisa:
+        es: Cr.D.
+        en: Cr.D.
+        fr: Cr.D.
+      dimensions_placa:
+        es: 1595 x 645
+        en: 1595 x 645
+        fr: 1595 x 645
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 23,2 KW
+        en: 23,2 KW
+        fr: 23,2 KW
+  - codi: 32167E5M
+    ordre: 40
+    valors:
+      placa_lisa:
+        es: Cr.D.
+        en: Cr.D.
+        fr: Cr.D.
+      dimensions_placa:
+        es: 1595 x 645
+        en: 1595 x 645
+        fr: 1595 x 645
+      potencia_electrica:
+        es: 21,6 KW 400/3V
+        en: 21,6 KW 400/3V
+        fr: 21,6 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 3220765M
+    ordre: 50
+    valors:
+      placa_lisa:
+        es: Cr.D.
+        en: Cr.D.
+        fr: Cr.D.
+      dimensions_placa:
+        es: 1995 x 645
+        en: 1995 x 645
+        fr: 1995 x 645
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 29 KW
+        en: 29 KW
+        fr: 29 KW
+  - codi: 32207E5M
+    ordre: 60
+    valors:
+      placa_lisa:
+        es: Cr.D.
+        en: Cr.D.
+        fr: Cr.D.
+      dimensions_placa:
+        es: 1995 x 645
+        en: 1995 x 645
+        fr: 1995 x 645
+      potencia_electrica:
+        es: 27 KW 400/3V
+        en: 27 KW 400/3V
+        fr: 27 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  compartits: []
+- clau: FRYTOPS-TEPPANYAKI SOBRE SOPORTE, FONDO 720, A GAS Y ELÉCTRICOS
+  noms:
+    es: FRYTOPS-TEPPANYAKI SOBRE SOPORTE, FONDO 720, A GAS Y ELÉCTRICOS
+    en: ON SUPPORT FRYTOPS-TEPPANYAKI, 720 MM DEPTH, GAS AND ELECTRIC
+    fr: FRYTOPS-TEPPANYAKI SUR SUPPORT, PROFONDEUR 720, À GAZ ET ÉLECTRIQUES
+  sequence: 230
+  tipus: producte
+  pagina: p36
+  taula: p36-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: placa_lisa
+    etiqueta: null
+  - codi: dimensions_placa
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '32127655'
+    ordre: 10
+    valors:
+      placa_lisa:
+        es: Cr.D.
+        en: Cr.D.
+        fr: Cr.D.
+      dimensions_placa:
+        es: 1195 x 645
+        en: 1195 x 645
+        fr: 1195 x 645
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 17,4 KW
+        en: 17,4 KW
+        fr: 17,4 KW
+  - codi: 32127E55
+    ordre: 20
+    valors:
+      placa_lisa:
+        es: Cr.D.
+        en: Cr.D.
+        fr: Cr.D.
+      dimensions_placa:
+        es: 1195 x 645
+        en: 1195 x 645
+        fr: 1195 x 645
+      potencia_electrica:
+        es: 16,2 KW 400/3V
+        en: 16,2 KW 400/3V
+        fr: 16,2 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '32167655'
+    ordre: 30
+    valors:
+      placa_lisa:
+        es: Cr.D.
+        en: Cr.D.
+        fr: Cr.D.
+      dimensions_placa:
+        es: 1595 x 645
+        en: 1595 x 645
+        fr: 1595 x 645
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 23,2 KW
+        en: 23,2 KW
+        fr: 23,2 KW
+  - codi: 32167E55
+    ordre: 40
+    valors:
+      placa_lisa:
+        es: Cr.D.
+        en: Cr.D.
+        fr: Cr.D.
+      dimensions_placa:
+        es: 1595 x 645
+        en: 1595 x 645
+        fr: 1595 x 645
+      potencia_electrica:
+        es: 21,6 KW 400/3V
+        en: 21,6 KW 400/3V
+        fr: 21,6 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '32207655'
+    ordre: 50
+    valors:
+      placa_lisa:
+        es: Cr.D.
+        en: Cr.D.
+        fr: Cr.D.
+      dimensions_placa:
+        es: 1995 x 645
+        en: 1995 x 645
+        fr: 1995 x 645
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 29 KW
+        en: 29 KW
+        fr: 29 KW
+  - codi: 32207E55
+    ordre: 60
+    valors:
+      placa_lisa:
+        es: Cr.D.
+        en: Cr.D.
+        fr: Cr.D.
+      dimensions_placa:
+        es: 1995 x 645
+        en: 1995 x 645
+        fr: 1995 x 645
+      potencia_electrica:
+        es: 27 KW 400/3V
+        en: 27 KW 400/3V
+        fr: 27 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  compartits: []
+- clau: PARRILLAS
+  noms:
+    es: PARRILLAS
+    en: GRIDDLES
+    fr: GRILLES
+  sequence: 240
+  tipus: accessoris
+  pagina: p37
+  taula: p37-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A10PA42
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 425 x 425
+        en: 425 x 425
+        fr: 425 x 425
+  compartits:
+  - codi: 4A556021
+    ordre: 20
+    valors:
+      mesures_text:
+        es: SUPLETORIA
+        en: SUPPLEMENTARY
+        fr: SUPPLÉMENTAIRE
+    propietari: G03
+- clau: SUPLEMENTO CAMBIO QUEMADOR
+  noms:
+    es: SUPLEMENTO CAMBIO QUEMADOR
+    en: BURNER CHANGE SUPPLEMENT
+    fr: SUPPLÉMENT DE CHANGEMENT DE BRÛLEUR
+  sequence: 250
+  tipus: accessoris
+  pagina: p37
+  taula: p37-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: kit_cambio
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes: []
+  compartits:
+  - codi: 4A555075
+    ordre: 10
+    valors:
+      kit_cambio:
+        es: 5 Kw ó 7,5 Kw
+        en: 5 Kw ó 7,5 Kw
+        fr: 5 Kw ó 7,5 Kw
+    propietari: G02
+- clau: PLANCHA LISA O ESTRIADA
+  noms:
+    es: PLANCHA LISA O ESTRIADA
+    en: SMOOTH OR RIBBED PLATE
+    fr: PLAQUE LISSE OU NERVURÉE
+  sequence: 260
+  tipus: accessoris
+  pagina: p37
+  taula: p37-t3
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A10PL42
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 425 x 425
+        en: 425 x 425
+        fr: 425 x 425
+  - codi: 4A10PE42
+    ordre: 20
+    valors:
+      mesures_text:
+        es: 425 x 425
+        en: 425 x 425
+        fr: 425 x 425
+  compartits: []
+- clau: RASQUETAS
+  noms:
+    es: RASQUETAS
+    en: SPATULAS
+    fr: SPATULES
+  sequence: 270
+  tipus: accessoris
+  pagina: p37
+  taula: p37-t4
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: para
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes: []
+  compartits:
+  - codi: '96107'
+    ordre: 10
+    valors:
+      para:
+        es: FRYTOPS FE
+        en: IRON FRYTOPS
+        fr: FRYTOPS FER
+    propietari: G03
+  - codi: '93085'
+    ordre: 20
+    valors:
+      para:
+        es: FRYTOPS CrD
+        en: HCr FRYTOPS
+        fr: FRYTOPS CrD
+    propietari: G03
+  - codi: 4A795021
+    ordre: 30
+    valors:
+      para:
+        es: KIT 10 CUCHILLAS
+        en: KIT 10 KNIVES
+        fr: KIT 10 COUTEAUX
+    propietari: G03
+- clau: REJILLA HORNO
+  noms:
+    es: REJILLA HORNO
+    en: OVEN GRID
+    fr: GRILLE DU FOUR
+  sequence: 280
+  tipus: accessoris
+  pagina: p37
+  taula: p37-t5
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: pack
+    etiqueta: null
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A10RHCE
+    ordre: 10
+    valors:
+      pack:
+        es: '2'
+        en: '2'
+        fr: '2'
+      mesures_text:
+        es: 650 x 400
+        en: 650 x 400
+        fr: 650 x 400
+  compartits: []
+- clau: BANDEJA HORNO
+  noms:
+    es: BANDEJA HORNO
+    en: OVEN TRAY
+    fr: PLATEAU DU FOUR
+  sequence: 290
+  tipus: accessoris
+  pagina: p37
+  taula: p37-t6
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: pack
+    etiqueta: null
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A10BHCE
+    ordre: 10
+    valors:
+      pack:
+        es: '2'
+        en: '2'
+        fr: '2'
+      mesures_text:
+        es: 650 x 400 x 40
+        en: 650 x 400 x 40
+        fr: 650 x 400 x 40
+  compartits: []
+- clau: CARRO PARA DESCARGA BASCULANTE CON RUEDAS
+  noms:
+    es: CARRO PARA DESCARGA BASCULANTE CON RUEDAS
+    en: TROLLEY FOR TILTING UNLOADING WITH WHEELS
+    fr: CHARIOT À DÉCHARGEMENT BASCULANT AVEC ROUES
+  sequence: 300
+  tipus: accessoris
+  pagina: p38
+  taula: p38-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: serie
+    etiqueta: null
+  - codi: mesures_text
+    etiqueta: null
+  - codi: mesures_interiors
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: para
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A062530
+    ordre: 10
+    valors:
+      serie:
+        es: '8'
+        en: '8'
+        fr: '8'
+      mesures_text:
+        es: 950x600x750
+        en: 950x600x750
+        fr: 950x600x750
+      mesures_interiors:
+        es: 800x500x400
+        en: 800x500x400
+        fr: 800x500x400
+      capacitat_litres:
+        es: '160'
+        en: '160'
+        fr: '160'
+      para:
+        es: MARMITAS Y SARTENES BASCULANTES
+        en: BOILING PANS AND TILTING PANS
+        fr: MARMITES ET SAUTEUSES BASCULANTES
+  compartits: []
+- clau: CESTO MARMITA
+  noms:
+    es: CESTO MARMITA
+    en: BOILING PAN BASKET
+    fr: PANIER MARMITE
+  sequence: 310
+  tipus: accessoris
+  pagina: p38
+  taula: p38-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: serie
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: pack
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A011009
+    ordre: 10
+    valors:
+      serie:
+        es: 2/4/7
+        en: 2/4/7
+        fr: 2/4/7
+      capacitat_litres:
+        es: '200'
+        en: '200'
+        fr: '200'
+      pack:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: 4A021009
+    ordre: 20
+    valors:
+      serie:
+        es: 2/4/7
+        en: 2/4/7
+        fr: 2/4/7
+      capacitat_litres:
+        es: '300'
+        en: '300'
+        fr: '300'
+      pack:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: 4A051009
+    ordre: 30
+    valors:
+      serie:
+        es: 2/4/7
+        en: 2/4/7
+        fr: 2/4/7
+      capacitat_litres:
+        es: '300'
+        en: '300'
+        fr: '300'
+      pack:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: 4A061009
+    ordre: 40
+    valors:
+      serie:
+        es: 2/4/7
+        en: 2/4/7
+        fr: 2/4/7
+      capacitat_litres:
+        es: '500'
+        en: '500'
+        fr: '500'
+      pack:
+        es: '4'
+        en: '4'
+        fr: '4'
+  compartits: []
+- clau: PARRILLAS WOK
+  noms:
+    es: PARRILLAS WOK
+    en: WOK GRATES
+    fr: GRILLES WOK
+  sequence: 320
+  tipus: accessoris
+  pagina: p38
+  taula: p38-t3
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: para
+    etiqueta:
+      es: Ø MM.
+      en: Ø MM.
+      fr: Ø MM.
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A910009
+    ordre: 10
+    valors:
+      para:
+        es: 380 x 90
+        en: 380 x 90
+        fr: 380 x 90
+  - codi: 4A600009
+    ordre: 20
+    valors:
+      para:
+        es: 380 x 75
+        en: 380 x 75
+        fr: 380 x 75
+  compartits: []
+- clau: SARTEN WOK
+  noms:
+    es: SARTEN WOK
+    en: WOK PAN
+    fr: POÊLE À WOK
+  sequence: 330
+  tipus: accessoris
+  pagina: p38
+  taula: p38-t4
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: para
+    etiqueta:
+      es: Ø MM.
+      en: Ø MM.
+      fr: Ø MM.
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A633932
+    ordre: 10
+    valors:
+      para:
+        es: 360 x 100
+        en: 360 x 100
+        fr: 360 x 100
+  compartits: []
+- clau: SUPLEMENTO CAMBIO QUEMADOR#2
+  noms:
+    es: SUPLEMENTO CAMBIO QUEMADOR
+    en: BURNER CHANGE SUPPLEMENT
+    fr: SUPPLÉMENT DE CHANGEMENT DE BRÛLEUR
+  sequence: 340
+  tipus: accessoris
+  pagina: p38
+  taula: p38-t5
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: para
+    etiqueta:
+      es: KW / Ø MM.
+      en: KW / Ø MM.
+      fr: KW / Ø MM.
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4AW01421
+    ordre: 10
+    valors:
+      para:
+        es: 14/175 - 21/220
+        en: 14/175 - 21/220
+        fr: 14/175 - 21/220
+  compartits: []
+avisos:
+- 'p20-t1 18V03300: sense valor per a «potencia_gas»'
+- 'p20-t1 18V03400: sense valor per a «potencia_gas»'
+- 'p20-t1 18V03500: sense valor per a «potencia_gas»'
+- 'p23-t1 18V16200: sense valor per a «potencia_gas»'
+- 'p23-t1 18V16300: sense valor per a «potencia_gas»'
+repeticions:
+  PARRILLAS:
+  - codi: 4A556021
+    ordre: 20
+  SUPLEMENTO CAMBIO QUEMADOR:
+  - codi: 4A555075
+    ordre: 10
+  RASQUETAS:
+  - codi: '96107'
+    ordre: 10
+  - codi: '93085'
+    ordre: 20
+  - codi: 4A795021
+    ordre: 30
+informe:
+  inexistents: []
+  descatalogats: []
+  arxivats: []
+  ambigus: []
+  ignorats: []
+  fora_pdf: []
+  columnes_eliminades: []
+  families_buides: []
+  taules_dividides: []

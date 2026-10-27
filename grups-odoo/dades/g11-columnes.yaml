@@ -1,0 +1,3004 @@
+esquema: tarifa-columnes-posicio/1
+grup: 11
+metode: posicio sobre el PDF publicat (intervals X = cel.les de la fila de capcalera del PDF; files = codi + vores de cel.la del PDF)
+font_pdf: cataleg_original_web.pdf
+nota: 'Per taula: fila (codi) -> columna (clau del gN.yaml) -> text tal com surt al PDF publicat. "-" = guio del catalag; "[icona]" = cel.la amb una icona (energia gas/electric...), sense text. icones_en_columna
+  = columnes amb una icona a la cel.la. cel_les_combinades (si n hi ha) = valor de cel.la combinada copiat a totes les files que cobreix. codi_al_pdf = el PDF porta un codi diferent del .pub.'
+pagines:
+- pagina_pub: 9
+  pagina_pdf: 431
+  taules:
+  - id: p09-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes
+    - dimensions_parrilla
+    - capacitat_litres
+    - classe_energetica
+    - kw_365
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '72579509'
+      cel_les:
+        codi: '72579509'
+        pes: '98'
+        mesures: 1500x600x850
+        portes: '2'
+        dimensions_parrilla: 2 - 460x405
+        capacitat_litres: '250'
+        classe_energetica: C
+        kw_365: '1018'
+        potencia_electrica: 0,22 KW
+        preu: '2.605'
+    - codi: '71979509'
+      cel_les:
+        codi: '71979509'
+        pes: '116'
+        mesures: 2020x600x850
+        portes: '3'
+        dimensions_parrilla: 3 - 460x405
+        capacitat_litres: '390'
+        classe_energetica: C
+        kw_365: '1119'
+        potencia_electrica: 0,22 KW
+        preu: '3.095'
+    - codi: '70289509'
+      cel_les:
+        codi: '70289509'
+        pes: '143'
+        mesures: 2545x600x850
+        portes: '4'
+        dimensions_parrilla: 4 - 460x405
+        capacitat_litres: '530'
+        classe_energetica: D
+        kw_365: '1919'
+        potencia_electrica: 0,35 KW
+        preu: '3.670'
+    - codi: '72589509'
+      cel_les:
+        codi: '72589509'
+        pes: '102'
+        mesures: 1345x700x850
+        portes: '2'
+        dimensions_parrilla: 2 - GN 1/1
+        capacitat_litres: '290'
+        classe_energetica: C
+        kw_365: '1018'
+        potencia_electrica: 0,19 KW
+        preu: '2.940'
+    - codi: '75789509'
+      cel_les:
+        codi: '75789509'
+        pes: '126'
+        mesures: 1800x700x850
+        portes: '3'
+        dimensions_parrilla: 3 - GN 1/1
+        capacitat_litres: '455'
+        classe_energetica: C
+        kw_365: '1119'
+        potencia_electrica: 0,19 KW
+        preu: '3.480'
+    - codi: '79099509'
+      cel_les:
+        codi: '79099509'
+        pes: '153'
+        mesures: 2245x700x850
+        portes: '4'
+        dimensions_parrilla: 4 - GN 1/1
+        capacitat_litres: '615'
+        classe_energetica: E
+        kw_365: '1920'
+        potencia_electrica: 0,33 KW
+        preu: '4.115'
+- pagina_pub: 10
+  pagina_pdf: 432
+  taules:
+  - id: p10-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes
+    - dimensions_parrilla
+    - capacitat_litres
+    - classe_energetica
+    - kw_365
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 7C257950
+      cel_les:
+        codi: 7C257950
+        pes: '98'
+        mesures: 1500x600x850
+        portes: '2'
+        dimensions_parrilla: 2 - 460x405
+        capacitat_litres: '250'
+        classe_energetica: C
+        kw_365: '1018'
+        potencia_electrica: 0,22 KW
+        preu: '2.605'
+    - codi: 7C197950
+      cel_les:
+        codi: 7C197950
+        pes: '116'
+        mesures: 2020x600x850
+        portes: '3'
+        dimensions_parrilla: 3 - 460x405
+        capacitat_litres: '390'
+        classe_energetica: C
+        kw_365: '1119'
+        potencia_electrica: 0,22 KW
+        preu: '3.095'
+    - codi: 7C028950
+      cel_les:
+        codi: 7C028950
+        pes: '143'
+        mesures: 2545x600x850
+        portes: '4'
+        dimensions_parrilla: 4 - 460x405
+        capacitat_litres: '530'
+        classe_energetica: D
+        kw_365: '1919'
+        potencia_electrica: 0,35 KW
+        preu: '3.670'
+    - codi: 7C258950
+      cel_les:
+        codi: 7C258950
+        pes: '102'
+        mesures: 1345x700x850
+        portes: '2'
+        dimensions_parrilla: 2 - GN 1/1
+        capacitat_litres: '290'
+        classe_energetica: C
+        kw_365: '1018'
+        potencia_electrica: 0,19 KW
+        preu: '2.940'
+    - codi: 7C578950
+      cel_les:
+        codi: 7C578950
+        pes: '126'
+        mesures: 1800x700x850
+        portes: '3'
+        dimensions_parrilla: 3 - GN 1/1
+        capacitat_litres: '455'
+        classe_energetica: C
+        kw_365: '1119'
+        potencia_electrica: 0,19 KW
+        preu: '3.480'
+    - codi: 7C909950
+      cel_les:
+        codi: 7C909950
+        pes: '153'
+        mesures: 2245x700x850
+        portes: '4'
+        dimensions_parrilla: 4 - GN 1/1
+        capacitat_litres: '615'
+        classe_energetica: E
+        kw_365: '1920'
+        potencia_electrica: 0,33 KW
+        preu: '4.115'
+- pagina_pub: 11
+  pagina_pdf: 433
+  taules:
+  - id: p11-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes
+    - dimensions_parrilla
+    - capacitat_litres
+    - classe_energetica
+    - kw_365
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '79389509'
+      cel_les:
+        codi: '79389509'
+        pes: '113'
+        mesures: 1500x600x850
+        portes: '2'
+        dimensions_parrilla: 2 - 460x405
+        capacitat_litres: '250'
+        classe_energetica: D
+        kw_365: '2212'
+        potencia_electrica: 0,67 KW
+        preu: '3.410'
+    - codi: '70489509'
+      cel_les:
+        codi: '70489509'
+        pes: '139'
+        mesures: 2020x600x850
+        portes: '3'
+        dimensions_parrilla: 3 - 460x405
+        capacitat_litres: '390'
+        classe_energetica: D
+        kw_365: '2467'
+        potencia_electrica: 0,68 KW
+        preu: '3.930'
+    - codi: '75299509'
+      cel_les:
+        codi: '75299509'
+        pes: '125'
+        mesures: 1345x700x850
+        portes: '2'
+        dimensions_parrilla: 2 - GN 1/1
+        capacitat_litres: '290'
+        classe_energetica: D
+        kw_365: '2212'
+        potencia_electrica: 0,67 KW
+        preu: '3.925'
+    - codi: '71399509'
+      cel_les:
+        codi: '71399509'
+        pes: '152'
+        mesures: 1800x700x850
+        portes: '3'
+        dimensions_parrilla: 3 - GN 1/1
+        capacitat_litres: '455'
+        classe_energetica: D
+        kw_365: '2467'
+        potencia_electrica: 0,68 KW
+        preu: '4.620'
+- pagina_pub: 15
+  pagina_pdf: 434
+  taules:
+  - id: p15-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes
+    - dimensions_parrilla
+    - capacitat_litres
+    - classe_energetica
+    - kw_365
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '74579509'
+      cel_les:
+        codi: '74579509'
+        pes: '98'
+        mesures: 1500x600x850
+        portes: '2'
+        dimensions_parrilla: 2 - 460x405
+        capacitat_litres: '250'
+        classe_energetica: C
+        kw_365: '1018'
+        potencia_electrica: 0,22 KW
+        preu: '3.325'
+    - codi: '73089509'
+      cel_les:
+        codi: '73089509'
+        pes: '116'
+        mesures: 2020x600x850
+        portes: '3'
+        dimensions_parrilla: 3 - 460x405
+        capacitat_litres: '390'
+        classe_energetica: C
+        kw_365: '1119'
+        potencia_electrica: 0,22 KW
+        preu: '3.810'
+    - codi: '70389509'
+      cel_les:
+        codi: '70389509'
+        pes: '143'
+        mesures: 2545x600x850
+        portes: '4'
+        dimensions_parrilla: 4 - 460x405
+        capacitat_litres: '530'
+        classe_energetica: D
+        kw_365: '1919'
+        potencia_electrica: 0,35 KW
+        preu: '4.410'
+    - codi: '79589509'
+      cel_les:
+        codi: '79589509'
+        pes: '102'
+        mesures: 1345x700x850
+        portes: '2'
+        dimensions_parrilla: 2 - GN 1/1
+        capacitat_litres: '290'
+        classe_energetica: C
+        kw_365: '1018'
+        potencia_electrica: 0,19 KW
+        preu: '3.675'
+    - codi: '72989509'
+      cel_les:
+        codi: '72989509'
+        pes: '126'
+        mesures: 1800x700x850
+        portes: '3'
+        dimensions_parrilla: 3 - GN 1/1
+        capacitat_litres: '455'
+        classe_energetica: C
+        kw_365: '1119'
+        potencia_electrica: 0,19 KW
+        preu: '4.185'
+    - codi: '70199509'
+      cel_les:
+        codi: '70199509'
+        pes: '153'
+        mesures: 2245x700x850
+        portes: '4'
+        dimensions_parrilla: 4 - GN 1/1
+        capacitat_litres: '615'
+        classe_energetica: E
+        kw_365: '1920'
+        potencia_electrica: 0,33 KW
+        preu: '4.675'
+- pagina_pub: 18
+  pagina_pdf: 435
+  taules:
+  - id: p18-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes
+    - dimensions_parrilla
+    - capacitat_litres
+    - classe_energetica
+    - kw_365
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '75579509'
+      cel_les:
+        codi: '75579509'
+        pes: '101'
+        mesures: 1500x600x850
+        portes: '2'
+        dimensions_parrilla: 2 - 460x405
+        capacitat_litres: '250'
+        classe_energetica: C
+        kw_365: '1018'
+        potencia_electrica: 0,22 KW
+        preu: '3.030'
+    - codi: '77089509'
+      cel_les:
+        codi: '77089509'
+        pes: '118'
+        mesures: 2020x600x850
+        portes: '3'
+        dimensions_parrilla: 3 - 460x405
+        capacitat_litres: '390'
+        classe_energetica: C
+        kw_365: '1119'
+        potencia_electrica: 0,22 KW
+        preu: '3.725'
+    - codi: '73289509'
+      cel_les:
+        codi: '73289509'
+        pes: '146'
+        mesures: 2545x600x850
+        portes: '4'
+        dimensions_parrilla: 4 - 460x405
+        capacitat_litres: '530'
+        classe_energetica: D
+        kw_365: '1919'
+        potencia_electrica: 0,35 KW
+        preu: '4.515'
+    - codi: '78589509'
+      cel_les:
+        codi: '78589509'
+        pes: '103'
+        mesures: 1345x700x850
+        portes: '2'
+        dimensions_parrilla: 2 - GN 1/1
+        capacitat_litres: '290'
+        classe_energetica: C
+        kw_365: '1018'
+        potencia_electrica: 0,22 KW
+        preu: '3.370'
+    - codi: '73548609'
+      cel_les:
+        codi: '73548609'
+        pes: '128'
+        mesures: 1800x700x850
+        portes: '3'
+        dimensions_parrilla: 3 - GN 1/1
+        capacitat_litres: '455'
+        classe_energetica: C
+        kw_365: '1119'
+        potencia_electrica: 0,22 KW
+        preu: '4.015'
+    - codi: '76199509'
+      cel_les:
+        codi: '76199509'
+        pes: '155'
+        mesures: 2245x700x850
+        portes: '4'
+        dimensions_parrilla: 4 - GN 1/1
+        capacitat_litres: '615'
+        classe_energetica: E
+        kw_365: '1920'
+        potencia_electrica: 0,35 KW
+        preu: '4.960'
+- pagina_pub: 21
+  pagina_pdf: 436
+  taules:
+  - id: p21-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes
+    - dimensions_parrilla
+    - capacitat_litres
+    - temperatura
+    - uc
+    - preu
+    columnes_segons: amp
+    files:
+    - codi: '76389509'
+      cel_les:
+        codi: '76389509'
+        pes: '55'
+        mesures: 1195x600x850
+        portes: '2'
+        dimensions_parrilla: 2 - 460x405
+        capacitat_litres: '250'
+        temperatura: ''
+        uc: 1/4 HP
+        preu: '2.185'
+    - codi: '72216709'
+      cel_les:
+        codi: '72216709'
+        pes: '84'
+        mesures: 1720x600x850
+        portes: '3'
+        dimensions_parrilla: 3 - 460x405
+        capacitat_litres: '390'
+        temperatura: ''
+        uc: 1/3 HP
+        preu: '2.690'
+    - codi: '76216709'
+      cel_les:
+        codi: '76216709'
+        pes: '114'
+        mesures: 2245x600x850
+        portes: '4'
+        dimensions_parrilla: 4 - 460x405
+        capacitat_litres: '530'
+        temperatura: ''
+        uc: 3/8 HP
+        preu: '3.265'
+    - codi: '76689509'
+      cel_les:
+        codi: '76689509'
+        pes: '63'
+        mesures: 1045x700x850
+        portes: '2'
+        dimensions_parrilla: 2 - GN 1/1
+        capacitat_litres: '290'
+        temperatura: ''
+        uc: 1/4 HP
+        preu: '2.320'
+    - codi: '79698609'
+      cel_les:
+        codi: '79698609'
+        pes: '92'
+        mesures: 1500x700x850
+        portes: '3'
+        dimensions_parrilla: 3 - GN 1/1
+        capacitat_litres: '455'
+        temperatura: ''
+        uc: 1/3 HP
+        preu: '2.855'
+    - codi: '70998609'
+      cel_les:
+        codi: '70998609'
+        pes: '122'
+        mesures: 1945x700x850
+        portes: '4'
+        dimensions_parrilla: 4 - GN 1/1
+        capacitat_litres: '615'
+        temperatura: ''
+        uc: 3/8 HP
+        preu: '3.375'
+    avisos:
+    - hdr:recompte(8 vs 9)
+- pagina_pub: 30
+  pagina_pdf: 437
+  taules:
+  - id: p30-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes
+    - dimensions_parrilla
+    - col5
+    - capacitat_litres
+    - classe_energetica
+    - kw_365
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '71679509'
+      cel_les:
+        codi: 71679509 700
+        pes: '108'
+        mesures: 1500x600x850 79099509
+        portes: '1'
+        dimensions_parrilla: 1 - 460x405
+        col5: '2'
+        capacitat_litres: '250'
+        classe_energetica: C
+        kw_365: '1018'
+        potencia_electrica: 0,22 KW
+        preu: '3.160'
+      icones_en_columna:
+      - codi
+    - codi: '70679509'
+      cel_les:
+        codi: '70679509'
+        pes: '118'
+        mesures: 1500x600x850
+        portes: '-'
+        dimensions_parrilla: '-'
+        col5: '4'
+        capacitat_litres: '250'
+        classe_energetica: C
+        kw_365: '1018'
+        potencia_electrica: 0,22 KW
+        preu: '3.730'
+    - codi: '72189509'
+      cel_les:
+        codi: '72189509'
+        pes: '126'
+        mesures: 2020x600x850
+        portes: '2'
+        dimensions_parrilla: 2 - 460x405
+        col5: '2'
+        capacitat_litres: '390'
+        classe_energetica: C
+        kw_365: '1119'
+        potencia_electrica: 0,22 KW
+        preu: '3.665'
+    - codi: '71189509'
+      cel_les:
+        codi: '71189509'
+        pes: '136'
+        mesures: 2020x600x850
+        portes: '1'
+        dimensions_parrilla: 1 - 460x405
+        col5: '4'
+        capacitat_litres: '390'
+        classe_energetica: C
+        kw_365: '1119'
+        potencia_electrica: 0,22 KW
+        preu: '4.220'
+    - codi: '70189509'
+      cel_les:
+        codi: '70189509'
+        pes: '146'
+        mesures: 2020x600x850
+        portes: '-'
+        dimensions_parrilla: '-'
+        col5: '6'
+        capacitat_litres: '390'
+        classe_energetica: C
+        kw_365: '1119'
+        potencia_electrica: 0,22 KW
+        preu: '4.770'
+    - codi: '75689509'
+      cel_les:
+        codi: '75689509'
+        pes: '112'
+        mesures: 1345x700x850
+        portes: '1'
+        dimensions_parrilla: 1 - GN 1/1
+        col5: '2'
+        capacitat_litres: '290'
+        classe_energetica: C
+        kw_365: '1018'
+        potencia_electrica: 0,22 KW
+        preu: '3.610'
+    - codi: '74689509'
+      cel_les:
+        codi: '74689509'
+        pes: '122'
+        mesures: 1345x700x850
+        portes: '-'
+        dimensions_parrilla: '-'
+        col5: '4'
+        capacitat_litres: '290'
+        classe_energetica: C
+        kw_365: '1018'
+        potencia_electrica: 0,22 KW
+        preu: '4.295'
+    - codi: '77099509'
+      cel_les:
+        codi: '77099509'
+        pes: '136'
+        mesures: 1800x700x850
+        portes: '2'
+        dimensions_parrilla: 2 - GN 1/1
+        col5: '2'
+        capacitat_litres: '455'
+        classe_energetica: C
+        kw_365: '1178'
+        potencia_electrica: 0,22 KW
+        preu: '4.150'
+    - codi: '76099509'
+      cel_les:
+        codi: '76099509'
+        pes: '146'
+        mesures: 1800x700x850
+        portes: '1'
+        dimensions_parrilla: 1 - GN 1/1
+        col5: '4'
+        capacitat_litres: '455'
+        classe_energetica: C
+        kw_365: '1178'
+        potencia_electrica: 0,22 KW
+        preu: '4.835'
+    - codi: '78099509'
+      cel_les:
+        codi: '78099509'
+        pes: '156'
+        mesures: 1800x700x850
+        portes: '-'
+        dimensions_parrilla: '-'
+        col5: '6'
+        capacitat_litres: '455'
+        classe_energetica: D
+        kw_365: '1178'
+        potencia_electrica: 0,22 KW
+        preu: '5.515'
+    paraules_orfes:
+    - '70289509'
+    - '600'
+- pagina_pub: 31
+  pagina_pdf: 438
+  taules:
+  - id: p31-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes
+    - dimensions_parrilla
+    - col5
+    - capacitat_litres
+    - classe_energetica
+    - kw_365
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '73770609'
+      cel_les:
+        codi: 73770609 700
+        pes: '153'
+        mesures: 2545x600x850 79099509
+        portes: '3'
+        dimensions_parrilla: 3 - 460x405
+        col5: '2'
+        capacitat_litres: '530'
+        classe_energetica: E
+        kw_365: '1920'
+        potencia_electrica: 0,35 KW
+        preu: '4.220'
+      icones_en_columna:
+      - codi
+    - codi: '78289509'
+      cel_les:
+        codi: '78289509'
+        pes: '163'
+        mesures: 2545x600x850
+        portes: '2'
+        dimensions_parrilla: 2 - 460x405
+        col5: '4'
+        capacitat_litres: '530'
+        classe_energetica: E
+        kw_365: '1920'
+        potencia_electrica: 0,35 KW
+        preu: '4.775'
+    - codi: '77289509'
+      cel_les:
+        codi: '77289509'
+        pes: '173'
+        mesures: 2545x600x850
+        portes: '1'
+        dimensions_parrilla: 1 - 460x405
+        col5: '6'
+        capacitat_litres: '530'
+        classe_energetica: E
+        kw_365: '1920'
+        potencia_electrica: 0,35 KW
+        preu: '5.330'
+    - codi: '79289509'
+      cel_les:
+        codi: '79289509'
+        pes: '183'
+        mesures: 2545x600x850
+        portes: '-'
+        dimensions_parrilla: '-'
+        col5: '8'
+        capacitat_litres: '530'
+        classe_energetica: E
+        kw_365: '1920'
+        potencia_electrica: 0,35 KW
+        preu: '5.865'
+    - codi: '71299509'
+      cel_les:
+        codi: '71299509'
+        pes: '163'
+        mesures: 2245x700x850
+        portes: '3'
+        dimensions_parrilla: 3 - GN 1/1
+        col5: '2'
+        capacitat_litres: '615'
+        classe_energetica: E
+        kw_365: '1920'
+        potencia_electrica: 0,35 KW
+        preu: '4.780'
+    - codi: '74299509'
+      cel_les:
+        codi: '74299509'
+        pes: '173'
+        mesures: 2245x700x850
+        portes: '2'
+        dimensions_parrilla: 2 - GN 1/1
+        col5: '4'
+        capacitat_litres: '615'
+        classe_energetica: E
+        kw_365: '1920'
+        potencia_electrica: 0,35 KW
+        preu: '5.465'
+    - codi: '72299509'
+      cel_les:
+        codi: '72299509'
+        pes: '183'
+        mesures: 2245x700x850
+        portes: '1'
+        dimensions_parrilla: 1 - GN 1/1
+        col5: '6'
+        capacitat_litres: '615'
+        classe_energetica: E
+        kw_365: '1920'
+        potencia_electrica: 0,35 KW
+        preu: '6.145'
+    - codi: '73299509'
+      cel_les:
+        codi: '73299509'
+        pes: '193'
+        mesures: 2245x700x850
+        portes: '-'
+        dimensions_parrilla: '-'
+        col5: '8'
+        capacitat_litres: '615'
+        classe_energetica: E
+        kw_365: '1920'
+        potencia_electrica: 0,35 KW
+        preu: '6.835'
+    paraules_orfes:
+    - '70289509'
+    - '600'
+- pagina_pub: 36
+  pagina_pdf: 439
+  taules:
+  - id: p36-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - col3
+    - calaixos
+    - capacitat_litres
+    - classe_energetica
+    - kw_365
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '74489509'
+      cel_les:
+        codi: '74489509'
+        pes: '97'
+        mesures: 1345x700x600
+        col3: '2'
+        calaixos: '-'
+        capacitat_litres: '105'
+        classe_energetica: D
+        kw_365: '1194'
+        potencia_electrica: 0,22 KW
+        preu: '3.155'
+    - codi: '75489509'
+      cel_les:
+        codi: '75489509'
+        pes: '102'
+        mesures: 1345x700x600
+        col3: '1'
+        calaixos: '1'
+        capacitat_litres: '105'
+        classe_energetica: D
+        kw_365: '1194'
+        potencia_electrica: 0,22 KW
+        preu: '3.665'
+    - codi: '76489509'
+      cel_les:
+        codi: '76489509'
+        pes: '116'
+        mesures: 1800x700x600
+        col3: '3'
+        calaixos: '-'
+        capacitat_litres: '170'
+        classe_energetica: D
+        kw_365: '1194'
+        potencia_electrica: 0,22 KW
+        preu: '3.800'
+    - codi: '74770609'
+      cel_les:
+        codi: '74770609'
+        pes: '126'
+        mesures: 1800x700x600
+        col3: '1'
+        calaixos: '2'
+        capacitat_litres: '170'
+        classe_energetica: D
+        kw_365: '1194'
+        potencia_electrica: 0,22 KW
+        preu: '4.645'
+- pagina_pub: 37
+  pagina_pdf: 440
+  taules:
+  - id: p37-t4
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - col3
+    - calaixos
+    - capacitat_litres
+    - classe_energetica
+    - kw_365
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '77489509'
+      cel_les:
+        codi: '77489509'
+        pes: '138'
+        mesures: 2245x700x600
+        col3: '4'
+        calaixos: '-'
+        capacitat_litres: '230'
+        classe_energetica: E
+        kw_365: '1919'
+        potencia_electrica: 0,35 KW
+        preu: '4.710'
+    - codi: '78489509'
+      cel_les:
+        codi: '78489509'
+        pes: '153'
+        mesures: 2245x700x600
+        col3: '1'
+        calaixos: '3'
+        capacitat_litres: '230'
+        classe_energetica: E
+        kw_365: '1919'
+        potencia_electrica: 0,35 KW
+        preu: '5.545'
+- pagina_pub: 40
+  pagina_pdf: 444
+  taules:
+  - id: p40-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes
+    - dimensions_parrilla
+    - col5
+    - capacitat_litres
+    - classe_energetica
+    - kw_365
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '71579509'
+      cel_les:
+        codi: '71579509'
+        pes: '116'
+        mesures: 1500x600x1050
+        portes: '2'
+        dimensions_parrilla: 4 - 460x405
+        col5: '1'
+        capacitat_litres: '335'
+        classe_energetica: D
+        kw_365: '1194'
+        potencia_electrica: 0,22 KW
+        preu: '2.935'
+    - codi: '76979509'
+      cel_les:
+        codi: '76979509'
+        pes: '134'
+        mesures: 2020x600x1050
+        portes: '3'
+        dimensions_parrilla: 6 - 460x405
+        col5: '1'
+        capacitat_litres: '520'
+        classe_energetica: C
+        kw_365: '1119'
+        potencia_electrica: 0,22 KW
+        preu: '3.535'
+    - codi: '73189509'
+      cel_les:
+        codi: '73189509'
+        pes: '161'
+        mesures: 2545x600x1050
+        portes: '4'
+        dimensions_parrilla: 8 - 460x405
+        col5: '1'
+        capacitat_litres: '700'
+        classe_energetica: D
+        kw_365: '1920'
+        potencia_electrica: 0,35 KW
+        preu: '4.120'
+- pagina_pub: 43
+  pagina_pdf: 445
+  taules:
+  - id: p43-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes
+    - dimensions_parrilla
+    - col5
+    - capacitat_litres
+    - classe_energetica
+    - kw_365
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '76969509'
+      cel_les:
+        codi: '76969509'
+        pes: '120'
+        mesures: 1500x600x1050
+        portes: '2'
+        dimensions_parrilla: 4 - 460x405
+        col5: '1'
+        capacitat_litres: '335'
+        classe_energetica: D
+        kw_365: '1194'
+        potencia_electrica: 0,22 KW
+        preu: '3.385'
+    - codi: '70879509'
+      cel_les:
+        codi: '70879509'
+        pes: '140'
+        mesures: 2020x600x1050
+        portes: '3'
+        dimensions_parrilla: 6 - 460x405
+        col5: '1'
+        capacitat_litres: '520'
+        classe_energetica: C
+        kw_365: '1119'
+        potencia_electrica: 0,22 KW
+        preu: '4.095'
+    - codi: '75189509'
+      cel_les:
+        codi: '75189509'
+        pes: '169'
+        mesures: 2545x600x1050
+        portes: '4'
+        dimensions_parrilla: 8 - 460x405
+        col5: '1'
+        capacitat_litres: '700'
+        classe_energetica: D
+        kw_365: '1920'
+        potencia_electrica: 0,35 KW
+        preu: '4.955'
+- pagina_pub: 45
+  pagina_pdf: 447
+  taules:
+  - id: p45-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - ext_int
+    - portes_corredisses
+    - capacitat_litres
+    - classe_energetica
+    - kw_365
+    - potencia_electrica
+    - preu
+    columnes_segons: amp
+    files:
+    - codi: '74699209'
+      cel_les:
+        codi: '74699209'
+        pes: '55'
+        mesures: 1020x550x850
+        ext_int: '2'
+        portes_corredisses: ''
+        capacitat_litres: '200'
+        classe_energetica: C
+        kw_365: '387'
+        potencia_electrica: 0,11 KW
+        preu: '1.080'
+    avisos:
+    - hdr:recompte(9 vs 10)
+    paraules_orfes:
+    - '75699209'
+    - '67'
+    - 1525x550x850
+    - '3'
+    - '365'
+    - C
+    - '1.505'
+    - '76699209'
+    - '81'
+    - 2030x550x850
+    - '4'
+    - C
+    - '1.795'
+    - '445'
+    - '445'
+    - 0,18
+    - KW
+    - '1018'
+    - 0,26
+    - KW
+- pagina_pub: 46
+  pagina_pdf: 447
+  taules:
+  - id: p46-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - col3
+    - portes_corredisses
+    - capacitat_litres
+    - classe_energetica
+    - col7
+    - potencia_electrica
+    - preu
+    columnes_segons: amp
+    files:
+    - codi: '75699209'
+      cel_les:
+        codi: '75699209'
+        pes: '67'
+        mesures: 1525x550x850
+        col3: '3'
+        portes_corredisses: ''
+        capacitat_litres: '365'
+        classe_energetica: C
+        col7: '445'
+        potencia_electrica: 0,18 KW
+        preu: '1.505'
+    avisos:
+    - hdr:recompte(9 vs 10)
+    paraules_orfes:
+    - '76699209'
+    - '81'
+    - 2030x550x850
+    - '4'
+    - C
+    - '1.795'
+    - '445'
+    - '1018'
+    - 0,26
+    - KW
+- pagina_pub: 47
+  pagina_pdf: 447
+  taules:
+  - id: p47-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - col3
+    - portes_corredisses
+    - capacitat_litres
+    - classe_energetica
+    - col7
+    - potencia_electrica
+    - preu
+    columnes_segons: amp
+    files:
+    - codi: '76699209'
+      cel_les:
+        codi: '76699209'
+        pes: '81'
+        mesures: 2030x550x850
+        col3: '4'
+        portes_corredisses: ''
+        capacitat_litres: '445'
+        classe_energetica: C
+        col7: '1018'
+        potencia_electrica: 0,26 KW
+        preu: '1.795'
+    avisos:
+    - hdr:recompte(9 vs 10)
+- pagina_pub: 49
+  pagina_pdf: 448
+  taules:
+  - id: p49-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes_corredisses
+    - capacitat_litres
+    - classe_energetica
+    - kw_365
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '72712509'
+      cel_les:
+        codi: '72712509'
+        pes: '72'
+        mesures: 1500x550x850
+        portes_corredisses: '3'
+        capacitat_litres: '420'
+        classe_energetica: C
+        kw_365: '518'
+        potencia_electrica: 0,20 KW
+        preu: '1.690'
+    - codi: '74712509'
+      cel_les:
+        codi: '74712509'
+        pes: '87'
+        mesures: 2000x550x850
+        portes_corredisses: '4'
+        capacitat_litres: '580'
+        classe_energetica: C
+        kw_365: '529'
+        potencia_electrica: 0,20 KW
+        preu: '1.975'
+    - codi: '75712509'
+      cel_les:
+        codi: '75712509'
+        pes: '103'
+        mesures: 2500x550x850
+        portes_corredisses: '5'
+        capacitat_litres: '720'
+        classe_energetica: C
+        kw_365: '766'
+        potencia_electrica: 0,21 KW
+        preu: '2.485'
+    mapa_columnes: sense_colN(1 eliminades)
+- pagina_pub: 57
+  pagina_pdf: 449
+  taules:
+  - id: p57-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - produccio_24h
+    - produccio_cubets
+    - capacitat_kg
+    - produccio_cubets_2
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 78100G08
+      cel_les:
+        codi: 78100G08
+        pes: '39'
+        mesures: 365x495x600
+        produccio_24h: 25 Kgs/24h
+        produccio_cubets: '625'
+        capacitat_kg: '6'
+        produccio_cubets_2: '150'
+        potencia_electrica: 500 W
+        preu: '2.010'
+    - codi: 78200G08
+      cel_les:
+        codi: 78200G08
+        pes: '48'
+        mesures: 500x585x685
+        produccio_24h: 37 Kgs/24h
+        produccio_cubets: '925'
+        capacitat_kg: '15'
+        produccio_cubets_2: '375'
+        potencia_electrica: 700 W
+        preu: '2.440'
+- pagina_pub: 58
+  pagina_pdf: 450
+  taules:
+  - id: p58-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - produccio_24h
+    - produccio_cubets
+    - capacitat_kg
+    - produccio_cubets_2
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 78500G13
+      cel_les:
+        codi: 78500G13
+        pes: '67'
+        mesures: 740x605x1015
+        produccio_24h: 80 Kgs/24h
+        produccio_cubets: '2000'
+        capacitat_kg: '40'
+        produccio_cubets_2: '1000'
+        potencia_electrica: 1050 W
+        preu: '4.005'
+    - codi: 78600G13
+      cel_les:
+        codi: 78600G13
+        pes: '74'
+        mesures: 740x605x1015
+        produccio_24h: 100 Kgs/24h
+        produccio_cubets: '2500'
+        capacitat_kg: '60'
+        produccio_cubets_2: '1500'
+        potencia_electrica: 1200 W
+        preu: '4.320'
+- pagina_pub: 69
+  pagina_pdf: 465
+  taules:
+  - id: p69-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes
+    - dimensions_parrilla
+    - gastronorm
+    - col6
+    - capacitat_litres
+    - classe_energetica
+    - col9
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 701A09RC
+      cel_les:
+        codi: 701A09RC
+        pes: '86'
+        mesures: 900x700x880
+        portes: '2'
+        dimensions_parrilla: 2 - GN 1/1
+        gastronorm: 4 - GN 1/2-150 3 - GN 1/6-150
+        col6: 'NO'
+        capacitat_litres: '240'
+        classe_energetica: E
+        col9: '1194'
+        potencia_electrica: 0,23 KW
+        preu: '1.525'
+    - codi: 702A39RC
+      cel_les:
+        codi: 702A39RC
+        pes: '112'
+        mesures: 1365x700x880
+        portes: '3'
+        dimensions_parrilla: 3 - GN 1/1
+        gastronorm: 2 - GN 1/1-150 4 - GN 1/2-150
+        col6: 'NO'
+        capacitat_litres: '368'
+        classe_energetica: E
+        col9: '1194'
+        potencia_electrica: 0,23 KW
+        preu: '2.155'
+    paraules_orfes:
+    - 7C1A09RC
+    - '91'
+    - 900x700x880
+    - '2'
+    - '2'
+    - '-'
+    - GN
+    - 1/1
+    - OK
+    - '240'
+    - 0,23
+    - KW
+    - '1.730'
+    - 7C2A39RC
+    - '120'
+    - 1365x700x880
+    - '3'
+    - '3'
+    - '-'
+    - GN
+    - 1/1
+    - OK
+    - '368'
+    - 0,23
+    - KW
+    - '2.420'
+    - '365'
+    - '1194'
+    - '1194'
+- pagina_pub: 70
+  pagina_pdf: 465
+  taules:
+  - id: p70-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes
+    - dimensions_parrilla
+    - gastronorm
+    - col6
+    - capacitat_litres
+    - classe_energetica
+    - col9
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 7C1A09RC
+      cel_les:
+        codi: 7C1A09RC
+        pes: '91'
+        mesures: 900x700x880
+        portes: '2'
+        dimensions_parrilla: 2 - GN 1/1
+        gastronorm: 4 - GN 1/2-150 3 - GN 1/6-150
+        col6: OK
+        capacitat_litres: '240'
+        classe_energetica: E
+        col9: '1194'
+        potencia_electrica: 0,23 KW
+        preu: '1.730'
+    - codi: 7C2A39RC
+      cel_les:
+        codi: 7C2A39RC
+        pes: '120'
+        mesures: 1365x700x880
+        portes: '3'
+        dimensions_parrilla: 3 - GN 1/1
+        gastronorm: 2 - GN 1/1-150 4 - GN 1/2-150
+        col6: OK
+        capacitat_litres: '368'
+        classe_energetica: E
+        col9: '1194'
+        potencia_electrica: 0,23 KW
+        preu: '2.420'
+    paraules_orfes:
+    - 702A39RC
+    - '112'
+    - 1365x700x880
+    - '3'
+    - '3'
+    - '-'
+    - GN
+    - 1/1
+    - 'NO'
+    - '368'
+    - 0,23
+    - KW
+    - '2.155'
+    - '1194'
+- pagina_pub: 73
+  pagina_pdf: 466
+  taules:
+  - id: p73-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes
+    - dimensions_parrilla
+    - gastronorm
+    - col6
+    - capacitat_litres
+    - classe_energetica
+    - col9
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 77A09QRC
+      cel_les:
+        codi: 77A09QRC
+        pes: '97'
+        mesures: 900x700x1300
+        portes: '2'
+        dimensions_parrilla: 2 - GN 1/1
+        gastronorm: 4 - GN 1/2-150 3 - GN 1/6-150
+        col6: 'NO'
+        capacitat_litres: '240'
+        classe_energetica: E
+        col9: '1194'
+        potencia_electrica: 0,23 KW
+        preu: '2.085'
+      cel_les_combinades:
+      - gastronorm
+    - codi: 7CA09QRC
+      cel_les:
+        codi: 7CA09QRC
+        pes: '102'
+        mesures: 900x700x1300
+        portes: '2'
+        dimensions_parrilla: 2 - GN 1/1
+        gastronorm: 4 - GN 1/2-150 3 - GN 1/6-150
+        col6: OK
+        capacitat_litres: '240'
+        classe_energetica: E
+        col9: '1194'
+        potencia_electrica: 0,23 KW
+        preu: '2.320'
+      cel_les_combinades:
+      - gastronorm
+    - codi: 78A39QRC
+      cel_les:
+        codi: 78A39QRC
+        pes: '127'
+        mesures: 1365x700x1300
+        portes: '3'
+        dimensions_parrilla: 3 - GN 1/1
+        gastronorm: 2 - GN 1/1-150 4 - GN 1/2-150
+        col6: 'NO'
+        capacitat_litres: '368'
+        classe_energetica: E
+        col9: '1194'
+        potencia_electrica: 0,23 KW
+        preu: '2.950'
+      cel_les_combinades:
+      - gastronorm
+    - codi: 7CA39QRC
+      cel_les:
+        codi: 7CA39QRC
+        pes: '135'
+        mesures: 1365x700x1300
+        portes: '3'
+        dimensions_parrilla: 3 - GN 1/1
+        gastronorm: 2 - GN 1/1-150 4 - GN 1/2-150
+        col6: OK
+        capacitat_litres: '368'
+        classe_energetica: E
+        col9: '1194'
+        potencia_electrica: 0,23 KW
+        preu: '3.210'
+      cel_les_combinades:
+      - gastronorm
+- pagina_pub: 76
+  pagina_pdf: 464
+  taules:
+  - id: p76-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes
+    - dimensions_parrilla
+    - gastronorm
+    - col6
+    - capacitat_litres
+    - classe_energetica
+    - col9
+    - potencia_electrica
+    - preu
+    columnes_segons: amp
+    files:
+    - codi: 72A09SRC
+      cel_les:
+        codi: 72A09SRC
+        pes: '95'
+        mesures: 900x700x880/1010
+        portes: ''
+        dimensions_parrilla: 2 2 - GN
+        gastronorm: 1/1 NO
+        col6: ''
+        capacitat_litres: '254'
+        classe_energetica: E
+        col9: '1194'
+        potencia_electrica: 0,23 KW
+        preu: '1.775'
+    - codi: 7CA095RC
+      cel_les:
+        codi: 7CA095RC
+        pes: '97'
+        mesures: 900x700x880/1010
+        portes: ''
+        dimensions_parrilla: 2 2 - GN
+        gastronorm: 1/1 5 - GN
+        col6: 1/6-150
+        capacitat_litres: '254'
+        classe_energetica: E
+        col9: '1194'
+        potencia_electrica: 0,23 KW
+        preu: '1.860'
+    - codi: 73A39SRC
+      cel_les:
+        codi: 73A39SRC
+        pes: '125'
+        mesures: 1365x700x880/1010
+        portes: ''
+        dimensions_parrilla: 3 3 - GN
+        gastronorm: 1/1 NO
+        col6: ''
+        capacitat_litres: '392'
+        classe_energetica: E
+        col9: '1194'
+        potencia_electrica: 0,23 KW
+        preu: '2.410'
+    - codi: 7CA395RC
+      cel_les:
+        codi: 7CA395RC
+        pes: '128'
+        mesures: 1365x700x880/1010
+        portes: ''
+        dimensions_parrilla: 3 3 - GN
+        gastronorm: 1/1 8 - GN
+        col6: 1/6-150
+        capacitat_litres: '392'
+        classe_energetica: E
+        col9: '1194'
+        potencia_electrica: 0,23 KW
+        preu: '2.610'
+    avisos:
+    - hdr:recompte(11 vs 12)
+- pagina_pub: 82
+  pagina_pdf: 454
+  taules:
+  - id: p82-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes
+    - dimensions_parrilla
+    - gastronorm
+    - col6
+    - capacitat_litres
+    - classe_energetica
+    - col9
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 74A09PRC
+      cel_les:
+        codi: 74A09PRC
+        pes: '110'
+        mesures: 900x700x880/1100
+        portes: '2'
+        dimensions_parrilla: 2 - GN 1/1
+        gastronorm: 5 - GN 1/6 - 150
+        col6: 'NO'
+        capacitat_litres: '288'
+        classe_energetica: E
+        col9: '1194'
+        potencia_electrica: 0,23 KW
+        preu: '1.670'
+    - codi: 7CA09PRC
+      cel_les:
+        codi: 7CA09PRC
+        pes: '112'
+        mesures: 900x700x880/1100
+        portes: '2'
+        dimensions_parrilla: 2 - GN 1/1
+        gastronorm: 5 - GN 1/6 - 150
+        col6: OK
+        capacitat_litres: '288'
+        classe_energetica: E
+        col9: '1194'
+        potencia_electrica: 0,23 KW
+        preu: '1.815'
+    - codi: 75A39PRC
+      cel_les:
+        codi: 75A39PRC
+        pes: '145'
+        mesures: 1365x700x880/1100
+        portes: '3'
+        dimensions_parrilla: 3 - GN 1/1
+        gastronorm: 8 - GN 1/6 - 150
+        col6: 'NO'
+        capacitat_litres: '416'
+        classe_energetica: E
+        col9: '1194'
+        potencia_electrica: 0,23 KW
+        preu: '2.430'
+    - codi: 7CA39PRC
+      cel_les:
+        codi: 7CA39PRC
+        pes: '148'
+        mesures: 1365x700x880/1100
+        portes: '3'
+        dimensions_parrilla: 3 - GN 1/1
+        gastronorm: 8 - GN 1/6 - 150
+        col6: OK
+        capacitat_litres: '416'
+        classe_energetica: E
+        col9: '1194'
+        potencia_electrica: 0,23 KW
+        preu: '2.665'
+    paraules_orfes:
+    - 76A39MRC
+    - '200'
+    - 1400x700x880/1025
+    - '3'
+    - '3'
+    - '-'
+    - GN
+    - 1/1
+    - '-'
+    - '-'
+    - '368'
+    - '2.485'
+    - '2102'
+    - 0,43
+    - KW
+- pagina_pub: 85
+  pagina_pdf: 454
+  taules:
+  - id: p85-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes
+    - dimensions_parrilla
+    - gastronorm
+    - col6
+    - capacitat_litres
+    - classe_energetica
+    - col9
+    - potencia_electrica
+    - preu
+    columnes_segons: amp
+    files:
+    - codi: 76A39MRC
+      cel_les:
+        codi: 76A39MRC
+        pes: '200'
+        mesures: 1400x700x880/1025
+        portes: '3'
+        dimensions_parrilla: 3 - GN 1/1
+        gastronorm: '-'
+        col6: '-'
+        capacitat_litres: '368'
+        classe_energetica: E
+        col9: '2102'
+        potencia_electrica: 0,43 KW
+        preu: '2.485'
+    avisos:
+    - hdr:sense_capcalera
+- pagina_pub: 88
+  pagina_pdf: 455
+  taules:
+  - id: p88-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes
+    - dimensions_parrilla
+    - capacitat_litres
+    - classe_energetica
+    - kw_365
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '77220609'
+      cel_les:
+        codi: '77220609'
+        pes: '203'
+        mesures: 1345x700x850/1000
+        portes: '2'
+        dimensions_parrilla: 2 - GN 1/1
+        capacitat_litres: '290'
+        classe_energetica: C
+        kw_365: '1018'
+        potencia_electrica: 0,19 KW
+        preu: '3.200'
+    - codi: '78770609'
+      cel_les:
+        codi: '78770609'
+        pes: '251'
+        mesures: 1800x700x850/1000
+        portes: '3'
+        dimensions_parrilla: 3 - GN 1/1
+        capacitat_litres: '455'
+        classe_energetica: C
+        kw_365: '1119'
+        potencia_electrica: 0,19 KW
+        preu: '3.685'
+- pagina_pub: 92
+  pagina_pdf: 456
+  taules:
+  - id: p92-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes
+    - guies_inclinades
+    - col5
+    - capacitat_litres
+    - classe_energetica
+    - kw_365
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 7CFN0062
+      cel_les:
+        codi: 7CFN0062
+        pes: '252'
+        mesures: 1510x800x850/1000
+        portes: '2'
+        guies_inclinades: '14'
+        col5: '-'
+        capacitat_litres: '390'
+        classe_energetica: C
+        kw_365: '1220'
+        potencia_electrica: 0,27 KW
+        preu: '2.895'
+    - codi: 7CFN0063
+      cel_les:
+        codi: 7CFN0063
+        pes: '306'
+        mesures: 2020x800x850/1000
+        portes: '3'
+        guies_inclinades: '21'
+        col5: '-'
+        capacitat_litres: '580'
+        classe_energetica: C
+        kw_365: '1330'
+        potencia_electrica: 0,27 KW
+        preu: '3.520'
+    - codi: 7490005D
+      cel_les:
+        codi: 7490005D
+        pes: '58'
+        mesures: 525x800x850
+        portes: '-'
+        guies_inclinades: '-'
+        col5: '5'
+        capacitat_litres: '123'
+        classe_energetica: '-'
+        kw_365: '-'
+        potencia_electrica: '-'
+        preu: '1.380'
+- pagina_pub: 95
+  pagina_pdf: 458
+  taules:
+  - id: p95-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - col3
+    - gastronorm
+    - col5
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 7514120V
+      cel_les:
+        codi: 7514120V
+        pes: '37'
+        mesures: 1200x335x440
+        col3: '2'
+        gastronorm: 5 - GN 1/4 - 150
+        col5: 'NO'
+        potencia_electrica: 160 W
+        preu: '910'
+    - codi: 751412CV
+      cel_les:
+        codi: 751412CV
+        pes: '40'
+        mesures: 1200x335x440
+        col3: '2'
+        gastronorm: 5 - GN 1/4 - 150
+        col5: OK
+        potencia_electrica: 160 W
+        preu: '1.030'
+    - codi: 7614140V
+      cel_les:
+        codi: 7614140V
+        pes: '41'
+        mesures: 1400x335x440
+        col3: '5'
+        gastronorm: 6 - GN 1/4 - 150
+        col5: 'NO'
+        potencia_electrica: 160 W
+        preu: '980'
+    - codi: 761414CV
+      cel_les:
+        codi: 761414CV
+        pes: '45'
+        mesures: 1400x335x440
+        col3: '5'
+        gastronorm: 6 - GN 1/4 - 150
+        col5: OK
+        potencia_electrica: 160 W
+        preu: '1.115'
+    - codi: 7814180V
+      cel_les:
+        codi: 7814180V
+        pes: '48'
+        mesures: 1800x335x440
+        col3: '5'
+        gastronorm: 8 - GN 1/4 - 150
+        col5: 'NO'
+        potencia_electrica: 160 W
+        preu: '1.145'
+    - codi: 781418CV
+      cel_les:
+        codi: 781418CV
+        pes: '53'
+        mesures: 1800x335x440
+        col3: '5'
+        gastronorm: 8 - GN 1/4 - 150
+        col5: OK
+        potencia_electrica: 160 W
+        preu: '1.350'
+    - codi: 7613150V
+      cel_les:
+        codi: 7613150V
+        pes: '46'
+        mesures: 1500x395x440
+        col3: '8'
+        gastronorm: 5 - GN 1/3 - 150 1 - GN 1/2 - 150
+        col5: 'NO'
+        potencia_electrica: 160 W
+        preu: '1.100'
+    - codi: 761315CV
+      cel_les:
+        codi: 761315CV
+        pes: '50'
+        mesures: 1500x395x440
+        col3: '8'
+        gastronorm: 5 - GN 1/3 - 150 1 - GN 1/2 - 150
+        col5: OK
+        potencia_electrica: 160 W
+        preu: '1.305'
+    - codi: 7913200V
+      cel_les:
+        codi: 7913200V
+        pes: '56'
+        mesures: 2000x395x440
+        col3: '8'
+        gastronorm: 9 - GN 1/3 - 150
+        col5: 'NO'
+        potencia_electrica: 160 W
+        preu: '1.270'
+    - codi: 791320CV
+      cel_les:
+        codi: 791320CV
+        pes: '62'
+        mesures: 2000x395x440
+        col3: '8'
+        gastronorm: 9 - GN 1/3 - 150
+        col5: OK
+        potencia_electrica: 160 W
+        preu: '1.585'
+- pagina_pub: 96
+  pagina_pdf: 459
+  taules:
+  - id: p96-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - col3
+    - gastronorm
+    - col5
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 7514120T
+      cel_les:
+        codi: 7514120T
+        pes: '25'
+        mesures: 1200x335x280/550
+        col3: '2'
+        gastronorm: 5 - GN 1/4 - 150
+        col5: 'NO'
+        potencia_electrica: 160 W
+        preu: '930'
+    - codi: 751412CT
+      cel_les:
+        codi: 751412CT
+        pes: '28'
+        mesures: 1200x335x280/550
+        col3: '2'
+        gastronorm: 5 - GN 1/4 - 150
+        col5: OK
+        potencia_electrica: 160 W
+        preu: '1.020'
+    - codi: 7614140T
+      cel_les:
+        codi: 7614140T
+        pes: '27'
+        mesures: 1400x335x280/550
+        col3: '5'
+        gastronorm: 6 - GN 1/4 - 150
+        col5: 'NO'
+        potencia_electrica: 160 W
+        preu: '1.000'
+    - codi: 761414CT
+      cel_les:
+        codi: 761414CT
+        pes: '31'
+        mesures: 1400x335x280/550
+        col3: '5'
+        gastronorm: 6 - GN 1/4 - 150
+        col5: OK
+        potencia_electrica: 160 W
+        preu: '1.115'
+    - codi: 7814180T
+      cel_les:
+        codi: 7814180T
+        pes: '30'
+        mesures: 1800x335x280/550
+        col3: '5'
+        gastronorm: 8 - GN 1/4 - 150
+        col5: 'NO'
+        potencia_electrica: 160 W
+        preu: '1.155'
+    - codi: 781418CT
+      cel_les:
+        codi: 781418CT
+        pes: '35'
+        mesures: 1800x335x280/550
+        col3: '5'
+        gastronorm: 8 - GN 1/4 - 150
+        col5: OK
+        potencia_electrica: 160 W
+        preu: '1.330'
+    - codi: 7613150T
+      cel_les:
+        codi: 7613150T
+        pes: '29'
+        mesures: 1500x395x280/600
+        col3: '8'
+        gastronorm: 5 - GN 1/3 - 150 1 - GN 1/2 - 150
+        col5: 'NO'
+        potencia_electrica: 160 W
+        preu: '1.100'
+    - codi: 761315CT
+      cel_les:
+        codi: 761315CT
+        pes: '33'
+        mesures: 1500x395x280/600
+        col3: '8'
+        gastronorm: 5 - GN 1/3 - 150 1 - GN 1/2 - 150
+        col5: OK
+        potencia_electrica: 160 W
+        preu: '1.295'
+    - codi: 7913200T
+      cel_les:
+        codi: 7913200T
+        pes: '34'
+        mesures: 2000x395x280/600
+        col3: '8'
+        gastronorm: 9 - GN 1/3 - 150
+        col5: 'NO'
+        potencia_electrica: 160 W
+        preu: '1.275'
+    - codi: 791320CT
+      cel_les:
+        codi: 791320CT
+        pes: '40'
+        mesures: 2000x395x280/600
+        col3: '8'
+        gastronorm: 9 - GN 1/3 - 150
+        col5: OK
+        potencia_electrica: 160 W
+        preu: '1.565'
+- pagina_pub: 128
+  pagina_pdf: 479
+  taules:
+  - id: p128-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - col2
+    - mesures
+    - portes
+    - dimensions_parrilla
+    - capacitat_litres
+    - temperatura
+    - classe_energetica
+    - col9
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '73608409'
+      cel_les:
+        codi: '73608409'
+        pes: '43'
+        col2: INOX
+        mesures: 630x600x850
+        portes: '1'
+        dimensions_parrilla: 3 - 507x415
+        capacitat_litres: '150'
+        temperatura: '[icona]'
+        classe_energetica: A
+        col9: '387'
+        potencia_electrica: 0,09 KW
+        preu: '1.300'
+      icones_en_columna:
+      - temperatura
+    - codi: '74408409'
+      cel_les:
+        codi: '74408409'
+        pes: '43'
+        col2: WHITE
+        mesures: 630x600x850
+        portes: '1'
+        dimensions_parrilla: 3 - 507x415
+        capacitat_litres: '150'
+        temperatura: '[icona]'
+        classe_energetica: A
+        col9: '387'
+        potencia_electrica: 0,09 KW
+        preu: '1.155'
+      icones_en_columna:
+      - temperatura
+    - codi: '72608409'
+      cel_les:
+        codi: '72608409'
+        pes: '45'
+        col2: WHITE
+        mesures: 630x600x850
+        portes: '1'
+        dimensions_parrilla: 3 - FIXED
+        capacitat_litres: '150'
+        temperatura: '[icona]'
+        classe_energetica: A
+        col9: '990'
+        potencia_electrica: 0,14 KW
+        preu: '1.240'
+      icones_en_columna:
+      - temperatura
+    - codi: '74608409'
+      cel_les:
+        codi: '74608409'
+        pes: '45'
+        col2: INOX
+        mesures: 630x600x850
+        portes: '1'
+        dimensions_parrilla: 3 - FIXED
+        capacitat_litres: '150'
+        temperatura: '[icona]'
+        classe_energetica: A
+        col9: '990'
+        potencia_electrica: 0,14 KW
+        preu: '1.390'
+      icones_en_columna:
+      - temperatura
+- pagina_pub: 129
+  pagina_pdf: 480
+  taules:
+  - id: p129-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - col2
+    - mesures
+    - portes
+    - dimensions_parrilla
+    - capacitat_litres
+    - temperatura
+    - classe_energetica
+    - col9
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '70692409'
+      cel_les:
+        codi: '70692409'
+        pes: '72'
+        col2: INOX
+        mesures: 630x740x1870
+        portes: '1'
+        dimensions_parrilla: 3 - 507x415
+        capacitat_litres: '460'
+        temperatura: '[icona]'
+        classe_energetica: D
+        col9: '880'
+        potencia_electrica: 0,19 KW
+        preu: '1.685'
+      icones_en_columna:
+      - temperatura
+    - codi: '75592409'
+      cel_les:
+        codi: '75592409'
+        pes: '72'
+        col2: WHITE
+        mesures: 630x740x1870
+        portes: '1'
+        dimensions_parrilla: 3 - 507x415
+        capacitat_litres: '460'
+        temperatura: '[icona]'
+        classe_energetica: D
+        col9: '880'
+        potencia_electrica: 0,19 KW
+        preu: '1.495'
+      icones_en_columna:
+      - temperatura
+    - codi: '72692409'
+      cel_les:
+        codi: '72692409'
+        pes: '74'
+        col2: WHITE
+        mesures: 630x740x1870
+        portes: '1'
+        dimensions_parrilla: 7 - FIXED
+        capacitat_litres: '460'
+        temperatura: '[icona]'
+        classe_energetica: B
+        col9: '1100'
+        potencia_electrica: 0,14 KW
+        preu: '1.700'
+      icones_en_columna:
+      - temperatura
+    - codi: '74692409'
+      cel_les:
+        codi: '74692409'
+        pes: '74'
+        col2: INOX
+        mesures: 630x740x1870
+        portes: '1'
+        dimensions_parrilla: 7 - FIXED
+        capacitat_litres: '460'
+        temperatura: '[icona]'
+        classe_energetica: B
+        col9: '1100'
+        potencia_electrica: 0,14 KW
+        preu: '1.905'
+      icones_en_columna:
+      - temperatura
+- pagina_pub: 130
+  pagina_pdf: 481
+  taules:
+  - id: p130-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - col2
+    - mesures
+    - portes
+    - dimensions_parrilla
+    - capacitat_litres
+    - temperatura
+    - classe_energetica
+    - col9
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '71692409'
+      cel_les:
+        codi: '71692409'
+        pes: '90'
+        col2: INOX
+        mesures: 780x740x1870
+        portes: '1'
+        dimensions_parrilla: 3 - 650x525
+        capacitat_litres: '600'
+        temperatura: '[icona]'
+        classe_energetica: D
+        col9: '880'
+        potencia_electrica: 0,19 KW
+        preu: '2.085'
+      icones_en_columna:
+      - temperatura
+    - codi: '77592409'
+      cel_les:
+        codi: '77592409'
+        pes: '90'
+        col2: WHITE
+        mesures: 780x740x1870
+        portes: '1'
+        dimensions_parrilla: 3 - 650x525
+        capacitat_litres: '600'
+        temperatura: '[icona]'
+        classe_energetica: D
+        col9: '880'
+        potencia_electrica: 0,19 KW
+        preu: '1.855'
+      icones_en_columna:
+      - temperatura
+    - codi: '73692409'
+      cel_les:
+        codi: '73692409'
+        pes: '94'
+        col2: WHITE
+        mesures: 780x740x1870
+        portes: '1'
+        dimensions_parrilla: 7 - FIXED
+        capacitat_litres: '600'
+        temperatura: '[icona]'
+        classe_energetica: B
+        col9: '1150'
+        potencia_electrica: 0,15 KW
+        preu: '2.220'
+      icones_en_columna:
+      - temperatura
+    - codi: '75692409'
+      cel_les:
+        codi: '75692409'
+        pes: '94'
+        col2: INOX
+        mesures: 780x740x1870
+        portes: '1'
+        dimensions_parrilla: 7 - FIXED
+        capacitat_litres: '600'
+        temperatura: '[icona]'
+        classe_energetica: B
+        col9: '1150'
+        potencia_electrica: 0,15 KW
+        preu: '2.485'
+      icones_en_columna:
+      - temperatura
+- pagina_pub: 132
+  pagina_pdf: 482
+  taules:
+  - id: p132-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - col2
+    - mesures
+    - portes
+    - cubeta
+    - capacitat_litres
+    - temperatura
+    - classe_energetica
+    - col9
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 7569240C
+      cel_les:
+        codi: 7569240C
+        pes: '109'
+        col2: INOX
+        mesures: 780x740x1870
+        portes: '1'
+        cubeta: 13 CESTAS
+        capacitat_litres: '600'
+        temperatura: '[icona]'
+        classe_energetica: B
+        col9: '1150'
+        potencia_electrica: 0,15 KW
+        preu: '3.165'
+      icones_en_columna:
+      - temperatura
+    - codi: 7369240C
+      cel_les:
+        codi: 7369240C
+        pes: '109'
+        col2: WHITE
+        mesures: 780x740x1870
+        portes: '1'
+        cubeta: 13 CESTAS
+        capacitat_litres: '600'
+        temperatura: '[icona]'
+        classe_energetica: B
+        col9: '1150'
+        potencia_electrica: 0,15 KW
+        preu: '2.900'
+      icones_en_columna:
+      - temperatura
+- pagina_pub: 135
+  pagina_pdf: 483
+  taules:
+  - id: p135-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - col2
+    - mesures
+    - portes
+    - dimensions_parrilla
+    - capacitat_litres
+    - temperatura
+    - classe_energetica
+    - col9
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '79970609'
+      cel_les:
+        codi: '79970609'
+        pes: '44'
+        col2: INOX
+        mesures: 630x600x850
+        portes: '1'
+        dimensions_parrilla: 2 - 500x415 1 - 500x210
+        capacitat_litres: '130'
+        temperatura: '[icona]'
+        classe_energetica: B
+        col9: '387'
+        potencia_electrica: 0,09 KW
+        preu: '1.520'
+      icones_en_columna:
+      - temperatura
+    - codi: '75408409'
+      cel_les:
+        codi: '75408409'
+        pes: '44'
+        col2: WHITE
+        mesures: 630x600x850
+        portes: '1'
+        dimensions_parrilla: 2 - 500x415 1 - 500x210
+        capacitat_litres: '130'
+        temperatura: '[icona]'
+        classe_energetica: B
+        col9: '387'
+        potencia_electrica: 0,09 KW
+        preu: '1.320'
+      icones_en_columna:
+      - temperatura
+    - codi: 76002FE6
+      cel_les:
+        codi: 76002FE6
+        pes: '45'
+        col2: WHITE
+        mesures: 600x680x850
+        portes: '1'
+        dimensions_parrilla: 3 - FIXED
+        capacitat_litres: '200'
+        temperatura: '[icona]'
+        classe_energetica: A
+        col9: '990'
+        potencia_electrica: 0,14 KW
+        preu: '1.330'
+      icones_en_columna:
+      - temperatura
+    - codi: 7556002F
+      cel_les:
+        codi: 7556002F
+        pes: '45'
+        col2: INOX
+        mesures: 600x680x850
+        portes: '1'
+        dimensions_parrilla: 3 - FIXED
+        capacitat_litres: '200'
+        temperatura: '[icona]'
+        classe_energetica: A
+        col9: '990'
+        potencia_electrica: 0,14 KW
+        preu: '1.370'
+      icones_en_columna:
+      - temperatura
+- pagina_pub: 136
+  pagina_pdf: 484
+  taules:
+  - id: p136-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - col2
+    - mesures
+    - portes
+    - dimensions_parrilla
+    - capacitat_litres
+    - temperatura
+    - classe_energetica
+    - col9
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '72080609'
+      cel_les:
+        codi: '72080609'
+        pes: '76'
+        col2: INOX
+        mesures: 630x740x1870
+        portes: '1'
+        dimensions_parrilla: 3 - 507x415 1 - 507x225
+        capacitat_litres: '460'
+        temperatura: '[icona]'
+        classe_energetica: D
+        col9: '880'
+        potencia_electrica: 0,19 KW
+        preu: '1.875'
+      icones_en_columna:
+      - temperatura
+    - codi: '78592409'
+      cel_les:
+        codi: '78592409'
+        pes: '76'
+        col2: WHITE
+        mesures: 630x740x1870
+        portes: '1'
+        dimensions_parrilla: 3 - 507x415 1 - 507x225
+        capacitat_litres: '460'
+        temperatura: '[icona]'
+        classe_energetica: D
+        col9: '880'
+        potencia_electrica: 0,19 KW
+        preu: '1.625'
+      icones_en_columna:
+      - temperatura
+    - codi: '74592709'
+      cel_les:
+        codi: '74592709'
+        pes: '79'
+        col2: WHITE
+        mesures: 600x600x1870
+        portes: '1'
+        dimensions_parrilla: 7 - FIXED
+        capacitat_litres: '350'
+        temperatura: '[icona]'
+        classe_energetica: B
+        col9: '1100'
+        potencia_electrica: 0,14 KW
+        preu: '2.350'
+      icones_en_columna:
+      - temperatura
+    - codi: 7556004F
+      cel_les:
+        codi: 7556004F
+        pes: '79'
+        col2: INOX
+        mesures: 600x725x1870
+        portes: '1'
+        dimensions_parrilla: 6 - FIXED
+        capacitat_litres: '400'
+        temperatura: '[icona]'
+        classe_energetica: B
+        col9: '1100'
+        potencia_electrica: 0,14 KW
+        preu: '2.320'
+      icones_en_columna:
+      - temperatura
+- pagina_pub: 137
+  pagina_pdf: 485
+  taules:
+  - id: p137-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - col2
+    - mesures
+    - portes
+    - dimensions_parrilla
+    - capacitat_litres
+    - temperatura
+    - classe_energetica
+    - col9
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '73080609'
+      cel_les:
+        codi: '73080609'
+        pes: '94'
+        col2: INOX
+        mesures: 780x740x1870
+        portes: '1'
+        dimensions_parrilla: 3 - 650x525 1 - 650x330
+        capacitat_litres: '600'
+        temperatura: '[icona]'
+        classe_energetica: D
+        col9: '880'
+        potencia_electrica: 0,19 KW
+        preu: '2.175'
+      icones_en_columna:
+      - temperatura
+    - codi: '79592409'
+      cel_les:
+        codi: '79592409'
+        pes: '94'
+        col2: WHITE
+        mesures: 780x740x1870
+        portes: '1'
+        dimensions_parrilla: 3 - 650x525 1 - 650x330
+        capacitat_litres: '600'
+        temperatura: '[icona]'
+        classe_energetica: D
+        col9: '880'
+        potencia_electrica: 0,19 KW
+        preu: '1.980'
+      icones_en_columna:
+      - temperatura
+    - codi: '75592709'
+      cel_les:
+        codi: '75592709'
+        pes: '96'
+        col2: WHITE
+        mesures: 780x700x1900
+        portes: '1'
+        dimensions_parrilla: 6 - FIXED
+        capacitat_litres: '600'
+        temperatura: '[icona]'
+        classe_energetica: B
+        col9: '1150'
+        potencia_electrica: 0,15 KW
+        preu: '2.840'
+      icones_en_columna:
+      - temperatura
+    - codi: 7556006F
+      cel_les:
+        codi: 7556006F
+        pes: '96'
+        col2: INOX
+        mesures: 780x770x1900
+        portes: '1'
+        dimensions_parrilla: 6 - FIXED
+        capacitat_litres: '600'
+        temperatura: '[icona]'
+        classe_energetica: B
+        col9: '1150'
+        potencia_electrica: 0,15 KW
+        preu: '2.750'
+      icones_en_columna:
+      - temperatura
+- pagina_pub: 140
+  pagina_pdf: 470
+  taules:
+  - id: p140-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes
+    - dimensions_parrilla
+    - capacitat_litres
+    - temperatura
+    - classe_energetica
+    - col8
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '78810609'
+      cel_les:
+        codi: '78810609'
+        pes: '120'
+        mesures: 700x720x2070
+        portes: '1'
+        dimensions_parrilla: 3 - 560x542
+        capacitat_litres: '600'
+        temperatura: '[icona]'
+        classe_energetica: D
+        col8: '923'
+        potencia_electrica: 0,19 KW
+        preu: '2.885'
+      icones_en_columna:
+      - temperatura
+    - codi: '79810609'
+      cel_les:
+        codi: '79810609'
+        pes: '122'
+        mesures: 700x720x2070
+        portes: '2'
+        dimensions_parrilla: 3 - 560x542
+        capacitat_litres: '600'
+        temperatura: '[icona]'
+        classe_energetica: D
+        col8: '923'
+        potencia_electrica: 0,19 KW
+        preu: '2.950'
+      icones_en_columna:
+      - temperatura
+    - codi: '72120609'
+      cel_les:
+        codi: '72120609'
+        pes: '126'
+        mesures: 700x720x2070
+        portes: '2'
+        dimensions_parrilla: 3 - 560x542
+        capacitat_litres: '600'
+        temperatura: '[icona]'
+        classe_energetica: D
+        col8: '2179'
+        potencia_electrica: 0,70 KW
+        preu: '4.035'
+      icones_en_columna:
+      - temperatura
+    - codi: '79020609'
+      cel_les:
+        codi: '79020609'
+        pes: '124'
+        mesures: 700x720x2070
+        portes: '1'
+        dimensions_parrilla: 3 - 560x542
+        capacitat_litres: '600'
+        temperatura: '[icona]'
+        classe_energetica: D
+        col8: '2179'
+        potencia_electrica: 0,70 KW
+        preu: '3.870'
+      icones_en_columna:
+      - temperatura
+- pagina_pub: 141
+  pagina_pdf: 471
+  taules:
+  - id: p141-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes
+    - dimensions_parrilla
+    - capacitat_litres
+    - temperatura
+    - classe_energetica
+    - kw_365
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '74020609'
+      cel_les:
+        codi: '74020609'
+        pes: '180'
+        mesures: 1400x720x2070
+        portes: '2'
+        dimensions_parrilla: 6 - 560x542
+        capacitat_litres: '1200'
+        temperatura: '[icona]'
+        classe_energetica: E
+        kw_365: '1713'
+        potencia_electrica: 0,34 KW
+        preu: '3.925'
+      icones_en_columna:
+      - temperatura
+    - codi: '76020609'
+      cel_les:
+        codi: '76020609'
+        pes: '184'
+        mesures: 1400x720x2070
+        portes: '4'
+        dimensions_parrilla: 6 - 560x542
+        capacitat_litres: '1200'
+        temperatura: '[icona]'
+        classe_energetica: E
+        kw_365: '1713'
+        potencia_electrica: 0,34 KW
+        preu: '4.080'
+      icones_en_columna:
+      - temperatura
+    - codi: '73120609'
+      cel_les:
+        codi: '73120609'
+        pes: '187'
+        mesures: 1400x720x2070
+        portes: '2'
+        dimensions_parrilla: 6 - 560x542
+        capacitat_litres: '1200'
+        temperatura: '[icona]'
+        classe_energetica: E
+        kw_365: '4855'
+        potencia_electrica: 1,25 KW
+        preu: '5.290'
+      icones_en_columna:
+      - temperatura
+    - codi: '76120609'
+      cel_les:
+        codi: '76120609'
+        pes: '191'
+        mesures: 1400x720x2070
+        portes: '4'
+        dimensions_parrilla: 6 - 560x542
+        capacitat_litres: '1200'
+        temperatura: '[icona]'
+        classe_energetica: E
+        kw_365: '4855'
+        potencia_electrica: 1,25 KW
+        preu: '5.500'
+      icones_en_columna:
+      - temperatura
+- pagina_pub: 142
+  pagina_pdf: 474
+  taules:
+  - id: p142-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes
+    - dimensions_parrilla
+    - capacitat_litres
+    - temperatura
+    - classe_energetica
+    - kw_365
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '78120609'
+      cel_les:
+        codi: '78120609'
+        pes: '131'
+        mesures: 700x720x2070
+        portes: '2'
+        dimensions_parrilla: 1 - 560x542
+        capacitat_litres: '600'
+        temperatura: '[icona]'
+        classe_energetica: D
+        kw_365: '679'
+        potencia_electrica: 0,65 KW
+        preu: '4.715'
+      icones_en_columna:
+      - temperatura
+    - codi: '70220609'
+      cel_les:
+        codi: '70220609'
+        pes: '196'
+        mesures: 1400x720x2070
+        portes: '3'
+        dimensions_parrilla: 4 - 560x542
+        capacitat_litres: '1200'
+        temperatura: '[icona]'
+        classe_energetica: D
+        kw_365: '1105'
+        potencia_electrica: 0,81 KW
+        preu: '5.430'
+      icones_en_columna:
+      - temperatura
+- pagina_pub: 146
+  pagina_pdf: 473
+  taules:
+  - id: p146-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes
+    - dimensions_parrilla
+    - capacitat_litres
+    - temperatura
+    - classe_energetica
+    - kw_365
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '77120609'
+      cel_les:
+        codi: '77120609'
+        pes: '127'
+        mesures: 700x720x2070
+        portes: '2'
+        dimensions_parrilla: 1 - 560x542
+        capacitat_litres: '600'
+        temperatura: '[icona]'
+        classe_energetica: D
+        kw_365: '679'
+        potencia_electrica: 0,65 KW
+        preu: '4.215'
+      icones_en_columna:
+      - temperatura
+    - codi: '79120609'
+      cel_les:
+        codi: '79120609'
+        pes: '189'
+        mesures: 1400x720x2070
+        portes: '3'
+        dimensions_parrilla: 4 - 560x542
+        capacitat_litres: '1200'
+        temperatura: '[icona]'
+        classe_energetica: D
+        kw_365: '1105'
+        potencia_electrica: 0,81 KW
+        preu: '5.245'
+      icones_en_columna:
+      - temperatura
+- pagina_pub: 149
+  pagina_pdf: 472
+  taules:
+  - id: p149-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes
+    - dimensions_parrilla
+    - capacitat_litres
+    - temperatura
+    - classe_energetica
+    - col8
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '72020609'
+      cel_les:
+        codi: '72020609'
+        pes: '123'
+        mesures: 700x720x2070
+        portes: '1'
+        dimensions_parrilla: 3 - 560x542
+        capacitat_litres: '600'
+        temperatura: '[icona]'
+        classe_energetica: D
+        col8: '923'
+        potencia_electrica: 0,19 KW
+        preu: '3.250'
+      icones_en_columna:
+      - temperatura
+    - codi: '77020609'
+      cel_les:
+        codi: '77020609'
+        pes: '183'
+        mesures: 1200x720x2070
+        portes: '2'
+        dimensions_parrilla: 6 - 560x542
+        capacitat_litres: '1200'
+        temperatura: '[icona]'
+        classe_energetica: E
+        col8: '1713'
+        potencia_electrica: 0,34 KW
+        preu: '4.780'
+      icones_en_columna:
+      - temperatura
+- pagina_pub: 152
+  pagina_pdf: 476
+  taules:
+  - id: p152-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes
+    - dimensions_parrilla
+    - capacitat_litres
+    - temperatura
+    - classe_energetica
+    - kw_365
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '72774109'
+      cel_les:
+        codi: '72774109'
+        pes: '110'
+        mesures: 490x700x2010
+        portes: '1'
+        dimensions_parrilla: 3 - 325x530 GN 1/1
+        capacitat_litres: '500'
+        temperatura: '[icona]'
+        classe_energetica: D
+        kw_365: '730'
+        potencia_electrica: 0,21 KW
+        preu: '2.665'
+      icones_en_columna:
+      - temperatura
+    - codi: '73774109'
+      cel_les:
+        codi: '73774109'
+        pes: '114'
+        mesures: 490x700x2010
+        portes: '1'
+        dimensions_parrilla: 3 - 325x530 GN 1/1
+        capacitat_litres: '500'
+        temperatura: '[icona]'
+        classe_energetica: E
+        kw_365: '2200'
+        potencia_electrica: 0,35 KW
+        preu: '3.405'
+      icones_en_columna:
+      - temperatura
+    paraules_orfes:
+    - '79880609'
+    - '112'
+    - 490x700x2010
+    - '1'
+    - '3'
+    - '-'
+    - 325x530
+    - GN
+    - 1/1
+    - '500'
+    - B
+    - '980'
+    - 0,21
+    - KW
+    - '3.055'
+- pagina_pub: 167
+  pagina_pdf: 475
+  taules:
+  - id: p167-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes
+    - calaixos
+    - capacitat_litres
+    - temperatura
+    - classe_energetica
+    - col8
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '70899509'
+      cel_les:
+        codi: '70899509'
+        pes: '138'
+        mesures: 760x720x2010
+        portes: '1'
+        calaixos: 7 - 600x400x120
+        capacitat_litres: '600'
+        temperatura: '[icona]'
+        classe_energetica: D
+        col8: '679'
+        potencia_electrica: 0,62 KW
+        preu: '3.825'
+      icones_en_columna:
+      - temperatura

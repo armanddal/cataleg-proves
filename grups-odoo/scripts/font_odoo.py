@@ -141,16 +141,47 @@ def foto_odoo(codi, grup, lect=None, img_cat=None):
         if r: return r
     p = os.path.join(IMG_ODOO, f'{codi}.jpg')
     if os.path.exists(p): return f'treball/img-odoo/{codi}.jpg'
-    if lect is None: return None
+    if lect is None or codi in _SENSE_FOTO: return None
     r = lect('product.template', 'search_read', domain=[['default_code', '=', codi]], fields=['image_1920'])
-    if not r or not r[0]['image_1920']: return None
+    if not r or not r[0]['image_1920']:
+        _SENSE_FOTO.add(codi); return None
+    return _desa_foto_odoo(codi, r[0]['image_1920'])
+
+
+_SENSE_FOTO = set()     # codis dels quals Odoo no té imatge de producte (no es torna a preguntar)
+
+
+def _desa_foto_odoo(codi, b64):
     from PIL import Image
-    im = Image.open(io.BytesIO(base64.b64decode(r[0]['image_1920'])))
+    p = os.path.join(IMG_ODOO, f'{codi}.jpg')
+    im = Image.open(io.BytesIO(base64.b64decode(b64)))
     if im.mode in ('RGBA', 'LA', 'P'):
         im = im.convert('RGBA'); fons = Image.new('RGB', im.size, 'white'); fons.paste(im, mask=im.split()[-1]); im = fons
     im = im.convert('RGB'); im.thumbnail((900, 900))
-    os.makedirs(IMG_ODOO, exist_ok=True); im.save(p, 'JPEG', quality=88)
+    os.makedirs(IMG_ODOO, exist_ok=True); tmp = os.path.join(IMG_ODOO, '.%d-%s.jpg' % (os.getpid(), codi)); im.save(tmp, 'JPEG', quality=88); os.replace(tmp, p)
     return f'treball/img-odoo/{codi}.jpg'
+
+
+def prefetch_fotos(codis, grup, lect, img_cat=None, lot=12, fils=4):
+    """Baixa en paral·lel i per lots les imatges de producte d'Odoo (image_1920) dels codis que no tenen foto de catàleg ni
+    asset: sense això es baixarien d'una en una (molt lent). Només lectura."""
+    from concurrent.futures import ThreadPoolExecutor
+    falten = []
+    for c in dict.fromkeys(codis):
+        if not c or (img_cat or {}).get(c) or c in _SENSE_FOTO: continue
+        if os.path.exists(os.path.join(IMG_ODOO, f'{c}.jpg')): continue
+        if any(U.cerca_asset(grup, f'foto-{c}.{ext}') for ext in ('jpg', 'png')): continue
+        falten.append(c)
+    lots = [falten[i:i + lot] for i in range(0, len(falten), lot)]
+
+    def baixa(l):
+        got = set()
+        for r in lect('product.template', 'search_read', domain=[['default_code', 'in', l]], fields=['default_code', 'image_1920']):
+            if r['image_1920'] and r['default_code'] in l and r['default_code'] not in got:
+                _desa_foto_odoo(r['default_code'], r['image_1920']); got.add(r['default_code'])
+        _SENSE_FOTO.update(c for c in l if c not in got)
+    if lots:
+        with ThreadPoolExecutor(max_workers=fils) as ex: list(ex.map(baixa, lots))
 
 
 # ----------------------------------------------------------------------------- plantilles del .pub
@@ -387,6 +418,7 @@ class Constructor:
         est = self.est; cfg = self.cfg
         fams = est['families']; claus = claus_families_odoo(fams)
         self.prod_per_codi = {p['default_code']: p for p in est['productes']}
+        prefetch_fotos(list(self.prod_per_codi), self.grup, self.lect, self.img_cat)
         per_fam = {}
         ids_fam = {f['id'] for f in fams}
         for p in est['productes']:

@@ -1,0 +1,1977 @@
+# Generat per scripts/genera_config.py --grup 1 (editable; es pot regenerar)
+grup:
+  numero: 1
+  codi_odoo: G01
+families:
+- clau: HORNILLOS ELÉCTRICOS
+  noms:
+    es: HORNILLOS ELÉCTRICOS
+    en: ELECTRIC BOILING TOPS
+    fr: RÉCHAUD ÉLÉCTRIQUES
+  sequence: 10
+  tipus: producte
+  pagina: p05
+  taula: p05-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: placa_rodona
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 44810M10
+    ordre: 10
+    valors:
+      placa_rodona:
+        es: 1 x 2 Kw
+        en: 1 x 2 Kw
+        fr: 1 x 2 Kw
+      potencia_electrica:
+        es: 2 Kw 230/1V
+        en: 2 Kw 230/1V
+        fr: 2 Kw 230/1V
+  - codi: 44820M10
+    ordre: 20
+    valors:
+      placa_rodona:
+        es: 2 x 2 Kw
+        en: 2 x 2 Kw
+        fr: 2 x 2 Kw
+      potencia_electrica:
+        es: 4 Kw 230/1V
+        en: 4 Kw 230/1V
+        fr: 4 Kw 230/1V
+  compartits: []
+- clau: HORNILLOS A GAS
+  noms:
+    es: HORNILLOS A GAS
+    en: GAS BOILING TOPS
+    fr: RÉCHAUD À GAZ
+  sequence: 20
+  tipus: producte
+  pagina: p07
+  taula: p07-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: fogons
+    etiqueta: null
+  - codi: placa_lisa
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 44116C04
+    ordre: 10
+    valors:
+      fogons:
+        es: 1 x 5,8 Kw
+        en: 1 x 5,8 Kw
+        fr: 1 x 5,8 Kw
+      placa_lisa:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      potencia_gas:
+        es: 5,8 Kw
+        en: 5,8 Kw
+        fr: 5,8 Kw
+  - codi: 44126C08
+    ordre: 20
+    valors:
+      fogons:
+        es: 2 x 5,8 Kw
+        en: 2 x 5,8 Kw
+        fr: 2 x 5,8 Kw
+      placa_lisa:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      potencia_gas:
+        es: 11,6 Kw
+        en: 11,6 Kw
+        fr: 11,6 Kw
+  - codi: 4412PC08
+    ordre: 30
+    valors:
+      fogons:
+        es: 2 x 5,8 Kw
+        en: 2 x 5,8 Kw
+        fr: 2 x 5,8 Kw
+      placa_lisa:
+        es: SI
+        en: SI
+        fr: SI
+      potencia_gas:
+        es: 11,6 Kw
+        en: 11,6 Kw
+        fr: 11,6 Kw
+  - codi: 4413C021
+    ordre: 40
+    valors:
+      fogons:
+        es: 3 x 5,8 Kw
+        en: 3 x 5,8 Kw
+        fr: 3 x 5,8 Kw
+      placa_lisa:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      potencia_gas:
+        es: 17,4 Kw
+        en: 17,4 Kw
+        fr: 17,4 Kw
+  - codi: 4413P021
+    ordre: 50
+    valors:
+      fogons:
+        es: 3 x 5,8 Kw
+        en: 3 x 5,8 Kw
+        fr: 3 x 5,8 Kw
+      placa_lisa:
+        es: SI
+        en: SI
+        fr: SI
+      potencia_gas:
+        es: 17,4 Kw
+        en: 17,4 Kw
+        fr: 17,4 Kw
+  compartits: []
+- clau: PLANCHAS DE HIERRO CON UN HORNILLO, A GAS
+  noms:
+    es: PLANCHAS DE HIERRO CON UN HORNILLO, A GAS
+    en: GAS IRON GRIDDLES WITH A BURNER
+    fr: PLAQUES DE CUISSON EN FER AVEC UN RECHAUD À GAZ
+  sequence: 30
+  tipus: producte
+  pagina: p10
+  taula: p10-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: dimensions_placa
+    etiqueta: null
+  - codi: placa_lisa
+    etiqueta: null
+  - codi: fogons
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 44026P08
+    ordre: 10
+    valors:
+      dimensions_placa:
+        es: 400x400
+        en: 400x400
+        fr: 400x400
+      placa_lisa:
+        es: FE 6 mm 3 Kw
+        en: FE 6 mm 3 Kw
+        fr: FE 6 mm 3 Kw
+      fogons:
+        es: 1 x 5,8 Kw
+        en: 1 x 5,8 Kw
+        fr: 1 x 5,8 Kw
+      potencia_gas:
+        es: 8,8 Kw
+        en: 8,8 Kw
+        fr: 8,8 Kw
+  - codi: 44036P00
+    ordre: 20
+    valors:
+      dimensions_placa:
+        es: 600x400
+        en: 600x400
+        fr: 600x400
+      placa_lisa:
+        es: FE 6 mm 6 Kw
+        en: FE 6 mm 6 Kw
+        fr: FE 6 mm 6 Kw
+      fogons:
+        es: 1 x 5,8 Kw
+        en: 1 x 5,8 Kw
+        fr: 1 x 5,8 Kw
+      potencia_gas:
+        es: 11,8 Kw
+        en: 11,8 Kw
+        fr: 11,8 Kw
+  - codi: 44046P02
+    ordre: 30
+    valors:
+      dimensions_placa:
+        es: 800x400
+        en: 800x400
+        fr: 800x400
+      placa_lisa:
+        es: FE 6 mm 9 Kw
+        en: FE 6 mm 9 Kw
+        fr: FE 6 mm 9 Kw
+      fogons:
+        es: 1 x 5,8 Kw
+        en: 1 x 5,8 Kw
+        fr: 1 x 5,8 Kw
+      potencia_gas:
+        es: 14,8 Kw
+        en: 14,8 Kw
+        fr: 14,8 Kw
+  compartits: []
+- clau: PLANCHAS DE HIERRO CON UN HORNILLO, A GAS#2
+  noms:
+    es: PLANCHAS DE HIERRO CON UN HORNILLO, A GAS
+    en: GAS IRON GRIDDLES WITH A BURNER
+    fr: PLAQUES DE CUISSON EN FER AVEC UN RECHAUD À GAZ
+  sequence: 40
+  tipus: producte
+  pagina: p11
+  taula: p11-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: dimensions_placa
+    etiqueta: null
+  - codi: placa_lisa
+    etiqueta: null
+  - codi: fogons
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 44236P00
+    ordre: 10
+    valors:
+      dimensions_placa:
+        es: 600x400
+        en: 600x400
+        fr: 600x400
+      placa_lisa:
+        es: FE 15 mm 6 Kw
+        en: FE 15 mm 6 Kw
+        fr: FE 15 mm 6 Kw
+      fogons:
+        es: 1 x 5,8 Kw
+        en: 1 x 5,8 Kw
+        fr: 1 x 5,8 Kw
+      potencia_gas:
+        es: 11,8 Kw
+        en: 11,8 Kw
+        fr: 11,8 Kw
+  - codi: 44246P02
+    ordre: 20
+    valors:
+      dimensions_placa:
+        es: 800x400
+        en: 800x400
+        fr: 800x400
+      placa_lisa:
+        es: FE 15 mm 9 Kw
+        en: FE 15 mm 9 Kw
+        fr: FE 15 mm 9 Kw
+      fogons:
+        es: 1 x 5,8 Kw
+        en: 1 x 5,8 Kw
+        fr: 1 x 5,8 Kw
+      potencia_gas:
+        es: 14,8 Kw
+        en: 14,8 Kw
+        fr: 14,8 Kw
+  compartits: []
+- clau: PLANCHAS DE CROMO DURO CON UN HORNILLO, A GAS
+  noms:
+    es: PLANCHAS DE CROMO DURO CON UN HORNILLO, A GAS
+    en: GAS HARD CHROME HOT PLATES WITH A BURNER
+    fr: PLAQUES DE CHROME DUR AVEC UN RECHAUD À GAZ
+  sequence: 50
+  tipus: producte
+  pagina: p12
+  taula: p12-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: dimensions_placa
+    etiqueta: null
+  - codi: placa_lisa
+    etiqueta: null
+  - codi: fogons
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 44436P00
+    ordre: 10
+    valors:
+      dimensions_placa:
+        es: 600x400
+        en: 600x400
+        fr: 600x400
+      placa_lisa:
+        es: CR D 15 mm 6 Kw
+        en: CR D 15 mm 6 Kw
+        fr: CR D 15 mm 6 Kw
+      fogons:
+        es: 1 x 5,8 Kw
+        en: 1 x 5,8 Kw
+        fr: 1 x 5,8 Kw
+      potencia_gas:
+        es: 11,8 Kw
+        en: 11,8 Kw
+        fr: 11,8 Kw
+  - codi: 44446P02
+    ordre: 20
+    valors:
+      dimensions_placa:
+        es: 800x400
+        en: 800x400
+        fr: 800x400
+      placa_lisa:
+        es: CR D 15 mm 9 Kw
+        en: CR D 15 mm 9 Kw
+        fr: CR D 15 mm 9 Kw
+      fogons:
+        es: 1 x 5,8 Kw
+        en: 1 x 5,8 Kw
+        fr: 1 x 5,8 Kw
+      potencia_gas:
+        es: 14,8 Kw
+        en: 14,8 Kw
+        fr: 14,8 Kw
+  compartits: []
+- clau: PLANCHAS DE CROMO DURO A GAS Y ELÉCTRICAS
+  noms:
+    es: PLANCHAS DE CROMO DURO A GAS Y ELÉCTRICAS
+    en: ELECTRIC AND GAS HARD CHROME HOT PLATES
+    fr: PLAQUES DE CHROME DUR À GAZ ET ÉLÉCTRIQUES
+  sequence: 60
+  tipus: producte
+  pagina: p15
+  taula: p15-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: placa_lisa
+    etiqueta: null
+  - codi: dimensions_placa
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4444EM10
+    ordre: 10
+    valors:
+      placa_lisa:
+        es: CR D 12 mm
+        en: CR D 12 mm
+        fr: CR D 12 mm
+      dimensions_placa:
+        es: 800x420
+        en: 800x420
+        fr: 800x420
+      potencia_electrica:
+        es: 4 Kw 230/1V
+        en: 4 Kw 230/1V
+        fr: 4 Kw 230/1V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 44450M10
+    ordre: 20
+    valors:
+      placa_lisa:
+        es: CR D 12 mm
+        en: CR D 12 mm
+        fr: CR D 12 mm
+      dimensions_placa:
+        es: 1000x420
+        en: 1000x420
+        fr: 1000x420
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 17,5 Kw
+        en: 17,5 Kw
+        fr: 17,5 Kw
+  compartits: []
+- clau: PLANCHAS DE HIERRO A GAS
+  noms:
+    es: PLANCHAS DE HIERRO A GAS
+    en: GAS IRON HOT PLATES
+    fr: PLAQUES DE FER À GAZ
+  sequence: 70
+  tipus: producte
+  pagina: p18
+  taula: p18-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: placa_lisa
+    etiqueta: null
+  - codi: dimensions_placa
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 44026P04
+    ordre: 10
+    valors:
+      placa_lisa:
+        es: FE 6 mm
+        en: FE 6 mm
+        fr: FE 6 mm
+      dimensions_placa:
+        es: 400x400
+        en: 400x400
+        fr: 400x400
+      potencia_gas:
+        es: 3 Kw
+        en: 3 Kw
+        fr: 3 Kw
+  - codi: 44036P06
+    ordre: 20
+    valors:
+      placa_lisa:
+        es: FE 6 mm
+        en: FE 6 mm
+        fr: FE 6 mm
+      dimensions_placa:
+        es: 600x400
+        en: 600x400
+        fr: 600x400
+      potencia_gas:
+        es: 6 Kw
+        en: 6 Kw
+        fr: 6 Kw
+  - codi: 44046P08
+    ordre: 30
+    valors:
+      placa_lisa:
+        es: FE 6 mm
+        en: FE 6 mm
+        fr: FE 6 mm
+      dimensions_placa:
+        es: 800x400
+        en: 800x400
+        fr: 800x400
+      potencia_gas:
+        es: 9 Kw
+        en: 9 Kw
+        fr: 9 Kw
+  - codi: 44056P01
+    ordre: 40
+    valors:
+      placa_lisa:
+        es: FE 6 mm
+        en: FE 6 mm
+        fr: FE 6 mm
+      dimensions_placa:
+        es: 1000x400
+        en: 1000x400
+        fr: 1000x400
+      potencia_gas:
+        es: 9 Kw
+        en: 9 Kw
+        fr: 9 Kw
+  compartits: []
+- clau: PLANCHAS DE HIERRO A GAS#2
+  noms:
+    es: PLANCHAS DE HIERRO A GAS
+    en: GAS IRON HOT PLATES
+    fr: PLAQUES DE FER À GAZ
+  sequence: 80
+  tipus: producte
+  pagina: p19
+  taula: p19-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: placa_lisa
+    etiqueta: null
+  - codi: dimensions_placa
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 44236P06
+    ordre: 10
+    valors:
+      placa_lisa:
+        es: FE 15 mm
+        en: FE 15 mm
+        fr: FE 15 mm
+      dimensions_placa:
+        es: 600x400
+        en: 600x400
+        fr: 600x400
+      potencia_gas:
+        es: 6 Kw
+        en: 6 Kw
+        fr: 6 Kw
+  - codi: 44246P08
+    ordre: 20
+    valors:
+      placa_lisa:
+        es: FE 15 mm
+        en: FE 15 mm
+        fr: FE 15 mm
+      dimensions_placa:
+        es: 800x400
+        en: 800x400
+        fr: 800x400
+      potencia_gas:
+        es: 9 Kw
+        en: 9 Kw
+        fr: 9 Kw
+  compartits: []
+- clau: PLANCHAS DE CROMO DURO A GAS
+  noms:
+    es: PLANCHAS DE CROMO DURO A GAS
+    en: GAS HARD CHROME HOT PLATES
+    fr: PLAQUES DE CHROME DUR À GAZ
+  sequence: 90
+  tipus: producte
+  pagina: p20
+  taula: p20-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: placa_lisa
+    etiqueta: null
+  - codi: dimensions_placa
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 44436P06
+    ordre: 10
+    valors:
+      placa_lisa:
+        es: CR D 15 mm
+        en: CR D 15 mm
+        fr: CR D 15 mm
+      dimensions_placa:
+        es: 600x400
+        en: 600x400
+        fr: 600x400
+      potencia_gas:
+        es: 6 Kw
+        en: 6 Kw
+        fr: 6 Kw
+  - codi: 44446P08
+    ordre: 20
+    valors:
+      placa_lisa:
+        es: CR D 15 mm
+        en: CR D 15 mm
+        fr: CR D 15 mm
+      dimensions_placa:
+        es: 800x400
+        en: 800x400
+        fr: 800x400
+      potencia_gas:
+        es: 9 Kw
+        en: 9 Kw
+        fr: 9 Kw
+  compartits: []
+- clau: PLANCHAS DE HIERRO ELÉCTRICAS
+  noms:
+    es: PLANCHAS DE HIERRO ELÉCTRICAS
+    en: ELECTRIC IRON HOT PLATES
+    fr: PLAQUES DE FER ÉLÉCTRIQUES
+  sequence: 100
+  tipus: producte
+  pagina: p21
+  taula: p21-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: placa_lisa
+    etiqueta: null
+  - codi: dimensions_placa
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4412EP04
+    ordre: 10
+    valors:
+      placa_lisa:
+        es: FE 6 mm
+        en: FE 6 mm
+        fr: FE 6 mm
+      dimensions_placa:
+        es: 400x400
+        en: 400x400
+        fr: 400x400
+      potencia_electrica:
+        es: 2 Kw 230/1V
+        en: 2 Kw 230/1V
+        fr: 2 Kw 230/1V
+  - codi: 4413EP06
+    ordre: 20
+    valors:
+      placa_lisa:
+        es: FE 6 mm
+        en: FE 6 mm
+        fr: FE 6 mm
+      dimensions_placa:
+        es: 600x400
+        en: 600x400
+        fr: 600x400
+      potencia_electrica:
+        es: 4 Kw 230/1V
+        en: 4 Kw 230/1V
+        fr: 4 Kw 230/1V
+  - codi: 4414EP08
+    ordre: 30
+    valors:
+      placa_lisa:
+        es: FE 6 mm
+        en: FE 6 mm
+        fr: FE 6 mm
+      dimensions_placa:
+        es: 800x400
+        en: 800x400
+        fr: 800x400
+      potencia_electrica:
+        es: 5,2 Kw 400/3V
+        en: 5,2 Kw 400/3V
+        fr: 5,2 Kw 400/3V
+  compartits: []
+- clau: PLANCHAS DE HIERRO ELÉCTRICAS#2
+  noms:
+    es: PLANCHAS DE HIERRO ELÉCTRICAS
+    en: ELECTRIC IRON HOT PLATES
+    fr: PLAQUES DE FER ÉLÉCTRIQUES
+  sequence: 110
+  tipus: producte
+  pagina: p22
+  taula: p22-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: placa_lisa
+    etiqueta: null
+  - codi: dimensions_placa
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4433EP06
+    ordre: 10
+    valors:
+      placa_lisa:
+        es: FE 15 mm
+        en: FE 15 mm
+        fr: FE 15 mm
+      dimensions_placa:
+        es: 600x400
+        en: 600x400
+        fr: 600x400
+      potencia_electrica:
+        es: 4 Kw 230/1V
+        en: 4 Kw 230/1V
+        fr: 4 Kw 230/1V
+  - codi: 4434EP08
+    ordre: 20
+    valors:
+      placa_lisa:
+        es: FE 15 mm
+        en: FE 15 mm
+        fr: FE 15 mm
+      dimensions_placa:
+        es: 800x400
+        en: 800x400
+        fr: 800x400
+      potencia_electrica:
+        es: 5,2 Kw 400/3V
+        en: 5,2 Kw 400/3V
+        fr: 5,2 Kw 400/3V
+  compartits: []
+- clau: PLANCHAS DE CROMO DURO ELÉCTRICAS
+  noms:
+    es: PLANCHAS DE CROMO DURO ELÉCTRICAS
+    en: ELECTRIC HARD CHROME HOT PLATES
+    fr: PLAQUES DE CHROME DUR ÉLÉCTRIQUES
+  sequence: 120
+  tipus: producte
+  pagina: p23
+  taula: p23-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: placa_lisa
+    etiqueta: null
+  - codi: dimensions_placa
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4453EP06
+    ordre: 10
+    valors:
+      placa_lisa:
+        es: CR D 15 mm
+        en: CR D 15 mm
+        fr: CR D 15 mm
+      dimensions_placa:
+        es: 600x400
+        en: 600x400
+        fr: 600x400
+      potencia_electrica:
+        es: 4 Kw 230/1V
+        en: 4 Kw 230/1V
+        fr: 4 Kw 230/1V
+  - codi: 4454EP08
+    ordre: 20
+    valors:
+      placa_lisa:
+        es: CR D 15 mm
+        en: CR D 15 mm
+        fr: CR D 15 mm
+      dimensions_placa:
+        es: 800x400
+        en: 800x400
+        fr: 800x400
+      potencia_electrica:
+        es: 5,2 Kw 400/3V
+        en: 5,2 Kw 400/3V
+        fr: 5,2 Kw 400/3V
+  compartits: []
+- clau: BARBACOAS A GAS SIN PETO
+  noms:
+    es: BARBACOAS A GAS SIN PETO
+    en: GAS BARBECUE WITHOUT BACKSPLASH
+    fr: BARBECUE À GAZ SANS DOSSERET
+  sequence: 130
+  tipus: producte
+  pagina: p25
+  taula: p25-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta: null
+  - codi: barbacoa
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4471A804
+    ordre: 10
+    valors:
+      dimensions_parrilla:
+        es: 300x400
+        en: 300x400
+        fr: 300x400
+      barbacoa:
+        es: INOX
+        en: INOX
+        fr: INOX
+      potencia_gas:
+        es: 5,5 Kw
+        en: 5,5 Kw
+        fr: 5,5 Kw
+  - codi: 4472A807
+    ordre: 20
+    valors:
+      dimensions_parrilla:
+        es: 610x400
+        en: 610x400
+        fr: 610x400
+      barbacoa:
+        es: INOX
+        en: INOX
+        fr: INOX
+      potencia_gas:
+        es: 11 Kw
+        en: 11 Kw
+        fr: 11 Kw
+  - codi: 4473A800
+    ordre: 30
+    valors:
+      dimensions_parrilla:
+        es: 920x400
+        en: 920x400
+        fr: 920x400
+      barbacoa:
+        es: INOX
+        en: INOX
+        fr: INOX
+      potencia_gas:
+        es: 16,5 Kw
+        en: 16,5 Kw
+        fr: 16,5 Kw
+  compartits: []
+- clau: BARBACOAS A GAS CON PETO
+  noms:
+    es: BARBACOAS A GAS CON PETO
+    en: GAS BARBECUE WITH BACKSPLASH
+    fr: BARBECUE À GAZ AVEC DOSSERET
+  sequence: 140
+  tipus: producte
+  pagina: p26
+  taula: p26-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta: null
+  - codi: barbacoa
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4471AV04
+    ordre: 10
+    valors:
+      dimensions_parrilla:
+        es: 300x400
+        en: 300x400
+        fr: 300x400
+      barbacoa:
+        es: INOX
+        en: INOX
+        fr: INOX
+      potencia_gas:
+        es: 5,5 Kw
+        en: 5,5 Kw
+        fr: 5,5 Kw
+  - codi: 4472AV07
+    ordre: 20
+    valors:
+      dimensions_parrilla:
+        es: 610x400
+        en: 610x400
+        fr: 610x400
+      barbacoa:
+        es: INOX
+        en: INOX
+        fr: INOX
+      potencia_gas:
+        es: 11 Kw
+        en: 11 Kw
+        fr: 11 Kw
+  - codi: 4473AV00
+    ordre: 30
+    valors:
+      dimensions_parrilla:
+        es: 920x400
+        en: 920x400
+        fr: 920x400
+      barbacoa:
+        es: INOX
+        en: INOX
+        fr: INOX
+      potencia_gas:
+        es: 16,5 Kw
+        en: 16,5 Kw
+        fr: 16,5 Kw
+  compartits: []
+- clau: FREIDORAS ELÉCTRICAS DE GRAN POTENCIA
+  noms:
+    es: FREIDORAS ELÉCTRICAS DE GRAN POTENCIA
+    en: HIGH-POWER ELECTRIC FRYERS
+    fr: FRITEUSES ÉLECTRIQUES HAUTE PUISSANCE
+  sequence: 150
+  tipus: producte
+  pagina: p28
+  taula: p28-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: mesures_interiors
+    etiqueta: null
+  - codi: dimensions_cesta
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '42053564'
+    ordre: 10
+    valors:
+      capacitat_litres:
+        es: 4/5
+        en: 4/5
+        fr: 4/5
+      mesures_interiors:
+        es: 146x325x200
+        en: 146x325x200
+        fr: 146x325x200
+      dimensions_cesta:
+        es: 128x232x100
+        en: 128x232x100
+        fr: 128x232x100
+      potencia_electrica:
+        es: 3 Kw 230/1V
+        en: 3 Kw 230/1V
+        fr: 3 Kw 230/1V
+  - codi: '42081174'
+    ordre: 20
+    valors:
+      capacitat_litres:
+        es: 6/8
+        en: 6/8
+        fr: 6/8
+      mesures_interiors:
+        es: 265x325x200
+        en: 265x325x200
+        fr: 265x325x200
+      dimensions_cesta:
+        es: 210x232x100
+        en: 210x232x100
+        fr: 210x232x100
+      potencia_electrica:
+        es: 4,5 Kw 400/3V
+        en: 4,5 Kw 400/3V
+        fr: 4,5 Kw 400/3V
+  - codi: '42124930'
+    ordre: 30
+    valors:
+      capacitat_litres:
+        es: 8/10
+        en: 8/10
+        fr: 8/10
+      mesures_interiors:
+        es: 352x325x200
+        en: 352x325x200
+        fr: 352x325x200
+      dimensions_cesta:
+        es: 296x232x100
+        en: 296x232x100
+        fr: 296x232x100
+      potencia_electrica:
+        es: 6 Kw 400/3V
+        en: 6 Kw 400/3V
+        fr: 6 Kw 400/3V
+  compartits: []
+- clau: FREIDORAS ELÉCTRICAS DE UNA CUBA
+  noms:
+    es: FREIDORAS ELÉCTRICAS DE UNA CUBA
+    en: ELECTRIC SINGLE-TANK FRYERS
+    fr: FRITEUSES ÉLECTRIQUES À UN BAC
+  sequence: 160
+  tipus: producte
+  pagina: p31
+  taula: p31-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: dutxa
+    etiqueta: null
+  - codi: dimensions_cesta
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 440550VE
+    ordre: 10
+    valors:
+      capacitat_litres:
+        es: '5'
+        en: '5'
+        fr: '5'
+      gastronorm:
+        es: 176x325x200
+        en: 176x325x200
+        fr: 176x325x200
+      dutxa:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      dimensions_cesta:
+        es: 130x245x100
+        en: 130x245x100
+        fr: 130x245x100
+      potencia_electrica:
+        es: 2,2 Kw 230/1V
+        en: 2,2 Kw 230/1V
+        fr: 2,2 Kw 230/1V
+  - codi: 4408010V
+    ordre: 20
+    valors:
+      capacitat_litres:
+        es: '8'
+        en: '8'
+        fr: '8'
+      gastronorm:
+        es: 265x325x200
+        en: 265x325x200
+        fr: 265x325x200
+      dutxa:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      dimensions_cesta:
+        es: 205x245x100
+        en: 205x245x100
+        fr: 205x245x100
+      potencia_electrica:
+        es: 3,5 Kw 230/1V
+        en: 3,5 Kw 230/1V
+        fr: 3,5 Kw 230/1V
+  - codi: '44086010'
+    ordre: 30
+    valors:
+      capacitat_litres:
+        es: '8'
+        en: '8'
+        fr: '8'
+      gastronorm:
+        es: 265x325x200
+        en: 265x325x200
+        fr: 265x325x200
+      dutxa:
+        es: OK
+        en: OK
+        fr: OK
+      dimensions_cesta:
+        es: 205x245x100
+        en: 205x245x100
+        fr: 205x245x100
+      potencia_electrica:
+        es: 3,5 Kw 230/1V
+        en: 3,5 Kw 230/1V
+        fr: 3,5 Kw 230/1V
+  - codi: 4412210V
+    ordre: 40
+    valors:
+      capacitat_litres:
+        es: '12'
+        en: '12'
+        fr: '12'
+      gastronorm:
+        es: 352x325x200
+        en: 352x325x200
+        fr: 352x325x200
+      dutxa:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      dimensions_cesta:
+        es: 290x245x100
+        en: 290x245x100
+        fr: 290x245x100
+      potencia_electrica:
+        es: 4,5 Kw 230/1V
+        en: 4,5 Kw 230/1V
+        fr: 4,5 Kw 230/1V
+  - codi: '44126210'
+    ordre: 50
+    valors:
+      capacitat_litres:
+        es: '12'
+        en: '12'
+        fr: '12'
+      gastronorm:
+        es: 352x325x200
+        en: 352x325x200
+        fr: 352x325x200
+      dutxa:
+        es: OK
+        en: OK
+        fr: OK
+      dimensions_cesta:
+        es: 290x245x100
+        en: 290x245x100
+        fr: 290x245x100
+      potencia_electrica:
+        es: 4,5 Kw 230/1V
+        en: 4,5 Kw 230/1V
+        fr: 4,5 Kw 230/1V
+  compartits: []
+- clau: FREIDORAS ELÉCTRICAS DE DOS CUBAS
+  noms:
+    es: FREIDORAS ELÉCTRICAS DE DOS CUBAS
+    en: ELECTRIC DOUBLE TANK FRYERS
+    fr: FRITEUSES ÉLECTRIQUES À DEUX BACS
+  sequence: 170
+  tipus: producte
+  pagina: p32
+  taula: p32-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: dutxa
+    etiqueta: null
+  - codi: dimensions_cesta
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4455550V
+    ordre: 10
+    valors:
+      capacitat_litres:
+        es: 5+5
+        en: 5+5
+        fr: 5+5
+      gastronorm:
+        es: 176x325x200
+        en: 176x325x200
+        fr: 176x325x200
+      dutxa:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      dimensions_cesta:
+        es: 130x245x100
+        en: 130x245x100
+        fr: 130x245x100
+      potencia_electrica:
+        es: 4,4 Kw 230/1V
+        en: 4,4 Kw 230/1V
+        fr: 4,4 Kw 230/1V
+  - codi: '44880101'
+    ordre: 20
+    valors:
+      capacitat_litres:
+        es: 8+8
+        en: 8+8
+        fr: 8+8
+      gastronorm:
+        es: 265x325x200
+        en: 265x325x200
+        fr: 265x325x200
+      dutxa:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      dimensions_cesta:
+        es: 205x245x100
+        en: 205x245x100
+        fr: 205x245x100
+      potencia_electrica:
+        es: 7 Kw 230/1V
+        en: 7 Kw 230/1V
+        fr: 7 Kw 230/1V
+  - codi: '44886010'
+    ordre: 30
+    valors:
+      capacitat_litres:
+        es: 8+8
+        en: 8+8
+        fr: 8+8
+      gastronorm:
+        es: 265x325x200
+        en: 265x325x200
+        fr: 265x325x200
+      dutxa:
+        es: OK
+        en: OK
+        fr: OK
+      dimensions_cesta:
+        es: 205x245x100
+        en: 205x245x100
+        fr: 205x245x100
+      potencia_electrica:
+        es: 7 Kw 230/1V
+        en: 7 Kw 230/1V
+        fr: 7 Kw 230/1V
+  - codi: '44242121'
+    ordre: 40
+    valors:
+      capacitat_litres:
+        es: 12+12
+        en: 12+12
+        fr: 12+12
+      gastronorm:
+        es: 352x325x200
+        en: 352x325x200
+        fr: 352x325x200
+      dutxa:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      dimensions_cesta:
+        es: 290x245x100
+        en: 290x245x100
+        fr: 290x245x100
+      potencia_electrica:
+        es: 9 Kw 230/1V
+        en: 9 Kw 230/1V
+        fr: 9 Kw 230/1V
+  - codi: '44246212'
+    ordre: 50
+    valors:
+      capacitat_litres:
+        es: 12+12
+        en: 12+12
+        fr: 12+12
+      gastronorm:
+        es: 352x325x200
+        en: 352x325x200
+        fr: 352x325x200
+      dutxa:
+        es: OK
+        en: OK
+        fr: OK
+      dimensions_cesta:
+        es: 290x245x100
+        en: 290x245x100
+        fr: 290x245x100
+      potencia_electrica:
+        es: 9 Kw 230/1V
+        en: 9 Kw 230/1V
+        fr: 9 Kw 230/1V
+  compartits: []
+- clau: FREIDORAS ELÉCTRICAS DE GRAN CAPACIDAD
+  noms:
+    es: FREIDORAS ELÉCTRICAS DE GRAN CAPACIDAD
+    en: HIGH-CAPACITY ELECTRIC FRYERS
+    fr: FRITEUSES ÉLECTRIQUES À HAUTE CAPACITÉ
+  sequence: 180
+  tipus: producte
+  pagina: p33
+  taula: p33-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: mesures_interiors
+    etiqueta: null
+  - codi: dutxa
+    etiqueta: null
+  - codi: dimensions_cesta
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4416L61P
+    ordre: 10
+    valors:
+      capacitat_litres:
+        es: '16'
+        en: '16'
+        fr: '16'
+      mesures_interiors:
+        es: 505x295x200
+        en: 505x295x200
+        fr: 505x295x200
+      dutxa:
+        es: OK
+        en: OK
+        fr: OK
+      dimensions_cesta:
+        es: 455x245x90
+        en: 455x245x90
+        fr: 455x245x90
+      potencia_electrica:
+        es: 9 Kw 400/3V
+        en: 9 Kw 400/3V
+        fr: 9 Kw 400/3V
+  - codi: 4430L03P
+    ordre: 20
+    valors:
+      capacitat_litres:
+        es: '30'
+        en: '30'
+        fr: '30'
+      mesures_interiors:
+        es: 620x500x200
+        en: 620x500x200
+        fr: 620x500x200
+      dutxa:
+        es: OK
+        en: OK
+        fr: OK
+      dimensions_cesta:
+        es: 570x440x90
+        en: 570x440x90
+        fr: 570x440x90
+      potencia_electrica:
+        es: 15 Kw 400/3V
+        en: 15 Kw 400/3V
+        fr: 15 Kw 400/3V
+  compartits: []
+- clau: CUECE PASTA ELÉCTRICOS
+  noms:
+    es: CUECE PASTA ELÉCTRICOS
+    en: ELECTRIC PASTA COOKERS
+    fr: CUISEUR DE PÂTES ÉLECTRIQUES
+  sequence: 190
+  tipus: producte
+  pagina: p34
+  taula: p34-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: dutxa
+    etiqueta: null
+  - codi: dimensions_cesta
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4407L7PC
+    ordre: 10
+    valors:
+      capacitat_litres:
+        es: '7'
+        en: '7'
+        fr: '7'
+      gastronorm:
+        es: 265x325x200
+        en: 265x325x200
+        fr: 265x325x200
+      dutxa:
+        es: OK
+        en: OK
+        fr: OK
+      dimensions_cesta:
+        es: 3 de 95x125x130
+        en: 3 de 95x125x130
+        fr: 3 de 95x125x130
+      potencia_electrica:
+        es: 3,2 Kw 230/1V
+        en: 3,2 Kw 230/1V
+        fr: 3,2 Kw 230/1V
+  - codi: 4477L77P
+    ordre: 20
+    valors:
+      capacitat_litres:
+        es: 7+7
+        en: 7+7
+        fr: 7+7
+      gastronorm:
+        es: 265x325x200
+        en: 265x325x200
+        fr: 265x325x200
+      dutxa:
+        es: OK
+        en: OK
+        fr: OK
+      dimensions_cesta:
+        es: 6 de 95x125x130
+        en: 6 de 95x125x130
+        fr: 6 de 95x125x130
+      potencia_electrica:
+        es: 6,4 Kw 230/1V
+        en: 6,4 Kw 230/1V
+        fr: 6,4 Kw 230/1V
+  compartits: []
+- clau: TOSTADORES ELÉCTRICOS CON RESISTENCIAS DE CUARZO
+  noms:
+    es: TOSTADORES ELÉCTRICOS CON RESISTENCIAS DE CUARZO
+    en: ELECTRIC TOASTERS WITH QUARTZ HEATING ELEMENTS
+    fr: GRILLE-PAINS ÉLECTRIQUES AVEC ÉLÉMENTS CHAUFFANTS EN QUARTZ
+  sequence: 200
+  tipus: producte
+  pagina: p36
+  taula: p36-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: nivells
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4302T2ET
+    ordre: 10
+    valors:
+      nivells:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_parrilla:
+        es: 2 - 245x200
+        en: 2 - 245x200
+        fr: 2 - 245x200
+      potencia_electrica:
+        es: 1,8 Kw 230/1V
+        en: 1,8 Kw 230/1V
+        fr: 1,8 Kw 230/1V
+  - codi: 4303T3ET
+    ordre: 20
+    valors:
+      nivells:
+        es: '3'
+        en: '3'
+        fr: '3'
+      dimensions_parrilla:
+        es: 3 - 245x200
+        en: 3 - 245x200
+        fr: 3 - 245x200
+      potencia_electrica:
+        es: 2,4 Kw 230/1V
+        en: 2,4 Kw 230/1V
+        fr: 2,4 Kw 230/1V
+  - codi: 4301T15T
+    ordre: 30
+    valors:
+      nivells:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_parrilla:
+        es: 1 - 370x200
+        en: 1 - 370x200
+        fr: 1 - 370x200
+      potencia_electrica:
+        es: 2 Kw 230/1V
+        en: 2 Kw 230/1V
+        fr: 2 Kw 230/1V
+  - codi: 4302T2DT
+    ordre: 40
+    valors:
+      nivells:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_parrilla:
+        es: 2 - 370x200
+        en: 2 - 370x200
+        fr: 2 - 370x200
+      potencia_electrica:
+        es: 3 Kw 230/1V
+        en: 3 Kw 230/1V
+        fr: 3 Kw 230/1V
+  - codi: 4302REPU
+    ordre: 50
+    valors:
+      nivells:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_parrilla:
+        es: 2 - 520x200
+        en: 2 - 520x200
+        fr: 2 - 520x200
+      potencia_electrica:
+        es: 3,6 Kw 230/1V
+        en: 3,6 Kw 230/1V
+        fr: 3,6 Kw 230/1V
+  compartits: []
+- clau: TOSTADORES ELÉCTRICOS CON RESISTENCIAS DE ACERO INOXIDABLE
+  noms:
+    es: TOSTADORES ELÉCTRICOS CON RESISTENCIAS DE ACERO INOXIDABLE
+    en: ELECTRIC TOASTERS WITH STAINLESS STEEL HEATING ELEMENTS
+    fr: GRILLE-PAINS ÉLECTRIQUES AVEC ÉLÉMENTS CHAUFFANTS EN ACIER INOXYDABLE
+  sequence: 210
+  tipus: producte
+  pagina: p37
+  taula: p37-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: nivells
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta: null
+  - codi: alcada_interior
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4301T0UD
+    ordre: 10
+    valors:
+      nivells:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_parrilla:
+        es: 1 - 370x260
+        en: 1 - 370x260
+        fr: 1 - 370x260
+      alcada_interior:
+        es: '50'
+        en: '50'
+        fr: '50'
+      potencia_electrica:
+        es: 2,3 Kw 230/1V
+        en: 2,3 Kw 230/1V
+        fr: 2,3 Kw 230/1V
+  - codi: 4302T0UD
+    ordre: 20
+    valors:
+      nivells:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_parrilla:
+        es: 2 - 370x260
+        en: 2 - 370x260
+        fr: 2 - 370x260
+      alcada_interior:
+        es: '50'
+        en: '50'
+        fr: '50'
+      potencia_electrica:
+        es: 3,5 Kw 230/1V
+        en: 3,5 Kw 230/1V
+        fr: 3,5 Kw 230/1V
+  - codi: '43115354'
+    ordre: 30
+    valors:
+      nivells:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_parrilla:
+        es: 1 - 450x350
+        en: 1 - 450x350
+        fr: 1 - 450x350
+      alcada_interior:
+        es: '240'
+        en: '240'
+        fr: '240'
+      potencia_electrica:
+        es: 3,5 Kw 230/1V
+        en: 3,5 Kw 230/1V
+        fr: 3,5 Kw 230/1V
+  compartits: []
+- clau: PLANCHAS GRILL ELÉCTRICAS
+  noms:
+    es: PLANCHAS GRILL ELÉCTRICAS
+    en: ELECTRIC GRILL PLATES
+    fr: PLANCHES GRILL ÉLECTRIQUES
+  sequence: 220
+  tipus: producte
+  pagina: p40
+  taula: p40-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: safates
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4401186P
+    ordre: 10
+    valors:
+      safates:
+        es: '4'
+        en: '4'
+        fr: '4'
+      dimensions_parrilla:
+        es: 1 - 240x240
+        en: 1 - 240x240
+        fr: 1 - 240x240
+      potencia_electrica:
+        es: 1,8 Kw 230/1V
+        en: 1,8 Kw 230/1V
+        fr: 1,8 Kw 230/1V
+  - codi: 4402186P
+    ordre: 20
+    valors:
+      safates:
+        es: '6'
+        en: '6'
+        fr: '6'
+      dimensions_parrilla:
+        es: 1 - 360x240
+        en: 1 - 360x240
+        fr: 1 - 360x240
+      potencia_electrica:
+        es: 2,2 Kw 230/1V
+        en: 2,2 Kw 230/1V
+        fr: 2,2 Kw 230/1V
+  - codi: 4403186P
+    ordre: 30
+    valors:
+      safates:
+        es: 4+4
+        en: 4+4
+        fr: 4+4
+      dimensions_parrilla:
+        es: 1 - 500x240
+        en: 1 - 500x240
+        fr: 1 - 500x240
+      potencia_electrica:
+        es: 3,6 Kw 230/1V
+        en: 3,6 Kw 230/1V
+        fr: 3,6 Kw 230/1V
+  compartits: []
+- clau: PLANCHAS GOFRERAS ELÉCTRICAS
+  noms:
+    es: PLANCHAS GOFRERAS ELÉCTRICAS
+    en: ELECTRIC WAFFLE IRONS
+    fr: FERS À GAUFRES ÉLECTRIQUES
+  sequence: 230
+  tipus: producte
+  pagina: p41
+  taula: p41-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: wok
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4410122F
+    ordre: 10
+    valors:
+      wok:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_parrilla:
+        es: 1 - 250x250
+        en: 1 - 250x250
+        fr: 1 - 250x250
+      potencia_electrica:
+        es: 1,5 Kw 230/1V
+        en: 1,5 Kw 230/1V
+        fr: 1,5 Kw 230/1V
+  - codi: 4420122F
+    ordre: 20
+    valors:
+      wok:
+        es: '4'
+        en: '4'
+        fr: '4'
+      dimensions_parrilla:
+        es: 2 - 250x250
+        en: 2 - 250x250
+        fr: 2 - 250x250
+      potencia_electrica:
+        es: 3 Kw 230/1V
+        en: 3 Kw 230/1V
+        fr: 3 Kw 230/1V
+  compartits: []
+- clau: CREPERAS ELÉCTRICAS
+  noms:
+    es: CREPERAS ELÉCTRICAS
+    en: ELECTRIC CREPE MAKERS
+    fr: CRÊPIÈRES ÉLECTRIQUES
+  sequence: 240
+  tipus: producte
+  pagina: p42
+  taula: p42-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: wok
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 441801CE
+    ordre: 10
+    valors:
+      wok:
+        es: 1 Ø 400
+        en: 1 Ø 400
+        fr: 1 Ø 400
+      potencia_electrica:
+        es: 3 Kw 230/1V
+        en: 3 Kw 230/1V
+        fr: 3 Kw 230/1V
+  - codi: 441902CE
+    ordre: 20
+    valors:
+      wok:
+        es: 2 Ø 400
+        en: 2 Ø 400
+        fr: 2 Ø 400
+      potencia_electrica:
+        es: 6 Kw 230/1V
+        en: 6 Kw 230/1V
+        fr: 6 Kw 230/1V
+  compartits: []
+- clau: CREPERAS A GAS
+  noms:
+    es: CREPERAS A GAS
+    en: GAS CREPE MAKERS
+    fr: CRÊPIÈRES À GAZ
+  sequence: 250
+  tipus: producte
+  pagina: p43
+  taula: p43-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: wok
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4416004R
+    ordre: 10
+    valors:
+      wok:
+        es: 1 Ø 400
+        en: 1 Ø 400
+        fr: 1 Ø 400
+      potencia_gas:
+        es: 3,6 Kw
+        en: 3,6 Kw
+        fr: 3,6 Kw
+  - codi: 4426004R
+    ordre: 20
+    valors:
+      wok:
+        es: 2 Ø 400
+        en: 2 Ø 400
+        fr: 2 Ø 400
+      potencia_gas:
+        es: 7,2 Kw
+        en: 7,2 Kw
+        fr: 7,2 Kw
+  compartits: []
+avisos: []
+repeticions: {}
+informe:
+  inexistents: []
+  descatalogats: []
+  arxivats: []
+  ambigus: []
+  ignorats: []
+  fora_pdf: []
+  columnes_eliminades: []
+  families_buides: []
+  taules_dividides: []

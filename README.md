@@ -18,7 +18,7 @@ Odoo Staging --(lectura)--> cataleg-viu/actualitza.py --> grups-odoo/scripts/ren
 |---|---|
 | `ci/genera.sh` | Entrada: genera tot (sense estat previ) a `sortida/web/`. Necessita les 4 variables d'entorn. |
 | `ci/comprova.py`, `ci/estat.py`, `ci/fonts.conf` | Comprovació del resultat, `estat.json`, àlies de fonts per a Linux. |
-| `.github/workflows/actualitza-cataleg.yml` | El workflow (dispatch + manual, concurrència, timeout 45 min). |
+| `.github/workflows/actualitza-cataleg.yml` | El workflow (dispatch + manual, concurrència, timeout 90 min). |
 | `cataleg-viu/` | `cataleg.yaml` (**`ordre`**: grups del catàleg), `actualitza.py`, `munta_cataleg.py`, `portades.py`, lectura d'Odoo. |
 | `grups-odoo/scripts/` | Renderitzador dels grups (`renderitza.py`, `font_odoo.py`, `pagines_odoo.py`...), `odoo_env.py` (connexió). |
 | `grups-odoo/dades/` | Configuració de disseny: `gN.yaml`, `gN-config.yaml` (+ `gN-columnes.yaml` si en té), columnes, icones, correccions. |
@@ -38,7 +38,7 @@ Opcionals: `CHROME_BIN` (ruta de Chrome), `CHROME_NO_SANDBOX=1` (el workflow ho 
 ```bash
 pip install -r requirements.txt     # al Mac amb PyMuPDF x86 es relança sol sota Rosetta
 export ODOO_URL=... ODOO_DB=... ODOO_USER=... ODOO_API_KEY=...   # Staging
-bash ci/genera.sh                   # ~3 min -> sortida/web/
+bash ci/genera.sh                   # ~15 min -> sortida/web/
 cd sortida/web && python3 -m http.server 7793
 ```
 
@@ -52,6 +52,6 @@ cd sortida/web && python3 -m http.server 7793
 ## Notes
 - **Fonts**: el disseny fa servir Arial Narrow i Franklin Gothic Book (Mac). A Ubuntu es substitueixen per Liberation Sans Narrow
   i Libre Franklin (`ci/fonts.conf`). Pot haver-hi petites diferències de tipus; si la primera execució es veu diferent, mira-ho abans de donar-ho per bo.
-- **Temps**: ~3 min per a 2 grups (lectura d'Odoo ~15 s, ~65 s per grup, muntatge ~15 s). Amb tots els grups serà bastant més.
+- **Temps**: 16 grups, 932 pàgines: ~15 min en local (3 grups alhora, `CATALEG_PARALEL`), PDF ~65 MB linealitzat (imatges a ~150 ppp).
 - **Si falla**: no es publica res; la pàgina anterior es queda tal com estava (i `estat.json` també).
 - `estat.json` (a l'arrel de la pàgina publicada): `resultat`, `generat_utc`, `generat_local` (Europa/Madrid), `edicio`, `pagines`, `grups`, `execucio`.

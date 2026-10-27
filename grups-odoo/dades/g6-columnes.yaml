@@ -1,0 +1,2338 @@
+esquema: tarifa-columnes-posicio/1
+grup: 6
+metode: posicio sobre el PDF publicat (intervals X = cel.les de la fila de capcalera del PDF; files = codi + vores de cel.la del PDF)
+font_pdf: cataleg_original_web.pdf
+nota: 'Per taula: fila (codi) -> columna (clau del gN.yaml) -> text tal com surt al PDF publicat. "-" = guio del catalag; "[icona]" = cel.la amb una icona (energia gas/electric...), sense text. icones_en_columna
+  = columnes amb una icona a la cel.la. cel_les_combinades (si n hi ha) = valor de cel.la combinada copiat a totes les files que cobreix. codi_al_pdf = el PDF porta un codi diferent del .pub.'
+pagines:
+- pagina_pub: 6
+  pagina_pdf: 212
+  taules:
+  - id: p06-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - fogons
+    - fogons_2
+    - forn_estatic
+    - potencia_gas
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '40071010'
+      cel_les:
+        codi: '40071010'
+        energia: '[icona]'
+        pes: '230'
+        mesures: 1040x1050x900
+        fogons: 1 x 7,5
+        fogons_2: 3 x 5
+        forn_estatic: 1 x 7
+        potencia_gas: 29,5 KW
+        preu: '6.410'
+      icones_en_columna:
+      - energia
+    - codi: '40101010'
+      cel_les:
+        codi: '40101010'
+        energia: '[icona]'
+        pes: '208'
+        mesures: 1040x1050x900
+        fogons: 1 x 7,5
+        fogons_2: 3 x 5
+        forn_estatic: '-'
+        potencia_gas: 22,5 KW
+        preu: '5.400'
+      icones_en_columna:
+      - energia
+    mapa_columnes: sense_colN(1 eliminades)
+- pagina_pub: 7
+  pagina_pdf: 213
+  taules:
+  - id: p07-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - fogons
+    - fogons_2
+    - forn_estatic
+    - potencia_gas
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '40121410'
+      cel_les:
+        codi: '40121410'
+        energia: '[icona]'
+        pes: '325'
+        mesures: 1470x1050x900
+        fogons: 1 x 7,5
+        fogons_2: 5 x 5
+        forn_estatic: 1 x 7
+        potencia_gas: 39,5 KW
+        preu: '9.620'
+      icones_en_columna:
+      - energia
+    - codi: '40141410'
+      cel_les:
+        codi: '40141410'
+        energia: '[icona]'
+        pes: '292'
+        mesures: 1470x1050x900
+        fogons: 1 x 7,5
+        fogons_2: 5 x 5
+        forn_estatic: '-'
+        potencia_gas: 32,5 KW
+        preu: '6.945'
+      icones_en_columna:
+      - energia
+    mapa_columnes: sense_colN(1 eliminades)
+- pagina_pub: 8
+  pagina_pdf: 214
+  taules:
+  - id: p08-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - fogons
+    - fogons_2
+    - forn_estatic
+    - potencia_gas
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '40011810'
+      cel_les:
+        codi: '40011810'
+        energia: '[icona]'
+        pes: '450'
+        mesures: 1900x1050x900
+        fogons: 2 x 7,5
+        fogons_2: 6 x 5
+        forn_estatic: 2 x 7
+        potencia_gas: 59 KW
+        preu: '11.955'
+      icones_en_columna:
+      - energia
+    - codi: '40041810'
+      cel_les:
+        codi: '40041810'
+        energia: '[icona]'
+        pes: '385'
+        mesures: 1900x1050x900
+        fogons: 2 x 7,5
+        fogons_2: 6 x 5
+        forn_estatic: '-'
+        potencia_gas: 45 KW
+        preu: '8.115'
+      icones_en_columna:
+      - energia
+    mapa_columnes: sense_colN(1 eliminades)
+- pagina_pub: 9
+  pagina_pdf: 215
+  taules:
+  - id: p09-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - placa_lisa_vertical
+    - placa_estriada_vertical
+    - dimensions_placa
+    - potencia_gas
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '40084510'
+      cel_les:
+        codi: '40084510'
+        energia: '[icona]'
+        pes: '105'
+        mesures: 450x1050x900
+        placa_lisa_vertical: FE
+        placa_estriada_vertical: '-'
+        dimensions_placa: 375 x 775
+        potencia_gas: 10 KW
+        preu: '2.700'
+      icones_en_columna:
+      - energia
+    - codi: '40074510'
+      cel_les:
+        codi: '40074510'
+        energia: '[icona]'
+        pes: '105'
+        mesures: 450x1050x900
+        placa_lisa_vertical: '-'
+        placa_estriada_vertical: FE
+        dimensions_placa: 375 x 775
+        potencia_gas: 10 KW
+        preu: '2.675'
+      icones_en_columna:
+      - energia
+    - codi: '40094510'
+      cel_les:
+        codi: '40094510'
+        energia: '[icona]'
+        pes: '105'
+        mesures: 450x1050x900
+        placa_lisa_vertical: Cr.D.
+        placa_estriada_vertical: '-'
+        dimensions_placa: 375 x 775
+        potencia_gas: 10 KW
+        preu: '3.510'
+      icones_en_columna:
+      - energia
+- pagina_pub: 10
+  pagina_pdf: 216
+  taules:
+  - id: p10-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - placa_lisa_vertical
+    - placa_1_3_estriada
+    - dimensions_placa
+    - potencia_gas
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '40138510'
+      cel_les:
+        codi: '40138510'
+        energia: '[icona]'
+        pes: '190'
+        mesures: 850x1050x900
+        placa_lisa_vertical: FE
+        placa_1_3_estriada: '-'
+        dimensions_placa: 735 x 775
+        potencia_gas: 20 KW
+        preu: '4.735'
+      icones_en_columna:
+      - energia
+    - codi: '40128510'
+      cel_les:
+        codi: '40128510'
+        energia: '[icona]'
+        pes: '190'
+        mesures: 850x1050x900
+        placa_lisa_vertical: '-'
+        placa_1_3_estriada: FE
+        dimensions_placa: 735 x 775
+        potencia_gas: 20 KW
+        preu: '5.145'
+      icones_en_columna:
+      - energia
+    - codi: '40148510'
+      cel_les:
+        codi: '40148510'
+        energia: '[icona]'
+        pes: '190'
+        mesures: 850x1050x900
+        placa_lisa_vertical: Cr.D.
+        placa_1_3_estriada: '-'
+        dimensions_placa: 735 x 775
+        potencia_gas: 20 KW
+        preu: '4.435'
+      icones_en_columna:
+      - energia
+- pagina_pub: 13
+  pagina_pdf: 219
+  taules:
+  - id: p13-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - mesures_interiors
+    - capacitat_litres
+    - motor
+    - potencia_gas
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 186V2150
+      cel_les:
+        codi: 186V2150
+        energia: '[icona]'
+        pes: '265'
+        mesures: 1200x900x850
+        mesures_interiors: 1120x570x253
+        capacitat_litres: '150'
+        motor: '-'
+        potencia_gas: 33 KW
+        preu: '19.545'
+      icones_en_columna:
+      - energia
+    - codi: 18EV2150
+      cel_les:
+        codi: 18EV2150
+        energia: '[icona]'
+        pes: '260'
+        mesures: 1200x900x850
+        mesures_interiors: 1120x570x253
+        capacitat_litres: '150'
+        motor: 15 KW 400/3V
+        potencia_gas: '-'
+        preu: '19.270'
+      icones_en_columna:
+      - energia
+    - codi: 186M2150
+      cel_les:
+        codi: 186M2150
+        energia: '[icona]'
+        pes: '275'
+        mesures: 1200x900x850
+        mesures_interiors: 1120x570x253
+        capacitat_litres: '150'
+        motor: 100 W 230/1V
+        potencia_gas: 33 KW
+        preu: '22.165'
+      icones_en_columna:
+      - energia
+      - motor
+    - codi: 18EM2150
+      cel_les:
+        codi: 18EM2150
+        energia: '[icona]'
+        pes: '270'
+        mesures: 1200x900x850
+        mesures_interiors: 1120x570x253
+        capacitat_litres: '150'
+        motor: 15 KW 400/3V
+        potencia_gas: '-'
+        preu: '20.700'
+      icones_en_columna:
+      - energia
+      - motor
+    - codi: 186M2200
+      cel_les:
+        codi: 186M2200
+        energia: '[icona]'
+        pes: '360'
+        mesures: 1600x900x850
+        mesures_interiors: 1520x570x253
+        capacitat_litres: '200'
+        motor: 100 W 230/1V
+        potencia_gas: 44 KW
+        preu: '32.450'
+      icones_en_columna:
+      - energia
+      - motor
+    - codi: 18EM2200
+      cel_les:
+        codi: 18EM2200
+        energia: '[icona]'
+        pes: '350'
+        mesures: 1600x900x850
+        mesures_interiors: 1520x570x253
+        capacitat_litres: '200'
+        motor: 20 KW 400/3V
+        potencia_gas: '-'
+        preu: '32.085'
+      icones_en_columna:
+      - energia
+      - motor
+- pagina_pub: 14
+  pagina_pdf: 220
+  taules:
+  - id: p14-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - mesures_interiors
+    - capacitat_litres
+    - motor
+    - potencia_gas
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 186M5130
+      cel_les:
+        codi: 186M5130
+        energia: '[icona]'
+        pes: '360'
+        mesures: 1600x900x930
+        mesures_interiors: 1120x570x230
+        capacitat_litres: '130'
+        motor: 400 W 230/1V
+        potencia_gas: 30 KW
+        preu: '40.175'
+      icones_en_columna:
+      - energia
+      - motor
+    - codi: 18EM5130
+      cel_les:
+        codi: 18EM5130
+        energia: '[icona]'
+        pes: '350'
+        mesures: 1600x900x930
+        mesures_interiors: 1120x570x230
+        capacitat_litres: '130'
+        motor: 15,4 KW 400/3V
+        potencia_gas: '-'
+        preu: '38.805'
+      icones_en_columna:
+      - energia
+      - motor
+    - codi: 186M5150
+      cel_les:
+        codi: 186M5150
+        energia: '[icona]'
+        pes: '370'
+        mesures: 1600x900x930
+        mesures_interiors: 1120x570x255
+        capacitat_litres: '150'
+        motor: 400 W 230/1V
+        potencia_gas: 30 KW
+        preu: '45.140'
+      icones_en_columna:
+      - energia
+      - motor
+    - codi: 18EM5150
+      cel_les:
+        codi: 18EM5150
+        energia: '[icona]'
+        pes: '360'
+        mesures: 1600x900x930
+        mesures_interiors: 1120x570x255
+        capacitat_litres: '150'
+        motor: 15,4 KW 400/3V
+        potencia_gas: '-'
+        preu: '42.905'
+      icones_en_columna:
+      - energia
+      - motor
+    - codi: 186M5165
+      cel_les:
+        codi: 186M5165
+        energia: '[icona]'
+        pes: '445'
+        mesures: 2000x900x930
+        mesures_interiors: 1520x570x230
+        capacitat_litres: '165'
+        motor: 400 W 230/1V
+        potencia_gas: 39 KW
+        preu: '52.635'
+      icones_en_columna:
+      - energia
+      - motor
+    - codi: 18EM5165
+      cel_les:
+        codi: 18EM5165
+        energia: '[icona]'
+        pes: '430'
+        mesures: 2000x900x930
+        mesures_interiors: 1520x570x230
+        capacitat_litres: '165'
+        motor: 20,4 KW 400/3V
+        potencia_gas: '-'
+        preu: '49.085'
+      icones_en_columna:
+      - energia
+      - motor
+    - codi: 186M5210
+      cel_les:
+        codi: 186M5210
+        energia: '[icona]'
+        pes: '460'
+        mesures: 2000x900x930
+        mesures_interiors: 1520x570x255
+        capacitat_litres: '210'
+        motor: 400 W 230/1V
+        potencia_gas: 39 KW
+        preu: '59.380'
+      icones_en_columna:
+      - energia
+      - motor
+    - codi: 18EM5210
+      cel_les:
+        codi: 18EM5210
+        energia: '[icona]'
+        pes: '440'
+        mesures: 2000x900x930
+        mesures_interiors: 1520x570x255
+        capacitat_litres: '210'
+        motor: 20,4 KW 400/3V
+        potencia_gas: '-'
+        preu: '53.995'
+      icones_en_columna:
+      - energia
+      - motor
+- pagina_pub: 15
+  pagina_pdf: 221
+  taules:
+  - id: p15-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - mesures_interiors
+    - capacitat_litres
+    - motor
+    - potencia_gas
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 186M5300
+      cel_les:
+        codi: 186M5300
+        energia: '[icona]'
+        pes: '560'
+        mesures: 1750x1300x930
+        mesures_interiors: 1095x900x335
+        capacitat_litres: '300'
+        motor: 750 W 230/1V
+        potencia_gas: 33 KW
+        preu: '81.630'
+      icones_en_columna:
+      - energia
+      - motor
+    - codi: 18EM5300
+      cel_les:
+        codi: 18EM5300
+        energia: '[icona]'
+        pes: '540'
+        mesures: 1750x1300x930
+        mesures_interiors: 1095x900x335
+        capacitat_litres: '300'
+        motor: 28,8 KW 400/3V
+        potencia_gas: '-'
+        preu: '77.815'
+      icones_en_columna:
+      - energia
+      - motor
+    - codi: 186M5400
+      cel_les:
+        codi: 186M5400
+        energia: '[icona]'
+        pes: '670'
+        mesures: 1750x1300x930
+        mesures_interiors: 1095x900x445
+        capacitat_litres: '400'
+        motor: 750 W 230/1V
+        potencia_gas: 33 KW
+        preu: '104.150'
+      icones_en_columna:
+      - energia
+      - motor
+    - codi: 18EM5400
+      cel_les:
+        codi: 18EM5400
+        energia: '[icona]'
+        pes: '645'
+        mesures: 1750x1300x930
+        mesures_interiors: 1095x900x445
+        capacitat_litres: '400'
+        motor: 28,8 KW 400/3V
+        potencia_gas: '-'
+        preu: '101.630'
+      icones_en_columna:
+      - energia
+      - motor
+- pagina_pub: 16
+  pagina_pdf: 222
+  taules:
+  - id: p16-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - mesures_interiors
+    - capacitat_litres
+    - motor
+    - potencia_gas
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 186M8180
+      cel_les:
+        codi: 186M8180
+        energia: '[icona]'
+        pes: '480'
+        mesures: 1675x1450x1150
+        mesures_interiors: Ø760x400
+        capacitat_litres: '180'
+        motor: 750 W 230/1V
+        potencia_gas: 28 KW
+        preu: '59.815'
+      icones_en_columna:
+      - energia
+      - motor
+    - codi: 18EM8180
+      cel_les:
+        codi: 18EM8180
+        energia: '[icona]'
+        pes: '470'
+        mesures: 1675x1450x1150
+        mesures_interiors: Ø760x400
+        capacitat_litres: '180'
+        motor: 23 KW 400/3V
+        potencia_gas: '-'
+        preu: '56.905'
+      icones_en_columna:
+      - energia
+      - motor
+    - codi: 186M8290
+      cel_les:
+        codi: 186M8290
+        energia: '[icona]'
+        pes: '610'
+        mesures: 1875x1650x1150
+        mesures_interiors: Ø960x400
+        capacitat_litres: '290'
+        motor: 750 W 230/1V
+        potencia_gas: 32 KW
+        preu: '92.905'
+      icones_en_columna:
+      - energia
+      - motor
+    - codi: 18EM8290
+      cel_les:
+        codi: 18EM8290
+        energia: '[icona]'
+        pes: '600'
+        mesures: 1875x1650x1150
+        mesures_interiors: Ø960x400
+        capacitat_litres: '290'
+        motor: 28 KW 400/3V
+        potencia_gas: '-'
+        preu: '92.355'
+      icones_en_columna:
+      - energia
+      - motor
+    - codi: 186M8350
+      cel_les:
+        codi: 186M8350
+        energia: '[icona]'
+        pes: '720'
+        mesures: 1975x1825x1150
+        mesures_interiors: Ø1060x400
+        capacitat_litres: '350'
+        motor: 750 W 230/1V
+        potencia_gas: 42 KW
+        preu: '123.415'
+      icones_en_columna:
+      - energia
+      - motor
+    - codi: 18EM8350
+      cel_les:
+        codi: 18EM8350
+        energia: '[icona]'
+        pes: '710'
+        mesures: 1975x1825x1150
+        mesures_interiors: Ø1060x400
+        capacitat_litres: '350'
+        motor: 42 KW 400/3V
+        potencia_gas: '-'
+        preu: '117.785'
+      icones_en_columna:
+      - energia
+      - motor
+- pagina_pub: 19
+  pagina_pdf: 225
+  taules:
+  - id: p19-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - mesures_interiors
+    - capacitat_litres
+    - potencia_electrica
+    - potencia_gas
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '18612200'
+      cel_les:
+        codi: '18612200'
+        energia: '[icona]'
+        pes: '285'
+        mesures: 1000x1150x850
+        mesures_interiors: Ø760x500
+        capacitat_litres: '200'
+        potencia_electrica: '-'
+        potencia_gas: 39 KW
+        preu: '21.730'
+      icones_en_columna:
+      - energia
+    - codi: 18E12200
+      cel_les:
+        codi: 18E12200
+        energia: '[icona]'
+        pes: '285'
+        mesures: 1000x1150x850
+        mesures_interiors: Ø760x500
+        capacitat_litres: '200'
+        potencia_electrica: 24 KW 400/3V
+        potencia_gas: '-'
+        preu: '21.565'
+      icones_en_columna:
+      - energia
+    - codi: '18612300'
+      cel_les:
+        codi: '18612300'
+        energia: '[icona]'
+        pes: '370'
+        mesures: 1200x1270x900
+        mesures_interiors: Ø960x500
+        capacitat_litres: '300'
+        potencia_electrica: '-'
+        potencia_gas: 48 KW
+        preu: '25.185'
+      icones_en_columna:
+      - energia
+    - codi: 18E12300
+      cel_les:
+        codi: 18E12300
+        energia: '[icona]'
+        pes: '370'
+        mesures: 1200x1270x850
+        mesures_interiors: Ø960x500
+        capacitat_litres: '300'
+        potencia_electrica: 36 KW 400/3V
+        potencia_gas: '-'
+        preu: '30.225'
+      icones_en_columna:
+      - energia
+    - codi: '18612500'
+      cel_les:
+        codi: '18612500'
+        energia: '[icona]'
+        pes: '430'
+        mesures: 1300x1400x1000
+        mesures_interiors: Ø1060x600
+        capacitat_litres: '500'
+        potencia_electrica: '-'
+        potencia_gas: 55 KW
+        preu: '33.000'
+      icones_en_columna:
+      - energia
+    - codi: 18E12500
+      cel_les:
+        codi: 18E12500
+        energia: '[icona]'
+        pes: '430'
+        mesures: 1300x1400x850
+        mesures_interiors: Ø1060x600
+        capacitat_litres: '500'
+        potencia_electrica: 48 KW 400/3V
+        potencia_gas: '-'
+        preu: '33.090'
+      icones_en_columna:
+      - energia
+    - codi: 186A2200
+      cel_les:
+        codi: 186A2200
+        energia: '[icona]'
+        pes: '300'
+        mesures: 1000x1150x850
+        mesures_interiors: Ø760x500
+        capacitat_litres: '200'
+        potencia_electrica: '-'
+        potencia_gas: 39 KW
+        preu: '24.545'
+      icones_en_columna:
+      - energia
+    - codi: 18EA2200
+      cel_les:
+        codi: 18EA2200
+        energia: '[icona]'
+        pes: '300'
+        mesures: 1000x1150x850
+        mesures_interiors: Ø760x500
+        capacitat_litres: '200'
+        potencia_electrica: 24 KW 400/3V
+        potencia_gas: '-'
+        preu: '23.815'
+      icones_en_columna:
+      - energia
+    - codi: 186A2300
+      cel_les:
+        codi: 186A2300
+        energia: '[icona]'
+        pes: '390'
+        mesures: 1200x1270x900
+        mesures_interiors: Ø960x500
+        capacitat_litres: '300'
+        potencia_electrica: '-'
+        potencia_gas: 48 KW
+        preu: '28.180'
+      icones_en_columna:
+      - energia
+    - codi: 18EA2300
+      cel_les:
+        codi: 18EA2300
+        energia: '[icona]'
+        pes: '390'
+        mesures: 1200x1270x850
+        mesures_interiors: Ø960x500
+        capacitat_litres: '300'
+        potencia_electrica: 36 KW 400/3V
+        potencia_gas: '-'
+        preu: '27.635'
+      icones_en_columna:
+      - energia
+    - codi: 186A2500
+      cel_les:
+        codi: 186A2500
+        energia: '[icona]'
+        pes: '460'
+        mesures: 1300x1400x1000
+        mesures_interiors: Ø1060x600
+        capacitat_litres: '500'
+        potencia_electrica: '-'
+        potencia_gas: 55 KW
+        preu: '35.995'
+      icones_en_columna:
+      - energia
+    - codi: 18EA2500
+      cel_les:
+        codi: 18EA2500
+        energia: '[icona]'
+        pes: '460'
+        mesures: 1300x1400x850
+        mesures_interiors: Ø1060x600
+        capacitat_litres: '500'
+        potencia_electrica: 48 KW 400/3V
+        potencia_gas: '-'
+        preu: '35.995'
+      icones_en_columna:
+      - energia
+- pagina_pub: 20
+  pagina_pdf: 226
+  taules:
+  - id: p20-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - mesures_interiors
+    - capacitat_litres
+    - potencia_electrica
+    - potencia_gas
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '18613300'
+      cel_les:
+        codi: '18613300'
+        energia: '[icona]'
+        pes: '230'
+        mesures: 1320x1330x940
+        mesures_interiors: Ø960x370
+        capacitat_litres: '300'
+        potencia_electrica: 115 W 230/1V
+        potencia_gas: 46 KW
+        preu: '16.285'
+      icones_en_columna:
+      - energia
+    - codi: 18E13300
+      cel_les:
+        codi: 18E13300
+        energia: '[icona]'
+        pes: '230'
+        mesures: 1320x1330x940
+        mesures_interiors: Ø960x370
+        capacitat_litres: '300'
+        potencia_electrica: 36 KW 400/3V
+        potencia_gas: '-'
+        preu: '16.000'
+      icones_en_columna:
+      - energia
+    - codi: '18613400'
+      cel_les:
+        codi: '18613400'
+        energia: '[icona]'
+        pes: '240'
+        mesures: 1320x1330x1070
+        mesures_interiors: Ø960x500
+        capacitat_litres: '400'
+        potencia_electrica: 115 W 230/1V
+        potencia_gas: 46 KW
+        preu: '16.855'
+      icones_en_columna:
+      - energia
+    - codi: 18E13400
+      cel_les:
+        codi: 18E13400
+        energia: '[icona]'
+        pes: '240'
+        mesures: 1320x1330x1070
+        mesures_interiors: Ø960x500
+        capacitat_litres: '400'
+        potencia_electrica: 36 KW 400/3V
+        potencia_gas: '-'
+        preu: '16.570'
+      icones_en_columna:
+      - energia
+    - codi: '18613500'
+      cel_les:
+        codi: '18613500'
+        energia: '[icona]'
+        pes: '250'
+        mesures: 1320x1330x1180
+        mesures_interiors: Ø960x610
+        capacitat_litres: '500'
+        potencia_electrica: 115 W 230/1V
+        potencia_gas: 46 KW
+        preu: '17.430'
+      icones_en_columna:
+      - energia
+    - codi: 18E13500
+      cel_les:
+        codi: 18E13500
+        energia: '[icona]'
+        pes: '250'
+        mesures: 1320x1330x1180
+        mesures_interiors: Ø960x610
+        capacitat_litres: '500'
+        potencia_electrica: 36 KW 400/3V
+        potencia_gas: '-'
+        preu: '17.145'
+      icones_en_columna:
+      - energia
+    - codi: 18V03300
+      cel_les:
+        codi: 18V03300
+        energia: '[icona]'
+        pes: '210'
+        mesures: 1290x1240x940
+        mesures_interiors: Ø960x370
+        capacitat_litres: '300'
+        potencia_electrica: 170 Kg/h.
+        potencia_gas: ''
+        preu: '14.570'
+      icones_en_columna:
+      - energia
+    - codi: 18V03400
+      cel_les:
+        codi: 18V03400
+        energia: '[icona]'
+        pes: '220'
+        mesures: 1290x1240x1070
+        mesures_interiors: Ø960x500
+        capacitat_litres: '400'
+        potencia_electrica: 170 Kg/h.
+        potencia_gas: ''
+        preu: '15.145'
+      icones_en_columna:
+      - energia
+    - codi: 18V03500
+      cel_les:
+        codi: 18V03500
+        energia: '[icona]'
+        pes: '230'
+        mesures: 1290x1240x1180
+        mesures_interiors: Ø960x610
+        capacitat_litres: '500'
+        potencia_electrica: 170 Kg/h.
+        potencia_gas: ''
+        preu: '15.715'
+      icones_en_columna:
+      - energia
+    paraules_orfes:
+    - MOD./COD.
+    - €
+- pagina_pub: 21
+  pagina_pdf: 227
+  taules:
+  - id: p21-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - mesures_interiors
+    - capacitat_litres
+    - potencia_electrica
+    - potencia_gas
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '18614200'
+      cel_les:
+        codi: '18614200'
+        energia: '[icona]'
+        pes: '220'
+        mesures: 1120x1000x1000
+        mesures_interiors: Ø760x460
+        capacitat_litres: '200'
+        potencia_electrica: '-'
+        potencia_gas: 39 KW
+        preu: '22.065'
+      icones_en_columna:
+      - energia
+    - codi: 18E14200
+      cel_les:
+        codi: 18E14200
+        energia: '[icona]'
+        pes: '220'
+        mesures: 1120x1000x1000
+        mesures_interiors: Ø760x460
+        capacitat_litres: '200'
+        potencia_electrica: 24 KW 400/3V
+        potencia_gas: '-'
+        preu: '21.815'
+      icones_en_columna:
+      - energia
+    - codi: '18614300'
+      cel_les:
+        codi: '18614300'
+        energia: '[icona]'
+        pes: '240'
+        mesures: 1320x1200x950
+        mesures_interiors: Ø960x500
+        capacitat_litres: '300'
+        potencia_electrica: '-'
+        potencia_gas: 48 KW
+        preu: '26.065'
+      icones_en_columna:
+      - energia
+    - codi: 18E14300
+      cel_les:
+        codi: 18E14300
+        energia: '[icona]'
+        pes: '240'
+        mesures: 1320x1200x950
+        mesures_interiors: Ø960x500
+        capacitat_litres: '300'
+        potencia_electrica: 36 KW 400/3V
+        potencia_gas: '-'
+        preu: '24.840'
+      icones_en_columna:
+      - energia
+    - codi: '18614500'
+      cel_les:
+        codi: '18614500'
+        energia: '[icona]'
+        pes: '320'
+        mesures: 1420x1300x1050
+        mesures_interiors: Ø1060x600
+        capacitat_litres: '500'
+        potencia_electrica: '-'
+        potencia_gas: 55 KW
+        preu: '35.590'
+      icones_en_columna:
+      - energia
+    - codi: 18E14500
+      cel_les:
+        codi: 18E14500
+        energia: '[icona]'
+        pes: '320'
+        mesures: 1420x1300x1050
+        mesures_interiors: Ø1060x600
+        capacitat_litres: '500'
+        potencia_electrica: 48 KW 400/3V
+        potencia_gas: '-'
+        preu: '33.635'
+      icones_en_columna:
+      - energia
+    - codi: 186A4200
+      cel_les:
+        codi: 186A4200
+        energia: '[icona]'
+        pes: '235'
+        mesures: 1120x1000x1000
+        mesures_interiors: Ø760x460
+        capacitat_litres: '200'
+        potencia_electrica: '-'
+        potencia_gas: 39 KW
+        preu: '25.155'
+      icones_en_columna:
+      - energia
+    - codi: 18EA4200
+      cel_les:
+        codi: 18EA4200
+        energia: '[icona]'
+        pes: '235'
+        mesures: 1120x1000x1000
+        mesures_interiors: Ø760x460
+        capacitat_litres: '200'
+        potencia_electrica: 24 KW 400/3V
+        potencia_gas: '-'
+        preu: '24.275'
+      icones_en_columna:
+      - energia
+    - codi: 186A4300
+      cel_les:
+        codi: 186A4300
+        energia: '[icona]'
+        pes: '260'
+        mesures: 1320x1200x950
+        mesures_interiors: Ø960x500
+        capacitat_litres: '300'
+        potencia_electrica: '-'
+        potencia_gas: 48 KW
+        preu: '28.775'
+      icones_en_columna:
+      - energia
+    - codi: 18EA4300
+      cel_les:
+        codi: 18EA4300
+        energia: '[icona]'
+        pes: '260'
+        mesures: 1320x1200x950
+        mesures_interiors: Ø960x500
+        capacitat_litres: '300'
+        potencia_electrica: 36 KW 400/3V
+        potencia_gas: '-'
+        preu: '27.980'
+      icones_en_columna:
+      - energia
+    - codi: 186A4500
+      cel_les:
+        codi: 186A4500
+        energia: '[icona]'
+        pes: '350'
+        mesures: 1420x1300x1050
+        mesures_interiors: Ø1060x600
+        capacitat_litres: '500'
+        potencia_electrica: '-'
+        potencia_gas: 55 KW
+        preu: '38.855'
+      icones_en_columna:
+      - energia
+    - codi: 18EA4500
+      cel_les:
+        codi: 18EA4500
+        energia: '[icona]'
+        pes: '350'
+        mesures: 1420x1300x1050
+        mesures_interiors: Ø1060x600
+        capacitat_litres: '500'
+        potencia_electrica: 48 KW 400/3V
+        potencia_gas: '-'
+        preu: '36.905'
+      icones_en_columna:
+      - energia
+- pagina_pub: 22
+  pagina_pdf: 228
+  taules:
+  - id: p22-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - mesures_interiors
+    - capacitat_litres
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 18E15200
+      cel_les:
+        codi: 18E15200
+        energia: '[icona]'
+        pes: '320'
+        mesures: 1120x1000x1000
+        mesures_interiors: Ø760x460
+        capacitat_litres: '200'
+        potencia_electrica: 24,4 KW 400/3V
+        preu: '48.715'
+      icones_en_columna:
+      - energia
+    - codi: 18E15300
+      cel_les:
+        codi: 18E15300
+        energia: '[icona]'
+        pes: '330'
+        mesures: 1320x1200x950
+        mesures_interiors: Ø960x500
+        capacitat_litres: '300'
+        potencia_electrica: 36,4 KW 400/3V
+        preu: '54.350'
+      icones_en_columna:
+      - energia
+    - codi: 18E15500
+      cel_les:
+        codi: 18E15500
+        energia: '[icona]'
+        pes: '410'
+        mesures: 1420x1300x1050
+        mesures_interiors: Ø1060x600
+        capacitat_litres: '500'
+        potencia_electrica: 48,4 KW 400/3V
+        preu: '64.175'
+      icones_en_columna:
+      - energia
+    - codi: 18EA5200
+      cel_les:
+        codi: 18EA5200
+        energia: '[icona]'
+        pes: '335'
+        mesures: 1120x1000x1000
+        mesures_interiors: Ø760x460
+        capacitat_litres: '200'
+        potencia_electrica: 24,4 KW 400/3V
+        preu: '50.715'
+      icones_en_columna:
+      - energia
+    - codi: 18EA5300
+      cel_les:
+        codi: 18EA5300
+        energia: '[icona]'
+        pes: '350'
+        mesures: 1320x1200x950
+        mesures_interiors: Ø960x500
+        capacitat_litres: '300'
+        potencia_electrica: 36,4 KW 400/3V
+        preu: '58.400'
+      icones_en_columna:
+      - energia
+    - codi: 18EA5500
+      cel_les:
+        codi: 18EA5500
+        energia: '[icona]'
+        pes: '440'
+        mesures: 1420x1300x1050
+        mesures_interiors: Ø1060x600
+        capacitat_litres: '500'
+        potencia_electrica: 48,4 KW 400/3V
+        preu: '67.165'
+      icones_en_columna:
+      - energia
+- pagina_pub: 23
+  pagina_pdf: 229
+  taules:
+  - id: p23-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - mesures_interiors
+    - capacitat_litres
+    - potencia_electrica
+    - potencia_gas
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '18616200'
+      cel_les:
+        codi: '18616200'
+        energia: '[icona]'
+        pes: '210'
+        mesures: 1350x900x900
+        mesures_interiors: 1040x550x370
+        capacitat_litres: '200'
+        potencia_electrica: 100 W 230/1V
+        potencia_gas: 25 KW
+        preu: '11.430'
+      icones_en_columna:
+      - energia
+    - codi: 18E16200
+      cel_les:
+        codi: 18E16200
+        energia: '[icona]'
+        pes: '182'
+        mesures: 1350x900x900
+        mesures_interiors: 1040x550x370
+        capacitat_litres: '200'
+        potencia_electrica: 30 KW 400/3V
+        potencia_gas: '-'
+        preu: '10.285'
+      icones_en_columna:
+      - energia
+    - codi: '18616300'
+      cel_les:
+        codi: '18616300'
+        energia: '[icona]'
+        pes: '220'
+        mesures: 1350x900x900
+        mesures_interiors: 1040x550x550
+        capacitat_litres: '300'
+        potencia_electrica: 100 W 230/1V
+        potencia_gas: 32 KW
+        preu: '11.715'
+      icones_en_columna:
+      - energia
+    - codi: 18E16300
+      cel_les:
+        codi: 18E16300
+        energia: '[icona]'
+        pes: '190'
+        mesures: 1350x900x900
+        mesures_interiors: 1040x550x550
+        capacitat_litres: '300'
+        potencia_electrica: 36 KW 400/3V
+        potencia_gas: '-'
+        preu: '10.570'
+      icones_en_columna:
+      - energia
+    - codi: 18V16200
+      cel_les:
+        codi: 18V16200
+        energia: '[icona]'
+        pes: '172'
+        mesures: 1350x900x900
+        mesures_interiors: 1040x550x370
+        capacitat_litres: '200'
+        potencia_electrica: 100 Kg/h.
+        potencia_gas: ''
+        preu: '10.570'
+      icones_en_columna:
+      - energia
+    - codi: 18V16300
+      cel_les:
+        codi: 18V16300
+        energia: '[icona]'
+        pes: '183'
+        mesures: 1350x900x900
+        mesures_interiors: 1040x550x550
+        capacitat_litres: '300'
+        potencia_electrica: 100 Kg/h.
+        potencia_gas: ''
+        preu: '10.855'
+      icones_en_columna:
+      - energia
+    paraules_orfes:
+    - MOD./COD.
+    - €
+- pagina_pub: 24
+  pagina_pdf: 230
+  taules:
+  - id: p24-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - mesures_interiors
+    - capacitat_litres
+    - motor
+    - potencia_gas
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '18617200'
+      cel_les:
+        codi: '18617200'
+        energia: '[icona]'
+        pes: '360'
+        mesures: 1750x1000x1050
+        mesures_interiors: Ø760x500
+        capacitat_litres: '200'
+        motor: 400 W 230/1V
+        potencia_gas: 39KW
+        preu: '36.040'
+      icones_en_columna:
+      - energia
+      - motor
+    - codi: 18E17200
+      cel_les:
+        codi: 18E17200
+        energia: '[icona]'
+        pes: '360'
+        mesures: 1750x1000x1050
+        mesures_interiors: Ø760x500
+        capacitat_litres: '200'
+        motor: 24,4 KW 400/3V
+        potencia_gas: '-'
+        preu: '34.360'
+      icones_en_columna:
+      - energia
+      - motor
+    - codi: '18617300'
+      cel_les:
+        codi: '18617300'
+        energia: '[icona]'
+        pes: '470'
+        mesures: 1950x1200x1300
+        mesures_interiors: Ø960x500
+        capacitat_litres: '300'
+        motor: 400 W 230/1V
+        potencia_gas: 48 KW
+        preu: '40.905'
+      icones_en_columna:
+      - energia
+      - motor
+    - codi: 18E17300
+      cel_les:
+        codi: 18E17300
+        energia: '[icona]'
+        pes: '470'
+        mesures: 1950x1200x1300
+        mesures_interiors: Ø960x500
+        capacitat_litres: '300'
+        motor: 36,4 KW 400/3V
+        potencia_gas: '-'
+        preu: '39.815'
+      icones_en_columna:
+      - energia
+      - motor
+    - codi: '18617500'
+      cel_les:
+        codi: '18617500'
+        energia: '[icona]'
+        pes: '550'
+        mesures: 2050x1300x1300
+        mesures_interiors: Ø1060x600
+        capacitat_litres: '500'
+        motor: 400 W 230/1V
+        potencia_gas: 55 KW
+        preu: '54.345'
+      icones_en_columna:
+      - energia
+      - motor
+    - codi: 18E17500
+      cel_les:
+        codi: 18E17500
+        energia: '[icona]'
+        pes: '550'
+        mesures: 2050x1300x1300
+        mesures_interiors: Ø1060x600
+        capacitat_litres: '500'
+        motor: 48,4 KW 400/3V
+        potencia_gas: '-'
+        preu: '55.450'
+      icones_en_columna:
+      - energia
+      - motor
+- pagina_pub: 25
+  pagina_pdf: 231
+  taules:
+  - id: p25-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - mesures_interiors
+    - capacitat_litres
+    - motor
+    - potencia_gas
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '18618200'
+      cel_les:
+        codi: '18618200'
+        energia: '[icona]'
+        pes: '440'
+        mesures: 1675x1450x1135
+        mesures_interiors: Ø760x500
+        capacitat_litres: '200'
+        motor: 750 W 230/1V
+        potencia_gas: 39 KW
+        preu: '81.630'
+      icones_en_columna:
+      - energia
+      - motor
+    - codi: 18E18200
+      cel_les:
+        codi: 18E18200
+        energia: '[icona]'
+        pes: '440'
+        mesures: 1675x1450x1135
+        mesures_interiors: Ø760x500
+        capacitat_litres: '200'
+        motor: 24,75 KW 400/3V
+        potencia_gas: '-'
+        preu: '72.705'
+      icones_en_columna:
+      - energia
+      - motor
+    - codi: '18618300'
+      cel_les:
+        codi: '18618300'
+        energia: '[icona]'
+        pes: '580'
+        mesures: 1875x1650x1135
+        mesures_interiors: Ø960x500
+        capacitat_litres: '300'
+        motor: 750 W 230/1V
+        potencia_gas: 48 KW
+        preu: '90.880'
+      icones_en_columna:
+      - energia
+      - motor
+    - codi: 18E18300
+      cel_les:
+        codi: 18E18300
+        energia: '[icona]'
+        pes: '580'
+        mesures: 1875x1650x1135
+        mesures_interiors: Ø960x500
+        capacitat_litres: '300'
+        motor: 36,75 KW 400/3V
+        potencia_gas: '-'
+        preu: '80.775'
+      icones_en_columna:
+      - energia
+      - motor
+    - codi: '18618500'
+      cel_les:
+        codi: '18618500'
+        energia: '[icona]'
+        pes: '700'
+        mesures: 1975x1825x1135
+        mesures_interiors: Ø1060x500
+        capacitat_litres: '500'
+        motor: 750 W 230/1V
+        potencia_gas: 55 KW
+        preu: '132.685'
+      icones_en_columna:
+      - energia
+      - motor
+    - codi: 18E18500
+      cel_les:
+        codi: 18E18500
+        energia: '[icona]'
+        pes: '700'
+        mesures: 1975x1825x1135
+        mesures_interiors: Ø1060x500
+        capacitat_litres: '500'
+        motor: 48,75KW 400/3V
+        potencia_gas: '-'
+        preu: '110.875'
+      icones_en_columna:
+      - energia
+      - motor
+- pagina_pub: 28
+  pagina_pdf: 234
+  taules:
+  - id: p28-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - wok
+    - wok_2
+    - dutxa
+    - potencia_gas
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 320675LT
+      cel_les:
+        codi: 320675LT
+        energia: '[icona]'
+        pes: '45'
+        mesures: 600x700x275
+        wok: 1x14
+        wok_2: '-'
+        dutxa: '-'
+        potencia_gas: 14 KW
+        preu: '2.010'
+      icones_en_columna:
+      - energia
+    - codi: 321075LT
+      cel_les:
+        codi: 321075LT
+        energia: '[icona]'
+        pes: '76'
+        mesures: 1000x700x275
+        wok: 1x14
+        wok_2: 1x21
+        dutxa: '-'
+        potencia_gas: 35 KW
+        preu: '3.235'
+      icones_en_columna:
+      - energia
+    - codi: 321575LT
+      cel_les:
+        codi: 321575LT
+        energia: '[icona]'
+        pes: '110'
+        mesures: 1500x700x275
+        wok: 2x14
+        wok_2: 1x21
+        dutxa: '-'
+        potencia_gas: 49 KW
+        preu: '4.330'
+      icones_en_columna:
+      - energia
+    - codi: 322075LT
+      cel_les:
+        codi: 322075LT
+        energia: '[icona]'
+        pes: '150'
+        mesures: 2000x700x275
+        wok: 2x14
+        wok_2: 2x21
+        dutxa: '-'
+        potencia_gas: 70 KW
+        preu: '5.625'
+      icones_en_columna:
+      - energia
+- pagina_pub: 29
+  pagina_pdf: 235
+  taules:
+  - id: p29-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - wok
+    - wok_2
+    - dutxa
+    - potencia_gas
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 320675L5
+      cel_les:
+        codi: 320675L5
+        energia: '[icona]'
+        pes: '80'
+        mesures: 600x700x850
+        wok: 1x14
+        wok_2: '-'
+        dutxa: '-'
+        potencia_gas: 14 KW
+        preu: '2.480'
+      icones_en_columna:
+      - energia
+    - codi: 321075L5
+      cel_les:
+        codi: 321075L5
+        energia: '[icona]'
+        pes: '105'
+        mesures: 1000x700x850
+        wok: 1x14
+        wok_2: 1x21
+        dutxa: '-'
+        potencia_gas: 35 KW
+        preu: '3.815'
+      icones_en_columna:
+      - energia
+    - codi: 321575L5
+      cel_les:
+        codi: 321575L5
+        energia: '[icona]'
+        pes: '138'
+        mesures: 1500x700x850
+        wok: 2x14
+        wok_2: 1x21
+        dutxa: '-'
+        potencia_gas: 49 KW
+        preu: '5.310'
+      icones_en_columna:
+      - energia
+    - codi: 322075L5
+      cel_les:
+        codi: 322075L5
+        energia: '[icona]'
+        pes: '175'
+        mesures: 2000x700x850
+        wok: 2x14
+        wok_2: 2x21
+        dutxa: '-'
+        potencia_gas: 70 KW
+        preu: '6.550'
+      icones_en_columna:
+      - energia
+- pagina_pub: 30
+  pagina_pdf: 236
+  taules:
+  - id: p30-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - wok
+    - wok_2
+    - dutxa
+    - potencia_gas
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 32067CK5
+      cel_les:
+        codi: 32067CK5
+        energia: '[icona]'
+        pes: '82'
+        mesures: 600x700x850
+        wok: 1x14
+        wok_2: '-'
+        dutxa: '1'
+        potencia_gas: 14 KW
+        preu: '4.225'
+      icones_en_columna:
+      - energia
+    - codi: 32107CK5
+      cel_les:
+        codi: 32107CK5
+        energia: '[icona]'
+        pes: '107'
+        mesures: 1000x700x850
+        wok: 1x14
+        wok_2: 1x21
+        dutxa: '1'
+        potencia_gas: 35 KW
+        preu: '5.815'
+      icones_en_columna:
+      - energia
+    - codi: 32157CK5
+      cel_les:
+        codi: 32157CK5
+        energia: '[icona]'
+        pes: '141'
+        mesures: 1500x700x850
+        wok: 2x14
+        wok_2: 1x21
+        dutxa: '1'
+        potencia_gas: 49 KW
+        preu: '7.975'
+      icones_en_columna:
+      - energia
+    - codi: 32207CK5
+      cel_les:
+        codi: 32207CK5
+        energia: '[icona]'
+        pes: '178'
+        mesures: 2000x700x850
+        wok: 2x14
+        wok_2: 2x21
+        dutxa: '1'
+        potencia_gas: 70 KW
+        preu: '10.380'
+      icones_en_columna:
+      - energia
+- pagina_pub: 31
+  pagina_pdf: 237
+  taules:
+  - id: p31-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - wok
+    - wok_2
+    - dutxa
+    - potencia_gas
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 32109DEM
+      cel_les:
+        codi: 32109DEM
+        energia: '[icona]'
+        pes: '108'
+        mesures: 1000x900x850
+        wok: 1x14
+        wok_2: 1x21
+        dutxa: '1'
+        potencia_gas: 35 KW
+        preu: '7.085'
+      icones_en_columna:
+      - energia
+    - codi: 32159DEM
+      cel_les:
+        codi: 32159DEM
+        energia: '[icona]'
+        pes: '155'
+        mesures: 1500x900x850
+        wok: 2x14
+        wok_2: 1x21
+        dutxa: '1'
+        potencia_gas: 49 KW
+        preu: '9.315'
+      icones_en_columna:
+      - energia
+    - codi: 32209DEM
+      cel_les:
+        codi: 32209DEM
+        energia: '[icona]'
+        pes: '197'
+        mesures: 2000x900x850
+        wok: 2x14
+        wok_2: 2x21
+        dutxa: '1'
+        potencia_gas: 70 KW
+        preu: '11.281'
+      icones_en_columna:
+      - energia
+- pagina_pub: 32
+  pagina_pdf: 238
+  taules:
+  - id: p32-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - wok
+    - wok_2
+    - dutxa
+    - potencia_gas
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 32259DEM
+      cel_les:
+        codi: 32259DEM
+        energia: '[icona]'
+        pes: '245'
+        mesures: 2500x900x850
+        wok: 2x14
+        wok_2: 3x21
+        dutxa: '2'
+        potencia_gas: 91 KW
+        preu: '15.520'
+      icones_en_columna:
+      - energia
+    - codi: 32309DEM
+      cel_les:
+        codi: 32309DEM
+        energia: '[icona]'
+        pes: '287'
+        mesures: 3000x900x850
+        wok: 3x14
+        wok_2: 3x21
+        dutxa: '2'
+        potencia_gas: 105 KW
+        preu: '17.630'
+      icones_en_columna:
+      - energia
+    - codi: 32359DEM
+      cel_les:
+        codi: 32359DEM
+        energia: '[icona]'
+        pes: '332'
+        mesures: 3500x900x850
+        wok: 3x14
+        wok_2: 4x21
+        dutxa: '3'
+        potencia_gas: 126 KW
+        preu: '20.925'
+      icones_en_columna:
+      - energia
+- pagina_pub: 35
+  pagina_pdf: 241
+  taules:
+  - id: p35-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - placa_lisa
+    - dimensions_placa
+    - potencia_electrica
+    - potencia_gas
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 3212765M
+      cel_les:
+        codi: 3212765M
+        energia: '[icona]'
+        pes: '145'
+        mesures: 1200x720x390
+        placa_lisa: Cr.D.
+        dimensions_placa: 1195 x 645
+        potencia_electrica: '-'
+        potencia_gas: 17,4 KW
+        preu: '8.845'
+      icones_en_columna:
+      - energia
+    - codi: 32127E5M
+      cel_les:
+        codi: 32127E5M
+        energia: '[icona]'
+        pes: '145'
+        mesures: 1200x720x390
+        placa_lisa: Cr.D.
+        dimensions_placa: 1195 x 645
+        potencia_electrica: 16,2 KW 400/3V
+        potencia_gas: '-'
+        preu: '11.550'
+      icones_en_columna:
+      - energia
+    - codi: 3216765M
+      cel_les:
+        codi: 3216765M
+        energia: '[icona]'
+        pes: '178'
+        mesures: 1600x720x390
+        placa_lisa: Cr.D.
+        dimensions_placa: 1595 x 645
+        potencia_electrica: '-'
+        potencia_gas: 23,2 KW
+        preu: '9.955'
+      icones_en_columna:
+      - energia
+    - codi: 32167E5M
+      cel_les:
+        codi: 32167E5M
+        energia: '[icona]'
+        pes: '178'
+        mesures: 1600x720x390
+        placa_lisa: Cr.D.
+        dimensions_placa: 1595 x 645
+        potencia_electrica: 21,6 KW 400/3V
+        potencia_gas: '-'
+        preu: '14.560'
+      icones_en_columna:
+      - energia
+    - codi: 3220765M
+      cel_les:
+        codi: 3220765M
+        energia: '[icona]'
+        pes: '223'
+        mesures: 2000x720x390
+        placa_lisa: Cr.D.
+        dimensions_placa: 1995 x 645
+        potencia_electrica: '-'
+        potencia_gas: 29 KW
+        preu: '11.360'
+      icones_en_columna:
+      - energia
+    - codi: 32207E5M
+      cel_les:
+        codi: 32207E5M
+        energia: '[icona]'
+        pes: '223'
+        mesures: 2000x720x390
+        placa_lisa: Cr.D.
+        dimensions_placa: 1995 x 645
+        potencia_electrica: 27 KW 400/3V
+        potencia_gas: '-'
+        preu: '17.315'
+      icones_en_columna:
+      - energia
+- pagina_pub: 36
+  pagina_pdf: 242
+  taules:
+  - id: p36-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - placa_lisa
+    - dimensions_placa
+    - potencia_electrica
+    - potencia_gas
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '32127655'
+      cel_les:
+        codi: '32127655'
+        energia: '[icona]'
+        pes: '163'
+        mesures: 1200x720x850
+        placa_lisa: Cr.D.
+        dimensions_placa: 1195 x 645
+        potencia_electrica: '-'
+        potencia_gas: 17,4 KW
+        preu: '9.450'
+      icones_en_columna:
+      - energia
+    - codi: 32127E55
+      cel_les:
+        codi: 32127E55
+        energia: '[icona]'
+        pes: '163'
+        mesures: 1200x720x850
+        placa_lisa: Cr.D.
+        dimensions_placa: 1195 x 645
+        potencia_electrica: 16,2 KW 400/3V
+        potencia_gas: '-'
+        preu: '12.730'
+      icones_en_columna:
+      - energia
+    - codi: '32167655'
+      cel_les:
+        codi: '32167655'
+        energia: '[icona]'
+        pes: '197'
+        mesures: 1600x720x850
+        placa_lisa: Cr.D.
+        dimensions_placa: 1595 x 645
+        potencia_electrica: '-'
+        potencia_gas: 23,2 KW
+        preu: '10.505'
+      icones_en_columna:
+      - energia
+    - codi: 32167E55
+      cel_les:
+        codi: 32167E55
+        energia: '[icona]'
+        pes: '197'
+        mesures: 1600x720x850
+        placa_lisa: Cr.D.
+        dimensions_placa: 1595 x 645
+        potencia_electrica: 21,6 KW 400/3V
+        potencia_gas: '-'
+        preu: '15.350'
+      icones_en_columna:
+      - energia
+    - codi: '32207655'
+      cel_les:
+        codi: '32207655'
+        energia: '[icona]'
+        pes: '240'
+        mesures: 2000x720x850
+        placa_lisa: Cr.D.
+        dimensions_placa: 1995 x 645
+        potencia_electrica: '-'
+        potencia_gas: 29 KW
+        preu: '11.945'
+      icones_en_columna:
+      - energia
+    - codi: 32207E55
+      cel_les:
+        codi: 32207E55
+        energia: '[icona]'
+        pes: '240'
+        mesures: 2000x720x850
+        placa_lisa: Cr.D.
+        dimensions_placa: 1995 x 645
+        potencia_electrica: 27 KW 400/3V
+        potencia_gas: '-'
+        preu: '18.235'
+      icones_en_columna:
+      - energia
+- pagina_pub: 37
+  pagina_pdf: 243
+  taules:
+  - id: p37-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - mesures
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A10PA42
+      cel_les:
+        codi: 4A10PA42
+        mesures: 425 x 425
+        preu: '225'
+    - codi: 4A556021
+      cel_les:
+        codi: 4A556021
+        mesures: SUPLETORIA SUPPLEMENTARY SUPPLÉMENTAIRE
+        preu: '25'
+  - id: p37-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - kit_cambio
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A555075
+      cel_les:
+        codi: 4A555075
+        kit_cambio: 5 Kw ó 7,5 Kw
+        preu: '85'
+  - id: p37-t3
+    reconstruida: true
+    columnes:
+    - codi
+    - mesures
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A10PL42
+      cel_les:
+        codi: 4A10PL42
+        mesures: 425 x 425
+        preu: '225'
+    - codi: 4A10PE42
+      cel_les:
+        codi: 4A10PE42
+        mesures: 425 x 425
+        preu: '225'
+  - id: p37-t4
+    reconstruida: true
+    columnes:
+    - codi
+    - col1
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '96107'
+      cel_les:
+        codi: '96107'
+        col1: FRYTOPS FE IRON FRYTOPS FRYTOPS FER
+        preu: '17'
+    - codi: '93085'
+      cel_les:
+        codi: '93085'
+        col1: FRYTOPS CrD HCr FRYTOPS FRYTOPS CrD
+        preu: '28'
+    - codi: 4A795021
+      cel_les:
+        codi: 4A795021
+        col1: KIT 10 CUCHILLAS KIT 10 KNIVES KIT 10 COUTEAUX
+        preu: '40'
+  - id: p37-t5
+    reconstruida: true
+    columnes:
+    - codi
+    - pack
+    - mesures
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A10RHCE
+      cel_les:
+        codi: 4A10RHCE
+        pack: '2'
+        mesures: 650 x 400
+        preu: '176'
+  - id: p37-t6
+    reconstruida: true
+    columnes:
+    - codi
+    - pack
+    - mesures
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A10BHCE
+      cel_les:
+        codi: 4A10BHCE
+        pack: '2'
+        mesures: 650 x 400 x 40
+        preu: '398'
+- pagina_pub: 38
+  pagina_pdf: 244
+  taules:
+  - id: p38-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - col1
+    - capacitat_litres
+    - mesures_interiors
+    - capacitat_litres_2
+    - col5
+    - col6
+    - preu
+    columnes_segons: amp
+    files:
+    - codi: 4A062530
+      cel_les:
+        codi: 4A062530
+        col1: '8'
+        capacitat_litres: 950x600x750
+        mesures_interiors: 800x500x400
+        capacitat_litres_2: '160'
+        col5: MARMITAS Y SARTENES BOILING PANS AND TILTING MARMITES ET SAUTEUSES
+        col6: BASCULANTES PANS BASCULANTES
+        preu: '6.905'
+    avisos:
+    - hdr:recompte(7 vs 8)
+    paraules_orfes:
+    - CESTO
+    - MARMITA
+    - BOILING
+    - PAN
+    - BASKET
+    - PANIER
+    - MARMITE
+    - COD.
+    - SERIE
+    - PACK
+    - €
+    - 4A011009
+    - 2/4/7
+    - '200'
+    - '2'
+    - '2.200'
+    - 4A021009
+    - 2/4/7
+    - '300'
+    - '2'
+    - '2.910'
+    - 4A051009
+    - 2/4/7
+    - '300'
+    - '4'
+    - '4.545'
+    - 4A061009
+    - 2/4/7
+    - '500'
+    - '4'
+    - '5.270'
+    - PARRILLAS
+    - WOK
+    - WOK
+    - GRATES
+    - GRILLES
+    - WOK
+    - COD.
+    - Ø
+    - MM.
+    - €
+    - 4A910009
+    - '380'
+    - x
+    - '90'
+    - '295'
+    - 4A600009
+    - '280'
+    - '380'
+    - x
+    - '75'
+    - SUPLEMENTO
+    - CAMBIO
+    - QUEMADOR
+    - BURNER
+    - CHANGE
+    - SUPPLEMENT
+    - SUPPLÉMENT
+    - DE
+    - CHANGEMENT
+    - DE
+    - BRÛLEUR
+    - COD.
+    - KW
+    - /
+    - Ø
+    - MM.
+    - €
+    - 4AW01421
+    - 14/175
+    - '-'
+    - 21/220
+    - '153'
+    - SARTEN
+    - WOK
+    - WOK
+    - PAN
+    - POÊLE
+    - À
+    - WOK
+    - COD.
+    - Ø
+    - MM.
+    - €
+    - 4A633932
+    - '360'
+    - x
+    - '100'
+    - '88'
+  - id: p38-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - col1
+    - col2
+    - pack
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A011009
+      cel_les:
+        codi: 4A011009
+        col1: 2/4/7
+        col2: '200'
+        pack: '2'
+        preu: '2.200'
+    - codi: 4A021009
+      cel_les:
+        codi: 4A021009
+        col1: 2/4/7
+        col2: '300'
+        pack: '2'
+        preu: '2.910'
+    - codi: 4A051009
+      cel_les:
+        codi: 4A051009
+        col1: 2/4/7
+        col2: '300'
+        pack: '4'
+        preu: '4.545'
+    - codi: 4A061009
+      cel_les:
+        codi: 4A061009
+        col1: 2/4/7
+        col2: '500'
+        pack: '4'
+        preu: '5.270'
+  - id: p38-t3
+    reconstruida: true
+    columnes:
+    - codi
+    - col1
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A910009
+      cel_les:
+        codi: 4A910009
+        col1: 380 x 90
+        preu: '295'
+    - codi: 4A600009
+      cel_les:
+        codi: 4A600009
+        col1: 380 x 75
+        preu: '280'
+  - id: p38-t4
+    reconstruida: true
+    columnes:
+    - codi
+    - col1
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A633932
+      cel_les:
+        codi: 4A633932
+        col1: 360 x 100
+        preu: '88'
+  - id: p38-t5
+    reconstruida: true
+    columnes:
+    - codi
+    - col1
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4AW01421
+      cel_les:
+        codi: 4AW01421
+        col1: 14/175 - 21/220
+        preu: '153'

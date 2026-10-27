@@ -1,0 +1,8097 @@
+# Generat per scripts/genera_config.py --grup 12 (editable; es pot regenerar)
+grup:
+  numero: 12
+  codi_odoo: G12
+families:
+- clau: VITRINAS PARA TAPAS, REFRIGERADAS, CON CRISTAL CURVADO
+  noms:
+    es: VITRINAS PARA TAPAS, REFRIGERADAS, CON CRISTAL CURVADO
+    en: DISPLAY CASES FOR TAPAS, REFRIGERATED, WITH CURVED GLASS
+    fr: VITRINES POUR TAPAS, RÉFRIGÉRÉES, AVEC VERRE COURBÉ
+  sequence: 10
+  tipus: producte
+  pagina: p07
+  taula: p07-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: mesures_interiors
+    etiqueta:
+      es: GN
+      en: GN
+      fr: GN
+  - codi: dot
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 13C42114
+    ordre: 10
+    valors:
+      mesures_interiors:
+        es: 4 - GN 1/3 - 40
+        en: 4 - GN 1/3 - 40
+        fr: 4 - GN 1/3 - 40
+      dot:
+        es: OK
+        en: OK
+        fr: OK
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      potencia_electrica:
+        es: 0,16 KW
+        en: 0,16 KW
+        fr: 0,16 KW
+  - codi: 13CC2114
+    ordre: 20
+    valors:
+      mesures_interiors:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dot:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      potencia_electrica:
+        es: 0,16 KW
+        en: 0,16 KW
+        fr: 0,16 KW
+  - codi: 13C62144
+    ordre: 30
+    valors:
+      mesures_interiors:
+        es: 6 - GN 1/3 - 40
+        en: 6 - GN 1/3 - 40
+        fr: 6 - GN 1/3 - 40
+      dot:
+        es: OK
+        en: OK
+        fr: OK
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      potencia_electrica:
+        es: 0,16 KW
+        en: 0,16 KW
+        fr: 0,16 KW
+  - codi: 13CC2144
+    ordre: 40
+    valors:
+      mesures_interiors:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dot:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      potencia_electrica:
+        es: 0,16 KW
+        en: 0,16 KW
+        fr: 0,16 KW
+  - codi: 13C82184
+    ordre: 50
+    valors:
+      mesures_interiors:
+        es: 8 - GN 1/3 - 40
+        en: 8 - GN 1/3 - 40
+        fr: 8 - GN 1/3 - 40
+      dot:
+        es: OK
+        en: OK
+        fr: OK
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      potencia_electrica:
+        es: 0,16 KW
+        en: 0,16 KW
+        fr: 0,16 KW
+  - codi: 13CC2184
+    ordre: 60
+    valors:
+      mesures_interiors:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dot:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      potencia_electrica:
+        es: 0,16 KW
+        en: 0,16 KW
+        fr: 0,16 KW
+  compartits: []
+- clau: VITRINAS PARA TAPAS, CON 2 NIVELES, REFRIGERADAS, CON CRISTAL RECTO
+  noms:
+    es: VITRINAS PARA TAPAS, CON 2 NIVELES, REFRIGERADAS, CON CRISTAL RECTO
+    en: DISPLAY CASES FOR TAPAS, WITH 2 LEVELS, REFRIGERATED, WITH STRAIGHT GLASS
+    fr: VITRINES POUR TAPAS, À 2 NIVEAUX, RÉFRIGÉRÉES, AVEC VERRE DROIT
+  sequence: 20
+  tipus: producte
+  pagina: p08
+  taula: p08-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: mesures_interiors
+    etiqueta:
+      es: GN
+      en: GN
+      fr: GN
+  - codi: dot
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 13D65144
+    ordre: 10
+    valors:
+      mesures_interiors:
+        es: 6 - GN 1/3 - 40
+        en: 6 - GN 1/3 - 40
+        fr: 6 - GN 1/3 - 40
+      dot:
+        es: OK
+        en: OK
+        fr: OK
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      potencia_electrica:
+        es: 0,16 KW
+        en: 0,16 KW
+        fr: 0,16 KW
+  - codi: 13DC5144
+    ordre: 20
+    valors:
+      mesures_interiors:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dot:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      potencia_electrica:
+        es: 0,16 KW
+        en: 0,16 KW
+        fr: 0,16 KW
+  - codi: 13D85184
+    ordre: 30
+    valors:
+      mesures_interiors:
+        es: 8 - GN 1/3 - 40
+        en: 8 - GN 1/3 - 40
+        fr: 8 - GN 1/3 - 40
+      dot:
+        es: OK
+        en: OK
+        fr: OK
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      potencia_electrica:
+        es: 0,16 KW
+        en: 0,16 KW
+        fr: 0,16 KW
+  - codi: 13DC5184
+    ordre: 40
+    valors:
+      mesures_interiors:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dot:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      potencia_electrica:
+        es: 0,16 KW
+        en: 0,16 KW
+        fr: 0,16 KW
+  compartits: []
+- clau: VITRINAS PARA TAPAS, REFRIGERADAS, CON CRISTAL RECTO
+  noms:
+    es: VITRINAS PARA TAPAS, REFRIGERADAS, CON CRISTAL RECTO
+    en: REFRIGERATED DISPLAY CASES FOR TAPAS, WITH STRAIGHT GLASS
+    fr: VITRINES RÉFRIGÉRÉES POUR TAPAS, AVEC VERRE DROIT
+  sequence: 30
+  tipus: producte
+  pagina: p09
+  taula: p09-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: mesures_interiors
+    etiqueta:
+      es: GN
+      en: GN
+      fr: GN
+  - codi: dot
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 13R48114
+    ordre: 10
+    valors:
+      mesures_interiors:
+        es: 4 - GN 1/3 - 40
+        en: 4 - GN 1/3 - 40
+        fr: 4 - GN 1/3 - 40
+      dot:
+        es: OK
+        en: OK
+        fr: OK
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      potencia_electrica:
+        es: 0,16 KW
+        en: 0,16 KW
+        fr: 0,16 KW
+  - codi: 13RC8114
+    ordre: 20
+    valors:
+      mesures_interiors:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dot:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      potencia_electrica:
+        es: 0,16 KW
+        en: 0,16 KW
+        fr: 0,16 KW
+  - codi: 13R68144
+    ordre: 30
+    valors:
+      mesures_interiors:
+        es: 6 - GN 1/3 - 40
+        en: 6 - GN 1/3 - 40
+        fr: 6 - GN 1/3 - 40
+      dot:
+        es: OK
+        en: OK
+        fr: OK
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      potencia_electrica:
+        es: 0,16 KW
+        en: 0,16 KW
+        fr: 0,16 KW
+  - codi: 13RC8144
+    ordre: 40
+    valors:
+      mesures_interiors:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dot:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      potencia_electrica:
+        es: 0,16 KW
+        en: 0,16 KW
+        fr: 0,16 KW
+  - codi: 13R88184
+    ordre: 50
+    valors:
+      mesures_interiors:
+        es: 8 - GN 1/3 - 40
+        en: 8 - GN 1/3 - 40
+        fr: 8 - GN 1/3 - 40
+      dot:
+        es: OK
+        en: OK
+        fr: OK
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      potencia_electrica:
+        es: 0,16 KW
+        en: 0,16 KW
+        fr: 0,16 KW
+  - codi: 13RC8184
+    ordre: 60
+    valors:
+      mesures_interiors:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dot:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      potencia_electrica:
+        es: 0,16 KW
+        en: 0,16 KW
+        fr: 0,16 KW
+  compartits: []
+- clau: VITRINAS PARA SUSHI, REFRIGERADAS, CON CRISTAL RECTO
+  noms:
+    es: VITRINAS PARA SUSHI, REFRIGERADAS, CON CRISTAL RECTO
+    en: REFRIGERATED SUSHI DISPLAY CASES, WITH STRAIGHT GLASS
+    fr: VITRINES RÉFRIGÉRÉES POUR SUSHI, AVEC VERRE DROIT
+  sequence: 40
+  tipus: producte
+  pagina: p10
+  taula: p10-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: mesures_interiors
+    etiqueta:
+      es: GN
+      en: GN
+      fr: GN
+  - codi: dot
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 13RC5144
+    ordre: 10
+    valors:
+      mesures_interiors:
+        es: 6 - GN 1/3 - 40
+        en: 6 - GN 1/3 - 40
+        fr: 6 - GN 1/3 - 40
+      dot:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      potencia_electrica:
+        es: 0,2 KW
+        en: 0,2 KW
+        fr: 0,2 KW
+  - codi: 13RC5184
+    ordre: 20
+    valors:
+      mesures_interiors:
+        es: 8 - GN 1/3 - 40
+        en: 8 - GN 1/3 - 40
+        fr: 8 - GN 1/3 - 40
+      dot:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      potencia_electrica:
+        es: 0,2 KW
+        en: 0,2 KW
+        fr: 0,2 KW
+  compartits: []
+- clau: VITRINAS PARA TAPAS, CALIENTES, CON CRISTAL CURVADO
+  noms:
+    es: VITRINAS PARA TAPAS, CALIENTES, CON CRISTAL CURVADO
+    en: HOT TAPAS DISPLAY CASES WITH CURVED GLASS
+    fr: VITRINES CHAUDES POUR TAPAS AVEC VERRE COURBÉ
+  sequence: 50
+  tipus: producte
+  pagina: p11
+  taula: p11-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: mesures_interiors
+    etiqueta:
+      es: GN
+      en: GN
+      fr: GN
+  - codi: dot
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 13C4H824
+    ordre: 10
+    valors:
+      mesures_interiors:
+        es: 4 - GN 1/3 - 40
+        en: 4 - GN 1/3 - 40
+        fr: 4 - GN 1/3 - 40
+      dot:
+        es: OK
+        en: OK
+        fr: OK
+      potencia_electrica:
+        es: 0,8 KW 230/1V
+        en: 0,8 KW 230/1V
+        fr: 0,8 KW 230/1V
+  - codi: 13C6H114
+    ordre: 20
+    valors:
+      mesures_interiors:
+        es: 6 - GN 1/3 - 40
+        en: 6 - GN 1/3 - 40
+        fr: 6 - GN 1/3 - 40
+      dot:
+        es: OK
+        en: OK
+        fr: OK
+      potencia_electrica:
+        es: 1 KW 230/1V
+        en: 1 KW 230/1V
+        fr: 1 KW 230/1V
+  compartits: []
+- clau: VITRINAS EXPOSITORAS, NEUTRAS, CON CRISTAL RECTO
+  noms:
+    es: VITRINAS EXPOSITORAS, NEUTRAS, CON CRISTAL RECTO
+    en: NEUTRAL DISPLAY CASES WITH STRAIGHT GLASS
+    fr: VITRINES D'EXPOSITION NEUTRES AVEC VERRE DROIT
+  sequence: 60
+  tipus: producte
+  pagina: p12
+  taula: p12-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: dimensions_safata
+    etiqueta:
+      es: Base
+      en: Base
+      fr: Base
+  - codi: frontal_vidre
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 13RPN114
+    ordre: 10
+    valors:
+      dimensions_safata:
+        es: 1085x350
+        en: 1085x350
+        fr: 1085x350
+      frontal_vidre:
+        es: 1105x290
+        en: 1105x290
+        fr: 1105x290
+  - codi: 13RPN144
+    ordre: 20
+    valors:
+      dimensions_safata:
+        es: 1435x350
+        en: 1435x350
+        fr: 1435x350
+      frontal_vidre:
+        es: 1455x290
+        en: 1455x290
+        fr: 1455x290
+  - codi: 13RPN184
+    ordre: 30
+    valors:
+      dimensions_safata:
+        es: 1790x350
+        en: 1790x350
+        fr: 1790x350
+      frontal_vidre:
+        es: 1810x290
+        en: 1810x290
+        fr: 1810x290
+  compartits: []
+- clau: VITRINAS HORIZONTALES REFRIGERADAS, DE SOBRE MOSTRADOR, CON CRISTAL CURVADO
+  noms:
+    es: VITRINAS HORIZONTALES REFRIGERADAS, DE SOBRE MOSTRADOR, CON CRISTAL CURVADO
+    en: HORIZONTAL REFRIGERATED COUNTERTOP DISPLAY CASES WITH CURVED GLASS
+    fr: VITRINES HORIZONTALES RÉFRIGÉRÉES DE COMPTOIR, AVEC VERRE COURBÉ
+  sequence: 70
+  tipus: producte
+  pagina: p15
+  taula: p15-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes_corredisses
+    etiqueta: null
+  - codi: barbacoa
+    etiqueta: null
+  - codi: nivells_safates
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '13787270'
+    ordre: 10
+    valors:
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+      barbacoa:
+        es: '2'
+        en: '2'
+        fr: '2'
+      nivells_safates:
+        es: '3'
+        en: '3'
+        fr: '3'
+      capacitat_litres:
+        es: '95'
+        en: '95'
+        fr: '95'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '1201'
+        en: '1201'
+        fr: '1201'
+      potencia_electrica:
+        es: 0,15 KW
+        en: 0,15 KW
+        fr: 0,15 KW
+  - codi: '13987270'
+    ordre: 20
+    valors:
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+      barbacoa:
+        es: '2'
+        en: '2'
+        fr: '2'
+      nivells_safates:
+        es: '3'
+        en: '3'
+        fr: '3'
+      capacitat_litres:
+        es: '120'
+        en: '120'
+        fr: '120'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '1480'
+        en: '1480'
+        fr: '1480'
+      potencia_electrica:
+        es: 0,16 KW
+        en: 0,16 KW
+        fr: 0,16 KW
+  - codi: '13097270'
+    ordre: 30
+    valors:
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+      barbacoa:
+        es: '2'
+        en: '2'
+        fr: '2'
+      nivells_safates:
+        es: '3'
+        en: '3'
+        fr: '3'
+      capacitat_litres:
+        es: '160'
+        en: '160'
+        fr: '160'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '1676'
+        en: '1676'
+        fr: '1676'
+      potencia_electrica:
+        es: 0,16 KW
+        en: 0,16 KW
+        fr: 0,16 KW
+  compartits: []
+- clau: VITRINAS HORIZONTALES REFRIGERADAS, DE SOBRE MOSTRADOR, CON CRISTAL RECTO
+  noms:
+    es: VITRINAS HORIZONTALES REFRIGERADAS, DE SOBRE MOSTRADOR, CON CRISTAL RECTO
+    en: HORIZONTAL REFRIGERATED COUNTERTOP DISPLAY CASES WITH STRAIGHT GLASS
+    fr: VITRINES HORIZONTALES RÉFRIGÉRÉES DE COMPTOIR, AVEC VERRE DROIT
+  sequence: 80
+  tipus: producte
+  pagina: p16
+  taula: p16-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes_corredisses
+    etiqueta: null
+  - codi: barbacoa
+    etiqueta: null
+  - codi: nivells_safates
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 13RVF915
+    ordre: 10
+    valors:
+      portes_corredisses:
+        es: '4'
+        en: '4'
+        fr: '4'
+      barbacoa:
+        es: '1'
+        en: '1'
+        fr: '1'
+      nivells_safates:
+        es: '2'
+        en: '2'
+        fr: '2'
+      capacitat_litres:
+        es: '110'
+        en: '110'
+        fr: '110'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '1264'
+        en: '1264'
+        fr: '1264'
+      potencia_electrica:
+        es: 0,18 KW
+        en: 0,18 KW
+        fr: 0,18 KW
+  - codi: 13RVF115
+    ordre: 20
+    valors:
+      portes_corredisses:
+        es: '4'
+        en: '4'
+        fr: '4'
+      barbacoa:
+        es: '1'
+        en: '1'
+        fr: '1'
+      nivells_safates:
+        es: '2'
+        en: '2'
+        fr: '2'
+      capacitat_litres:
+        es: '150'
+        en: '150'
+        fr: '150'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '1369'
+        en: '1369'
+        fr: '1369'
+      potencia_electrica:
+        es: 0,18 KW
+        en: 0,18 KW
+        fr: 0,18 KW
+  - codi: 13RVF135
+    ordre: 30
+    valors:
+      portes_corredisses:
+        es: '4'
+        en: '4'
+        fr: '4'
+      barbacoa:
+        es: '1'
+        en: '1'
+        fr: '1'
+      nivells_safates:
+        es: '2'
+        en: '2'
+        fr: '2'
+      capacitat_litres:
+        es: '190'
+        en: '190'
+        fr: '190'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '1491'
+        en: '1491'
+        fr: '1491'
+      potencia_electrica:
+        es: 0,18 KW
+        en: 0,18 KW
+        fr: 0,18 KW
+  compartits: []
+- clau: VITRINAS HORIZONTALES CALIENTES, DE SOBRE MOSTRADOR, CON CRISTAL CURVADO
+  noms:
+    es: VITRINAS HORIZONTALES CALIENTES, DE SOBRE MOSTRADOR, CON CRISTAL CURVADO
+    en: HORIZONTAL HOT COUNTERTOP DISPLAY CASES WITH CURVED GLASS
+    fr: VITRINES HORIZONTALES CHAUDES DE COMPTOIR, AVEC VERRE COURBÉ
+  sequence: 90
+  tipus: producte
+  pagina: p17
+  taula: p17-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes_corredisses
+    etiqueta: null
+  - codi: barbacoa
+    etiqueta: null
+  - codi: nivells_safates
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '13809310'
+    ordre: 10
+    valors:
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+      barbacoa:
+        es: '2'
+        en: '2'
+        fr: '2'
+      nivells_safates:
+        es: '3'
+        en: '3'
+        fr: '3'
+      capacitat_litres:
+        es: '95'
+        en: '95'
+        fr: '95'
+      potencia_electrica:
+        es: 1 KW
+        en: 1 KW
+        fr: 1 KW
+  - codi: '13909310'
+    ordre: 20
+    valors:
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+      barbacoa:
+        es: '2'
+        en: '2'
+        fr: '2'
+      nivells_safates:
+        es: '3'
+        en: '3'
+        fr: '3'
+      capacitat_litres:
+        es: '120'
+        en: '120'
+        fr: '120'
+      potencia_electrica:
+        es: 1,1 KW
+        en: 1,1 KW
+        fr: 1,1 KW
+  - codi: '13019310'
+    ordre: 30
+    valors:
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+      barbacoa:
+        es: '2'
+        en: '2'
+        fr: '2'
+      nivells_safates:
+        es: '3'
+        en: '3'
+        fr: '3'
+      capacitat_litres:
+        es: '160'
+        en: '160'
+        fr: '160'
+      potencia_electrica:
+        es: 1,5 KW
+        en: 1,5 KW
+        fr: 1,5 KW
+  compartits: []
+- clau: VITRINAS VERTICALES RECTANGULARES, REFRIGERADAS, DE SOBRE MOSTRADOR
+  noms:
+    es: VITRINAS VERTICALES RECTANGULARES, REFRIGERADAS, DE SOBRE MOSTRADOR
+    en: REFRIGERATED RECTANGULAR UPRIGHT DISPLAY CASES FOR COUNTERTOP USE
+    fr: VITRINES RÉFRIGÉRÉES VERTICALES RECTANGULAIRES DE COMPTOIR
+  sequence: 100
+  tipus: producte
+  pagina: p20
+  taula: p20-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: barbacoa
+    etiqueta: null
+  - codi: nivells_safates
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '13859270'
+    ordre: 10
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: '3'
+        en: '3'
+        fr: '3'
+      nivells_safates:
+        es: '4'
+        en: '4'
+        fr: '4'
+      capacitat_litres:
+        es: '80'
+        en: '80'
+        fr: '80'
+      classe_energetica:
+        es: B
+        en: B
+        fr: B
+      kw_365:
+        es: '1022'
+        en: '1022'
+        fr: '1022'
+      potencia_electrica:
+        es: 0,16 KW
+        en: 0,16 KW
+        fr: 0,16 KW
+  - codi: '13959270'
+    ordre: 20
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: '4'
+        en: '4'
+        fr: '4'
+      nivells_safates:
+        es: '5'
+        en: '5'
+        fr: '5'
+      capacitat_litres:
+        es: '100'
+        en: '100'
+        fr: '100'
+      classe_energetica:
+        es: B
+        en: B
+        fr: B
+      kw_365:
+        es: '1240'
+        en: '1240'
+        fr: '1240'
+      potencia_electrica:
+        es: 0,17 KW
+        en: 0,17 KW
+        fr: 0,17 KW
+  compartits: []
+- clau: VITRINAS VERTICALES CIRCULARES, REFRIGERADAS, DE SOBRE MOSTRADOR
+  noms:
+    es: VITRINAS VERTICALES CIRCULARES, REFRIGERADAS, DE SOBRE MOSTRADOR
+    en: REFRIGERATED CIRCULAR UPRIGHT DISPLAY CASES FOR COUNTERTOP USE
+    fr: VITRINES RÉFRIGÉRÉES VERTICALES CIRCULAIRES DE COMPTOIR
+  sequence: 110
+  tipus: producte
+  pagina: p21
+  taula: p21-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: barbacoa
+    etiqueta: null
+  - codi: nivells_safates
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 13CVFF1X
+    ordre: 10
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: '3'
+        en: '3'
+        fr: '3'
+      nivells_safates:
+        es: '4'
+        en: '4'
+        fr: '4'
+      capacitat_litres:
+        es: '100'
+        en: '100'
+        fr: '100'
+      classe_energetica:
+        es: B
+        en: B
+        fr: B
+      kw_365:
+        es: '1126'
+        en: '1126'
+        fr: '1126'
+      potencia_electrica:
+        es: 0,22 KW
+        en: 0,22 KW
+        fr: 0,22 KW
+  - codi: '13809660'
+    ordre: 20
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: '4'
+        en: '4'
+        fr: '4'
+      nivells_safates:
+        es: '4'
+        en: '4'
+        fr: '4'
+      capacitat_litres:
+        es: '75'
+        en: '75'
+        fr: '75'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '1041'
+        en: '1041'
+        fr: '1041'
+      potencia_electrica:
+        es: 0,19 KW
+        en: 0,19 KW
+        fr: 0,19 KW
+  compartits: []
+- clau: ARMARIOS EXPOSITORES REFRIGERADOS, DE SOBRE MOSTRADOR
+  noms:
+    es: ARMARIOS EXPOSITORES REFRIGERADOS, DE SOBRE MOSTRADOR
+    en: REFRIGERATED DISPLAY CABINETS FOR COUNTERTOP USE
+    fr: ARMOIRES VITRÉES RÉFRIGÉRÉES DE COMPTOIR
+  sequence: 120
+  tipus: producte
+  pagina: p24
+  taula: p24-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: barbacoa
+    etiqueta: null
+  - codi: nivells_safates
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 14AE5050
+    ordre: 10
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: '1'
+        en: '1'
+        fr: '1'
+      nivells_safates:
+        es: '2'
+        en: '2'
+        fr: '2'
+      capacitat_litres:
+        es: '50'
+        en: '50'
+        fr: '50'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '449'
+        en: '449'
+        fr: '449'
+      potencia_electrica:
+        es: 0,080 KW
+        en: 0,080 KW
+        fr: 0,080 KW
+  - codi: 14AE5067
+    ordre: 20
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: '2'
+        en: '2'
+        fr: '2'
+      nivells_safates:
+        es: '3'
+        en: '3'
+        fr: '3'
+      capacitat_litres:
+        es: '67'
+        en: '67'
+        fr: '67'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '204'
+        en: '204'
+        fr: '204'
+      potencia_electrica:
+        es: 0,085 KW
+        en: 0,085 KW
+        fr: 0,085 KW
+  - codi: 14AE5087
+    ordre: 30
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: '2'
+        en: '2'
+        fr: '2'
+      nivells_safates:
+        es: '3'
+        en: '3'
+        fr: '3'
+      capacitat_litres:
+        es: '87'
+        en: '87'
+        fr: '87'
+      classe_energetica:
+        es: F
+        en: F
+        fr: F
+      kw_365:
+        es: '510'
+        en: '510'
+        fr: '510'
+      potencia_electrica:
+        es: 0,105 KW
+        en: 0,105 KW
+        fr: 0,105 KW
+  - codi: 14AE5085
+    ordre: 40
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: '3'
+        en: '3'
+        fr: '3'
+      nivells_safates:
+        es: '4'
+        en: '4'
+        fr: '4'
+      capacitat_litres:
+        es: '85'
+        en: '85'
+        fr: '85'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '241'
+        en: '241'
+        fr: '241'
+      potencia_electrica:
+        es: 0,085 KW
+        en: 0,085 KW
+        fr: 0,085 KW
+  - codi: 14AE5115
+    ordre: 50
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: '3'
+        en: '3'
+        fr: '3'
+      nivells_safates:
+        es: '4'
+        en: '4'
+        fr: '4'
+      capacitat_litres:
+        es: '115'
+        en: '115'
+        fr: '115'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '266'
+        en: '266'
+        fr: '266'
+      potencia_electrica:
+        es: 0,090 KW
+        en: 0,090 KW
+        fr: 0,090 KW
+  compartits: []
+- clau: ESCARCHADORES DE COPAS
+  noms:
+    es: ESCARCHADORES DE COPAS
+    en: GLASS FROSTERS
+    fr: GIVREURS DE VERRES
+  sequence: 130
+  tipus: producte
+  pagina: p25
+  taula: p25-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: barbacoa
+    etiqueta: null
+  - codi: nivells_safates
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 14ECC505
+    ordre: 10
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: '1'
+        en: '1'
+        fr: '1'
+      nivells_safates:
+        es: '2'
+        en: '2'
+        fr: '2'
+      capacitat_litres:
+        es: '60'
+        en: '60'
+        fr: '60'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      potencia_electrica:
+        es: 0,16 KW
+        en: 0,16 KW
+        fr: 0,16 KW
+  - codi: 14EC1505
+    ordre: 20
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: '1'
+        en: '1'
+        fr: '1'
+      nivells_safates:
+        es: '2'
+        en: '2'
+        fr: '2'
+      capacitat_litres:
+        es: '60'
+        en: '60'
+        fr: '60'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      potencia_electrica:
+        es: 0,16 KW
+        en: 0,16 KW
+        fr: 0,16 KW
+  compartits: []
+- clau: MUEBLES TRAS BARRA REFRIGERADOS, CON PUERTAS BATIENTES
+  noms:
+    es: MUEBLES TRAS BARRA REFRIGERADOS, CON PUERTAS BATIENTES
+    en: REFRIGERATED BACK BAR FURNITURE WITH SWING DOORS
+    fr: MEUBLES ARRIÈRE DE BAR RÉFRIGÉRÉS AVEC PORTES BATTANTES
+  sequence: 140
+  tipus: producte
+  pagina: p28
+  taula: p28-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: barbacoa
+    etiqueta: null
+  - codi: nivells_safates
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '14208011'
+    ordre: 10
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: '2'
+        en: '2'
+        fr: '2'
+      nivells_safates:
+        es: '3'
+        en: '3'
+        fr: '3'
+      capacitat_litres:
+        es: '135'
+        en: '135'
+        fr: '135'
+      classe_energetica:
+        es: A
+        en: A
+        fr: A
+      kw_365:
+        es: '562'
+        en: '562'
+        fr: '562'
+      potencia_electrica:
+        es: 0,18 KW
+        en: 0,18 KW
+        fr: 0,18 KW
+  - codi: '14308011'
+    ordre: 20
+    valors:
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      barbacoa:
+        es: '2'
+        en: '2'
+        fr: '2'
+      nivells_safates:
+        es: '3'
+        en: '3'
+        fr: '3'
+      capacitat_litres:
+        es: '200'
+        en: '200'
+        fr: '200'
+      classe_energetica:
+        es: B
+        en: B
+        fr: B
+      kw_365:
+        es: '792'
+        en: '792'
+        fr: '792'
+      potencia_electrica:
+        es: 0,22 KW
+        en: 0,22 KW
+        fr: 0,22 KW
+  - codi: '14608011'
+    ordre: 30
+    valors:
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      barbacoa:
+        es: '2'
+        en: '2'
+        fr: '2'
+      nivells_safates:
+        es: '3'
+        en: '3'
+        fr: '3'
+      capacitat_litres:
+        es: '320'
+        en: '320'
+        fr: '320'
+      classe_energetica:
+        es: B
+        en: B
+        fr: B
+      kw_365:
+        es: '1383'
+        en: '1383'
+        fr: '1383'
+      potencia_electrica:
+        es: 0,24 KW
+        en: 0,24 KW
+        fr: 0,24 KW
+  compartits: []
+- clau: MUEBLES TRAS BARRA REFRIGERADOS, CON PUERTAS CORREDERAS
+  noms:
+    es: MUEBLES TRAS BARRA REFRIGERADOS, CON PUERTAS CORREDERAS
+    en: REFRIGERATED BACK BAR FURNITURE WITH SLIDING DOORS
+    fr: MEUBLES ARRIÈRE DE BAR RÉFRIGÉRÉS AVEC PORTES COULISSANTES
+  sequence: 150
+  tipus: producte
+  pagina: p29
+  taula: p29-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes_corredisses
+    etiqueta: null
+  - codi: barbacoa
+    etiqueta: null
+  - codi: nivells_safates
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 14MTC905
+    ordre: 10
+    valors:
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+      barbacoa:
+        es: '2'
+        en: '2'
+        fr: '2'
+      nivells_safates:
+        es: '3'
+        en: '3'
+        fr: '3'
+      capacitat_litres:
+        es: '200'
+        en: '200'
+        fr: '200'
+      classe_energetica:
+        es: B
+        en: B
+        fr: B
+      kw_365:
+        es: '975'
+        en: '975'
+        fr: '975'
+      potencia_electrica:
+        es: 0,22 KW
+        en: 0,22 KW
+        fr: 0,22 KW
+  - codi: 14MTC135
+    ordre: 20
+    valors:
+      portes_corredisses:
+        es: '3'
+        en: '3'
+        fr: '3'
+      barbacoa:
+        es: '2'
+        en: '2'
+        fr: '2'
+      nivells_safates:
+        es: '3'
+        en: '3'
+        fr: '3'
+      capacitat_litres:
+        es: '320'
+        en: '320'
+        fr: '320'
+      classe_energetica:
+        es: B
+        en: B
+        fr: B
+      kw_365:
+        es: '1420'
+        en: '1420'
+        fr: '1420'
+      potencia_electrica:
+        es: 0,24 KW
+        en: 0,24 KW
+        fr: 0,24 KW
+  compartits: []
+- clau: VITRINAS REFRIGERADAS MURALES, DE SOBRE TRAS BARRA
+  noms:
+    es: VITRINAS REFRIGERADAS MURALES, DE SOBRE TRAS BARRA
+    en: WALL-MOUNTED REFRIGERATED DISPLAY UNITS FOR BACK COUNTER
+    fr: VITRINES RÉFRIGÉRÉES MURALES POUR ARRIÈRE-BAR
+  sequence: 160
+  tipus: producte
+  pagina: p31
+  taula: p31-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes_corredisses
+    etiqueta: null
+  - codi: barbacoa
+    etiqueta: null
+  - codi: nivells_safates
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 13VMT105
+    ordre: 10
+    valors:
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+      barbacoa:
+        es: '2'
+        en: '2'
+        fr: '2'
+      nivells_safates:
+        es: '3'
+        en: '3'
+        fr: '3'
+      capacitat_litres:
+        es: '220'
+        en: '220'
+        fr: '220'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      potencia_electrica:
+        es: 0,24 KW
+        en: 0,24 KW
+        fr: 0,24 KW
+  - codi: 13VMT145
+    ordre: 20
+    valors:
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+      barbacoa:
+        es: '2'
+        en: '2'
+        fr: '2'
+      nivells_safates:
+        es: '3'
+        en: '3'
+        fr: '3'
+      capacitat_litres:
+        es: '340'
+        en: '340'
+        fr: '340'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      potencia_electrica:
+        es: 0,25 KW
+        en: 0,25 KW
+        fr: 0,25 KW
+  compartits: []
+- clau: VITRINAS MOSTRADOR REFRIGERADAS, CON CRISTAL CURVADO
+  noms:
+    es: VITRINAS MOSTRADOR REFRIGERADAS, CON CRISTAL CURVADO
+    en: REFRIGERATED COUNTER DISPLAY CASES WITH CURVED GLASS
+    fr: VITRINES COMPTOIR RÉFRIGÉRÉES AVEC VERRE COURBÉ
+  sequence: 170
+  tipus: producte
+  pagina: p35
+  taula: p35-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes_corredisses
+    etiqueta: null
+  - codi: barbacoa
+    etiqueta: null
+  - codi: nivells_safates
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '13819660'
+    ordre: 10
+    valors:
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+      barbacoa:
+        es: '3'
+        en: '3'
+        fr: '3'
+      nivells_safates:
+        es: '4'
+        en: '4'
+        fr: '4'
+      capacitat_litres:
+        es: '220'
+        en: '220'
+        fr: '220'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '2473'
+        en: '2473'
+        fr: '2473'
+      potencia_electrica:
+        es: 0,48 KW
+        en: 0,48 KW
+        fr: 0,48 KW
+  - codi: '13029660'
+    ordre: 20
+    valors:
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+      barbacoa:
+        es: '3'
+        en: '3'
+        fr: '3'
+      nivells_safates:
+        es: '4'
+        en: '4'
+        fr: '4'
+      capacitat_litres:
+        es: '306'
+        en: '306'
+        fr: '306'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '3102'
+        en: '3102'
+        fr: '3102'
+      potencia_electrica:
+        es: 0,48 KW
+        en: 0,48 KW
+        fr: 0,48 KW
+  - codi: '13834190'
+    ordre: 30
+    valors:
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+      barbacoa:
+        es: '3'
+        en: '3'
+        fr: '3'
+      nivells_safates:
+        es: '4'
+        en: '4'
+        fr: '4'
+      capacitat_litres:
+        es: '390'
+        en: '390'
+        fr: '390'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '3844'
+        en: '3844'
+        fr: '3844'
+      potencia_electrica:
+        es: 0,48 KW
+        en: 0,48 KW
+        fr: 0,48 KW
+  - codi: 13VC8957
+    ordre: 40
+    valors:
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+      barbacoa:
+        es: '3'
+        en: '3'
+        fr: '3'
+      nivells_safates:
+        es: '4'
+        en: '4'
+        fr: '4'
+      capacitat_litres:
+        es: '231'
+        en: '231'
+        fr: '231'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '4178'
+        en: '4178'
+        fr: '4178'
+      potencia_electrica:
+        es: 1,1 KW
+        en: 1,1 KW
+        fr: 1,1 KW
+  - codi: 13VC8137
+    ordre: 50
+    valors:
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+      barbacoa:
+        es: '3'
+        en: '3'
+        fr: '3'
+      nivells_safates:
+        es: '4'
+        en: '4'
+        fr: '4'
+      capacitat_litres:
+        es: '322'
+        en: '322'
+        fr: '322'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '4294'
+        en: '4294'
+        fr: '4294'
+      potencia_electrica:
+        es: 1,5 KW
+        en: 1,5 KW
+        fr: 1,5 KW
+  - codi: 13VC8167
+    ordre: 60
+    valors:
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+      barbacoa:
+        es: '3'
+        en: '3'
+        fr: '3'
+      nivells_safates:
+        es: '4'
+        en: '4'
+        fr: '4'
+      capacitat_litres:
+        es: '417'
+        en: '417'
+        fr: '417'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '5334'
+        en: '5334'
+        fr: '5334'
+      potencia_electrica:
+        es: 1,9 KW
+        en: 1,9 KW
+        fr: 1,9 KW
+  compartits: []
+- clau: VITRINAS MOSTRADOR REFRIGERADAS, CON CRISTAL RECTO
+  noms:
+    es: VITRINAS MOSTRADOR REFRIGERADAS, CON CRISTAL RECTO
+    en: REFRIGERATED COUNTER DISPLAY CASES WITH STRAIGHT GLASS
+    fr: VITRINES COMPTOIR RÉFRIGÉRÉES AVEC VERRE DROIT
+  sequence: 180
+  tipus: producte
+  pagina: p36
+  taula: p36-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes_corredisses
+    etiqueta: null
+  - codi: barbacoa
+    etiqueta: null
+  - codi: nivells_safates
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '13229660'
+    ordre: 10
+    valors:
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+      barbacoa:
+        es: '3'
+        en: '3'
+        fr: '3'
+      nivells_safates:
+        es: '4'
+        en: '4'
+        fr: '4'
+      capacitat_litres:
+        es: '220'
+        en: '220'
+        fr: '220'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '2789'
+        en: '2789'
+        fr: '2789'
+      potencia_electrica:
+        es: 0,48 KW
+        en: 0,48 KW
+        fr: 0,48 KW
+  - codi: '13429660'
+    ordre: 20
+    valors:
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+      barbacoa:
+        es: '3'
+        en: '3'
+        fr: '3'
+      nivells_safates:
+        es: '4'
+        en: '4'
+        fr: '4'
+      capacitat_litres:
+        es: '306'
+        en: '306'
+        fr: '306'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '3194'
+        en: '3194'
+        fr: '3194'
+      potencia_electrica:
+        es: 0,48 KW
+        en: 0,48 KW
+        fr: 0,48 KW
+  - codi: '13054190'
+    ordre: 30
+    valors:
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+      barbacoa:
+        es: '3'
+        en: '3'
+        fr: '3'
+      nivells_safates:
+        es: '4'
+        en: '4'
+        fr: '4'
+      capacitat_litres:
+        es: '390'
+        en: '390'
+        fr: '390'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '3844'
+        en: '3844'
+        fr: '3844'
+      potencia_electrica:
+        es: 0,48 KW
+        en: 0,48 KW
+        fr: 0,48 KW
+  - codi: 13VR8957
+    ordre: 40
+    valors:
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+      barbacoa:
+        es: '3'
+        en: '3'
+        fr: '3'
+      nivells_safates:
+        es: '4'
+        en: '4'
+        fr: '4'
+      capacitat_litres:
+        es: '231'
+        en: '231'
+        fr: '231'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '4178'
+        en: '4178'
+        fr: '4178'
+      potencia_electrica:
+        es: 1,1 KW
+        en: 1,1 KW
+        fr: 1,1 KW
+  - codi: 13VR8137
+    ordre: 50
+    valors:
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+      barbacoa:
+        es: '3'
+        en: '3'
+        fr: '3'
+      nivells_safates:
+        es: '4'
+        en: '4'
+        fr: '4'
+      capacitat_litres:
+        es: '322'
+        en: '322'
+        fr: '322'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '4294'
+        en: '4294'
+        fr: '4294'
+      potencia_electrica:
+        es: 1,5 KW
+        en: 1,5 KW
+        fr: 1,5 KW
+  - codi: 13VR8167
+    ordre: 60
+    valors:
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+      barbacoa:
+        es: '3'
+        en: '3'
+        fr: '3'
+      nivells_safates:
+        es: '4'
+        en: '4'
+        fr: '4'
+      capacitat_litres:
+        es: '417'
+        en: '417'
+        fr: '417'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '5334'
+        en: '5334'
+        fr: '5334'
+      potencia_electrica:
+        es: 1,9 KW
+        en: 1,9 KW
+        fr: 1,9 KW
+  compartits: []
+- clau: VITRINAS CERRADAS REFRIGERADAS, CON CRISTAL INCLINADO
+  noms:
+    es: VITRINAS CERRADAS REFRIGERADAS, CON CRISTAL INCLINADO
+    en: REFRIGERATED CLOSED DISPLAY CASES WITH INCLINED GLASS
+    fr: VITRINES RÉFRIGÉRÉES FERMÉES AVEC VITRE INCLINÉE
+  sequence: 190
+  tipus: producte
+  pagina: p37
+  taula: p37-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: barbacoa
+    etiqueta: null
+  - codi: nivells_safates
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 13VC1138
+    ordre: 10
+    valors:
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      barbacoa:
+        es: '2'
+        en: '2'
+        fr: '2'
+      nivells_safates:
+        es: '3'
+        en: '3'
+        fr: '3'
+      capacitat_litres:
+        es: '470'
+        en: '470'
+        fr: '470'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '1577'
+        en: '1577'
+        fr: '1577'
+      potencia_electrica:
+        es: 0,42 KW
+        en: 0,42 KW
+        fr: 0,42 KW
+  - codi: 13VC1158
+    ordre: 20
+    valors:
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      barbacoa:
+        es: '2'
+        en: '2'
+        fr: '2'
+      nivells_safates:
+        es: '3'
+        en: '3'
+        fr: '3'
+      capacitat_litres:
+        es: '540'
+        en: '540'
+        fr: '540'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '1767'
+        en: '1767'
+        fr: '1767'
+      potencia_electrica:
+        es: 0,42 KW
+        en: 0,42 KW
+        fr: 0,42 KW
+  - codi: 13VC1208
+    ordre: 30
+    valors:
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      barbacoa:
+        es: '2'
+        en: '2'
+        fr: '2'
+      nivells_safates:
+        es: '3'
+        en: '3'
+        fr: '3'
+      capacitat_litres:
+        es: '710'
+        en: '710'
+        fr: '710'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '1843'
+        en: '1843'
+        fr: '1843'
+      potencia_electrica:
+        es: 0,48 KW
+        en: 0,48 KW
+        fr: 0,48 KW
+  compartits: []
+- clau: ARMARIOS VITRINA DE REFRIGERACIÓN CON PATAS
+  noms:
+    es: ARMARIOS VITRINA DE REFRIGERACIÓN CON PATAS
+    en: REFRIGERATED DISPLAY CABINETS WITH LEGS
+    fr: ARMOIRES VITRINES RÉFRIGÉRÉES AVEC PIEDS
+  sequence: 200
+  tipus: producte
+  pagina: p40
+  taula: p40-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: barbacoa
+    etiqueta: null
+  - codi: nivells_safates
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '14069270'
+    ordre: 10
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: '4'
+        en: '4'
+        fr: '4'
+      nivells_safates:
+        es: '5'
+        en: '5'
+        fr: '5'
+      capacitat_litres:
+        es: '280'
+        en: '280'
+        fr: '280'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '2019'
+        en: '2019'
+        fr: '2019'
+      potencia_electrica:
+        es: 0,26 KW
+        en: 0,26 KW
+        fr: 0,26 KW
+  - codi: 14AV8514
+    ordre: 20
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: '4'
+        en: '4'
+        fr: '4'
+      nivells_safates:
+        es: '5'
+        en: '5'
+        fr: '5'
+      capacitat_litres:
+        es: '280'
+        en: '280'
+        fr: '280'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '2019'
+        en: '2019'
+        fr: '2019'
+      potencia_electrica:
+        es: 0,26 KW
+        en: 0,26 KW
+        fr: 0,26 KW
+  compartits: []
+- clau: ARMARIOS VITRINA DE REFRIGERACIÓN CON RUEDAS
+  noms:
+    es: ARMARIOS VITRINA DE REFRIGERACIÓN CON RUEDAS
+    en: REFRIGERATED DISPLAY CABINETS WITH WHEELS
+    fr: ARMOIRES VITRINES RÉFRIGÉRÉES AVEC ROULETTES
+  sequence: 210
+  tipus: producte
+  pagina: p41
+  taula: p41-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: barbacoa
+    etiqueta: null
+  - codi: nivells_safates
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 14RRW514
+    ordre: 10
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: '4'
+        en: '4'
+        fr: '4'
+      nivells_safates:
+        es: '5'
+        en: '5'
+        fr: '5'
+      capacitat_litres:
+        es: '240'
+        en: '240'
+        fr: '240'
+      classe_energetica:
+        es: B
+        en: B
+        fr: B
+      kw_365:
+        es: '1497'
+        en: '1497'
+        fr: '1497'
+      potencia_electrica:
+        es: 0,25 KW
+        en: 0,25 KW
+        fr: 0,25 KW
+  - codi: 14RR8514
+    ordre: 20
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: '4'
+        en: '4'
+        fr: '4'
+      nivells_safates:
+        es: '5'
+        en: '5'
+        fr: '5'
+      capacitat_litres:
+        es: '240'
+        en: '240'
+        fr: '240'
+      classe_energetica:
+        es: B
+        en: B
+        fr: B
+      kw_365:
+        es: '1497'
+        en: '1497'
+        fr: '1497'
+      potencia_electrica:
+        es: 0,25 KW
+        en: 0,25 KW
+        fr: 0,25 KW
+  compartits: []
+- clau: ARMARIOS VITRINA DE REFRIGERACIÓN Y CONGELACIÓN CON RUEDAS
+  noms:
+    es: ARMARIOS VITRINA DE REFRIGERACIÓN Y CONGELACIÓN CON RUEDAS
+    en: REFRIGERATION AND FREEZER DISPLAY CABINETS WITH WHEELS
+    fr: ARMOIRES VITRINES RÉFRIGÉRATION ET DE CONGÉLATION AVEC ROULETTES
+  sequence: 220
+  tipus: producte
+  pagina: p42
+  taula: p42-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: barbacoa
+    etiqueta: null
+  - codi: nivells_safates
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '14119901'
+    ordre: 10
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: '5'
+        en: '5'
+        fr: '5'
+      nivells_safates:
+        es: '5'
+        en: '5'
+        fr: '5'
+      capacitat_litres:
+        es: '320'
+        en: '320'
+        fr: '320'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '2391'
+        en: '2391'
+        fr: '2391'
+      potencia_electrica:
+        es: 0,32 KW
+        en: 0,32 KW
+        fr: 0,32 KW
+  - codi: '14219901'
+    ordre: 20
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: '5'
+        en: '5'
+        fr: '5'
+      nivells_safates:
+        es: '5'
+        en: '5'
+        fr: '5'
+      capacitat_litres:
+        es: '320'
+        en: '320'
+        fr: '320'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '8582'
+        en: '8582'
+        fr: '8582'
+      potencia_electrica:
+        es: 1 KW
+        en: 1 KW
+        fr: 1 KW
+  compartits: []
+- clau: ARMARIOS EXPOSITORES (ANCHO DE 400 A 530 mm), CON 1 PUERTA DE CONSERVACIÓN Y CONGELACIÓN
+  noms:
+    es: ARMARIOS EXPOSITORES (ANCHO DE 400 A 530 mm), CON 1 PUERTA DE CONSERVACIÓN Y CONGELACIÓN
+    en: DISPLAY CABINETS (WIDTH FROM 400 TO 530 mm), WITH 1 REFRIGERATION AND FREEZING DOOR
+    fr: ARMOIRES VITRINES (LARGEUR DE 400 À 530 mm), AVEC 1 PORTE DE RÉFRIGÉRATION ET CONGÉLATION
+  sequence: 230
+  tipus: producte
+  pagina: p47
+  taula: p47-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: acabat_exterior
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: barbacoa
+    etiqueta: null
+  - codi: nivells_safates
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 14AEC404
+    ordre: 10
+    valors:
+      acabat_exterior:
+        es: WHITE
+        en: WHITE
+        fr: WHITE
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: 6 FIXED
+        en: 6 FIXED
+        fr: 6 FIXED
+      nivells_safates:
+        es: '7'
+        en: '7'
+        fr: '7'
+      capacitat_litres:
+        es: '110'
+        en: '110'
+        fr: '110'
+      classe_energetica:
+        es: B
+        en: B
+        fr: B
+      kw_365:
+        es: '1599'
+        en: '1599'
+        fr: '1599'
+      potencia_electrica:
+        es: 0,31 KW
+        en: 0,31 KW
+        fr: 0,31 KW
+  - codi: 14AEC537
+    ordre: 20
+    valors:
+      acabat_exterior:
+        es: WHITE
+        en: WHITE
+        fr: WHITE
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: 6 FIXED
+        en: 6 FIXED
+        fr: 6 FIXED
+      nivells_safates:
+        es: '7'
+        en: '7'
+        fr: '7'
+      capacitat_litres:
+        es: '340'
+        en: '340'
+        fr: '340'
+      classe_energetica:
+        es: B
+        en: B
+        fr: B
+      kw_365:
+        es: '4430'
+        en: '4430'
+        fr: '4430'
+      potencia_electrica:
+        es: 0,45 KW
+        en: 0,45 KW
+        fr: 0,45 KW
+  - codi: 14AER447
+    ordre: 30
+    valors:
+      acabat_exterior:
+        es: WHITE
+        en: WHITE
+        fr: WHITE
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: '4'
+        en: '4'
+        fr: '4'
+      nivells_safates:
+        es: '5'
+        en: '5'
+        fr: '5'
+      capacitat_litres:
+        es: '300'
+        en: '300'
+        fr: '300'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '642'
+        en: '642'
+        fr: '642'
+      potencia_electrica:
+        es: 0,30 KW
+        en: 0,30 KW
+        fr: 0,30 KW
+  - codi: 14AE2447
+    ordre: 40
+    valors:
+      acabat_exterior:
+        es: BLACK
+        en: BLACK
+        fr: BLACK
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: '4'
+        en: '4'
+        fr: '4'
+      nivells_safates:
+        es: '5'
+        en: '5'
+        fr: '5'
+      capacitat_litres:
+        es: '300'
+        en: '300'
+        fr: '300'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '642'
+        en: '642'
+        fr: '642'
+      potencia_electrica:
+        es: 0,30 KW
+        en: 0,30 KW
+        fr: 0,30 KW
+  compartits: []
+- clau: ARMARIOS EXPOSITORES (ANCHO DE 600 Y 900 mm), CON 1 Y 2 PUERTAS, DE CONSERVACIÓN
+  noms:
+    es: ARMARIOS EXPOSITORES (ANCHO DE 600 Y 900 mm), CON 1 Y 2 PUERTAS, DE CONSERVACIÓN
+    en: DISPLAY CABINETS (WIDTH OF 600 AND 900 mm), WITH 1 AND 2 REFRIGERATION DOORS
+    fr: ARMOIRES EXPOSITOIRES (LARGEUR DE 600 ET 900 mm), AVEC 1 ET 2 PORTES DE CONSERVATION
+  sequence: 240
+  tipus: producte
+  pagina: p48
+  taula: p48-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: acabat_exterior
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: barbacoa
+    etiqueta: null
+  - codi: nivells_safates
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 14AE3605
+    ordre: 10
+    valors:
+      acabat_exterior:
+        es: BLACK
+        en: BLACK
+        fr: BLACK
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: '5'
+        en: '5'
+        fr: '5'
+      nivells_safates:
+        es: '6'
+        en: '6'
+        fr: '6'
+      capacitat_litres:
+        es: '290'
+        en: '290'
+        fr: '290'
+      classe_energetica:
+        es: B
+        en: B
+        fr: B
+      kw_365:
+        es: '1007'
+        en: '1007'
+        fr: '1007'
+      potencia_electrica:
+        es: 0,24 KW
+        en: 0,24 KW
+        fr: 0,24 KW
+  - codi: 14AE3905
+    ordre: 20
+    valors:
+      acabat_exterior:
+        es: BLACK
+        en: BLACK
+        fr: BLACK
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      barbacoa:
+        es: 5+5
+        en: 5+5
+        fr: 5+5
+      nivells_safates:
+        es: 6+6
+        en: 6+6
+        fr: 6+6
+      capacitat_litres:
+        es: '460'
+        en: '460'
+        fr: '460'
+      classe_energetica:
+        es: B
+        en: B
+        fr: B
+      kw_365:
+        es: '1168'
+        en: '1168'
+        fr: '1168'
+      potencia_electrica:
+        es: 0,30 KW
+        en: 0,30 KW
+        fr: 0,30 KW
+  compartits: []
+- clau: ARMARIOS EXPOSITORES (ANCHO DE 600 mm), CON 1 PUERTA, DE CONSERVACIÓN Y CONGELACIÓN
+  noms:
+    es: ARMARIOS EXPOSITORES (ANCHO DE 600 mm), CON 1 PUERTA, DE CONSERVACIÓN Y CONGELACIÓN
+    en: DISPLAY CABINETS (WIDTH OF 600 mm), WITH 1 DOOR, FOR REFRIGERATION AND FREEZING
+    fr: ARMOIRES EXPOSITOIRES (LARGEUR DE 600 mm), AVEC 1 PORTE, DE CONSERVATION ET CONGÉLATION
+  sequence: 250
+  tipus: producte
+  pagina: p49
+  taula: p49-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: acabat_exterior
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: barbacoa
+    etiqueta: null
+  - codi: nivells_safates
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '14699690'
+    ordre: 10
+    valors:
+      acabat_exterior:
+        es: WHITE
+        en: WHITE
+        fr: WHITE
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: '5'
+        en: '5'
+        fr: '5'
+      nivells_safates:
+        es: '6'
+        en: '6'
+        fr: '6'
+      capacitat_litres:
+        es: '370'
+        en: '370'
+        fr: '370'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '620'
+        en: '620'
+        fr: '620'
+      potencia_electrica:
+        es: 0,25 KW
+        en: 0,25 KW
+        fr: 0,25 KW
+  - codi: '14581301'
+    ordre: 20
+    valors:
+      acabat_exterior:
+        es: BLACK
+        en: BLACK
+        fr: BLACK
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: '5'
+        en: '5'
+        fr: '5'
+      nivells_safates:
+        es: '6'
+        en: '6'
+        fr: '6'
+      capacitat_litres:
+        es: '370'
+        en: '370'
+        fr: '370'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '620'
+        en: '620'
+        fr: '620'
+      potencia_electrica:
+        es: 0,25 KW
+        en: 0,25 KW
+        fr: 0,25 KW
+  - codi: '14936590'
+    ordre: 30
+    valors:
+      acabat_exterior:
+        es: WHITE
+        en: WHITE
+        fr: WHITE
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: 6 FIXED
+        en: 6 FIXED
+        fr: 6 FIXED
+      nivells_safates:
+        es: '7'
+        en: '7'
+        fr: '7'
+      capacitat_litres:
+        es: '300'
+        en: '300'
+        fr: '300'
+      classe_energetica:
+        es: B
+        en: B
+        fr: B
+      kw_365:
+        es: '3017'
+        en: '3017'
+        fr: '3017'
+      potencia_electrica:
+        es: 0,60 KW
+        en: 0,60 KW
+        fr: 0,60 KW
+  - codi: 14AE8606
+    ordre: 40
+    valors:
+      acabat_exterior:
+        es: BLACK
+        en: BLACK
+        fr: BLACK
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: 6 FIXED
+        en: 6 FIXED
+        fr: 6 FIXED
+      nivells_safates:
+        es: '7'
+        en: '7'
+        fr: '7'
+      capacitat_litres:
+        es: '300'
+        en: '300'
+        fr: '300'
+      classe_energetica:
+        es: B
+        en: B
+        fr: B
+      kw_365:
+        es: '3017'
+        en: '3017'
+        fr: '3017'
+      potencia_electrica:
+        es: 0,60 KW
+        en: 0,60 KW
+        fr: 0,60 KW
+  compartits: []
+- clau: ARMARIOS EXPOSITORES DE GRAN CAPACIDAD CON 1 PUERTA, DE CONSERVACIÓN Y CONGELACIÓN
+  noms:
+    es: ARMARIOS EXPOSITORES DE GRAN CAPACIDAD CON 1 PUERTA, DE CONSERVACIÓN Y CONGELACIÓN
+    en: LARGE-CAPACITY REFRIGERATED DISPLAY CABINETS WITH 1 DOOR, FOR CHILLING AND FREEZING
+    fr: ARMOIRES EXPOSITOIRES DE GRANDE CAPACITÉ AVEC 1 PORTE, DE CONSERVATION ET CONGÉLATION
+  sequence: 260
+  tipus: producte
+  pagina: p50
+  taula: p50-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: acabat_exterior
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: barbacoa
+    etiqueta: null
+  - codi: nivells_safates
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '14636590'
+    ordre: 10
+    valors:
+      acabat_exterior:
+        es: BLACK
+        en: BLACK
+        fr: BLACK
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: '4'
+        en: '4'
+        fr: '4'
+      nivells_safates:
+        es: '5'
+        en: '5'
+        fr: '5'
+      capacitat_litres:
+        es: '450'
+        en: '450'
+        fr: '450'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '1321'
+        en: '1321'
+        fr: '1321'
+      potencia_electrica:
+        es: 0,25 KW
+        en: 0,25 KW
+        fr: 0,25 KW
+  - codi: '14056590'
+    ordre: 20
+    valors:
+      acabat_exterior:
+        es: BLACK
+        en: BLACK
+        fr: BLACK
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: '4'
+        en: '4'
+        fr: '4'
+      nivells_safates:
+        es: '5'
+        en: '5'
+        fr: '5'
+      capacitat_litres:
+        es: '450'
+        en: '450'
+        fr: '450'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '4380'
+        en: '4380'
+        fr: '4380'
+      potencia_electrica:
+        es: 0,70 KW
+        en: 0,70 KW
+        fr: 0,70 KW
+  - codi: 14AEW707
+    ordre: 30
+    valors:
+      acabat_exterior:
+        es: WHITE
+        en: WHITE
+        fr: WHITE
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: 6 FIXED
+        en: 6 FIXED
+        fr: 6 FIXED
+      nivells_safates:
+        es: '7'
+        en: '7'
+        fr: '7'
+      capacitat_litres:
+        es: '450'
+        en: '450'
+        fr: '450'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '4672'
+        en: '4672'
+        fr: '4672'
+      potencia_electrica:
+        es: 0,46 KW
+        en: 0,46 KW
+        fr: 0,46 KW
+  compartits: []
+- clau: ARMARIOS EXPOSITORES DE GRAN CAPACIDAD CON 2 PUERTAS, DE CONSERVACIÓN Y CONGELACIÓN
+  noms:
+    es: ARMARIOS EXPOSITORES DE GRAN CAPACIDAD CON 2 PUERTAS, DE CONSERVACIÓN Y CONGELACIÓN
+    en: LARGE-CAPACITY REFRIGERATED DISPLAY CABINETS WITH 2 DOORS, FOR CHILLING AND FREEZING
+    fr: ARMOIRES EXPOSITOIRES DE GRANDE CAPACITÉ AVEC 2 PORTES, DE CONSERVATION ET CONGÉLATION
+  sequence: 270
+  tipus: producte
+  pagina: p51
+  taula: p51-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: acabat_exterior
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: barbacoa
+    etiqueta: null
+  - codi: nivells_safates
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '14736590'
+    ordre: 10
+    valors:
+      acabat_exterior:
+        es: BLACK
+        en: BLACK
+        fr: BLACK
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      barbacoa:
+        es: 4+4
+        en: 4+4
+        fr: 4+4
+      nivells_safates:
+        es: 5+5
+        en: 5+5
+        fr: 5+5
+      capacitat_litres:
+        es: '1000'
+        en: '1000'
+        fr: '1000'
+      classe_energetica:
+        es: F
+        en: F
+        fr: F
+      kw_365:
+        es: '1793'
+        en: '1793'
+        fr: '1793'
+      potencia_electrica:
+        es: 0,40 KW
+        en: 0,40 KW
+        fr: 0,40 KW
+  - codi: '14156590'
+    ordre: 20
+    valors:
+      acabat_exterior:
+        es: BLACK
+        en: BLACK
+        fr: BLACK
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      barbacoa:
+        es: 4+4
+        en: 4+4
+        fr: 4+4
+      nivells_safates:
+        es: 5+5
+        en: 5+5
+        fr: 5+5
+      capacitat_litres:
+        es: '1000'
+        en: '1000'
+        fr: '1000'
+      classe_energetica:
+        es: F
+        en: F
+        fr: F
+      kw_365:
+        es: '8688'
+        en: '8688'
+        fr: '8688'
+      potencia_electrica:
+        es: 1,05 KW
+        en: 1,05 KW
+        fr: 1,05 KW
+  - codi: 14AEW127
+    ordre: 30
+    valors:
+      acabat_exterior:
+        es: WHITE
+        en: WHITE
+        fr: WHITE
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      barbacoa:
+        es: 4+4
+        en: 4+4
+        fr: 4+4
+      nivells_safates:
+        es: 5+5
+        en: 5+5
+        fr: 5+5
+      capacitat_litres:
+        es: '1020'
+        en: '1020'
+        fr: '1020'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '6504'
+        en: '6504'
+        fr: '6504'
+      potencia_electrica:
+        es: 0,70 KW
+        en: 0,70 KW
+        fr: 0,70 KW
+  compartits: []
+- clau: ARMARIOS EXPOSITORES DE GRAN CAPACIDAD CON 1 PUERTA, DE CONSERVACIÓN Y CONGELACIÓN#2
+  noms:
+    es: ARMARIOS EXPOSITORES DE GRAN CAPACIDAD CON 1 PUERTA, DE CONSERVACIÓN Y CONGELACIÓN
+    en: LARGE-CAPACITY REFRIGERATED DISPLAY CABINETS WITH 1 DOOR, FOR CHILLING AND FREEZING
+    fr: ARMOIRES EXPOSITOIRES DE GRANDE CAPACITÉ AVEC 1 PORTE, DE CONSERVATION ET CONGÉLATION
+  sequence: 280
+  tipus: producte
+  pagina: p52
+  taula: p52-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: acabat_exterior
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: barbacoa
+    etiqueta: null
+  - codi: nivells_safates
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '14060301'
+    ordre: 10
+    valors:
+      acabat_exterior:
+        es: WHITE
+        en: WHITE
+        fr: WHITE
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: '4'
+        en: '4'
+        fr: '4'
+      nivells_safates:
+        es: '5'
+        en: '5'
+        fr: '5'
+      capacitat_litres:
+        es: '485'
+        en: '485'
+        fr: '485'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '1296'
+        en: '1296'
+        fr: '1296'
+      potencia_electrica:
+        es: 0,25 KW
+        en: 0,25 KW
+        fr: 0,25 KW
+  - codi: '14160301'
+    ordre: 20
+    valors:
+      acabat_exterior:
+        es: WHITE
+        en: WHITE
+        fr: WHITE
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: '4'
+        en: '4'
+        fr: '4'
+      nivells_safates:
+        es: '5'
+        en: '5'
+        fr: '5'
+      capacitat_litres:
+        es: '485'
+        en: '485'
+        fr: '485'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '4325'
+        en: '4325'
+        fr: '4325'
+      potencia_electrica:
+        es: 0,68 KW
+        en: 0,68 KW
+        fr: 0,68 KW
+  - codi: 14AER707
+    ordre: 30
+    valors:
+      acabat_exterior:
+        es: BLACK
+        en: BLACK
+        fr: BLACK
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: '4'
+        en: '4'
+        fr: '4'
+      nivells_safates:
+        es: '5'
+        en: '5'
+        fr: '5'
+      capacitat_litres:
+        es: '485'
+        en: '485'
+        fr: '485'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '1296'
+        en: '1296'
+        fr: '1296'
+      potencia_electrica:
+        es: 0,25 KW
+        en: 0,25 KW
+        fr: 0,25 KW
+  - codi: 14AEC707
+    ordre: 40
+    valors:
+      acabat_exterior:
+        es: BLACK
+        en: BLACK
+        fr: BLACK
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: '4'
+        en: '4'
+        fr: '4'
+      nivells_safates:
+        es: '5'
+        en: '5'
+        fr: '5'
+      capacitat_litres:
+        es: '485'
+        en: '485'
+        fr: '485'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '4325'
+        en: '4325'
+        fr: '4325'
+      potencia_electrica:
+        es: 0,68 KW
+        en: 0,68 KW
+        fr: 0,68 KW
+  compartits: []
+- clau: ARMARIOS EXPOSITORES DE GRAN CAPACIDAD CON 2 PUERTAS, DE CONSERVACIÓN Y CONGELACIÓN#2
+  noms:
+    es: ARMARIOS EXPOSITORES DE GRAN CAPACIDAD CON 2 PUERTAS, DE CONSERVACIÓN Y CONGELACIÓN
+    en: LARGE-CAPACITY REFRIGERATED DISPLAY CABINETS WITH 2 DOORS, FOR CHILLING AND FREEZING
+    fr: ARMOIRES EXPOSITOIRES DE GRANDE CAPACITÉ AVEC 2 PORTES, DE CONSERVATION ET CONGÉLATION
+  sequence: 290
+  tipus: producte
+  pagina: p53
+  taula: p53-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: acabat_exterior
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: barbacoa
+    etiqueta: null
+  - codi: nivells_safates
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '14500001'
+    ordre: 10
+    valors:
+      acabat_exterior:
+        es: WHITE
+        en: WHITE
+        fr: WHITE
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      barbacoa:
+        es: 4+4
+        en: 4+4
+        fr: 4+4
+      nivells_safates:
+        es: 5+5
+        en: 5+5
+        fr: 5+5
+      capacitat_litres:
+        es: '1050'
+        en: '1050'
+        fr: '1050'
+      classe_energetica:
+        es: F
+        en: F
+        fr: F
+      kw_365:
+        es: '1809'
+        en: '1809'
+        fr: '1809'
+      potencia_electrica:
+        es: 0,40 KW
+        en: 0,40 KW
+        fr: 0,40 KW
+  - codi: '14600001'
+    ordre: 20
+    valors:
+      acabat_exterior:
+        es: WHITE
+        en: WHITE
+        fr: WHITE
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      barbacoa:
+        es: 4+4
+        en: 4+4
+        fr: 4+4
+      nivells_safates:
+        es: 5+5
+        en: 5+5
+        fr: 5+5
+      capacitat_litres:
+        es: '1050'
+        en: '1050'
+        fr: '1050'
+      classe_energetica:
+        es: F
+        en: F
+        fr: F
+      kw_365:
+        es: '8752'
+        en: '8752'
+        fr: '8752'
+      potencia_electrica:
+        es: 1,10 KW
+        en: 1,10 KW
+        fr: 1,10 KW
+  - codi: 14AER137
+    ordre: 30
+    valors:
+      acabat_exterior:
+        es: BLACK
+        en: BLACK
+        fr: BLACK
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      barbacoa:
+        es: 4+4
+        en: 4+4
+        fr: 4+4
+      nivells_safates:
+        es: 5+5
+        en: 5+5
+        fr: 5+5
+      capacitat_litres:
+        es: '1050'
+        en: '1050'
+        fr: '1050'
+      classe_energetica:
+        es: F
+        en: F
+        fr: F
+      kw_365:
+        es: '1809'
+        en: '1809'
+        fr: '1809'
+      potencia_electrica:
+        es: 0,40 KW
+        en: 0,40 KW
+        fr: 0,40 KW
+  - codi: 14AEC137
+    ordre: 40
+    valors:
+      acabat_exterior:
+        es: BLACK
+        en: BLACK
+        fr: BLACK
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      barbacoa:
+        es: 4+4
+        en: 4+4
+        fr: 4+4
+      nivells_safates:
+        es: 5+5
+        en: 5+5
+        fr: 5+5
+      capacitat_litres:
+        es: '1050'
+        en: '1050'
+        fr: '1050'
+      classe_energetica:
+        es: F
+        en: F
+        fr: F
+      kw_365:
+        es: '8752'
+        en: '8752'
+        fr: '8752'
+      potencia_electrica:
+        es: 1,10 KW
+        en: 1,10 KW
+        fr: 1,10 KW
+  compartits: []
+- clau: EXPOSITORES PARA VINOS REFRIGERADOS, CON ESTANTES DE VARILLA
+  noms:
+    es: EXPOSITORES PARA VINOS REFRIGERADOS, CON ESTANTES DE VARILLA
+    en: REFRIGERATED WINE DISPLAY UNITS WITH WIRE SHELVES
+    fr: PRÉSENTOIRS RÉFRIGÉRÉS POUR VINS AVEC ÉTAGÈRES EN FIL MÉTALLIQUE
+  sequence: 300
+  tipus: producte
+  pagina: p57
+  taula: p57-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: barbacoa
+    etiqueta: null
+  - codi: nivells_safates
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: ampolles_75cl
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '15397240'
+    ordre: 10
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: '1'
+        en: '1'
+        fr: '1'
+      nivells_safates:
+        es: '2'
+        en: '2'
+        fr: '2'
+      capacitat_litres:
+        es: '120'
+        en: '120'
+        fr: '120'
+      ampolles_75cl:
+        es: '31'
+        en: '31'
+        fr: '31'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '423'
+        en: '423'
+        fr: '423'
+      potencia_electrica:
+        es: 0,23 KW
+        en: 0,23 KW
+        fr: 0,23 KW
+  - codi: '15497240'
+    ordre: 20
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: '4'
+        en: '4'
+        fr: '4'
+      nivells_safates:
+        es: '5'
+        en: '5'
+        fr: '5'
+      capacitat_litres:
+        es: '400'
+        en: '400'
+        fr: '400'
+      ampolles_75cl:
+        es: '72'
+        en: '72'
+        fr: '72'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '909'
+        en: '909'
+        fr: '909'
+      potencia_electrica:
+        es: 0,26 KW
+        en: 0,26 KW
+        fr: 0,26 KW
+  compartits: []
+- clau: EXPOSITORES PARA VINOS REFRIGERADOS, DE 3 COLORES
+  noms:
+    es: EXPOSITORES PARA VINOS REFRIGERADOS, DE 3 COLORES
+    en: REFRIGERATED WINE DISPLAY UNITS IN 3 COLOURS
+    fr: PRÉSENTOIRS RÉFRIGÉRÉS POUR VINS EN 3 COULEURS
+  sequence: 310
+  tipus: producte
+  pagina: p58
+  taula: p58-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: acabat_exterior
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: barbacoa
+    etiqueta: null
+  - codi: nivells_safates
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: ampolles_75cl
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 15EV8606
+    ordre: 10
+    valors:
+      acabat_exterior:
+        es: BLACK
+        en: BLACK
+        fr: BLACK
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: '6'
+        en: '6'
+        fr: '6'
+      nivells_safates:
+        es: '7'
+        en: '7'
+        fr: '7'
+      capacitat_litres:
+        es: '350'
+        en: '350'
+        fr: '350'
+      ampolles_75cl:
+        es: '78'
+        en: '78'
+        fr: '78'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '714'
+        en: '714'
+        fr: '714'
+      potencia_electrica:
+        es: 0,30 KW
+        en: 0,30 KW
+        fr: 0,30 KW
+  - codi: 15EVW606
+    ordre: 20
+    valors:
+      acabat_exterior:
+        es: WOOD
+        en: WOOD
+        fr: WOOD
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: '6'
+        en: '6'
+        fr: '6'
+      nivells_safates:
+        es: '7'
+        en: '7'
+        fr: '7'
+      capacitat_litres:
+        es: '350'
+        en: '350'
+        fr: '350'
+      ampolles_75cl:
+        es: '78'
+        en: '78'
+        fr: '78'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '714'
+        en: '714'
+        fr: '714'
+      potencia_electrica:
+        es: 0,30 KW
+        en: 0,30 KW
+        fr: 0,30 KW
+  - codi: 15EVA606
+    ordre: 30
+    valors:
+      acabat_exterior:
+        es: ALUMINIUM
+        en: ALUMINIUM
+        fr: ALUMINIUM
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: '6'
+        en: '6'
+        fr: '6'
+      nivells_safates:
+        es: '7'
+        en: '7'
+        fr: '7'
+      capacitat_litres:
+        es: '350'
+        en: '350'
+        fr: '350'
+      ampolles_75cl:
+        es: '78'
+        en: '78'
+        fr: '78'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '714'
+        en: '714'
+        fr: '714'
+      potencia_electrica:
+        es: 0,30 KW
+        en: 0,30 KW
+        fr: 0,30 KW
+  compartits: []
+- clau: EXPOSITORES PARA VINOS REFRIGERADOS, CON 1 PUERTA
+  noms:
+    es: EXPOSITORES PARA VINOS REFRIGERADOS, CON 1 PUERTA
+    en: REFRIGERATED WINE DISPLAY UNITS WITH 1 DOOR
+    fr: PRÉSENTOIRS RÉFRIGÉRÉS POUR VINS AVEC 1 PORTE
+  sequence: 320
+  tipus: producte
+  pagina: p59
+  taula: p59-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: barbacoa
+    etiqueta: null
+  - codi: nivells_safates
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: ampolles_75cl
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 15EV3386
+    ordre: 10
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: '6'
+        en: '6'
+        fr: '6'
+      nivells_safates:
+        es: '7'
+        en: '7'
+        fr: '7'
+      capacitat_litres:
+        es: '106'
+        en: '106'
+        fr: '106'
+      ampolles_75cl:
+        es: '31'
+        en: '31'
+        fr: '31'
+      classe_energetica:
+        es: F
+        en: F
+        fr: F
+      kw_365:
+        es: '94'
+        en: '94'
+        fr: '94'
+      potencia_electrica:
+        es: 0,08 KW
+        en: 0,08 KW
+        fr: 0,08 KW
+  - codi: 15EV3626
+    ordre: 20
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: '4'
+        en: '4'
+        fr: '4'
+      nivells_safates:
+        es: '5'
+        en: '5'
+        fr: '5'
+      capacitat_litres:
+        es: '400'
+        en: '400'
+        fr: '400'
+      ampolles_75cl:
+        es: '72'
+        en: '72'
+        fr: '72'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '909'
+        en: '909'
+        fr: '909'
+      potencia_electrica:
+        es: 0,26 KW
+        en: 0,26 KW
+        fr: 0,26 KW
+  - codi: 15EV3607
+    ordre: 30
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: '8'
+        en: '8'
+        fr: '8'
+      nivells_safates:
+        es: '8'
+        en: '8'
+        fr: '8'
+      capacitat_litres:
+        es: '470'
+        en: '470'
+        fr: '470'
+      ampolles_75cl:
+        es: '150'
+        en: '150'
+        fr: '150'
+      classe_energetica:
+        es: G
+        en: G
+        fr: G
+      kw_365:
+        es: '158'
+        en: '158'
+        fr: '158'
+      potencia_electrica:
+        es: 0,26 KW
+        en: 0,26 KW
+        fr: 0,26 KW
+  compartits: []
+- clau: EXPOSITORES PARA VINOS REFRIGERADOS, CON 1 Y 2 PUERTAS, DE 560 MM DE FONDO
+  noms:
+    es: EXPOSITORES PARA VINOS REFRIGERADOS, CON 1 Y 2 PUERTAS, DE 560 MM DE FONDO
+    en: REFRIGERATED WINE DISPLAY UNITS WITH 1 AND 2 DOORS, 560 MM DEPTH
+    fr: PRÉSENTOIRS RÉFRIGÉRÉS POUR VINS AVEC 1 ET 2 PORTES, PROFONDEUR DE 560 MM
+  sequence: 330
+  tipus: producte
+  pagina: p60
+  taula: p60-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: barbacoa
+    etiqueta: null
+  - codi: nivells_safates
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: ampolles_75cl
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 15EV4605
+    ordre: 10
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: '5'
+        en: '5'
+        fr: '5'
+      nivells_safates:
+        es: '6'
+        en: '6'
+        fr: '6'
+      capacitat_litres:
+        es: '295'
+        en: '295'
+        fr: '295'
+      ampolles_75cl:
+        es: '90'
+        en: '90'
+        fr: '90'
+      classe_energetica:
+        es: B
+        en: B
+        fr: B
+      kw_365:
+        es: '1007'
+        en: '1007'
+        fr: '1007'
+      potencia_electrica:
+        es: 0,24 KW
+        en: 0,24 KW
+        fr: 0,24 KW
+  - codi: 15EV4905
+    ordre: 20
+    valors:
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      barbacoa:
+        es: 5+5
+        en: 5+5
+        fr: 5+5
+      nivells_safates:
+        es: 6+6
+        en: 6+6
+        fr: 6+6
+      capacitat_litres:
+        es: '460'
+        en: '460'
+        fr: '460'
+      ampolles_75cl:
+        es: '154'
+        en: '154'
+        fr: '154'
+      classe_energetica:
+        es: B
+        en: B
+        fr: B
+      kw_365:
+        es: '1168'
+        en: '1168'
+        fr: '1168'
+      potencia_electrica:
+        es: 0,30 KW
+        en: 0,30 KW
+        fr: 0,30 KW
+  compartits: []
+- clau: EXPOSITORES PARA VINOS REFRIGERADOS, CON 2 TEMPERATURAS
+  noms:
+    es: EXPOSITORES PARA VINOS REFRIGERADOS, CON 2 TEMPERATURAS
+    en: REFRIGERATED WINE DISPLAY UNITS WITH 2 TEMPERATURE ZONES
+    fr: PRÉSENTOIRS RÉFRIGÉRÉS POUR VINS À 2 ZONES DE TEMPÉRATURE
+  sequence: 340
+  tipus: producte
+  pagina: p61
+  taula: p61-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: barbacoa
+    etiqueta: null
+  - codi: nivells_safates
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: ampolles_75cl
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 15EV5605
+    ordre: 10
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: '5'
+        en: '5'
+        fr: '5'
+      nivells_safates:
+        es: '6'
+        en: '6'
+        fr: '6'
+      capacitat_litres:
+        es: '150'
+        en: '150'
+        fr: '150'
+      ampolles_75cl:
+        es: '48'
+        en: '48'
+        fr: '48'
+      classe_energetica:
+        es: G
+        en: G
+        fr: G
+      kw_365:
+        es: '248'
+        en: '248'
+        fr: '248'
+      potencia_electrica:
+        es: 0,26 KW
+        en: 0,26 KW
+        fr: 0,26 KW
+  - codi: 15EV5496
+    ordre: 20
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: '5'
+        en: '5'
+        fr: '5'
+      nivells_safates:
+        es: '6'
+        en: '6'
+        fr: '6'
+      capacitat_litres:
+        es: '140'
+        en: '140'
+        fr: '140'
+      ampolles_75cl:
+        es: '34'
+        en: '34'
+        fr: '34'
+      classe_energetica:
+        es: G
+        en: G
+        fr: G
+      kw_365:
+        es: '142'
+        en: '142'
+        fr: '142'
+      potencia_electrica:
+        es: 0,09 KW
+        en: 0,09 KW
+        fr: 0,09 KW
+  - codi: 15EV5607
+    ordre: 30
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: '8'
+        en: '8'
+        fr: '8'
+      nivells_safates:
+        es: '9'
+        en: '9'
+        fr: '9'
+      capacitat_litres:
+        es: '380'
+        en: '380'
+        fr: '380'
+      ampolles_75cl:
+        es: '143'
+        en: '143'
+        fr: '143'
+      classe_energetica:
+        es: G
+        en: G
+        fr: G
+      kw_365:
+        es: '398'
+        en: '398'
+        fr: '398'
+      potencia_electrica:
+        es: 0,47 KW
+        en: 0,47 KW
+        fr: 0,47 KW
+  - codi: 15EV5672
+    ordre: 40
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: '8'
+        en: '8'
+        fr: '8'
+      nivells_safates:
+        es: '9'
+        en: '9'
+        fr: '9'
+      capacitat_litres:
+        es: '470'
+        en: '470'
+        fr: '470'
+      ampolles_75cl:
+        es: '165'
+        en: '165'
+        fr: '165'
+      classe_energetica:
+        es: G
+        en: G
+        fr: G
+      kw_365:
+        es: '175'
+        en: '175'
+        fr: '175'
+      potencia_electrica:
+        es: 0,26 KW
+        en: 0,26 KW
+        fr: 0,26 KW
+  compartits: []
+- clau: EXPOSITORES PARA VINOS REFRIGERADOS, DE GRAN CAPACIDAD, CON 1 Y 2 PUERTAS
+  noms:
+    es: EXPOSITORES PARA VINOS REFRIGERADOS, DE GRAN CAPACIDAD, CON 1 Y 2 PUERTAS
+    en: LARGE-CAPACITY REFRIGERATED WINE DISPLAY UNITS WITH 1 AND 2 DOORS
+    fr: PRÉSENTOIRS RÉFRIGÉRÉS POUR VINS DE GRANDE CAPACITÉ AVEC 1 ET 2 PORTES
+  sequence: 350
+  tipus: producte
+  pagina: p62
+  taula: p62-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: barbacoa
+    etiqueta: null
+  - codi: nivells_safates
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: ampolles_75cl
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 15EV8687
+    ordre: 10
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: '6'
+        en: '6'
+        fr: '6'
+      nivells_safates:
+        es: '6'
+        en: '6'
+        fr: '6'
+      capacitat_litres:
+        es: '505'
+        en: '505'
+        fr: '505'
+      ampolles_75cl:
+        es: '105'
+        en: '105'
+        fr: '105'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '175'
+        en: '175'
+        fr: '175'
+      potencia_electrica:
+        es: 0,26 KW
+        en: 0,26 KW
+        fr: 0,26 KW
+  - codi: 15EV8137
+    ordre: 20
+    valors:
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      barbacoa:
+        es: 6+6
+        en: 6+6
+        fr: 6+6
+      nivells_safates:
+        es: 6+6
+        en: 6+6
+        fr: 6+6
+      capacitat_litres:
+        es: '1010'
+        en: '1010'
+        fr: '1010'
+      ampolles_75cl:
+        es: '210'
+        en: '210'
+        fr: '210'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '2780'
+        en: '2780'
+        fr: '2780'
+      potencia_electrica:
+        es: 0,52 KW
+        en: 0,52 KW
+        fr: 0,52 KW
+  compartits: []
+- clau: CAVAS EXPOSITORAS DE MADURACIÓN DE CARNE
+  noms:
+    es: CAVAS EXPOSITORAS DE MADURACIÓN DE CARNE
+    en: DISPLAY CABINETS FOR MEAT DRY-AGING
+    fr: VITRINES D’EXPOSITION POUR LA MATURATION DE LA VIANDE
+  sequence: 360
+  tipus: producte
+  pagina: p65
+  taula: p65-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: barra_ganxos
+    etiqueta: null
+  - codi: barbacoa
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: capacitat_kg
+    etiqueta:
+      es: Capacidad Kgs.
+      en: Condensing unit
+      fr: Unité de condensation
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 15EC6609
+    ordre: 10
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barra_ganxos:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: '1'
+        en: '1'
+        fr: '1'
+      capacitat_litres:
+        es: '120'
+        en: '120'
+        fr: '120'
+      capacitat_kg:
+        es: '20'
+        en: '20'
+        fr: '20'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '900'
+        en: '900'
+        fr: '900'
+      potencia_electrica:
+        es: 0,20 KW
+        en: 0,20 KW
+        fr: 0,20 KW
+  - codi: 15EC6615
+    ordre: 20
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barra_ganxos:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: '2'
+        en: '2'
+        fr: '2'
+      capacitat_litres:
+        es: '240'
+        en: '240'
+        fr: '240'
+      capacitat_kg:
+        es: '55'
+        en: '55'
+        fr: '55'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '1080'
+        en: '1080'
+        fr: '1080'
+      potencia_electrica:
+        es: 0,24 KW
+        en: 0,24 KW
+        fr: 0,24 KW
+  - codi: 15EC6619
+    ordre: 30
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barra_ganxos:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: '2'
+        en: '2'
+        fr: '2'
+      capacitat_litres:
+        es: '320'
+        en: '320'
+        fr: '320'
+      capacitat_kg:
+        es: '75'
+        en: '75'
+        fr: '75'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '1395'
+        en: '1395'
+        fr: '1395'
+      potencia_electrica:
+        es: 0,31 KW
+        en: 0,31 KW
+        fr: 0,31 KW
+  - codi: 15EC6821
+    ordre: 40
+    valors:
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barra_ganxos:
+        es: '1'
+        en: '1'
+        fr: '1'
+      barbacoa:
+        es: '2'
+        en: '2'
+        fr: '2'
+      capacitat_litres:
+        es: '645'
+        en: '645'
+        fr: '645'
+      capacitat_kg:
+        es: '150'
+        en: '150'
+        fr: '150'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '1395'
+        en: '1395'
+        fr: '1395'
+      potencia_electrica:
+        es: 0,31 KW
+        en: 0,31 KW
+        fr: 0,31 KW
+  compartits: []
+- clau: VITRINAS-MOSTRADOR REFRIGERADAS CON CRISTAL RECTO, PARA CHARCUTERÍAS
+  noms:
+    es: VITRINAS-MOSTRADOR REFRIGERADAS CON CRISTAL RECTO, PARA CHARCUTERÍAS
+    en: REFRIGERATED DISPLAY CABINETS WITH STRAIGHT GLASS FOR DELIS
+    fr: VITRINES RÉFRIGÉRÉES AVEC VITRE DROITE POUR CHARCUTERIES
+  sequence: 370
+  tipus: producte
+  pagina: p68
+  taula: p68-t1
+  blocs: 2
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: dimensions_cuba
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 24X01159
+    ordre: 10
+    valors:
+      dimensions_cuba:
+        es: 1,15
+        en: 1,15
+        fr: 1,15
+      capacitat_litres:
+        es: '452'
+        en: '452'
+        fr: '452'
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '4905'
+        en: '4905'
+        fr: '4905'
+      potencia_electrica:
+        es: 1,09 KW
+        en: 1,09 KW
+        fr: 1,09 KW
+  - codi: 24X07159
+    ordre: 1010
+    valors:
+      dimensions_cuba:
+        es: 1,15
+        en: 1,15
+        fr: 1,15
+      capacitat_litres:
+        es: '452'
+        en: '452'
+        fr: '452'
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '4905'
+        en: '4905'
+        fr: '4905'
+      potencia_electrica:
+        es: 1,09 KW
+        en: 1,09 KW
+        fr: 1,09 KW
+  - codi: 24X02199
+    ordre: 20
+    valors:
+      dimensions_cuba:
+        es: 1,54
+        en: 1,54
+        fr: 1,54
+      capacitat_litres:
+        es: '606'
+        en: '606'
+        fr: '606'
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '5715'
+        en: '5715'
+        fr: '5715'
+      potencia_electrica:
+        es: 1,27 KW
+        en: 1,27 KW
+        fr: 1,27 KW
+  - codi: 24X08199
+    ordre: 1020
+    valors:
+      dimensions_cuba:
+        es: 1,54
+        en: 1,54
+        fr: 1,54
+      capacitat_litres:
+        es: '606'
+        en: '606'
+        fr: '606'
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '5715'
+        en: '5715'
+        fr: '5715'
+      potencia_electrica:
+        es: 1,27 KW
+        en: 1,27 KW
+        fr: 1,27 KW
+  - codi: 24X03249
+    ordre: 30
+    valors:
+      dimensions_cuba:
+        es: 1,92
+        en: 1,92
+        fr: 1,92
+      capacitat_litres:
+        es: '759'
+        en: '759'
+        fr: '759'
+      portes:
+        es: '4'
+        en: '4'
+        fr: '4'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '6300'
+        en: '6300'
+        fr: '6300'
+      potencia_electrica:
+        es: 1,40 KW
+        en: 1,40 KW
+        fr: 1,40 KW
+  - codi: 24X09249
+    ordre: 1030
+    valors:
+      dimensions_cuba:
+        es: 1,92
+        en: 1,92
+        fr: 1,92
+      capacitat_litres:
+        es: '759'
+        en: '759'
+        fr: '759'
+      portes:
+        es: '4'
+        en: '4'
+        fr: '4'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '6300'
+        en: '6300'
+        fr: '6300'
+      potencia_electrica:
+        es: 1,40 KW
+        en: 1,40 KW
+        fr: 1,40 KW
+  - codi: 24X04159
+    ordre: 40
+    valors:
+      dimensions_cuba:
+        es: 1,29
+        en: 1,29
+        fr: 1,29
+      capacitat_litres:
+        es: '366'
+        en: '366'
+        fr: '366'
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '4905'
+        en: '4905'
+        fr: '4905'
+      potencia_electrica:
+        es: 1,09 KW
+        en: 1,09 KW
+        fr: 1,09 KW
+  - codi: 24X10159
+    ordre: 1040
+    valors:
+      dimensions_cuba:
+        es: 1,29
+        en: 1,29
+        fr: 1,29
+      capacitat_litres:
+        es: '366'
+        en: '366'
+        fr: '366'
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '4905'
+        en: '4905'
+        fr: '4905'
+      potencia_electrica:
+        es: 1,09 KW
+        en: 1,09 KW
+        fr: 1,09 KW
+  - codi: 24X05199
+    ordre: 50
+    valors:
+      dimensions_cuba:
+        es: 1,72
+        en: 1,72
+        fr: 1,72
+      capacitat_litres:
+        es: '471'
+        en: '471'
+        fr: '471'
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '5715'
+        en: '5715'
+        fr: '5715'
+      potencia_electrica:
+        es: 1,27 KW
+        en: 1,27 KW
+        fr: 1,27 KW
+  - codi: 24X11199
+    ordre: 1050
+    valors:
+      dimensions_cuba:
+        es: 1,72
+        en: 1,72
+        fr: 1,72
+      capacitat_litres:
+        es: '471'
+        en: '471'
+        fr: '471'
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '5715'
+        en: '5715'
+        fr: '5715'
+      potencia_electrica:
+        es: 1,27 KW
+        en: 1,27 KW
+        fr: 1,27 KW
+  - codi: 24X06249
+    ordre: 60
+    valors:
+      dimensions_cuba:
+        es: 2,15
+        en: 2,15
+        fr: 2,15
+      capacitat_litres:
+        es: '615'
+        en: '615'
+        fr: '615'
+      portes:
+        es: '4'
+        en: '4'
+        fr: '4'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '6300'
+        en: '6300'
+        fr: '6300'
+      potencia_electrica:
+        es: 1,40 KW
+        en: 1,40 KW
+        fr: 1,40 KW
+  - codi: 24X12249
+    ordre: 1060
+    valors:
+      dimensions_cuba:
+        es: 2,15
+        en: 2,15
+        fr: 2,15
+      capacitat_litres:
+        es: '615'
+        en: '615'
+        fr: '615'
+      portes:
+        es: '4'
+        en: '4'
+        fr: '4'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '6300'
+        en: '6300'
+        fr: '6300'
+      potencia_electrica:
+        es: 1,40 KW
+        en: 1,40 KW
+        fr: 1,40 KW
+  compartits: []
+- clau: VITRINAS-MOSTRADOR REFRIGERADAS CON CRISTAL CURVADO, PARA CHARCUTERÍAS
+  noms:
+    es: VITRINAS-MOSTRADOR REFRIGERADAS CON CRISTAL CURVADO, PARA CHARCUTERÍAS
+    en: REFRIGERATED DISPLAY CABINETS WITH CURVED GLASS FOR DELIS
+    fr: VITRINES RÉFRIGÉRÉES AVEC VITRE COURBÉE POUR CHARCUTERIES
+  sequence: 380
+  tipus: producte
+  pagina: p69
+  taula: p69-t1
+  blocs: 2
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: dimensions_cuba
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 24X13159
+    ordre: 10
+    valors:
+      dimensions_cuba:
+        es: 1,15
+        en: 1,15
+        fr: 1,15
+      capacitat_litres:
+        es: '452'
+        en: '452'
+        fr: '452'
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '4905'
+        en: '4905'
+        fr: '4905'
+      potencia_electrica:
+        es: 1,09 KW
+        en: 1,09 KW
+        fr: 1,09 KW
+  - codi: 24X19159
+    ordre: 1010
+    valors:
+      dimensions_cuba:
+        es: 1,15
+        en: 1,15
+        fr: 1,15
+      capacitat_litres:
+        es: '452'
+        en: '452'
+        fr: '452'
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '4905'
+        en: '4905'
+        fr: '4905'
+      potencia_electrica:
+        es: 1,09 KW
+        en: 1,09 KW
+        fr: 1,09 KW
+  - codi: 24X14199
+    ordre: 20
+    valors:
+      dimensions_cuba:
+        es: 1,54
+        en: 1,54
+        fr: 1,54
+      capacitat_litres:
+        es: '606'
+        en: '606'
+        fr: '606'
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '5715'
+        en: '5715'
+        fr: '5715'
+      potencia_electrica:
+        es: 1,27 KW
+        en: 1,27 KW
+        fr: 1,27 KW
+  - codi: 24X20199
+    ordre: 1020
+    valors:
+      dimensions_cuba:
+        es: 1,54
+        en: 1,54
+        fr: 1,54
+      capacitat_litres:
+        es: '606'
+        en: '606'
+        fr: '606'
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '5715'
+        en: '5715'
+        fr: '5715'
+      potencia_electrica:
+        es: 1,27 KW
+        en: 1,27 KW
+        fr: 1,27 KW
+  - codi: 24X15249
+    ordre: 30
+    valors:
+      dimensions_cuba:
+        es: 1,92
+        en: 1,92
+        fr: 1,92
+      capacitat_litres:
+        es: '759'
+        en: '759'
+        fr: '759'
+      portes:
+        es: '4'
+        en: '4'
+        fr: '4'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '6300'
+        en: '6300'
+        fr: '6300'
+      potencia_electrica:
+        es: 1,40 KW
+        en: 1,40 KW
+        fr: 1,40 KW
+  - codi: 24X21249
+    ordre: 1030
+    valors:
+      dimensions_cuba:
+        es: 1,92
+        en: 1,92
+        fr: 1,92
+      capacitat_litres:
+        es: '759'
+        en: '759'
+        fr: '759'
+      portes:
+        es: '4'
+        en: '4'
+        fr: '4'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '6300'
+        en: '6300'
+        fr: '6300'
+      potencia_electrica:
+        es: 1,40 KW
+        en: 1,40 KW
+        fr: 1,40 KW
+  - codi: 24X16159
+    ordre: 40
+    valors:
+      dimensions_cuba:
+        es: 1,29
+        en: 1,29
+        fr: 1,29
+      capacitat_litres:
+        es: '366'
+        en: '366'
+        fr: '366'
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '4905'
+        en: '4905'
+        fr: '4905'
+      potencia_electrica:
+        es: 1,09 KW
+        en: 1,09 KW
+        fr: 1,09 KW
+  - codi: 24X22159
+    ordre: 1040
+    valors:
+      dimensions_cuba:
+        es: 1,29
+        en: 1,29
+        fr: 1,29
+      capacitat_litres:
+        es: '366'
+        en: '366'
+        fr: '366'
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '4905'
+        en: '4905'
+        fr: '4905'
+      potencia_electrica:
+        es: 1,09 KW
+        en: 1,09 KW
+        fr: 1,09 KW
+  - codi: 24X17199
+    ordre: 50
+    valors:
+      dimensions_cuba:
+        es: 1,72
+        en: 1,72
+        fr: 1,72
+      capacitat_litres:
+        es: '471'
+        en: '471'
+        fr: '471'
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '5715'
+        en: '5715'
+        fr: '5715'
+      potencia_electrica:
+        es: 1,27 KW
+        en: 1,27 KW
+        fr: 1,27 KW
+  - codi: 24X23199
+    ordre: 1050
+    valors:
+      dimensions_cuba:
+        es: 1,72
+        en: 1,72
+        fr: 1,72
+      capacitat_litres:
+        es: '471'
+        en: '471'
+        fr: '471'
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '5715'
+        en: '5715'
+        fr: '5715'
+      potencia_electrica:
+        es: 1,27 KW
+        en: 1,27 KW
+        fr: 1,27 KW
+  - codi: 24X18249
+    ordre: 60
+    valors:
+      dimensions_cuba:
+        es: 2,15
+        en: 2,15
+        fr: 2,15
+      capacitat_litres:
+        es: '615'
+        en: '615'
+        fr: '615'
+      portes:
+        es: '4'
+        en: '4'
+        fr: '4'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '6300'
+        en: '6300'
+        fr: '6300'
+      potencia_electrica:
+        es: 1,40 KW
+        en: 1,40 KW
+        fr: 1,40 KW
+  - codi: 24X24249
+    ordre: 1060
+    valors:
+      dimensions_cuba:
+        es: 2,15
+        en: 2,15
+        fr: 2,15
+      capacitat_litres:
+        es: '615'
+        en: '615'
+        fr: '615'
+      portes:
+        es: '4'
+        en: '4'
+        fr: '4'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '6300'
+        en: '6300'
+        fr: '6300'
+      potencia_electrica:
+        es: 1,40 KW
+        en: 1,40 KW
+        fr: 1,40 KW
+  compartits: []
+- clau: VITRINAS-MOSTRADOR REFRIGERADAS CON FRÍO VENTILADO, PARA CARNICERÍAS
+  noms:
+    es: VITRINAS-MOSTRADOR REFRIGERADAS CON FRÍO VENTILADO, PARA CARNICERÍAS
+    en: REFRIGERATED DISPLAY CABINETS WITH VENTILATED COOLING FOR BUTCHER
+    fr: VITRINES RÉFRIGÉRÉES AVEC FROID VENTILÉ POUR BOUCHERIES
+  sequence: 390
+  tipus: producte
+  pagina: p70
+  taula: p70-t1
+  blocs: 2
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: dimensions_cuba
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 24M25151
+    ordre: 10
+    valors:
+      dimensions_cuba:
+        es: 1,36
+        en: 1,36
+        fr: 1,36
+      capacitat_litres:
+        es: '444'
+        en: '444'
+        fr: '444'
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '4725'
+        en: '4725'
+        fr: '4725'
+      potencia_electrica:
+        es: 1,05 KW
+        en: 1,05 KW
+        fr: 1,05 KW
+  - codi: 24M28151
+    ordre: 1010
+    valors:
+      dimensions_cuba:
+        es: 1,36
+        en: 1,36
+        fr: 1,36
+      capacitat_litres:
+        es: '444'
+        en: '444'
+        fr: '444'
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '4725'
+        en: '4725'
+        fr: '4725'
+      potencia_electrica:
+        es: 1,05 KW
+        en: 1,05 KW
+        fr: 1,05 KW
+  - codi: 24M26191
+    ordre: 20
+    valors:
+      dimensions_cuba:
+        es: 1,81
+        en: 1,81
+        fr: 1,81
+      capacitat_litres:
+        es: '594'
+        en: '594'
+        fr: '594'
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '5805'
+        en: '5805'
+        fr: '5805'
+      potencia_electrica:
+        es: 1,29 KW
+        en: 1,29 KW
+        fr: 1,29 KW
+  - codi: 24M29191
+    ordre: 1020
+    valors:
+      dimensions_cuba:
+        es: 1,81
+        en: 1,81
+        fr: 1,81
+      capacitat_litres:
+        es: '594'
+        en: '594'
+        fr: '594'
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '5805'
+        en: '5805'
+        fr: '5805'
+      potencia_electrica:
+        es: 1,29 KW
+        en: 1,29 KW
+        fr: 1,29 KW
+  - codi: 24M27241
+    ordre: 30
+    valors:
+      dimensions_cuba:
+        es: 2,26
+        en: 2,26
+        fr: 2,26
+      capacitat_litres:
+        es: '745'
+        en: '745'
+        fr: '745'
+      portes:
+        es: '4'
+        en: '4'
+        fr: '4'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '6120'
+        en: '6120'
+        fr: '6120'
+      potencia_electrica:
+        es: 1,36 KW
+        en: 1,36 KW
+        fr: 1,36 KW
+  - codi: 24M30241
+    ordre: 1030
+    valors:
+      dimensions_cuba:
+        es: 2,26
+        en: 2,26
+        fr: 2,26
+      capacitat_litres:
+        es: '745'
+        en: '745'
+        fr: '745'
+      portes:
+        es: '4'
+        en: '4'
+        fr: '4'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '6120'
+        en: '6120'
+        fr: '6120'
+      potencia_electrica:
+        es: 1,36 KW
+        en: 1,36 KW
+        fr: 1,36 KW
+  - codi: 24M31151
+    ordre: 40
+    valors:
+      dimensions_cuba:
+        es: 1,36
+        en: 1,36
+        fr: 1,36
+      capacitat_litres:
+        es: '444'
+        en: '444'
+        fr: '444'
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '4725'
+        en: '4725'
+        fr: '4725'
+      potencia_electrica:
+        es: 1,05 KW
+        en: 1,05 KW
+        fr: 1,05 KW
+  - codi: 24M34151
+    ordre: 1040
+    valors:
+      dimensions_cuba:
+        es: 1,36
+        en: 1,36
+        fr: 1,36
+      capacitat_litres:
+        es: '444'
+        en: '444'
+        fr: '444'
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '4725'
+        en: '4725'
+        fr: '4725'
+      potencia_electrica:
+        es: 1,05 KW
+        en: 1,05 KW
+        fr: 1,05 KW
+  - codi: 24M32191
+    ordre: 50
+    valors:
+      dimensions_cuba:
+        es: 1,81
+        en: 1,81
+        fr: 1,81
+      capacitat_litres:
+        es: '594'
+        en: '594'
+        fr: '594'
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '5805'
+        en: '5805'
+        fr: '5805'
+      potencia_electrica:
+        es: 1,29 KW
+        en: 1,29 KW
+        fr: 1,29 KW
+  - codi: 24M35191
+    ordre: 1050
+    valors:
+      dimensions_cuba:
+        es: 1,81
+        en: 1,81
+        fr: 1,81
+      capacitat_litres:
+        es: '594'
+        en: '594'
+        fr: '594'
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '5805'
+        en: '5805'
+        fr: '5805'
+      potencia_electrica:
+        es: 1,29 KW
+        en: 1,29 KW
+        fr: 1,29 KW
+  - codi: 24M33241
+    ordre: 60
+    valors:
+      dimensions_cuba:
+        es: 2,26
+        en: 2,26
+        fr: 2,26
+      capacitat_litres:
+        es: '745'
+        en: '745'
+        fr: '745'
+      portes:
+        es: '4'
+        en: '4'
+        fr: '4'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '6120'
+        en: '6120'
+        fr: '6120'
+      potencia_electrica:
+        es: 1,36 KW
+        en: 1,36 KW
+        fr: 1,36 KW
+  - codi: 24M36241
+    ordre: 1060
+    valors:
+      dimensions_cuba:
+        es: 2,26
+        en: 2,26
+        fr: 2,26
+      capacitat_litres:
+        es: '745'
+        en: '745'
+        fr: '745'
+      portes:
+        es: '4'
+        en: '4'
+        fr: '4'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '6120'
+        en: '6120'
+        fr: '6120'
+      potencia_electrica:
+        es: 1,36 KW
+        en: 1,36 KW
+        fr: 1,36 KW
+  compartits: []
+- clau: VITRINAS-MOSTRADOR REFRIGERADAS CON CRISTAL RECTO, PARA PASTELERÍA
+  noms:
+    es: VITRINAS-MOSTRADOR REFRIGERADAS CON CRISTAL RECTO, PARA PASTELERÍA
+    en: REFRIGERATED DISPLAY CABINETS WITH STRAIGHT GLASS, FOR PASTRY
+    fr: VITRINES RÉFRIGÉRÉES AVEC VITRE DROITE, POUR PÂTISSERIE
+  sequence: 400
+  tipus: producte
+  pagina: p71
+  taula: p71-t1
+  blocs: 2
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: wok
+    etiqueta: null
+  - codi: dimensions_cuba
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 24P37159
+    ordre: 10
+    valors:
+      wok:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_cuba:
+        es: 1,15
+        en: 1,15
+        fr: 1,15
+      capacitat_litres:
+        es: '452'
+        en: '452'
+        fr: '452'
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '4635'
+        en: '4635'
+        fr: '4635'
+      potencia_electrica:
+        es: 1,03 KW
+        en: 1,03 KW
+        fr: 1,03 KW
+  - codi: 24P43159
+    ordre: 1010
+    valors:
+      wok:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_cuba:
+        es: 1,15
+        en: 1,15
+        fr: 1,15
+      capacitat_litres:
+        es: '452'
+        en: '452'
+        fr: '452'
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '4635'
+        en: '4635'
+        fr: '4635'
+      potencia_electrica:
+        es: 1,03 KW
+        en: 1,03 KW
+        fr: 1,03 KW
+  - codi: 24P38199
+    ordre: 20
+    valors:
+      wok:
+        es: '3'
+        en: '3'
+        fr: '3'
+      dimensions_cuba:
+        es: 1,54
+        en: 1,54
+        fr: 1,54
+      capacitat_litres:
+        es: '606'
+        en: '606'
+        fr: '606'
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '5625'
+        en: '5625'
+        fr: '5625'
+      potencia_electrica:
+        es: 1,25 KW
+        en: 1,25 KW
+        fr: 1,25 KW
+  - codi: 24P44199
+    ordre: 1020
+    valors:
+      wok:
+        es: '3'
+        en: '3'
+        fr: '3'
+      dimensions_cuba:
+        es: 1,54
+        en: 1,54
+        fr: 1,54
+      capacitat_litres:
+        es: '606'
+        en: '606'
+        fr: '606'
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '5625'
+        en: '5625'
+        fr: '5625'
+      potencia_electrica:
+        es: 1,25 KW
+        en: 1,25 KW
+        fr: 1,25 KW
+  - codi: 24P39249
+    ordre: 30
+    valors:
+      wok:
+        es: '4'
+        en: '4'
+        fr: '4'
+      dimensions_cuba:
+        es: 1,92
+        en: 1,92
+        fr: 1,92
+      capacitat_litres:
+        es: '759'
+        en: '759'
+        fr: '759'
+      portes:
+        es: '4'
+        en: '4'
+        fr: '4'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '5940'
+        en: '5940'
+        fr: '5940'
+      potencia_electrica:
+        es: 1,32 KW
+        en: 1,32 KW
+        fr: 1,32 KW
+  - codi: 24P45249
+    ordre: 1030
+    valors:
+      wok:
+        es: '4'
+        en: '4'
+        fr: '4'
+      dimensions_cuba:
+        es: 1,92
+        en: 1,92
+        fr: 1,92
+      capacitat_litres:
+        es: '759'
+        en: '759'
+        fr: '759'
+      portes:
+        es: '4'
+        en: '4'
+        fr: '4'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '5940'
+        en: '5940'
+        fr: '5940'
+      potencia_electrica:
+        es: 1,32 KW
+        en: 1,32 KW
+        fr: 1,32 KW
+  - codi: 24P40159
+    ordre: 40
+    valors:
+      wok:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_cuba:
+        es: 1,29
+        en: 1,29
+        fr: 1,29
+      capacitat_litres:
+        es: '366'
+        en: '366'
+        fr: '366'
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '4635'
+        en: '4635'
+        fr: '4635'
+      potencia_electrica:
+        es: 1,03 KW
+        en: 1,03 KW
+        fr: 1,03 KW
+  - codi: 24P46159
+    ordre: 1040
+    valors:
+      wok:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_cuba:
+        es: 1,29
+        en: 1,29
+        fr: 1,29
+      capacitat_litres:
+        es: '366'
+        en: '366'
+        fr: '366'
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '4635'
+        en: '4635'
+        fr: '4635'
+      potencia_electrica:
+        es: 1,03 KW
+        en: 1,03 KW
+        fr: 1,03 KW
+  - codi: 24P41199
+    ordre: 50
+    valors:
+      wok:
+        es: '3'
+        en: '3'
+        fr: '3'
+      dimensions_cuba:
+        es: 1,72
+        en: 1,72
+        fr: 1,72
+      capacitat_litres:
+        es: '471'
+        en: '471'
+        fr: '471'
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '5625'
+        en: '5625'
+        fr: '5625'
+      potencia_electrica:
+        es: 1,25 KW
+        en: 1,25 KW
+        fr: 1,25 KW
+  - codi: 24P47199
+    ordre: 1050
+    valors:
+      wok:
+        es: '3'
+        en: '3'
+        fr: '3'
+      dimensions_cuba:
+        es: 1,72
+        en: 1,72
+        fr: 1,72
+      capacitat_litres:
+        es: '471'
+        en: '471'
+        fr: '471'
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '5625'
+        en: '5625'
+        fr: '5625'
+      potencia_electrica:
+        es: 1,25 KW
+        en: 1,25 KW
+        fr: 1,25 KW
+  - codi: 24P42249
+    ordre: 60
+    valors:
+      wok:
+        es: '4'
+        en: '4'
+        fr: '4'
+      dimensions_cuba:
+        es: 2,15
+        en: 2,15
+        fr: 2,15
+      capacitat_litres:
+        es: '615'
+        en: '615'
+        fr: '615'
+      portes:
+        es: '4'
+        en: '4'
+        fr: '4'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '5940'
+        en: '5940'
+        fr: '5940'
+      potencia_electrica:
+        es: 1,32 KW
+        en: 1,32 KW
+        fr: 1,32 KW
+  - codi: 24P48249
+    ordre: 1060
+    valors:
+      wok:
+        es: '4'
+        en: '4'
+        fr: '4'
+      dimensions_cuba:
+        es: 2,15
+        en: 2,15
+        fr: 2,15
+      capacitat_litres:
+        es: '615'
+        en: '615'
+        fr: '615'
+      portes:
+        es: '4'
+        en: '4'
+        fr: '4'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '5940'
+        en: '5940'
+        fr: '5940'
+      potencia_electrica:
+        es: 1,32 KW
+        en: 1,32 KW
+        fr: 1,32 KW
+  compartits: []
+- clau: VITRINAS-MOSTRADOR REFRIGERADAS CON CRISTAL CURVADO, PARA PASTELERÍA
+  noms:
+    es: VITRINAS-MOSTRADOR REFRIGERADAS CON CRISTAL CURVADO, PARA PASTELERÍA
+    en: REFRIGERATED DISPLAY CABINETS WITH CURVED GLASS, FOR PASTRY
+    fr: VITRINES RÉFRIGÉRÉES AVEC VITRE COURBÉE, POUR PÂTISSERIE
+  sequence: 410
+  tipus: producte
+  pagina: p72
+  taula: p72-t1
+  blocs: 2
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: wok
+    etiqueta: null
+  - codi: dimensions_cuba
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 24P49159
+    ordre: 10
+    valors:
+      wok:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_cuba:
+        es: 1,15
+        en: 1,15
+        fr: 1,15
+      capacitat_litres:
+        es: '452'
+        en: '452'
+        fr: '452'
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '4635'
+        en: '4635'
+        fr: '4635'
+      potencia_electrica:
+        es: 1,03 KW
+        en: 1,03 KW
+        fr: 1,03 KW
+  - codi: 24P52159
+    ordre: 1010
+    valors:
+      wok:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_cuba:
+        es: 1,15
+        en: 1,15
+        fr: 1,15
+      capacitat_litres:
+        es: '452'
+        en: '452'
+        fr: '452'
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '4635'
+        en: '4635'
+        fr: '4635'
+      potencia_electrica:
+        es: 1,03 KW
+        en: 1,03 KW
+        fr: 1,03 KW
+  - codi: 24P50199
+    ordre: 20
+    valors:
+      wok:
+        es: '3'
+        en: '3'
+        fr: '3'
+      dimensions_cuba:
+        es: 1,54
+        en: 1,54
+        fr: 1,54
+      capacitat_litres:
+        es: '606'
+        en: '606'
+        fr: '606'
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '5625'
+        en: '5625'
+        fr: '5625'
+      potencia_electrica:
+        es: 1,25 KW
+        en: 1,25 KW
+        fr: 1,25 KW
+  - codi: 24P53199
+    ordre: 1020
+    valors:
+      wok:
+        es: '3'
+        en: '3'
+        fr: '3'
+      dimensions_cuba:
+        es: 1,54
+        en: 1,54
+        fr: 1,54
+      capacitat_litres:
+        es: '606'
+        en: '606'
+        fr: '606'
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '5625'
+        en: '5625'
+        fr: '5625'
+      potencia_electrica:
+        es: 1,25 KW
+        en: 1,25 KW
+        fr: 1,25 KW
+  - codi: 24P51249
+    ordre: 30
+    valors:
+      wok:
+        es: '4'
+        en: '4'
+        fr: '4'
+      dimensions_cuba:
+        es: 1,92
+        en: 1,92
+        fr: 1,92
+      capacitat_litres:
+        es: '759'
+        en: '759'
+        fr: '759'
+      portes:
+        es: '4'
+        en: '4'
+        fr: '4'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '5940'
+        en: '5940'
+        fr: '5940'
+      potencia_electrica:
+        es: 1,32 KW
+        en: 1,32 KW
+        fr: 1,32 KW
+  - codi: 24P54249
+    ordre: 1030
+    valors:
+      wok:
+        es: '4'
+        en: '4'
+        fr: '4'
+      dimensions_cuba:
+        es: 1,92
+        en: 1,92
+        fr: 1,92
+      capacitat_litres:
+        es: '759'
+        en: '759'
+        fr: '759'
+      portes:
+        es: '4'
+        en: '4'
+        fr: '4'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '5940'
+        en: '5940'
+        fr: '5940'
+      potencia_electrica:
+        es: 1,32 KW
+        en: 1,32 KW
+        fr: 1,32 KW
+  - codi: 24P55159
+    ordre: 40
+    valors:
+      wok:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_cuba:
+        es: 1,29
+        en: 1,29
+        fr: 1,29
+      capacitat_litres:
+        es: '366'
+        en: '366'
+        fr: '366'
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '4635'
+        en: '4635'
+        fr: '4635'
+      potencia_electrica:
+        es: 1,03 KW
+        en: 1,03 KW
+        fr: 1,03 KW
+  - codi: 24P58159
+    ordre: 1040
+    valors:
+      wok:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_cuba:
+        es: 1,29
+        en: 1,29
+        fr: 1,29
+      capacitat_litres:
+        es: '366'
+        en: '366'
+        fr: '366'
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '4635'
+        en: '4635'
+        fr: '4635'
+      potencia_electrica:
+        es: 1,03 KW
+        en: 1,03 KW
+        fr: 1,03 KW
+  - codi: 24P56199
+    ordre: 50
+    valors:
+      wok:
+        es: '3'
+        en: '3'
+        fr: '3'
+      dimensions_cuba:
+        es: 1,72
+        en: 1,72
+        fr: 1,72
+      capacitat_litres:
+        es: '471'
+        en: '471'
+        fr: '471'
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '5625'
+        en: '5625'
+        fr: '5625'
+      potencia_electrica:
+        es: 1,25 KW
+        en: 1,25 KW
+        fr: 1,25 KW
+  - codi: 24P59199
+    ordre: 1050
+    valors:
+      wok:
+        es: '3'
+        en: '3'
+        fr: '3'
+      dimensions_cuba:
+        es: 1,72
+        en: 1,72
+        fr: 1,72
+      capacitat_litres:
+        es: '471'
+        en: '471'
+        fr: '471'
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '5625'
+        en: '5625'
+        fr: '5625'
+      potencia_electrica:
+        es: 1,25 KW
+        en: 1,25 KW
+        fr: 1,25 KW
+  - codi: 24P57249
+    ordre: 60
+    valors:
+      wok:
+        es: '4'
+        en: '4'
+        fr: '4'
+      dimensions_cuba:
+        es: 2,15
+        en: 2,15
+        fr: 2,15
+      capacitat_litres:
+        es: '615'
+        en: '615'
+        fr: '615'
+      portes:
+        es: '4'
+        en: '4'
+        fr: '4'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '5940'
+        en: '5940'
+        fr: '5940'
+      potencia_electrica:
+        es: 1,32 KW
+        en: 1,32 KW
+        fr: 1,32 KW
+  - codi: 24P60249
+    ordre: 1060
+    valors:
+      wok:
+        es: '4'
+        en: '4'
+        fr: '4'
+      dimensions_cuba:
+        es: 2,15
+        en: 2,15
+        fr: 2,15
+      capacitat_litres:
+        es: '615'
+        en: '615'
+        fr: '615'
+      portes:
+        es: '4'
+        en: '4'
+        fr: '4'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '5940'
+        en: '5940'
+        fr: '5940'
+      potencia_electrica:
+        es: 1,32 KW
+        en: 1,32 KW
+        fr: 1,32 KW
+  compartits: []
+- clau: VITRINAS EXPOSITORAS REFRIGERADAS PARA PESCADO, SOBRE MOSTRADOR Y SOBRE SOPORTE CON RUEDAS
+  noms:
+    es: VITRINAS EXPOSITORAS REFRIGERADAS PARA PESCADO, SOBRE MOSTRADOR Y SOBRE SOPORTE CON RUEDAS
+    en: REFRIGERATED DISPLAY CABINETS FOR FISH, COUNTERTOP AND ON WHEELED STAND
+    fr: VITRINES RÉFRIGÉRÉES DE PRÉSENTATION POUR POISSON, À POSER SUR COMPTOIR ET SUR SUPPORT À ROULETTES
+  sequence: 420
+  tipus: producte
+  pagina: p75
+  taula: p75-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: dimensions_cuba
+    etiqueta: null
+  - codi: mesures_interiors
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 24F65M26
+    ordre: 10
+    valors:
+      dimensions_cuba:
+        es: 0,34
+        en: 0,34
+        fr: 0,34
+      mesures_interiors:
+        es: 2 - GN 1/1 - 65
+        en: 2 - GN 1/1 - 65
+        fr: 2 - GN 1/1 - 65
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '833'
+        en: '833'
+        fr: '833'
+      potencia_electrica:
+        es: 0,30 KW
+        en: 0,30 KW
+        fr: 0,30 KW
+  - codi: 24F65526
+    ordre: 20
+    valors:
+      dimensions_cuba:
+        es: 0,34
+        en: 0,34
+        fr: 0,34
+      mesures_interiors:
+        es: 2 - GN 1/1 - 65
+        en: 2 - GN 1/1 - 65
+        fr: 2 - GN 1/1 - 65
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '833'
+        en: '833'
+        fr: '833'
+      potencia_electrica:
+        es: 0,30 KW
+        en: 0,30 KW
+        fr: 0,30 KW
+  - codi: 24F65M36
+    ordre: 30
+    valors:
+      dimensions_cuba:
+        es: 0,52
+        en: 0,52
+        fr: 0,52
+      mesures_interiors:
+        es: 3 - GN 1/1 - 65
+        en: 3 - GN 1/1 - 65
+        fr: 3 - GN 1/1 - 65
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '833'
+        en: '833'
+        fr: '833'
+      potencia_electrica:
+        es: 0,30 KW
+        en: 0,30 KW
+        fr: 0,30 KW
+  - codi: 24F65536
+    ordre: 40
+    valors:
+      dimensions_cuba:
+        es: 0,52
+        en: 0,52
+        fr: 0,52
+      mesures_interiors:
+        es: 3 - GN 1/1 - 65
+        en: 3 - GN 1/1 - 65
+        fr: 3 - GN 1/1 - 65
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '833'
+        en: '833'
+        fr: '833'
+      potencia_electrica:
+        es: 0,30 KW
+        en: 0,30 KW
+        fr: 0,30 KW
+  compartits: []
+- clau: VITRINAS EXPOSITORAS REFRIGERADAS PARA PESCADO, SOBRE PEANA, CON RUEDAS
+  noms:
+    es: VITRINAS EXPOSITORAS REFRIGERADAS PARA PESCADO, SOBRE PEANA, CON RUEDAS
+    en: REFRIGERATED DISPLAY CABINETS FOR FISH, ON BASE, WITH WHEELS
+    fr: VITRINES RÉFRIGÉRÉES DE PRÉSENTATION POUR POISSON, SUR SOCLE, AVEC ROULETTES
+  sequence: 430
+  tipus: producte
+  pagina: p76
+  taula: p76-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: dimensions_cuba
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 24F61159
+    ordre: 10
+    valors:
+      dimensions_cuba:
+        es: 0,76
+        en: 0,76
+        fr: 0,76
+      portes:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      classe_energetica:
+        es: G
+        en: G
+        fr: G
+      kw_365:
+        es: '2589'
+        en: '2589'
+        fr: '2589'
+      potencia_electrica:
+        es: 0,82 KW
+        en: 0,82 KW
+        fr: 0,82 KW
+  - codi: 24F62199
+    ordre: 20
+    valors:
+      dimensions_cuba:
+        es: 0,95
+        en: 0,95
+        fr: 0,95
+      portes:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      classe_energetica:
+        es: G
+        en: G
+        fr: G
+      kw_365:
+        es: '2963'
+        en: '2963'
+        fr: '2963'
+      potencia_electrica:
+        es: 0,99 KW
+        en: 0,99 KW
+        fr: 0,99 KW
+  - codi: 24F63249
+    ordre: 30
+    valors:
+      dimensions_cuba:
+        es: 1,13
+        en: 1,13
+        fr: 1,13
+      portes:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      classe_energetica:
+        es: G
+        en: G
+        fr: G
+      kw_365:
+        es: '3212'
+        en: '3212'
+        fr: '3212'
+      potencia_electrica:
+        es: 1,07 KW
+        en: 1,07 KW
+        fr: 1,07 KW
+  - codi: 24F64159
+    ordre: 40
+    valors:
+      dimensions_cuba:
+        es: 0,76
+        en: 0,76
+        fr: 0,76
+      portes:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      classe_energetica:
+        es: G
+        en: G
+        fr: G
+      kw_365:
+        es: '2589'
+        en: '2589'
+        fr: '2589'
+      potencia_electrica:
+        es: 0,82 KW
+        en: 0,82 KW
+        fr: 0,82 KW
+  - codi: 24F65199
+    ordre: 50
+    valors:
+      dimensions_cuba:
+        es: 0,95
+        en: 0,95
+        fr: 0,95
+      portes:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      classe_energetica:
+        es: G
+        en: G
+        fr: G
+      kw_365:
+        es: '2963'
+        en: '2963'
+        fr: '2963'
+      potencia_electrica:
+        es: 0,99 KW
+        en: 0,99 KW
+        fr: 0,99 KW
+  - codi: 24F66249
+    ordre: 60
+    valors:
+      dimensions_cuba:
+        es: 1,13
+        en: 1,13
+        fr: 1,13
+      portes:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      classe_energetica:
+        es: G
+        en: G
+        fr: G
+      kw_365:
+        es: '3212'
+        en: '3212'
+        fr: '3212'
+      potencia_electrica:
+        es: 1,07 KW
+        en: 1,07 KW
+        fr: 1,07 KW
+  compartits: []
+- clau: MURALES REFRIGERADOS ABIERTOS, DE 1380 MM. DE ALTURA
+  noms:
+    es: MURALES REFRIGERADOS ABIERTOS, DE 1380 MM. DE ALTURA
+    en: OPEN REFRIGERATED MULTIDECKS, 1380 MM HEIGHT
+    fr: MURAUX RÉFRIGÉRÉS OUVERTS, HAUTEUR 1380 MM
+  sequence: 440
+  tipus: producte
+  pagina: p79
+  taula: p79-t1
+  blocs: 2
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: dimensions_cuba
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: barbacoa
+    etiqueta: null
+  - codi: nivells_safates
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '24613607'
+    ordre: 10
+    valors:
+      dimensions_cuba:
+        es: 0,62
+        en: 0,62
+        fr: 0,62
+      capacitat_litres:
+        es: '140'
+        en: '140'
+        fr: '140'
+      portes:
+        es: '0'
+        en: '0'
+        fr: '0'
+      barbacoa:
+        es: '3'
+        en: '3'
+        fr: '3'
+      nivells_safates:
+        es: '4'
+        en: '4'
+        fr: '4'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '3840'
+        en: '3840'
+        fr: '3840'
+      potencia_electrica:
+        es: 1,14 KW
+        en: 1,14 KW
+        fr: 1,14 KW
+  - codi: 24R13607
+    ordre: 1010
+    valors:
+      dimensions_cuba:
+        es: 0,62
+        en: 0,62
+        fr: 0,62
+      capacitat_litres:
+        es: '140'
+        en: '140'
+        fr: '140'
+      portes:
+        es: '0'
+        en: '0'
+        fr: '0'
+      barbacoa:
+        es: '3'
+        en: '3'
+        fr: '3'
+      nivells_safates:
+        es: '4'
+        en: '4'
+        fr: '4'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '3840'
+        en: '3840'
+        fr: '3840'
+      potencia_electrica:
+        es: 1,14 KW
+        en: 1,14 KW
+        fr: 1,14 KW
+  - codi: '24613957'
+    ordre: 20
+    valors:
+      dimensions_cuba:
+        es: 1,03
+        en: 1,03
+        fr: 1,03
+      capacitat_litres:
+        es: '231'
+        en: '231'
+        fr: '231'
+      portes:
+        es: '0'
+        en: '0'
+        fr: '0'
+      barbacoa:
+        es: '3'
+        en: '3'
+        fr: '3'
+      nivells_safates:
+        es: '4'
+        en: '4'
+        fr: '4'
+      classe_energetica:
+        es: F
+        en: F
+        fr: F
+      kw_365:
+        es: '5320'
+        en: '5320'
+        fr: '5320'
+      potencia_electrica:
+        es: 1,38 KW
+        en: 1,38 KW
+        fr: 1,38 KW
+  - codi: 24R13957
+    ordre: 1020
+    valors:
+      dimensions_cuba:
+        es: 1,03
+        en: 1,03
+        fr: 1,03
+      capacitat_litres:
+        es: '231'
+        en: '231'
+        fr: '231'
+      portes:
+        es: '0'
+        en: '0'
+        fr: '0'
+      barbacoa:
+        es: '3'
+        en: '3'
+        fr: '3'
+      nivells_safates:
+        es: '4'
+        en: '4'
+        fr: '4'
+      classe_energetica:
+        es: F
+        en: F
+        fr: F
+      kw_365:
+        es: '5320'
+        en: '5320'
+        fr: '5320'
+      potencia_electrica:
+        es: 1,38 KW
+        en: 1,38 KW
+        fr: 1,38 KW
+  - codi: '24613137'
+    ordre: 30
+    valors:
+      dimensions_cuba:
+        es: 1,44
+        en: 1,44
+        fr: 1,44
+      capacitat_litres:
+        es: '322'
+        en: '322'
+        fr: '322'
+      portes:
+        es: '0'
+        en: '0'
+        fr: '0'
+      barbacoa:
+        es: '3'
+        en: '3'
+        fr: '3'
+      nivells_safates:
+        es: '4'
+        en: '4'
+        fr: '4'
+      classe_energetica:
+        es: F
+        en: F
+        fr: F
+      kw_365:
+        es: '7093'
+        en: '7093'
+        fr: '7093'
+      potencia_electrica:
+        es: 1,67 KW
+        en: 1,67 KW
+        fr: 1,67 KW
+  - codi: 24R13137
+    ordre: 1030
+    valors:
+      dimensions_cuba:
+        es: 1,44
+        en: 1,44
+        fr: 1,44
+      capacitat_litres:
+        es: '322'
+        en: '322'
+        fr: '322'
+      portes:
+        es: '0'
+        en: '0'
+        fr: '0'
+      barbacoa:
+        es: '3'
+        en: '3'
+        fr: '3'
+      nivells_safates:
+        es: '4'
+        en: '4'
+        fr: '4'
+      classe_energetica:
+        es: F
+        en: F
+        fr: F
+      kw_365:
+        es: '7093'
+        en: '7093'
+        fr: '7093'
+      potencia_electrica:
+        es: 1,67 KW
+        en: 1,67 KW
+        fr: 1,67 KW
+  - codi: '24613167'
+    ordre: 40
+    valors:
+      dimensions_cuba:
+        es: 1,85
+        en: 1,85
+        fr: 1,85
+      capacitat_litres:
+        es: '417'
+        en: '417'
+        fr: '417'
+      portes:
+        es: '0'
+        en: '0'
+        fr: '0'
+      barbacoa:
+        es: '3'
+        en: '3'
+        fr: '3'
+      nivells_safates:
+        es: '4'
+        en: '4'
+        fr: '4'
+      classe_energetica:
+        es: F
+        en: F
+        fr: F
+      kw_365:
+        es: '7583'
+        en: '7583'
+        fr: '7583'
+      potencia_electrica:
+        es: 2,09 KW
+        en: 2,09 KW
+        fr: 2,09 KW
+  - codi: 24R13167
+    ordre: 1040
+    valors:
+      dimensions_cuba:
+        es: 1,85
+        en: 1,85
+        fr: 1,85
+      capacitat_litres:
+        es: '417'
+        en: '417'
+        fr: '417'
+      portes:
+        es: '0'
+        en: '0'
+        fr: '0'
+      barbacoa:
+        es: '3'
+        en: '3'
+        fr: '3'
+      nivells_safates:
+        es: '4'
+        en: '4'
+        fr: '4'
+      classe_energetica:
+        es: F
+        en: F
+        fr: F
+      kw_365:
+        es: '7583'
+        en: '7583'
+        fr: '7583'
+      potencia_electrica:
+        es: 2,09 KW
+        en: 2,09 KW
+        fr: 2,09 KW
+  compartits: []
+- clau: MURALES REFRIGERADOS CON PUERTAS DE CRISTAL, DE 2000 MM. DE ALTURA
+  noms:
+    es: MURALES REFRIGERADOS CON PUERTAS DE CRISTAL, DE 2000 MM. DE ALTURA
+    en: GLASS DOOR REFRIGERATED MULTIDECKS, 2000 MM HEIGHT
+    fr: MURAUX RÉFRIGÉRÉS AVEC PORTES EN VERRE, HAUTEUR 2000 MM
+  sequence: 450
+  tipus: producte
+  pagina: p80
+  taula: p80-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: dimensions_cuba
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: barbacoa
+    etiqueta: null
+  - codi: nivells_safates
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '24510601'
+    ordre: 10
+    valors:
+      dimensions_cuba:
+        es: 2,00
+        en: 2,00
+        fr: 2,00
+      capacitat_litres:
+        es: '460'
+        en: '460'
+        fr: '460'
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      barbacoa:
+        es: '4'
+        en: '4'
+        fr: '4'
+      nivells_safates:
+        es: '5'
+        en: '5'
+        fr: '5'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '7630'
+        en: '7630'
+        fr: '7630'
+      potencia_electrica:
+        es: 0,83 KW
+        en: 0,83 KW
+        fr: 0,83 KW
+  - codi: '24610601'
+    ordre: 20
+    valors:
+      dimensions_cuba:
+        es: 3,50
+        en: 3,50
+        fr: 3,50
+      capacitat_litres:
+        es: '780'
+        en: '780'
+        fr: '780'
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      barbacoa:
+        es: '4'
+        en: '4'
+        fr: '4'
+      nivells_safates:
+        es: '5'
+        en: '5'
+        fr: '5'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '8291'
+        en: '8291'
+        fr: '8291'
+      potencia_electrica:
+        es: 1,25 KW
+        en: 1,25 KW
+        fr: 1,25 KW
+  compartits: []
+- clau: ISLA DE CONGELACIÓN CENTRAL, CON ACCESO POR AMBOS LADOS
+  noms:
+    es: ISLA DE CONGELACIÓN CENTRAL, CON ACCESO POR AMBOS LADOS
+    en: CENTRAL FREEZER ISLAND, WITH ACCESS FROM BOTH SIDES
+    fr: ÎLOT DE CONGÉLATION CENTRAL, AVEC ACCÈS DES DEUX CÔTÉS
+  sequence: 460
+  tipus: producte
+  pagina: p83
+  taula: p83-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: portes_corredisses
+    etiqueta: null
+  - codi: reixeta
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '24220601'
+    ordre: 10
+    valors:
+      capacitat_litres:
+        es: '1000'
+        en: '1000'
+        fr: '1000'
+      portes_corredisses:
+        es: '4'
+        en: '4'
+        fr: '4'
+      reixeta:
+        es: '5'
+        en: '5'
+        fr: '5'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '2886'
+        en: '2886'
+        fr: '2886'
+      potencia_electrica:
+        es: 0,33 KW
+        en: 0,33 KW
+        fr: 0,33 KW
+  compartits: []
+- clau: ISLAS DE CONGELACIÓN MURALES
+  noms:
+    es: ISLAS DE CONGELACIÓN MURALES
+    en: WALL FREEZER ISLANDS
+    fr: ÎLOT DE CONGÉLATION MURAUX
+  sequence: 470
+  tipus: producte
+  pagina: p84
+  taula: p84-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: portes_corredisses
+    etiqueta: null
+  - codi: reixeta
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '24146901'
+    ordre: 10
+    valors:
+      capacitat_litres:
+        es: '459'
+        en: '459'
+        fr: '459'
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+      reixeta:
+        es: '3'
+        en: '3'
+        fr: '3'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '2354'
+        en: '2354'
+        fr: '2354'
+      potencia_electrica:
+        es: 0,27 KW
+        en: 0,27 KW
+        fr: 0,27 KW
+  - codi: '24676901'
+    ordre: 20
+    valors:
+      capacitat_litres:
+        es: '717'
+        en: '717'
+        fr: '717'
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+      reixeta:
+        es: '5'
+        en: '5'
+        fr: '5'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '2860'
+        en: '2860'
+        fr: '2860'
+      potencia_electrica:
+        es: 0,34 KW
+        en: 0,34 KW
+        fr: 0,34 KW
+  - codi: '24776901'
+    ordre: 30
+    valors:
+      capacitat_litres:
+        es: '872'
+        en: '872'
+        fr: '872'
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+      reixeta:
+        es: '6'
+        en: '6'
+        fr: '6'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '2775'
+        en: '2775'
+        fr: '2775'
+      potencia_electrica:
+        es: 0,37 KW
+        en: 0,37 KW
+        fr: 0,37 KW
+  compartits: []
+- clau: ARCONES DE CONGELACIÓN, CON UNA PUERTA CIEGA ABATIBLE
+  noms:
+    es: ARCONES DE CONGELACIÓN, CON UNA PUERTA CIEGA ABATIBLE
+    en: FREEZER CHESTS WITH A SOLID FLIP-UP LID
+    fr: COFFRES DE CONGÉLATION AVEC UN COUVERCLE PLEIN ABATTANT
+  sequence: 480
+  tipus: producte
+  pagina: p87
+  taula: p87-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: mesures_interiors
+    etiqueta: null
+  - codi: cistella
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '19478901'
+    ordre: 10
+    valors:
+      capacitat_litres:
+        es: '120'
+        en: '120'
+        fr: '120'
+      mesures_interiors:
+        es: 440x440x760
+        en: 440x440x760
+        fr: 440x440x760
+      cistella:
+        es: '1'
+        en: '1'
+        fr: '1'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '244'
+        en: '244'
+        fr: '244'
+      potencia_electrica:
+        es: 0,10 KW
+        en: 0,10 KW
+        fr: 0,10 KW
+  - codi: '19486480'
+    ordre: 20
+    valors:
+      capacitat_litres:
+        es: '236'
+        en: '236'
+        fr: '236'
+      mesures_interiors:
+        es: 820x480x705
+        en: 820x480x705
+        fr: 820x480x705
+      cistella:
+        es: '1'
+        en: '1'
+        fr: '1'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '206'
+        en: '206'
+        fr: '206'
+      potencia_electrica:
+        es: 0,15 KW
+        en: 0,15 KW
+        fr: 0,15 KW
+  - codi: '19586480'
+    ordre: 30
+    valors:
+      capacitat_litres:
+        es: '330'
+        en: '330'
+        fr: '330'
+      mesures_interiors:
+        es: 1204x480x705
+        en: 1204x480x705
+        fr: 1204x480x705
+      cistella:
+        es: '1'
+        en: '1'
+        fr: '1'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '223'
+        en: '223'
+        fr: '223'
+      potencia_electrica:
+        es: 0,22 KW
+        en: 0,22 KW
+        fr: 0,22 KW
+  - codi: '19986480'
+    ordre: 40
+    valors:
+      capacitat_litres:
+        es: '402'
+        en: '402'
+        fr: '402'
+      mesures_interiors:
+        es: 1340x480x705
+        en: 1340x480x705
+        fr: 1340x480x705
+      cistella:
+        es: '1'
+        en: '1'
+        fr: '1'
+      classe_energetica:
+        es: B
+        en: B
+        fr: B
+      kw_365:
+        es: '224'
+        en: '224'
+        fr: '224'
+      potencia_electrica:
+        es: 0,23 KW
+        en: 0,23 KW
+        fr: 0,23 KW
+  - codi: '19056780'
+    ordre: 50
+    valors:
+      capacitat_litres:
+        es: '567'
+        en: '567'
+        fr: '567'
+      mesures_interiors:
+        es: 1680x520x725
+        en: 1680x520x725
+        fr: 1680x520x725
+      cistella:
+        es: '1'
+        en: '1'
+        fr: '1'
+      classe_energetica:
+        es: C
+        en: C
+        fr: C
+      kw_365:
+        es: '639'
+        en: '639'
+        fr: '639'
+      potencia_electrica:
+        es: 0,25 KW
+        en: 0,25 KW
+        fr: 0,25 KW
+  - codi: '19731501'
+    ordre: 60
+    valors:
+      capacitat_litres:
+        es: '675'
+        en: '675'
+        fr: '675'
+      mesures_interiors:
+        es: 1935x520x680
+        en: 1935x520x680
+        fr: 1935x520x680
+      cistella:
+        es: '1'
+        en: '1'
+        fr: '1'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '1.199'
+        en: '1.199'
+        fr: '1.199'
+      potencia_electrica:
+        es: 0,26 KW
+        en: 0,26 KW
+        fr: 0,26 KW
+  compartits: []
+- clau: ARCONES DE CONGELACIÓN, CON PUERTAS CORREDERAS DE CRISTAL
+  noms:
+    es: ARCONES DE CONGELACIÓN, CON PUERTAS CORREDERAS DE CRISTAL
+    en: FREEZER CHESTS WITH SLIDING GLASS DOORS
+    fr: COFFRES DE CONGÉLATION AVEC PORTES COULISSANTES EN VERRE
+  sequence: 490
+  tipus: producte
+  pagina: p88
+  taula: p88-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: mesures_interiors
+    etiqueta: null
+  - codi: cistella
+    etiqueta: null
+  - codi: classe_energetica
+    etiqueta: null
+  - codi: kw_365
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '19686480'
+    ordre: 10
+    valors:
+      capacitat_litres:
+        es: '191'
+        en: '191'
+        fr: '191'
+      mesures_interiors:
+        es: 596x506x740
+        en: 596x506x740
+        fr: 596x506x740
+      cistella:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '534'
+        en: '534'
+        fr: '534'
+      potencia_electrica:
+        es: 0,20 KW
+        en: 0,20 KW
+        fr: 0,20 KW
+  - codi: '19196480'
+    ordre: 20
+    valors:
+      capacitat_litres:
+        es: '296'
+        en: '296'
+        fr: '296'
+      mesures_interiors:
+        es: 886x506x740
+        en: 886x506x740
+        fr: 886x506x740
+      cistella:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '648'
+        en: '648'
+        fr: '648'
+      potencia_electrica:
+        es: 0,25 KW
+        en: 0,25 KW
+        fr: 0,25 KW
+  - codi: '19786480'
+    ordre: 30
+    valors:
+      capacitat_litres:
+        es: '385'
+        en: '385'
+        fr: '385'
+      mesures_interiors:
+        es: 1176x506x740
+        en: 1176x506x740
+        fr: 1176x506x740
+      cistella:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '857'
+        en: '857'
+        fr: '857'
+      potencia_electrica:
+        es: 0,40 KW
+        en: 0,40 KW
+        fr: 0,40 KW
+  - codi: '19686780'
+    ordre: 40
+    valors:
+      capacitat_litres:
+        es: '491'
+        en: '491'
+        fr: '491'
+      mesures_interiors:
+        es: 1426x506x740
+        en: 1426x506x740
+        fr: 1426x506x740
+      cistella:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '997'
+        en: '997'
+        fr: '997'
+      potencia_electrica:
+        es: 0,50 KW
+        en: 0,50 KW
+        fr: 0,50 KW
+  - codi: '19913590'
+    ordre: 50
+    valors:
+      capacitat_litres:
+        es: '555'
+        en: '555'
+        fr: '555'
+      mesures_interiors:
+        es: 1626x506x740
+        en: 1626x506x740
+        fr: 1626x506x740
+      cistella:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      classe_energetica:
+        es: E
+        en: E
+        fr: E
+      kw_365:
+        es: '1570'
+        en: '1570'
+        fr: '1570'
+      potencia_electrica:
+        es: 0,50 KW
+        en: 0,50 KW
+        fr: 0,50 KW
+  - codi: '19813590'
+    ordre: 60
+    valors:
+      capacitat_litres:
+        es: '670'
+        en: '670'
+        fr: '670'
+      mesures_interiors:
+        es: 1931x506x680
+        en: 1931x506x680
+        fr: 1931x506x680
+      cistella:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      classe_energetica:
+        es: D
+        en: D
+        fr: D
+      kw_365:
+        es: '1299'
+        en: '1299'
+        fr: '1299'
+      potencia_electrica:
+        es: 0,55 KW
+        en: 0,55 KW
+        fr: 0,55 KW
+  compartits: []
+- clau: CUBETAS INOX 18/10 AISI 304
+  noms:
+    es: CUBETAS INOX 18/10 AISI 304
+    en: STAINLESS STEEL CONTAINERS
+    fr: BACS EN ACIER INOXYDABLE
+  sequence: 500
+  tipus: accessoris
+  pagina: p89
+  taula: p89-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: CP1304X1
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 176x325x40
+        en: 176x325x40
+        fr: 176x325x40
+      gastronorm:
+        es: 1/3
+        en: 1/3
+        fr: 1/3
+  compartits: []
+- clau: PARA VINACOTECAS
+  noms:
+    es: PARA VINACOTECAS
+    en: FOR WINE DISPLAY CABINETS
+    fr: POUR CAVES À VIN
+  sequence: 510
+  tipus: accessoris
+  pagina: p89
+  taula: p89-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: para
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4AE5TWRP
+    ordre: 10
+    valors:
+      para:
+        es: 15497240 - 15EV3626
+        en: 15497240 - 15EV3626
+        fr: 15497240 - 15EV3626
+  - codi: 4AE5TVCD
+    ordre: 20
+    valors:
+      para:
+        es: 15EV8006 - 15EVW606 - 15EVA606
+        en: 15EV8006 - 15EVW606 - 15EVA606
+        fr: 15EV8006 - 15EVW606 - 15EVA606
+  - codi: 4AE5TVC0
+    ordre: 30
+    valors:
+      para:
+        es: 15EV8687 - 15EV8137
+        en: 15EV8687 - 15EV8137
+        fr: 15EV8687 - 15EV8137
+  compartits: []
+- clau: BANDEJAS CON 2 BLOQUES DE SAL
+  noms:
+    es: BANDEJAS CON 2 BLOQUES DE SAL
+    en: TRAYS WITH 2 SALT BLOCKS
+    fr: PLATEAUX AVEC 2 BLOCS DE SEL
+  sequence: 520
+  tipus: accessoris
+  pagina: p89
+  taula: p89-t3
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: para
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A8A5AC0
+    ordre: 10
+    valors:
+      para:
+        es: Todos All Tous
+        en: Todos All Tous
+        fr: Todos All Tous
+  compartits: []
+- clau: TAPAS CORREDERAS DE PLEXIGLAS
+  noms:
+    es: TAPAS CORREDERAS DE PLEXIGLAS
+    en: SLIDING PLEXIGLAS LIDS
+    fr: COUVERCLES COULISSANTS EN PLEXIGLAS
+  sequence: 530
+  tipus: accessoris
+  pagina: p89
+  taula: p89-t4
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4AVM15C0
+    ordre: 10
+    valors:
+      mesures_text:
+        es: '1505'
+        en: '1505'
+        fr: '1505'
+  - codi: 4AVM19C0
+    ordre: 20
+    valors:
+      mesures_text:
+        es: '1985'
+        en: '1985'
+        fr: '1985'
+  - codi: 4AVM24C0
+    ordre: 30
+    valors:
+      mesures_text:
+        es: '2465'
+        en: '2465'
+        fr: '2465'
+  compartits: []
+- clau: CESTAS PARA ARCONES DE CONGELACIÓN
+  noms:
+    es: CESTAS PARA ARCONES DE CONGELACIÓN
+    en: BASKETS FOR FREEZER CHESTS
+    fr: PANIERS POUR COFFRES DE CONGÉLATION
+  sequence: 540
+  tipus: accessoris
+  pagina: p89
+  taula: p89-t5
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: para
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '19084855'
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 205x475x235
+        en: 205x475x235
+        fr: 205x475x235
+      para:
+        es: 19486480-19586480-19986480
+        en: 19486480-19586480-19986480
+        fr: 19486480-19586480-19986480
+  - codi: '19098444'
+    ordre: 20
+    valors:
+      mesures_text:
+        es: 220x515x230
+        en: 220x515x230
+        fr: 220x515x230
+      para:
+        es: '19056780'
+        en: '19056780'
+        fr: '19056780'
+  - codi: '19105372'
+    ordre: 30
+    valors:
+      mesures_text:
+        es: 220x515x230
+        en: 220x515x230
+        fr: 220x515x230
+      para:
+        es: '19731501'
+        en: '19731501'
+        fr: '19731501'
+  - codi: '19084854'
+    ordre: 40
+    valors:
+      mesures_text:
+        es: 220x531x279
+        en: 220x531x279
+        fr: 220x531x279
+      para:
+        es: Puertas correderas
+        en: Sliding doors
+        fr: Portes coulissantes
+  compartits: []
+avisos:
+- 'pàgina p46 de tipus «desconeguda»: no es genera (l''extractor no l''ha sabut classificar)'
+repeticions: {}
+informe:
+  inexistents: []
+  descatalogats: []
+  arxivats: []
+  ambigus: []
+  ignorats: []
+  fora_pdf: []
+  columnes_eliminades:
+  - taula: p68-t1
+    clau: wok
+    motiu: només icones al PDF, sense text («Wok»)
+  - taula: p69-t1
+    clau: wok
+    motiu: només icones al PDF, sense text («Wok»)
+  - taula: p83-t1
+    clau: col4
+    motiu: 'fantasma: sense cap valor'
+  - taula: p83-t1
+    clau: col5
+    motiu: 'fantasma: sense cap valor'
+  - taula: p84-t1
+    clau: col4
+    motiu: 'fantasma: sense cap valor'
+  - taula: p84-t1
+    clau: col5
+    motiu: 'fantasma: sense cap valor'
+  - taula: p87-t1
+    clau: col3
+    motiu: 'fantasma: sense cap valor'
+  - taula: p87-t1
+    clau: col6
+    motiu: 'fantasma: sense cap valor'
+  - taula: p88-t1
+    clau: col3
+    motiu: 'fantasma: sense cap valor'
+  - taula: p88-t1
+    clau: col6
+    motiu: 'fantasma: sense cap valor'
+  families_buides: []
+  taules_dividides: []

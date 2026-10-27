@@ -1,0 +1,3142 @@
+esquema: tarifa-columnes-posicio/1
+grup: 13
+metode: posicio sobre el PDF publicat (intervals X = cel.les de la fila de capcalera del PDF; files = codi + vores de cel.la del PDF)
+font_pdf: cataleg_original_web.pdf
+nota: 'Per taula: fila (codi) -> columna (clau del gN.yaml) -> text tal com surt al PDF publicat. "-" = guio del catalag; "[icona]" = cel.la amb una icona (energia gas/electric...), sense text. icones_en_columna
+  = columnes amb una icona a la cel.la. cel_les_combinades (si n hi ha) = valor de cel.la combinada copiat a totes les files que cobreix. codi_al_pdf = el PDF porta un codi diferent del .pub.'
+pagines:
+- pagina_pub: 7
+  pagina_pdf: 596
+  taules:
+  - id: p07-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - mesures_interiors
+    - prestatge
+    - portes
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '20400145'
+      cel_les:
+        codi: '20400145'
+        pes: '15'
+        mesures: 600x600x250
+        mesures_interiors: 500x400x250
+        prestatge: '-'
+        portes: '-'
+        preu: '415'
+    - codi: '20500155'
+      cel_les:
+        codi: '20500155'
+        pes: '18'
+        mesures: 700x700x300
+        mesures_interiors: 500x500x300
+        prestatge: '-'
+        portes: '-'
+        preu: '495'
+    - codi: '24100568'
+      cel_les:
+        codi: '24100568'
+        pes: '29'
+        mesures: 1000x700x380
+        mesures_interiors: 860x500x380
+        prestatge: '-'
+        portes: '-'
+        preu: '950'
+    - codi: '24000521'
+      cel_les:
+        codi: '24000521'
+        pes: '38'
+        mesures: 1400x700x380
+        mesures_interiors: 1200x500x380
+        prestatge: '-'
+        portes: '-'
+        preu: '1.185'
+    - codi: '20410606'
+      cel_les:
+        codi: '20410606'
+        pes: '27'
+        mesures: 600x600x850
+        mesures_interiors: 500x400x250
+        prestatge: '-'
+        portes: '-'
+        preu: '635'
+    - codi: '20510707'
+      cel_les:
+        codi: '20510707'
+        pes: '32'
+        mesures: 700x700x850
+        mesures_interiors: 500x500x300
+        prestatge: '-'
+        portes: '-'
+        preu: '790'
+    - codi: '24110170'
+      cel_les:
+        codi: '24110170'
+        pes: '46'
+        mesures: 1000x700x850
+        mesures_interiors: 860x500x380
+        prestatge: '-'
+        portes: '-'
+        preu: '1.265'
+    - codi: '24014170'
+      cel_les:
+        codi: '24014170'
+        pes: '58'
+        mesures: 1400x700x850
+        mesures_interiors: 1200x500x380
+        prestatge: '-'
+        portes: '-'
+        preu: '1.590'
+    - codi: '20450606'
+      cel_les:
+        codi: '20450606'
+        pes: '32'
+        mesures: 600x600x850
+        mesures_interiors: 500x400x250
+        prestatge: '1'
+        portes: '-'
+        preu: '730'
+    - codi: '20550707'
+      cel_les:
+        codi: '20550707'
+        pes: '38'
+        mesures: 700x700x850
+        mesures_interiors: 500x500x300
+        prestatge: '1'
+        portes: '-'
+        preu: '1.005'
+    - codi: 2415017E
+      cel_les:
+        codi: 2415017E
+        pes: '55'
+        mesures: 1000x700x850
+        mesures_interiors: 860x500x380
+        prestatge: '1'
+        portes: '-'
+        preu: '1.545'
+    - codi: 2405417E
+      cel_les:
+        codi: 2405417E
+        pes: '70'
+        mesures: 1400x700x850
+        mesures_interiors: 1200x500x380
+        prestatge: '1'
+        portes: '-'
+        preu: '1.900'
+    - codi: '20430606'
+      cel_les:
+        codi: '20430606'
+        pes: '42'
+        mesures: 600x600x850
+        mesures_interiors: 500x400x250
+        prestatge: '1'
+        portes: '1'
+        preu: '1.140'
+    - codi: '20530707'
+      cel_les:
+        codi: '20530707'
+        pes: '49'
+        mesures: 700x700x850
+        mesures_interiors: 500x500x300
+        prestatge: '1'
+        portes: '1'
+        preu: '1.465'
+    - codi: '24130017'
+      cel_les:
+        codi: '24130017'
+        pes: '67'
+        mesures: 1000x700x850
+        mesures_interiors: 860x500x380
+        prestatge: '1'
+        portes: '2'
+        preu: '1.935'
+    - codi: '24030417'
+      cel_les:
+        codi: '24030417'
+        pes: '83'
+        mesures: 1400x700x850
+        mesures_interiors: 1200x500x380
+        prestatge: '1'
+        portes: '2'
+        preu: '2.300'
+- pagina_pub: 8
+  pagina_pdf: 597
+  taules:
+  - id: p08-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - codi_2
+    - pes
+    - mesures
+    - mesures_interiors
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 2090D145
+      cel_les:
+        codi: 2090D145
+        codi_2: 2130I145
+        pes: '16'
+        mesures: 1000x550x200
+        mesures_interiors: 400x400x200
+        preu: '425'
+    - codi: 2120D145
+      cel_les:
+        codi: 2120D145
+        codi_2: 2140I145
+        pes: '21'
+        mesures: 1200x600x250
+        mesures_interiors: 500x400x250
+        preu: '470'
+    - codi: 2110D156
+      cel_les:
+        codi: 2110D156
+        codi_2: 2150I156
+        pes: '28'
+        mesures: 1400x700x300
+        mesures_interiors: 600x500x300
+        preu: '660'
+    - codi: 2420D158
+      cel_les:
+        codi: 2420D158
+        codi_2: 2440I158
+        pes: '35'
+        mesures: 1600x700x380
+        mesures_interiors: 860x500x380
+        preu: '1.240'
+    - codi: 2430D151
+      cel_les:
+        codi: 2430D151
+        codi_2: 2450I151
+        pes: '44'
+        mesures: 2000x700x380
+        mesures_interiors: 1160x500x380
+        preu: '1.605'
+    - codi: 2091D001
+      cel_les:
+        codi: 2091D001
+        codi_2: 2131I001
+        pes: '29'
+        mesures: 1000x550x850
+        mesures_interiors: 400x400x200
+        preu: '715'
+    - codi: 2121D021
+      cel_les:
+        codi: 2121D021
+        codi_2: 2141I021
+        pes: '35'
+        mesures: 1200x600x850
+        mesures_interiors: 500x400x250
+        preu: '790'
+    - codi: 2111D041
+      cel_les:
+        codi: 2111D041
+        codi_2: 2151I041
+        pes: '48'
+        mesures: 1400x700x850
+        mesures_interiors: 600x500x300
+        preu: '1.080'
+    - codi: 2421D617
+      cel_les:
+        codi: 2421D617
+        codi_2: 2441I617
+        pes: '56'
+        mesures: 1600x700x850
+        mesures_interiors: 860x500x380
+        preu: '1.680'
+    - codi: 2431D027
+      cel_les:
+        codi: 2431D027
+        codi_2: 2451I027
+        pes: '67'
+        mesures: 2000x700x850
+        mesures_interiors: 1160x500x380
+        preu: '2.110'
+    mapa_columnes: sense_colN(1 eliminades)
+- pagina_pub: 9
+  pagina_pdf: 598
+  taules:
+  - id: p09-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - codi_2
+    - pes
+    - mesures
+    - mesures_interiors
+    - prestatge
+    - portes_corredisses
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 2095D001
+      cel_les:
+        codi: 2095D001
+        codi_2: 2135I001
+        pes: '35'
+        mesures: 1000x550x850
+        mesures_interiors: 400x400x200
+        prestatge: '1'
+        portes_corredisses: '-'
+        preu: '840'
+    - codi: 2125D021
+      cel_les:
+        codi: 2125D021
+        codi_2: 2145I021
+        pes: '43'
+        mesures: 1200x600x850
+        mesures_interiors: 500x400x250
+        prestatge: '1'
+        portes_corredisses: '-'
+        preu: '1.020'
+    - codi: 2115D041
+      cel_les:
+        codi: 2115D041
+        codi_2: 2155I041
+        pes: '60'
+        mesures: 1400x700x850
+        mesures_interiors: 600x500x300
+        prestatge: '1'
+        portes_corredisses: '-'
+        preu: '1.375'
+    - codi: 2425D617
+      cel_les:
+        codi: 2425D617
+        codi_2: 2445I617
+        pes: '70'
+        mesures: 1600x700x850
+        mesures_interiors: 860x500x380
+        prestatge: '1'
+        portes_corredisses: '-'
+        preu: '2.030'
+    - codi: 2435D027
+      cel_les:
+        codi: 2435D027
+        codi_2: 2455I027
+        pes: '84'
+        mesures: 2000x700x850
+        mesures_interiors: 1160x500x380
+        prestatge: '1'
+        portes_corredisses: '-'
+        preu: '2.510'
+    - codi: 2093D015
+      cel_les:
+        codi: 2093D015
+        codi_2: 2133I015
+        pes: '51'
+        mesures: 1000x550x850
+        mesures_interiors: 400x400x200
+        prestatge: '1'
+        portes_corredisses: '2'
+        preu: '1.370'
+    - codi: 2123D021
+      cel_les:
+        codi: 2123D021
+        codi_2: 2143I021
+        pes: '60'
+        mesures: 1200x600x850
+        mesures_interiors: 500x400x250
+        prestatge: '1'
+        portes_corredisses: '2'
+        preu: '1.535'
+    - codi: 2113D041
+      cel_les:
+        codi: 2113D041
+        codi_2: 2153I041
+        pes: '72'
+        mesures: 1400x700x850
+        mesures_interiors: 600x500x300
+        prestatge: '1'
+        portes_corredisses: '2'
+        preu: '1.845'
+    - codi: 2423DD61
+      cel_les:
+        codi: 2423DD61
+        codi_2: 2443II61
+        pes: '82'
+        mesures: 1600x700x850
+        mesures_interiors: 860x500x380
+        prestatge: '1'
+        portes_corredisses: '2'
+        preu: '2.435'
+    - codi: 2433DD02
+      cel_les:
+        codi: 2433DD02
+        codi_2: 2453II02
+        pes: '99'
+        mesures: 2000x700x850
+        mesures_interiors: 1160x500x380
+        prestatge: '1'
+        portes_corredisses: '2'
+        preu: '2.875'
+- pagina_pub: 10
+  pagina_pdf: 599
+  taules:
+  - id: p10-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - codi_2
+    - pes
+    - mesures
+    - mesures_interiors
+    - prestatge
+    - portes
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 2092D215
+      cel_les:
+        codi: 2092D215
+        codi_2: 2132I215
+        pes: '28'
+        mesures: 1200x550x850
+        mesures_interiors: 400x400x200
+        prestatge: '-'
+        portes: '-'
+        preu: '1.060'
+    - codi: 2122D216
+      cel_les:
+        codi: 2122D216
+        codi_2: 2142I216
+        pes: '33'
+        mesures: 1200x600x850
+        mesures_interiors: 500x400x250
+        prestatge: '-'
+        portes: '-'
+        preu: '725'
+    - codi: 2112D417
+      cel_les:
+        codi: 2112D417
+        codi_2: 2152I417
+        pes: '42'
+        mesures: 1400x700x850
+        mesures_interiors: 600x500x300
+        prestatge: '-'
+        portes: '-'
+        preu: '1.015'
+    - codi: 2096D215
+      cel_les:
+        codi: 2096D215
+        codi_2: 2136I215
+        pes: '32'
+        mesures: 1200x550x850
+        mesures_interiors: 400x400x200
+        prestatge: '1'
+        portes: '-'
+        preu: '1.100'
+    - codi: 2126D216
+      cel_les:
+        codi: 2126D216
+        codi_2: 2146I216
+        pes: '38'
+        mesures: 1200x600x850
+        mesures_interiors: 500x400x250
+        prestatge: '1'
+        portes: '-'
+        preu: '860'
+    - codi: 2116D417
+      cel_les:
+        codi: 2116D417
+        codi_2: 2156I417
+        pes: '48'
+        mesures: 1400x700x850
+        mesures_interiors: 600x500x300
+        prestatge: '1'
+        portes: '-'
+        preu: '1.235'
+    - codi: 2094D215
+      cel_les:
+        codi: 2094D215
+        codi_2: 2134I215
+        pes: '42'
+        mesures: 1200x550x850
+        mesures_interiors: 400x400x200
+        prestatge: '1'
+        portes: '1'
+        preu: '1.585'
+    - codi: 2124D216
+      cel_les:
+        codi: 2124D216
+        codi_2: 2144I216
+        pes: '48'
+        mesures: 1200x600x850
+        mesures_interiors: 500x400x250
+        prestatge: '1'
+        portes: '1'
+        preu: '1.235'
+    - codi: 2114D417
+      cel_les:
+        codi: 2114D417
+        codi_2: 2154I417
+        pes: '58'
+        mesures: 1400x700x850
+        mesures_interiors: 600x500x300
+        prestatge: '1'
+        portes: '1'
+        preu: '1.700'
+- pagina_pub: 11
+  pagina_pdf: 600
+  taules:
+  - id: p11-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - mesures_interiors
+    - prestatge
+    - portes_corredisses
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '20600245'
+      cel_les:
+        codi: '20600245'
+        pes: '30'
+        mesures: 1200x600x250
+        mesures_interiors: 500x400x250
+        prestatge: '-'
+        portes_corredisses: '-'
+        preu: '875'
+    - codi: '20700256'
+      cel_les:
+        codi: '20700256'
+        pes: '38'
+        mesures: 1400x700x300
+        mesures_interiors: 600x500x300
+        prestatge: '-'
+        portes_corredisses: '-'
+        preu: '965'
+    - codi: '24600258'
+      cel_les:
+        codi: '24600258'
+        pes: '53'
+        mesures: 1800x700x380
+        mesures_interiors: 800x500x380
+        prestatge: '-'
+        portes_corredisses: '-'
+        preu: '1.560'
+    - codi: '20610216'
+      cel_les:
+        codi: '20610216'
+        pes: '44'
+        mesures: 1200x600x850
+        mesures_interiors: 500x400x250
+        prestatge: '-'
+        portes_corredisses: '-'
+        preu: '1.115'
+    - codi: '20710417'
+      cel_les:
+        codi: '20710417'
+        pes: '58'
+        mesures: 1400x700x850
+        mesures_interiors: 600x500x300
+        prestatge: '-'
+        portes_corredisses: '-'
+        preu: '1.390'
+    - codi: '24618170'
+      cel_les:
+        codi: '24618170'
+        pes: '75'
+        mesures: 1800x700x850
+        mesures_interiors: 800x500x380
+        prestatge: '-'
+        portes_corredisses: '-'
+        preu: '2.040'
+    - codi: '20650216'
+      cel_les:
+        codi: '20650216'
+        pes: '52'
+        mesures: 1200x600x850
+        mesures_interiors: 500x400x250
+        prestatge: '1'
+        portes_corredisses: '-'
+        preu: '1.345'
+    - codi: '20750417'
+      cel_les:
+        codi: '20750417'
+        pes: '70'
+        mesures: 1400x700x850
+        mesures_interiors: 600x500x300
+        prestatge: '1'
+        portes_corredisses: '-'
+        preu: '1.680'
+    - codi: 2465817E
+      cel_les:
+        codi: 2465817E
+        pes: '90'
+        mesures: 1800x700x850
+        mesures_interiors: 800x500x380
+        prestatge: '1'
+        portes_corredisses: '-'
+        preu: '2.405'
+    - codi: '20630216'
+      cel_les:
+        codi: '20630216'
+        pes: '64'
+        mesures: 1200x600x850
+        mesures_interiors: 500x400x250
+        prestatge: '1'
+        portes_corredisses: '2'
+        preu: '1.810'
+    - codi: '20730417'
+      cel_les:
+        codi: '20730417'
+        pes: '78'
+        mesures: 1400x700x850
+        mesures_interiors: 600x500x300
+        prestatge: '1'
+        portes_corredisses: '2'
+        preu: '2.100'
+    - codi: '24632817'
+      cel_les:
+        codi: '24632817'
+        pes: '101'
+        mesures: 1800x700x850
+        mesures_interiors: 800x500x380
+        prestatge: '1'
+        portes_corredisses: '2'
+        preu: '2.765'
+- pagina_pub: 12
+  pagina_pdf: 601
+  taules:
+  - id: p12-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - codi_2
+    - pes
+    - mesures
+    - mesures_interiors
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 2180D245
+      cel_les:
+        codi: 2180D245
+        codi_2: 2210I245
+        pes: '32'
+        mesures: 1600x600x250
+        mesures_interiors: 500x400x250
+        preu: '895'
+    - codi: 2190D256
+      cel_les:
+        codi: 2190D256
+        codi_2: 2220I256
+        pes: '46'
+        mesures: 2000x700x300
+        mesures_interiors: 600x500x300
+        preu: '1.090'
+    - codi: 2181D061
+      cel_les:
+        codi: 2181D061
+        codi_2: 2211I061
+        pes: '48'
+        mesures: 1600x600x850
+        mesures_interiors: 500x400x250
+        preu: '1.270'
+    - codi: 2191D002
+      cel_les:
+        codi: 2191D002
+        codi_2: 2221I002
+        pes: '69'
+        mesures: 2000x700x850
+        mesures_interiors: 600x500x300
+        preu: '1.615'
+    mapa_columnes: sense_colN(1 eliminades)
+- pagina_pub: 13
+  pagina_pdf: 602
+  taules:
+  - id: p13-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - codi_2
+    - pes
+    - mesures
+    - mesures_interiors
+    - prestatge
+    - portes_corredisses
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 2185D061
+      cel_les:
+        codi: 2185D061
+        codi_2: 2215I061
+        pes: '58'
+        mesures: 1600x600x850
+        mesures_interiors: 500x400x250
+        prestatge: '1'
+        portes_corredisses: '-'
+        preu: '1.560'
+    - codi: 2195D002
+      cel_les:
+        codi: 2195D002
+        codi_2: 2225I002
+        pes: '86'
+        mesures: 2000x700x850
+        mesures_interiors: 600x500x300
+        prestatge: '1'
+        portes_corredisses: '-'
+        preu: '1.985'
+    - codi: 2183D061
+      cel_les:
+        codi: 2183D061
+        codi_2: 2213I061
+        pes: '74'
+        mesures: 1600x600x850
+        mesures_interiors: 500x400x250
+        prestatge: '1'
+        portes_corredisses: '2'
+        preu: '2.070'
+    - codi: 2193D002
+      cel_les:
+        codi: 2193D002
+        codi_2: 2223I002
+        pes: '101'
+        mesures: 2000x700x850
+        mesures_interiors: 600x500x300
+        prestatge: '1'
+        portes_corredisses: '2'
+        preu: '2.435'
+- pagina_pub: 14
+  pagina_pdf: 603
+  taules:
+  - id: p14-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - mesures_interiors
+    - prestatge
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '22302256'
+      cel_les:
+        codi: '22302256'
+        pes: '50'
+        mesures: 2200x700x300
+        mesures_interiors: 600x500x300
+        prestatge: '-'
+        preu: '1.150'
+    - codi: '22310227'
+      cel_les:
+        codi: '22310227'
+        pes: '72'
+        mesures: 2200x700x850
+        mesures_interiors: 600x500x300
+        prestatge: '-'
+        preu: '1.725'
+    - codi: 2235227E
+      cel_les:
+        codi: 2235227E
+        pes: '88'
+        mesures: 2200x700x850
+        mesures_interiors: 600x500x300
+        prestatge: '1'
+        preu: '2.110'
+    - codi: '24700355'
+      cel_les:
+        codi: '24700355'
+        pes: '53'
+        mesures: 1800x700x300
+        mesures_interiors: 500x500x300
+        prestatge: '-'
+        preu: '1.355'
+    - codi: '24718170'
+      cel_les:
+        codi: '24718170'
+        pes: '74'
+        mesures: 1800x700x850
+        mesures_interiors: 500x500x300
+        prestatge: '-'
+        preu: '1.760'
+    - codi: 2475817E
+      cel_les:
+        codi: 2475817E
+        pes: '89'
+        mesures: 1800x700x850
+        mesures_interiors: 500x500x300
+        prestatge: '1'
+        preu: '2.135'
+    mapa_columnes: sense_colN(2 eliminades)
+- pagina_pub: 15
+  pagina_pdf: 604
+  taules:
+  - id: p15-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - codi_2
+    - pes
+    - mesures
+    - mesures_interiors
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 248D4160
+      cel_les:
+        codi: 248D4160
+        codi_2: 249I4160
+        pes: '46'
+        mesures: 1400x600x850
+        mesures_interiors: 500x400x300
+        preu: '1.215'
+    - codi: 250D8160
+      cel_les:
+        codi: 250D8160
+        codi_2: 251I8160
+        pes: '50'
+        mesures: 1800x600x850
+        mesures_interiors: 500x400x250
+        preu: '1.715'
+    - codi: 225D4170
+      cel_les:
+        codi: 225D4170
+        codi_2: 226I4170
+        pes: '48'
+        mesures: 1400x700x850
+        mesures_interiors: 500x500x300
+        preu: '1.250'
+    - codi: 252D8170
+      cel_les:
+        codi: 252D8170
+        codi_2: 253I8170
+        pes: '52'
+        mesures: 1800x700x850
+        mesures_interiors: 500x500x250
+        preu: '1.830'
+    mapa_columnes: sense_colN(1 eliminades)
+- pagina_pub: 16
+  pagina_pdf: 605
+  taules:
+  - id: p16-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - codi_2
+    - pes
+    - mesures
+    - mesures_interiors
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 254D816L
+      cel_les:
+        codi: 254D816L
+        codi_2: 255I816L
+        pes: '48'
+        mesures: 1800x600x850
+        mesures_interiors: 500x400x250
+        preu: '1.615'
+    - codi: 227D817L
+      cel_les:
+        codi: 227D817L
+        codi_2: 228I817L
+        pes: '50'
+        mesures: 1800x700x850
+        mesures_interiors: 500x500x250
+        preu: '1.675'
+    mapa_columnes: sense_colN(1 eliminades)
+- pagina_pub: 17
+  pagina_pdf: 606
+  taules:
+  - id: p17-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - mesures_interiors
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 208V4107
+      cel_les:
+        codi: 208V4107
+        pes: '51'
+        mesures: 1400x700x850
+        mesures_interiors: 1250x310x170
+        preu: '1.955'
+    - codi: 208C4107
+      cel_les:
+        codi: 208C4107
+        pes: '51'
+        mesures: 1400x700x850
+        mesures_interiors: 1250x310x20
+        preu: '1.915'
+    mapa_columnes: sense_colN(2 eliminades)
+- pagina_pub: 20
+  pagina_pdf: 609
+  taules:
+  - id: p20-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - mesures_interiors
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '22465506'
+      cel_les:
+        codi: '22465506'
+        pes: '25'
+        mesures: 600x600x560
+        mesures_interiors: 500x400x250
+        preu: '745'
+    - codi: '22475507'
+      cel_les:
+        codi: '22475507'
+        pes: '28'
+        mesures: 700x700x560
+        mesures_interiors: 500x500x300
+        preu: '825'
+    mapa_columnes: sense_colN(2 eliminades)
+- pagina_pub: 21
+  pagina_pdf: 610
+  taules:
+  - id: p21-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '22111134'
+      cel_les:
+        codi: '22111134'
+        preu: '210'
+  - id: p21-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '22111135'
+      cel_les:
+        codi: '22111135'
+        preu: '85'
+  - id: p21-t3
+    reconstruida: false
+    columnes:
+    - codi
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '22222236'
+      cel_les:
+        codi: '22222236'
+        preu: '104'
+  - id: p21-t4
+    reconstruida: false
+    columnes:
+    - codi
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '26568109'
+      cel_les:
+        codi: '26568109'
+        preu: '170'
+  - id: p21-t5
+    reconstruida: false
+    columnes:
+    - codi
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '16000124'
+      cel_les:
+        codi: '16000124'
+        preu: '525'
+  - id: p21-t6
+    reconstruida: false
+    columnes:
+    - codi
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '16000123'
+      cel_les:
+        codi: '16000123'
+        preu: '425'
+  - id: p21-t8
+    reconstruida: true
+    columnes:
+    - codi
+    - codi_2
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 160100R6
+      cel_les:
+        codi: □ 1
+        codi_2: 160100R6
+        preu: '930'
+    paraules_orfes:
+    - '12'
+    - metros
+- pagina_pub: 24
+  pagina_pdf: 613
+  taules:
+  - id: p24-t3
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - mesures_interiors
+    - dutxa
+    - dosificador_sabo
+    - aixeta
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '20224160'
+      cel_les:
+        codi: '20224160'
+        pes: '5'
+        mesures: 350x300x215
+        mesures_interiors: Ø 260x115
+        dutxa: Press
+        dosificador_sabo: '-'
+        aixeta: '-'
+        preu: '185'
+    - codi: 201P0000
+      cel_les:
+        codi: 201P0000
+        pes: '6'
+        mesures: 400x400x175
+        mesures_interiors: Ø 360x130
+        dutxa: Press
+        dosificador_sabo: '-'
+        aixeta: '-'
+        preu: '410'
+    - codi: 201PJ100
+      cel_les:
+        codi: 201PJ100
+        pes: 6,5
+        mesures: 400x400x175
+        mesures_interiors: Ø 360x130
+        dutxa: Press
+        dosificador_sabo: '1'
+        aixeta: '-'
+        preu: '535'
+    - codi: 201E0022
+      cel_les:
+        codi: 201E0022
+        pes: '7'
+        mesures: 400x400x175
+        mesures_interiors: Ø 360x130
+        dutxa: Elec
+        dosificador_sabo: '-'
+        aixeta: '-'
+        preu: '960'
+    - codi: 201EJ102
+      cel_les:
+        codi: 201EJ102
+        pes: 7,5
+        mesures: 400x400x175
+        mesures_interiors: Ø 360x130
+        dutxa: Elec
+        dosificador_sabo: '1'
+        aixeta: '-'
+        preu: '1.090'
+    - codi: '20424160'
+      cel_les:
+        codi: '20424160'
+        pes: '7'
+        mesures: 350x350x205
+        mesures_interiors: Ø 260x115
+        dutxa: Press
+        dosificador_sabo: '-'
+        aixeta: '-'
+        preu: '400'
+    - codi: '20202450'
+      cel_les:
+        codi: '20202450'
+        pes: '12'
+        mesures: 800x500x255
+        mesures_interiors: 2 de 330x360x160
+        dutxa: Press
+        dosificador_sabo: '-'
+        aixeta: '1'
+        preu: '810'
+    mapa_columnes: sense_colN(1 eliminades)
+- pagina_pub: 25
+  pagina_pdf: 614
+  taules:
+  - id: p25-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - mesures_interiors
+    - dutxa
+    - dosificador_sabo
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '20624160'
+      cel_les:
+        codi: '20624160'
+        pes: '11'
+        mesures: 350x300x850
+        mesures_interiors: Ø 260x115
+        dutxa: Press
+        dosificador_sabo: '-'
+        preu: '390'
+    - codi: 202P0001
+      cel_les:
+        codi: 202P0001
+        pes: '12'
+        mesures: 400x440x850
+        mesures_interiors: Ø 360x130
+        dutxa: Press
+        dosificador_sabo: '-'
+        preu: '515'
+    - codi: 202PJ100
+      cel_les:
+        codi: 202PJ100
+        pes: 12,5
+        mesures: 400x440x850
+        mesures_interiors: Ø 360x130
+        dutxa: Press
+        dosificador_sabo: '1'
+        preu: '715'
+    - codi: 202E0031
+      cel_les:
+        codi: 202E0031
+        pes: '13'
+        mesures: 400x440x850
+        mesures_interiors: Ø 360x130
+        dutxa: Elec
+        dosificador_sabo: '-'
+        preu: '1.065'
+    - codi: 202EJ103
+      cel_les:
+        codi: 202EJ103
+        pes: 13,5
+        mesures: 400x440x850
+        mesures_interiors: Ø 360x130
+        dutxa: Elec
+        dosificador_sabo: '1'
+        preu: '1.265'
+    - codi: '20034160'
+      cel_les:
+        codi: '20034160'
+        pes: '14'
+        mesures: 450x450x850
+        mesures_interiors: Ø 390x150
+        dutxa: Press
+        dosificador_sabo: '-'
+        preu: '690'
+    mapa_columnes: sense_colN(1 eliminades)
+- pagina_pub: 26
+  pagina_pdf: 615
+  taules:
+  - id: p26-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - dutxa
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '20634160'
+      cel_les:
+        codi: '20634160'
+        pes: '12'
+        mesures: 1000x450x190
+        dutxa: 2-Press
+        preu: '600'
+    - codi: '20834160'
+      cel_les:
+        codi: '20834160'
+        pes: '17'
+        mesures: 1500x450x190
+        dutxa: 3-Press
+        preu: '805'
+    - codi: '20044160'
+      cel_les:
+        codi: '20044160'
+        pes: '22'
+        mesures: 2000x450x190
+        dutxa: 4-Press
+        preu: '955'
+    mapa_columnes: sense_colN(1 eliminades)
+- pagina_pub: 29
+  pagina_pdf: 618
+  taules:
+  - id: p29-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - dosificador
+    - dutxa
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '20602464'
+      cel_les:
+        codi: '20602464'
+        pes: '26'
+        mesures: 310x310x980
+        dosificador: 1-Press
+        dutxa: '1'
+        potencia_electrica: 125 W
+        preu: '1.400'
+    - codi: '20802464'
+      cel_les:
+        codi: '20802464'
+        pes: '17'
+        mesures: 310x310x420
+        dosificador: 1-Press
+        dutxa: '1'
+        potencia_electrica: 125 W
+        preu: '1.275'
+    - codi: '20802460'
+      cel_les:
+        codi: '20802460'
+        pes: '6'
+        mesures: 350x300x200
+        dosificador: 1-Press
+        dutxa: '1'
+        potencia_electrica: '-'
+        preu: '250'
+    - codi: '20602460'
+      cel_les:
+        codi: '20602460'
+        pes: '7'
+        mesures: 350x300x850
+        dosificador: 1-Press
+        dutxa: '1'
+        potencia_electrica: '-'
+        preu: '370'
+- pagina_pub: 30
+  pagina_pdf: 619
+  taules:
+  - id: p30-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - persones
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '20200560'
+      cel_les:
+        codi: '20200560'
+        pes: '7'
+        mesures: 335x220x670
+        persones: '1'
+        preu: '570'
+    - codi: '20400560'
+      cel_les:
+        codi: '20400560'
+        pes: '22'
+        mesures: 1575x220x670
+        persones: '4'
+        preu: '850'
+    mapa_columnes: sense_colN(1 eliminades)
+- pagina_pub: 33
+  pagina_pdf: 622
+  taules:
+  - id: p33-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - alcada
+    - temps_safata
+    - cicle_aigua
+    - condensacio_assecat
+    - dosificador_sabo
+    - dimensions_safata_mm
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '45968719'
+      cel_les:
+        codi: '45968719'
+        pes: '28'
+        mesures: 405x490x595
+        alcada: '250'
+        temps_safata: 30-60’
+        cicle_aigua: 2L-120’’
+        condensacio_assecat: û
+        dosificador_sabo: û
+        dimensions_safata_mm: 350x350
+        potencia_electrica: 3,5 KW 230/1V
+        preu: '1.665'
+    - codi: '45078719'
+      cel_les:
+        codi: '45078719'
+        pes: '32'
+        mesures: 440x535x670
+        alcada: '300'
+        temps_safata: 30-60’
+        cicle_aigua: 2L-120’’
+        condensacio_assecat: û
+        dosificador_sabo: û
+        dimensions_safata_mm: 390x390
+        potencia_electrica: 3,5 KW 230/1V
+        preu: '1.995'
+    - codi: '45178719'
+      cel_les:
+        codi: '45178719'
+        pes: '33'
+        mesures: 440x535x670
+        alcada: '300'
+        temps_safata: 30-60’
+        cicle_aigua: 2L-120’’
+        condensacio_assecat: ü
+        dosificador_sabo: û
+        dimensions_safata_mm: 390x390
+        potencia_electrica: 3,5 KW 230/1V
+        preu: '2.320'
+- pagina_pub: 34
+  pagina_pdf: 623
+  taules:
+  - id: p34-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - alcada
+    - temps_safata
+    - cicle_aigua
+    - condensacio_assecat
+    - dosificador_sabo
+    - dimensions_safata_mm
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '45053719'
+      cel_les:
+        codi: '45053719'
+        pes: '30'
+        mesures: 405x490x595
+        alcada: '250'
+        temps_safata: 30-60’
+        cicle_aigua: 1,5L-120’’
+        condensacio_assecat: û
+        dosificador_sabo: û
+        dimensions_safata_mm: 350x350
+        potencia_electrica: 3,5 KW 230/1V
+        preu: '1.855'
+    - codi: '45653719'
+      cel_les:
+        codi: '45653719'
+        pes: '34'
+        mesures: 440x535x670
+        alcada: '300'
+        temps_safata: 30-60’
+        cicle_aigua: 1,5L-120’’
+        condensacio_assecat: û
+        dosificador_sabo: û
+        dimensions_safata_mm: 390x390
+        potencia_electrica: 3,5 KW 230/1V
+        preu: '2.235'
+    - codi: '45163719'
+      cel_les:
+        codi: '45163719'
+        pes: '35'
+        mesures: 440x535x670
+        alcada: '300'
+        temps_safata: 30-60’
+        cicle_aigua: 1,5L-120’’
+        condensacio_assecat: ü
+        dosificador_sabo: ü
+        dimensions_safata_mm: 390x390
+        potencia_electrica: 3,5 KW 230/1V
+        preu: '2.680'
+    - codi: '45553719'
+      cel_les:
+        codi: '45553719'
+        pes: '31'
+        mesures: 405x490x595
+        alcada: '250'
+        temps_safata: 30-60’
+        cicle_aigua: 1,5L-120’’
+        condensacio_assecat: ü
+        dosificador_sabo: ü
+        dimensions_safata_mm: 350x350
+        potencia_electrica: 3,5 KW 230/1V
+        preu: '2.230'
+- pagina_pub: 35
+  pagina_pdf: 624
+  taules:
+  - id: p35-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - alcada
+    - temps_safata
+    - cicle_aigua
+    - condensacio_assecat
+    - dosificador_sabo
+    - dimensions_safata_mm
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '46278719'
+      cel_les:
+        codi: '46278719'
+        pes: '59'
+        mesures: 575x600x820
+        alcada: '360'
+        temps_safata: 30-60’
+        cicle_aigua: 2L-120’’
+        condensacio_assecat: û
+        dosificador_sabo: û
+        dimensions_safata_mm: 500x500
+        potencia_electrica: 3,5 KW 230/1V
+        preu: '2.670'
+    - codi: '46378719'
+      cel_les:
+        codi: '46378719'
+        pes: '59'
+        mesures: 575x600x820
+        alcada: '360'
+        temps_safata: 30-60’
+        cicle_aigua: 2L-120’’
+        condensacio_assecat: ü
+        dosificador_sabo: û
+        dimensions_safata_mm: 500x500
+        potencia_electrica: 3,5 KW 230/1V
+        preu: '2.975'
+- pagina_pub: 36
+  pagina_pdf: 625
+  taules:
+  - id: p36-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - alcada
+    - temps_safata
+    - cicle_aigua
+    - condensacio_assecat
+    - dosificador_sabo
+    - dimensions_safata_mm
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '46263719'
+      cel_les:
+        codi: '46263719'
+        pes: '49'
+        mesures: 530x555x715
+        alcada: '280'
+        temps_safata: 30-60’
+        cicle_aigua: 1,8L-120’’
+        condensacio_assecat: û
+        dosificador_sabo: û
+        dimensions_safata_mm: 450x450
+        potencia_electrica: 3,5 KW 230/1V
+        preu: '2.650'
+    - codi: '46651719'
+      cel_les:
+        codi: '46651719'
+        pes: '62'
+        mesures: 575x600x820
+        alcada: '360'
+        temps_safata: 40-60’
+        cicle_aigua: 2L-120’’
+        condensacio_assecat: û
+        dosificador_sabo: ü
+        dimensions_safata_mm: 500x500
+        potencia_electrica: 7,5 KW 400/3V
+        preu: '3.355'
+    - codi: '46961719'
+      cel_les:
+        codi: '46961719'
+        pes: '63'
+        mesures: 575x600x820
+        alcada: '360'
+        temps_safata: 40-60’
+        cicle_aigua: 2L-120’’
+        condensacio_assecat: ü
+        dosificador_sabo: ü
+        dimensions_safata_mm: 500x500
+        potencia_electrica: 7,5 KW 400/3V
+        preu: '3.715'
+- pagina_pub: 37
+  pagina_pdf: 626
+  taules:
+  - id: p37-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - alcada
+    - temps_safata
+    - cicle_aigua
+    - condensacio_assecat
+    - dosificador_sabo
+    - dimensions_safata_mm
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 46MATS05
+      cel_les:
+        codi: 46MATS05
+        pes: '95'
+        mesures: 640x740x1480/1910
+        alcada: '400'
+        temps_safata: 45-60’
+        cicle_aigua: 2,4L-120’’
+        condensacio_assecat: û
+        dosificador_sabo: û
+        dimensions_safata_mm: 500x500
+        potencia_electrica: 8,5 KW 400/3V
+        preu: '4.760'
+- pagina_pub: 38
+  pagina_pdf: 627
+  taules:
+  - id: p38-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - alcada
+    - temps_safata
+    - cicle_aigua
+    - condensacio_assecat
+    - dosificador_sabo
+    - dimensions_safata_mm
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 460083TS
+      cel_les:
+        codi: 460083TS
+        pes: '100'
+        mesures: 640x750x1590/2090
+        alcada: '470'
+        temps_safata: 50-60’
+        cicle_aigua: 2,5L-120’’
+        condensacio_assecat: û
+        dosificador_sabo: û
+        dimensions_safata_mm: 500x500
+        potencia_electrica: 9,5 KW 400/3V
+        preu: '5.075'
+    - codi: 46DD0083
+      cel_les:
+        codi: 46DD0083
+        pes: '100'
+        mesures: 640x750x1590/2090
+        alcada: '470'
+        temps_safata: 50-60’
+        cicle_aigua: 2,5L-120’’
+        condensacio_assecat: û
+        dosificador_sabo: ü
+        dimensions_safata_mm: 500x500
+        potencia_electrica: 9,5 KW 400/3V
+        preu: '5.405'
+    - codi: 46DD1083
+      cel_les:
+        codi: 46DD1083
+        pes: '100'
+        mesures: 640x750x1590/2090
+        alcada: '470'
+        temps_safata: 50-60’
+        cicle_aigua: 2,5L-120’’
+        condensacio_assecat: ü
+        dosificador_sabo: ü
+        dimensions_safata_mm: 500x500
+        potencia_electrica: 9,5 KW 400/3V
+        preu: '5.590'
+- pagina_pub: 41
+  pagina_pdf: 630
+  taules:
+  - id: p41-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - prestatge
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 16611ECS
+      cel_les:
+        codi: 16611ECS
+        pes: '35'
+        mesures: 1100x600x850
+        prestatge: '1'
+        preu: '1.110'
+    - codi: 16661ECS
+      cel_les:
+        codi: 16661ECS
+        pes: '44'
+        mesures: 1600x600x850
+        prestatge: '1'
+        preu: '1.355'
+    - codi: 16661SCS
+      cel_les:
+        codi: 16661SCS
+        pes: '24'
+        mesures: 1600x600x850
+        prestatge: '-'
+        preu: '1.005'
+    - codi: 16660ECS
+      cel_les:
+        codi: 16660ECS
+        pes: '26'
+        mesures: 600x600x850
+        prestatge: '1'
+        preu: '685'
+    - codi: 16660SCS
+      cel_les:
+        codi: 16660SCS
+        pes: '15'
+        mesures: 600x600x850
+        prestatge: '-'
+        preu: '570'
+    - codi: 16611SCS
+      cel_les:
+        codi: 16611SCS
+        pes: '19'
+        mesures: 1100x600x850
+        prestatge: '-'
+        preu: '850'
+    mapa_columnes: sense_colN(2 eliminades)
+- pagina_pub: 42
+  pagina_pdf: 631
+  taules:
+  - id: p42-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - prestatge
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 16770SMS
+      cel_les:
+        codi: 16770SMS
+        pes: '18'
+        mesures: 700x750x850
+        prestatge: '-'
+        preu: '760'
+    - codi: 16711SMS
+      cel_les:
+        codi: 16711SMS
+        pes: '23'
+        mesures: 1100x750x850
+        prestatge: '-'
+        preu: '895'
+    - codi: 16761SMS
+      cel_les:
+        codi: 16761SMS
+        pes: '30'
+        mesures: 1600x750x850
+        prestatge: '-'
+        preu: '1.045'
+    - codi: 16712SMS
+      cel_les:
+        codi: 16712SMS
+        pes: '36'
+        mesures: 2100x750x850
+        prestatge: '-'
+        preu: '1.255'
+    - codi: 16770EMS
+      cel_les:
+        codi: 16770EMS
+        pes: '30'
+        mesures: 700x750x850
+        prestatge: '1'
+        preu: '985'
+    - codi: 16711EMS
+      cel_les:
+        codi: 16711EMS
+        pes: '41'
+        mesures: 1100x750x850
+        prestatge: '1'
+        preu: '1.140'
+    - codi: 16761EMS
+      cel_les:
+        codi: 16761EMS
+        pes: '53'
+        mesures: 1600x750x850
+        prestatge: '1'
+        preu: '1.265'
+    - codi: 16712EMS
+      cel_les:
+        codi: 16712EMS
+        pes: '64'
+        mesures: 2100x750x850
+        prestatge: '1'
+        preu: '1.410'
+    mapa_columnes: sense_colN(2 eliminades)
+- pagina_pub: 43
+  pagina_pdf: 632
+  taules:
+  - id: p43-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - col1
+    - pes
+    - mesures
+    - mesures_interiors
+    - col5
+    - prestatge
+    - preu
+    columnes_segons: amp
+    files:
+    - codi: 16D70CSM
+      cel_les:
+        codi: 16D70CSM
+        col1: 16I70CSM
+        pes: '23'
+        mesures: 700x750x850
+        mesures_interiors: 500x400x250
+        col5: ''
+        prestatge: '-'
+        preu: '1.230'
+    - codi: 16D11CSM
+      cel_les:
+        codi: 16D11CSM
+        col1: 16I11CSM
+        pes: '28'
+        mesures: 1100x750x850
+        mesures_interiors: 500x400x250
+        col5: ''
+        prestatge: '-'
+        preu: '1.370'
+    - codi: 16D61CSM
+      cel_les:
+        codi: 16D61CSM
+        col1: 16I61CSM
+        pes: '35'
+        mesures: 1600x750x850
+        mesures_interiors: 500x400x250
+        col5: ''
+        prestatge: '-'
+        preu: '1.535'
+    - codi: 16D12CSM
+      cel_les:
+        codi: 16D12CSM
+        col1: 16I12CSM
+        pes: '41'
+        mesures: 2100x750x850
+        mesures_interiors: 500x400x250
+        col5: ''
+        prestatge: '-'
+        preu: '1.750'
+    - codi: 16D70CEM
+      cel_les:
+        codi: 16D70CEM
+        col1: 16I70CEM
+        pes: '35'
+        mesures: 700x750x850
+        mesures_interiors: 500x400x250
+        col5: ''
+        prestatge: '1'
+        preu: '1.435'
+    - codi: 16D11CEM
+      cel_les:
+        codi: 16D11CEM
+        col1: 16I11CEM
+        pes: '46'
+        mesures: 1100x750x850
+        mesures_interiors: 500x400x250
+        col5: ''
+        prestatge: '1'
+        preu: '1.600'
+    - codi: 16D61CEM
+      cel_les:
+        codi: 16D61CEM
+        col1: 16I61CEM
+        pes: '58'
+        mesures: 1600x750x850
+        mesures_interiors: 500x400x250
+        col5: ''
+        prestatge: '1'
+        preu: '1.865'
+    - codi: 16D12CEM
+      cel_les:
+        codi: 16D12CEM
+        col1: 16I12CEM
+        pes: '69'
+        mesures: 2100x750x850
+        mesures_interiors: 500x400x250
+        col5: ''
+        prestatge: '1'
+        preu: '1.990'
+    avisos:
+    - hdr:recompte(7 vs 8)
+- pagina_pub: 44
+  pagina_pdf: 633
+  taules:
+  - id: p44-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - col1
+    - pes
+    - mesures
+    - mesures_interiors
+    - col5
+    - prestatge
+    - preu
+    columnes_segons: amp
+    files:
+    - codi: 16D11CAM
+      cel_les:
+        codi: 16D11CAM
+        col1: 16I11CAM
+        pes: '29'
+        mesures: 1100x750x850
+        mesures_interiors: 500x400x250
+        col5: ''
+        prestatge: '-'
+        preu: '1.485'
+    - codi: 16D61CAM
+      cel_les:
+        codi: 16D61CAM
+        col1: 16I61CAM
+        pes: '36'
+        mesures: 1600x750x850
+        mesures_interiors: 500x400x250
+        col5: ''
+        prestatge: '-'
+        preu: '1.840'
+    - codi: 16D12CAM
+      cel_les:
+        codi: 16D12CAM
+        col1: 16I12CAM
+        pes: '42'
+        mesures: 2100x750x850
+        mesures_interiors: 500x400x250
+        col5: ''
+        prestatge: '-'
+        preu: '2.050'
+    - codi: 16D11CEA
+      cel_les:
+        codi: 16D11CEA
+        col1: 16I11CEA
+        pes: '47'
+        mesures: 1100x750x850
+        mesures_interiors: 500x400x250
+        col5: ''
+        prestatge: '1'
+        preu: '1.960'
+    - codi: 16D61CEA
+      cel_les:
+        codi: 16D61CEA
+        col1: 16I61CEA
+        pes: '59'
+        mesures: 1600x750x850
+        mesures_interiors: 500x400x250
+        col5: ''
+        prestatge: '1'
+        preu: '2.075'
+    - codi: 16D12CEA
+      cel_les:
+        codi: 16D12CEA
+        col1: 16I12CEA
+        pes: '70'
+        mesures: 2100x750x850
+        mesures_interiors: 500x400x250
+        col5: ''
+        prestatge: '1'
+        preu: '2.315'
+    avisos:
+    - hdr:recompte(7 vs 8)
+- pagina_pub: 47
+  pagina_pdf: 636
+  taules:
+  - id: p47-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - prestatge
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '16074105'
+      cel_les:
+        codi: '16074105'
+        pes: '35'
+        mesures: 1400x700x850
+        prestatge: '-'
+        preu: '1.560'
+    - codi: '16076105'
+      cel_les:
+        codi: '16076105'
+        pes: '39'
+        mesures: 1600x700x850
+        prestatge: '-'
+        preu: '1.680'
+    - codi: '16078105'
+      cel_les:
+        codi: '16078105'
+        pes: '41'
+        mesures: 1800x700x850
+        prestatge: '-'
+        preu: '1.795'
+    - codi: '16070205'
+      cel_les:
+        codi: '16070205'
+        pes: '44'
+        mesures: 2000x700x850
+        prestatge: '-'
+        preu: '1.910'
+    - codi: 160741E5
+      cel_les:
+        codi: 160741E5
+        pes: '43'
+        mesures: 1400x700x850
+        prestatge: '1'
+        preu: '1.715'
+    - codi: 160761E5
+      cel_les:
+        codi: 160761E5
+        pes: '49'
+        mesures: 1600x700x850
+        prestatge: '1'
+        preu: '1.830'
+    - codi: 160781E5
+      cel_les:
+        codi: 160781E5
+        pes: '53'
+        mesures: 1800x700x850
+        prestatge: '1'
+        preu: '1.955'
+    - codi: 160702E5
+      cel_les:
+        codi: 160702E5
+        pes: '58'
+        mesures: 2000x700x850
+        prestatge: '1'
+        preu: '2.075'
+    mapa_columnes: sense_colN(2 eliminades)
+- pagina_pub: 48
+  pagina_pdf: 637
+  taules:
+  - id: p48-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - dimensions_safata
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '16102030'
+      cel_les:
+        codi: '16102030'
+        pes: '22'
+        mesures: 1100x500x500/700
+        dimensions_safata: '2'
+        preu: '1.020'
+    - codi: '16202030'
+      cel_les:
+        codi: '16202030'
+        pes: '26'
+        mesures: 1600x500x500/700
+        dimensions_safata: '3'
+        preu: '1.045'
+    - codi: '16103001'
+      cel_les:
+        codi: '16103001'
+        pes: '14'
+        mesures: 1100x500x235
+        dimensions_safata: '2'
+        preu: '520'
+    - codi: '16203001'
+      cel_les:
+        codi: '16203001'
+        pes: '18'
+        mesures: 1600x500x235
+        dimensions_safata: '3'
+        preu: '645'
+    mapa_columnes: sense_colN(2 eliminades)
+- pagina_pub: 49
+  pagina_pdf: 638
+  taules:
+  - id: p49-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - capacitat_litres
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '16105062'
+      cel_les:
+        codi: '16105062'
+        pes: '12'
+        mesures: Ø 380x605
+        capacitat_litres: '50'
+        preu: '300'
+    - codi: '16405062'
+      cel_les:
+        codi: '16405062'
+        pes: '16'
+        mesures: Ø 450x685
+        capacitat_litres: '95'
+        preu: '345'
+    - codi: '16205062'
+      cel_les:
+        codi: '16205062'
+        pes: '15'
+        mesures: Ø 380x605
+        capacitat_litres: '50'
+        preu: '360'
+    - codi: '16505062'
+      cel_les:
+        codi: '16505062'
+        pes: '20'
+        mesures: Ø 450x685
+        capacitat_litres: '95'
+        preu: '420'
+    - codi: '11215062'
+      cel_les:
+        codi: '11215062'
+        pes: '74'
+        mesures: 670x585x1300
+        capacitat_litres: 95 *
+        preu: '1.475'
+    mapa_columnes: sense_colN(2 eliminades)
+- pagina_pub: 52
+  pagina_pdf: 641
+  taules:
+  - id: p52-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - alcada
+    - ventilador
+    - cicle_aigua
+    - dosificador_sabo
+    - dimensions_safata_mm
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 28EDC101
+      cel_les:
+        codi: 28EDC101
+        pes: '240'
+        mesures: 1150x770x1620/2090
+        alcada: '450'
+        ventilador: 90-60’
+        cicle_aigua: 160L-60’
+        dosificador_sabo: û
+        dimensions_safata_mm: 500x500
+        potencia_electrica: 22 KW 400/3V
+        preu: '16.320'
+    - codi: 28SDC101
+      cel_les:
+        codi: 28SDC101
+        pes: '325'
+        mesures: 1750x770x1620/2090
+        alcada: '450'
+        ventilador: 90-60’
+        cicle_aigua: 160L-60’
+        dosificador_sabo: û
+        dimensions_safata_mm: 500x500
+        potencia_electrica: 28 KW 400/3V
+        preu: '23.150'
+    - codi: 28RECALR
+      cel_les:
+        codi: 28RECALR
+        pes: '75'
+        mesures: 800x770x210
+        alcada: ''
+        ventilador: '[icona]'
+        cicle_aigua: '[icona]'
+        dosificador_sabo: 700 m3/h
+        dimensions_safata_mm: ''
+        potencia_electrica: 200 W 400/3V
+        preu: '5.800'
+      icones_en_columna:
+      - cicle_aigua
+      - ventilador
+- pagina_pub: 53
+  pagina_pdf: 642
+  taules:
+  - id: p53-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - alcada
+    - ventilador
+    - cicle_aigua
+    - dosificador_sabo
+    - dimensions_safata_mm
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 28EDC201
+      cel_les:
+        codi: 28EDC201
+        pes: '300'
+        mesures: 1968x770x1620/2090
+        alcada: '450'
+        ventilador: 145-60’
+        cicle_aigua: 270L-60’
+        dosificador_sabo: û
+        dimensions_safata_mm: 500x500
+        potencia_electrica: 29,5 KW 400/3V
+        preu: '26.365'
+    - codi: 28SDC201
+      cel_les:
+        codi: 28SDC201
+        pes: '385'
+        mesures: 2568x770x1620/2090
+        alcada: '450'
+        ventilador: 145-60’
+        cicle_aigua: 270L-60’
+        dosificador_sabo: û
+        dimensions_safata_mm: 500x500
+        potencia_electrica: 35,5 KW 400/3V
+        preu: '33.185'
+    - codi: 28RECALR
+      cel_les:
+        codi: 28RECALR
+        pes: '75'
+        mesures: 800x770x210
+        alcada: ''
+        ventilador: '[icona]'
+        cicle_aigua: ''
+        dosificador_sabo: 700 m3/h
+        dimensions_safata_mm: ''
+        potencia_electrica: 200 W 400/3V
+        preu: '5.800'
+      icones_en_columna:
+      - ventilador
+- pagina_pub: 54
+  pagina_pdf: 643
+  taules:
+  - id: p54-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - alcada
+    - ventilador
+    - cicle_aigua
+    - dosificador_sabo
+    - dimensions_safata_mm
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 28TDC112
+      cel_les:
+        codi: 28TDC112
+        pes: '290'
+        mesures: 1700x770x1620/2090
+        alcada: '450'
+        ventilador: 175-60’
+        cicle_aigua: 300L-60’
+        dosificador_sabo: û
+        dimensions_safata_mm: 500x500
+        potencia_electrica: 30,5 KW 400/3V
+        preu: '26.185'
+    - codi: 28SDC112
+      cel_les:
+        codi: 28SDC112
+        pes: '375'
+        mesures: 2300x770x1620/2090
+        alcada: '450'
+        ventilador: 175-60’
+        cicle_aigua: 300L-60’
+        dosificador_sabo: û
+        dimensions_safata_mm: 500x500
+        potencia_electrica: 36,6 KW 400/3V
+        preu: '32.925'
+    - codi: 28RECALR
+      cel_les:
+        codi: 28RECALR
+        pes: '75'
+        mesures: 800x770x210
+        alcada: ''
+        ventilador: '[icona]'
+        cicle_aigua: '[icona]'
+        dosificador_sabo: 700 m3/h
+        dimensions_safata_mm: ''
+        potencia_electrica: 200 W 400/3V
+        preu: '5.800'
+      icones_en_columna:
+      - cicle_aigua
+      - ventilador
+- pagina_pub: 55
+  pagina_pdf: 644
+  taules:
+  - id: p55-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - alcada
+    - ventilador
+    - cicle_aigua
+    - dosificador_sabo
+    - dimensions_safata_mm
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 28TDC212
+      cel_les:
+        codi: 28TDC212
+        pes: '420'
+        mesures: 2520x770x1620/2090
+        alcada: '450'
+        ventilador: 235-60’
+        cicle_aigua: 400L-60’
+        dosificador_sabo: û
+        dimensions_safata_mm: 500x500
+        potencia_electrica: 35 KW 400/3V
+        preu: '36.550'
+    - codi: 28SDC212
+      cel_les:
+        codi: 28SDC212
+        pes: '505'
+        mesures: 3120x770x1620/2090
+        alcada: '450'
+        ventilador: 235-60’
+        cicle_aigua: 400L-60’
+        dosificador_sabo: û
+        dimensions_safata_mm: 500x500
+        potencia_electrica: 44 KW 400/3V
+        preu: '43.860'
+    - codi: 28RECALR
+      cel_les:
+        codi: 28RECALR
+        pes: '75'
+        mesures: 800x770x210
+        alcada: ''
+        ventilador: '[icona]'
+        cicle_aigua: ''
+        dosificador_sabo: 700 m3/h
+        dimensions_safata_mm: ''
+        potencia_electrica: 200 W 400/3V
+        preu: '5.800'
+      icones_en_columna:
+      - ventilador
+- pagina_pub: 56
+  pagina_pdf: 645
+  taules:
+  - id: p56-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 16011UER
+      cel_les:
+        codi: 16011UER
+        pes: '45'
+        mesures: 1100x600x850
+        preu: '1.855'
+    - codi: 16361UER
+      cel_les:
+        codi: 16361UER
+        pes: '60'
+        mesures: 1600x600x850
+        preu: '2.245'
+    mapa_columnes: sense_colN(1 eliminades)
+- pagina_pub: 57
+  pagina_pdf: 646
+  taules:
+  - id: p57-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - mesures
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A28000P
+      cel_les:
+        codi: 4A28000P
+        mesures: 990 x 820 x 1620
+        potencia_electrica: 7,5 KW 400/3V
+        preu: '3.520'
+  - id: p57-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - mesures
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A28MSAB
+      cel_les:
+        codi: 4A28MSAB
+        mesures: 820 x 880 x 1620
+        potencia_electrica: 6 KW 400/3V
+        preu: '13.390'
+    - codi: 4A28MSAI
+      cel_les:
+        codi: 4A28MSAI
+        mesures: 820 x 880 x 1620
+        potencia_electrica: 9 KW 400/3V
+        preu: '13.885'
+  - id: p57-t3
+    reconstruida: true
+    columnes:
+    - codi
+    - col1
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A28EMS2
+      cel_les:
+        codi: 4A28EMS2
+        col1: 2 partes parts pièces
+        preu: '1.230'
+    - codi: 4A28EMS3
+      cel_les:
+        codi: 4A28EMS3
+        col1: 3 partes parts pièces
+        preu: '2.445'
+  - id: p57-t4
+    reconstruida: true
+    columnes:
+    - codi
+    - mesures
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A28MNEM
+      cel_les:
+        codi: 4A28MNEM
+        mesures: 300 x 770 x 1620
+        preu: '1.715'
+  - id: p57-t5
+    reconstruida: true
+    columnes:
+    - codi
+    - mesures
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A28MNIV
+      cel_les:
+        codi: 4A28MNIV
+        mesures: 550 x 770 x 1620
+        preu: '3.895'
+  - id: p57-t6
+    reconstruida: true
+    columnes:
+    - codi
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A28DJAY
+      cel_les:
+        codi: 4A28DJAY
+        preu: '645'
+- pagina_pub: 60
+  pagina_pdf: 649
+  taules:
+  - id: p60-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - temps
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 46110G08
+      cel_les:
+        codi: 46110G08
+        pes: '85'
+        mesures: 700x600x760
+        temps: 5000 - 60’
+        potencia_electrica: 900 W 230/1V
+        preu: '3.600'
+- pagina_pub: 61
+  pagina_pdf: 650
+  taules:
+  - id: p61-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - alcada
+    - temps_safata
+    - cicle_aigua
+    - condensacio_assecat
+    - dosificador_sabo
+    - dimensions_safata_mm
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '28112819'
+      cel_les:
+        codi: '28112819'
+        pes: '67'
+        mesures: 600x700x850
+        alcada: '400'
+        temps_safata: 120/420’’
+        cicle_aigua: 3/5L
+        condensacio_assecat: û
+        dosificador_sabo: ü
+        dimensions_safata_mm: 500x600
+        potencia_electrica: 9,8 KW 400/3V
+        preu: '4.730'
+    - codi: '28484819'
+      cel_les:
+        codi: '28484819'
+        pes: '69'
+        mesures: 600x700x850
+        alcada: '400'
+        temps_safata: 120/420’’
+        cicle_aigua: 3/5L
+        condensacio_assecat: ü
+        dosificador_sabo: ü
+        dimensions_safata_mm: 500x600
+        potencia_electrica: 9,8 KW 400/3V
+        preu: '4.985'
+    - codi: '28312819'
+      cel_les:
+        codi: '28312819'
+        pes: '77'
+        mesures: 600x700x1290
+        alcada: '400'
+        temps_safata: 120/420’’
+        cicle_aigua: 3/5L
+        condensacio_assecat: û
+        dosificador_sabo: ü
+        dimensions_safata_mm: 500x600
+        potencia_electrica: 9,8 KW 400/3V
+        preu: '5.185'
+    - codi: '28584819'
+      cel_les:
+        codi: '28584819'
+        pes: '79'
+        mesures: 600x700x1290
+        alcada: '400'
+        temps_safata: 120/420’’
+        cicle_aigua: 3/5L
+        condensacio_assecat: ü
+        dosificador_sabo: ü
+        dimensions_safata_mm: 500x600
+        potencia_electrica: 9,8 KW 400/3V
+        preu: '5.430'
+- pagina_pub: 62
+  pagina_pdf: 651
+  taules:
+  - id: p62-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - alcada
+    - ventilador
+    - cicle_aigua
+    - condensacio_assecat
+    - dosificador_sabo
+    - dimensions_safata_mm
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 28423CDD
+      cel_les:
+        codi: 28423CDD
+        pes: '157'
+        mesures: 720x780x1730/2000
+        alcada: '650'
+        ventilador: 120/420’’
+        cicle_aigua: 3/6L
+        condensacio_assecat: ü
+        dosificador_sabo: ü
+        dimensions_safata_mm: 560x630
+        potencia_electrica: 10,5 KW 400/3V
+        preu: '10.740'
+    - codi: 28523CDD
+      cel_les:
+        codi: 28523CDD
+        pes: '167'
+        mesures: 720x780x1930/2215
+        alcada: '850'
+        ventilador: 120/420’’
+        cicle_aigua: 3/6L
+        condensacio_assecat: ü
+        dosificador_sabo: ü
+        dimensions_safata_mm: 560x630
+        potencia_electrica: 10,5 KW 400/3V
+        preu: '12.080'
+    - codi: 4A28RNRG
+      cel_les:
+        codi: 4A28RNRG
+        pes: '65'
+        mesures: 700x700x230
+        alcada: ''
+        ventilador: '[icona]'
+        cicle_aigua: '[icona]'
+        condensacio_assecat: ''
+        dosificador_sabo: 500 m3/h
+        dimensions_safata_mm: ''
+        potencia_electrica: 200 W 400/3V
+        preu: '4.325'
+      icones_en_columna:
+      - cicle_aigua
+      - ventilador
+- pagina_pub: 63
+  pagina_pdf: 652
+  taules:
+  - id: p63-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - alcada
+    - ventilador
+    - cicle_aigua
+    - condensacio_assecat
+    - dosificador_sabo
+    - dimensions_safata_mm
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 28623CDD
+      cel_les:
+        codi: 28623CDD
+        pes: '191'
+        mesures: 850x850x1930/2250
+        alcada: '850'
+        ventilador: 120/420’’
+        cicle_aigua: 4/8L
+        condensacio_assecat: ü
+        dosificador_sabo: ü
+        dimensions_safata_mm: 700x700
+        potencia_electrica: 13,7 KW 400/3V
+        preu: '16.955'
+    - codi: 28723CDD
+      cel_les:
+        codi: 28723CDD
+        pes: '317'
+        mesures: 1465x850x1960/2280
+        alcada: '850'
+        ventilador: 120/420’’
+        cicle_aigua: 4/8L
+        condensacio_assecat: ü
+        dosificador_sabo: ü
+        dimensions_safata_mm: 1310x700
+        potencia_electrica: 15,9 KW 400/3V
+        preu: '25.430'
+    - codi: 4A28RNRG
+      cel_les:
+        codi: 4A28RNRG
+        pes: '65'
+        mesures: 700x700x230
+        alcada: ''
+        ventilador: '[icona]'
+        cicle_aigua: ''
+        condensacio_assecat: ''
+        dosificador_sabo: 500 m3/h
+        dimensions_safata_mm: ''
+        potencia_electrica: 200 W 400/3V
+        preu: '4.325'
+      icones_en_columna:
+      - ventilador
+- pagina_pub: 64
+  pagina_pdf: 653
+  taules:
+  - id: p64-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - sortida
+    - sortida_2
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '16872450'
+      cel_les:
+        codi: '16872450'
+        pes: '4'
+        mesures: 250x250x155
+        sortida: Ø 78
+        sortida_2: '-'
+        preu: '280'
+    - codi: '16082450'
+      cel_les:
+        codi: '16082450'
+        pes: 5,4
+        mesures: 300x300x155
+        sortida: Ø 78
+        sortida_2: '-'
+        preu: '360'
+    - codi: '16682450'
+      cel_les:
+        codi: '16682450'
+        pes: 3,7
+        mesures: 250x250x75
+        sortida: '-'
+        sortida_2: Ø 48
+        preu: '265'
+    - codi: '16882450'
+      cel_les:
+        codi: '16882450'
+        pes: '5'
+        mesures: 300x300x75
+        sortida: '-'
+        sortida_2: Ø 48
+        preu: '350'
+    - codi: '16092450'
+      cel_les:
+        codi: '16092450'
+        pes: '10'
+        mesures: 1000x300x75
+        sortida: '-'
+        sortida_2: Ø 48
+        preu: '600'
+    - codi: '16292450'
+      cel_les:
+        codi: '16292450'
+        pes: '15'
+        mesures: 1485x300x75
+        sortida: '-'
+        sortida_2: Ø 48
+        preu: '750'
+- pagina_pub: 65
+  pagina_pdf: 654
+  taules:
+  - id: p65-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - mesures
+    - pack
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 41000ACB
+      cel_les:
+        codi: 41000ACB
+        mesures: □ 1 550 ó 600
+        pack: 1 + 1
+        preu: '110'
+    - codi: '40130200'
+      cel_les:
+        codi: '40130200'
+        mesures: □ 2 600 ó 700
+        pack: '1'
+        preu: '165'
+    - codi: '49030200'
+      cel_les:
+        codi: '49030200'
+        mesures: 600 ó 700 □ 3
+        pack: '1'
+        preu: '215'
+    paraules_orfes:
+    - DERECHA
+  - id: p65-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '16000028'
+      cel_les:
+        codi: 16000028 □ 4
+        preu: '39'
+  - id: p65-t3
+    reconstruida: true
+    columnes:
+    - codi
+    - col1
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 410000DA
+      cel_les:
+        codi: 410000DA
+        col1: □ 5 200
+        preu: '17'
+  - id: p65-t4
+    reconstruida: true
+    columnes:
+    - codi
+    - dimensions_cuba
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '41223009'
+      cel_les:
+        codi: '41223009'
+        dimensions_cuba: '250'
+        preu: '66'
+      icones_en_columna:
+      - preu
+    - codi: '42223009'
+      cel_les:
+        codi: '42223009'
+        dimensions_cuba: '300'
+        preu: '73'
+  - id: p65-t5
+    reconstruida: true
+    columnes:
+    - codi
+    - col1
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 41000AVA
+      cel_les:
+        codi: 41000AVA
+        col1: '[icona]'
+        preu: '70'
+      icones_en_columna:
+      - col1
+    - codi: 42000AVA
+      cel_les:
+        codi: 42000AVA
+        col1: '[icona]'
+        preu: '70'
+      icones_en_columna:
+      - col1
+    - codi: 43000AVA
+      cel_les:
+        codi: 43000AVA
+        col1: '[icona]'
+        preu: '70'
+      icones_en_columna:
+      - col1
+    - codi: 44000AVA
+      cel_les:
+        codi: 44000AVA
+        col1: '[icona]'
+        preu: '70'
+      icones_en_columna:
+      - col1
+  - id: p65-t6
+    reconstruida: true
+    columnes:
+    - codi
+    - col1
+    - mesures
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 410000EP
+      cel_les:
+        codi: 410000EP
+        col1: '[icona]'
+        mesures: '600'
+        preu: '145'
+      icones_en_columna:
+      - col1
+    - codi: 420000EP
+      cel_les:
+        codi: 420000EP
+        col1: '[icona]'
+        mesures: '600'
+        preu: '145'
+      icones_en_columna:
+      - col1
+    - codi: 430000EP
+      cel_les:
+        codi: 430000EP
+        col1: '[icona]'
+        mesures: '700'
+        preu: '160'
+      icones_en_columna:
+      - col1
+    - codi: 440000EO
+      cel_les:
+        codi: 440000EO
+        col1: '[icona]'
+        mesures: '700'
+        preu: '160'
+      icones_en_columna:
+      - col1
+  - id: p65-t7
+    reconstruida: true
+    columnes:
+    - codi
+    - mesures_interiors
+    - col2
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4D004500
+      cel_les:
+        codi: 4D004500
+        mesures_interiors: 500x400
+        col2: '[icona]'
+        preu: '104'
+      icones_en_columna:
+      - col2
+    - codi: 4I004500
+      cel_les:
+        codi: 4I004500
+        mesures_interiors: 500x400
+        col2: '[icona]'
+        preu: '104'
+      icones_en_columna:
+      - col2
+    - codi: 4D005500
+      cel_les:
+        codi: 4D005500
+        mesures_interiors: 500x500
+        col2: '[icona]'
+        preu: '112'
+      icones_en_columna:
+      - col2
+    - codi: 4I005500
+      cel_les:
+        codi: 4I005500
+        mesures_interiors: 500x500
+        col2: '[icona]'
+        preu: '112'
+      icones_en_columna:
+      - col2
+    - codi: 4D005600
+      cel_les:
+        codi: 4D005600
+        mesures_interiors: 600x500
+        col2: '[icona]'
+        preu: '134'
+      icones_en_columna:
+      - col2
+    - codi: 4I005600
+      cel_les:
+        codi: 4I005600
+        mesures_interiors: 600x500
+        col2: '[icona]'
+        preu: '134'
+      icones_en_columna:
+      - col2
+  - id: p65-t8
+    reconstruida: true
+    columnes:
+    - codi
+    - mesures_interiors
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '16000027'
+      cel_les:
+        codi: '16000027'
+        mesures_interiors: 500x400
+        preu: '159'
+  - id: p65-t9
+    reconstruida: true
+    columnes:
+    - codi
+    - mesures
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '41030520'
+      cel_les:
+        codi: '41030520'
+        mesures: 400x300x20
+        preu: '93'
+- pagina_pub: 66
+  pagina_pdf: 655
+  taules:
+  - id: p66-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - mesures
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '92462'
+      cel_les:
+        codi: '92462'
+        mesures: 350 x 350 x 150
+        preu: '91'
+    - codi: '92146'
+      cel_les:
+        codi: '92146'
+        mesures: 390 x 390 x 150
+        preu: '94'
+    - codi: '92491'
+      cel_les:
+        codi: '92491'
+        mesures: 450 x 450 x 105
+        preu: '94'
+    - codi: '95000'
+      cel_les:
+        codi: '95000'
+        mesures: 500 x 500 x 80
+        preu: '44'
+    - codi: '918107'
+      cel_les:
+        codi: '918107'
+        mesures: 500 x 600 x 115
+        preu: '158'
+  - id: p66-t3
+    reconstruida: true
+    columnes:
+    - codi
+    - mesures
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '95030'
+      cel_les:
+        codi: '95030'
+        mesures: 500 x 500 x 80
+        preu: '82'
+    paraules_orfes:
+    - '928107'
+    - '500'
+    - x
+    - '600'
+    - x
+    - '115'
+    - '158'
+  - id: p66-t4
+    reconstruida: true
+    columnes:
+    - codi
+    - mesures
+    - col2
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '96642'
+      cel_les:
+        codi: '96642'
+        mesures: □ 1 100 x 100 x 140
+        col2: 1 dpto
+        preu: '4'
+    - codi: '95019'
+      cel_les:
+        codi: '95019'
+        mesures: 425 x 220 x 140 □ 2
+        col2: 8 dptos
+        preu: '26'
+    - codi: '95016'
+      cel_les:
+        codi: '95016'
+        mesures: □ 3 500 x 500 x 120
+        col2: 16 dptos
+        preu: '65'
+- pagina_pub: 67
+  pagina_pdf: 656
+  taules:
+  - id: p67-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - mesures
+    - cubeta_trapezi
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '95160'
+      cel_les:
+        codi: '95160'
+        mesures: □ 1 500 x 500 x 80
+        cubeta_trapezi: 16 - Ø 113
+        preu: '44'
+    - codi: '95250'
+      cel_les:
+        codi: '95250'
+        mesures: 500 x 500 x 80 □ 2
+        cubeta_trapezi: 25 - Ø 89
+        preu: '46'
+    - codi: '95360'
+      cel_les:
+        codi: '95360'
+        mesures: □ 3 500 x 500 x 80
+        cubeta_trapezi: 36 - Ø 73
+        preu: '48'
+  - id: p67-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - mesures
+    - cubeta_trapezi
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '95161'
+      cel_les:
+        codi: '95161'
+        mesures: □ 1 500 x 500 x 40
+        cubeta_trapezi: 16 - Ø 113
+        preu: '19'
+    - codi: '95251'
+      cel_les:
+        codi: '95251'
+        mesures: □ 2 500 x 500 x 40
+        cubeta_trapezi: 25 - Ø 89
+        preu: '20'
+    - codi: '95361'
+      cel_les:
+        codi: '95361'
+        mesures: □ 3 500 x 500 x 40
+        cubeta_trapezi: 36 - Ø 73
+        preu: '21'
+    - codi: '95001'
+      cel_les:
+        codi: '95001'
+        mesures: □ 4 500 x 500 x 40
+        cubeta_trapezi: '-'
+        preu: '14'
+- pagina_pub: 69
+  pagina_pdf: 658
+  taules:
+  - id: p69-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - mesures
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4005000P
+      cel_les:
+        codi: 4005000P
+        mesures: 510 x 510 x 120
+        preu: '397'
+  - id: p69-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - mesures
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A600897
+      cel_les:
+        codi: 4A600897
+        mesures: 600 x 600 x 380
+        preu: '510'
+  - id: p69-t3
+    reconstruida: true
+    columnes:
+    - codi
+    - col1
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A453999
+      cel_les:
+        codi: 4A453999
+        col1: 350 x 350 / 390 x 390
+        preu: '258'
+    - codi: 4A243999
+      cel_les:
+        codi: 4A243999
+        col1: 450 x 450 / 500 x 500
+        preu: '313'
+    - codi: 4A001707
+      cel_les:
+        codi: 4A001707
+        col1: CÚPULA DOME DOMES
+        preu: '313'
+  - id: p69-t4
+    reconstruida: true
+    columnes:
+    - codi
+    - col1
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A743999
+      cel_les:
+        codi: 4A743999
+        col1: TODOS ALL TOUT
+        preu: '313'
+    - codi: 4A045914
+      cel_les:
+        codi: 4A045914
+        col1: CÚPULA DOME DOMES
+        preu: '313'
+  - id: p69-t5
+    reconstruida: true
+    columnes:
+    - codi
+    - mesures
+    - capacitat_litres
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '16000008'
+      cel_les:
+        codi: '16000008'
+        mesures: 190 x 400
+        capacitat_litres: 8 LTS.
+        preu: '165'
+    - codi: '16000012'
+      cel_les:
+        codi: '16000012'
+        mesures: 190 x 500
+        capacitat_litres: 12 LTS.
+        preu: '195'

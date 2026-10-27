@@ -6,7 +6,7 @@ edicio: auto
 
 # Ordre dels grups al catàleg. Buit = tots els disponibles, per número. Un grup que aquí no surt
 # no entra al catàleg encara que tingui PDF.
-ordre: [2, 3]   # PROVA 22/10: només 2 grups (l'Armand); treure per a tots
+ordre: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]   # tots els grups, per ordre numèric (23/10). Per deixar-ne un fora, treu-lo d'aquí.
 
 # Un grup nou (G06, G07...) NO demana tocar res: si Odoo té productes marcats d'aquell grup i el generador
 # (generadors.per_defecte) en pot fer el PDF, entra sol. Només cal una entrada aquí per canviar el PDF d'origen

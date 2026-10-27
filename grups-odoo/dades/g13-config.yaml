@@ -1,0 +1,5876 @@
+# Generat per scripts/genera_config.py --grup 13 (editable; es pot regenerar)
+grup:
+  numero: 13
+  codi_odoo: G13
+families:
+- clau: FREGADEROS CON 1 SENO
+  noms:
+    es: FREGADEROS CON 1 SENO
+    en: SINGLE BOWL SINKS
+    fr: ÉVIERS À UNE CUVE
+  sequence: 10
+  tipus: producte
+  pagina: p07
+  taula: p07-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: mesures_interiors
+    etiqueta: null
+  - codi: prestatge
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '20400145'
+    ordre: 10
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '20500155'
+    ordre: 20
+    valors:
+      mesures_interiors:
+        es: 500x500x300
+        en: 500x500x300
+        fr: 500x500x300
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '24100568'
+    ordre: 30
+    valors:
+      mesures_interiors:
+        es: 860x500x380
+        en: 860x500x380
+        fr: 860x500x380
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '24000521'
+    ordre: 40
+    valors:
+      mesures_interiors:
+        es: 1200x500x380
+        en: 1200x500x380
+        fr: 1200x500x380
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '20410606'
+    ordre: 50
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '20510707'
+    ordre: 60
+    valors:
+      mesures_interiors:
+        es: 500x500x300
+        en: 500x500x300
+        fr: 500x500x300
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '24110170'
+    ordre: 70
+    valors:
+      mesures_interiors:
+        es: 860x500x380
+        en: 860x500x380
+        fr: 860x500x380
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '24014170'
+    ordre: 80
+    valors:
+      mesures_interiors:
+        es: 1200x500x380
+        en: 1200x500x380
+        fr: 1200x500x380
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '20450606'
+    ordre: 90
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '20550707'
+    ordre: 100
+    valors:
+      mesures_interiors:
+        es: 500x500x300
+        en: 500x500x300
+        fr: 500x500x300
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 2415017E
+    ordre: 110
+    valors:
+      mesures_interiors:
+        es: 860x500x380
+        en: 860x500x380
+        fr: 860x500x380
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 2405417E
+    ordre: 120
+    valors:
+      mesures_interiors:
+        es: 1200x500x380
+        en: 1200x500x380
+        fr: 1200x500x380
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '20430606'
+    ordre: 130
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: '20530707'
+    ordre: 140
+    valors:
+      mesures_interiors:
+        es: 500x500x300
+        en: 500x500x300
+        fr: 500x500x300
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: '24130017'
+    ordre: 150
+    valors:
+      mesures_interiors:
+        es: 860x500x380
+        en: 860x500x380
+        fr: 860x500x380
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: '24030417'
+    ordre: 160
+    valors:
+      mesures_interiors:
+        es: 1200x500x380
+        en: 1200x500x380
+        fr: 1200x500x380
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+  compartits: []
+- clau: FREGADEROS CON 1 SENO Y ESCURRIDOR (ENCIMERAS Y SOBRE SOPORTE)
+  noms:
+    es: FREGADEROS CON 1 SENO Y ESCURRIDOR (ENCIMERAS Y SOBRE SOPORTE)
+    en: SINGLE BOWL SINKS AND DRAINER (COUNTERTOPS AND ON SUPPORT)
+    fr: ÉVIERS À UNE CUVE ET ÉGOUTTOIR (COMPTOIR ET SUR SUPPORT)
+  sequence: 20
+  tipus: producte
+  pagina: p08
+  taula: p08-t2
+  blocs: 2
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: mesures_interiors
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 2090D145
+    ordre: 10
+    valors:
+      mesures_interiors:
+        es: 400x400x200
+        en: 400x400x200
+        fr: 400x400x200
+  - codi: 2130I145
+    ordre: 1010
+    valors:
+      mesures_interiors:
+        es: 400x400x200
+        en: 400x400x200
+        fr: 400x400x200
+  - codi: 2120D145
+    ordre: 20
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+  - codi: 2140I145
+    ordre: 1020
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+  - codi: 2110D156
+    ordre: 30
+    valors:
+      mesures_interiors:
+        es: 600x500x300
+        en: 600x500x300
+        fr: 600x500x300
+  - codi: 2150I156
+    ordre: 1030
+    valors:
+      mesures_interiors:
+        es: 600x500x300
+        en: 600x500x300
+        fr: 600x500x300
+  - codi: 2420D158
+    ordre: 40
+    valors:
+      mesures_interiors:
+        es: 860x500x380
+        en: 860x500x380
+        fr: 860x500x380
+  - codi: 2440I158
+    ordre: 1040
+    valors:
+      mesures_interiors:
+        es: 860x500x380
+        en: 860x500x380
+        fr: 860x500x380
+  - codi: 2430D151
+    ordre: 50
+    valors:
+      mesures_interiors:
+        es: 1160x500x380
+        en: 1160x500x380
+        fr: 1160x500x380
+  - codi: 2450I151
+    ordre: 1050
+    valors:
+      mesures_interiors:
+        es: 1160x500x380
+        en: 1160x500x380
+        fr: 1160x500x380
+  - codi: 2091D001
+    ordre: 60
+    valors:
+      mesures_interiors:
+        es: 400x400x200
+        en: 400x400x200
+        fr: 400x400x200
+  - codi: 2131I001
+    ordre: 1060
+    valors:
+      mesures_interiors:
+        es: 400x400x200
+        en: 400x400x200
+        fr: 400x400x200
+  - codi: 2121D021
+    ordre: 70
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+  - codi: 2141I021
+    ordre: 1070
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+  - codi: 2111D041
+    ordre: 80
+    valors:
+      mesures_interiors:
+        es: 600x500x300
+        en: 600x500x300
+        fr: 600x500x300
+  - codi: 2151I041
+    ordre: 1080
+    valors:
+      mesures_interiors:
+        es: 600x500x300
+        en: 600x500x300
+        fr: 600x500x300
+  - codi: 2421D617
+    ordre: 90
+    valors:
+      mesures_interiors:
+        es: 860x500x380
+        en: 860x500x380
+        fr: 860x500x380
+  - codi: 2441I617
+    ordre: 1090
+    valors:
+      mesures_interiors:
+        es: 860x500x380
+        en: 860x500x380
+        fr: 860x500x380
+  - codi: 2431D027
+    ordre: 100
+    valors:
+      mesures_interiors:
+        es: 1160x500x380
+        en: 1160x500x380
+        fr: 1160x500x380
+  - codi: 2451I027
+    ordre: 1100
+    valors:
+      mesures_interiors:
+        es: 1160x500x380
+        en: 1160x500x380
+        fr: 1160x500x380
+  compartits: []
+- clau: FREGADEROS CON 1 SENO Y ESCURRIDOR (SOBRE SOPORTE CON ESTANTE O ARMARIO)
+  noms:
+    es: FREGADEROS CON 1 SENO Y ESCURRIDOR (SOBRE SOPORTE CON ESTANTE O ARMARIO)
+    en: SINGLE BOWL SINKS AND DRAINER (ON STAND WITH SHELF OR CUPBOARD)
+    fr: ÉVIERS À UNE CUVE ET ÉGOUTTOIR (SUR SUPPORT AVEC ÉTAGÈRE OU ARMOIRE)
+  sequence: 30
+  tipus: producte
+  pagina: p09
+  taula: p09-t2
+  blocs: 2
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: mesures_interiors
+    etiqueta: null
+  - codi: prestatge
+    etiqueta: null
+  - codi: portes_corredisses
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 2095D001
+    ordre: 10
+    valors:
+      mesures_interiors:
+        es: 400x400x200
+        en: 400x400x200
+        fr: 400x400x200
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes_corredisses:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 2135I001
+    ordre: 1010
+    valors:
+      mesures_interiors:
+        es: 400x400x200
+        en: 400x400x200
+        fr: 400x400x200
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes_corredisses:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 2125D021
+    ordre: 20
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes_corredisses:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 2145I021
+    ordre: 1020
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes_corredisses:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 2115D041
+    ordre: 30
+    valors:
+      mesures_interiors:
+        es: 600x500x300
+        en: 600x500x300
+        fr: 600x500x300
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes_corredisses:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 2155I041
+    ordre: 1030
+    valors:
+      mesures_interiors:
+        es: 600x500x300
+        en: 600x500x300
+        fr: 600x500x300
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes_corredisses:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 2425D617
+    ordre: 40
+    valors:
+      mesures_interiors:
+        es: 860x500x380
+        en: 860x500x380
+        fr: 860x500x380
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes_corredisses:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 2445I617
+    ordre: 1040
+    valors:
+      mesures_interiors:
+        es: 860x500x380
+        en: 860x500x380
+        fr: 860x500x380
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes_corredisses:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 2435D027
+    ordre: 50
+    valors:
+      mesures_interiors:
+        es: 1160x500x380
+        en: 1160x500x380
+        fr: 1160x500x380
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes_corredisses:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 2455I027
+    ordre: 1050
+    valors:
+      mesures_interiors:
+        es: 1160x500x380
+        en: 1160x500x380
+        fr: 1160x500x380
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes_corredisses:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 2093D015
+    ordre: 60
+    valors:
+      mesures_interiors:
+        es: 400x400x200
+        en: 400x400x200
+        fr: 400x400x200
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: 2133I015
+    ordre: 1060
+    valors:
+      mesures_interiors:
+        es: 400x400x200
+        en: 400x400x200
+        fr: 400x400x200
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: 2123D021
+    ordre: 70
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: 2143I021
+    ordre: 1070
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: 2113D041
+    ordre: 80
+    valors:
+      mesures_interiors:
+        es: 600x500x300
+        en: 600x500x300
+        fr: 600x500x300
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: 2153I041
+    ordre: 1080
+    valors:
+      mesures_interiors:
+        es: 600x500x300
+        en: 600x500x300
+        fr: 600x500x300
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: 2423DD61
+    ordre: 90
+    valors:
+      mesures_interiors:
+        es: 860x500x380
+        en: 860x500x380
+        fr: 860x500x380
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: 2443II61
+    ordre: 1090
+    valors:
+      mesures_interiors:
+        es: 860x500x380
+        en: 860x500x380
+        fr: 860x500x380
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: 2433DD02
+    ordre: 100
+    valors:
+      mesures_interiors:
+        es: 1160x500x380
+        en: 1160x500x380
+        fr: 1160x500x380
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: 2453II02
+    ordre: 1100
+    valors:
+      mesures_interiors:
+        es: 1160x500x380
+        en: 1160x500x380
+        fr: 1160x500x380
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+  compartits: []
+- clau: FREGADEROS CON 1 SENO Y ESCURRIDOR (CON ESPACIO PARA LAVAVAJILLAS)
+  noms:
+    es: FREGADEROS CON 1 SENO Y ESCURRIDOR (CON ESPACIO PARA LAVAVAJILLAS)
+    en: SINGLE BOWL SINKS AND DRAINER (WITH SPACE FOR DISHWASHERS)
+    fr: ÉVIERS À UNE CUVE ET ÉGOUTTOIR (AVEC ESPACE POUR LAVE-VAISSELLE)
+  sequence: 40
+  tipus: producte
+  pagina: p10
+  taula: p10-t2
+  blocs: 2
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: mesures_interiors
+    etiqueta: null
+  - codi: prestatge
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 2092D215
+    ordre: 10
+    valors:
+      mesures_interiors:
+        es: 400x400x200
+        en: 400x400x200
+        fr: 400x400x200
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 2132I215
+    ordre: 1010
+    valors:
+      mesures_interiors:
+        es: 400x400x200
+        en: 400x400x200
+        fr: 400x400x200
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 2122D216
+    ordre: 20
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 2142I216
+    ordre: 1020
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 2112D417
+    ordre: 30
+    valors:
+      mesures_interiors:
+        es: 600x500x300
+        en: 600x500x300
+        fr: 600x500x300
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 2152I417
+    ordre: 1030
+    valors:
+      mesures_interiors:
+        es: 600x500x300
+        en: 600x500x300
+        fr: 600x500x300
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 2096D215
+    ordre: 40
+    valors:
+      mesures_interiors:
+        es: 400x400x200
+        en: 400x400x200
+        fr: 400x400x200
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 2136I215
+    ordre: 1040
+    valors:
+      mesures_interiors:
+        es: 400x400x200
+        en: 400x400x200
+        fr: 400x400x200
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 2126D216
+    ordre: 50
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 2146I216
+    ordre: 1050
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 2116D417
+    ordre: 60
+    valors:
+      mesures_interiors:
+        es: 600x500x300
+        en: 600x500x300
+        fr: 600x500x300
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 2156I417
+    ordre: 1060
+    valors:
+      mesures_interiors:
+        es: 600x500x300
+        en: 600x500x300
+        fr: 600x500x300
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 2094D215
+    ordre: 70
+    valors:
+      mesures_interiors:
+        es: 400x400x200
+        en: 400x400x200
+        fr: 400x400x200
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: 2134I215
+    ordre: 1070
+    valors:
+      mesures_interiors:
+        es: 400x400x200
+        en: 400x400x200
+        fr: 400x400x200
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: 2124D216
+    ordre: 80
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: 2144I216
+    ordre: 1080
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: 2114D417
+    ordre: 90
+    valors:
+      mesures_interiors:
+        es: 600x500x300
+        en: 600x500x300
+        fr: 600x500x300
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: 2154I417
+    ordre: 1090
+    valors:
+      mesures_interiors:
+        es: 600x500x300
+        en: 600x500x300
+        fr: 600x500x300
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+  compartits: []
+- clau: FREGADEROS CON 2 SENOS
+  noms:
+    es: FREGADEROS CON 2 SENOS
+    en: DOUBLE BOWL SINKS
+    fr: ÉVIERS AVEC 2 CUVES
+  sequence: 50
+  tipus: producte
+  pagina: p11
+  taula: p11-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: mesures_interiors
+    etiqueta: null
+  - codi: prestatge
+    etiqueta: null
+  - codi: portes_corredisses
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '20600245'
+    ordre: 10
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+      portes_corredisses:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '20700256'
+    ordre: 20
+    valors:
+      mesures_interiors:
+        es: 600x500x300
+        en: 600x500x300
+        fr: 600x500x300
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+      portes_corredisses:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '24600258'
+    ordre: 30
+    valors:
+      mesures_interiors:
+        es: 800x500x380
+        en: 800x500x380
+        fr: 800x500x380
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+      portes_corredisses:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '20610216'
+    ordre: 40
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+      portes_corredisses:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '20710417'
+    ordre: 50
+    valors:
+      mesures_interiors:
+        es: 600x500x300
+        en: 600x500x300
+        fr: 600x500x300
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+      portes_corredisses:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '24618170'
+    ordre: 60
+    valors:
+      mesures_interiors:
+        es: 800x500x380
+        en: 800x500x380
+        fr: 800x500x380
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+      portes_corredisses:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '20650216'
+    ordre: 70
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes_corredisses:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '20750417'
+    ordre: 80
+    valors:
+      mesures_interiors:
+        es: 600x500x300
+        en: 600x500x300
+        fr: 600x500x300
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes_corredisses:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 2465817E
+    ordre: 90
+    valors:
+      mesures_interiors:
+        es: 800x500x380
+        en: 800x500x380
+        fr: 800x500x380
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes_corredisses:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '20630216'
+    ordre: 100
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: '20730417'
+    ordre: 110
+    valors:
+      mesures_interiors:
+        es: 600x500x300
+        en: 600x500x300
+        fr: 600x500x300
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: '24632817'
+    ordre: 120
+    valors:
+      mesures_interiors:
+        es: 800x500x380
+        en: 800x500x380
+        fr: 800x500x380
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+  compartits: []
+- clau: FREGADEROS CON 2 SENO Y ESCURRIDOR (ENCIMERAS Y SOBRE SOPORTE)
+  noms:
+    es: FREGADEROS CON 2 SENO Y ESCURRIDOR (ENCIMERAS Y SOBRE SOPORTE)
+    en: DOUBLE BOWL SINKS AND DRAINER (COUNTERTOPS AND ON SUPPORT)
+    fr: ÉVIERS AVEC 2 CUVES ET ÉGOUTTOIR (COMPTOIR ET SUR SUPPORT)
+  sequence: 60
+  tipus: producte
+  pagina: p12
+  taula: p12-t2
+  blocs: 2
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: mesures_interiors
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 2180D245
+    ordre: 10
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+  - codi: 2210I245
+    ordre: 1010
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+  - codi: 2190D256
+    ordre: 20
+    valors:
+      mesures_interiors:
+        es: 600x500x300
+        en: 600x500x300
+        fr: 600x500x300
+  - codi: 2220I256
+    ordre: 1020
+    valors:
+      mesures_interiors:
+        es: 600x500x300
+        en: 600x500x300
+        fr: 600x500x300
+  - codi: 2181D061
+    ordre: 30
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+  - codi: 2211I061
+    ordre: 1030
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+  - codi: 2191D002
+    ordre: 40
+    valors:
+      mesures_interiors:
+        es: 600x500x300
+        en: 600x500x300
+        fr: 600x500x300
+  - codi: 2221I002
+    ordre: 1040
+    valors:
+      mesures_interiors:
+        es: 600x500x300
+        en: 600x500x300
+        fr: 600x500x300
+  compartits: []
+- clau: FREGADEROS CON 2 SENOS Y ESCURRIDOR (SOBRE SOPORTE CON ESTANTE O ARMARIO)
+  noms:
+    es: FREGADEROS CON 2 SENOS Y ESCURRIDOR (SOBRE SOPORTE CON ESTANTE O ARMARIO)
+    en: DOUBLE BOWL SINKS AND DRAINER (ON STAND WITH SHELF OR CUPBOARD)
+    fr: ÉVIERS AVEC 2 CUVES ET ÉGOUTTOIR (SUR SUPPORT AVEC ÉTAGÈRE OU ARMOIRE)
+  sequence: 70
+  tipus: producte
+  pagina: p13
+  taula: p13-t2
+  blocs: 2
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: mesures_interiors
+    etiqueta: null
+  - codi: prestatge
+    etiqueta: null
+  - codi: portes_corredisses
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 2185D061
+    ordre: 10
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes_corredisses:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 2215I061
+    ordre: 1010
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes_corredisses:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 2195D002
+    ordre: 20
+    valors:
+      mesures_interiors:
+        es: 600x500x300
+        en: 600x500x300
+        fr: 600x500x300
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes_corredisses:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 2225I002
+    ordre: 1020
+    valors:
+      mesures_interiors:
+        es: 600x500x300
+        en: 600x500x300
+        fr: 600x500x300
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes_corredisses:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 2183D061
+    ordre: 30
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: 2213I061
+    ordre: 1030
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: 2193D002
+    ordre: 40
+    valors:
+      mesures_interiors:
+        es: 600x500x300
+        en: 600x500x300
+        fr: 600x500x300
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: 2223I002
+    ordre: 1040
+    valors:
+      mesures_interiors:
+        es: 600x500x300
+        en: 600x500x300
+        fr: 600x500x300
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+  compartits: []
+- clau: FREGADEROS CON 2 SENOS Y 2 ESCURRIDORES / FREGADEROS CON 3 SENOS
+  noms:
+    es: FREGADEROS CON 2 SENOS Y 2 ESCURRIDORES / FREGADEROS CON 3 SENOS
+    en: SINKS WITH 2 BOWLS AND 2 DRAINBOARDS / 3 BOWL SINKS
+    fr: ÉVIERS AVEC 2 CUVES ET 2 ÉGOUTTOIRS / 3 ÉVIERS
+  sequence: 80
+  tipus: producte
+  pagina: p14
+  taula: p14-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: mesures_interiors
+    etiqueta: null
+  - codi: prestatge
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '22302256'
+    ordre: 10
+    valors:
+      mesures_interiors:
+        es: 600x500x300
+        en: 600x500x300
+        fr: 600x500x300
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '22310227'
+    ordre: 20
+    valors:
+      mesures_interiors:
+        es: 600x500x300
+        en: 600x500x300
+        fr: 600x500x300
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 2235227E
+    ordre: 30
+    valors:
+      mesures_interiors:
+        es: 600x500x300
+        en: 600x500x300
+        fr: 600x500x300
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: '24700355'
+    ordre: 40
+    valors:
+      mesures_interiors:
+        es: 500x500x300
+        en: 500x500x300
+        fr: 500x500x300
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '24718170'
+    ordre: 50
+    valors:
+      mesures_interiors:
+        es: 500x500x300
+        en: 500x500x300
+        fr: 500x500x300
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 2475817E
+    ordre: 60
+    valors:
+      mesures_interiors:
+        es: 500x500x300
+        en: 500x500x300
+        fr: 500x500x300
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+  compartits: []
+- clau: FREGADEROS CON 1 SENO Y ARO DE DESBARACE SOBRE SOPORTE
+  noms:
+    es: FREGADEROS CON 1 SENO Y ARO DE DESBARACE SOBRE SOPORTE
+    en: SINGLE BOWL SINKS AND DISCHARGE RING ON SUPPORT
+    fr: ÉVIERS AVEC TROU DE VINDAGE SUR SUPPORT
+  sequence: 90
+  tipus: producte
+  pagina: p15
+  taula: p15-t2
+  blocs: 2
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: mesures_interiors
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 248D4160
+    ordre: 10
+    valors:
+      mesures_interiors:
+        es: 500x400x300
+        en: 500x400x300
+        fr: 500x400x300
+  - codi: 249I4160
+    ordre: 1010
+    valors:
+      mesures_interiors:
+        es: 500x400x300
+        en: 500x400x300
+        fr: 500x400x300
+  - codi: 250D8160
+    ordre: 20
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+  - codi: 251I8160
+    ordre: 1020
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+  - codi: 225D4170
+    ordre: 30
+    valors:
+      mesures_interiors:
+        es: 500x500x300
+        en: 500x500x300
+        fr: 500x500x300
+  - codi: 226I4170
+    ordre: 1030
+    valors:
+      mesures_interiors:
+        es: 500x500x300
+        en: 500x500x300
+        fr: 500x500x300
+  - codi: 252D8170
+    ordre: 40
+    valors:
+      mesures_interiors:
+        es: 500x500x250
+        en: 500x500x250
+        fr: 500x500x250
+  - codi: 253I8170
+    ordre: 1040
+    valors:
+      mesures_interiors:
+        es: 500x500x250
+        en: 500x500x250
+        fr: 500x500x250
+  compartits: []
+- clau: FREGADEROS CON 1 SENO Y ARO DE DESBARACE SOBRE SOPORTE (CON ESPACIO PARA LAVAVAJILLAS)
+  noms:
+    es: FREGADEROS CON 1 SENO Y ARO DE DESBARACE SOBRE SOPORTE (CON ESPACIO PARA LAVAVAJILLAS)
+    en: SINGLE BOWL SINKS AND DISCHARGE RING ON SUPPORT (WITH SPACE FOR DISHWASHERS)
+    fr: ÉVIERS AVEC TROU DE VINDAGE SUR SUPPORT (AVEC ESPACE POUR LAVE-VAISSELLE)
+  sequence: 100
+  tipus: producte
+  pagina: p16
+  taula: p16-t2
+  blocs: 2
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: mesures_interiors
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 254D816L
+    ordre: 10
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+  - codi: 255I816L
+    ordre: 1010
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+  - codi: 227D817L
+    ordre: 20
+    valors:
+      mesures_interiors:
+        es: 500x500x250
+        en: 500x500x250
+        fr: 500x500x250
+  - codi: 228I817L
+    ordre: 1020
+    valors:
+      mesures_interiors:
+        es: 500x500x250
+        en: 500x500x250
+        fr: 500x500x250
+  compartits: []
+- clau: FREGADEROS CON DESBARACE SOBRE SOPORTE PARA LIMPIEZA DE ALIMENTOS
+  noms:
+    es: FREGADEROS CON DESBARACE SOBRE SOPORTE PARA LIMPIEZA DE ALIMENTOS
+    en: SINKS WITH MESS ON SUPPORT FOR FOOD CLEANING
+    fr: ÉVIERS AVEC TROU DE VINDAGE SUR SUPPORT POUR LE NETTOYAGE DES ALIMENTS
+  sequence: 110
+  tipus: producte
+  pagina: p17
+  taula: p17-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: mesures_interiors
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 208V4107
+    ordre: 10
+    valors:
+      mesures_interiors:
+        es: 1250x310x170
+        en: 1250x310x170
+        fr: 1250x310x170
+  - codi: 208C4107
+    ordre: 20
+    valors:
+      mesures_interiors:
+        es: 1250x310x20
+        en: 1250x310x20
+        fr: 1250x310x20
+  compartits: []
+- clau: FREGADEROS VERTEDEROS
+  noms:
+    es: FREGADEROS VERTEDEROS
+    en: DUMP SINKS
+    fr: ÉVIERS DE VIDAGE
+  sequence: 120
+  tipus: producte
+  pagina: p20
+  taula: p20-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: mesures_interiors
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '22465506'
+    ordre: 10
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+  - codi: '22475507'
+    ordre: 20
+    valors:
+      mesures_interiors:
+        es: 500x500x300
+        en: 500x500x300
+        fr: 500x500x300
+  compartits: []
+- clau: GRIFERÍA
+  noms:
+    es: GRIFERÍA
+    en: TAPS
+    fr: ROBINETS
+  sequence: 130
+  tipus: accessoris
+  pagina: p21
+  taula: p21-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '22111134'
+    ordre: 10
+    valors: {}
+  compartits: []
+- clau: GRIFERÍA#2
+  noms:
+    es: GRIFERÍA
+    en: TAPS
+    fr: ROBINETS
+  sequence: 140
+  tipus: accessoris
+  pagina: p21
+  taula: p21-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '22111135'
+    ordre: 10
+    valors: {}
+  compartits: []
+- clau: GRIFERÍA#3
+  noms:
+    es: GRIFERÍA
+    en: TAPS
+    fr: ROBINETS
+  sequence: 150
+  tipus: accessoris
+  pagina: p21
+  taula: p21-t3
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '22222236'
+    ordre: 10
+    valors: {}
+  compartits: []
+- clau: GRIFERÍA#4
+  noms:
+    es: GRIFERÍA
+    en: TAPS
+    fr: ROBINETS
+  sequence: 160
+  tipus: accessoris
+  pagina: p21
+  taula: p21-t4
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '26568109'
+    ordre: 10
+    valors: {}
+  compartits: []
+- clau: GRIFERÍA#5
+  noms:
+    es: GRIFERÍA
+    en: TAPS
+    fr: ROBINETS
+  sequence: 170
+  tipus: accessoris
+  pagina: p21
+  taula: p21-t5
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '16000124'
+    ordre: 10
+    valors: {}
+  compartits: []
+- clau: GRIFERÍA#6
+  noms:
+    es: GRIFERÍA
+    en: TAPS
+    fr: ROBINETS
+  sequence: 180
+  tipus: accessoris
+  pagina: p21
+  taula: p21-t6
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '16000123'
+    ordre: 10
+    valors: {}
+  compartits: []
+- clau: 'GRIFERÍA: ENROLLADOR, PEDALES Y COMPLEMENTOS'
+  noms:
+    es: 'GRIFERÍA: ENROLLADOR, PEDALES Y COMPLEMENTOS'
+    en: 'TAPS: HOSE REEL, PEDALS AND ACCESSORIES'
+    fr: 'ROBINETS : ENROULEUR, PÉDALES ET ACCESSOIRES'
+  sequence: 190
+  tipus: accessoris
+  pagina: p21
+  taula: p21-t8
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 160100R6
+    ordre: 10
+    valors: {}
+  - codi: 1601KMEN
+    ordre: 20
+    valors: {}
+  - codi: 160300R6
+    ordre: 30
+    valors: {}
+  - codi: '22222299'
+    ordre: 40
+    valors: {}
+  - codi: '22222239'
+    ordre: 50
+    valors: {}
+  - codi: '22222237'
+    ordre: 60
+    valors: {}
+  - codi: '22222233'
+    ordre: 70
+    valors: {}
+  compartits: []
+- clau: LAVAMANOS MURALES
+  noms:
+    es: LAVAMANOS MURALES
+    en: WALL-MOUNTED WASHBASINS
+    fr: LAVABOS À MAIN MURAUX
+  sequence: 200
+  tipus: producte
+  pagina: p24
+  taula: p24-t3
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: mesures_interiors
+    etiqueta: null
+  - codi: dutxa
+    etiqueta:
+      es: Grifo
+      en: Tap
+      fr: Robinet
+  - codi: dosificador_sabo
+    etiqueta: null
+  - codi: aixeta
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '20224160'
+    ordre: 10
+    valors:
+      mesures_interiors:
+        es: Ø 260x115
+        en: Ø 260x115
+        fr: Ø 260x115
+      dutxa:
+        es: Press
+        en: Press
+        fr: Press
+      dosificador_sabo:
+        es: '-'
+        en: '-'
+        fr: '-'
+      aixeta:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 201P0000
+    ordre: 20
+    valors:
+      mesures_interiors:
+        es: Ø 360x130
+        en: Ø 360x130
+        fr: Ø 360x130
+      dutxa:
+        es: Press
+        en: Press
+        fr: Press
+      dosificador_sabo:
+        es: '-'
+        en: '-'
+        fr: '-'
+      aixeta:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 201PJ100
+    ordre: 30
+    valors:
+      mesures_interiors:
+        es: Ø 360x130
+        en: Ø 360x130
+        fr: Ø 360x130
+      dutxa:
+        es: Press
+        en: Press
+        fr: Press
+      dosificador_sabo:
+        es: '1'
+        en: '1'
+        fr: '1'
+      aixeta:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 201E0022
+    ordre: 40
+    valors:
+      mesures_interiors:
+        es: Ø 360x130
+        en: Ø 360x130
+        fr: Ø 360x130
+      dutxa:
+        es: Elec
+        en: Elec
+        fr: Elec
+      dosificador_sabo:
+        es: '-'
+        en: '-'
+        fr: '-'
+      aixeta:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 201EJ102
+    ordre: 50
+    valors:
+      mesures_interiors:
+        es: Ø 360x130
+        en: Ø 360x130
+        fr: Ø 360x130
+      dutxa:
+        es: Elec
+        en: Elec
+        fr: Elec
+      dosificador_sabo:
+        es: '1'
+        en: '1'
+        fr: '1'
+      aixeta:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '20424160'
+    ordre: 60
+    valors:
+      mesures_interiors:
+        es: Ø 260x115
+        en: Ø 260x115
+        fr: Ø 260x115
+      dutxa:
+        es: Press
+        en: Press
+        fr: Press
+      dosificador_sabo:
+        es: '-'
+        en: '-'
+        fr: '-'
+      aixeta:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '20202450'
+    ordre: 70
+    valors:
+      mesures_interiors:
+        es: 2 de 330x360x160
+        en: 2 de 330x360x160
+        fr: 2 de 330x360x160
+      dutxa:
+        es: Press
+        en: Press
+        fr: Press
+      dosificador_sabo:
+        es: '-'
+        en: '-'
+        fr: '-'
+      aixeta:
+        es: '1'
+        en: '1'
+        fr: '1'
+  compartits: []
+- clau: LAVAMANOS DE PIÉ
+  noms:
+    es: LAVAMANOS DE PIÉ
+    en: FLOOR-STANDING WASHBASINS
+    fr: LAVABOS SUR PIED
+  sequence: 210
+  tipus: producte
+  pagina: p25
+  taula: p25-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: mesures_interiors
+    etiqueta: null
+  - codi: dutxa
+    etiqueta:
+      es: Grifo
+      en: Tap
+      fr: Robinet
+  - codi: dosificador_sabo
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '20624160'
+    ordre: 10
+    valors:
+      mesures_interiors:
+        es: Ø 260x115
+        en: Ø 260x115
+        fr: Ø 260x115
+      dutxa:
+        es: Press
+        en: Press
+        fr: Press
+      dosificador_sabo:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 202P0001
+    ordre: 20
+    valors:
+      mesures_interiors:
+        es: Ø 360x130
+        en: Ø 360x130
+        fr: Ø 360x130
+      dutxa:
+        es: Press
+        en: Press
+        fr: Press
+      dosificador_sabo:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 202PJ100
+    ordre: 30
+    valors:
+      mesures_interiors:
+        es: Ø 360x130
+        en: Ø 360x130
+        fr: Ø 360x130
+      dutxa:
+        es: Press
+        en: Press
+        fr: Press
+      dosificador_sabo:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: 202E0031
+    ordre: 40
+    valors:
+      mesures_interiors:
+        es: Ø 360x130
+        en: Ø 360x130
+        fr: Ø 360x130
+      dutxa:
+        es: Elec
+        en: Elec
+        fr: Elec
+      dosificador_sabo:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 202EJ103
+    ordre: 50
+    valors:
+      mesures_interiors:
+        es: Ø 360x130
+        en: Ø 360x130
+        fr: Ø 360x130
+      dutxa:
+        es: Elec
+        en: Elec
+        fr: Elec
+      dosificador_sabo:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: '20034160'
+    ordre: 60
+    valors:
+      mesures_interiors:
+        es: Ø 390x150
+        en: Ø 390x150
+        fr: Ø 390x150
+      dutxa:
+        es: Press
+        en: Press
+        fr: Press
+      dosificador_sabo:
+        es: '-'
+        en: '-'
+        fr: '-'
+  compartits: []
+- clau: LAVAMANOS COLECTIVOS
+  noms:
+    es: LAVAMANOS COLECTIVOS
+    en: COLLECTIVE HANDWASHING
+    fr: LAVABOS COLLECTIFS
+  sequence: 220
+  tipus: producte
+  pagina: p26
+  taula: p26-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: dutxa
+    etiqueta:
+      es: Grifo
+      en: Tap
+      fr: Robinet
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '20634160'
+    ordre: 10
+    valors:
+      dutxa:
+        es: 2-Press
+        en: 2-Press
+        fr: 2-Press
+  - codi: '20834160'
+    ordre: 20
+    valors:
+      dutxa:
+        es: 3-Press
+        en: 3-Press
+        fr: 3-Press
+  - codi: '20044160'
+    ordre: 30
+    valors:
+      dutxa:
+        es: 4-Press
+        en: 4-Press
+        fr: 4-Press
+  compartits: []
+- clau: FUENTES DE AGUA REFRIGERADA O NATURAL
+  noms:
+    es: FUENTES DE AGUA REFRIGERADA O NATURAL
+    en: COLD OR NATURAL WATER FOUNTAINS
+    fr: FONTAINES D'EAU FROIDE OU NATURELLE
+  sequence: 230
+  tipus: producte
+  pagina: p29
+  taula: p29-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: dosificador
+    etiqueta: null
+  - codi: dutxa
+    etiqueta:
+      es: Grifo
+      en: Tap
+      fr: Robinet
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '20602464'
+    ordre: 10
+    valors:
+      dosificador:
+        es: 1-Press
+        en: 1-Press
+        fr: 1-Press
+      dutxa:
+        es: '1'
+        en: '1'
+        fr: '1'
+      potencia_electrica:
+        es: 125 W
+        en: 125 W
+        fr: 125 W
+  - codi: '20802464'
+    ordre: 20
+    valors:
+      dosificador:
+        es: 1-Press
+        en: 1-Press
+        fr: 1-Press
+      dutxa:
+        es: '1'
+        en: '1'
+        fr: '1'
+      potencia_electrica:
+        es: 125 W
+        en: 125 W
+        fr: 125 W
+  - codi: '20802460'
+    ordre: 30
+    valors:
+      dosificador:
+        es: 1-Press
+        en: 1-Press
+        fr: 1-Press
+      dutxa:
+        es: '1'
+        en: '1'
+        fr: '1'
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '20602460'
+    ordre: 40
+    valors:
+      dosificador:
+        es: 1-Press
+        en: 1-Press
+        fr: 1-Press
+      dutxa:
+        es: '1'
+        en: '1'
+        fr: '1'
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+  compartits: []
+- clau: URINARIOS
+  noms:
+    es: URINARIOS
+    en: URINALS
+    fr: URINOIRS
+  sequence: 240
+  tipus: producte
+  pagina: p30
+  taula: p30-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: persones
+    etiqueta:
+      es: Personas
+      en: People
+      fr: Personnes
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '20200560'
+    ordre: 10
+    valors:
+      persones:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: '20400560'
+    ordre: 20
+    valors:
+      persones:
+        es: '4'
+        en: '4'
+        fr: '4'
+  compartits: []
+- clau: LAVAVASOS
+  noms:
+    es: LAVAVASOS
+    en: GLASSWASHER
+    fr: LAVA-VERRES
+  sequence: 250
+  tipus: producte
+  pagina: p33
+  taula: p33-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: alcada
+    etiqueta:
+      es: Altura de entrada
+      en: Entrance height
+      fr: Hauteur d’entrée
+  - codi: temps_safata
+    etiqueta: null
+  - codi: cicle_aigua
+    etiqueta: null
+  - codi: condensacio_assecat
+    etiqueta: null
+  - codi: dosificador_sabo
+    etiqueta: null
+  - codi: dimensions_safata_mm
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '45968719'
+    ordre: 10
+    valors:
+      alcada:
+        es: '250'
+        en: '250'
+        fr: '250'
+      temps_safata:
+        es: 30-60’
+        en: 30-60’
+        fr: 30-60’
+      cicle_aigua:
+        es: 2L-120’’
+        en: 2L-120’’
+        fr: 2L-120’’
+      condensacio_assecat:
+        es: û
+        en: û
+        fr: û
+      dosificador_sabo:
+        es: û
+        en: û
+        fr: û
+      dimensions_safata_mm:
+        es: 350x350
+        en: 350x350
+        fr: 350x350
+      potencia_electrica:
+        es: 3,5 KW 230/1V
+        en: 3,5 KW 230/1V
+        fr: 3,5 KW 230/1V
+  - codi: '45078719'
+    ordre: 20
+    valors:
+      alcada:
+        es: '300'
+        en: '300'
+        fr: '300'
+      temps_safata:
+        es: 30-60’
+        en: 30-60’
+        fr: 30-60’
+      cicle_aigua:
+        es: 2L-120’’
+        en: 2L-120’’
+        fr: 2L-120’’
+      condensacio_assecat:
+        es: û
+        en: û
+        fr: û
+      dosificador_sabo:
+        es: û
+        en: û
+        fr: û
+      dimensions_safata_mm:
+        es: 390x390
+        en: 390x390
+        fr: 390x390
+      potencia_electrica:
+        es: 3,5 KW 230/1V
+        en: 3,5 KW 230/1V
+        fr: 3,5 KW 230/1V
+  - codi: '45178719'
+    ordre: 30
+    valors:
+      alcada:
+        es: '300'
+        en: '300'
+        fr: '300'
+      temps_safata:
+        es: 30-60’
+        en: 30-60’
+        fr: 30-60’
+      cicle_aigua:
+        es: 2L-120’’
+        en: 2L-120’’
+        fr: 2L-120’’
+      condensacio_assecat:
+        es: ü
+        en: ü
+        fr: ü
+      dosificador_sabo:
+        es: û
+        en: û
+        fr: û
+      dimensions_safata_mm:
+        es: 390x390
+        en: 390x390
+        fr: 390x390
+      potencia_electrica:
+        es: 3,5 KW 230/1V
+        en: 3,5 KW 230/1V
+        fr: 3,5 KW 230/1V
+  compartits: []
+- clau: LAVAVASOS#2
+  noms:
+    es: LAVAVASOS
+    en: GLASSWASHER
+    fr: LAVA-VERRES
+  sequence: 260
+  tipus: producte
+  pagina: p34
+  taula: p34-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: alcada
+    etiqueta:
+      es: Altura de entrada
+      en: Entrance height
+      fr: Hauteur d’entrée
+  - codi: temps_safata
+    etiqueta: null
+  - codi: cicle_aigua
+    etiqueta: null
+  - codi: condensacio_assecat
+    etiqueta: null
+  - codi: dosificador_sabo
+    etiqueta: null
+  - codi: dimensions_safata_mm
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '45053719'
+    ordre: 10
+    valors:
+      alcada:
+        es: '250'
+        en: '250'
+        fr: '250'
+      temps_safata:
+        es: 30-60’
+        en: 30-60’
+        fr: 30-60’
+      cicle_aigua:
+        es: 1,5L-120’’
+        en: 1,5L-120’’
+        fr: 1,5L-120’’
+      condensacio_assecat:
+        es: û
+        en: û
+        fr: û
+      dosificador_sabo:
+        es: û
+        en: û
+        fr: û
+      dimensions_safata_mm:
+        es: 350x350
+        en: 350x350
+        fr: 350x350
+      potencia_electrica:
+        es: 3,5 KW 230/1V
+        en: 3,5 KW 230/1V
+        fr: 3,5 KW 230/1V
+  - codi: '45653719'
+    ordre: 20
+    valors:
+      alcada:
+        es: '300'
+        en: '300'
+        fr: '300'
+      temps_safata:
+        es: 30-60’
+        en: 30-60’
+        fr: 30-60’
+      cicle_aigua:
+        es: 1,5L-120’’
+        en: 1,5L-120’’
+        fr: 1,5L-120’’
+      condensacio_assecat:
+        es: û
+        en: û
+        fr: û
+      dosificador_sabo:
+        es: û
+        en: û
+        fr: û
+      dimensions_safata_mm:
+        es: 390x390
+        en: 390x390
+        fr: 390x390
+      potencia_electrica:
+        es: 3,5 KW 230/1V
+        en: 3,5 KW 230/1V
+        fr: 3,5 KW 230/1V
+  - codi: '45163719'
+    ordre: 30
+    valors:
+      alcada:
+        es: '300'
+        en: '300'
+        fr: '300'
+      temps_safata:
+        es: 30-60’
+        en: 30-60’
+        fr: 30-60’
+      cicle_aigua:
+        es: 1,5L-120’’
+        en: 1,5L-120’’
+        fr: 1,5L-120’’
+      condensacio_assecat:
+        es: ü
+        en: ü
+        fr: ü
+      dosificador_sabo:
+        es: ü
+        en: ü
+        fr: ü
+      dimensions_safata_mm:
+        es: 390x390
+        en: 390x390
+        fr: 390x390
+      potencia_electrica:
+        es: 3,5 KW 230/1V
+        en: 3,5 KW 230/1V
+        fr: 3,5 KW 230/1V
+  - codi: '45553719'
+    ordre: 40
+    valors:
+      alcada:
+        es: '250'
+        en: '250'
+        fr: '250'
+      temps_safata:
+        es: 30-60’
+        en: 30-60’
+        fr: 30-60’
+      cicle_aigua:
+        es: 1,5L-120’’
+        en: 1,5L-120’’
+        fr: 1,5L-120’’
+      condensacio_assecat:
+        es: ü
+        en: ü
+        fr: ü
+      dosificador_sabo:
+        es: ü
+        en: ü
+        fr: ü
+      dimensions_safata_mm:
+        es: 350x350
+        en: 350x350
+        fr: 350x350
+      potencia_electrica:
+        es: 3,5 KW 230/1V
+        en: 3,5 KW 230/1V
+        fr: 3,5 KW 230/1V
+  compartits: []
+- clau: LAVAVAJILLAS
+  noms:
+    es: LAVAVAJILLAS
+    en: DISHWASHER
+    fr: LAVA-VAISSELLES
+  sequence: 270
+  tipus: producte
+  pagina: p35
+  taula: p35-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: alcada
+    etiqueta:
+      es: Altura de entrada
+      en: Entrance height
+      fr: Hauteur d’entrée
+  - codi: temps_safata
+    etiqueta: null
+  - codi: cicle_aigua
+    etiqueta: null
+  - codi: condensacio_assecat
+    etiqueta: null
+  - codi: dosificador_sabo
+    etiqueta: null
+  - codi: dimensions_safata_mm
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '46278719'
+    ordre: 10
+    valors:
+      alcada:
+        es: '360'
+        en: '360'
+        fr: '360'
+      temps_safata:
+        es: 30-60’
+        en: 30-60’
+        fr: 30-60’
+      cicle_aigua:
+        es: 2L-120’’
+        en: 2L-120’’
+        fr: 2L-120’’
+      condensacio_assecat:
+        es: û
+        en: û
+        fr: û
+      dosificador_sabo:
+        es: û
+        en: û
+        fr: û
+      dimensions_safata_mm:
+        es: 500x500
+        en: 500x500
+        fr: 500x500
+      potencia_electrica:
+        es: 3,5 KW 230/1V
+        en: 3,5 KW 230/1V
+        fr: 3,5 KW 230/1V
+  - codi: '46378719'
+    ordre: 20
+    valors:
+      alcada:
+        es: '360'
+        en: '360'
+        fr: '360'
+      temps_safata:
+        es: 30-60’
+        en: 30-60’
+        fr: 30-60’
+      cicle_aigua:
+        es: 2L-120’’
+        en: 2L-120’’
+        fr: 2L-120’’
+      condensacio_assecat:
+        es: ü
+        en: ü
+        fr: ü
+      dosificador_sabo:
+        es: û
+        en: û
+        fr: û
+      dimensions_safata_mm:
+        es: 500x500
+        en: 500x500
+        fr: 500x500
+      potencia_electrica:
+        es: 3,5 KW 230/1V
+        en: 3,5 KW 230/1V
+        fr: 3,5 KW 230/1V
+  compartits: []
+- clau: LAVAVAJILLAS#2
+  noms:
+    es: LAVAVAJILLAS
+    en: DISHWASHER
+    fr: LAVA-VAISSELLES
+  sequence: 280
+  tipus: producte
+  pagina: p36
+  taula: p36-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: alcada
+    etiqueta:
+      es: Altura de entrada
+      en: Entrance height
+      fr: Hauteur d’entrée
+  - codi: temps_safata
+    etiqueta: null
+  - codi: cicle_aigua
+    etiqueta: null
+  - codi: condensacio_assecat
+    etiqueta: null
+  - codi: dosificador_sabo
+    etiqueta: null
+  - codi: dimensions_safata_mm
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '46263719'
+    ordre: 10
+    valors:
+      alcada:
+        es: '280'
+        en: '280'
+        fr: '280'
+      temps_safata:
+        es: 30-60’
+        en: 30-60’
+        fr: 30-60’
+      cicle_aigua:
+        es: 1,8L-120’’
+        en: 1,8L-120’’
+        fr: 1,8L-120’’
+      condensacio_assecat:
+        es: û
+        en: û
+        fr: û
+      dosificador_sabo:
+        es: û
+        en: û
+        fr: û
+      dimensions_safata_mm:
+        es: 450x450
+        en: 450x450
+        fr: 450x450
+      potencia_electrica:
+        es: 3,5 KW 230/1V
+        en: 3,5 KW 230/1V
+        fr: 3,5 KW 230/1V
+  - codi: '46651719'
+    ordre: 20
+    valors:
+      alcada:
+        es: '360'
+        en: '360'
+        fr: '360'
+      temps_safata:
+        es: 40-60’
+        en: 40-60’
+        fr: 40-60’
+      cicle_aigua:
+        es: 2L-120’’
+        en: 2L-120’’
+        fr: 2L-120’’
+      condensacio_assecat:
+        es: û
+        en: û
+        fr: û
+      dosificador_sabo:
+        es: ü
+        en: ü
+        fr: ü
+      dimensions_safata_mm:
+        es: 500x500
+        en: 500x500
+        fr: 500x500
+      potencia_electrica:
+        es: 7,5 KW 400/3V
+        en: 7,5 KW 400/3V
+        fr: 7,5 KW 400/3V
+  - codi: '46961719'
+    ordre: 30
+    valors:
+      alcada:
+        es: '360'
+        en: '360'
+        fr: '360'
+      temps_safata:
+        es: 40-60’
+        en: 40-60’
+        fr: 40-60’
+      cicle_aigua:
+        es: 2L-120’’
+        en: 2L-120’’
+        fr: 2L-120’’
+      condensacio_assecat:
+        es: ü
+        en: ü
+        fr: ü
+      dosificador_sabo:
+        es: ü
+        en: ü
+        fr: ü
+      dimensions_safata_mm:
+        es: 500x500
+        en: 500x500
+        fr: 500x500
+      potencia_electrica:
+        es: 7,5 KW 400/3V
+        en: 7,5 KW 400/3V
+        fr: 7,5 KW 400/3V
+  compartits: []
+- clau: LAVAVAJILLAS DE CÚPULA
+  noms:
+    es: LAVAVAJILLAS DE CÚPULA
+    en: DOME DISHWASHER
+    fr: DOME LAVA-VAISSELLES
+  sequence: 290
+  tipus: producte
+  pagina: p37
+  taula: p37-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: alcada
+    etiqueta:
+      es: Altura de entrada
+      en: Entrance height
+      fr: Hauteur d’entrée
+  - codi: temps_safata
+    etiqueta: null
+  - codi: cicle_aigua
+    etiqueta: null
+  - codi: condensacio_assecat
+    etiqueta: null
+  - codi: dosificador_sabo
+    etiqueta: null
+  - codi: dimensions_safata_mm
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 46MATS05
+    ordre: 10
+    valors:
+      alcada:
+        es: '400'
+        en: '400'
+        fr: '400'
+      temps_safata:
+        es: 45-60’
+        en: 45-60’
+        fr: 45-60’
+      cicle_aigua:
+        es: 2,4L-120’’
+        en: 2,4L-120’’
+        fr: 2,4L-120’’
+      condensacio_assecat:
+        es: û
+        en: û
+        fr: û
+      dosificador_sabo:
+        es: û
+        en: û
+        fr: û
+      dimensions_safata_mm:
+        es: 500x500
+        en: 500x500
+        fr: 500x500
+      potencia_electrica:
+        es: 8,5 KW 400/3V
+        en: 8,5 KW 400/3V
+        fr: 8,5 KW 400/3V
+  compartits: []
+- clau: LAVAVAJILLAS DE CÚPULA#2
+  noms:
+    es: LAVAVAJILLAS DE CÚPULA
+    en: DOME DISHWASHER
+    fr: DOME LAVA-VAISSELLES
+  sequence: 300
+  tipus: producte
+  pagina: p38
+  taula: p38-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: alcada
+    etiqueta:
+      es: Altura de entrada
+      en: Entrance height
+      fr: Hauteur d’entrée
+  - codi: temps_safata
+    etiqueta: null
+  - codi: cicle_aigua
+    etiqueta: null
+  - codi: condensacio_assecat
+    etiqueta: null
+  - codi: dosificador_sabo
+    etiqueta: null
+  - codi: dimensions_safata_mm
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 460083TS
+    ordre: 10
+    valors:
+      alcada:
+        es: '470'
+        en: '470'
+        fr: '470'
+      temps_safata:
+        es: 50-60’
+        en: 50-60’
+        fr: 50-60’
+      cicle_aigua:
+        es: 2,5L-120’’
+        en: 2,5L-120’’
+        fr: 2,5L-120’’
+      condensacio_assecat:
+        es: û
+        en: û
+        fr: û
+      dosificador_sabo:
+        es: û
+        en: û
+        fr: û
+      dimensions_safata_mm:
+        es: 500x500
+        en: 500x500
+        fr: 500x500
+      potencia_electrica:
+        es: 9,5 KW 400/3V
+        en: 9,5 KW 400/3V
+        fr: 9,5 KW 400/3V
+  - codi: 46DD0083
+    ordre: 20
+    valors:
+      alcada:
+        es: '470'
+        en: '470'
+        fr: '470'
+      temps_safata:
+        es: 50-60’
+        en: 50-60’
+        fr: 50-60’
+      cicle_aigua:
+        es: 2,5L-120’’
+        en: 2,5L-120’’
+        fr: 2,5L-120’’
+      condensacio_assecat:
+        es: û
+        en: û
+        fr: û
+      dosificador_sabo:
+        es: ü
+        en: ü
+        fr: ü
+      dimensions_safata_mm:
+        es: 500x500
+        en: 500x500
+        fr: 500x500
+      potencia_electrica:
+        es: 9,5 KW 400/3V
+        en: 9,5 KW 400/3V
+        fr: 9,5 KW 400/3V
+  - codi: 46DD1083
+    ordre: 30
+    valors:
+      alcada:
+        es: '470'
+        en: '470'
+        fr: '470'
+      temps_safata:
+        es: 50-60’
+        en: 50-60’
+        fr: 50-60’
+      cicle_aigua:
+        es: 2,5L-120’’
+        en: 2,5L-120’’
+        fr: 2,5L-120’’
+      condensacio_assecat:
+        es: ü
+        en: ü
+        fr: ü
+      dosificador_sabo:
+        es: ü
+        en: ü
+        fr: ü
+      dimensions_safata_mm:
+        es: 500x500
+        en: 500x500
+        fr: 500x500
+      potencia_electrica:
+        es: 9,5 KW 400/3V
+        en: 9,5 KW 400/3V
+        fr: 9,5 KW 400/3V
+  compartits: []
+- clau: MESAS PARA LAVAVAJILLAS, LISAS, CENTRALES
+  noms:
+    es: MESAS PARA LAVAVAJILLAS, LISAS, CENTRALES
+    en: DISHWASHER TABLES, SMOOTH, CENTRAL
+    fr: TABLES POUR LAVE-VAISSELLE, LISSES, CENTRALES
+  sequence: 310
+  tipus: producte
+  pagina: p41
+  taula: p41-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: prestatge
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 16611ECS
+    ordre: 10
+    valors:
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: 16661ECS
+    ordre: 20
+    valors:
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: 16661SCS
+    ordre: 30
+    valors:
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 16660ECS
+    ordre: 40
+    valors:
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: 16660SCS
+    ordre: 50
+    valors:
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 16611SCS
+    ordre: 60
+    valors:
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+  compartits: []
+- clau: MESAS PARA LAVAVAJILLAS, LISAS, MURALES
+  noms:
+    es: MESAS PARA LAVAVAJILLAS, LISAS, MURALES
+    en: DISHWASHER TABLES, SMOOTH, MURALS
+    fr: TABLES POUR LAVE-VAISSELLE, LISSES, MURALES
+  sequence: 320
+  tipus: producte
+  pagina: p42
+  taula: p42-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: prestatge
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 16770SMS
+    ordre: 10
+    valors:
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 16711SMS
+    ordre: 20
+    valors:
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 16761SMS
+    ordre: 30
+    valors:
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 16712SMS
+    ordre: 40
+    valors:
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 16770EMS
+    ordre: 50
+    valors:
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: 16711EMS
+    ordre: 60
+    valors:
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: 16761EMS
+    ordre: 70
+    valors:
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: 16712EMS
+    ordre: 80
+    valors:
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+  compartits: []
+- clau: MESAS PARA LAVAVAJILLAS CON 1 SENO, MURALES
+  noms:
+    es: MESAS PARA LAVAVAJILLAS CON 1 SENO, MURALES
+    en: TABLES FOR DISHWASHERS WITH 1 SINK, MURALS
+    fr: TABLES POUR LAVE-VAISSELLE AVEC 1 ÉVIER, MURALES
+  sequence: 330
+  tipus: producte
+  pagina: p43
+  taula: p43-t2
+  blocs: 2
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: mesures_interiors
+    etiqueta: null
+  - codi: prestatge
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 16D70CSM
+    ordre: 10
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 16I70CSM
+    ordre: 1010
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 16D11CSM
+    ordre: 20
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 16I11CSM
+    ordre: 1020
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 16D61CSM
+    ordre: 30
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 16I61CSM
+    ordre: 1030
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 16D12CSM
+    ordre: 40
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 16I12CSM
+    ordre: 1040
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 16D70CEM
+    ordre: 50
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: 16I70CEM
+    ordre: 1050
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: 16D11CEM
+    ordre: 60
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: 16I11CEM
+    ordre: 1060
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: 16D61CEM
+    ordre: 70
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: 16I61CEM
+    ordre: 1070
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: 16D12CEM
+    ordre: 80
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: 16I12CEM
+    ordre: 1080
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+  compartits: []
+- clau: MESAS PARA LAVAVAJILLAS CON 1 SENO Y ARO DE DESBARACE, MURALES
+  noms:
+    es: MESAS PARA LAVAVAJILLAS CON 1 SENO Y ARO DE DESBARACE, MURALES
+    en: TABLES FOR DISHWASHERS WITH 1 SINK AND CLEANING RING, MURALS
+    fr: TABLES POUR LAVE-VAISSELLE AVEC 1 ÉVIER, ET TROU VIDE DÉCHETS, MURALES
+  sequence: 340
+  tipus: producte
+  pagina: p44
+  taula: p44-t2
+  blocs: 2
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: mesures_interiors
+    etiqueta: null
+  - codi: prestatge
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 16D11CAM
+    ordre: 10
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 16I11CAM
+    ordre: 1010
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 16D61CAM
+    ordre: 20
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 16I61CAM
+    ordre: 1020
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 16D12CAM
+    ordre: 30
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 16I12CAM
+    ordre: 1030
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 16D11CEA
+    ordre: 40
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: 16I11CEA
+    ordre: 1040
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: 16D61CEA
+    ordre: 50
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: 16I61CEA
+    ordre: 1050
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: 16D12CEA
+    ordre: 60
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: 16I12CEA
+    ordre: 1060
+    valors:
+      mesures_interiors:
+        es: 500x400x250
+        en: 500x400x250
+        fr: 500x400x250
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+  compartits: []
+- clau: MESAS DE DESBARACE
+  noms:
+    es: MESAS DE DESBARACE
+    en: DISCHARGE RING TABLES
+    fr: TABLES AVEC TROU VIDE DÉCHETS
+  sequence: 350
+  tipus: producte
+  pagina: p47
+  taula: p47-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: prestatge
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '16074105'
+    ordre: 10
+    valors:
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '16076105'
+    ordre: 20
+    valors:
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '16078105'
+    ordre: 30
+    valors:
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '16070205'
+    ordre: 40
+    valors:
+      prestatge:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 160741E5
+    ordre: 50
+    valors:
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: 160761E5
+    ordre: 60
+    valors:
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: 160781E5
+    ordre: 70
+    valors:
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: 160702E5
+    ordre: 80
+    valors:
+      prestatge:
+        es: '1'
+        en: '1'
+        fr: '1'
+  compartits: []
+- clau: ESTANTERÍAS PARA CESTAS
+  noms:
+    es: ESTANTERÍAS PARA CESTAS
+    en: SHELVES FOR BASKETS
+    fr: ÉTAGÈRES POUR PANIERS
+  sequence: 360
+  tipus: producte
+  pagina: p48
+  taula: p48-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: dimensions_safata
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '16102030'
+    ordre: 10
+    valors:
+      dimensions_safata:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: '16202030'
+    ordre: 20
+    valors:
+      dimensions_safata:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '16103001'
+    ordre: 30
+    valors:
+      dimensions_safata:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: '16203001'
+    ordre: 40
+    valors:
+      dimensions_safata:
+        es: '3'
+        en: '3'
+        fr: '3'
+  compartits: []
+- clau: CUBOS DE BASURA CON RUEDAS, DE ACERO INOX. Y ARMARIOS DESPERDICIOS
+  noms:
+    es: CUBOS DE BASURA CON RUEDAS, DE ACERO INOX. Y ARMARIOS DESPERDICIOS
+    en: STAINLESS STEEL GARBAGE CANS WITH WHEELS AND WASTE CABINETS
+    fr: POUBELLES À ROULETTES EN ACIER INOXYDABLE ET ARMOIRES À DÉCHETS
+  sequence: 370
+  tipus: producte
+  pagina: p49
+  taula: p49-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '16105062'
+    ordre: 10
+    valors:
+      capacitat_litres:
+        es: '50'
+        en: '50'
+        fr: '50'
+  - codi: '16405062'
+    ordre: 20
+    valors:
+      capacitat_litres:
+        es: '95'
+        en: '95'
+        fr: '95'
+  - codi: '16205062'
+    ordre: 30
+    valors:
+      capacitat_litres:
+        es: '50'
+        en: '50'
+        fr: '50'
+  - codi: '16505062'
+    ordre: 40
+    valors:
+      capacitat_litres:
+        es: '95'
+        en: '95'
+        fr: '95'
+  - codi: '11215062'
+    ordre: 50
+    valors:
+      capacitat_litres:
+        es: 95 *
+        en: 95 *
+        fr: 95 *
+  compartits: []
+- clau: TÚNELES DE LAVADO 90 CESTAS / 60’
+  noms:
+    es: TÚNELES DE LAVADO 90 CESTAS / 60’
+    en: WASHING TUNNELS 90 BASKETS / 60’
+    fr: TUNNELS DE LAVAGE 90 PANIERS / 60’
+  sequence: 380
+  tipus: producte
+  pagina: p52
+  taula: p52-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: alcada
+    etiqueta:
+      es: Altura de entrada
+      en: Entrance height
+      fr: Hauteur d’entrée
+  - codi: ventilador
+    etiqueta:
+      es: Recuperador de calor
+      en: Heat recovery
+      fr: Récuperateur chaleur
+  - codi: cicle_aigua
+    etiqueta: null
+  - codi: dosificador_sabo
+    etiqueta: null
+  - codi: dimensions_safata_mm
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 28EDC101
+    ordre: 10
+    valors:
+      alcada:
+        es: '450'
+        en: '450'
+        fr: '450'
+      ventilador:
+        es: 90-60’
+        en: 90-60’
+        fr: 90-60’
+      cicle_aigua:
+        es: 160L-60’
+        en: 160L-60’
+        fr: 160L-60’
+      dosificador_sabo:
+        es: û
+        en: û
+        fr: û
+      dimensions_safata_mm:
+        es: 500x500
+        en: 500x500
+        fr: 500x500
+      potencia_electrica:
+        es: 22 KW 400/3V
+        en: 22 KW 400/3V
+        fr: 22 KW 400/3V
+  - codi: 28SDC101
+    ordre: 20
+    valors:
+      alcada:
+        es: '450'
+        en: '450'
+        fr: '450'
+      ventilador:
+        es: 90-60’
+        en: 90-60’
+        fr: 90-60’
+      cicle_aigua:
+        es: 160L-60’
+        en: 160L-60’
+        fr: 160L-60’
+      dosificador_sabo:
+        es: û
+        en: û
+        fr: û
+      dimensions_safata_mm:
+        es: 500x500
+        en: 500x500
+        fr: 500x500
+      potencia_electrica:
+        es: 28 KW 400/3V
+        en: 28 KW 400/3V
+        fr: 28 KW 400/3V
+  - codi: 28RECALR
+    ordre: 30
+    valors:
+      dosificador_sabo:
+        es: 700 m3/h
+        en: 700 m3/h
+        fr: 700 m3/h
+      potencia_electrica:
+        es: 200 W 400/3V
+        en: 200 W 400/3V
+        fr: 200 W 400/3V
+  compartits: []
+- clau: TÚNELES DE LAVADO 145 CESTAS / 60’
+  noms:
+    es: TÚNELES DE LAVADO 145 CESTAS / 60’
+    en: WASHING TUNNELS 145 BASKETS / 60’
+    fr: TUNNELS DE LAVAGE 145 PANIERS / 60’
+  sequence: 390
+  tipus: producte
+  pagina: p53
+  taula: p53-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: alcada
+    etiqueta:
+      es: Altura de entrada
+      en: Entrance height
+      fr: Hauteur d’entrée
+  - codi: ventilador
+    etiqueta:
+      es: Recuperador de calor
+      en: Heat recovery
+      fr: Récuperateur chaleur
+  - codi: cicle_aigua
+    etiqueta: null
+  - codi: dosificador_sabo
+    etiqueta: null
+  - codi: dimensions_safata_mm
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 28EDC201
+    ordre: 10
+    valors:
+      alcada:
+        es: '450'
+        en: '450'
+        fr: '450'
+      ventilador:
+        es: 145-60’
+        en: 145-60’
+        fr: 145-60’
+      cicle_aigua:
+        es: 270L-60’
+        en: 270L-60’
+        fr: 270L-60’
+      dosificador_sabo:
+        es: û
+        en: û
+        fr: û
+      dimensions_safata_mm:
+        es: 500x500
+        en: 500x500
+        fr: 500x500
+      potencia_electrica:
+        es: 29,5 KW 400/3V
+        en: 29,5 KW 400/3V
+        fr: 29,5 KW 400/3V
+  - codi: 28SDC201
+    ordre: 20
+    valors:
+      alcada:
+        es: '450'
+        en: '450'
+        fr: '450'
+      ventilador:
+        es: 145-60’
+        en: 145-60’
+        fr: 145-60’
+      cicle_aigua:
+        es: 270L-60’
+        en: 270L-60’
+        fr: 270L-60’
+      dosificador_sabo:
+        es: û
+        en: û
+        fr: û
+      dimensions_safata_mm:
+        es: 500x500
+        en: 500x500
+        fr: 500x500
+      potencia_electrica:
+        es: 35,5 KW 400/3V
+        en: 35,5 KW 400/3V
+        fr: 35,5 KW 400/3V
+  compartits:
+  - codi: 28RECALR
+    ordre: 30
+    valors:
+      dosificador_sabo:
+        es: 700 m3/h
+        en: 700 m3/h
+        fr: 700 m3/h
+      potencia_electrica:
+        es: 200 W 400/3V
+        en: 200 W 400/3V
+        fr: 200 W 400/3V
+    propietari: TÚNELES DE LAVADO 90 CESTAS / 60’
+- clau: TÚNELES DE LAVADO 175 CESTAS / 60’
+  noms:
+    es: TÚNELES DE LAVADO 175 CESTAS / 60’
+    en: WASHING TUNNELS 175 BASKETS / 60’
+    fr: TUNNELS DE LAVAGE 175 PANIERS / 60’
+  sequence: 400
+  tipus: producte
+  pagina: p54
+  taula: p54-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: alcada
+    etiqueta:
+      es: Altura de entrada
+      en: Entrance height
+      fr: Hauteur d’entrée
+  - codi: ventilador
+    etiqueta:
+      es: Recuperador de calor
+      en: Heat recovery
+      fr: Récuperateur chaleur
+  - codi: cicle_aigua
+    etiqueta: null
+  - codi: dosificador_sabo
+    etiqueta: null
+  - codi: dimensions_safata_mm
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 28TDC112
+    ordre: 10
+    valors:
+      alcada:
+        es: '450'
+        en: '450'
+        fr: '450'
+      ventilador:
+        es: 175-60’
+        en: 175-60’
+        fr: 175-60’
+      cicle_aigua:
+        es: 300L-60’
+        en: 300L-60’
+        fr: 300L-60’
+      dosificador_sabo:
+        es: û
+        en: û
+        fr: û
+      dimensions_safata_mm:
+        es: 500x500
+        en: 500x500
+        fr: 500x500
+      potencia_electrica:
+        es: 30,5 KW 400/3V
+        en: 30,5 KW 400/3V
+        fr: 30,5 KW 400/3V
+  - codi: 28SDC112
+    ordre: 20
+    valors:
+      alcada:
+        es: '450'
+        en: '450'
+        fr: '450'
+      ventilador:
+        es: 175-60’
+        en: 175-60’
+        fr: 175-60’
+      cicle_aigua:
+        es: 300L-60’
+        en: 300L-60’
+        fr: 300L-60’
+      dosificador_sabo:
+        es: û
+        en: û
+        fr: û
+      dimensions_safata_mm:
+        es: 500x500
+        en: 500x500
+        fr: 500x500
+      potencia_electrica:
+        es: 36,6 KW 400/3V
+        en: 36,6 KW 400/3V
+        fr: 36,6 KW 400/3V
+  compartits:
+  - codi: 28RECALR
+    ordre: 30
+    valors:
+      dosificador_sabo:
+        es: 700 m3/h
+        en: 700 m3/h
+        fr: 700 m3/h
+      potencia_electrica:
+        es: 200 W 400/3V
+        en: 200 W 400/3V
+        fr: 200 W 400/3V
+    propietari: TÚNELES DE LAVADO 90 CESTAS / 60’
+- clau: TÚNELES DE LAVADO 235 CESTAS / 60’
+  noms:
+    es: TÚNELES DE LAVADO 235 CESTAS / 60’
+    en: WASHING TUNNELS 235 BASKETS / 60’
+    fr: TUNNELS DE LAVAGE 235 PANIERS / 60’
+  sequence: 410
+  tipus: producte
+  pagina: p55
+  taula: p55-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: alcada
+    etiqueta:
+      es: Altura de entrada
+      en: Entrance height
+      fr: Hauteur d’entrée
+  - codi: ventilador
+    etiqueta:
+      es: Recuperador de calor
+      en: Heat recovery
+      fr: Récuperateur chaleur
+  - codi: cicle_aigua
+    etiqueta: null
+  - codi: dosificador_sabo
+    etiqueta: null
+  - codi: dimensions_safata_mm
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 28TDC212
+    ordre: 10
+    valors:
+      alcada:
+        es: '450'
+        en: '450'
+        fr: '450'
+      ventilador:
+        es: 235-60’
+        en: 235-60’
+        fr: 235-60’
+      cicle_aigua:
+        es: 400L-60’
+        en: 400L-60’
+        fr: 400L-60’
+      dosificador_sabo:
+        es: û
+        en: û
+        fr: û
+      dimensions_safata_mm:
+        es: 500x500
+        en: 500x500
+        fr: 500x500
+      potencia_electrica:
+        es: 35 KW 400/3V
+        en: 35 KW 400/3V
+        fr: 35 KW 400/3V
+  - codi: 28SDC212
+    ordre: 20
+    valors:
+      alcada:
+        es: '450'
+        en: '450'
+        fr: '450'
+      ventilador:
+        es: 235-60’
+        en: 235-60’
+        fr: 235-60’
+      cicle_aigua:
+        es: 400L-60’
+        en: 400L-60’
+        fr: 400L-60’
+      dosificador_sabo:
+        es: û
+        en: û
+        fr: û
+      dimensions_safata_mm:
+        es: 500x500
+        en: 500x500
+        fr: 500x500
+      potencia_electrica:
+        es: 44 KW 400/3V
+        en: 44 KW 400/3V
+        fr: 44 KW 400/3V
+  compartits:
+  - codi: 28RECALR
+    ordre: 30
+    valors:
+      dosificador_sabo:
+        es: 700 m3/h
+        en: 700 m3/h
+        fr: 700 m3/h
+      potencia_electrica:
+        es: 200 W 400/3V
+        en: 200 W 400/3V
+        fr: 200 W 400/3V
+    propietari: TÚNELES DE LAVADO 90 CESTAS / 60’
+- clau: MESAS DE RODILLOS
+  noms:
+    es: MESAS DE RODILLOS
+    en: ROLLER TABLES
+    fr: TABLES À ROULEAUX
+  sequence: 420
+  tipus: producte
+  pagina: p56
+  taula: p56-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 16011UER
+    ordre: 10
+    valors: {}
+  compartits: []
+- clau: SUPLEMENTO MÓDULO DE PRELAVADO EN ÁNGULO
+  noms:
+    es: SUPLEMENTO MÓDULO DE PRELAVADO EN ÁNGULO
+    en: PREWASH MODULE SUPPLEMENT IN ANGLE
+    fr: SUPPLÉMENT MODULE DE PRÉLAVAGE EN ANGLE
+  sequence: 430
+  tipus: accessoris
+  pagina: p57
+  taula: p57-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A28000P
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 990 x 820 x 1620
+        en: 990 x 820 x 1620
+        fr: 990 x 820 x 1620
+      potencia_electrica:
+        es: 7,5 KW 400/3V
+        en: 7,5 KW 400/3V
+        fr: 7,5 KW 400/3V
+  compartits: []
+- clau: SUPLEMENTO MÓDULO DE SECADO EN ÁNGULO
+  noms:
+    es: SUPLEMENTO MÓDULO DE SECADO EN ÁNGULO
+    en: DRYING MODULE SUPPLEMENT IN ANGLE
+    fr: SUPPLÉMENT MODULE DE SÉCHAGE EN ANGLE
+  sequence: 440
+  tipus: accessoris
+  pagina: p57
+  taula: p57-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A28MSAB
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 820 x 880 x 1620
+        en: 820 x 880 x 1620
+        fr: 820 x 880 x 1620
+      potencia_electrica:
+        es: 6 KW 400/3V
+        en: 6 KW 400/3V
+        fr: 6 KW 400/3V
+  - codi: 4A28MSAI
+    ordre: 20
+    valors:
+      mesures_text:
+        es: 820 x 880 x 1620
+        en: 820 x 880 x 1620
+        fr: 820 x 880 x 1620
+      potencia_electrica:
+        es: 9 KW 400/3V
+        en: 9 KW 400/3V
+        fr: 9 KW 400/3V
+  compartits: []
+- clau: SUMINISTRO EN MÓDULOS SEPARADOS
+  noms:
+    es: SUMINISTRO EN MÓDULOS SEPARADOS
+    en: SUPPLIED IN SEPARATE MODULES
+    fr: FOURNI EN MODULES SÉPARÉS
+  sequence: 450
+  tipus: accessoris
+  pagina: p57
+  taula: p57-t3
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: para
+    etiqueta:
+      es: MONTAJE NO INCLUIDO
+      en: ASSEMBLY NOT INCLUDED
+      fr: MONTAGE NON INCLUS
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A28EMS2
+    ordre: 10
+    valors:
+      para:
+        es: 2 partes parts pièces
+        en: 2 partes parts pièces
+        fr: 2 partes parts pièces
+  - codi: 4A28EMS3
+    ordre: 20
+    valors:
+      para:
+        es: 3 partes parts pièces
+        en: 3 partes parts pièces
+        fr: 3 partes parts pièces
+  compartits: []
+- clau: MÓDULO NEUTRO DE ENTRADA
+  noms:
+    es: MÓDULO NEUTRO DE ENTRADA
+    en: NEUTRAL INPUT MODULE
+    fr: MODULE D’ENTRÉE NEUTRE
+  sequence: 460
+  tipus: accessoris
+  pagina: p57
+  taula: p57-t4
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A28MNEM
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 300 x 770 x 1620
+        en: 300 x 770 x 1620
+        fr: 300 x 770 x 1620
+  compartits: []
+- clau: MÓDULO NEUTRO INTERMEDIO
+  noms:
+    es: MÓDULO NEUTRO INTERMEDIO
+    en: INTERMEDIATE NEUTRAL MODULE
+    fr: MODULE NEUTRE INTERMÉDIAIRE
+  sequence: 470
+  tipus: accessoris
+  pagina: p57
+  taula: p57-t5
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A28MNIV
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 550 x 770 x 1620
+        en: 550 x 770 x 1620
+        fr: 550 x 770 x 1620
+  compartits: []
+- clau: DOSIFICADORES DE JABÓN Y ABRILLANTADOR INSTALADOS EN TÚNEL
+  noms:
+    es: DOSIFICADORES DE JABÓN Y ABRILLANTADOR INSTALADOS EN TÚNEL
+    en: TUNNEL-INSTALLED SOAP AND RINSE AID DISPENSERS
+    fr: DISTRIBUTEURS DE SAVON ET DE PRODUIT DE RINÇAGE INSTALLÉS DANS UN TUNNEL
+  sequence: 480
+  tipus: accessoris
+  pagina: p57
+  taula: p57-t6
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A28DJAY
+    ordre: 10
+    valors: {}
+  compartits: []
+- clau: SECADORES-ESTERILIZADORES DE CUBIERTOS
+  noms:
+    es: SECADORES-ESTERILIZADORES DE CUBIERTOS
+    en: CUTLERY STERILIZER DRYERS
+    fr: SÉCHOIRS STÉRILISATEURS À COUVERTS
+  sequence: 490
+  tipus: producte
+  pagina: p60
+  taula: p60-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: temps
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 46110G08
+    ordre: 10
+    valors:
+      temps:
+        es: 5000 - 60’
+        en: 5000 - 60’
+        fr: 5000 - 60’
+      potencia_electrica:
+        es: 900 W 230/1V
+        en: 900 W 230/1V
+        fr: 900 W 230/1V
+  compartits: []
+- clau: LAVAPEROLAS/RECIPIENTES (CESTAS 500x600)
+  noms:
+    es: LAVAPEROLAS/RECIPIENTES (CESTAS 500x600)
+    en: POT-WASHERS/CONTAINERS BASKETS (500x600)
+    fr: LAVE-CASSEROLES/CONTENEURS PANNIERS (500x600)
+  sequence: 500
+  tipus: producte
+  pagina: p61
+  taula: p61-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: alcada
+    etiqueta:
+      es: Altura de entrada
+      en: Entrance height
+      fr: Hauteur d’entrée
+  - codi: temps_safata
+    etiqueta: null
+  - codi: cicle_aigua
+    etiqueta: null
+  - codi: condensacio_assecat
+    etiqueta: null
+  - codi: dosificador_sabo
+    etiqueta: null
+  - codi: dimensions_safata_mm
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '28112819'
+    ordre: 10
+    valors:
+      alcada:
+        es: '400'
+        en: '400'
+        fr: '400'
+      temps_safata:
+        es: 120/420’’
+        en: 120/420’’
+        fr: 120/420’’
+      cicle_aigua:
+        es: 3/5L
+        en: 3/5L
+        fr: 3/5L
+      condensacio_assecat:
+        es: û
+        en: û
+        fr: û
+      dosificador_sabo:
+        es: ü
+        en: ü
+        fr: ü
+      dimensions_safata_mm:
+        es: 500x600
+        en: 500x600
+        fr: 500x600
+      potencia_electrica:
+        es: 9,8 KW 400/3V
+        en: 9,8 KW 400/3V
+        fr: 9,8 KW 400/3V
+  - codi: '28484819'
+    ordre: 20
+    valors:
+      alcada:
+        es: '400'
+        en: '400'
+        fr: '400'
+      temps_safata:
+        es: 120/420’’
+        en: 120/420’’
+        fr: 120/420’’
+      cicle_aigua:
+        es: 3/5L
+        en: 3/5L
+        fr: 3/5L
+      condensacio_assecat:
+        es: ü
+        en: ü
+        fr: ü
+      dosificador_sabo:
+        es: ü
+        en: ü
+        fr: ü
+      dimensions_safata_mm:
+        es: 500x600
+        en: 500x600
+        fr: 500x600
+      potencia_electrica:
+        es: 9,8 KW 400/3V
+        en: 9,8 KW 400/3V
+        fr: 9,8 KW 400/3V
+  - codi: '28312819'
+    ordre: 30
+    valors:
+      alcada:
+        es: '400'
+        en: '400'
+        fr: '400'
+      temps_safata:
+        es: 120/420’’
+        en: 120/420’’
+        fr: 120/420’’
+      cicle_aigua:
+        es: 3/5L
+        en: 3/5L
+        fr: 3/5L
+      condensacio_assecat:
+        es: û
+        en: û
+        fr: û
+      dosificador_sabo:
+        es: ü
+        en: ü
+        fr: ü
+      dimensions_safata_mm:
+        es: 500x600
+        en: 500x600
+        fr: 500x600
+      potencia_electrica:
+        es: 9,8 KW 400/3V
+        en: 9,8 KW 400/3V
+        fr: 9,8 KW 400/3V
+  - codi: '28584819'
+    ordre: 40
+    valors:
+      alcada:
+        es: '400'
+        en: '400'
+        fr: '400'
+      temps_safata:
+        es: 120/420’’
+        en: 120/420’’
+        fr: 120/420’’
+      cicle_aigua:
+        es: 3/5L
+        en: 3/5L
+        fr: 3/5L
+      condensacio_assecat:
+        es: ü
+        en: ü
+        fr: ü
+      dosificador_sabo:
+        es: ü
+        en: ü
+        fr: ü
+      dimensions_safata_mm:
+        es: 500x600
+        en: 500x600
+        fr: 500x600
+      potencia_electrica:
+        es: 9,8 KW 400/3V
+        en: 9,8 KW 400/3V
+        fr: 9,8 KW 400/3V
+  compartits: []
+- clau: LAVAPEROLAS/RECIPIENTES (CESTAS 560x630)
+  noms:
+    es: LAVAPEROLAS/RECIPIENTES (CESTAS 560x630)
+    en: POT-WASHERS/CONTAINERS BASKETS (560x630)
+    fr: LAVE-CASSEROLES/CONTENEURS PANNIERS (560x630)
+  sequence: 510
+  tipus: producte
+  pagina: p62
+  taula: p62-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: alcada
+    etiqueta:
+      es: Altura de entrada
+      en: Entrance height
+      fr: Hauteur d’entrée
+  - codi: ventilador
+    etiqueta:
+      es: Recuperador de calor
+      en: Heat recovery
+      fr: Récuperateur chaleur
+  - codi: cicle_aigua
+    etiqueta: null
+  - codi: condensacio_assecat
+    etiqueta: null
+  - codi: dosificador_sabo
+    etiqueta: null
+  - codi: dimensions_safata_mm
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 28423CDD
+    ordre: 10
+    valors:
+      alcada:
+        es: '650'
+        en: '650'
+        fr: '650'
+      ventilador:
+        es: 120/420’’
+        en: 120/420’’
+        fr: 120/420’’
+      cicle_aigua:
+        es: 3/6L
+        en: 3/6L
+        fr: 3/6L
+      condensacio_assecat:
+        es: ü
+        en: ü
+        fr: ü
+      dosificador_sabo:
+        es: ü
+        en: ü
+        fr: ü
+      dimensions_safata_mm:
+        es: 560x630
+        en: 560x630
+        fr: 560x630
+      potencia_electrica:
+        es: 10,5 KW 400/3V
+        en: 10,5 KW 400/3V
+        fr: 10,5 KW 400/3V
+  - codi: 28523CDD
+    ordre: 20
+    valors:
+      alcada:
+        es: '850'
+        en: '850'
+        fr: '850'
+      ventilador:
+        es: 120/420’’
+        en: 120/420’’
+        fr: 120/420’’
+      cicle_aigua:
+        es: 3/6L
+        en: 3/6L
+        fr: 3/6L
+      condensacio_assecat:
+        es: ü
+        en: ü
+        fr: ü
+      dosificador_sabo:
+        es: ü
+        en: ü
+        fr: ü
+      dimensions_safata_mm:
+        es: 560x630
+        en: 560x630
+        fr: 560x630
+      potencia_electrica:
+        es: 10,5 KW 400/3V
+        en: 10,5 KW 400/3V
+        fr: 10,5 KW 400/3V
+  - codi: 4A28RNRG
+    ordre: 30
+    valors:
+      dosificador_sabo:
+        es: 500 m3/h
+        en: 500 m3/h
+        fr: 500 m3/h
+      potencia_electrica:
+        es: 200 W 400/3V
+        en: 200 W 400/3V
+        fr: 200 W 400/3V
+  compartits: []
+- clau: LAVAPEROLAS/RECIPIENTES CESTAS (700x700 - 1310x700)
+  noms:
+    es: LAVAPEROLAS/RECIPIENTES CESTAS (700x700 - 1310x700)
+    en: POT-WASHERS/CONTAINERS BASKETS (700x700 - 1310x700)
+    fr: LAVE-CASSEROLES/CONTENEURS PANNIERS (700x700 - 1310x700)
+  sequence: 520
+  tipus: producte
+  pagina: p63
+  taula: p63-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: alcada
+    etiqueta:
+      es: Altura de entrada
+      en: Entrance height
+      fr: Hauteur d’entrée
+  - codi: ventilador
+    etiqueta:
+      es: Recuperador de calor
+      en: Heat recovery
+      fr: Récuperateur chaleur
+  - codi: cicle_aigua
+    etiqueta: null
+  - codi: condensacio_assecat
+    etiqueta: null
+  - codi: dosificador_sabo
+    etiqueta: null
+  - codi: dimensions_safata_mm
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 28623CDD
+    ordre: 10
+    valors:
+      alcada:
+        es: '850'
+        en: '850'
+        fr: '850'
+      ventilador:
+        es: 120/420’’
+        en: 120/420’’
+        fr: 120/420’’
+      cicle_aigua:
+        es: 4/8L
+        en: 4/8L
+        fr: 4/8L
+      condensacio_assecat:
+        es: ü
+        en: ü
+        fr: ü
+      dosificador_sabo:
+        es: ü
+        en: ü
+        fr: ü
+      dimensions_safata_mm:
+        es: 700x700
+        en: 700x700
+        fr: 700x700
+      potencia_electrica:
+        es: 13,7 KW 400/3V
+        en: 13,7 KW 400/3V
+        fr: 13,7 KW 400/3V
+  - codi: 28723CDD
+    ordre: 20
+    valors:
+      alcada:
+        es: '850'
+        en: '850'
+        fr: '850'
+      ventilador:
+        es: 120/420’’
+        en: 120/420’’
+        fr: 120/420’’
+      cicle_aigua:
+        es: 4/8L
+        en: 4/8L
+        fr: 4/8L
+      condensacio_assecat:
+        es: ü
+        en: ü
+        fr: ü
+      dosificador_sabo:
+        es: ü
+        en: ü
+        fr: ü
+      dimensions_safata_mm:
+        es: 1310x700
+        en: 1310x700
+        fr: 1310x700
+      potencia_electrica:
+        es: 15,9 KW 400/3V
+        en: 15,9 KW 400/3V
+        fr: 15,9 KW 400/3V
+  compartits:
+  - codi: 4A28RNRG
+    ordre: 30
+    valors:
+      dosificador_sabo:
+        es: 500 m3/h
+        en: 500 m3/h
+        fr: 500 m3/h
+      potencia_electrica:
+        es: 200 W 400/3V
+        en: 200 W 400/3V
+        fr: 200 W 400/3V
+    propietari: LAVAPEROLAS/RECIPIENTES (CESTAS 560x630)
+- clau: SUMIDEROS DE ACERO INOXIDABLE
+  noms:
+    es: SUMIDEROS DE ACERO INOXIDABLE
+    en: STAINLESS STEEL FLOOR DRAIN
+    fr: SIPHONS EN ACIER INOXYDABLE
+  sequence: 530
+  tipus: producte
+  pagina: p64
+  taula: p64-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: sortida
+    etiqueta:
+      es: Ø de salida vertical
+      en: Vertical outlet Ø
+      fr: Ø sortie vertical
+  - codi: sortida_2
+    etiqueta:
+      es: Ø de salida vertical
+      en: Vertical outlet Ø
+      fr: Ø sortie vertical
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '16872450'
+    ordre: 10
+    valors:
+      sortida:
+        es: Ø 78
+        en: Ø 78
+        fr: Ø 78
+      sortida_2:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '16082450'
+    ordre: 20
+    valors:
+      sortida:
+        es: Ø 78
+        en: Ø 78
+        fr: Ø 78
+      sortida_2:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '16682450'
+    ordre: 30
+    valors:
+      sortida:
+        es: '-'
+        en: '-'
+        fr: '-'
+      sortida_2:
+        es: Ø 48
+        en: Ø 48
+        fr: Ø 48
+  - codi: '16882450'
+    ordre: 40
+    valors:
+      sortida:
+        es: '-'
+        en: '-'
+        fr: '-'
+      sortida_2:
+        es: Ø 48
+        en: Ø 48
+        fr: Ø 48
+  - codi: '16092450'
+    ordre: 50
+    valors:
+      sortida:
+        es: '-'
+        en: '-'
+        fr: '-'
+      sortida_2:
+        es: Ø 48
+        en: Ø 48
+        fr: Ø 48
+  - codi: '16292450'
+    ordre: 60
+    valors:
+      sortida:
+        es: '-'
+        en: '-'
+        fr: '-'
+      sortida_2:
+        es: Ø 48
+        en: Ø 48
+        fr: Ø 48
+  compartits: []
+- clau: SOPORTES MURALES PARA ENCIMERAS
+  noms:
+    es: SOPORTES MURALES PARA ENCIMERAS
+    en: WALL SUPPORTS FOR WORKTOPS
+    fr: SUPPORTS MURAUX POUR PLANS DE TRAVAIL
+  sequence: 540
+  tipus: accessoris
+  pagina: p65
+  taula: p65-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: pack
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 41000ACB
+    ordre: 10
+    valors:
+      mesures_text:
+        es: □ 1 550 ó 600
+        en: □ 1 550 ó 600
+        fr: □ 1 550 ó 600
+      pack:
+        es: 1 + 1
+        en: 1 + 1
+        fr: 1 + 1
+  - codi: '40130200'
+    ordre: 20
+    valors:
+      mesures_text:
+        es: □ 2 600 ó 700
+        en: □ 2 600 ó 700
+        fr: □ 2 600 ó 700
+      pack:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: '49030200'
+    ordre: 30
+    valors:
+      mesures_text:
+        es: 600 ó 700 □ 3
+        en: 600 ó 700 □ 3
+        fr: 600 ó 700 □ 3
+      pack:
+        es: '1'
+        en: '1'
+        fr: '1'
+  compartits: []
+- clau: TAPA ARO DESBARACE INOX
+  noms:
+    es: TAPA ARO DESBARACE INOX
+    en: KNOCK-OUT RING COVER
+    fr: COUVERCLE TROU DE VINDAGE
+  sequence: 550
+  tipus: accessoris
+  pagina: p65
+  taula: p65-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '16000028'
+    ordre: 10
+    valors: {}
+  compartits: []
+- clau: ARO DESBARACE DE CAUCHO
+  noms:
+    es: ARO DESBARACE DE CAUCHO
+    en: RUBBER KNOCK-OUT RING
+    fr: BAGUE EN CAOUTCHOUC
+  sequence: 560
+  tipus: accessoris
+  pagina: p65
+  taula: p65-t3
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: para
+    etiqueta:
+      es: Ø
+      en: Ø
+      fr: Ø
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 410000DA
+    ordre: 10
+    valors:
+      para:
+        es: □ 5 200
+        en: □ 5 200
+        fr: □ 5 200
+  compartits: []
+- clau: PACK VÁLVULA DESAGÜE Y REBOSADERO Ø 1-1/2’’
+  noms:
+    es: PACK VÁLVULA DESAGÜE Y REBOSADERO Ø 1-1/2’’
+    en: DRAIN AND OVERFLOW VALVE PACK Ø 1-1/2’’
+    fr: PACK VANNE DE VIDANGE ET TROP-PLEIN Ø 1-1/2’’
+  sequence: 570
+  tipus: accessoris
+  pagina: p65
+  taula: p65-t4
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: dimensions_cuba
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '41223009'
+    ordre: 10
+    valors:
+      dimensions_cuba:
+        es: '250'
+        en: '250'
+        fr: '250'
+  - codi: '42223009'
+    ordre: 20
+    valors:
+      dimensions_cuba:
+        es: '300'
+        en: '300'
+        fr: '300'
+  compartits: []
+- clau: TALADRO PARA GRIFO Ø 33 MM
+  noms:
+    es: TALADRO PARA GRIFO Ø 33 MM
+    en: TAP HOLE Ø 33 MM
+    fr: TROU ROBINETTERIE Ø 33 MM
+  sequence: 580
+  tipus: accessoris
+  pagina: p65
+  taula: p65-t5
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 41000AVA
+    ordre: 10
+    valors: {}
+  - codi: 42000AVA
+    ordre: 20
+    valors: {}
+  - codi: 43000AVA
+    ordre: 30
+    valors: {}
+  - codi: 44000AVA
+    ordre: 40
+    valors: {}
+  compartits: []
+- clau: PETO LATERAL EN FREGADEROS
+  noms:
+    es: PETO LATERAL EN FREGADEROS
+    en: SIDE SPLASH BY SINKS
+    fr: DOSSARD LATÉRAL POUR ÉVIERS
+  sequence: 590
+  tipus: accessoris
+  pagina: p65
+  taula: p65-t6
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 410000EP
+    ordre: 10
+    valors:
+      mesures_text:
+        es: '600'
+        en: '600'
+        fr: '600'
+  - codi: 420000EP
+    ordre: 20
+    valors:
+      mesures_text:
+        es: '600'
+        en: '600'
+        fr: '600'
+  - codi: 430000EP
+    ordre: 30
+    valors:
+      mesures_text:
+        es: '700'
+        en: '700'
+        fr: '700'
+  - codi: 440000EO
+    ordre: 40
+    valors:
+      mesures_text:
+        es: '700'
+        en: '700'
+        fr: '700'
+  compartits: []
+- clau: FONDO PERFORADO
+  noms:
+    es: FONDO PERFORADO
+    en: PERFORATED BOTTOM
+    fr: FOND PERFORÉ
+  sequence: 600
+  tipus: accessoris
+  pagina: p65
+  taula: p65-t7
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_interiors
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4D004500
+    ordre: 10
+    valors:
+      mesures_interiors:
+        es: 500x400
+        en: 500x400
+        fr: 500x400
+  - codi: 4I004500
+    ordre: 20
+    valors:
+      mesures_interiors:
+        es: 500x400
+        en: 500x400
+        fr: 500x400
+  - codi: 4D005500
+    ordre: 30
+    valors:
+      mesures_interiors:
+        es: 500x500
+        en: 500x500
+        fr: 500x500
+  - codi: 4I005500
+    ordre: 40
+    valors:
+      mesures_interiors:
+        es: 500x500
+        en: 500x500
+        fr: 500x500
+  - codi: 4D005600
+    ordre: 50
+    valors:
+      mesures_interiors:
+        es: 600x500
+        en: 600x500
+        fr: 600x500
+  - codi: 4I005600
+    ordre: 60
+    valors:
+      mesures_interiors:
+        es: 600x500
+        en: 600x500
+        fr: 600x500
+  compartits: []
+- clau: CESTA PERFORADA
+  noms:
+    es: CESTA PERFORADA
+    en: PERFORATED BASKET
+    fr: PANIER PERFORÉ
+  sequence: 610
+  tipus: accessoris
+  pagina: p65
+  taula: p65-t8
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_interiors
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '16000027'
+    ordre: 10
+    valors:
+      mesures_interiors:
+        es: 500x400
+        en: 500x400
+        fr: 500x400
+  compartits: []
+- clau: PETO PARA LAVAMANOS
+  noms:
+    es: PETO PARA LAVAMANOS
+    en: BACK SPLASH FOR HAND BASINS
+    fr: DOSSERET POUR LAVABOS DES MAINS
+  sequence: 620
+  tipus: accessoris
+  pagina: p65
+  taula: p65-t9
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '41030520'
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 400x300x20
+        en: 400x300x20
+        fr: 400x300x20
+  compartits: []
+- clau: CESTAS MULTIUSOS
+  noms:
+    es: CESTAS MULTIUSOS
+    en: MULTIPURPOSE BASKETS
+    fr: PANIERS POLYLAVENTS
+  sequence: 630
+  tipus: accessoris
+  pagina: p66
+  taula: p66-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '92462'
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 350 x 350 x 150
+        en: 350 x 350 x 150
+        fr: 350 x 350 x 150
+  - codi: '92146'
+    ordre: 20
+    valors:
+      mesures_text:
+        es: 390 x 390 x 150
+        en: 390 x 390 x 150
+        fr: 390 x 390 x 150
+  - codi: '92491'
+    ordre: 30
+    valors:
+      mesures_text:
+        es: 450 x 450 x 105
+        en: 450 x 450 x 105
+        fr: 450 x 450 x 105
+  - codi: '95000'
+    ordre: 40
+    valors:
+      mesures_text:
+        es: 500 x 500 x 80
+        en: 500 x 500 x 80
+        fr: 500 x 500 x 80
+  - codi: '918107'
+    ordre: 50
+    valors:
+      mesures_text:
+        es: 500 x 600 x 115
+        en: 500 x 600 x 115
+        fr: 500 x 600 x 115
+  compartits: []
+- clau: CESTAS PARA BANDEJAS
+  noms:
+    es: CESTAS PARA BANDEJAS
+    en: TRAY BASKETS
+    fr: PANIERS POUR PLATEAUX
+  sequence: 640
+  tipus: accessoris
+  pagina: p66
+  taula: p66-t3
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '95030'
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 500 x 500 x 80
+        en: 500 x 500 x 80
+        fr: 500 x 500 x 80
+  compartits: []
+- clau: CESTAS PARA CUBIERTOS
+  noms:
+    es: CESTAS PARA CUBIERTOS
+    en: BASKETS FOR CUTLERY
+    fr: PANIERS POUR COUVERTS
+  sequence: 650
+  tipus: accessoris
+  pagina: p66
+  taula: p66-t4
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: para
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '96642'
+    ordre: 10
+    valors:
+      mesures_text:
+        es: □ 1 100 x 100 x 140
+        en: □ 1 100 x 100 x 140
+        fr: □ 1 100 x 100 x 140
+      para:
+        es: 1 dpto
+        en: 1 dpto
+        fr: 1 dpto
+  - codi: '95019'
+    ordre: 20
+    valors:
+      mesures_text:
+        es: 425 x 220 x 140 □ 2
+        en: 425 x 220 x 140 □ 2
+        fr: 425 x 220 x 140 □ 2
+      para:
+        es: 8 dptos
+        en: 8 dptos
+        fr: 8 dptos
+  - codi: '95016'
+    ordre: 30
+    valors:
+      mesures_text:
+        es: □ 3 500 x 500 x 120
+        en: □ 3 500 x 500 x 120
+        fr: □ 3 500 x 500 x 120
+      para:
+        es: 16 dptos
+        en: 16 dptos
+        fr: 16 dptos
+  compartits: []
+- clau: CESTAS BASE
+  noms:
+    es: CESTAS BASE
+    en: BASE BASKETS
+    fr: PANIERS DE BASE
+  sequence: 660
+  tipus: accessoris
+  pagina: p67
+  taula: p67-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: cubeta_trapezi
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '95160'
+    ordre: 10
+    valors:
+      mesures_text:
+        es: □ 1 500 x 500 x 80
+        en: □ 1 500 x 500 x 80
+        fr: □ 1 500 x 500 x 80
+      cubeta_trapezi:
+        es: 16 - Ø 113
+        en: 16 - Ø 113
+        fr: 16 - Ø 113
+  - codi: '95250'
+    ordre: 20
+    valors:
+      mesures_text:
+        es: 500 x 500 x 80 □ 2
+        en: 500 x 500 x 80 □ 2
+        fr: 500 x 500 x 80 □ 2
+      cubeta_trapezi:
+        es: 25 - Ø 89
+        en: 25 - Ø 89
+        fr: 25 - Ø 89
+  - codi: '95360'
+    ordre: 30
+    valors:
+      mesures_text:
+        es: □ 3 500 x 500 x 80
+        en: □ 3 500 x 500 x 80
+        fr: □ 3 500 x 500 x 80
+      cubeta_trapezi:
+        es: 36 - Ø 73
+        en: 36 - Ø 73
+        fr: 36 - Ø 73
+  compartits: []
+- clau: SUPLEMENTOS ALTURAS
+  noms:
+    es: SUPLEMENTOS ALTURAS
+    en: SUPPLEMENTS HEIGHTS
+    fr: SUPPLÉMENTS HAUTEURS
+  sequence: 670
+  tipus: accessoris
+  pagina: p67
+  taula: p67-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: cubeta_trapezi
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '95161'
+    ordre: 10
+    valors:
+      mesures_text:
+        es: □ 1 500 x 500 x 40
+        en: □ 1 500 x 500 x 40
+        fr: □ 1 500 x 500 x 40
+      cubeta_trapezi:
+        es: 16 - Ø 113
+        en: 16 - Ø 113
+        fr: 16 - Ø 113
+  - codi: '95251'
+    ordre: 20
+    valors:
+      mesures_text:
+        es: □ 2 500 x 500 x 40
+        en: □ 2 500 x 500 x 40
+        fr: □ 2 500 x 500 x 40
+      cubeta_trapezi:
+        es: 25 - Ø 89
+        en: 25 - Ø 89
+        fr: 25 - Ø 89
+  - codi: '95361'
+    ordre: 30
+    valors:
+      mesures_text:
+        es: □ 3 500 x 500 x 40
+        en: □ 3 500 x 500 x 40
+        fr: □ 3 500 x 500 x 40
+      cubeta_trapezi:
+        es: 36 - Ø 73
+        en: 36 - Ø 73
+        fr: 36 - Ø 73
+  - codi: '95001'
+    ordre: 40
+    valors:
+      mesures_text:
+        es: □ 4 500 x 500 x 40
+        en: □ 4 500 x 500 x 40
+        fr: □ 4 500 x 500 x 40
+      cubeta_trapezi:
+        es: '-'
+        en: '-'
+        fr: '-'
+  compartits: []
+- clau: PEANA LAVAVASOS
+  noms:
+    es: PEANA LAVAVASOS
+    en: GLASSWASHER STAND
+    fr: SUPPORT DE LAVE-VERRES
+  sequence: 680
+  tipus: accessoris
+  pagina: p69
+  taula: p69-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4005000P
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 510 x 510 x 120
+        en: 510 x 510 x 120
+        fr: 510 x 510 x 120
+  compartits: []
+- clau: PEANA LAVAVAJILLAS CON PUERTA
+  noms:
+    es: PEANA LAVAVAJILLAS CON PUERTA
+    en: DISHWASHER STAND WITH DOOR
+    fr: SUPPORT LAVE-VAISSELLE AVEC PORTE
+  sequence: 690
+  tipus: accessoris
+  pagina: p69
+  taula: p69-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A600897
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 600 x 600 x 380
+        en: 600 x 600 x 380
+        fr: 600 x 600 x 380
+  compartits: []
+- clau: BOMBA DE DESAGÜE
+  noms:
+    es: BOMBA DE DESAGÜE
+    en: DRAIN PUMP
+    fr: POMPE DE VIDANGE
+  sequence: 700
+  tipus: accessoris
+  pagina: p69
+  taula: p69-t3
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: para
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A453999
+    ordre: 10
+    valors:
+      para:
+        es: 350 x 350 / 390 x 390
+        en: 350 x 350 / 390 x 390
+        fr: 350 x 350 / 390 x 390
+  - codi: 4A243999
+    ordre: 20
+    valors:
+      para:
+        es: 450 x 450 / 500 x 500
+        en: 450 x 450 / 500 x 500
+        fr: 450 x 450 / 500 x 500
+  - codi: 4A001707
+    ordre: 30
+    valors:
+      para:
+        es: CÚPULA
+        en: DOME
+        fr: DÔME
+  compartits: []
+- clau: DOSIFICADORES DE JABÓN
+  noms:
+    es: DOSIFICADORES DE JABÓN
+    en: SOAP DISPENSERS
+    fr: DISTRIBUTEURS DE SAVON
+  sequence: 710
+  tipus: accessoris
+  pagina: p69
+  taula: p69-t4
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: para
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A743999
+    ordre: 10
+    valors:
+      para:
+        es: TODOS
+        en: ALL
+        fr: TOUS
+  - codi: 4A045914
+    ordre: 20
+    valors:
+      para:
+        es: CÚPULA
+        en: DOME
+        fr: DÔME
+  compartits: []
+- clau: DESCALCIFICADORES
+  noms:
+    es: DESCALCIFICADORES
+    en: WATER SOFTENER
+    fr: ADOUCISSEUR D’EAU
+  sequence: 720
+  tipus: accessoris
+  pagina: p69
+  taula: p69-t5
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '16000008'
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 190 x 400
+        en: 190 x 400
+        fr: 190 x 400
+      capacitat_litres:
+        es: 8 LTS.
+        en: 8 LTS.
+        fr: 8 LTS.
+  - codi: '16000012'
+    ordre: 20
+    valors:
+      mesures_text:
+        es: 190 x 500
+        en: 190 x 500
+        fr: 190 x 500
+      capacitat_litres:
+        es: 12 LTS.
+        en: 12 LTS.
+        fr: 12 LTS.
+  compartits: []
+avisos:
+- 'pàgina p72 de tipus «desconeguda»: no es genera (l''extractor no l''ha sabut classificar)'
+- 'p52-t2 28RECALR: sense valor per a «alcada»'
+- 'p52-t2 28RECALR: sense valor per a «dimensions_safata_mm»'
+- 'p53-t2 28RECALR: sense valor per a «alcada»'
+- 'p53-t2 28RECALR: sense valor per a «cicle_aigua»'
+- 'p53-t2 28RECALR: sense valor per a «dimensions_safata_mm»'
+- '28RECALR: ja és a «TÚNELES DE LAVADO 90 CESTAS / 60’» (mateix grup); a «TÚNELES DE LAVADO 145 CESTAS / 60’» surt com a família extra'
+- 'p54-t2 28RECALR: sense valor per a «alcada»'
+- 'p54-t2 28RECALR: sense valor per a «dimensions_safata_mm»'
+- '28RECALR: ja és a «TÚNELES DE LAVADO 90 CESTAS / 60’» (mateix grup); a «TÚNELES DE LAVADO 175 CESTAS / 60’» surt com a família extra'
+- 'p55-t2 28RECALR: sense valor per a «alcada»'
+- 'p55-t2 28RECALR: sense valor per a «cicle_aigua»'
+- 'p55-t2 28RECALR: sense valor per a «dimensions_safata_mm»'
+- '28RECALR: ja és a «TÚNELES DE LAVADO 90 CESTAS / 60’» (mateix grup); a «TÚNELES DE LAVADO 235 CESTAS / 60’» surt com a família extra'
+- 'p62-t2 4A28RNRG: sense valor per a «alcada»'
+- 'p62-t2 4A28RNRG: sense valor per a «condensacio_assecat»'
+- 'p62-t2 4A28RNRG: sense valor per a «dimensions_safata_mm»'
+- 'p63-t2 4A28RNRG: sense valor per a «alcada»'
+- 'p63-t2 4A28RNRG: sense valor per a «cicle_aigua»'
+- 'p63-t2 4A28RNRG: sense valor per a «condensacio_assecat»'
+- 'p63-t2 4A28RNRG: sense valor per a «dimensions_safata_mm»'
+- '4A28RNRG: ja és a «LAVAPEROLAS/RECIPIENTES (CESTAS 560x630)» (mateix grup); a «LAVAPEROLAS/RECIPIENTES CESTAS (700x700 - 1310x700)» surt com a família extra'
+repeticions:
+  TÚNELES DE LAVADO 145 CESTAS / 60’:
+  - codi: 28RECALR
+    ordre: 30
+  TÚNELES DE LAVADO 175 CESTAS / 60’:
+  - codi: 28RECALR
+    ordre: 30
+  TÚNELES DE LAVADO 235 CESTAS / 60’:
+  - codi: 28RECALR
+    ordre: 30
+  LAVAPEROLAS/RECIPIENTES CESTAS (700x700 - 1310x700):
+  - codi: 4A28RNRG
+    ordre: 30
+informe:
+  inexistents:
+  - codi: 16361UER
+    taula: p56-t1
+    pagina: p56
+    titol: MESAS DE RODILLOS
+    preu_cataleg: '2.245'
+  descatalogats: []
+  arxivats: []
+  ambigus: []
+  ignorats: []
+  fora_pdf: []
+  columnes_eliminades:
+  - taula: p43-t2
+    clau: col5
+    motiu: 'fantasma: sense cap valor'
+  - taula: p44-t2
+    clau: col5
+    motiu: 'fantasma: sense cap valor'
+  - taula: p65-t5
+    clau: col1
+    motiu: 'fantasma: sense cap valor'
+  - taula: p65-t6
+    clau: col1
+    motiu: 'fantasma: sense cap valor'
+  - taula: p65-t7
+    clau: col2
+    motiu: 'fantasma: sense cap valor'
+  families_buides: []
+  taules_dividides: []

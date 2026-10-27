@@ -1,0 +1,4024 @@
+# Generat per scripts/genera_config.py --grup 8 (editable; es pot regenerar)
+grup:
+  numero: 8
+  codi_odoo: G08
+families:
+- clau: HORNOS A CONVECCIÓN ELÉCTRICOS 4 - 430x340 ó 4 GN 2/3 3 - 340x240 ó 3 GN 1/2
+  noms:
+    es: HORNOS A CONVECCIÓN ELÉCTRICOS 4 - 430x340 ó 4 GN 2/3 3 - 340x240 ó 3 GN 1/2
+    en: ELECTRIC CONVECTION OVENS 4 - 430x340 ó 4 GN 2/3 3 - 340x240 ó 3 GN 1/2
+    fr: FOURS À CONVECTION ELÉCTRIQUES 4 - 430x340 ó 4 GN 2/3 3 - 340x240 ó 3 GN 1/2
+  sequence: 10
+  tipus: producte
+  pagina: p06
+  taula: p06-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta:
+      es: DOT
+      en: DOT
+      fr: DOT
+  - codi: gastronorm
+    etiqueta:
+      es: '*'
+      en: '*'
+      fr: '*'
+  - codi: motor
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '41025017'
+    ordre: 10
+    valors:
+      dimensions_parrilla:
+        es: 3 - 340x240
+        en: 3 - 340x240
+        fr: 3 - 340x240
+      gastronorm:
+        es: 3 - 1/2
+        en: 3 - 1/2
+        fr: 3 - 1/2
+      motor:
+        es: '1'
+        en: '1'
+        fr: '1'
+      potencia_electrica:
+        es: 2,5 KW 230/1V
+        en: 2,5 KW 230/1V
+        fr: 2,5 KW 230/1V
+  - codi: '41125017'
+    ordre: 20
+    valors:
+      dimensions_parrilla:
+        es: 3 - 340x240
+        en: 3 - 340x240
+        fr: 3 - 340x240
+      gastronorm:
+        es: 3 - 1/2
+        en: 3 - 1/2
+        fr: 3 - 1/2
+      motor:
+        es: '1'
+        en: '1'
+        fr: '1'
+      potencia_electrica:
+        es: 2,5 KW 230/1V
+        en: 2,5 KW 230/1V
+        fr: 2,5 KW 230/1V
+  - codi: '41225017'
+    ordre: 30
+    valors:
+      dimensions_parrilla:
+        es: 4 - 430x340
+        en: 4 - 430x340
+        fr: 4 - 430x340
+      gastronorm:
+        es: 4 - 2/3
+        en: 4 - 2/3
+        fr: 4 - 2/3
+      motor:
+        es: '2'
+        en: '2'
+        fr: '2'
+      potencia_electrica:
+        es: 3,1 KW 230/1V
+        en: 3,1 KW 230/1V
+        fr: 3,1 KW 230/1V
+  - codi: '41325017'
+    ordre: 40
+    valors:
+      dimensions_parrilla:
+        es: 4 - 430x340
+        en: 4 - 430x340
+        fr: 4 - 430x340
+      gastronorm:
+        es: 4 - 2/3
+        en: 4 - 2/3
+        fr: 4 - 2/3
+      motor:
+        es: '2'
+        en: '2'
+        fr: '2'
+      potencia_electrica:
+        es: 3,1 KW 230/1V
+        en: 3,1 KW 230/1V
+        fr: 3,1 KW 230/1V
+  compartits: []
+- clau: HORNOS A CONVECCIÓN ELÉCTRICOS 4 EN 600x400 ó 4 GN 1/1
+  noms:
+    es: HORNOS A CONVECCIÓN ELÉCTRICOS 4 EN 600x400 ó 4 GN 1/1
+    en: ELECTRIC CONVECTION OVENS 4 EN 600x400 ó 4 GN 1/1
+    fr: FOURS À CONVECTION ELÉCTRIQUES 4 EN 600x400 ó 4 GN 1/1
+  sequence: 20
+  tipus: producte
+  pagina: p07
+  taula: p07-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta:
+      es: DOT
+      en: DOT
+      fr: DOT
+  - codi: gastronorm
+    etiqueta:
+      es: '*'
+      en: '*'
+      fr: '*'
+  - codi: motor
+    etiqueta: null
+  - codi: rotacio
+    etiqueta: null
+  - codi: grill
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '41645017'
+    ordre: 10
+    valors:
+      dimensions_parrilla:
+        es: 4 - EN 600x400
+        en: 4 - EN 600x400
+        fr: 4 - EN 600x400
+      gastronorm:
+        es: 4 - 1/1
+        en: 4 - 1/1
+        fr: 4 - 1/1
+      motor:
+        es: '2'
+        en: '2'
+        fr: '2'
+      rotacio:
+        es: û
+        en: û
+        fr: û
+      grill:
+        es: û
+        en: û
+        fr: û
+      potencia_electrica:
+        es: 3,8 KW 230/1V
+        en: 3,8 KW 230/1V
+        fr: 3,8 KW 230/1V
+  - codi: '41135017'
+    ordre: 20
+    valors:
+      dimensions_parrilla:
+        es: 4 - EN 600x400
+        en: 4 - EN 600x400
+        fr: 4 - EN 600x400
+      gastronorm:
+        es: 4 - 1/1
+        en: 4 - 1/1
+        fr: 4 - 1/1
+      motor:
+        es: '2'
+        en: '2'
+        fr: '2'
+      rotacio:
+        es: ü
+        en: ü
+        fr: ü
+      grill:
+        es: û
+        en: û
+        fr: û
+      potencia_electrica:
+        es: 6,3 KW 400/3V
+        en: 6,3 KW 400/3V
+        fr: 6,3 KW 400/3V
+  - codi: '41235017'
+    ordre: 30
+    valors:
+      dimensions_parrilla:
+        es: 4 - EN 600x400
+        en: 4 - EN 600x400
+        fr: 4 - EN 600x400
+      gastronorm:
+        es: 4 - 1/1
+        en: 4 - 1/1
+        fr: 4 - 1/1
+      motor:
+        es: '2'
+        en: '2'
+        fr: '2'
+      rotacio:
+        es: ü
+        en: ü
+        fr: ü
+      grill:
+        es: û
+        en: û
+        fr: û
+      potencia_electrica:
+        es: 6,3 KW 400/3V
+        en: 6,3 KW 400/3V
+        fr: 6,3 KW 400/3V
+  - codi: '41335017'
+    ordre: 40
+    valors:
+      dimensions_parrilla:
+        es: 4 - EN 600x400
+        en: 4 - EN 600x400
+        fr: 4 - EN 600x400
+      gastronorm:
+        es: 4 - 1/1
+        en: 4 - 1/1
+        fr: 4 - 1/1
+      motor:
+        es: '2'
+        en: '2'
+        fr: '2'
+      rotacio:
+        es: ü
+        en: ü
+        fr: ü
+      grill:
+        es: 1,4 KW
+        en: 1,4 KW
+        fr: 1,4 KW
+      potencia_electrica:
+        es: 7,7 KW 400/3V
+        en: 7,7 KW 400/3V
+        fr: 7,7 KW 400/3V
+  compartits: []
+- clau: HORNOS A CONVECCIÓN A GAS Y ELÉCTRICOS 5 GN 1/1 ó 5 EN 600x400
+  noms:
+    es: HORNOS A CONVECCIÓN A GAS Y ELÉCTRICOS 5 GN 1/1 ó 5 EN 600x400
+    en: GAS AND ELECTRIC CONVECTION OVENS 5 GN 1/1 ó 5 EN 600x400
+    fr: FOURS À CONVECTION À GAZ ET ELÉCTRIQUES 5 GN 1/1 ó 5 EN 600x400
+  sequence: 30
+  tipus: producte
+  pagina: p11
+  taula: p11-t3
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta:
+      es: '*'
+      en: '*'
+      fr: '*'
+  - codi: motor
+    etiqueta: null
+  - codi: rotacio
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 41X25EME
+    ordre: 10
+    valors:
+      gastronorm:
+        es: 5 - GN 1/1 5 EN 600x400
+        en: 5 - GN 1/1 5 EN 600x400
+        fr: 5 - GN 1/1 5 EN 600x400
+      motor:
+        es: '1'
+        en: '1'
+        fr: '1'
+      rotacio:
+        es: ü
+        en: ü
+        fr: ü
+      potencia_electrica:
+        es: 7,7 KW 400/3V
+        en: 7,7 KW 400/3V
+        fr: 7,7 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 41025GME
+    ordre: 20
+    valors:
+      gastronorm:
+        es: 5 - GN 1/1 5 EN 600x400
+        en: 5 - GN 1/1 5 EN 600x400
+        fr: 5 - GN 1/1 5 EN 600x400
+      motor:
+        es: '1'
+        en: '1'
+        fr: '1'
+      rotacio:
+        es: ü
+        en: ü
+        fr: ü
+      potencia_electrica:
+        es: 300 W 230/1V
+        en: 300 W 230/1V
+        fr: 300 W 230/1V
+      potencia_gas:
+        es: 9,5 KW
+        en: 9,5 KW
+        fr: 9,5 KW
+  compartits: []
+- clau: HORNOS A CONVECCIÓN A GAS Y ELÉCTRICOS 10 GN 1/1 ó 10 EN 600x400
+  noms:
+    es: HORNOS A CONVECCIÓN A GAS Y ELÉCTRICOS 10 GN 1/1 ó 10 EN 600x400
+    en: GAS AND ELECTRIC CONVECTION OVENS 10 GN 1/1 ó 10 EN 600x400
+    fr: FOURS À CONVECTION À GAZ ET ELÉCTRIQUES 10 GN 1/1 ó 10 EN 600x400
+  sequence: 40
+  tipus: producte
+  pagina: p12
+  taula: p12-t3
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta:
+      es: '*'
+      en: '*'
+      fr: '*'
+  - codi: motor
+    etiqueta: null
+  - codi: rotacio
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 41201EME
+    ordre: 10
+    valors:
+      gastronorm:
+        es: 10 - GN 1/1 10 EN 600x400
+        en: 10 - GN 1/1 10 EN 600x400
+        fr: 10 - GN 1/1 10 EN 600x400
+      motor:
+        es: '2'
+        en: '2'
+        fr: '2'
+      rotacio:
+        es: ü
+        en: ü
+        fr: ü
+      potencia_electrica:
+        es: 12,6 KW 400/3V
+        en: 12,6 KW 400/3V
+        fr: 12,6 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 41201GME
+    ordre: 20
+    valors:
+      gastronorm:
+        es: 10 - GN 1/1 10 EN 600x400
+        en: 10 - GN 1/1 10 EN 600x400
+        fr: 10 - GN 1/1 10 EN 600x400
+      motor:
+        es: '2'
+        en: '2'
+        fr: '2'
+      rotacio:
+        es: ü
+        en: ü
+        fr: ü
+      potencia_electrica:
+        es: 600 W 230/1V
+        en: 600 W 230/1V
+        fr: 600 W 230/1V
+      potencia_gas:
+        es: 19 KW
+        en: 19 KW
+        fr: 19 KW
+  compartits: []
+- clau: HORNOS MIXTOS CONVECCIÓN - VAPOR DIRECTO A GAS Y ELÉCTRICOS 5 GN 1/1 ó 5 EN 600x400
+  noms:
+    es: HORNOS MIXTOS CONVECCIÓN - VAPOR DIRECTO A GAS Y ELÉCTRICOS 5 GN 1/1 ó 5 EN 600x400
+    en: GAS AND ELECTRIC DIRECT STEAM-CONVECTION MIXED OVENS 5 GN 1/1 ó 5 EN 600x400
+    fr: FOURS MIXTES À CONVECTION-VAPEUR DIRECTE À GAZ ET ELÉCTRIQUES 5 GN 1/1 ó 5 EN 600x400
+  sequence: 50
+  tipus: producte
+  pagina: p13
+  taula: p13-t3
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta:
+      es: '*'
+      en: '*'
+      fr: '*'
+  - codi: motor
+    etiqueta: null
+  - codi: rotacio
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 41RX5ETM
+    ordre: 10
+    valors:
+      gastronorm:
+        es: 5 - GN 1/1 5 EN 600x400
+        en: 5 - GN 1/1 5 EN 600x400
+        fr: 5 - GN 1/1 5 EN 600x400
+      motor:
+        es: '1'
+        en: '1'
+        fr: '1'
+      rotacio:
+        es: ü
+        en: ü
+        fr: ü
+      potencia_electrica:
+        es: 7,7 KW 400/3V
+        en: 7,7 KW 400/3V
+        fr: 7,7 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 41RWX5ET
+    ordre: 20
+    valors:
+      gastronorm:
+        es: 5 - GN 1/1 5 EN 600x400
+        en: 5 - GN 1/1 5 EN 600x400
+        fr: 5 - GN 1/1 5 EN 600x400
+      motor:
+        es: '1'
+        en: '1'
+        fr: '1'
+      rotacio:
+        es: ü
+        en: ü
+        fr: ü
+      potencia_electrica:
+        es: 7,7 KW 400/3V
+        en: 7,7 KW 400/3V
+        fr: 7,7 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 410R5GTM
+    ordre: 30
+    valors:
+      gastronorm:
+        es: 5 - GN 1/1 5 EN 600x400
+        en: 5 - GN 1/1 5 EN 600x400
+        fr: 5 - GN 1/1 5 EN 600x400
+      motor:
+        es: '1'
+        en: '1'
+        fr: '1'
+      rotacio:
+        es: ü
+        en: ü
+        fr: ü
+      potencia_electrica:
+        es: 300 W 230/1V
+        en: 300 W 230/1V
+        fr: 300 W 230/1V
+      potencia_gas:
+        es: 9,5 KW
+        en: 9,5 KW
+        fr: 9,5 KW
+  - codi: 41RW5GTM
+    ordre: 40
+    valors:
+      gastronorm:
+        es: 5 - GN 1/1 5 EN 600x400
+        en: 5 - GN 1/1 5 EN 600x400
+        fr: 5 - GN 1/1 5 EN 600x400
+      motor:
+        es: '1'
+        en: '1'
+        fr: '1'
+      rotacio:
+        es: ü
+        en: ü
+        fr: ü
+      potencia_electrica:
+        es: 300 W 230/1V
+        en: 300 W 230/1V
+        fr: 300 W 230/1V
+      potencia_gas:
+        es: 9,5 KW
+        en: 9,5 KW
+        fr: 9,5 KW
+  compartits: []
+- clau: HORNOS MIXTOS CONVECCIÓN - VAPOR DIRECTO A GAS Y ELÉCTRICOS 10 GN 1/1 - 10 EN 600x400
+  noms:
+    es: HORNOS MIXTOS CONVECCIÓN - VAPOR DIRECTO A GAS Y ELÉCTRICOS 10 GN 1/1 - 10 EN 600x400
+    en: GAS AND ELECTRIC DIRECT STEAM-CONVECTION MIXED OVENS 10 GN 1/1 - 10 EN 600x400
+    fr: FOURS MIXTES À CONVECTION-VAPEUR DIRECTE À GAZ ET ELÉCTRIQUES 10 GN 1/1 - 10 EN 600x400
+  sequence: 60
+  tipus: producte
+  pagina: p14
+  taula: p14-t3
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta:
+      es: '*'
+      en: '*'
+      fr: '*'
+  - codi: motor
+    etiqueta: null
+  - codi: rotacio
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 41R01ETM
+    ordre: 10
+    valors:
+      gastronorm:
+        es: 10 - GN 1/1 10 EN 600x400
+        en: 10 - GN 1/1 10 EN 600x400
+        fr: 10 - GN 1/1 10 EN 600x400
+      motor:
+        es: '2'
+        en: '2'
+        fr: '2'
+      rotacio:
+        es: ü
+        en: ü
+        fr: ü
+      potencia_electrica:
+        es: 12,6 KW 400/3V
+        en: 12,6 KW 400/3V
+        fr: 12,6 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 41RW01ET
+    ordre: 20
+    valors:
+      gastronorm:
+        es: 10 - GN 1/1 10 EN 600x400
+        en: 10 - GN 1/1 10 EN 600x400
+        fr: 10 - GN 1/1 10 EN 600x400
+      motor:
+        es: '2'
+        en: '2'
+        fr: '2'
+      rotacio:
+        es: ü
+        en: ü
+        fr: ü
+      potencia_electrica:
+        es: 12,6 KW 400/3V
+        en: 12,6 KW 400/3V
+        fr: 12,6 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 41R01GTM
+    ordre: 30
+    valors:
+      gastronorm:
+        es: 10 - GN 1/1 10 EN 600x400
+        en: 10 - GN 1/1 10 EN 600x400
+        fr: 10 - GN 1/1 10 EN 600x400
+      motor:
+        es: '2'
+        en: '2'
+        fr: '2'
+      rotacio:
+        es: ü
+        en: ü
+        fr: ü
+      potencia_electrica:
+        es: 600 W 230/1V
+        en: 600 W 230/1V
+        fr: 600 W 230/1V
+      potencia_gas:
+        es: 19 KW
+        en: 19 KW
+        fr: 19 KW
+  - codi: 41RW01GT
+    ordre: 40
+    valors:
+      gastronorm:
+        es: 10 - GN 1/1 10 EN 600x400
+        en: 10 - GN 1/1 10 EN 600x400
+        fr: 10 - GN 1/1 10 EN 600x400
+      motor:
+        es: '2'
+        en: '2'
+        fr: '2'
+      rotacio:
+        es: ü
+        en: ü
+        fr: ü
+      potencia_electrica:
+        es: 600 W 230/1V
+        en: 600 W 230/1V
+        fr: 600 W 230/1V
+      potencia_gas:
+        es: 19 KW
+        en: 19 KW
+        fr: 19 KW
+  compartits: []
+- clau: HORNOS MIXTOS CONVECCIÓN -VAPOR DIRECTO ELÉCTRICOS 6 GN 1/1
+  noms:
+    es: HORNOS MIXTOS CONVECCIÓN -VAPOR DIRECTO ELÉCTRICOS 6 GN 1/1
+    en: CONVECTION AND MIXED OVENS - DIRECT, ELECTRIC STEAM 6 GN 1/1
+    fr: FOURS À CONVECTION ET MIXTES - VAPEUR DIRECTE, ÉLECTRIQUES 6 GN 1/1
+  sequence: 70
+  tipus: producte
+  pagina: p18
+  taula: p18-t3
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta:
+      es: '*'
+      en: '*'
+      fr: '*'
+  - codi: motor
+    etiqueta: null
+  - codi: rotacio
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 41W160MK
+    ordre: 10
+    valors:
+      gastronorm:
+        es: 6 - GN 1/1
+        en: 6 - GN 1/1
+        fr: 6 - GN 1/1
+      motor:
+        es: '1'
+        en: '1'
+        fr: '1'
+      rotacio:
+        es: ü
+        en: ü
+        fr: ü
+      potencia_electrica:
+        es: 6,9 KW 400/3V
+        en: 6,9 KW 400/3V
+        fr: 6,9 KW 400/3V
+  compartits: []
+- clau: HORNOS MIXTOS CONVECCIÓN -VAPOR DIRECTO ELÉCTRICOS 10 GN 1/1
+  noms:
+    es: HORNOS MIXTOS CONVECCIÓN -VAPOR DIRECTO ELÉCTRICOS 10 GN 1/1
+    en: CONVECTION AND MIXED OVENS - DIRECT, ELECTRIC STEAM 10 GN 1/1
+    fr: FOURS À CONVECTION ET MIXTES - VAPEUR DIRECTE, ÉLECTRIQUES 10 GN 1/1
+  sequence: 80
+  tipus: producte
+  pagina: p19
+  taula: p19-t3
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta:
+      es: '*'
+      en: '*'
+      fr: '*'
+  - codi: motor
+    etiqueta: null
+  - codi: rotacio
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 41W101MK
+    ordre: 10
+    valors:
+      gastronorm:
+        es: 10 - GN 1/1
+        en: 10 - GN 1/1
+        fr: 10 - GN 1/1
+      motor:
+        es: '2'
+        en: '2'
+        fr: '2'
+      rotacio:
+        es: ü
+        en: ü
+        fr: ü
+      potencia_electrica:
+        es: 13,8 KW 400/3V
+        en: 13,8 KW 400/3V
+        fr: 13,8 KW 400/3V
+  compartits: []
+- clau: HORNOS MIXTOS CONVECCIÓN - VAPOR DIRECTO A GAS Y ELÉCTRICOS 6 GN 1/1
+  noms:
+    es: HORNOS MIXTOS CONVECCIÓN - VAPOR DIRECTO A GAS Y ELÉCTRICOS 6 GN 1/1
+    en: GAS AND ELECTRIC DIRECT STEAM-CONVECTION MIXED OVENS 6 GN 1/1
+    fr: FOURS MIXTES À CONVECTION-VAPEUR DIRECTE À GAZ ET ELÉCTRIQUES 6 GN 1/1
+  sequence: 90
+  tipus: producte
+  pagina: p23
+  taula: p23-t3
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: motor
+    etiqueta: null
+  - codi: rotacio
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 41W160ER
+    ordre: 10
+    valors:
+      gastronorm:
+        es: 6 - GN 1/1
+        en: 6 - GN 1/1
+        fr: 6 - GN 1/1
+      motor:
+        es: '1'
+        en: '1'
+        fr: '1'
+      rotacio:
+        es: ü
+        en: ü
+        fr: ü
+      potencia_electrica:
+        es: 10,4 KW 400/3V
+        en: 10,4 KW 400/3V
+        fr: 10,4 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 41W1606R
+    ordre: 20
+    valors:
+      gastronorm:
+        es: 6 - GN 1/1
+        en: 6 - GN 1/1
+        fr: 6 - GN 1/1
+      motor:
+        es: '1'
+        en: '1'
+        fr: '1'
+      rotacio:
+        es: ü
+        en: ü
+        fr: ü
+      potencia_electrica:
+        es: 400 W 230/1V
+        en: 400 W 230/1V
+        fr: 400 W 230/1V
+      potencia_gas:
+        es: 12 KW
+        en: 12 KW
+        fr: 12 KW
+  compartits: []
+- clau: HORNOS MIXTOS CONVECCIÓN - VAPOR DIRECTO A GAS Y ELÉCTRICOS 6 GN 2/1
+  noms:
+    es: HORNOS MIXTOS CONVECCIÓN - VAPOR DIRECTO A GAS Y ELÉCTRICOS 6 GN 2/1
+    en: GAS AND ELECTRIC DIRECT STEAM-CONVECTION MIXED OVENS 6 GN 2/1
+    fr: FOURS MIXTES À CONVECTION-VAPEUR DIRECTE À GAZ ET ELÉCTRIQUES 6 GN 2/1
+  sequence: 100
+  tipus: producte
+  pagina: p24
+  taula: p24-t3
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: motor
+    etiqueta: null
+  - codi: rotacio
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 41W260ER
+    ordre: 10
+    valors:
+      gastronorm:
+        es: 6 - GN 2/1
+        en: 6 - GN 2/1
+        fr: 6 - GN 2/1
+      motor:
+        es: '1'
+        en: '1'
+        fr: '1'
+      rotacio:
+        es: ü
+        en: ü
+        fr: ü
+      potencia_electrica:
+        es: 20,4 KW 400/3V
+        en: 20,4 KW 400/3V
+        fr: 20,4 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 41W2606R
+    ordre: 20
+    valors:
+      gastronorm:
+        es: 6 - GN 2/1
+        en: 6 - GN 2/1
+        fr: 6 - GN 2/1
+      motor:
+        es: '1'
+        en: '1'
+        fr: '1'
+      rotacio:
+        es: ü
+        en: ü
+        fr: ü
+      potencia_electrica:
+        es: 400 W 230/1V
+        en: 400 W 230/1V
+        fr: 400 W 230/1V
+      potencia_gas:
+        es: 19 KW
+        en: 19 KW
+        fr: 19 KW
+  compartits: []
+- clau: HORNOS MIXTOS CONVECCIÓN - VAPOR DIRECTO A GAS Y ELÉCTRICOS 10 GN 1/1
+  noms:
+    es: HORNOS MIXTOS CONVECCIÓN - VAPOR DIRECTO A GAS Y ELÉCTRICOS 10 GN 1/1
+    en: GAS AND ELECTRIC DIRECT STEAM-CONVECTION MIXED OVENS 10 GN 1/1
+    fr: FOURS MIXTES À CONVECTION-VAPEUR DIRECTE À GAZ ET ELÉCTRIQUES 10 GN 1/1
+  sequence: 110
+  tipus: producte
+  pagina: p25
+  taula: p25-t3
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: motor
+    etiqueta: null
+  - codi: rotacio
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 41W101ER
+    ordre: 10
+    valors:
+      gastronorm:
+        es: 10 - GN 1/1
+        en: 10 - GN 1/1
+        fr: 10 - GN 1/1
+      motor:
+        es: '1'
+        en: '1'
+        fr: '1'
+      rotacio:
+        es: ü
+        en: ü
+        fr: ü
+      potencia_electrica:
+        es: 15,7 KW 400/3V
+        en: 15,7 KW 400/3V
+        fr: 15,7 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 41W1016R
+    ordre: 20
+    valors:
+      gastronorm:
+        es: 10 - GN 1/1
+        en: 10 - GN 1/1
+        fr: 10 - GN 1/1
+      motor:
+        es: '1'
+        en: '1'
+        fr: '1'
+      rotacio:
+        es: ü
+        en: ü
+        fr: ü
+      potencia_electrica:
+        es: 700 W 230/1V
+        en: 700 W 230/1V
+        fr: 700 W 230/1V
+      potencia_gas:
+        es: 19 KW
+        en: 19 KW
+        fr: 19 KW
+  compartits: []
+- clau: HORNOS MIXTOS CONVECCIÓN - VAPOR DIRECTO A GAS Y ELÉCTRICOS 10 GN 2/1
+  noms:
+    es: HORNOS MIXTOS CONVECCIÓN - VAPOR DIRECTO A GAS Y ELÉCTRICOS 10 GN 2/1
+    en: GAS AND ELECTRIC DIRECT STEAM-CONVECTION MIXED OVENS 10 GN 2/1
+    fr: FOURS MIXTES À CONVECTION-VAPEUR DIRECTE À GAZ ET ELÉCTRIQUES 10 GN 2/1
+  sequence: 120
+  tipus: producte
+  pagina: p26
+  taula: p26-t3
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: motor
+    etiqueta: null
+  - codi: rotacio
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 41W201ER
+    ordre: 10
+    valors:
+      gastronorm:
+        es: 10 - GN 2/1
+        en: 10 - GN 2/1
+        fr: 10 - GN 2/1
+      motor:
+        es: '1'
+        en: '1'
+        fr: '1'
+      rotacio:
+        es: ü
+        en: ü
+        fr: ü
+      potencia_electrica:
+        es: 25,8 KW 400/3V
+        en: 25,8 KW 400/3V
+        fr: 25,8 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 41W2016R
+    ordre: 20
+    valors:
+      gastronorm:
+        es: 10 - GN 2/1
+        en: 10 - GN 2/1
+        fr: 10 - GN 2/1
+      motor:
+        es: '1'
+        en: '1'
+        fr: '1'
+      rotacio:
+        es: ü
+        en: ü
+        fr: ü
+      potencia_electrica:
+        es: 800 W 230/1V
+        en: 800 W 230/1V
+        fr: 800 W 230/1V
+      potencia_gas:
+        es: 28 KW
+        en: 28 KW
+        fr: 28 KW
+  compartits: []
+- clau: HORNOS MIXTOS CONVECCIÓN - VAPOR DIRECTO A GAS Y ELÉCTRICOS 20 GN 1/1
+  noms:
+    es: HORNOS MIXTOS CONVECCIÓN - VAPOR DIRECTO A GAS Y ELÉCTRICOS 20 GN 1/1
+    en: GAS AND ELECTRIC DIRECT STEAM-CONVECTION MIXED OVENS 20 GN 1/1
+    fr: FOURS MIXTES À CONVECTION-VAPEUR DIRECTE À GAZ ET ELÉCTRIQUES 20 GN 1/1
+  sequence: 130
+  tipus: producte
+  pagina: p27
+  taula: p27-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: motor
+    etiqueta: null
+  - codi: rotacio
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 41W102ER
+    ordre: 10
+    valors:
+      gastronorm:
+        es: 20 - GN 1/1
+        en: 20 - GN 1/1
+        fr: 20 - GN 1/1
+      motor:
+        es: '2'
+        en: '2'
+        fr: '2'
+      rotacio:
+        es: ü
+        en: ü
+        fr: ü
+      potencia_electrica:
+        es: 30,8 KW 400/3V
+        en: 30,8 KW 400/3V
+        fr: 30,8 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 41W1026R
+    ordre: 20
+    valors:
+      gastronorm:
+        es: 20 - GN 1/1
+        en: 20 - GN 1/1
+        fr: 20 - GN 1/1
+      motor:
+        es: '2'
+        en: '2'
+        fr: '2'
+      rotacio:
+        es: ü
+        en: ü
+        fr: ü
+      potencia_electrica:
+        es: 800 W 230/1V
+        en: 800 W 230/1V
+        fr: 800 W 230/1V
+      potencia_gas:
+        es: 38 KW
+        en: 38 KW
+        fr: 38 KW
+  compartits: []
+- clau: HORNOS MIXTOS CONVECCIÓN - VAPOR DIRECTO A GAS Y ELÉCTRICOS 20 GN 2/1
+  noms:
+    es: HORNOS MIXTOS CONVECCIÓN - VAPOR DIRECTO A GAS Y ELÉCTRICOS 20 GN 2/1
+    en: GAS AND ELECTRIC DIRECT STEAM-CONVECTION MIXED OVENS 20 GN 2/1
+    fr: FOURS MIXTES À CONVECTION-VAPEUR DIRECTE À GAZ ET ELÉCTRIQUES 20 GN 2/1
+  sequence: 140
+  tipus: producte
+  pagina: p28
+  taula: p28-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: motor
+    etiqueta: null
+  - codi: rotacio
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 41W202ER
+    ordre: 10
+    valors:
+      gastronorm:
+        es: 20 - GN 2/1
+        en: 20 - GN 2/1
+        fr: 20 - GN 2/1
+      motor:
+        es: '2'
+        en: '2'
+        fr: '2'
+      rotacio:
+        es: ü
+        en: ü
+        fr: ü
+      potencia_electrica:
+        es: 51,6 KW 400/3V
+        en: 51,6 KW 400/3V
+        fr: 51,6 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 41W2026R
+    ordre: 20
+    valors:
+      gastronorm:
+        es: 20 - GN 2/1
+        en: 20 - GN 2/1
+        fr: 20 - GN 2/1
+      motor:
+        es: '2'
+        en: '2'
+        fr: '2'
+      rotacio:
+        es: ü
+        en: ü
+        fr: ü
+      potencia_electrica:
+        es: 1600 W 230/1V
+        en: 1600 W 230/1V
+        fr: 1600 W 230/1V
+      potencia_gas:
+        es: 56 KW
+        en: 56 KW
+        fr: 56 KW
+  compartits: []
+- clau: MESAS SOPORTE HORNO CON GUÍAS
+  noms:
+    es: MESAS SOPORTE HORNO CON GUÍAS
+    en: OVEN SUPPORT TABLES WITH GUIDES
+    fr: TABLES DE SUPPORT DE FOUR AVEC GUIDES
+  sequence: 150
+  tipus: producte
+  pagina: p32
+  taula: p32-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: serie
+    etiqueta: null
+  - codi: guies
+    etiqueta: null
+  - codi: euronorm
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '41745017'
+    ordre: 10
+    valors:
+      serie:
+        es: SMALL
+        en: SMALL
+        fr: SMALL
+      guies:
+        es: '8'
+        en: '8'
+        fr: '8'
+      euronorm:
+        es: 430 x 340
+        en: 430 x 340
+        fr: 430 x 340
+      gastronorm:
+        es: 2/3
+        en: 2/3
+        fr: 2/3
+  - codi: '41945017'
+    ordre: 20
+    valors:
+      serie:
+        es: SMALL
+        en: SMALL
+        fr: SMALL
+      guies:
+        es: '8'
+        en: '8'
+        fr: '8'
+      euronorm:
+        es: 600 x 400
+        en: 600 x 400
+        fr: 600 x 400
+      gastronorm:
+        es: 1/1
+        en: 1/1
+        fr: 1/1
+  - codi: 410001KT
+    ordre: 30
+    valors:
+      serie:
+        es: MINI
+        en: MINI
+        fr: MINI
+      guies:
+        es: '6'
+        en: '6'
+        fr: '6'
+      euronorm:
+        es: '-'
+        en: '-'
+        fr: '-'
+      gastronorm:
+        es: 1/1
+        en: 1/1
+        fr: 1/1
+  - codi: '41102050'
+    ordre: 40
+    valors:
+      serie:
+        es: 2 / 5 / 8
+        en: 2 / 5 / 8
+        fr: 2 / 5 / 8
+      guies:
+        es: '12'
+        en: '12'
+        fr: '12'
+      euronorm:
+        es: '-'
+        en: '-'
+        fr: '-'
+      gastronorm:
+        es: 1/1
+        en: 1/1
+        fr: 1/1
+  - codi: '41302050'
+    ordre: 50
+    valors:
+      serie:
+        es: '8'
+        en: '8'
+        fr: '8'
+      guies:
+        es: 6 + 6
+        en: 6 + 6
+        fr: 6 + 6
+      euronorm:
+        es: '-'
+        en: '-'
+        fr: '-'
+      gastronorm:
+        es: 1/1 - 2/1
+        en: 1/1 - 2/1
+        fr: 1/1 - 2/1
+  compartits: []
+- clau: ARMARIOS SOPORTE HORNO CON GUÍAS O PUERTAS / CARROS HORNOS 20 GN
+  noms:
+    es: ARMARIOS SOPORTE HORNO CON GUÍAS O PUERTAS / CARROS HORNOS 20 GN
+    en: OVEN SUPPORT CABINETS WITH GUIDES OR DOORS / 20 GN OVEN TROLLEYS
+    fr: ARMOIRES DE SUPPORT DE FOUR AVEC GUIDES OU PORTES / CHARIOTS DE FOUR 20 GN
+  sequence: 160
+  tipus: producte
+  pagina: p33
+  taula: p33-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: guies
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: nivells
+    etiqueta: null
+  - codi: portes_corredisses
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '41641097'
+    ordre: 10
+    valors:
+      guies:
+        es: MINI
+        en: MINI
+        fr: MINI
+      gastronorm:
+        es: 7 400 x 600 ó 1/1
+        en: 7 400 x 600 ó 1/1
+        fr: 7 400 x 600 ó 1/1
+      nivells:
+        es: '-'
+        en: '-'
+        fr: '-'
+      portes_corredisses:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '41841097'
+    ordre: 20
+    valors:
+      guies:
+        es: '8'
+        en: '8'
+        fr: '8'
+      gastronorm:
+        es: 7+7 400 x 600 ó 1/1
+        en: 7+7 400 x 600 ó 1/1
+        fr: 7+7 400 x 600 ó 1/1
+      nivells:
+        es: '-'
+        en: '-'
+        fr: '-'
+      portes_corredisses:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 100107PC
+    ordre: 30
+    valors:
+      guies:
+        es: '8'
+        en: '8'
+        fr: '8'
+      gastronorm:
+        es: '- - -'
+        en: '- - -'
+        fr: '- - -'
+      nivells:
+        es: '2'
+        en: '2'
+        fr: '2'
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: '41601520'
+    ordre: 40
+    valors:
+      guies:
+        es: '8'
+        en: '8'
+        fr: '8'
+      gastronorm:
+        es: 20 - 1/1
+        en: 20 - 1/1
+        fr: 20 - 1/1
+      nivells:
+        es: '-'
+        en: '-'
+        fr: '-'
+      portes_corredisses:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '41701520'
+    ordre: 50
+    valors:
+      guies:
+        es: '8'
+        en: '8'
+        fr: '8'
+      gastronorm:
+        es: 20 - 2/1
+        en: 20 - 2/1
+        fr: 20 - 2/1
+      nivells:
+        es: '-'
+        en: '-'
+        fr: '-'
+      portes_corredisses:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '41741097'
+    ordre: 60
+    valors:
+      guies:
+        es: 2 / 5 / 8
+        en: 2 / 5 / 8
+        fr: 2 / 5 / 8
+      gastronorm:
+        es: 7+7 1/1
+        en: 7+7 1/1
+        fr: 7+7 1/1
+      nivells:
+        es: '-'
+        en: '-'
+        fr: '-'
+      portes_corredisses:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: 108007PC
+    ordre: 70
+    valors:
+      guies:
+        es: 2 / 5 / 8
+        en: 2 / 5 / 8
+        fr: 2 / 5 / 8
+      gastronorm:
+        es: '- - -'
+        en: '- - -'
+        fr: '- - -'
+      nivells:
+        es: '2'
+        en: '2'
+        fr: '2'
+      portes_corredisses:
+        es: '2'
+        en: '2'
+        fr: '2'
+  compartits: []
+- clau: ARMARIOS DE FERMENTACIÓN
+  noms:
+    es: ARMARIOS DE FERMENTACIÓN
+    en: FERMENTATION CABINETS
+    fr: ARMOIRES DE FERMENTATION
+  sequence: 170
+  tipus: producte
+  pagina: p34
+  taula: p34-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: serie
+    etiqueta: null
+  - codi: guies
+    etiqueta: null
+  - codi: alcada
+    etiqueta: null
+  - codi: euronorm
+    etiqueta: null
+  - codi: euronorm_2
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '80306017'
+    ordre: 10
+    valors:
+      serie:
+        es: SMALL
+        en: SMALL
+        fr: SMALL
+      guies:
+        es: '8'
+        en: '8'
+        fr: '8'
+      alcada:
+        es: '80'
+        en: '80'
+        fr: '80'
+      euronorm:
+        es: 480 x 340
+        en: 480 x 340
+        fr: 480 x 340
+      euronorm_2:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: 700 W 230/1V
+        en: 700 W 230/1V
+        fr: 700 W 230/1V
+  - codi: '80606017'
+    ordre: 40
+    valors:
+      serie:
+        es: '-'
+        en: '-'
+        fr: '-'
+      guies:
+        es: '10'
+        en: '10'
+        fr: '10'
+      alcada:
+        es: '80'
+        en: '80'
+        fr: '80'
+      euronorm:
+        es: 20-600 x 400
+        en: 20-600 x 400
+        fr: 20-600 x 400
+      euronorm_2:
+        es: 10-600 x 800
+        en: 10-600 x 800
+        fr: 10-600 x 800
+      potencia_electrica:
+        es: 1,4 KW 230/1V
+        en: 1,4 KW 230/1V
+        fr: 1,4 KW 230/1V
+  compartits:
+  - codi: '80839169'
+    ordre: 30
+    valors:
+      serie:
+        es: 2 / 5 / 8
+        en: 2 / 5 / 8
+        fr: 2 / 5 / 8
+      guies:
+        es: 7+7
+        en: 7+7
+        fr: 7+7
+      alcada:
+        es: '80'
+        en: '80'
+        fr: '80'
+      euronorm:
+        es: 600 x 400
+        en: 600 x 400
+        fr: 600 x 400
+      euronorm_2:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: 2,6 KW 230/1V
+        en: 2,6 KW 230/1V
+        fr: 2,6 KW 230/1V
+    propietari: G07
+- clau: MANTENEDORES / REGENERADORES DE TEMPERATURA ELÉCTRICOS
+  noms:
+    es: MANTENEDORES / REGENERADORES DE TEMPERATURA ELÉCTRICOS
+    en: ELECTRIC TEMPERATURE MAINTAINERS / REGENERATORS
+    fr: MAINTENEURS / RÉGÉNÉRATEURS ELÉCTRIQUES DE TEMPÉRATURE
+  sequence: 180
+  tipus: producte
+  pagina: p35
+  taula: p35-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: motor
+    etiqueta: null
+  - codi: rotacio
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '41016017'
+    ordre: 10
+    valors:
+      gastronorm:
+        es: 3 - 1/1 - 65
+        en: 3 - 1/1 - 65
+        fr: 3 - 1/1 - 65
+      motor:
+        es: '1'
+        en: '1'
+        fr: '1'
+      rotacio:
+        es: ü
+        en: ü
+        fr: ü
+      potencia_electrica:
+        es: 3,9 KW 230/1V
+        en: 3,9 KW 230/1V
+        fr: 3,9 KW 230/1V
+  - codi: '41116017'
+    ordre: 20
+    valors:
+      gastronorm:
+        es: 6 - 1/1 - 65
+        en: 6 - 1/1 - 65
+        fr: 6 - 1/1 - 65
+      motor:
+        es: '1'
+        en: '1'
+        fr: '1'
+      rotacio:
+        es: ü
+        en: ü
+        fr: ü
+      potencia_electrica:
+        es: 5,7 KW 400/3V - 230/1V
+        en: 5,7 KW 400/3V - 230/1V
+        fr: 5,7 KW 400/3V - 230/1V
+  - codi: '41216017'
+    ordre: 30
+    valors:
+      gastronorm:
+        es: 10 - 1/1 - 65
+        en: 10 - 1/1 - 65
+        fr: 10 - 1/1 - 65
+      motor:
+        es: '2'
+        en: '2'
+        fr: '2'
+      rotacio:
+        es: ü
+        en: ü
+        fr: ü
+      potencia_electrica:
+        es: 10,3 KW 400/3V
+        en: 10,3 KW 400/3V
+        fr: 10,3 KW 400/3V
+  compartits: []
+- clau: HORNOS ESTÁTICOS A GAS
+  noms:
+    es: HORNOS ESTÁTICOS A GAS
+    en: STATIC GAS OVENS
+    fr: FOURS À GAZ STATIQUES
+  sequence: 190
+  tipus: producte
+  pagina: p40
+  taula: p40-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 2901006H
+    ordre: 10
+    valors:
+      dimensions_parrilla:
+        es: GN 1/1 530 x 325
+        en: GN 1/1 530 x 325
+        fr: GN 1/1 530 x 325
+      potencia_gas:
+        es: 4 KW
+        en: 4 KW
+        fr: 4 KW
+  - codi: 2903009H
+    ordre: 20
+    valors:
+      dimensions_parrilla:
+        es: GN 2/1 530 x 650
+        en: GN 2/1 530 x 650
+        fr: GN 2/1 530 x 650
+      potencia_gas:
+        es: 5 KW
+        en: 5 KW
+        fr: 5 KW
+  - codi: '29200312'
+    ordre: 30
+    valors:
+      dimensions_parrilla:
+        es: 730 x 750
+        en: 730 x 750
+        fr: 730 x 750
+      potencia_gas:
+        es: 9,3 KW
+        en: 9,3 KW
+        fr: 9,3 KW
+  compartits: []
+- clau: HORNOS PIZZA DE 1 CÁMARA A GAS
+  noms:
+    es: HORNOS PIZZA DE 1 CÁMARA A GAS
+    en: 1 CHAMBER GAS PIZZA OVENS
+    fr: FOURS À PIZZA À GAZ 1 CHAMBRE
+  sequence: 200
+  tipus: producte
+  pagina: p41
+  taula: p41-t3
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: nivells_i_separacio
+    etiqueta: null
+  - codi: euronorm
+    etiqueta: null
+  - codi: mesures_interiors
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 514GR122
+    ordre: 10
+    valors:
+      nivells_i_separacio:
+        es: 4 - 300
+        en: 4 - 300
+        fr: 4 - 300
+      euronorm:
+        es: '1'
+        en: '1'
+        fr: '1'
+      mesures_interiors:
+        es: 620 x 620 x 160
+        en: 620 x 620 x 160
+        fr: 620 x 620 x 160
+      potencia_gas:
+        es: 13,2 KW
+        en: 13,2 KW
+        fr: 13,2 KW
+  - codi: 516GR122
+    ordre: 20
+    valors:
+      nivells_i_separacio:
+        es: 6 - 300
+        en: 6 - 300
+        fr: 6 - 300
+      euronorm:
+        es: '2'
+        en: '2'
+        fr: '2'
+      mesures_interiors:
+        es: 620 x 920 x 160
+        en: 620 x 920 x 160
+        fr: 620 x 920 x 160
+      potencia_gas:
+        es: 21 KW
+        en: 21 KW
+        fr: 21 KW
+  - codi: 519GR122
+    ordre: 30
+    valors:
+      nivells_i_separacio:
+        es: 9 - 300
+        en: 9 - 300
+        fr: 9 - 300
+      euronorm:
+        es: '2'
+        en: '2'
+        fr: '2'
+      mesures_interiors:
+        es: 920 x 920 x 160
+        en: 920 x 920 x 160
+        fr: 920 x 920 x 160
+      potencia_gas:
+        es: 27 KW
+        en: 27 KW
+        fr: 27 KW
+  compartits: []
+- clau: HORNOS PIZZA DE 1 CÁMARA ELÉCTRICOS
+  noms:
+    es: HORNOS PIZZA DE 1 CÁMARA ELÉCTRICOS
+    en: 1 CHAMBER ELECTRIC PIZZA OVENS
+    fr: FOURS À PIZZA ÉLECTRIQUES 1 CHAMBRE
+  sequence: 210
+  tipus: producte
+  pagina: p42
+  taula: p42-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: nivells_i_separacio
+    etiqueta: null
+  - codi: euronorm
+    etiqueta: null
+  - codi: mesures_interiors
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 51G10012
+    ordre: 10
+    valors:
+      nivells_i_separacio:
+        es: 1 - 360
+        en: 1 - 360
+        fr: 1 - 360
+      euronorm:
+        es: '-'
+        en: '-'
+        fr: '-'
+      mesures_interiors:
+        es: 410 x 360 x 110
+        en: 410 x 360 x 110
+        fr: 410 x 360 x 110
+      potencia_electrica:
+        es: 1,6 KW 230/1V
+        en: 1,6 KW 230/1V
+        fr: 1,6 KW 230/1V
+  - codi: '51100121'
+    ordre: 20
+    valors:
+      nivells_i_separacio:
+        es: 2 - 360
+        en: 2 - 360
+        fr: 2 - 360
+      euronorm:
+        es: '1'
+        en: '1'
+        fr: '1'
+      mesures_interiors:
+        es: 610 x 520 x 110
+        en: 610 x 520 x 110
+        fr: 610 x 520 x 110
+      potencia_electrica:
+        es: 3,2 KW 230/1V
+        en: 3,2 KW 230/1V
+        fr: 3,2 KW 230/1V
+  - codi: 51B40012
+    ordre: 30
+    valors:
+      nivells_i_separacio:
+        es: 4 - 360
+        en: 4 - 360
+        fr: 4 - 360
+      euronorm:
+        es: '1'
+        en: '1'
+        fr: '1'
+      mesures_interiors:
+        es: 720 x 720 x 140
+        en: 720 x 720 x 140
+        fr: 720 x 720 x 140
+      potencia_electrica:
+        es: 6 KW 230/1 - 400/3V
+        en: 6 KW 230/1 - 400/3V
+        fr: 6 KW 230/1 - 400/3V
+  - codi: 51B60012
+    ordre: 40
+    valors:
+      nivells_i_separacio:
+        es: 6 - 360
+        en: 6 - 360
+        fr: 6 - 360
+      euronorm:
+        es: '2'
+        en: '2'
+        fr: '2'
+      mesures_interiors:
+        es: 720 x 1080 x 140
+        en: 720 x 1080 x 140
+        fr: 720 x 1080 x 140
+      potencia_electrica:
+        es: 9 KW 400/3V
+        en: 9 KW 400/3V
+        fr: 9 KW 400/3V
+  - codi: 51LB6001
+    ordre: 50
+    valors:
+      nivells_i_separacio:
+        es: 6 - 360
+        en: 6 - 360
+        fr: 6 - 360
+      euronorm:
+        es: '2'
+        en: '2'
+        fr: '2'
+      mesures_interiors:
+        es: 1080 x 720 x 140
+        en: 1080 x 720 x 140
+        fr: 1080 x 720 x 140
+      potencia_electrica:
+        es: 9,2 KW 400/3V
+        en: 9,2 KW 400/3V
+        fr: 9,2 KW 400/3V
+  - codi: 51B90012
+    ordre: 60
+    valors:
+      nivells_i_separacio:
+        es: 9 - 360
+        en: 9 - 360
+        fr: 9 - 360
+      euronorm:
+        es: '4'
+        en: '4'
+        fr: '4'
+      mesures_interiors:
+        es: 1080 x 1080 x 140
+        en: 1080 x 1080 x 140
+        fr: 1080 x 1080 x 140
+      potencia_electrica:
+        es: 13,8 KW 400/3V
+        en: 13,8 KW 400/3V
+        fr: 13,8 KW 400/3V
+  compartits: []
+- clau: HORNOS PIZZA DE 2 CÁMARAS ELÉCTRICOS
+  noms:
+    es: HORNOS PIZZA DE 2 CÁMARAS ELÉCTRICOS
+    en: 2 CHAMBERS ELECTRIC PIZZA OVENS
+    fr: FOURS À PIZZA ÉLECTRIQUES 2 CHAMBRES
+  sequence: 220
+  tipus: producte
+  pagina: p43
+  taula: p43-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: nivells_i_separacio
+    etiqueta: null
+  - codi: euronorm
+    etiqueta: null
+  - codi: mesures_interiors
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 51G20012
+    ordre: 10
+    valors:
+      nivells_i_separacio:
+        es: 2 - 360
+        en: 2 - 360
+        fr: 2 - 360
+      euronorm:
+        es: '-'
+        en: '-'
+        fr: '-'
+      mesures_interiors:
+        es: 410 x 360 x 110
+        en: 410 x 360 x 110
+        fr: 410 x 360 x 110
+      potencia_electrica:
+        es: 3,2 KW 230/1V
+        en: 3,2 KW 230/1V
+        fr: 3,2 KW 230/1V
+  - codi: '51200121'
+    ordre: 20
+    valors:
+      nivells_i_separacio:
+        es: 4 - 360
+        en: 4 - 360
+        fr: 4 - 360
+      euronorm:
+        es: '2'
+        en: '2'
+        fr: '2'
+      mesures_interiors:
+        es: 610 x 520 x 110
+        en: 610 x 520 x 110
+        fr: 610 x 520 x 110
+      potencia_electrica:
+        es: 4,8 KW 230/1V - 400/3V
+        en: 4,8 KW 230/1V - 400/3V
+        fr: 4,8 KW 230/1V - 400/3V
+  - codi: 51B44012
+    ordre: 30
+    valors:
+      nivells_i_separacio:
+        es: 8 - 360
+        en: 8 - 360
+        fr: 8 - 360
+      euronorm:
+        es: '2'
+        en: '2'
+        fr: '2'
+      mesures_interiors:
+        es: 720 x 720 x 140
+        en: 720 x 720 x 140
+        fr: 720 x 720 x 140
+      potencia_electrica:
+        es: 12 KW 230/1 - 400/3V
+        en: 12 KW 230/1 - 400/3V
+        fr: 12 KW 230/1 - 400/3V
+  - codi: 51B66012
+    ordre: 40
+    valors:
+      nivells_i_separacio:
+        es: 12 - 360
+        en: 12 - 360
+        fr: 12 - 360
+      euronorm:
+        es: '4'
+        en: '4'
+        fr: '4'
+      mesures_interiors:
+        es: 720 x 1080 x 140
+        en: 720 x 1080 x 140
+        fr: 720 x 1080 x 140
+      potencia_electrica:
+        es: 18 KW 400/3V
+        en: 18 KW 400/3V
+        fr: 18 KW 400/3V
+  - codi: 51LB6601
+    ordre: 50
+    valors:
+      nivells_i_separacio:
+        es: 12 - 360
+        en: 12 - 360
+        fr: 12 - 360
+      euronorm:
+        es: '4'
+        en: '4'
+        fr: '4'
+      mesures_interiors:
+        es: 1080 x 720 x 140
+        en: 1080 x 720 x 140
+        fr: 1080 x 720 x 140
+      potencia_electrica:
+        es: 18,4 KW 400/3V
+        en: 18,4 KW 400/3V
+        fr: 18,4 KW 400/3V
+  - codi: 51B99012
+    ordre: 60
+    valors:
+      nivells_i_separacio:
+        es: 18 - 360
+        en: 18 - 360
+        fr: 18 - 360
+      euronorm:
+        es: '8'
+        en: '8'
+        fr: '8'
+      mesures_interiors:
+        es: 1080 x 1080 x 140
+        en: 1080 x 1080 x 140
+        fr: 1080 x 1080 x 140
+      potencia_electrica:
+        es: 27,6 KW 400/3V
+        en: 27,6 KW 400/3V
+        fr: 27,6 KW 400/3V
+  compartits: []
+- clau: HORNOS DE BRASA, COLOR NEGRO O DE ACERO INOXIDABLE Y MESAS CARBONERAS
+  noms:
+    es: HORNOS DE BRASA, COLOR NEGRO O DE ACERO INOXIDABLE Y MESAS CARBONERAS
+    en: CHARCOAL OVENS, BLACK OR STAINLESS STEEL AND COAL TABLES
+    fr: FOURS À CHARBON DE BOIS, COULEUR NOIRE OU EN ACIER INOXYDABLE ET TABLES CHARBONNIÈRES
+  sequence: 230
+  tipus: producte
+  pagina: p48
+  taula: p48-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta: null
+  - codi: persones
+    etiqueta: null
+  - codi: temps
+    etiqueta: null
+  - codi: diametre_conducte
+    etiqueta: null
+  - codi: brasa
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '52101054'
+    ordre: 10
+    valors:
+      dimensions_parrilla:
+        es: 585x465
+        en: 585x465
+        fr: 585x465
+      persones:
+        es: '90'
+        en: '90'
+        fr: '90'
+      temps:
+        es: '60'
+        en: '60'
+        fr: '60'
+      diametre_conducte:
+        es: '180'
+        en: '180'
+        fr: '180'
+      brasa:
+        es: 3 KW
+        en: 3 KW
+        fr: 3 KW
+  - codi: '52101094'
+    ordre: 20
+    valors:
+      dimensions_parrilla:
+        es: 685x535
+        en: 685x535
+        fr: 685x535
+      persones:
+        es: '115'
+        en: '115'
+        fr: '115'
+      temps:
+        es: '75'
+        en: '75'
+        fr: '75'
+      diametre_conducte:
+        es: '180'
+        en: '180'
+        fr: '180'
+      brasa:
+        es: 4,5 KW
+        en: 4,5 KW
+        fr: 4,5 KW
+  - codi: '52101005'
+    ordre: 30
+    valors:
+      dimensions_parrilla:
+        es: 780x625
+        en: 780x625
+        fr: 780x625
+      persones:
+        es: '130'
+        en: '130'
+        fr: '130'
+      temps:
+        es: '110'
+        en: '110'
+        fr: '110'
+      diametre_conducte:
+        es: '180'
+        en: '180'
+        fr: '180'
+      brasa:
+        es: 6 KW
+        en: 6 KW
+        fr: 6 KW
+  - codi: '52201054'
+    ordre: 40
+    valors:
+      dimensions_parrilla:
+        es: 585x465
+        en: 585x465
+        fr: 585x465
+      persones:
+        es: '90'
+        en: '90'
+        fr: '90'
+      temps:
+        es: '60'
+        en: '60'
+        fr: '60'
+      diametre_conducte:
+        es: '180'
+        en: '180'
+        fr: '180'
+      brasa:
+        es: 3 KW
+        en: 3 KW
+        fr: 3 KW
+  - codi: '52201094'
+    ordre: 50
+    valors:
+      dimensions_parrilla:
+        es: 685x535
+        en: 685x535
+        fr: 685x535
+      persones:
+        es: '115'
+        en: '115'
+        fr: '115'
+      temps:
+        es: '75'
+        en: '75'
+        fr: '75'
+      diametre_conducte:
+        es: '180'
+        en: '180'
+        fr: '180'
+      brasa:
+        es: 4,5 KW
+        en: 4,5 KW
+        fr: 4,5 KW
+  - codi: '52201005'
+    ordre: 60
+    valors:
+      dimensions_parrilla:
+        es: 780x625
+        en: 780x625
+        fr: 780x625
+      persones:
+        es: '130'
+        en: '130'
+        fr: '130'
+      temps:
+        es: '110'
+        en: '110'
+        fr: '110'
+      diametre_conducte:
+        es: '180'
+        en: '180'
+        fr: '180'
+      brasa:
+        es: 6 KW
+        en: 6 KW
+        fr: 6 KW
+  - codi: '52542077'
+    ordre: 70
+    valors: {}
+  - codi: '52942077'
+    ordre: 80
+    valors: {}
+  - codi: '52452077'
+    ordre: 90
+    valors: {}
+  compartits: []
+- clau: HORNOS DE BRASA CON PUERTA DE CRISTAL ELEVABLE, Y MESAS CARBONERAS
+  noms:
+    es: HORNOS DE BRASA CON PUERTA DE CRISTAL ELEVABLE, Y MESAS CARBONERAS
+    en: CHARCOAL OVENS WITH ELEVABLE GLASS DOOR AND COAL TABLES
+    fr: FOURS À CHARBON DE BOIS AVEC PORTE VITRÉE SURÉLEVÉE ET TABLES CHARBONNIÈRES
+  sequence: 240
+  tipus: producte
+  pagina: p49
+  taula: p49-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '52401054'
+    ordre: 10
+    valors: {}
+  - codi: '52401005'
+    ordre: 30
+    valors: {}
+  compartits: []
+- clau: HORNOS DE BRASA CON PUERTA DE CRISTAL ELEVABLE, Y MESAS CARBONERAS 2
+  noms:
+    es: HORNOS DE BRASA CON PUERTA DE CRISTAL ELEVABLE, Y MESAS CARBONERAS 2
+    en: CHARCOAL OVENS WITH ELEVABLE GLASS DOOR AND COAL TABLES 2
+    fr: FOURS À CHARBON DE BOIS AVEC PORTE VITRÉE SURÉLEVÉE ET TABLES CHARBONNIÈRES 2
+  sequence: 250
+  tipus: producte
+  pagina: p49
+  taula: p49-t3
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta: null
+  - codi: persones
+    etiqueta: null
+  - codi: temps
+    etiqueta: null
+  - codi: diametre_conducte
+    etiqueta: null
+  - codi: brasa
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '52401094'
+    ordre: 20
+    valors:
+      dimensions_parrilla:
+        es: 685x535
+        en: 685x535
+        fr: 685x535
+      persones:
+        es: '115'
+        en: '115'
+        fr: '115'
+      temps:
+        es: '75'
+        en: '75'
+        fr: '75'
+      diametre_conducte:
+        es: '180'
+        en: '180'
+        fr: '180'
+      brasa:
+        es: 4,5 KW
+        en: 4,5 KW
+        fr: 4,5 KW
+  - codi: '52401021'
+    ordre: 40
+    valors:
+      dimensions_parrilla:
+        es: 1060x625
+        en: 1060x625
+        fr: 1060x625
+      persones:
+        es: '175'
+        en: '175'
+        fr: '175'
+      temps:
+        es: '150'
+        en: '150'
+        fr: '150'
+      diametre_conducte:
+        es: '210'
+        en: '210'
+        fr: '210'
+      brasa:
+        es: 8 KW
+        en: 8 KW
+        fr: 8 KW
+  - codi: '52022077'
+    ordre: 70
+    valors: {}
+  compartits:
+  - codi: '52401054'
+    ordre: 10
+    valors:
+      dimensions_parrilla:
+        es: 585x465
+        en: 585x465
+        fr: 585x465
+      persones:
+        es: '90'
+        en: '90'
+        fr: '90'
+      temps:
+        es: '60'
+        en: '60'
+        fr: '60'
+      diametre_conducte:
+        es: '180'
+        en: '180'
+        fr: '180'
+      brasa:
+        es: 3 KW
+        en: 3 KW
+        fr: 3 KW
+    propietari: HORNOS DE BRASA CON PUERTA DE CRISTAL ELEVABLE, Y MESAS CARBONERAS
+  - codi: '52401005'
+    ordre: 30
+    valors:
+      dimensions_parrilla:
+        es: 780x625
+        en: 780x625
+        fr: 780x625
+      persones:
+        es: '130'
+        en: '130'
+        fr: '130'
+      temps:
+        es: '110'
+        en: '110'
+        fr: '110'
+      diametre_conducte:
+        es: '180'
+        en: '180'
+        fr: '180'
+      brasa:
+        es: 6 KW
+        en: 6 KW
+        fr: 6 KW
+    propietari: HORNOS DE BRASA CON PUERTA DE CRISTAL ELEVABLE, Y MESAS CARBONERAS
+  - codi: '52542077'
+    ordre: 50
+    valors: {}
+    propietari: HORNOS DE BRASA, COLOR NEGRO O DE ACERO INOXIDABLE Y MESAS CARBONERAS
+  - codi: '52942077'
+    ordre: 60
+    valors: {}
+    propietari: HORNOS DE BRASA, COLOR NEGRO O DE ACERO INOXIDABLE Y MESAS CARBONERAS
+  - codi: '52452077'
+    ordre: 80
+    valors: {}
+    propietari: HORNOS DE BRASA, COLOR NEGRO O DE ACERO INOXIDABLE Y MESAS CARBONERAS
+- clau: KIT PARA INSTALACIÓN RECOMENDADO
+  noms:
+    es: KIT PARA INSTALACIÓN RECOMENDADO
+    en: RECOMMENDED INSTALLATION KIT
+    fr: KIT D’INSTALLATION RECOMMANDÉ
+  sequence: 260
+  tipus: accessoris
+  pagina: p50
+  taula: p50-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: serie
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '42217202'
+    ordre: 10
+    valors:
+      serie:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: '42948202'
+    ordre: 20
+    valors:
+      serie:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: '41217202'
+    ordre: 30
+    valors:
+      serie:
+        es: MINI
+        en: MINI
+        fr: MINI
+  - codi: '40217202'
+    ordre: 40
+    valors:
+      serie:
+        es: '8'
+        en: '8'
+        fr: '8'
+  compartits: []
+- clau: SONDA AL CORAZÓN
+  noms:
+    es: SONDA AL CORAZÓN
+    en: PROBE TO THE HEART
+    fr: SONDE AU COEUR
+  sequence: 270
+  tipus: accessoris
+  pagina: p50
+  taula: p50-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: serie
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '44210006'
+    ordre: 10
+    valors:
+      serie:
+        es: 5 - MINI - 8
+        en: 5 - MINI - 8
+        fr: 5 - MINI - 8
+  compartits: []
+- clau: DUCHA DE LAVADO
+  noms:
+    es: DUCHA DE LAVADO
+    en: WASH SHOWER
+    fr: DOUCHE
+  sequence: 280
+  tipus: accessoris
+  pagina: p50
+  taula: p50-t3
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: serie
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '43000807'
+    ordre: 10
+    valors:
+      serie:
+        es: 2 - 5 - MINI
+        en: 2 - 5 - MINI
+        fr: 2 - 5 - MINI
+  compartits: []
+- clau: DUCHA DE LAVADO RETRÁCTIL
+  noms:
+    es: DUCHA DE LAVADO RETRÁCTIL
+    en: RETACTABLE WASH SHOWER
+    fr: DOUCHE RÉTRACTABLE
+  sequence: 290
+  tipus: accessoris
+  pagina: p50
+  taula: p50-t4
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: serie
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '42500807'
+    ordre: 10
+    valors:
+      serie:
+        es: '8'
+        en: '8'
+        fr: '8'
+  compartits: []
+- clau: DETERGENTE DESENGRASANTE PARA HORNOS CON LAVADO AUTOMÁTICO
+  noms:
+    es: DETERGENTE DESENGRASANTE PARA HORNOS CON LAVADO AUTOMÁTICO
+    en: DEGREASING DETERGENT FOR OVEN WITH AUTOMATIC WASHING
+    fr: DEGRAISSANT DEGRAISSEUR POUR FOUR A LAVAGE AUTOMATIQUE
+  sequence: 300
+  tipus: accessoris
+  pagina: p50
+  taula: p50-t5
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '41350807'
+    ordre: 10
+    valors:
+      capacitat_litres:
+        es: 4 X 5 = 20 LTS.
+        en: 4 X 5 = 20 LTS.
+        fr: 4 X 5 = 20 LTS.
+  compartits: []
+- clau: RACK PASTELERÍA (PAREJA)
+  noms:
+    es: RACK PASTELERÍA (PAREJA)
+    en: PASTRY RACK (PAIR)
+    fr: RACK PÂTISSERIE (PAIRE)
+  sequence: 310
+  tipus: accessoris
+  pagina: p50
+  taula: p50-t6
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: serie
+    etiqueta: null
+  - codi: forn_estatic
+    etiqueta: null
+  - codi: nivells
+    etiqueta: null
+  - codi: mesures_text
+    etiqueta: null
+  - codi: alcada
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '46534202'
+    ordre: 10
+    valors:
+      serie:
+        es: 2 - 5
+        en: 2 - 5
+        fr: 2 - 5
+      forn_estatic:
+        es: '5'
+        en: '5'
+        fr: '5'
+      nivells:
+        es: '4'
+        en: '4'
+        fr: '4'
+      mesures_text:
+        es: EN 600x400
+        en: EN 600x400
+        fr: EN 600x400
+      alcada:
+        es: '90'
+        en: '90'
+        fr: '90'
+  - codi: '40800202'
+    ordre: 20
+    valors:
+      serie:
+        es: 2 - 5
+        en: 2 - 5
+        fr: 2 - 5
+      forn_estatic:
+        es: '10'
+        en: '10'
+        fr: '10'
+      nivells:
+        es: '8'
+        en: '8'
+        fr: '8'
+      mesures_text:
+        es: EN 600x400
+        en: EN 600x400
+        fr: EN 600x400
+      alcada:
+        es: '96'
+        en: '96'
+        fr: '96'
+  - codi: '41215202'
+    ordre: 30
+    valors:
+      serie:
+        es: '8'
+        en: '8'
+        fr: '8'
+      forn_estatic:
+        es: '6'
+        en: '6'
+        fr: '6'
+      nivells:
+        es: '5'
+        en: '5'
+        fr: '5'
+      mesures_text:
+        es: EN 600x400
+        en: EN 600x400
+        fr: EN 600x400
+      alcada:
+        es: '80'
+        en: '80'
+        fr: '80'
+  - codi: '42215202'
+    ordre: 40
+    valors:
+      serie:
+        es: '8'
+        en: '8'
+        fr: '8'
+      forn_estatic:
+        es: '10'
+        en: '10'
+        fr: '10'
+      nivells:
+        es: '8'
+        en: '8'
+        fr: '8'
+      mesures_text:
+        es: EN 600x400
+        en: EN 600x400
+        fr: EN 600x400
+      alcada:
+        es: '100'
+        en: '100'
+        fr: '100'
+  compartits: []
+- clau: BANDEJA LISA DE ALUMINIO
+  noms:
+    es: BANDEJA LISA DE ALUMINIO
+    en: SMOOTH ALUMINIUM TRAY
+    fr: PLATEAU EN ALUMINIUM LISSE
+  sequence: 320
+  tipus: accessoris
+  pagina: p51
+  taula: p51-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A01H018
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 430 x 340
+        en: 430 x 340
+        fr: 430 x 340
+  - codi: P1230600
+    ordre: 20
+    valors:
+      mesures_text:
+        es: EN - 600 x 400
+        en: EN - 600 x 400
+        fr: EN - 600 x 400
+  compartits: []
+- clau: BANDEJA PERFORADA DE ALUMINIO
+  noms:
+    es: BANDEJA PERFORADA DE ALUMINIO
+    en: ALUMINIUM PERFORATED TRAY
+    fr: PLATEAU PERFORÉ EN ALUMINIUM
+  sequence: 330
+  tipus: accessoris
+  pagina: p51
+  taula: p51-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A90H018
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 340 x 240
+        en: 340 x 240
+        fr: 340 x 240
+  - codi: 4A10H018
+    ordre: 20
+    valors:
+      mesures_text:
+        es: 430 x 340
+        en: 430 x 340
+        fr: 430 x 340
+  - codi: PI231600
+    ordre: 30
+    valors:
+      mesures_text:
+        es: EN - 600 x 400
+        en: EN - 600 x 400
+        fr: EN - 600 x 400
+  compartits: []
+- clau: BANDEJA LISA INOXIDABLE
+  noms:
+    es: BANDEJA LISA INOXIDABLE
+    en: SMOOTH STAINLESS TRAY
+    fr: PLATEAU LISSE EN ACIER INOXYDABLE
+  sequence: 340
+  tipus: accessoris
+  pagina: p51
+  taula: p51-t3
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A21H068
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 340 x 240
+        en: 340 x 240
+        fr: 340 x 240
+  - codi: 4A70H068
+    ordre: 20
+    valors:
+      mesures_text:
+        es: 430 x 340
+        en: 430 x 340
+        fr: 430 x 340
+  - codi: 3770INOX
+    ordre: 30
+    valors:
+      mesures_text:
+        es: EN - 600 x 400
+        en: EN - 600 x 400
+        fr: EN - 600 x 400
+  compartits: []
+- clau: REJILLAS
+  noms:
+    es: REJILLAS
+    en: TRAYS
+    fr: GRILLES
+  sequence: 350
+  tipus: accessoris
+  pagina: p51
+  taula: p51-t4
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: material
+    etiqueta: null
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A30H028
+    ordre: 10
+    valors:
+      material:
+        es: CR
+        en: CR
+        fr: CR
+      mesures_text:
+        es: 430 x 340
+        en: 430 x 340
+        fr: 430 x 340
+  - codi: '31940000'
+    ordre: 20
+    valors:
+      material:
+        es: INOX
+        en: INOX
+        fr: INOX
+      mesures_text:
+        es: GN 2/3 - 352 x 325
+        en: GN 2/3 - 352 x 325
+        fr: GN 2/3 - 352 x 325
+  - codi: '37711000'
+    ordre: 40
+    valors:
+      material:
+        es: INOX
+        en: INOX
+        fr: INOX
+      mesures_text:
+        es: EN - 600 x 400
+        en: EN - 600 x 400
+        fr: EN - 600 x 400
+  compartits:
+  - codi: '31950000'
+    ordre: 30
+    valors:
+      material:
+        es: INOX
+        en: INOX
+        fr: INOX
+      mesures_text:
+        es: GN 1/1 - 530 x 325
+        en: GN 1/1 - 530 x 325
+        fr: GN 1/1 - 530 x 325
+    propietari: G04
+  - codi: '31960000'
+    ordre: 50
+    valors:
+      material:
+        es: INOX
+        en: INOX
+        fr: INOX
+      mesures_text:
+        es: GN 2/1 - 530 x 650
+        en: GN 2/1 - 530 x 650
+        fr: GN 2/1 - 530 x 650
+    propietari: G04
+- clau: BANDEJA “BAGUETTE”
+  noms:
+    es: BANDEJA “BAGUETTE”
+    en: PANS “BAGUETTE”
+    fr: BOÎTES “BAGUETTE”
+  sequence: 360
+  tipus: accessoris
+  pagina: p51
+  taula: p51-t5
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: unitats
+    etiqueta: null
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '21031320'
+    ordre: 10
+    valors:
+      unitats:
+        es: '5'
+        en: '5'
+        fr: '5'
+      mesures_text:
+        es: EN - 600 x 400
+        en: EN - 600 x 400
+        fr: EN - 600 x 400
+  compartits: []
+- clau: REJILLA PARA PLATOS
+  noms:
+    es: REJILLA PARA PLATOS
+    en: PLATE TRAY
+    fr: GRILLE POUR PLATEAUX
+  sequence: 370
+  tipus: accessoris
+  pagina: p51
+  taula: p51-t6
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '41182000'
+    ordre: 10
+    valors:
+      mesures_text:
+        es: GN 2/1 - 530 x 650
+        en: GN 2/1 - 530 x 650
+        fr: GN 2/1 - 530 x 650
+  compartits: []
+- clau: CUBETAS GASTRONORM INOX 18/10 AISI 304
+  noms:
+    es: CUBETAS GASTRONORM INOX 18/10 AISI 304
+    en: GASTRONORM PANS STAINLESS STEEL 18/10 AISI 304
+    fr: RÉCIPIENTS GASTRONORM EN ACIER INOXYDABLE 18/10 AISI 304
+  sequence: 380
+  tipus: accessoris
+  pagina: p51
+  taula: p51-t7
+  blocs: 2
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: CP210201
+    ordre: 1020
+    valors:
+      mesures_text:
+        es: '20'
+        en: '20'
+        fr: '20'
+  - codi: CP1204X1
+    ordre: 90
+    valors:
+      mesures_text:
+        es: '40'
+        en: '40'
+        fr: '40'
+  - codi: CP1206X1
+    ordre: 110
+    valors:
+      mesures_text:
+        es: '65'
+        en: '65'
+        fr: '65'
+  - codi: CP230651
+    ordre: 1120
+    valors:
+      mesures_text:
+        es: '65'
+        en: '65'
+        fr: '65'
+  compartits:
+  - codi: CP1102X1
+    ordre: 10
+    valors:
+      mesures_text:
+        es: '20'
+        en: '20'
+        fr: '20'
+    propietari: G07
+  - codi: CP1104X1
+    ordre: 30
+    valors:
+      mesures_text:
+        es: '40'
+        en: '40'
+        fr: '40'
+    propietari: G07
+  - codi: CP210401
+    ordre: 1040
+    valors:
+      mesures_text:
+        es: '40'
+        en: '40'
+        fr: '40'
+    propietari: G07
+  - codi: CP1106X1
+    ordre: 50
+    valors:
+      mesures_text:
+        es: '65'
+        en: '65'
+        fr: '65'
+    propietari: G04
+  - codi: CP210651
+    ordre: 1060
+    valors:
+      mesures_text:
+        es: '65'
+        en: '65'
+        fr: '65'
+    propietari: G04
+  - codi: CP1110X1
+    ordre: 70
+    valors:
+      mesures_text:
+        es: '100'
+        en: '100'
+        fr: '100'
+    propietari: G07
+  - codi: CP211001
+    ordre: 1080
+    valors:
+      mesures_text:
+        es: '100'
+        en: '100'
+        fr: '100'
+    propietari: G07
+  - codi: CP230401
+    ordre: 1100
+    valors:
+      mesures_text:
+        es: '40'
+        en: '40'
+        fr: '40'
+    propietari: G07
+- clau: CUBETAS PERFORADAS INOX 18/10 AISI 304
+  noms:
+    es: CUBETAS PERFORADAS INOX 18/10 AISI 304
+    en: PERFORATED PANS STAINLESS STEEL 18/10 AISI 304
+    fr: CUVES PERFORÉES EN ACIER INOXYDABLE 18/10 AISI 304
+  sequence: 390
+  tipus: accessoris
+  pagina: p51
+  taula: p51-t8
+  blocs: 2
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: CP110402
+    ordre: 10
+    valors:
+      mesures_text:
+        es: '40'
+        en: '40'
+        fr: '40'
+  - codi: CP210402
+    ordre: 1020
+    valors:
+      mesures_text:
+        es: '40'
+        en: '40'
+        fr: '40'
+  - codi: CP110652
+    ordre: 30
+    valors:
+      mesures_text:
+        es: '65'
+        en: '65'
+        fr: '65'
+  - codi: CP210652
+    ordre: 1040
+    valors:
+      mesures_text:
+        es: '65'
+        en: '65'
+        fr: '65'
+  - codi: CP111002
+    ordre: 50
+    valors:
+      mesures_text:
+        es: '100'
+        en: '100'
+        fr: '100'
+  - codi: CP211002
+    ordre: 1060
+    valors:
+      mesures_text:
+        es: '100'
+        en: '100'
+        fr: '100'
+  compartits: []
+- clau: REJILLA 8 POLLOS
+  noms:
+    es: REJILLA 8 POLLOS
+    en: 8 CHIKENS TRAY
+    fr: GRILLE 8 POULETS
+  sequence: 400
+  tipus: accessoris
+  pagina: p52
+  taula: p52-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '41023301'
+    ordre: 10
+    valors:
+      mesures_text:
+        es: GN 1/1 530 x 325
+        en: GN 1/1 530 x 325
+        fr: GN 1/1 530 x 325
+  compartits: []
+- clau: CESTA PARA FREIR
+  noms:
+    es: CESTA PARA FREIR
+    en: FRYING BASKET
+    fr: PANIER À FRIRE
+  sequence: 410
+  tipus: accessoris
+  pagina: p52
+  taula: p52-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A882301
+    ordre: 10
+    valors:
+      mesures_text:
+        es: GN 1/1 530 x 325
+        en: GN 1/1 530 x 325
+        fr: GN 1/1 530 x 325
+  compartits: []
+- clau: CONEXIÓN SALIDA DE HUMOS PARA 2 HORNOS DE PIZZA A GAS
+  noms:
+    es: CONEXIÓN SALIDA DE HUMOS PARA 2 HORNOS DE PIZZA A GAS
+    en: SMOKE OUTLET CONNECTION FOR 2 GAS PIZZA OVENS
+    fr: CONNEXION DE LA SORTIE DE FUMÉE POUR 2 FOURS À PIZZA À GAZ
+  sequence: 420
+  tipus: accessoris
+  pagina: p52
+  taula: p52-t3
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '20100008'
+    ordre: 10
+    valors: {}
+  compartits: []
+- clau: PARRILLA PARA CARNE O PESCADO A LA BRASA
+  noms:
+    es: PARRILLA PARA CARNE O PESCADO A LA BRASA
+    en: GRILL FOR GRILLED MEAT OR FISH
+    fr: GRIL POUR VIANDE OU POISSON GRILLÉ
+  sequence: 430
+  tipus: accessoris
+  pagina: p52
+  taula: p52-t4
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A772301
+    ordre: 10
+    valors:
+      mesures_text:
+        es: GN 1/1 530 x 325
+        en: GN 1/1 530 x 325
+        fr: GN 1/1 530 x 325
+  compartits: []
+- clau: BANDEJA TORTILLAS
+  noms:
+    es: BANDEJA TORTILLAS
+    en: TORTILLA TRAY
+    fr: PLATEAU OMMELETTE
+  sequence: 440
+  tipus: accessoris
+  pagina: p52
+  taula: p52-t5
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A623301
+    ordre: 10
+    valors:
+      mesures_text:
+        es: GN 1/1 530 x 325
+        en: GN 1/1 530 x 325
+        fr: GN 1/1 530 x 325
+  compartits: []
+- clau: KIT CORTALLAMAS INOX
+  noms:
+    es: KIT CORTALLAMAS INOX
+    en: STAINLESS STEEL FLAME CUTTER KIT
+    fr: KIT COUPE FLAME EN ACIER INOXYDABLE
+  sequence: 450
+  tipus: accessoris
+  pagina: p52
+  taula: p52-t6
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: diametre_conducte
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A403050
+    ordre: 10
+    valors:
+      diametre_conducte:
+        es: '180'
+        en: '180'
+        fr: '180'
+  - codi: 4A708000
+    ordre: 20
+    valors:
+      diametre_conducte:
+        es: '210'
+        en: '210'
+        fr: '210'
+  compartits: []
+- clau: ATIZADOR
+  noms:
+    es: ATIZADOR
+    en: ATIZADOR
+    fr: ATTIZER
+  sequence: 460
+  tipus: accessoris
+  pagina: p52
+  taula: p52-t7
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A100059
+    ordre: 10
+    valors:
+      mesures_text:
+        es: '845'
+        en: '845'
+        fr: '845'
+  compartits: []
+- clau: PINZAS INOX
+  noms:
+    es: PINZAS INOX
+    en: STAINLESS STEEL TONGS
+    fr: PINCE EN ACIER INOXYDABLE
+  sequence: 470
+  tipus: accessoris
+  pagina: p52
+  taula: p52-t8
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A500059
+    ordre: 10
+    valors:
+      mesures_text:
+        es: '345'
+        en: '345'
+        fr: '345'
+  compartits: []
+- clau: PALA PARA CARBÓN
+  noms:
+    es: PALA PARA CARBÓN
+    en: COAL SHOVEL
+    fr: PELLE À CHARBON
+  sequence: 480
+  tipus: accessoris
+  pagina: p52
+  taula: p52-t9
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A300509
+    ordre: 10
+    valors: {}
+  compartits: []
+- clau: PARRILLAS DE VARILLA
+  noms:
+    es: PARRILLAS DE VARILLA
+    en: ROD GRILLS
+    fr: GRILLES DE TIGE
+  sequence: 490
+  tipus: accessoris
+  pagina: p53
+  taula: p53-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: barbacoa
+    etiqueta: null
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A540009
+    ordre: 10
+    valors:
+      barbacoa:
+        es: '1'
+        en: '1'
+        fr: '1'
+      mesures_text:
+        es: 585 x 465
+        en: 585 x 465
+        fr: 585 x 465
+  - codi: 4A940009
+    ordre: 20
+    valors:
+      barbacoa:
+        es: '1'
+        en: '1'
+        fr: '1'
+      mesures_text:
+        es: 685 x 535
+        en: 685 x 535
+        fr: 685 x 535
+  - codi: 4A294009
+    ordre: 30
+    valors:
+      barbacoa:
+        es: 1/2
+        en: 1/2
+        fr: 1/2
+      mesures_text:
+        es: 340 x 535
+        en: 340 x 535
+        fr: 340 x 535
+  - codi: 4A250009
+    ordre: 40
+    valors:
+      barbacoa:
+        es: 1/2
+        en: 1/2
+        fr: 1/2
+      mesures_text:
+        es: 385 x 625
+        en: 385 x 625
+        fr: 385 x 625
+  - codi: 4A050009
+    ordre: 50
+    valors:
+      barbacoa:
+        es: '1'
+        en: '1'
+        fr: '1'
+      mesures_text:
+        es: 780 x 625
+        en: 780 x 625
+        fr: 780 x 625
+  - codi: 4A221009
+    ordre: 70
+    valors:
+      barbacoa:
+        es: 1/2
+        en: 1/2
+        fr: 1/2
+      mesures_text:
+        es: 530 x 625
+        en: 530 x 625
+        fr: 530 x 625
+  compartits:
+  - codi: 4A021009
+    ordre: 60
+    valors:
+      barbacoa:
+        es: '1'
+        en: '1'
+        fr: '1'
+      mesures_text:
+        es: 1060 x 625
+        en: 1060 x 625
+        fr: 1060 x 625
+    propietari: G06
+- clau: PARRILLAS ACANALADAS
+  noms:
+    es: PARRILLAS ACANALADAS
+    en: RIBBED GRILLS
+    fr: GRILLES NERVURÉES
+  sequence: 500
+  tipus: accessoris
+  pagina: p53
+  taula: p53-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: barbacoa
+    etiqueta: null
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A540109
+    ordre: 10
+    valors:
+      barbacoa:
+        es: '1'
+        en: '1'
+        fr: '1'
+      mesures_text:
+        es: 585 x 465
+        en: 585 x 465
+        fr: 585 x 465
+  - codi: 4A940109
+    ordre: 20
+    valors:
+      barbacoa:
+        es: '1'
+        en: '1'
+        fr: '1'
+      mesures_text:
+        es: 685 x 535
+        en: 685 x 535
+        fr: 685 x 535
+  - codi: 4A294109
+    ordre: 30
+    valors:
+      barbacoa:
+        es: 1/2
+        en: 1/2
+        fr: 1/2
+      mesures_text:
+        es: 340 x 535
+        en: 340 x 535
+        fr: 340 x 535
+  - codi: 4A250109
+    ordre: 40
+    valors:
+      barbacoa:
+        es: 1/2
+        en: 1/2
+        fr: 1/2
+      mesures_text:
+        es: 385 x 625
+        en: 385 x 625
+        fr: 385 x 625
+  - codi: 4A050109
+    ordre: 50
+    valors:
+      barbacoa:
+        es: '1'
+        en: '1'
+        fr: '1'
+      mesures_text:
+        es: 780 x 625
+        en: 780 x 625
+        fr: 780 x 625
+  - codi: 4A021109
+    ordre: 60
+    valors:
+      barbacoa:
+        es: '1'
+        en: '1'
+        fr: '1'
+      mesures_text:
+        es: 1060 x 625
+        en: 1060 x 625
+        fr: 1060 x 625
+  - codi: 4A221109
+    ordre: 70
+    valors:
+      barbacoa:
+        es: 1/2
+        en: 1/2
+        fr: 1/2
+      mesures_text:
+        es: 530 x 625
+        en: 530 x 625
+        fr: 530 x 625
+  compartits: []
+- clau: SEPARADOR
+  noms:
+    es: SEPARADOR
+    en: SEPARATOR
+    fr: SÉPARATEUR
+  sequence: 510
+  tipus: accessoris
+  pagina: p53
+  taula: p53-t3
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: nivells
+    etiqueta: null
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A940079
+    ordre: 10
+    valors:
+      nivells:
+        es: '4'
+        en: '4'
+        fr: '4'
+      mesures_text:
+        es: '535'
+        en: '535'
+        fr: '535'
+  - codi: 4A050079
+    ordre: 20
+    valors:
+      nivells:
+        es: '4'
+        en: '4'
+        fr: '4'
+      mesures_text:
+        es: '625'
+        en: '625'
+        fr: '625'
+  - codi: 4A021079
+    ordre: 30
+    valors:
+      nivells:
+        es: '4'
+        en: '4'
+        fr: '4'
+      mesures_text:
+        es: '625'
+        en: '625'
+        fr: '625'
+  compartits: []
+- clau: PLANCHAS
+  noms:
+    es: PLANCHAS
+    en: HOT PLATES
+    fr: PLAQUES
+  sequence: 520
+  tipus: accessoris
+  pagina: p53
+  taula: p53-t4
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: placa_lisa
+    etiqueta: null
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A294069
+    ordre: 10
+    valors:
+      placa_lisa:
+        es: 1/2
+        en: 1/2
+        fr: 1/2
+      mesures_text:
+        es: 340 x 535
+        en: 340 x 535
+        fr: 340 x 535
+  - codi: 4A250069
+    ordre: 20
+    valors:
+      placa_lisa:
+        es: 1/2
+        en: 1/2
+        fr: 1/2
+      mesures_text:
+        es: 385 x 625
+        en: 385 x 625
+        fr: 385 x 625
+  - codi: 4A221069
+    ordre: 30
+    valors:
+      placa_lisa:
+        es: 1/2
+        en: 1/2
+        fr: 1/2
+      mesures_text:
+        es: 530 x 625
+        en: 530 x 625
+        fr: 530 x 625
+  compartits: []
+- clau: JAULA PARA PESCADO EN ACERO INOXIDABLE
+  noms:
+    es: JAULA PARA PESCADO EN ACERO INOXIDABLE
+    en: STAINLESS STEEL FISH CAGE
+    fr: CAGE À POISSON EN ACIER INOXYDABLE
+  sequence: 530
+  tipus: accessoris
+  pagina: p53
+  taula: p53-t5
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A010059
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 540 x 180 x 40
+        en: 540 x 180 x 40
+        fr: 540 x 180 x 40
+  compartits: []
+- clau: JAULA PARA PIEZAS PEQUEÑAS EN ACERO INOXIDABLE
+  noms:
+    es: JAULA PARA PIEZAS PEQUEÑAS EN ACERO INOXIDABLE
+    en: CAGE FOR SMALL PARTS IN STAINLESS STEEL
+    fr: CAGE POUR PETITES PIECES EN ACIER INOXYDABLE
+  sequence: 540
+  tipus: accessoris
+  pagina: p53
+  taula: p53-t6
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A520059
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 250 x 210 x 60
+        en: 250 x 210 x 60
+        fr: 250 x 210 x 60
+  - codi: 4A030059
+    ordre: 20
+    valors:
+      mesures_text:
+        es: 300 x 260 x 60
+        en: 300 x 260 x 60
+        fr: 300 x 260 x 60
+  compartits: []
+avisos:
+- '80287017: el PDF publicat imprimeix el codi 80406017 (el .pub i Odoo diuen 80287017); es fa servir 80287017'
+- 'p48-t2 52542077: sense valor per a «dimensions_parrilla»'
+- 'p48-t2 52542077: sense valor per a «persones»'
+- 'p48-t2 52542077: sense valor per a «temps»'
+- 'p48-t2 52542077: sense valor per a «diametre_conducte»'
+- 'p48-t2 52542077: sense valor per a «brasa»'
+- 'p48-t2 52942077: sense valor per a «dimensions_parrilla»'
+- 'p48-t2 52942077: sense valor per a «persones»'
+- 'p48-t2 52942077: sense valor per a «temps»'
+- 'p48-t2 52942077: sense valor per a «diametre_conducte»'
+- 'p48-t2 52942077: sense valor per a «brasa»'
+- 'p48-t2 52452077: sense valor per a «dimensions_parrilla»'
+- 'p48-t2 52452077: sense valor per a «persones»'
+- 'p48-t2 52452077: sense valor per a «temps»'
+- 'p48-t2 52452077: sense valor per a «diametre_conducte»'
+- 'p48-t2 52452077: sense valor per a «brasa»'
+- 'p49-t3 52542077: sense valor per a «dimensions_parrilla»'
+- 'p49-t3 52542077: sense valor per a «persones»'
+- 'p49-t3 52542077: sense valor per a «temps»'
+- 'p49-t3 52542077: sense valor per a «diametre_conducte»'
+- 'p49-t3 52542077: sense valor per a «brasa»'
+- 'p49-t3 52942077: sense valor per a «dimensions_parrilla»'
+- 'p49-t3 52942077: sense valor per a «persones»'
+- 'p49-t3 52942077: sense valor per a «temps»'
+- 'p49-t3 52942077: sense valor per a «diametre_conducte»'
+- 'p49-t3 52942077: sense valor per a «brasa»'
+- 'p49-t3 52022077: sense valor per a «dimensions_parrilla»'
+- 'p49-t3 52022077: sense valor per a «persones»'
+- 'p49-t3 52022077: sense valor per a «temps»'
+- 'p49-t3 52022077: sense valor per a «diametre_conducte»'
+- 'p49-t3 52022077: sense valor per a «brasa»'
+- 'p49-t3 52452077: sense valor per a «dimensions_parrilla»'
+- 'p49-t3 52452077: sense valor per a «persones»'
+- 'p49-t3 52452077: sense valor per a «temps»'
+- 'p49-t3 52452077: sense valor per a «diametre_conducte»'
+- 'p49-t3 52452077: sense valor per a «brasa»'
+- '52401054: ja és a «HORNOS DE BRASA CON PUERTA DE CRISTAL ELEVABLE, Y MESAS CARBONERAS» (mateix grup); a «HORNOS DE BRASA CON PUERTA DE CRISTAL ELEVABLE, Y MESAS CARBONERAS 2» surt com a família extra'
+- '52401005: ja és a «HORNOS DE BRASA CON PUERTA DE CRISTAL ELEVABLE, Y MESAS CARBONERAS» (mateix grup); a «HORNOS DE BRASA CON PUERTA DE CRISTAL ELEVABLE, Y MESAS CARBONERAS 2» surt com a família extra'
+- '52542077: ja és a «HORNOS DE BRASA, COLOR NEGRO O DE ACERO INOXIDABLE Y MESAS CARBONERAS» (mateix grup); a «HORNOS DE BRASA CON PUERTA DE CRISTAL ELEVABLE, Y MESAS CARBONERAS 2» surt com a família extra'
+- '52942077: ja és a «HORNOS DE BRASA, COLOR NEGRO O DE ACERO INOXIDABLE Y MESAS CARBONERAS» (mateix grup); a «HORNOS DE BRASA CON PUERTA DE CRISTAL ELEVABLE, Y MESAS CARBONERAS 2» surt com a família extra'
+- '52452077: ja és a «HORNOS DE BRASA, COLOR NEGRO O DE ACERO INOXIDABLE Y MESAS CARBONERAS» (mateix grup); a «HORNOS DE BRASA CON PUERTA DE CRISTAL ELEVABLE, Y MESAS CARBONERAS 2» surt com a família extra'
+repeticions:
+  ARMARIOS DE FERMENTACIÓN:
+  - codi: '80839169'
+    ordre: 30
+  HORNOS DE BRASA CON PUERTA DE CRISTAL ELEVABLE, Y MESAS CARBONERAS 2:
+  - codi: '52401054'
+    ordre: 10
+  - codi: '52401005'
+    ordre: 30
+  - codi: '52542077'
+    ordre: 50
+  - codi: '52942077'
+    ordre: 60
+  - codi: '52452077'
+    ordre: 80
+  REJILLAS:
+  - codi: '31950000'
+    ordre: 30
+  - codi: '31960000'
+    ordre: 50
+  CUBETAS GASTRONORM INOX 18/10 AISI 304:
+  - codi: CP1102X1
+    ordre: 10
+  - codi: CP1104X1
+    ordre: 30
+  - codi: CP210401
+    ordre: 1040
+  - codi: CP1106X1
+    ordre: 50
+  - codi: CP210651
+    ordre: 1060
+  - codi: CP1110X1
+    ordre: 70
+  - codi: CP211001
+    ordre: 1080
+  - codi: CP230401
+    ordre: 1100
+  PARRILLAS DE VARILLA:
+  - codi: 4A021009
+    ordre: 60
+informe:
+  inexistents:
+  - codi: '80287017'
+    taula: p34-t1
+    pagina: p34
+    titol: ARMARIOS DE FERMENTACIÓN
+    preu_cataleg: '1.940'
+  - codi: '52401097'
+    taula: p49-t1
+    pagina: p49
+    titol: HORNOS DE BRASA CON PUERTA DE CRISTAL ELEVABLE, Y MESAS CARBONERAS
+    preu_cataleg: ''
+  - codi: '52401025'
+    taula: p49-t1
+    pagina: p49
+    titol: HORNOS DE BRASA CON PUERTA DE CRISTAL ELEVABLE, Y MESAS CARBONERAS
+    preu_cataleg: ''
+  descatalogats: []
+  arxivats: []
+  ambigus: []
+  ignorats: []
+  fora_pdf: []
+  columnes_eliminades:
+  - taula: p32-t1
+    clau: col6
+    motiu: fantasma (correccions.yaml)
+  - taula: p34-t1
+    clau: col8
+    motiu: fantasma (correccions.yaml)
+  - taula: p49-t1
+    clau: col1
+    motiu: 'fantasma: sense cap valor'
+  families_buides: []
+  taules_dividides: []

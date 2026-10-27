@@ -1,0 +1,4886 @@
+# Generat per scripts/genera_config.py --grup 5 (editable; es pot regenerar)
+grup:
+  numero: 5
+  codi_odoo: G05
+families:
+- clau: HORNILLOS A GAS
+  noms:
+    es: HORNILLOS A GAS
+    en: GAS BOILING TOPS
+    fr: RÉCHAUD À GAZ
+  sequence: 10
+  tipus: producte
+  pagina: p06
+  taula: p06-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: fogons
+    etiqueta: null
+  - codi: fogons_2
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '34162313'
+    ordre: 10
+    valors:
+      fogons:
+        es: 1 x 10
+        en: 1 x 10
+        fr: 1 x 10
+      fogons_2:
+        es: 1 x 6
+        en: 1 x 6
+        fr: 1 x 6
+      potencia_gas:
+        es: 16 KW
+        en: 16 KW
+        fr: 16 KW
+  - codi: '34362313'
+    ordre: 20
+    valors:
+      fogons:
+        es: 1 x 10
+        en: 1 x 10
+        fr: 1 x 10
+      fogons_2:
+        es: 1 x 11
+        en: 1 x 11
+        fr: 1 x 11
+      potencia_gas:
+        es: 21 KW
+        en: 21 KW
+        fr: 21 KW
+  - codi: '34762313'
+    ordre: 30
+    valors:
+      fogons:
+        es: 2 x 10
+        en: 2 x 10
+        fr: 2 x 10
+      fogons_2:
+        es: 2 x 6
+        en: 2 x 6
+        fr: 2 x 6
+      potencia_gas:
+        es: 32 KW
+        en: 32 KW
+        fr: 32 KW
+  - codi: '34962313'
+    ordre: 40
+    valors:
+      fogons:
+        es: 2 x 10
+        en: 2 x 10
+        fr: 2 x 10
+      fogons_2:
+        es: 2 x 11
+        en: 2 x 11
+        fr: 2 x 11
+      potencia_gas:
+        es: 42 KW
+        en: 42 KW
+        fr: 42 KW
+  - codi: '34082313'
+    ordre: 50
+    valors:
+      fogons:
+        es: 3 x 10
+        en: 3 x 10
+        fr: 3 x 10
+      fogons_2:
+        es: 3 x 6
+        en: 3 x 6
+        fr: 3 x 6
+      potencia_gas:
+        es: 48 KW
+        en: 48 KW
+        fr: 48 KW
+  - codi: '34282313'
+    ordre: 60
+    valors:
+      fogons:
+        es: 4 x 10
+        en: 4 x 10
+        fr: 4 x 10
+      fogons_2:
+        es: 2 x 11
+        en: 2 x 11
+        fr: 2 x 11
+      potencia_gas:
+        es: 62 KW
+        en: 62 KW
+        fr: 62 KW
+  compartits: []
+- clau: COCINAS SOBRE SOPORTE ABIERTO A GAS
+  noms:
+    es: COCINAS SOBRE SOPORTE ABIERTO A GAS
+    en: GAS COOKERS WITH OPEN SUPPORT
+    fr: FOURNEAUX À GAZ SUR SUPPORT OUVERT
+  sequence: 20
+  tipus: producte
+  pagina: p07
+  taula: p07-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: fogons
+    etiqueta: null
+  - codi: fogons_2
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '34462313'
+    ordre: 10
+    valors:
+      fogons:
+        es: 1 x 10
+        en: 1 x 10
+        fr: 1 x 10
+      fogons_2:
+        es: 1 x 6
+        en: 1 x 6
+        fr: 1 x 6
+      potencia_gas:
+        es: 16 KW
+        en: 16 KW
+        fr: 16 KW
+  - codi: '34662313'
+    ordre: 20
+    valors:
+      fogons:
+        es: 1 x 10
+        en: 1 x 10
+        fr: 1 x 10
+      fogons_2:
+        es: 1 x 11
+        en: 1 x 11
+        fr: 1 x 11
+      potencia_gas:
+        es: 21 KW
+        en: 21 KW
+        fr: 21 KW
+  - codi: '34072313'
+    ordre: 30
+    valors:
+      fogons:
+        es: 2 x 10
+        en: 2 x 10
+        fr: 2 x 10
+      fogons_2:
+        es: 2 x 6
+        en: 2 x 6
+        fr: 2 x 6
+      potencia_gas:
+        es: 32 KW
+        en: 32 KW
+        fr: 32 KW
+  - codi: '34272313'
+    ordre: 40
+    valors:
+      fogons:
+        es: 2 x 10
+        en: 2 x 10
+        fr: 2 x 10
+      fogons_2:
+        es: 2 x 11
+        en: 2 x 11
+        fr: 2 x 11
+      potencia_gas:
+        es: 42 KW
+        en: 42 KW
+        fr: 42 KW
+  - codi: '34382313'
+    ordre: 50
+    valors:
+      fogons:
+        es: 3 x 10
+        en: 3 x 10
+        fr: 3 x 10
+      fogons_2:
+        es: 3 x 6
+        en: 3 x 6
+        fr: 3 x 6
+      potencia_gas:
+        es: 48 KW
+        en: 48 KW
+        fr: 48 KW
+  - codi: '34582313'
+    ordre: 60
+    valors:
+      fogons:
+        es: 4 x 10
+        en: 4 x 10
+        fr: 4 x 10
+      fogons_2:
+        es: 2 x 11
+        en: 2 x 11
+        fr: 2 x 11
+      potencia_gas:
+        es: 62 KW
+        en: 62 KW
+        fr: 62 KW
+  compartits: []
+- clau: COCINAS A GAS CON HORNO ESTÁTICO A GAS
+  noms:
+    es: COCINAS A GAS CON HORNO ESTÁTICO A GAS
+    en: GAS COOKERS WITH GAS STATIC OVEN
+    fr: FOURNEAUX À GAZ AVEC FOUR STATIQUE À GAZ
+  sequence: 30
+  tipus: producte
+  pagina: p08
+  taula: p08-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: fogons
+    etiqueta: null
+  - codi: fogons_2
+    etiqueta: null
+  - codi: fogons_3
+    etiqueta: null
+  - codi: forn_estatic
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: grill
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '34372313'
+    ordre: 10
+    valors:
+      fogons:
+        es: 2 x 10
+        en: 2 x 10
+        fr: 2 x 10
+      fogons_2:
+        es: 2 x 6
+        en: 2 x 6
+        fr: 2 x 6
+      fogons_3:
+        es: '-'
+        en: '-'
+        fr: '-'
+      forn_estatic:
+        es: 1 x 7
+        en: 1 x 7
+        fr: 1 x 7
+      gastronorm:
+        es: GN 2/1
+        en: GN 2/1
+        fr: GN 2/1
+      grill:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 39 KW
+        en: 39 KW
+        fr: 39 KW
+  - codi: '34572313'
+    ordre: 20
+    valors:
+      fogons:
+        es: 2 x 10
+        en: 2 x 10
+        fr: 2 x 10
+      fogons_2:
+        es: '-'
+        en: '-'
+        fr: '-'
+      fogons_3:
+        es: 2 x 11
+        en: 2 x 11
+        fr: 2 x 11
+      forn_estatic:
+        es: 1 x 7
+        en: 1 x 7
+        fr: 1 x 7
+      gastronorm:
+        es: GN 2/1
+        en: GN 2/1
+        fr: GN 2/1
+      grill:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 49 KW
+        en: 49 KW
+        fr: 49 KW
+  - codi: '34682313'
+    ordre: 30
+    valors:
+      fogons:
+        es: 3 x 10
+        en: 3 x 10
+        fr: 3 x 10
+      fogons_2:
+        es: 3 x 6
+        en: 3 x 6
+        fr: 3 x 6
+      fogons_3:
+        es: '-'
+        en: '-'
+        fr: '-'
+      forn_estatic:
+        es: 1 x 7
+        en: 1 x 7
+        fr: 1 x 7
+      gastronorm:
+        es: GN 2/1
+        en: GN 2/1
+        fr: GN 2/1
+      grill:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 55 KW
+        en: 55 KW
+        fr: 55 KW
+  - codi: '34782313'
+    ordre: 40
+    valors:
+      fogons:
+        es: 2 x 10
+        en: 2 x 10
+        fr: 2 x 10
+      fogons_2:
+        es: 2 x 6
+        en: 2 x 6
+        fr: 2 x 6
+      fogons_3:
+        es: 2 x 11
+        en: 2 x 11
+        fr: 2 x 11
+      forn_estatic:
+        es: 1 x 7
+        en: 1 x 7
+        fr: 1 x 7
+      gastronorm:
+        es: GN 2/1
+        en: GN 2/1
+        fr: GN 2/1
+      grill:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 61 KW
+        en: 61 KW
+        fr: 61 KW
+  - codi: '34092313'
+    ordre: 50
+    valors:
+      fogons:
+        es: 3 x 10
+        en: 3 x 10
+        fr: 3 x 10
+      fogons_2:
+        es: 3 x 6
+        en: 3 x 6
+        fr: 3 x 6
+      fogons_3:
+        es: '-'
+        en: '-'
+        fr: '-'
+      forn_estatic:
+        es: 1 x 9
+        en: 1 x 9
+        fr: 1 x 9
+      gastronorm:
+        es: CHE
+        en: CHE
+        fr: CHE
+      grill:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 57 KW
+        en: 57 KW
+        fr: 57 KW
+  - codi: '34292313'
+    ordre: 60
+    valors:
+      fogons:
+        es: 4 x 10
+        en: 4 x 10
+        fr: 4 x 10
+      fogons_2:
+        es: '-'
+        en: '-'
+        fr: '-'
+      fogons_3:
+        es: 2 x 11
+        en: 2 x 11
+        fr: 2 x 11
+      forn_estatic:
+        es: 1 x 9
+        en: 1 x 9
+        fr: 1 x 9
+      gastronorm:
+        es: CHE
+        en: CHE
+        fr: CHE
+      grill:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 71 KW
+        en: 71 KW
+        fr: 71 KW
+  - codi: '34392313'
+    ordre: 70
+    valors:
+      fogons:
+        es: 3 x 10
+        en: 3 x 10
+        fr: 3 x 10
+      fogons_2:
+        es: 3 x 6
+        en: 3 x 6
+        fr: 3 x 6
+      fogons_3:
+        es: '-'
+        en: '-'
+        fr: '-'
+      forn_estatic:
+        es: 1 x 7
+        en: 1 x 7
+        fr: 1 x 7
+      gastronorm:
+        es: CHE
+        en: CHE
+        fr: CHE
+      grill:
+        es: 3 KW 230/1V
+        en: 3 KW 230/1V
+        fr: 3 KW 230/1V
+      potencia_gas:
+        es: 55 KW
+        en: 55 KW
+        fr: 55 KW
+  - codi: '34492313'
+    ordre: 80
+    valors:
+      fogons:
+        es: 2 x 10
+        en: 2 x 10
+        fr: 2 x 10
+      fogons_2:
+        es: 2 x 6
+        en: 2 x 6
+        fr: 2 x 6
+      fogons_3:
+        es: 2 x 11
+        en: 2 x 11
+        fr: 2 x 11
+      forn_estatic:
+        es: 1 x 7
+        en: 1 x 7
+        fr: 1 x 7
+      gastronorm:
+        es: CHE
+        en: CHE
+        fr: CHE
+      grill:
+        es: 3 KW 230/1V
+        en: 3 KW 230/1V
+        fr: 3 KW 230/1V
+      potencia_gas:
+        es: 61 KW
+        en: 61 KW
+        fr: 61 KW
+  compartits: []
+- clau: COCINAS A GAS CON HORNO ELÉCTRICO
+  noms:
+    es: COCINAS A GAS CON HORNO ELÉCTRICO
+    en: GAS COOKERS WITH ELECTRIC OVEN
+    fr: FOURNEAUX À GAZ AVEC FOUR ÉLÉCTRIQUE
+  sequence: 40
+  tipus: producte
+  pagina: p09
+  taula: p09-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: fogons
+    etiqueta: null
+  - codi: fogons_2
+    etiqueta: null
+  - codi: fogons_3
+    etiqueta: null
+  - codi: forn_estatic
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '34672313'
+    ordre: 10
+    valors:
+      fogons:
+        es: 2 x 10
+        en: 2 x 10
+        fr: 2 x 10
+      fogons_2:
+        es: 2 x 6
+        en: 2 x 6
+        fr: 2 x 6
+      fogons_3:
+        es: '-'
+        en: '-'
+        fr: '-'
+      forn_estatic:
+        es: 1 x 5,3
+        en: 1 x 5,3
+        fr: 1 x 5,3
+      gastronorm:
+        es: GN 1/1
+        en: GN 1/1
+        fr: GN 1/1
+      potencia_electrica:
+        es: 5,3 KW 400/3V
+        en: 5,3 KW 400/3V
+        fr: 5,3 KW 400/3V
+      potencia_gas:
+        es: 32 KW
+        en: 32 KW
+        fr: 32 KW
+  - codi: '34772313'
+    ordre: 20
+    valors:
+      fogons:
+        es: 2 x 10
+        en: 2 x 10
+        fr: 2 x 10
+      fogons_2:
+        es: 1 x 6
+        en: 1 x 6
+        fr: 1 x 6
+      fogons_3:
+        es: 1 x 11
+        en: 1 x 11
+        fr: 1 x 11
+      forn_estatic:
+        es: 1 x 5,3
+        en: 1 x 5,3
+        fr: 1 x 5,3
+      gastronorm:
+        es: GN 1/1
+        en: GN 1/1
+        fr: GN 1/1
+      potencia_electrica:
+        es: 5,3 KW 400/3V
+        en: 5,3 KW 400/3V
+        fr: 5,3 KW 400/3V
+      potencia_gas:
+        es: 37 KW
+        en: 37 KW
+        fr: 37 KW
+  compartits: []
+- clau: COCINAS A GAS CON HORNO A CONVECCIÓN ELÉCTRICO
+  noms:
+    es: COCINAS A GAS CON HORNO A CONVECCIÓN ELÉCTRICO
+    en: GAS COOKERS WITH ELECTRIC CONVECTION OVEN
+    fr: FOURNEAUX À GAZ AVEC FOUR À CONVECTION ÉLÉCTRIQUE
+  sequence: 50
+  tipus: producte
+  pagina: p10
+  taula: p10-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: fogons
+    etiqueta: null
+  - codi: fogons_2
+    etiqueta: null
+  - codi: fogons_3
+    etiqueta: null
+  - codi: forn_estatic
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '42872313'
+    ordre: 10
+    valors:
+      fogons:
+        es: 2 x 10
+        en: 2 x 10
+        fr: 2 x 10
+      fogons_2:
+        es: 2 x 6
+        en: 2 x 6
+        fr: 2 x 6
+      fogons_3:
+        es: '-'
+        en: '-'
+        fr: '-'
+      forn_estatic:
+        es: 1 x 5
+        en: 1 x 5
+        fr: 1 x 5
+      gastronorm:
+        es: GN 1/1
+        en: GN 1/1
+        fr: GN 1/1
+      potencia_electrica:
+        es: 5 KW 400/3V
+        en: 5 KW 400/3V
+        fr: 5 KW 400/3V
+      potencia_gas:
+        es: 32 KW
+        en: 32 KW
+        fr: 32 KW
+  - codi: '42972313'
+    ordre: 20
+    valors:
+      fogons:
+        es: 2 x 10
+        en: 2 x 10
+        fr: 2 x 10
+      fogons_2:
+        es: 1 x 6
+        en: 1 x 6
+        fr: 1 x 6
+      fogons_3:
+        es: 1 x 11
+        en: 1 x 11
+        fr: 1 x 11
+      forn_estatic:
+        es: 1 x 5
+        en: 1 x 5
+        fr: 1 x 5
+      gastronorm:
+        es: GN 1/1
+        en: GN 1/1
+        fr: GN 1/1
+      potencia_electrica:
+        es: 5 KW 400/3V
+        en: 5 KW 400/3V
+        fr: 5 KW 400/3V
+      potencia_gas:
+        es: 37 KW
+        en: 37 KW
+        fr: 37 KW
+  - codi: '42882313'
+    ordre: 30
+    valors:
+      fogons:
+        es: 3 x 10
+        en: 3 x 10
+        fr: 3 x 10
+      fogons_2:
+        es: 3 x 6
+        en: 3 x 6
+        fr: 3 x 6
+      fogons_3:
+        es: '-'
+        en: '-'
+        fr: '-'
+      forn_estatic:
+        es: 1 x 5
+        en: 1 x 5
+        fr: 1 x 5
+      gastronorm:
+        es: GN 1/1
+        en: GN 1/1
+        fr: GN 1/1
+      potencia_electrica:
+        es: 5 KW 400/3V
+        en: 5 KW 400/3V
+        fr: 5 KW 400/3V
+      potencia_gas:
+        es: 48 KW
+        en: 48 KW
+        fr: 48 KW
+  - codi: '42982313'
+    ordre: 40
+    valors:
+      fogons:
+        es: 2 x 10
+        en: 2 x 10
+        fr: 2 x 10
+      fogons_2:
+        es: 2 x 6
+        en: 2 x 6
+        fr: 2 x 6
+      fogons_3:
+        es: 2 x 11
+        en: 2 x 11
+        fr: 2 x 11
+      forn_estatic:
+        es: 1 x 5
+        en: 1 x 5
+        fr: 1 x 5
+      gastronorm:
+        es: GN 1/1
+        en: GN 1/1
+        fr: GN 1/1
+      potencia_electrica:
+        es: 5 KW 400/3V
+        en: 5 KW 400/3V
+        fr: 5 KW 400/3V
+      potencia_gas:
+        es: 54 KW
+        en: 54 KW
+        fr: 54 KW
+  compartits: []
+- clau: PLACAS RADIANTES A GAS
+  noms:
+    es: PLACAS RADIANTES A GAS
+    en: GAS SOLID
+    fr: PLAQUE COUP DE FEU À GAZ
+  sequence: 60
+  tipus: producte
+  pagina: p11
+  taula: p11-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: placa_quadrada
+    etiqueta: null
+  - codi: forn_estatic
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '48600313'
+    ordre: 10
+    valors:
+      placa_quadrada:
+        es: 1 x 11
+        en: 1 x 11
+        fr: 1 x 11
+      forn_estatic:
+        es: '-'
+        en: '-'
+        fr: '-'
+      gastronorm:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 11 KW
+        en: 11 KW
+        fr: 11 KW
+  - codi: '48910313'
+    ordre: 20
+    valors:
+      placa_quadrada:
+        es: 1 x 11
+        en: 1 x 11
+        fr: 1 x 11
+      forn_estatic:
+        es: '-'
+        en: '-'
+        fr: '-'
+      gastronorm:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 11 KW
+        en: 11 KW
+        fr: 11 KW
+  - codi: '48412313'
+    ordre: 30
+    valors:
+      placa_quadrada:
+        es: 1 x 11
+        en: 1 x 11
+        fr: 1 x 11
+      forn_estatic:
+        es: 1 x 7
+        en: 1 x 7
+        fr: 1 x 7
+      gastronorm:
+        es: GN 2/1
+        en: GN 2/1
+        fr: GN 2/1
+      potencia_gas:
+        es: 18 KW
+        en: 18 KW
+        fr: 18 KW
+  compartits: []
+- clau: HORNILLOS CON PLACAS ELÉCTRICAS Y VITROCERÁMICAS
+  noms:
+    es: HORNILLOS CON PLACAS ELÉCTRICAS Y VITROCERÁMICAS
+    en: ELECTRIC AND GLASS CERAMICS BOILING TOPS
+    fr: RÉCHAUDS ET FOURNEAUX VITROCÉRAMIQUES
+  sequence: 70
+  tipus: producte
+  pagina: p12
+  taula: p12-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: placa_quadrada
+    etiqueta: null
+  - codi: placa_rodona
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '34100613'
+    ordre: 10
+    valors:
+      placa_quadrada:
+        es: 2 x 4
+        en: 2 x 4
+        fr: 2 x 4
+      placa_rodona:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: 8 KW 400/3V
+        en: 8 KW 400/3V
+        fr: 8 KW 400/3V
+  - codi: '34300613'
+    ordre: 20
+    valors:
+      placa_quadrada:
+        es: 4 x 4
+        en: 4 x 4
+        fr: 4 x 4
+      placa_rodona:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: 16 KW 400/3V
+        en: 16 KW 400/3V
+        fr: 16 KW 400/3V
+  - codi: '34500613'
+    ordre: 30
+    valors:
+      placa_quadrada:
+        es: 6 x 4
+        en: 6 x 4
+        fr: 6 x 4
+      placa_rodona:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: 24 KW 400/3V
+        en: 24 KW 400/3V
+        fr: 24 KW 400/3V
+  - codi: '34710613'
+    ordre: 40
+    valors:
+      placa_quadrada:
+        es: '-'
+        en: '-'
+        fr: '-'
+      placa_rodona:
+        es: 2 x 3,4
+        en: 2 x 3,4
+        fr: 2 x 3,4
+      potencia_electrica:
+        es: 6,8 KW 400/3V
+        en: 6,8 KW 400/3V
+        fr: 6,8 KW 400/3V
+  - codi: '34910613'
+    ordre: 50
+    valors:
+      placa_quadrada:
+        es: '-'
+        en: '-'
+        fr: '-'
+      placa_rodona:
+        es: 4 x 3,4
+        en: 4 x 3,4
+        fr: 4 x 3,4
+      potencia_electrica:
+        es: 13,6 KW 400/3V
+        en: 13,6 KW 400/3V
+        fr: 13,6 KW 400/3V
+  compartits: []
+- clau: COCINAS CON PLACAS ELÉCTRICAS Y VITROCERÁMICAS SOBRE SOPORTE ABIERTO
+  noms:
+    es: COCINAS CON PLACAS ELÉCTRICAS Y VITROCERÁMICAS SOBRE SOPORTE ABIERTO
+    en: ELECTRIC AND GLASS CERAMICS COOKERS WITH OPEN SUPPORT
+    fr: FOURNEAUX ÉLÉCTRIQUES ET VITROCÉRAMIQUES SUR SUPPORT OUVERT
+  sequence: 80
+  tipus: producte
+  pagina: p13
+  taula: p13-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: placa_quadrada
+    etiqueta: null
+  - codi: placa_rodona
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '34900613'
+    ordre: 10
+    valors:
+      placa_quadrada:
+        es: 2 x 4
+        en: 2 x 4
+        fr: 2 x 4
+      placa_rodona:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: 8 KW 400/3V
+        en: 8 KW 400/3V
+        fr: 8 KW 400/3V
+  - codi: '34110613'
+    ordre: 20
+    valors:
+      placa_quadrada:
+        es: 4 x 4
+        en: 4 x 4
+        fr: 4 x 4
+      placa_rodona:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: 16 KW 400/3V
+        en: 16 KW 400/3V
+        fr: 16 KW 400/3V
+  - codi: '34310613'
+    ordre: 30
+    valors:
+      placa_quadrada:
+        es: 6 x 4
+        en: 6 x 4
+        fr: 6 x 4
+      placa_rodona:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: 24 KW 400/3V
+        en: 24 KW 400/3V
+        fr: 24 KW 400/3V
+  - codi: '34120613'
+    ordre: 40
+    valors:
+      placa_quadrada:
+        es: '-'
+        en: '-'
+        fr: '-'
+      placa_rodona:
+        es: 2 x 3,4
+        en: 2 x 3,4
+        fr: 2 x 3,4
+      potencia_electrica:
+        es: 6,8 KW 400/3V
+        en: 6,8 KW 400/3V
+        fr: 6,8 KW 400/3V
+  - codi: '34320613'
+    ordre: 50
+    valors:
+      placa_quadrada:
+        es: '-'
+        en: '-'
+        fr: '-'
+      placa_rodona:
+        es: 4 x 3,4
+        en: 4 x 3,4
+        fr: 4 x 3,4
+      potencia_electrica:
+        es: 13,6 KW 400/3V
+        en: 13,6 KW 400/3V
+        fr: 13,6 KW 400/3V
+  compartits: []
+- clau: COCINAS ELÉCTRICAS Y VITROCERÁMICAS CON HORNO ESTÁTICO
+  noms:
+    es: COCINAS ELÉCTRICAS Y VITROCERÁMICAS CON HORNO ESTÁTICO
+    en: ELECTRIC AND GLASS CERAMICS COOKERS WITH STATIC OVEN
+    fr: FOURNEAUX ÉLÉCTRIQUES ET VITROCÉRAMIQUES AVEC FOUR STATIQUE
+  sequence: 90
+  tipus: producte
+  pagina: p14
+  taula: p14-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: placa_quadrada
+    etiqueta: null
+  - codi: placa_rodona
+    etiqueta: null
+  - codi: forn_estatic
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '34730613'
+    ordre: 10
+    valors:
+      placa_quadrada:
+        es: 4 x 4
+        en: 4 x 4
+        fr: 4 x 4
+      placa_rodona:
+        es: '-'
+        en: '-'
+        fr: '-'
+      forn_estatic:
+        es: 1 x 5,3
+        en: 1 x 5,3
+        fr: 1 x 5,3
+      gastronorm:
+        es: GN 2/1
+        en: GN 2/1
+        fr: GN 2/1
+      potencia_electrica:
+        es: 21,3 KW 400/3V
+        en: 21,3 KW 400/3V
+        fr: 21,3 KW 400/3V
+  - codi: '34930613'
+    ordre: 20
+    valors:
+      placa_quadrada:
+        es: 6 x 4
+        en: 6 x 4
+        fr: 6 x 4
+      placa_rodona:
+        es: '-'
+        en: '-'
+        fr: '-'
+      forn_estatic:
+        es: 1 x 5,3
+        en: 1 x 5,3
+        fr: 1 x 5,3
+      gastronorm:
+        es: GN 2/1
+        en: GN 2/1
+        fr: GN 2/1
+      potencia_electrica:
+        es: 29,3 KW 400/3V
+        en: 29,3 KW 400/3V
+        fr: 29,3 KW 400/3V
+  - codi: '34140613'
+    ordre: 30
+    valors:
+      placa_quadrada:
+        es: '-'
+        en: '-'
+        fr: '-'
+      placa_rodona:
+        es: 4 x 3,4
+        en: 4 x 3,4
+        fr: 4 x 3,4
+      forn_estatic:
+        es: 1 x 5,3
+        en: 1 x 5,3
+        fr: 1 x 5,3
+      gastronorm:
+        es: GN 2/1
+        en: GN 2/1
+        fr: GN 2/1
+      potencia_electrica:
+        es: 18,9 KW 400/3V
+        en: 18,9 KW 400/3V
+        fr: 18,9 KW 400/3V
+  compartits: []
+- clau: COCINAS ELÉCTRICAS Y VITROCERÁMICAS CON HORNO A CONVECCIÓN
+  noms:
+    es: COCINAS ELÉCTRICAS Y VITROCERÁMICAS CON HORNO A CONVECCIÓN
+    en: ELECTRIC AND GLASS CERAMICS COOKERS WITH CONVECTION OVEN
+    fr: FOURNEAUX ÉLÉCTRIQUES ET VITROCÉRAMIQUES AVEC FOUR À CONVECTION
+  sequence: 100
+  tipus: producte
+  pagina: p15
+  taula: p15-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: placa_quadrada
+    etiqueta: null
+  - codi: placa_rodona
+    etiqueta: null
+  - codi: forn_estatic
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '42621613'
+    ordre: 10
+    valors:
+      placa_quadrada:
+        es: 4 x 4
+        en: 4 x 4
+        fr: 4 x 4
+      placa_rodona:
+        es: '-'
+        en: '-'
+        fr: '-'
+      forn_estatic:
+        es: 1 x 5
+        en: 1 x 5
+        fr: 1 x 5
+      gastronorm:
+        es: GN 1/1
+        en: GN 1/1
+        fr: GN 1/1
+      potencia_electrica:
+        es: 21 KW 400/3V
+        en: 21 KW 400/3V
+        fr: 21 KW 400/3V
+  - codi: '42721613'
+    ordre: 20
+    valors:
+      placa_quadrada:
+        es: 6 x 4
+        en: 6 x 4
+        fr: 6 x 4
+      placa_rodona:
+        es: '-'
+        en: '-'
+        fr: '-'
+      forn_estatic:
+        es: 1 x 5
+        en: 1 x 5
+        fr: 1 x 5
+      gastronorm:
+        es: GN 1/1
+        en: GN 1/1
+        fr: GN 1/1
+      potencia_electrica:
+        es: 29 KW 400/3V
+        en: 29 KW 400/3V
+        fr: 29 KW 400/3V
+  - codi: '42421613'
+    ordre: 30
+    valors:
+      placa_quadrada:
+        es: '-'
+        en: '-'
+        fr: '-'
+      placa_rodona:
+        es: 4 x 3,4
+        en: 4 x 3,4
+        fr: 4 x 3,4
+      forn_estatic:
+        es: 1 x 5
+        en: 1 x 5
+        fr: 1 x 5
+      gastronorm:
+        es: GN 1/1
+        en: GN 1/1
+        fr: GN 1/1
+      potencia_electrica:
+        es: 18,6 KW 400/3V
+        en: 18,6 KW 400/3V
+        fr: 18,6 KW 400/3V
+  compartits: []
+- clau: COCINAS DE INDUCCIÓN ELÉCTRICAS
+  noms:
+    es: COCINAS DE INDUCCIÓN ELÉCTRICAS
+    en: ELECTRIC INDUCTION COOKERS
+    fr: CUISINIÈRES À INDUCTION ÉLECTRIQUES
+  sequence: 110
+  tipus: producte
+  pagina: p18
+  taula: p18-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: placa_rodona
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '34322613'
+    ordre: 10
+    valors:
+      placa_rodona:
+        es: 2 x 5 KW
+        en: 2 x 5 KW
+        fr: 2 x 5 KW
+      potencia_electrica:
+        es: 10 KW 400/3V
+        en: 10 KW 400/3V
+        fr: 10 KW 400/3V
+  - codi: '34422613'
+    ordre: 20
+    valors:
+      placa_rodona:
+        es: 4 x 5 KW
+        en: 4 x 5 KW
+        fr: 4 x 5 KW
+      potencia_electrica:
+        es: 20 KW 400/3V
+        en: 20 KW 400/3V
+        fr: 20 KW 400/3V
+  - codi: '34522613'
+    ordre: 30
+    valors:
+      placa_rodona:
+        es: 2 x 5 KW
+        en: 2 x 5 KW
+        fr: 2 x 5 KW
+      potencia_electrica:
+        es: 10 KW 400/3V
+        en: 10 KW 400/3V
+        fr: 10 KW 400/3V
+  - codi: '34622613'
+    ordre: 40
+    valors:
+      placa_rodona:
+        es: 4 x 5 KW
+        en: 4 x 5 KW
+        fr: 4 x 5 KW
+      potencia_electrica:
+        es: 20 KW 400/3V
+        en: 20 KW 400/3V
+        fr: 20 KW 400/3V
+  compartits: []
+- clau: WOKS DE INDUCCIÓN ELÉCTRICOS
+  noms:
+    es: WOKS DE INDUCCIÓN ELÉCTRICOS
+    en: ELECTRIC INDUCTION WOKS
+    fr: WOKS À INDUCTION ÉLECTRIQUES
+  sequence: 120
+  tipus: producte
+  pagina: p19
+  taula: p19-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: placa_rodona
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '32731613'
+    ordre: 10
+    valors:
+      placa_rodona:
+        es: 1 x 5 KW
+        en: 1 x 5 KW
+        fr: 1 x 5 KW
+      potencia_electrica:
+        es: 5 KW 400/3V
+        en: 5 KW 400/3V
+        fr: 5 KW 400/3V
+  - codi: '32821613'
+    ordre: 20
+    valors:
+      placa_rodona:
+        es: 1 x 5 KW
+        en: 1 x 5 KW
+        fr: 1 x 5 KW
+      potencia_electrica:
+        es: 5 KW 400/3V
+        en: 5 KW 400/3V
+        fr: 5 KW 400/3V
+  compartits: []
+- clau: WOKS A GAS
+  noms:
+    es: WOKS A GAS
+    en: GAS WOKS
+    fr: WOKS À GAZ
+  sequence: 130
+  tipus: producte
+  pagina: p20
+  taula: p20-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: wok
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 3288109L
+    ordre: 10
+    valors:
+      wok:
+        es: 1 x 14 Kw
+        en: 1 x 14 Kw
+        fr: 1 x 14 Kw
+      potencia_gas:
+        es: 14 Kw
+        en: 14 Kw
+        fr: 14 Kw
+  - codi: 32A8109L
+    ordre: 20
+    valors:
+      wok:
+        es: 1 x 14 Kw
+        en: 1 x 14 Kw
+        fr: 1 x 14 Kw
+      potencia_gas:
+        es: 14 Kw
+        en: 14 Kw
+        fr: 14 Kw
+  - codi: 3288209L
+    ordre: 30
+    valors:
+      wok:
+        es: 2 x 14 Kw
+        en: 2 x 14 Kw
+        fr: 2 x 14 Kw
+      potencia_gas:
+        es: 28 Kw
+        en: 28 Kw
+        fr: 28 Kw
+  - codi: 32A8209L
+    ordre: 40
+    valors:
+      wok:
+        es: 2 x 14 Kw
+        en: 2 x 14 Kw
+        fr: 2 x 14 Kw
+      potencia_gas:
+        es: 28 Kw
+        en: 28 Kw
+        fr: 28 Kw
+  compartits: []
+- clau: PLANCHAS-FRYTOP A GAS Y ELÉCTRICAS 400 MM DE SOBREMESA
+  noms:
+    es: PLANCHAS-FRYTOP A GAS Y ELÉCTRICAS 400 MM DE SOBREMESA
+    en: TABLETOP GAS AND ELECTRIC 400 MM GRIDDLES
+    fr: FRYTOPS À GAZ ET ÉLÉCTRIQUES DE TABLE 400 MM
+  sequence: 140
+  tipus: producte
+  pagina: p23
+  taula: p23-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: placa_lisa
+    etiqueta: null
+  - codi: placa_estriada
+    etiqueta: null
+  - codi: dimensions_placa
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '36042313'
+    ordre: 10
+    valors:
+      placa_lisa:
+        es: FE
+        en: FE
+        fr: FE
+      placa_estriada:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dimensions_placa:
+        es: 349 x 698
+        en: 349 x 698
+        fr: 349 x 698
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 8 KW
+        en: 8 KW
+        fr: 8 KW
+  - codi: '36142313'
+    ordre: 20
+    valors:
+      placa_lisa:
+        es: '-'
+        en: '-'
+        fr: '-'
+      placa_estriada:
+        es: FE
+        en: FE
+        fr: FE
+      dimensions_placa:
+        es: 349 x 698
+        en: 349 x 698
+        fr: 349 x 698
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 8 KW
+        en: 8 KW
+        fr: 8 KW
+  - codi: '36242313'
+    ordre: 30
+    valors:
+      placa_lisa:
+        es: Cr.D.
+        en: Cr.D.
+        fr: Cr.D.
+      placa_estriada:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dimensions_placa:
+        es: 349 x 698
+        en: 349 x 698
+        fr: 349 x 698
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 8 KW
+        en: 8 KW
+        fr: 8 KW
+  - codi: '36062613'
+    ordre: 40
+    valors:
+      placa_lisa:
+        es: FE
+        en: FE
+        fr: FE
+      placa_estriada:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dimensions_placa:
+        es: 349 x 698
+        en: 349 x 698
+        fr: 349 x 698
+      potencia_electrica:
+        es: 6 KW 400/3V
+        en: 6 KW 400/3V
+        fr: 6 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '36162613'
+    ordre: 50
+    valors:
+      placa_lisa:
+        es: '-'
+        en: '-'
+        fr: '-'
+      placa_estriada:
+        es: FE
+        en: FE
+        fr: FE
+      dimensions_placa:
+        es: 349 x 698
+        en: 349 x 698
+        fr: 349 x 698
+      potencia_electrica:
+        es: 6 KW 400/3V
+        en: 6 KW 400/3V
+        fr: 6 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '36262613'
+    ordre: 60
+    valors:
+      placa_lisa:
+        es: Cr.D.
+        en: Cr.D.
+        fr: Cr.D.
+      placa_estriada:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dimensions_placa:
+        es: 349 x 698
+        en: 349 x 698
+        fr: 349 x 698
+      potencia_electrica:
+        es: 6 KW 400/3V
+        en: 6 KW 400/3V
+        fr: 6 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  compartits: []
+- clau: PLANCHAS-FRYTOP A GAS Y ELÉCTRICAS 800 MM DE SOBREMESA
+  noms:
+    es: PLANCHAS-FRYTOP A GAS Y ELÉCTRICAS 800 MM DE SOBREMESA
+    en: TABLETOP GAS AND ELECTRIC 800 MM GRIDDLES
+    fr: FRYTOPS À GAZ ET ÉLÉCTRIQUES DE TABLE 800 MM
+  sequence: 150
+  tipus: producte
+  pagina: p24
+  taula: p24-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: placa_lisa
+    etiqueta: null
+  - codi: placa_1_3_estriada
+    etiqueta: null
+  - codi: dimensions_placa
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '36342313'
+    ordre: 10
+    valors:
+      placa_lisa:
+        es: FE
+        en: FE
+        fr: FE
+      placa_1_3_estriada:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dimensions_placa:
+        es: 749 x 698
+        en: 749 x 698
+        fr: 749 x 698
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 16 KW
+        en: 16 KW
+        fr: 16 KW
+  - codi: '36442313'
+    ordre: 20
+    valors:
+      placa_lisa:
+        es: '-'
+        en: '-'
+        fr: '-'
+      placa_1_3_estriada:
+        es: FE
+        en: FE
+        fr: FE
+      dimensions_placa:
+        es: 749 x 698
+        en: 749 x 698
+        fr: 749 x 698
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 16 KW
+        en: 16 KW
+        fr: 16 KW
+  - codi: '36542313'
+    ordre: 30
+    valors:
+      placa_lisa:
+        es: Cr.D.
+        en: Cr.D.
+        fr: Cr.D.
+      placa_1_3_estriada:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dimensions_placa:
+        es: 749 x 698
+        en: 749 x 698
+        fr: 749 x 698
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 16 KW
+        en: 16 KW
+        fr: 16 KW
+  - codi: '36362613'
+    ordre: 40
+    valors:
+      placa_lisa:
+        es: FE
+        en: FE
+        fr: FE
+      placa_1_3_estriada:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dimensions_placa:
+        es: 749 x 698
+        en: 749 x 698
+        fr: 749 x 698
+      potencia_electrica:
+        es: 12 KW 400/3V
+        en: 12 KW 400/3V
+        fr: 12 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '36462613'
+    ordre: 50
+    valors:
+      placa_lisa:
+        es: '-'
+        en: '-'
+        fr: '-'
+      placa_1_3_estriada:
+        es: FE
+        en: FE
+        fr: FE
+      dimensions_placa:
+        es: 749 x 698
+        en: 749 x 698
+        fr: 749 x 698
+      potencia_electrica:
+        es: 12 KW 400/3V
+        en: 12 KW 400/3V
+        fr: 12 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '36562613'
+    ordre: 60
+    valors:
+      placa_lisa:
+        es: Cr.D.
+        en: Cr.D.
+        fr: Cr.D.
+      placa_1_3_estriada:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dimensions_placa:
+        es: 749 x 698
+        en: 749 x 698
+        fr: 749 x 698
+      potencia_electrica:
+        es: 12 KW 400/3V
+        en: 12 KW 400/3V
+        fr: 12 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  compartits: []
+- clau: PLANCHAS-FRYTOP A GAS Y ELÉCTRICAS 1200 MM DE SOBREMESA
+  noms:
+    es: PLANCHAS-FRYTOP A GAS Y ELÉCTRICAS 1200 MM DE SOBREMESA
+    en: TABLETOP GAS AND ELECTRIC GRIDDLES 1200 MM
+    fr: PLAQUES DE CUISSON À GAZ ET ÉLECTRIQUES DE TABLE 1200 MM
+  sequence: 160
+  tipus: producte
+  pagina: p25
+  taula: p25-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: placa_lisa
+    etiqueta: null
+  - codi: placa_1_3_estriada
+    etiqueta: null
+  - codi: dimensions_placa
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '36122313'
+    ordre: 10
+    valors:
+      placa_lisa:
+        es: FE
+        en: FE
+        fr: FE
+      placa_1_3_estriada:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dimensions_placa:
+        es: 1130 x 690
+        en: 1130 x 690
+        fr: 1130 x 690
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 24 KW
+        en: 24 KW
+        fr: 24 KW
+  - codi: '36222313'
+    ordre: 20
+    valors:
+      placa_lisa:
+        es: '-'
+        en: '-'
+        fr: '-'
+      placa_1_3_estriada:
+        es: FE
+        en: FE
+        fr: FE
+      dimensions_placa:
+        es: 1130 x 690
+        en: 1130 x 690
+        fr: 1130 x 690
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 24 KW
+        en: 24 KW
+        fr: 24 KW
+  - codi: '36322313'
+    ordre: 30
+    valors:
+      placa_lisa:
+        es: Cr.D.
+        en: Cr.D.
+        fr: Cr.D.
+      placa_1_3_estriada:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dimensions_placa:
+        es: 1130 x 690
+        en: 1130 x 690
+        fr: 1130 x 690
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 24 KW
+        en: 24 KW
+        fr: 24 KW
+  - codi: '36052613'
+    ordre: 40
+    valors:
+      placa_lisa:
+        es: FE
+        en: FE
+        fr: FE
+      placa_1_3_estriada:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dimensions_placa:
+        es: 1130 x 690
+        en: 1130 x 690
+        fr: 1130 x 690
+      potencia_electrica:
+        es: 18 KW 400/3V
+        en: 18 KW 400/3V
+        fr: 18 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '36152613'
+    ordre: 50
+    valors:
+      placa_lisa:
+        es: '-'
+        en: '-'
+        fr: '-'
+      placa_1_3_estriada:
+        es: FE
+        en: FE
+        fr: FE
+      dimensions_placa:
+        es: 1130 x 690
+        en: 1130 x 690
+        fr: 1130 x 690
+      potencia_electrica:
+        es: 18 KW 400/3V
+        en: 18 KW 400/3V
+        fr: 18 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '36252613'
+    ordre: 60
+    valors:
+      placa_lisa:
+        es: Cr.D.
+        en: Cr.D.
+        fr: Cr.D.
+      placa_1_3_estriada:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dimensions_placa:
+        es: 1130 x 690
+        en: 1130 x 690
+        fr: 1130 x 690
+      potencia_electrica:
+        es: 18 KW 400/3V
+        en: 18 KW 400/3V
+        fr: 18 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  compartits: []
+- clau: PLANCHAS-FRYTOP A GAS Y ELÉCTRICAS 400 MM SOPORTE ABIERTO
+  noms:
+    es: PLANCHAS-FRYTOP A GAS Y ELÉCTRICAS 400 MM SOPORTE ABIERTO
+    en: GAS AND ELECTRIC 400 MM GRIDDLES WITH OPEN SUPPORT
+    fr: FRYTOPS À GAZ ET ÉLÉCTRIQUES 400 MM SUR SUPPORT OUVERT
+  sequence: 170
+  tipus: producte
+  pagina: p26
+  taula: p26-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: placa_lisa
+    etiqueta: null
+  - codi: placa_estriada
+    etiqueta: null
+  - codi: dimensions_placa
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '36642313'
+    ordre: 10
+    valors:
+      placa_lisa:
+        es: FE
+        en: FE
+        fr: FE
+      placa_estriada:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dimensions_placa:
+        es: 349 x 698
+        en: 349 x 698
+        fr: 349 x 698
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 8 KW
+        en: 8 KW
+        fr: 8 KW
+  - codi: '36742313'
+    ordre: 20
+    valors:
+      placa_lisa:
+        es: '-'
+        en: '-'
+        fr: '-'
+      placa_estriada:
+        es: FE
+        en: FE
+        fr: FE
+      dimensions_placa:
+        es: 349 x 698
+        en: 349 x 698
+        fr: 349 x 698
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 8 KW
+        en: 8 KW
+        fr: 8 KW
+  - codi: '36842313'
+    ordre: 30
+    valors:
+      placa_lisa:
+        es: Cr.D.
+        en: Cr.D.
+        fr: Cr.D.
+      placa_estriada:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dimensions_placa:
+        es: 349 x 698
+        en: 349 x 698
+        fr: 349 x 698
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 8 KW
+        en: 8 KW
+        fr: 8 KW
+  - codi: '36662613'
+    ordre: 40
+    valors:
+      placa_lisa:
+        es: FE
+        en: FE
+        fr: FE
+      placa_estriada:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dimensions_placa:
+        es: 349 x 698
+        en: 349 x 698
+        fr: 349 x 698
+      potencia_electrica:
+        es: 6 KW 400/3V
+        en: 6 KW 400/3V
+        fr: 6 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '36762613'
+    ordre: 50
+    valors:
+      placa_lisa:
+        es: '-'
+        en: '-'
+        fr: '-'
+      placa_estriada:
+        es: FE
+        en: FE
+        fr: FE
+      dimensions_placa:
+        es: 349 x 698
+        en: 349 x 698
+        fr: 349 x 698
+      potencia_electrica:
+        es: 6 KW 400/3V
+        en: 6 KW 400/3V
+        fr: 6 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '36862613'
+    ordre: 60
+    valors:
+      placa_lisa:
+        es: Cr.D.
+        en: Cr.D.
+        fr: Cr.D.
+      placa_estriada:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dimensions_placa:
+        es: 349 x 698
+        en: 349 x 698
+        fr: 349 x 698
+      potencia_electrica:
+        es: 6 KW 400/3V
+        en: 6 KW 400/3V
+        fr: 6 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  compartits: []
+- clau: PLANCHAS-FRYTOP A GAS Y ELÉCTRICAS 800 MM SOPORTE ABIERTO
+  noms:
+    es: PLANCHAS-FRYTOP A GAS Y ELÉCTRICAS 800 MM SOPORTE ABIERTO
+    en: GAS AND ELECTRIC 800 MM GRIDDLES WITH OPEN SUPPORT
+    fr: FRYTOPS À GAZ ET ÉLÉCTRIQUES 800 MM SUR SUPPORT OUVERT
+  sequence: 180
+  tipus: producte
+  pagina: p27
+  taula: p27-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: placa_lisa
+    etiqueta: null
+  - codi: placa_1_3_estriada
+    etiqueta: null
+  - codi: dimensions_placa
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '36942313'
+    ordre: 10
+    valors:
+      placa_lisa:
+        es: FE
+        en: FE
+        fr: FE
+      placa_1_3_estriada:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dimensions_placa:
+        es: 749 x 698
+        en: 749 x 698
+        fr: 749 x 698
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 16 KW
+        en: 16 KW
+        fr: 16 KW
+  - codi: '36052313'
+    ordre: 20
+    valors:
+      placa_lisa:
+        es: '-'
+        en: '-'
+        fr: '-'
+      placa_1_3_estriada:
+        es: FE
+        en: FE
+        fr: FE
+      dimensions_placa:
+        es: 749 x 698
+        en: 749 x 698
+        fr: 749 x 698
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 16 KW
+        en: 16 KW
+        fr: 16 KW
+  - codi: '36252313'
+    ordre: 30
+    valors:
+      placa_lisa:
+        es: Cr.D.
+        en: Cr.D.
+        fr: Cr.D.
+      placa_1_3_estriada:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dimensions_placa:
+        es: 749 x 698
+        en: 749 x 698
+        fr: 749 x 698
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 16 KW
+        en: 16 KW
+        fr: 16 KW
+  - codi: '36962613'
+    ordre: 40
+    valors:
+      placa_lisa:
+        es: FE
+        en: FE
+        fr: FE
+      placa_1_3_estriada:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dimensions_placa:
+        es: 749 x 698
+        en: 749 x 698
+        fr: 749 x 698
+      potencia_electrica:
+        es: 12 KW 400/3V
+        en: 12 KW 400/3V
+        fr: 12 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '36072613'
+    ordre: 50
+    valors:
+      placa_lisa:
+        es: '-'
+        en: '-'
+        fr: '-'
+      placa_1_3_estriada:
+        es: FE
+        en: FE
+        fr: FE
+      dimensions_placa:
+        es: 749 x 698
+        en: 749 x 698
+        fr: 749 x 698
+      potencia_electrica:
+        es: 12 KW 400/3V
+        en: 12 KW 400/3V
+        fr: 12 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '36172613'
+    ordre: 60
+    valors:
+      placa_lisa:
+        es: Cr.D.
+        en: Cr.D.
+        fr: Cr.D.
+      placa_1_3_estriada:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dimensions_placa:
+        es: 749 x 698
+        en: 749 x 698
+        fr: 749 x 698
+      potencia_electrica:
+        es: 12 KW 400/3V
+        en: 12 KW 400/3V
+        fr: 12 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  compartits: []
+- clau: PLANCHAS-FRYTOP A GAS Y ELÉCTRICAS 1200 MM SOBRE SOPORTE ABIERTO
+  noms:
+    es: PLANCHAS-FRYTOP A GAS Y ELÉCTRICAS 1200 MM SOBRE SOPORTE ABIERTO
+    en: GAS AND ELECTRIC 1200 MM GRIDDLES WITH OPEN SUPPORT
+    fr: FRYTOPS À GAZ ET ÉLÉCTRIQUES 1200 MM SUR SUPPORT OUVERT
+  sequence: 190
+  tipus: producte
+  pagina: p28
+  taula: p28-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: placa_lisa
+    etiqueta: null
+  - codi: placa_1_3_estriada
+    etiqueta: null
+  - codi: dimensions_placa
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '36622313'
+    ordre: 10
+    valors:
+      placa_lisa:
+        es: FE
+        en: FE
+        fr: FE
+      placa_1_3_estriada:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dimensions_placa:
+        es: 1130 x 690
+        en: 1130 x 690
+        fr: 1130 x 690
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 24 KW
+        en: 24 KW
+        fr: 24 KW
+  - codi: '36722313'
+    ordre: 20
+    valors:
+      placa_lisa:
+        es: '-'
+        en: '-'
+        fr: '-'
+      placa_1_3_estriada:
+        es: FE
+        en: FE
+        fr: FE
+      dimensions_placa:
+        es: 1130 x 690
+        en: 1130 x 690
+        fr: 1130 x 690
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 24 KW
+        en: 24 KW
+        fr: 24 KW
+  - codi: '36822313'
+    ordre: 30
+    valors:
+      placa_lisa:
+        es: Cr.D.
+        en: Cr.D.
+        fr: Cr.D.
+      placa_1_3_estriada:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dimensions_placa:
+        es: 1130 x 690
+        en: 1130 x 690
+        fr: 1130 x 690
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 24 KW
+        en: 24 KW
+        fr: 24 KW
+  - codi: '36552613'
+    ordre: 40
+    valors:
+      placa_lisa:
+        es: FE
+        en: FE
+        fr: FE
+      placa_1_3_estriada:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dimensions_placa:
+        es: 1130 x 690
+        en: 1130 x 690
+        fr: 1130 x 690
+      potencia_electrica:
+        es: 18 KW 400/3V
+        en: 18 KW 400/3V
+        fr: 18 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '36652613'
+    ordre: 50
+    valors:
+      placa_lisa:
+        es: '-'
+        en: '-'
+        fr: '-'
+      placa_1_3_estriada:
+        es: FE
+        en: FE
+        fr: FE
+      dimensions_placa:
+        es: 1130 x 690
+        en: 1130 x 690
+        fr: 1130 x 690
+      potencia_electrica:
+        es: 18 KW 400/3V
+        en: 18 KW 400/3V
+        fr: 18 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '36752613'
+    ordre: 60
+    valors:
+      placa_lisa:
+        es: Cr.D.
+        en: Cr.D.
+        fr: Cr.D.
+      placa_1_3_estriada:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dimensions_placa:
+        es: 1130 x 690
+        en: 1130 x 690
+        fr: 1130 x 690
+      potencia_electrica:
+        es: 18 KW 400/3V
+        en: 18 KW 400/3V
+        fr: 18 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  compartits: []
+- clau: BARBACOAS A GAS DE SOBREMESA
+  noms:
+    es: BARBACOAS A GAS DE SOBREMESA
+    en: TABLETOP GAS BARBECUES
+    fr: BARBECUES À GAZ DE TABLE
+  sequence: 200
+  tipus: producte
+  pagina: p31
+  taula: p31-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: barbacoa
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '47402313'
+    ordre: 10
+    valors:
+      barbacoa:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_parrilla:
+        es: 365 x 640
+        en: 365 x 640
+        fr: 365 x 640
+      potencia_gas:
+        es: 10 KW
+        en: 10 KW
+        fr: 10 KW
+  - codi: '47502313'
+    ordre: 20
+    valors:
+      barbacoa:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_parrilla:
+        es: 365 x 640
+        en: 365 x 640
+        fr: 365 x 640
+      potencia_gas:
+        es: 20 KW
+        en: 20 KW
+        fr: 20 KW
+  - codi: '47602313'
+    ordre: 30
+    valors:
+      barbacoa:
+        es: '3'
+        en: '3'
+        fr: '3'
+      dimensions_parrilla:
+        es: 365 x 640
+        en: 365 x 640
+        fr: 365 x 640
+      potencia_gas:
+        es: 30 KW
+        en: 30 KW
+        fr: 30 KW
+  compartits: []
+- clau: BARBACOAS A GAS SOBRE SOPORTE
+  noms:
+    es: BARBACOAS A GAS SOBRE SOPORTE
+    en: GAS BARBECUES ON CLOSED CABINET
+    fr: BARBECUES À GAZ SUR ARMOIRES FERMÉES
+  sequence: 210
+  tipus: producte
+  pagina: p32
+  taula: p32-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: barbacoa
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '47702313'
+    ordre: 10
+    valors:
+      barbacoa:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_parrilla:
+        es: 365 x 640
+        en: 365 x 640
+        fr: 365 x 640
+      potencia_gas:
+        es: 10 KW
+        en: 10 KW
+        fr: 10 KW
+  - codi: '47802313'
+    ordre: 20
+    valors:
+      barbacoa:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_parrilla:
+        es: 365 x 640
+        en: 365 x 640
+        fr: 365 x 640
+      potencia_gas:
+        es: 20 KW
+        en: 20 KW
+        fr: 20 KW
+  - codi: '47902313'
+    ordre: 30
+    valors:
+      barbacoa:
+        es: '3'
+        en: '3'
+        fr: '3'
+      dimensions_parrilla:
+        es: 365 x 640
+        en: 365 x 640
+        fr: 365 x 640
+      potencia_gas:
+        es: 30 KW
+        en: 30 KW
+        fr: 30 KW
+  compartits: []
+- clau: BARBACOAS A GAS GRILL VAPOR
+  noms:
+    es: BARBACOAS A GAS GRILL VAPOR
+    en: GAS BARBECUES STEAM GRILL
+    fr: BARBECUES À GAZ GRILL VAPEUR
+  sequence: 220
+  tipus: producte
+  pagina: p33
+  taula: p33-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: barbacoa
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '47211333'
+    ordre: 10
+    valors:
+      barbacoa:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_parrilla:
+        es: 275 x 590
+        en: 275 x 590
+        fr: 275 x 590
+      potencia_gas:
+        es: 11 KW
+        en: 11 KW
+        fr: 11 KW
+  - codi: '47311333'
+    ordre: 20
+    valors:
+      barbacoa:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_parrilla:
+        es: 670 x 590
+        en: 670 x 590
+        fr: 670 x 590
+      potencia_gas:
+        es: 22 KW
+        en: 22 KW
+        fr: 22 KW
+  compartits: []
+- clau: BARBACOAS ELÉCTRICAS-GRILL VAPOR
+  noms:
+    es: BARBACOAS ELÉCTRICAS-GRILL VAPOR
+    en: ELECTRIC BARBECUES STEAM GRILL
+    fr: BARBECUES ÉLECTRIQUES GRILL VAPEUR
+  sequence: 230
+  tipus: producte
+  pagina: p34
+  taula: p34-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: barbacoa
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '47922613'
+    ordre: 10
+    valors:
+      barbacoa:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_parrilla:
+        es: 275 x 640
+        en: 275 x 640
+        fr: 275 x 640
+      potencia_electrica:
+        es: 5,4 KW 400/3V
+        en: 5,4 KW 400/3V
+        fr: 5,4 KW 400/3V
+  - codi: '47032613'
+    ordre: 20
+    valors:
+      barbacoa:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_parrilla:
+        es: 550 x 640
+        en: 550 x 640
+        fr: 550 x 640
+      potencia_electrica:
+        es: 10,8 KW 400/3V
+        en: 10,8 KW 400/3V
+        fr: 10,8 KW 400/3V
+  - codi: '47132613'
+    ordre: 30
+    valors:
+      barbacoa:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_parrilla:
+        es: 275 x 640
+        en: 275 x 640
+        fr: 275 x 640
+      potencia_electrica:
+        es: 5,4 KW 400/3V
+        en: 5,4 KW 400/3V
+        fr: 5,4 KW 400/3V
+  - codi: '47232613'
+    ordre: 40
+    valors:
+      barbacoa:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_parrilla:
+        es: 550 x 640
+        en: 550 x 640
+        fr: 550 x 640
+      potencia_electrica:
+        es: 10,8 KW 400/3V
+        en: 10,8 KW 400/3V
+        fr: 10,8 KW 400/3V
+  compartits: []
+- clau: FREIDORAS A GAS SOBRE SOPORTE
+  noms:
+    es: FREIDORAS A GAS SOBRE SOPORTE
+    en: GAS FRYERS ON CLOSED CABINET
+    fr: FRITEUSES À GAZ SUR ARMOIRES FERMÉES
+  sequence: 240
+  tipus: producte
+  pagina: p37
+  taula: p37-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: numero_cubes
+    etiqueta: null
+  - codi: dimensions_cesta
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '39681313'
+    ordre: 10
+    valors:
+      capacitat_litres:
+        es: '20'
+        en: '20'
+        fr: '20'
+      numero_cubes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_cesta:
+        es: 285x295x120
+        en: 285x295x120
+        fr: 285x295x120
+      potencia_gas:
+        es: 16 KW
+        en: 16 KW
+        fr: 16 KW
+  - codi: '39981313'
+    ordre: 20
+    valors:
+      capacitat_litres:
+        es: 20+20
+        en: 20+20
+        fr: 20+20
+      numero_cubes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_cesta:
+        es: 285x295x120
+        en: 285x295x120
+        fr: 285x295x120
+      potencia_gas:
+        es: 32 KW
+        en: 32 KW
+        fr: 32 KW
+  - codi: '39781313'
+    ordre: 30
+    valors:
+      capacitat_litres:
+        es: '25'
+        en: '25'
+        fr: '25'
+      numero_cubes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_cesta:
+        es: 285x410x120
+        en: 285x410x120
+        fr: 285x410x120
+      potencia_gas:
+        es: 19,4 KW
+        en: 19,4 KW
+        fr: 19,4 KW
+  - codi: '39091313'
+    ordre: 40
+    valors:
+      capacitat_litres:
+        es: 25+25
+        en: 25+25
+        fr: 25+25
+      numero_cubes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_cesta:
+        es: 285x410x120
+        en: 285x410x120
+        fr: 285x410x120
+      potencia_gas:
+        es: 38,8 KW
+        en: 38,8 KW
+        fr: 38,8 KW
+  compartits: []
+- clau: FREIDORAS ELÉCTRICAS SOBRE SOPORTE
+  noms:
+    es: FREIDORAS ELÉCTRICAS SOBRE SOPORTE
+    en: ELECTRIC FRYERS ON CLOSED CABINET
+    fr: FRITEUSES ÉLÉCTRIQUES SUR ARMOIRES FERMÉES
+  sequence: 250
+  tipus: producte
+  pagina: p38
+  taula: p38-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: numero_cubes
+    etiqueta: null
+  - codi: dimensions_cesta
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '39471613'
+    ordre: 10
+    valors:
+      capacitat_litres:
+        es: 10+10
+        en: 10+10
+        fr: 10+10
+      numero_cubes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_cesta:
+        es: 105x295x120
+        en: 105x295x120
+        fr: 105x295x120
+      potencia_electrica:
+        es: 14 KW 400/3V
+        en: 14 KW 400/3V
+        fr: 14 KW 400/3V
+  - codi: '39180613'
+    ordre: 20
+    valors:
+      capacitat_litres:
+        es: '20'
+        en: '20'
+        fr: '20'
+      numero_cubes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_cesta:
+        es: 285x295x120
+        en: 285x295x120
+        fr: 285x295x120
+      potencia_electrica:
+        es: 16,5 KW 400/3V
+        en: 16,5 KW 400/3V
+        fr: 16,5 KW 400/3V
+  - codi: '39380613'
+    ordre: 30
+    valors:
+      capacitat_litres:
+        es: 20+20
+        en: 20+20
+        fr: 20+20
+      numero_cubes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_cesta:
+        es: 285x295x120
+        en: 285x295x120
+        fr: 285x295x120
+      potencia_electrica:
+        es: 33 KW 400/3V
+        en: 33 KW 400/3V
+        fr: 33 KW 400/3V
+  - codi: '39580613'
+    ordre: 40
+    valors:
+      capacitat_litres:
+        es: '25'
+        en: '25'
+        fr: '25'
+      numero_cubes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      dimensions_cesta:
+        es: 285x410x120
+        en: 285x410x120
+        fr: 285x410x120
+      potencia_electrica:
+        es: 20 KW 400/3V
+        en: 20 KW 400/3V
+        fr: 20 KW 400/3V
+  - codi: '39780613'
+    ordre: 50
+    valors:
+      capacitat_litres:
+        es: 25+25
+        en: 25+25
+        fr: 25+25
+      numero_cubes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      dimensions_cesta:
+        es: 285x410x120
+        en: 285x410x120
+        fr: 285x410x120
+      potencia_electrica:
+        es: 40 KW 400/3V
+        en: 40 KW 400/3V
+        fr: 40 KW 400/3V
+  compartits: []
+- clau: CONSERVA FRITOS ELÉCTRICOS
+  noms:
+    es: CONSERVA FRITOS ELÉCTRICOS
+    en: ELECTRIC CHIP SCUTTLES
+    fr: RÉSERVE POUR FRITES ÉLECTRIQUES
+  sequence: 260
+  tipus: producte
+  pagina: p39
+  taula: p39-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '37331613'
+    ordre: 10
+    valors:
+      capacitat_litres:
+        es: '21'
+        en: '21'
+        fr: '21'
+      gastronorm:
+        es: GN 1/1
+        en: GN 1/1
+        fr: GN 1/1
+      potencia_electrica:
+        es: 1,65 KW 230/1V
+        en: 1,65 KW 230/1V
+        fr: 1,65 KW 230/1V
+  - codi: '37431613'
+    ordre: 20
+    valors:
+      capacitat_litres:
+        es: '21'
+        en: '21'
+        fr: '21'
+      gastronorm:
+        es: GN 1/1
+        en: GN 1/1
+        fr: GN 1/1
+      potencia_electrica:
+        es: 1,65 KW 230/1V
+        en: 1,65 KW 230/1V
+        fr: 1,65 KW 230/1V
+  compartits: []
+- clau: BAÑOS MARÍA ELÉCTRICOS
+  noms:
+    es: BAÑOS MARÍA ELÉCTRICOS
+    en: ELECTRIC BAIN MARIES
+    fr: BAIN MARIES ÉLECTRIQUES
+  sequence: 270
+  tipus: producte
+  pagina: p40
+  taula: p40-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '37540613'
+    ordre: 10
+    valors:
+      capacitat_litres:
+        es: '27'
+        en: '27'
+        fr: '27'
+      gastronorm:
+        es: '* 4 GN 1/3'
+        en: '* 4 GN 1/3'
+        fr: '* 4 GN 1/3'
+      potencia_electrica:
+        es: 3 KW 400/3V
+        en: 3 KW 400/3V
+        fr: 3 KW 400/3V
+  - codi: '37740613'
+    ordre: 20
+    valors:
+      capacitat_litres:
+        es: '54'
+        en: '54'
+        fr: '54'
+      gastronorm:
+        es: '* 8 GN 1/3'
+        en: '* 8 GN 1/3'
+        fr: '* 8 GN 1/3'
+      potencia_electrica:
+        es: 4,5 KW 400/3V
+        en: 4,5 KW 400/3V
+        fr: 4,5 KW 400/3V
+  - codi: '37940613'
+    ordre: 30
+    valors:
+      capacitat_litres:
+        es: '27'
+        en: '27'
+        fr: '27'
+      gastronorm:
+        es: '* 4 GN 1/3'
+        en: '* 4 GN 1/3'
+        fr: '* 4 GN 1/3'
+      potencia_electrica:
+        es: 3 KW 400/3V
+        en: 3 KW 400/3V
+        fr: 3 KW 400/3V
+  - codi: '37150613'
+    ordre: 40
+    valors:
+      capacitat_litres:
+        es: '54'
+        en: '54'
+        fr: '54'
+      gastronorm:
+        es: '* 8 GN 1/3'
+        en: '* 8 GN 1/3'
+        fr: '* 8 GN 1/3'
+      potencia_electrica:
+        es: 4,5 KW 400/3V
+        en: 4,5 KW 400/3V
+        fr: 4,5 KW 400/3V
+  compartits: []
+- clau: CUECE PASTAS A GAS Y ELÉCTRICOS SOBRE SOPORTE
+  noms:
+    es: CUECE PASTAS A GAS Y ELÉCTRICOS SOBRE SOPORTE
+    en: GAS AND ELECTRIC PASTA COOKERS ON CLOSED CABINET
+    fr: CUISEUR À PÂTE À GAZ ET ÉLECTRIQUES SUR ARMOIRES FERMÉES
+  sequence: 280
+  tipus: producte
+  pagina: p41
+  taula: p41-t3
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '39070313'
+    ordre: 10
+    valors:
+      gastronorm:
+        es: GN 1/1
+        en: GN 1/1
+        fr: GN 1/1
+      capacitat_litres:
+        es: '40'
+        en: '40'
+        fr: '40'
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 15 KW
+        en: 15 KW
+        fr: 15 KW
+  - codi: '39170313'
+    ordre: 20
+    valors:
+      gastronorm:
+        es: GN 1/1
+        en: GN 1/1
+        fr: GN 1/1
+      capacitat_litres:
+        es: 40+40
+        en: 40+40
+        fr: 40+40
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 30 KW
+        en: 30 KW
+        fr: 30 KW
+  - codi: '39002613'
+    ordre: 30
+    valors:
+      gastronorm:
+        es: GN 1/1
+        en: GN 1/1
+        fr: GN 1/1
+      capacitat_litres:
+        es: '40'
+        en: '40'
+        fr: '40'
+      potencia_electrica:
+        es: 9 KW 400/3V
+        en: 9 KW 400/3V
+        fr: 9 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '39102613'
+    ordre: 40
+    valors:
+      gastronorm:
+        es: GN 1/1
+        en: GN 1/1
+        fr: GN 1/1
+      capacitat_litres:
+        es: 40+40
+        en: 40+40
+        fr: 40+40
+      potencia_electrica:
+        es: 18 KW 400/3V
+        en: 18 KW 400/3V
+        fr: 18 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  compartits: []
+- clau: SARTENES BASCULANTES A GAS Y ELÉCTRICAS
+  noms:
+    es: SARTENES BASCULANTES A GAS Y ELÉCTRICAS
+    en: GAS AND ELECTRIC TILTING BRATT PANS
+    fr: SAUTEUSES BASCULANTES A GAZ ET ELECTRIQUES
+  sequence: 290
+  tipus: producte
+  pagina: p44
+  taula: p44-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: mesures_interiors
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: motor
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '48671313'
+    ordre: 10
+    valors:
+      mesures_interiors:
+        es: 720x610x225
+        en: 720x610x225
+        fr: 720x610x225
+      capacitat_litres:
+        es: '80'
+        en: '80'
+        fr: '80'
+      motor:
+        es: 10 W 230/1V
+        en: 10 W 230/1V
+        fr: 10 W 230/1V
+      potencia_gas:
+        es: 20 KW
+        en: 20 KW
+        fr: 20 KW
+  - codi: '48081313'
+    ordre: 20
+    valors:
+      mesures_interiors:
+        es: 720x610x225
+        en: 720x610x225
+        fr: 720x610x225
+      capacitat_litres:
+        es: '80'
+        en: '80'
+        fr: '80'
+      motor:
+        es: 100 W 230/1V
+        en: 100 W 230/1V
+        fr: 100 W 230/1V
+      potencia_gas:
+        es: 20 KW
+        en: 20 KW
+        fr: 20 KW
+  - codi: '48291613'
+    ordre: 30
+    valors:
+      mesures_interiors:
+        es: 720x610x225
+        en: 720x610x225
+        fr: 720x610x225
+      capacitat_litres:
+        es: '80'
+        en: '80'
+        fr: '80'
+      motor:
+        es: 10 KW 400/3V
+        en: 10 KW 400/3V
+        fr: 10 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '48391613'
+    ordre: 40
+    valors:
+      mesures_interiors:
+        es: 720x610x225
+        en: 720x610x225
+        fr: 720x610x225
+      capacitat_litres:
+        es: '80'
+        en: '80'
+        fr: '80'
+      motor:
+        es: 10 KW 400/3V
+        en: 10 KW 400/3V
+        fr: 10 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '48871313'
+    ordre: 50
+    valors:
+      mesures_interiors:
+        es: 1100x610x225
+        en: 1100x610x225
+        fr: 1100x610x225
+      capacitat_litres:
+        es: '120'
+        en: '120'
+        fr: '120'
+      motor:
+        es: 10 W 230/1V
+        en: 10 W 230/1V
+        fr: 10 W 230/1V
+      potencia_gas:
+        es: 30 KW
+        en: 30 KW
+        fr: 30 KW
+  - codi: '48281313'
+    ordre: 60
+    valors:
+      mesures_interiors:
+        es: 1100x610x225
+        en: 1100x610x225
+        fr: 1100x610x225
+      capacitat_litres:
+        es: '120'
+        en: '120'
+        fr: '120'
+      motor:
+        es: 100 W 230/1V
+        en: 100 W 230/1V
+        fr: 100 W 230/1V
+      potencia_gas:
+        es: 30 KW
+        en: 30 KW
+        fr: 30 KW
+  - codi: '48691613'
+    ordre: 70
+    valors:
+      mesures_interiors:
+        es: 1100x610x225
+        en: 1100x610x225
+        fr: 1100x610x225
+      capacitat_litres:
+        es: '120'
+        en: '120'
+        fr: '120'
+      motor:
+        es: 15 KW 400/3V
+        en: 15 KW 400/3V
+        fr: 15 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '48791613'
+    ordre: 80
+    valors:
+      mesures_interiors:
+        es: 1100x610x225
+        en: 1100x610x225
+        fr: 1100x610x225
+      capacitat_litres:
+        es: '120'
+        en: '120'
+        fr: '120'
+      motor:
+        es: 15 KW 400/3V
+        en: 15 KW 400/3V
+        fr: 15 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  compartits: []
+- clau: MARMITAS A GAS Y ELÉCTRICAS
+  noms:
+    es: MARMITAS A GAS Y ELÉCTRICAS
+    en: GAS AND ELECTRIC BOILING PANS
+    fr: MARMITE À GAZ ET ÉLÉCTRIQUES
+  sequence: 300
+  tipus: producte
+  pagina: p45
+  taula: p45-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: mesures_interiors
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: calor
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '48670313'
+    ordre: 10
+    valors:
+      mesures_interiors:
+        es: Ø 600 x 415
+        en: Ø 600 x 415
+        fr: Ø 600 x 415
+      capacitat_litres:
+        es: '100'
+        en: '100'
+        fr: '100'
+      calor:
+        es: D
+        en: D
+        fr: D
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 21 KW
+        en: 21 KW
+        fr: 21 KW
+  - codi: '48470313'
+    ordre: 20
+    valors:
+      mesures_interiors:
+        es: Ø 600 x 415
+        en: Ø 600 x 415
+        fr: Ø 600 x 415
+      capacitat_litres:
+        es: '100'
+        en: '100'
+        fr: '100'
+      calor:
+        es: I
+        en: I
+        fr: I
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 21 KW
+        en: 21 KW
+        fr: 21 KW
+  - codi: '48770313'
+    ordre: 30
+    valors:
+      mesures_interiors:
+        es: Ø 600 x 540
+        en: Ø 600 x 540
+        fr: Ø 600 x 540
+      capacitat_litres:
+        es: '150'
+        en: '150'
+        fr: '150'
+      calor:
+        es: D
+        en: D
+        fr: D
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 21 KW
+        en: 21 KW
+        fr: 21 KW
+  - codi: '48570313'
+    ordre: 40
+    valors:
+      mesures_interiors:
+        es: Ø 600 x 540
+        en: Ø 600 x 540
+        fr: Ø 600 x 540
+      capacitat_litres:
+        es: '150'
+        en: '150'
+        fr: '150'
+      calor:
+        es: I
+        en: I
+        fr: I
+      potencia_electrica:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_gas:
+        es: 21 KW
+        en: 21 KW
+        fr: 21 KW
+  - codi: '48590613'
+    ordre: 50
+    valors:
+      mesures_interiors:
+        es: Ø 600 x 540
+        en: Ø 600 x 540
+        fr: Ø 600 x 540
+      capacitat_litres:
+        es: '150'
+        en: '150'
+        fr: '150'
+      calor:
+        es: I
+        en: I
+        fr: I
+      potencia_electrica:
+        es: 18 KW 400/3V
+        en: 18 KW 400/3V
+        fr: 18 KW 400/3V
+      potencia_gas:
+        es: '-'
+        en: '-'
+        fr: '-'
+  compartits: []
+- clau: MESAS DE COCCIÓN
+  noms:
+    es: MESAS DE COCCIÓN
+    en: COOKING TABLES
+    fr: TABLES CUISSON
+  sequence: 310
+  tipus: producte
+  pagina: p48
+  taula: p48-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: soporte_obert
+    etiqueta: null
+  - codi: calaixos
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '38921613'
+    ordre: 10
+    valors:
+      soporte_obert:
+        es: '-'
+        en: '-'
+        fr: '-'
+      calaixos:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '38031613'
+    ordre: 20
+    valors:
+      soporte_obert:
+        es: '-'
+        en: '-'
+        fr: '-'
+      calaixos:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '38105693'
+    ordre: 30
+    valors:
+      soporte_obert:
+        es: '-'
+        en: '-'
+        fr: '-'
+      calaixos:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: '38205693'
+    ordre: 40
+    valors:
+      soporte_obert:
+        es: '-'
+        en: '-'
+        fr: '-'
+      calaixos:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: '38131613'
+    ordre: 50
+    valors:
+      soporte_obert:
+        es: '1'
+        en: '1'
+        fr: '1'
+      calaixos:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '38231613'
+    ordre: 60
+    valors:
+      soporte_obert:
+        es: '1'
+        en: '1'
+        fr: '1'
+      calaixos:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '38107693'
+    ordre: 70
+    valors:
+      soporte_obert:
+        es: '1'
+        en: '1'
+        fr: '1'
+      calaixos:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: '38207693'
+    ordre: 80
+    valors:
+      soporte_obert:
+        es: '1'
+        en: '1'
+        fr: '1'
+      calaixos:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: '38307693'
+    ordre: 90
+    valors:
+      soporte_obert:
+        es: '1'
+        en: '1'
+        fr: '1'
+      calaixos:
+        es: '1'
+        en: '1'
+        fr: '1'
+  compartits: []
+- clau: BASES HORNOS ELÉCTRICOS ESTÁTICOS Y A CONVECCIÓN
+  noms:
+    es: BASES HORNOS ELÉCTRICOS ESTÁTICOS Y A CONVECCIÓN
+    en: ELECTRIC STATIC OR CONVECTION OVEN BASE
+    fr: SOUBASSEMENTS AVEC FOUR ÉLECTRIQUE ÉSTATIQUE OU À CONVECTION
+  sequence: 320
+  tipus: producte
+  pagina: p49
+  taula: p49-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: forn_estatic
+    etiqueta: null
+  - codi: forn_estatic_2
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '41741613'
+    ordre: 10
+    valors:
+      forn_estatic:
+        es: '-'
+        en: '-'
+        fr: '-'
+      forn_estatic_2:
+        es: '5'
+        en: '5'
+        fr: '5'
+      gastronorm:
+        es: GN 1/1
+        en: GN 1/1
+        fr: GN 1/1
+      potencia_electrica:
+        es: 5 KW 400/3V
+        en: 5 KW 400/3V
+        fr: 5 KW 400/3V
+  - codi: '49841613'
+    ordre: 20
+    valors:
+      forn_estatic:
+        es: 5,3
+        en: 5,3
+        fr: 5,3
+      forn_estatic_2:
+        es: '-'
+        en: '-'
+        fr: '-'
+      gastronorm:
+        es: GN 2/1
+        en: GN 2/1
+        fr: GN 2/1
+      potencia_electrica:
+        es: 5,3 KW 400/3V
+        en: 5,3 KW 400/3V
+        fr: 5,3 KW 400/3V
+  compartits: []
+- clau: SOPORTES ABIERTOS, CON PUERTAS Y CON CAJONES
+  noms:
+    es: SOPORTES ABIERTOS, CON PUERTAS Y CON CAJONES
+    en: OPEN SUPPORTS, WITH DOORS AND WITH DRAWERS
+    fr: SUPPORTS OUVERTS, AVEC PORTES ET AVEC TIROIRS
+  sequence: 330
+  tipus: producte
+  pagina: p50
+  taula: p50-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: soporte_obert
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: calaixos
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '38200993'
+    ordre: 10
+    valors:
+      soporte_obert:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+      calaixos:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '38711613'
+    ordre: 20
+    valors:
+      soporte_obert:
+        es: '-'
+        en: '-'
+        fr: '-'
+      portes:
+        es: '1'
+        en: '1'
+        fr: '1'
+      calaixos:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '38811613'
+    ordre: 30
+    valors:
+      soporte_obert:
+        es: '-'
+        en: '-'
+        fr: '-'
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+      calaixos:
+        es: 2- GN 1/1
+        en: 2- GN 1/1
+        fr: 2- GN 1/1
+  - codi: '38800993'
+    ordre: 40
+    valors:
+      soporte_obert:
+        es: '1'
+        en: '1'
+        fr: '1'
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+      calaixos:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '38911613'
+    ordre: 50
+    valors:
+      soporte_obert:
+        es: '-'
+        en: '-'
+        fr: '-'
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      calaixos:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: '38021613'
+    ordre: 60
+    valors:
+      soporte_obert:
+        es: '-'
+        en: '-'
+        fr: '-'
+      portes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      calaixos:
+        es: '-'
+        en: '-'
+        fr: '-'
+  compartits: []
+- clau: PARRILLAS
+  noms:
+    es: PARRILLAS
+    en: GRIDDLES
+    fr: GRILLES
+  sequence: 340
+  tipus: accessoris
+  pagina: p51
+  taula: p51-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A067310
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 360 x 370
+        en: 360 x 370
+        fr: 360 x 370
+  compartits: []
+- clau: SUPLETORIA
+  noms:
+    es: SUPLETORIA
+    en: SUPPLEMENTARY
+    fr: SUPPLÉMENTAIRE
+  sequence: 350
+  tipus: accessoris
+  pagina: p51
+  taula: p51-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: preu
+    etiqueta: null
+  productes: []
+  compartits:
+  - codi: 4A835993
+    ordre: 10
+    valors: {}
+    propietari: G02
+- clau: COLUMNA DE AGUA
+  noms:
+    es: COLUMNA DE AGUA
+    en: WATER COLUMN
+    fr: COLONNE D’EAU
+  sequence: 360
+  tipus: accessoris
+  pagina: p51
+  taula: p51-t3
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: para
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes: []
+  compartits:
+  - codi: '31630000'
+    ordre: 10
+    valors:
+      para:
+        es: 700 - 900
+        en: 700 - 900
+        fr: 700 - 900
+    propietari: G04
+- clau: REJILLAS HORNO
+  noms:
+    es: REJILLAS HORNO
+    en: GRIDS OVEN
+    fr: GRILLES FOUR
+  sequence: 370
+  tipus: accessoris
+  pagina: p51
+  taula: p51-t4
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: gn
+    etiqueta: null
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes: []
+  compartits:
+  - codi: '31950000'
+    ordre: 10
+    valors:
+      gn:
+        es: 1/1
+        en: 1/1
+        fr: 1/1
+      mesures_text:
+        es: 530 x 325
+        en: 530 x 325
+        fr: 530 x 325
+    propietari: G04
+  - codi: '31960000'
+    ordre: 20
+    valors:
+      gn:
+        es: 2/1
+        en: 2/1
+        fr: 2/1
+      mesures_text:
+        es: 530 x 650
+        en: 530 x 650
+        fr: 530 x 650
+    propietari: G04
+  - codi: 4A595022
+    ordre: 30
+    valors:
+      gn:
+        es: CHE
+        en: CHE
+        fr: CHE
+      mesures_text:
+        es: 880 x 620
+        en: 880 x 620
+        fr: 880 x 620
+    propietari: G04
+- clau: BANDEJAS HORNO
+  noms:
+    es: BANDEJAS HORNO
+    en: OVEN TRAY
+    fr: PLATEAU FOUR
+  sequence: 380
+  tipus: accessoris
+  pagina: p51
+  taula: p51-t5
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: gn
+    etiqueta: null
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes: []
+  compartits:
+  - codi: CP1106X1
+    ordre: 10
+    valors:
+      gn:
+        es: 1/1
+        en: 1/1
+        fr: 1/1
+      mesures_text:
+        es: 530 x 325 x 65
+        en: 530 x 325 x 65
+        fr: 530 x 325 x 65
+    propietari: G04
+  - codi: CP210651
+    ordre: 20
+    valors:
+      gn:
+        es: 2/1
+        en: 2/1
+        fr: 2/1
+      mesures_text:
+        es: 530 x 650 x 65
+        en: 530 x 650 x 65
+        fr: 530 x 650 x 65
+    propietari: G04
+- clau: PIEDRA VOLCÁNICA
+  noms:
+    es: PIEDRA VOLCÁNICA
+    en: LAVA STONE
+    fr: PIERRE VOLCANIQUE
+  sequence: 390
+  tipus: accessoris
+  pagina: p51
+  taula: p51-t6
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: pes
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes: []
+  compartits:
+  - codi: C9500009
+    ordre: 10
+    valors: {}
+    propietari: G03
+- clau: PARRILLAS BARBACOA
+  noms:
+    es: PARRILLAS BARBACOA
+    en: BARBECUE GRIDDLES
+    fr: GRILS BARBECUE
+  sequence: 400
+  tipus: accessoris
+  pagina: p51
+  taula: p51-t7
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: para
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A000502
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 605 x 450
+        en: 605 x 450
+        fr: 605 x 450
+      para:
+        es: CARNE
+        en: MEAT
+        fr: VIANDE
+  - codi: 4A385993
+    ordre: 20
+    valors:
+      mesures_text:
+        es: 605 x 450
+        en: 605 x 450
+        fr: 605 x 450
+      para:
+        es: PESCADO
+        en: FISH
+        fr: POISSON
+  compartits: []
+- clau: PAKS CESTOS CUECE PASTA
+  noms:
+    es: PAKS CESTOS CUECE PASTA
+    en: BASKET PASTA COOKER PAK
+    fr: PAK PANIER CUISER À PÂTE
+  sequence: 410
+  tipus: accessoris
+  pagina: p52
+  taula: p52-t1
+  blocs: 2
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: gn
+    etiqueta: null
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A275993
+    ordre: 10
+    valors:
+      gn:
+        es: 1 x 1/1
+        en: 1 x 1/1
+        fr: 1 x 1/1
+      mesures_text:
+        es: 490 x 290 x 200
+        en: 490 x 290 x 200
+        fr: 490 x 290 x 200
+  - codi: 4A805993
+    ordre: 20
+    valors:
+      gn:
+        es: 1 x 2/3 1 x 1/3
+        en: 1 x 2/3 1 x 1/3
+        fr: 1 x 2/3 1 x 1/3
+      mesures_text:
+        es: 290 x 290 x 200 290 x 160 x 200
+        en: 290 x 290 x 200 290 x 160 x 200
+        fr: 290 x 290 x 200 290 x 160 x 200
+  - codi: 4A605993
+    ordre: 1030
+    valors:
+      gn:
+        es: 2 x 1/3 2 x 1/6
+        en: 2 x 1/3 2 x 1/6
+        fr: 2 x 1/3 2 x 1/6
+      mesures_text:
+        es: 290 x 160 x 200 140 x 140 x 200
+        en: 290 x 160 x 200 140 x 140 x 200
+        fr: 290 x 160 x 200 140 x 140 x 200
+  - codi: 4A705993
+    ordre: 1040
+    valors:
+      gn:
+        es: 1 x 1/3 4 x 1/6
+        en: 1 x 1/3 4 x 1/6
+        fr: 1 x 1/3 4 x 1/6
+      mesures_text:
+        es: 290 x 160 x 200 140 x 140 x 200
+        en: 290 x 160 x 200 140 x 140 x 200
+        fr: 290 x 160 x 200 140 x 140 x 200
+  - codi: 4A405993
+    ordre: 50
+    valors:
+      gn:
+        es: 3 x 1/3
+        en: 3 x 1/3
+        fr: 3 x 1/3
+      mesures_text:
+        es: 290 x 160 x 200
+        en: 290 x 160 x 200
+        fr: 290 x 160 x 200
+  - codi: 4A845993
+    ordre: 1060
+    valors:
+      gn:
+        es: 6 x 1/6
+        en: 6 x 1/6
+        fr: 6 x 1/6
+      mesures_text:
+        es: 140 x 140 x 200
+        en: 140 x 140 x 200
+        fr: 140 x 140 x 200
+  compartits: []
+- clau: CESTAS FREIDORA
+  noms:
+    es: CESTAS FREIDORA
+    en: FRYER BASKETS
+    fr: PANIERS À FRITEUSE
+  sequence: 420
+  tipus: accessoris
+  pagina: p52
+  taula: p52-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: pack
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A185993
+    ordre: 40
+    valors:
+      mesures_text:
+        es: 285 x 410 x 120
+        en: 285 x 410 x 120
+        fr: 285 x 410 x 120
+      capacitat_litres:
+        es: '25'
+        en: '25'
+        fr: '25'
+      pack:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: 4A085993
+    ordre: 50
+    valors:
+      mesures_text:
+        es: 140 x 410 x 120
+        en: 140 x 410 x 120
+        fr: 140 x 410 x 120
+      capacitat_litres:
+        es: 1/2-25
+        en: 1/2-25
+        fr: 1/2-25
+      pack:
+        es: '2'
+        en: '2'
+        fr: '2'
+  compartits:
+  - codi: 4A056022
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 105 x 295 x 120
+        en: 105 x 295 x 120
+        fr: 105 x 295 x 120
+      capacitat_litres:
+        es: 10+10
+        en: 10+10
+        fr: 10+10
+      pack:
+        es: '2'
+        en: '2'
+        fr: '2'
+    propietari: G04
+  - codi: 4A805997
+    ordre: 20
+    valors:
+      mesures_text:
+        es: 285 x 295 x 120
+        en: 285 x 295 x 120
+        fr: 285 x 295 x 120
+      capacitat_litres:
+        es: '20'
+        en: '20'
+        fr: '20'
+      pack:
+        es: '1'
+        en: '1'
+        fr: '1'
+    propietari: G04
+  - codi: 4A905997
+    ordre: 30
+    valors:
+      mesures_text:
+        es: 140 x 295 x 120
+        en: 140 x 295 x 120
+        fr: 140 x 295 x 120
+      capacitat_litres:
+        es: 1/2-20
+        en: 1/2-20
+        fr: 1/2-20
+      pack:
+        es: '2'
+        en: '2'
+        fr: '2'
+    propietari: G04
+- clau: SUPLEMENTO POR CONTROL ELECTRÓNICO (1 UNIDAD CADA 400 MM)
+  noms:
+    es: SUPLEMENTO POR CONTROL ELECTRÓNICO (1 UNIDAD CADA 400 MM)
+    en: ELECTRONIC CONTROL SUPPLEMENT (1 UNIT EVERY 400 MM)
+    fr: SUPPLÉMENT DE COMMANDE ÉLECTRONIQUE (1 UNITÉ CHAQUE 400 MM)
+  sequence: 430
+  tipus: accessoris
+  pagina: p52
+  taula: p52-t3
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: para
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes: []
+  compartits:
+  - codi: 4ACELECT
+    ordre: 10
+    valors:
+      para:
+        es: FREIDORAS / FRYTOP / CUECE PASTA
+        en: FRYERS / FRYTOP / PASTA COOKERS
+        fr: FRITEUSES / FRYTOP / CUISEUR À PÂTE
+    propietari: G04
+- clau: DOBLE FONDO PERFORADO PARA BAÑO MARÍA
+  noms:
+    es: DOBLE FONDO PERFORADO PARA BAÑO MARÍA
+    en: PERFORATED BOTTOM FOR BAIN-MARIE
+    fr: DOUBLE FONS PERFORÉ POUR BAIN MARIE
+  sequence: 440
+  tipus: accessoris
+  pagina: p52
+  taula: p52-t4
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: gn
+    etiqueta: null
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes: []
+  compartits:
+  - codi: 4A085021
+    ordre: 10
+    valors:
+      gn:
+        es: 1/1
+        en: 1/1
+        fr: 1/1
+      mesures_text:
+        es: 325 x 530
+        en: 325 x 530
+        fr: 325 x 530
+    propietari: G02
+- clau: CESTO MARMITA
+  noms:
+    es: CESTO MARMITA
+    en: BOILING PAN BASKET
+    fr: PANIER MARMITE
+  sequence: 450
+  tipus: accessoris
+  pagina: p52
+  taula: p52-t5
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: para
+    etiqueta:
+      es: Ø
+      en: Ø
+      fr: Ø
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: pack
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A115993
+    ordre: 10
+    valors:
+      para:
+        es: 3 MM
+        en: 3 MM
+        fr: 3 MM
+      capacitat_litres:
+        es: '100'
+        en: '100'
+        fr: '100'
+      pack:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: 4A315993
+    ordre: 20
+    valors:
+      para:
+        es: 3 MM
+        en: 3 MM
+        fr: 3 MM
+      capacitat_litres:
+        es: '150'
+        en: '150'
+        fr: '150'
+      pack:
+        es: '2'
+        en: '2'
+        fr: '2'
+  compartits: []
+- clau: KIT RUEDAS
+  noms:
+    es: KIT RUEDAS
+    en: WHELS KIT
+    fr: KIT ROUES
+  sequence: 460
+  tipus: accessoris
+  pagina: p53
+  taula: p53-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: para
+    etiqueta:
+      es: 2 CON FRENO
+      en: 2 CON FRENO
+      fr: 2 CON FRENO
+  - codi: preu
+    etiqueta: null
+  productes: []
+  compartits:
+  - codi: 4A925993
+    ordre: 10
+    valors:
+      para:
+        es: 2 CON FRENO
+        en: 2 WHIT BRAKE
+        fr: 2 AVEC FREIN
+    propietari: G04
+- clau: CEPILLO Y RASQUETAS
+  noms:
+    es: CEPILLO Y RASQUETAS
+    en: BRUSH AND SPATULAS
+    fr: BROSSE ET SPATULES
+  sequence: 470
+  tipus: accessoris
+  pagina: p53
+  taula: p53-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: para
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes: []
+  compartits:
+  - codi: '96108'
+    ordre: 10
+    valors:
+      para:
+        es: BARBACOA
+        en: BARBECUE
+        fr: BARBECUE
+    propietari: G03
+  - codi: '96107'
+    ordre: 20
+    valors:
+      para:
+        es: FRYTOPS FE
+        en: IRON FRYTOPS
+        fr: FRYTOPS FER
+    propietari: G03
+  - codi: '93085'
+    ordre: 30
+    valors:
+      para:
+        es: FRYTOPS CrD
+        en: HCr FRYTOPS
+        fr: FRYTOPS CrD
+    propietari: G03
+  - codi: 4A795021
+    ordre: 40
+    valors:
+      para:
+        es: KIT 10 CUCHILLAS
+        en: KIT 10 KNIVES
+        fr: KIT 10 COUTEAUX
+    propietari: G03
+- clau: PUERTA REVERSIBLE
+  noms:
+    es: PUERTA REVERSIBLE
+    en: REVERSIBLE DOOR
+    fr: PORTE RÉVERSIBLE
+  sequence: 480
+  tipus: accessoris
+  pagina: p53
+  taula: p53-t3
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: para_soportes
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes: []
+  compartits:
+  - codi: 4A200913
+    ordre: 10
+    valors:
+      para_soportes:
+        es: ACERO INOX
+        en: STAINLESS STEEL
+        fr: ACIER INOXYDABLE
+    propietari: G02
+- clau: KIT GUÍAS PARA GN 1/1
+  noms:
+    es: KIT GUÍAS PARA GN 1/1
+    en: GUIDE KIT FOR GN 1/1
+    fr: KIT DE GUIDAGE POUR GN 1/1
+  sequence: 490
+  tipus: accessoris
+  pagina: p53
+  taula: p53-t5
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A205993
+    ordre: 10
+    valors: {}
+  compartits: []
+- clau: CALEFACTOR
+  noms:
+    es: CALEFACTOR
+    en: HEATER
+    fr: CHAUFFAGE
+  sequence: 500
+  tipus: accessoris
+  pagina: p53
+  taula: p53-t6
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes: []
+  compartits:
+  - codi: 4A550611
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 320 x 540 x 95
+        en: 320 x 540 x 95
+        fr: 320 x 540 x 95
+      potencia_electrica:
+        es: 1,3 KW 230/1V
+        en: 1,3 KW 230/1V
+        fr: 1,3 KW 230/1V
+    propietari: G03
+- clau: ZÓCALOS
+  noms:
+    es: ZÓCALOS
+    en: PLINTH
+    fr: SOCLE
+  sequence: 510
+  tipus: accessoris
+  pagina: p53
+  taula: p53-t7
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A735993
+    ordre: 60
+    valors:
+      mesures_text:
+        es: LATERAL 900
+        en: LATERAL 900
+        fr: LATÉRALE 900
+  compartits:
+  - codi: 4A335993
+    ordre: 10
+    valors:
+      mesures_text:
+        es: '400'
+        en: '400'
+        fr: '400'
+    propietari: G04
+  - codi: 4A435993
+    ordre: 20
+    valors:
+      mesures_text:
+        es: '800'
+        en: '800'
+        fr: '800'
+    propietari: G04
+  - codi: 4A535993
+    ordre: 30
+    valors:
+      mesures_text:
+        es: '1200'
+        en: '1200'
+        fr: '1200'
+    propietari: G04
+  - codi: 4A635993
+    ordre: 40
+    valors:
+      mesures_text:
+        es: '1600'
+        en: '1600'
+        fr: '1600'
+    propietari: G04
+  - codi: 4A975993
+    ordre: 50
+    valors:
+      mesures_text:
+        es: '2000'
+        en: '2000'
+        fr: '2000'
+    propietari: G04
+- clau: SUPLEMENTO ENCIMERA 120 MM
+  noms:
+    es: SUPLEMENTO ENCIMERA 120 MM
+    en: COUNTERTOP SUPPLEMENT 120 MM
+    fr: 120 MM SUPPLÉMENT DE COMPTOIR
+  sequence: 520
+  tipus: accessoris
+  pagina: p53
+  taula: p53-t8
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes: []
+  compartits:
+  - codi: 4A125993
+    ordre: 10
+    valors:
+      mesures_text:
+        es: '400'
+        en: '400'
+        fr: '400'
+    propietari: G04
+  - codi: 4A225993
+    ordre: 20
+    valors:
+      mesures_text:
+        es: '800'
+        en: '800'
+        fr: '800'
+    propietari: G04
+  - codi: 4A325993
+    ordre: 30
+    valors:
+      mesures_text:
+        es: '1200'
+        en: '1200'
+        fr: '1200'
+    propietari: G04
+  - codi: 4A425993
+    ordre: 40
+    valors:
+      mesures_text:
+        es: '1600'
+        en: '1600'
+        fr: '1600'
+    propietari: G04
+avisos:
+- '36252313: el PDF publicat imprimeix el codi 36232313 (el .pub i Odoo diuen 36252313); es fa servir 36252313'
+repeticions:
+  SUPLETORIA:
+  - codi: 4A835993
+    ordre: 10
+  COLUMNA DE AGUA:
+  - codi: '31630000'
+    ordre: 10
+  REJILLAS HORNO:
+  - codi: '31950000'
+    ordre: 10
+  - codi: '31960000'
+    ordre: 20
+  - codi: 4A595022
+    ordre: 30
+  BANDEJAS HORNO:
+  - codi: CP1106X1
+    ordre: 10
+  - codi: CP210651
+    ordre: 20
+  PIEDRA VOLCÁNICA:
+  - codi: C9500009
+    ordre: 10
+  CESTAS FREIDORA:
+  - codi: 4A056022
+    ordre: 10
+  - codi: 4A805997
+    ordre: 20
+  - codi: 4A905997
+    ordre: 30
+  SUPLEMENTO POR CONTROL ELECTRÓNICO (1 UNIDAD CADA 400 MM):
+  - codi: 4ACELECT
+    ordre: 10
+  DOBLE FONDO PERFORADO PARA BAÑO MARÍA:
+  - codi: 4A085021
+    ordre: 10
+  KIT RUEDAS:
+  - codi: 4A925993
+    ordre: 10
+  CEPILLO Y RASQUETAS:
+  - codi: '96108'
+    ordre: 10
+  - codi: '96107'
+    ordre: 20
+  - codi: '93085'
+    ordre: 30
+  - codi: 4A795021
+    ordre: 40
+  PUERTA REVERSIBLE:
+  - codi: 4A200913
+    ordre: 10
+  CALEFACTOR:
+  - codi: 4A550611
+    ordre: 10
+  ZÓCALOS:
+  - codi: 4A335993
+    ordre: 10
+  - codi: 4A435993
+    ordre: 20
+  - codi: 4A535993
+    ordre: 30
+  - codi: 4A635993
+    ordre: 40
+  - codi: 4A975993
+    ordre: 50
+  SUPLEMENTO ENCIMERA 120 MM:
+  - codi: 4A125993
+    ordre: 10
+  - codi: 4A225993
+    ordre: 20
+  - codi: 4A325993
+    ordre: 30
+  - codi: 4A425993
+    ordre: 40

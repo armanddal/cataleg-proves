@@ -1,0 +1,2262 @@
+esquema: tarifa-columnes-posicio/1
+grup: 8
+metode: posicio sobre el PDF publicat (intervals X = cel.les de la fila de capcalera del PDF; files = codi + vores de cel.la del PDF)
+font_pdf: cataleg_original_web.pdf
+nota: 'Per taula: fila (codi) -> columna (clau del gN.yaml) -> text tal com surt al PDF publicat. "-" = guio del catalag; "[icona]" = cel.la amb una icona (energia gas/electric...), sense text. icones_en_columna
+  = columnes amb una icona a la cel.la. cel_les_combinades (si n hi ha) = valor de cel.la combinada copiat a totes les files que cobreix. codi_al_pdf = el PDF porta un codi diferent del .pub.'
+pagines:
+- pagina_pub: 6
+  pagina_pdf: 291
+  taules:
+  - id: p06-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - dimensions_parrilla
+    - gastronorm
+    - motor
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '41025017'
+      cel_les:
+        codi: '41025017'
+        energia: '[icona]'
+        pes: '22'
+        mesures: 500x560x460
+        dimensions_parrilla: 3 - 340x240
+        gastronorm: 3 - 1/2
+        motor: '1'
+        potencia_electrica: 2,5 KW 230/1V
+        preu: '1.010'
+      icones_en_columna:
+      - energia
+    - codi: '41125017'
+      cel_les:
+        codi: '41125017'
+        energia: '[icona]'
+        pes: '22'
+        mesures: 500x560x460
+        dimensions_parrilla: 3 - 340x240
+        gastronorm: 3 - 1/2
+        motor: '1'
+        potencia_electrica: 2,5 KW 230/1V
+        preu: '1.195'
+      icones_en_columna:
+      - energia
+    - codi: '41225017'
+      cel_les:
+        codi: '41225017'
+        energia: '[icona]'
+        pes: '35'
+        mesures: 590x675x540
+        dimensions_parrilla: 4 - 430x340
+        gastronorm: 4 - 2/3
+        motor: '2'
+        potencia_electrica: 3,1 KW 230/1V
+        preu: '1.145'
+      icones_en_columna:
+      - energia
+    - codi: '41325017'
+      cel_les:
+        codi: '41325017'
+        energia: '[icona]'
+        pes: '35'
+        mesures: 590x675x540
+        dimensions_parrilla: 4 - 430x340
+        gastronorm: 4 - 2/3
+        motor: '2'
+        potencia_electrica: 3,1 KW 230/1V
+        preu: '1.370'
+      icones_en_columna:
+      - energia
+- pagina_pub: 7
+  pagina_pdf: 292
+  taules:
+  - id: p07-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - dimensions_parrilla
+    - gastronorm
+    - motor
+    - rotacio
+    - grill
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '41645017'
+      cel_les:
+        codi: '41645017'
+        energia: '[icona]'
+        pes: '52'
+        mesures: 760x760x560
+        dimensions_parrilla: 4 - EN 600x400
+        gastronorm: 4 - 1/1
+        motor: '2'
+        rotacio: û
+        grill: û
+        potencia_electrica: 3,8 KW 230/1V
+        preu: '2.155'
+      icones_en_columna:
+      - energia
+    - codi: '41135017'
+      cel_les:
+        codi: '41135017'
+        energia: '[icona]'
+        pes: '55'
+        mesures: 820x800x560
+        dimensions_parrilla: 4 - EN 600x400
+        gastronorm: 4 - 1/1
+        motor: '2'
+        rotacio: ü
+        grill: û
+        potencia_electrica: 6,3 KW 400/3V
+        preu: '2.635'
+      icones_en_columna:
+      - energia
+    - codi: '41235017'
+      cel_les:
+        codi: '41235017'
+        energia: '[icona]'
+        pes: '55'
+        mesures: 820x800x560
+        dimensions_parrilla: 4 - EN 600x400
+        gastronorm: 4 - 1/1
+        motor: '2'
+        rotacio: ü
+        grill: û
+        potencia_electrica: 6,3 KW 400/3V
+        preu: '2.765'
+      icones_en_columna:
+      - energia
+    - codi: '41335017'
+      cel_les:
+        codi: '41335017'
+        energia: '[icona]'
+        pes: '56'
+        mesures: 820x800x560
+        dimensions_parrilla: 4 - EN 600x400
+        gastronorm: 4 - 1/1
+        motor: '2'
+        rotacio: ü
+        grill: 1,4 KW
+        potencia_electrica: 7,7 KW 400/3V
+        preu: '3.470'
+      icones_en_columna:
+      - energia
+- pagina_pub: 11
+  pagina_pdf: 296
+  taules:
+  - id: p11-t3
+    reconstruida: false
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - gastronorm
+    - motor
+    - rotacio
+    - potencia_electrica
+    - potencia_gas
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 41X25EME
+      cel_les:
+        codi: 41X25EME
+        energia: '[icona]'
+        pes: '75'
+        mesures: 870x750x660
+        gastronorm: 5 - GN 1/1 5 EN 600x400
+        motor: '1'
+        rotacio: ü
+        potencia_electrica: 7,7 KW 400/3V
+        potencia_gas: '-'
+        preu: '4.155'
+      icones_en_columna:
+      - energia
+    - codi: 41025GME
+      cel_les:
+        codi: 41025GME
+        energia: '[icona]'
+        pes: '120'
+        mesures: 870x800x720
+        gastronorm: 5 - GN 1/1 5 EN 600x400
+        motor: '1'
+        rotacio: ü
+        potencia_electrica: 300 W 230/1V
+        potencia_gas: 9,5 KW
+        preu: '6.135'
+      icones_en_columna:
+      - energia
+- pagina_pub: 12
+  pagina_pdf: 297
+  taules:
+  - id: p12-t3
+    reconstruida: false
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - gastronorm
+    - motor
+    - rotacio
+    - potencia_electrica
+    - potencia_gas
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 41201EME
+      cel_les:
+        codi: 41201EME
+        energia: '[icona]'
+        pes: '110'
+        mesures: 870x750x1000
+        gastronorm: 10 - GN 1/1 10 EN 600x400
+        motor: '2'
+        rotacio: ü
+        potencia_electrica: 12,6 KW 400/3V
+        potencia_gas: '-'
+        preu: '5.900'
+      icones_en_columna:
+      - energia
+    - codi: 41201GME
+      cel_les:
+        codi: 41201GME
+        energia: '[icona]'
+        pes: '160'
+        mesures: 870x800x1100
+        gastronorm: 10 - GN 1/1 10 EN 600x400
+        motor: '2'
+        rotacio: ü
+        potencia_electrica: 600 W 230/1V
+        potencia_gas: 19 KW
+        preu: '7.595'
+      icones_en_columna:
+      - energia
+- pagina_pub: 13
+  pagina_pdf: 298
+  taules:
+  - id: p13-t3
+    reconstruida: false
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - gastronorm
+    - motor
+    - rotacio
+    - potencia_electrica
+    - potencia_gas
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 41RX5ETM
+      cel_les:
+        codi: 41RX5ETM
+        energia: '[icona]'
+        pes: '75'
+        mesures: 900x750x660
+        gastronorm: 5 - GN 1/1 5 EN 600x400
+        motor: '1'
+        rotacio: ü
+        potencia_electrica: 7,7 KW 400/3V
+        potencia_gas: '-'
+        preu: '5.910'
+      icones_en_columna:
+      - energia
+    - codi: 41RWX5ET
+      cel_les:
+        codi: 41RWX5ET
+        energia: '[icona]'
+        pes: '75'
+        mesures: 900x750x660
+        gastronorm: 5 - GN 1/1 5 EN 600x400
+        motor: '1'
+        rotacio: ü
+        potencia_electrica: 7,7 KW 400/3V
+        potencia_gas: '-'
+        preu: '6.515'
+      icones_en_columna:
+      - energia
+    - codi: 410R5GTM
+      cel_les:
+        codi: 410R5GTM
+        energia: '[icona]'
+        pes: '120'
+        mesures: 900x750x720
+        gastronorm: 5 - GN 1/1 5 EN 600x400
+        motor: '1'
+        rotacio: ü
+        potencia_electrica: 300 W 230/1V
+        potencia_gas: 9,5 KW
+        preu: '7.930'
+      icones_en_columna:
+      - energia
+    - codi: 41RW5GTM
+      cel_les:
+        codi: 41RW5GTM
+        energia: '[icona]'
+        pes: '120'
+        mesures: 900x750x720
+        gastronorm: 5 - GN 1/1 5 EN 600x400
+        motor: '1'
+        rotacio: ü
+        potencia_electrica: 300 W 230/1V
+        potencia_gas: 9,5 KW
+        preu: '8.620'
+      icones_en_columna:
+      - energia
+- pagina_pub: 14
+  pagina_pdf: 299
+  taules:
+  - id: p14-t3
+    reconstruida: false
+    columnes:
+    - codi
+    - col1
+    - col2
+    - col3
+    - ''
+    - motor
+    - rotacio
+    - potencia_electrica
+    - potencia_gas
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 41R01ETM
+      cel_les:
+        codi: 41R01ETM
+        col1: '[icona]'
+        col2: '110'
+        col3: 900x750x1000
+        ? ''
+        : 10 - GN 1/1 10 EN 600x400
+        motor: '2'
+        rotacio: ü
+        potencia_electrica: 12,6 KW 400/3V
+        potencia_gas: '-'
+        preu: '8.270'
+      icones_en_columna:
+      - col1
+    - codi: 41RW01ET
+      cel_les:
+        codi: 41RW01ET
+        col1: '[icona]'
+        col2: '110'
+        col3: 900x750x1000
+        ? ''
+        : 10 - GN 1/1 10 EN 600x400
+        motor: '2'
+        rotacio: ü
+        potencia_electrica: 12,6 KW 400/3V
+        potencia_gas: '-'
+        preu: '8.845'
+      icones_en_columna:
+      - col1
+    - codi: 41R01GTM
+      cel_les:
+        codi: 41R01GTM
+        col1: '[icona]'
+        col2: '160'
+        col3: 900x750x1100
+        ? ''
+        : 10 - GN 1/1 10 EN 600x400
+        motor: '2'
+        rotacio: ü
+        potencia_electrica: 600 W 230/1V
+        potencia_gas: 19 KW
+        preu: '10.205'
+      icones_en_columna:
+      - col1
+    - codi: 41RW01GT
+      cel_les:
+        codi: 41RW01GT
+        col1: '[icona]'
+        col2: '160'
+        col3: 900x750x1100
+        ? ''
+        : 10 - GN 1/1 10 EN 600x400
+        motor: '2'
+        rotacio: ü
+        potencia_electrica: 600 W 230/1V
+        potencia_gas: 19 KW
+        preu: '10.820'
+      icones_en_columna:
+      - col1
+- pagina_pub: 18
+  pagina_pdf: 303
+  taules:
+  - id: p18-t3
+    reconstruida: false
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - gastronorm
+    - col5
+    - col6
+    - col7
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 41W160MK
+      cel_les:
+        codi: 41W160MK
+        energia: '[icona]'
+        pes: '92'
+        mesures: 520x800x770
+        gastronorm: 6 - GN 1/1
+        col5: '1'
+        col6: ü
+        col7: 6,9 KW 400/3V
+        preu: '7.540'
+      icones_en_columna:
+      - energia
+- pagina_pub: 19
+  pagina_pdf: 304
+  taules:
+  - id: p19-t3
+    reconstruida: false
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - gastronorm
+    - col5
+    - col6
+    - col7
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 41W101MK
+      cel_les:
+        codi: 41W101MK
+        energia: '[icona]'
+        pes: '110'
+        mesures: 520x800x1000
+        gastronorm: 10 - GN 1/1
+        col5: '2'
+        col6: ü
+        col7: 13,8 KW 400/3V
+        preu: '9.670'
+      icones_en_columna:
+      - energia
+- pagina_pub: 23
+  pagina_pdf: 308
+  taules:
+  - id: p23-t3
+    reconstruida: true
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - gastronorm
+    - motor
+    - rotacio
+    - potencia_electrica
+    - potencia_gas
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 41W160ER
+      cel_les:
+        codi: 41W160ER
+        energia: '[icona]'
+        pes: '132'
+        mesures: 860x800x840
+        gastronorm: 6 - GN 1/1
+        motor: '1'
+        rotacio: ü
+        potencia_electrica: 10,4 KW 400/3V
+        potencia_gas: '-'
+        preu: '9.335'
+      icones_en_columna:
+      - energia
+    - codi: 41W1606R
+      cel_les:
+        codi: 41W1606R
+        energia: '[icona]'
+        pes: '142'
+        mesures: 860x800x840
+        gastronorm: 6 - GN 1/1
+        motor: '1'
+        rotacio: ü
+        potencia_electrica: 400 W 230/1V
+        potencia_gas: 12 KW
+        preu: '11.705'
+      icones_en_columna:
+      - energia
+- pagina_pub: 24
+  pagina_pdf: 309
+  taules:
+  - id: p24-t3
+    reconstruida: true
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - gastronorm
+    - motor
+    - rotacio
+    - potencia_electrica
+    - potencia_gas
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 41W260ER
+      cel_les:
+        codi: 41W260ER
+        energia: '[icona]'
+        pes: '195'
+        mesures: 1120x850x840
+        gastronorm: 6 - GN 2/1
+        motor: '1'
+        rotacio: ü
+        potencia_electrica: 20,4 KW 400/3V
+        potencia_gas: '-'
+        preu: '13.465'
+      icones_en_columna:
+      - energia
+    - codi: 41W2606R
+      cel_les:
+        codi: 41W2606R
+        energia: '[icona]'
+        pes: '225'
+        mesures: 1120x850x840
+        gastronorm: 6 - GN 2/1
+        motor: '1'
+        rotacio: ü
+        potencia_electrica: 400 W 230/1V
+        potencia_gas: 19 KW
+        preu: '16.200'
+      icones_en_columna:
+      - energia
+- pagina_pub: 25
+  pagina_pdf: 310
+  taules:
+  - id: p25-t3
+    reconstruida: true
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - gastronorm
+    - motor
+    - rotacio
+    - potencia_electrica
+    - potencia_gas
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 41W101ER
+      cel_les:
+        codi: 41W101ER
+        energia: '[icona]'
+        pes: '170'
+        mesures: 860x800x1120
+        gastronorm: 10 - GN 1/1
+        motor: '1'
+        rotacio: ü
+        potencia_electrica: 15,7 KW 400/3V
+        potencia_gas: '-'
+        preu: '11.595'
+      icones_en_columna:
+      - energia
+    - codi: 41W1016R
+      cel_les:
+        codi: 41W1016R
+        energia: '[icona]'
+        pes: '180'
+        mesures: 860x800x1120
+        gastronorm: 10 - GN 1/1
+        motor: '1'
+        rotacio: ü
+        potencia_electrica: 700 W 230/1V
+        potencia_gas: 19 KW
+        preu: '13.445'
+      icones_en_columna:
+      - energia
+- pagina_pub: 26
+  pagina_pdf: 311
+  taules:
+  - id: p26-t3
+    reconstruida: true
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - gastronorm
+    - motor
+    - rotacio
+    - potencia_electrica
+    - potencia_gas
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 41W201ER
+      cel_les:
+        codi: 41W201ER
+        energia: '[icona]'
+        pes: '220'
+        mesures: 1120x850x1120
+        gastronorm: 10 - GN 2/1
+        motor: '1'
+        rotacio: ü
+        potencia_electrica: 25,8 KW 400/3V
+        potencia_gas: '-'
+        preu: '15.620'
+      icones_en_columna:
+      - energia
+    - codi: 41W2016R
+      cel_les:
+        codi: 41W2016R
+        energia: '[icona]'
+        pes: '250'
+        mesures: 1120x850x1120
+        gastronorm: 10 - GN 2/1
+        motor: '1'
+        rotacio: ü
+        potencia_electrica: 800 W 230/1V
+        potencia_gas: 28 KW
+        preu: '18.920'
+      icones_en_columna:
+      - energia
+- pagina_pub: 27
+  pagina_pdf: 312
+  taules:
+  - id: p27-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - gastronorm
+    - motor
+    - rotacio
+    - potencia_electrica
+    - potencia_gas
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 41W102ER
+      cel_les:
+        codi: 41W102ER
+        energia: '[icona]'
+        pes: '290'
+        mesures: 1000x840x1850
+        gastronorm: 20 - GN 1/1
+        motor: '2'
+        rotacio: ü
+        potencia_electrica: 30,8 KW 400/3V
+        potencia_gas: '-'
+        preu: '23.435'
+      icones_en_columna:
+      - energia
+    - codi: 41W1026R
+      cel_les:
+        codi: 41W1026R
+        energia: '[icona]'
+        pes: '300'
+        mesures: 1000x840x1850
+        gastronorm: 20 - GN 1/1
+        motor: '2'
+        rotacio: ü
+        potencia_electrica: 800 W 230/1V
+        potencia_gas: 38 KW
+        preu: '26.365'
+      icones_en_columna:
+      - energia
+- pagina_pub: 28
+  pagina_pdf: 313
+  taules:
+  - id: p28-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - gastronorm
+    - motor
+    - rotacio
+    - potencia_electrica
+    - potencia_gas
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 41W202ER
+      cel_les:
+        codi: 41W202ER
+        energia: '[icona]'
+        pes: '370'
+        mesures: 1200x910x1850
+        gastronorm: 20 - GN 2/1
+        motor: '2'
+        rotacio: ü
+        potencia_electrica: 51,6 KW 400/3V
+        potencia_gas: '-'
+        preu: '28.855'
+      icones_en_columna:
+      - energia
+    - codi: 41W2026R
+      cel_les:
+        codi: 41W2026R
+        energia: '[icona]'
+        pes: '400'
+        mesures: 1200x910x1850
+        gastronorm: 20 - GN 2/1
+        motor: '2'
+        rotacio: ü
+        potencia_electrica: 1600 W 230/1V
+        potencia_gas: 56 KW
+        preu: '34.280'
+      icones_en_columna:
+      - energia
+- pagina_pub: 32
+  pagina_pdf: 317
+  taules:
+  - id: p32-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - col3
+    - guies
+    - col5
+    - col6
+    - gastronorm
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '41745017'
+      cel_les:
+        codi: '41745017'
+        pes: '12'
+        mesures: 600x580x850
+        col3: SMALL
+        guies: '8'
+        col5: 430 x 340
+        col6: ó
+        gastronorm: 2/3
+        preu: '645'
+    - codi: '41945017'
+      cel_les:
+        codi: '41945017'
+        pes: '15'
+        mesures: 800x700x850
+        col3: SMALL
+        guies: '8'
+        col5: 600 x 400
+        col6: ó
+        gastronorm: 1/1
+        preu: '900'
+    - codi: 410001KT
+      cel_les:
+        codi: 410001KT
+        pes: '20'
+        mesures: 470x620x800
+        col3: MINI
+        guies: '6'
+        col5: '-'
+        col6: ''
+        gastronorm: 1/1
+        preu: '815'
+    - codi: '41102050'
+      cel_les:
+        codi: '41102050'
+        pes: '28'
+        mesures: 850x750x700
+        col3: 2 / 5 / 8
+        guies: '12'
+        col5: '-'
+        col6: ''
+        gastronorm: 1/1
+        preu: '1.055'
+    - codi: '41302050'
+      cel_les:
+        codi: '41302050'
+        pes: '34'
+        mesures: 1100x850x700
+        col3: '8'
+        guies: 6 + 6
+        col5: '-'
+        col6: ''
+        gastronorm: 1/1 - 2/1
+        preu: '1.285'
+- pagina_pub: 33
+  pagina_pdf: 318
+  taules:
+  - id: p33-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - guies
+    - gastronorm
+    - nivells
+    - portes_corredisses
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '41641097'
+      cel_les:
+        codi: '41641097'
+        pes: '23'
+        mesures: 500x700x850
+        guies: MINI
+        gastronorm: 7 400 x 600 ó 1/1
+        nivells: '-'
+        portes_corredisses: '-'
+        preu: '1.075'
+    - codi: '41841097'
+      cel_les:
+        codi: '41841097'
+        pes: '39'
+        mesures: 1000x700x850
+        guies: '8'
+        gastronorm: 7+7 400 x 600 ó 1/1
+        nivells: '-'
+        portes_corredisses: '-'
+        preu: '1.490'
+    - codi: 100107PC
+      cel_les:
+        codi: 100107PC
+        pes: '43'
+        mesures: 1000x700x850
+        guies: '8'
+        gastronorm: '- - -'
+        nivells: '2'
+        portes_corredisses: '2'
+        preu: '1.490'
+    - codi: '41601520'
+      cel_les:
+        codi: '41601520'
+        pes: '52'
+        mesures: 453x751x1746
+        guies: '8'
+        gastronorm: 20 - 1/1
+        nivells: '-'
+        portes_corredisses: '-'
+        preu: '2.555'
+    - codi: '41701520'
+      cel_les:
+        codi: '41701520'
+        pes: '64'
+        mesures: 600x851x1746
+        guies: '8'
+        gastronorm: 20 - 2/1
+        nivells: '-'
+        portes_corredisses: '-'
+        preu: '2.655'
+    - codi: '41741097'
+      cel_les:
+        codi: '41741097'
+        pes: '32'
+        mesures: 800x700x850
+        guies: 2 / 5 / 8
+        gastronorm: 7+7 1/1
+        nivells: '-'
+        portes_corredisses: '-'
+        preu: '1.405'
+    - codi: 108007PC
+      cel_les:
+        codi: 108007PC
+        pes: '34'
+        mesures: 800x700x850
+        guies: 2 / 5 / 8
+        gastronorm: '- - -'
+        nivells: '2'
+        portes_corredisses: '2'
+        preu: '1.555'
+    mapa_columnes: sense_colN(3 eliminades)
+- pagina_pub: 34
+  pagina_pdf: 319
+  taules:
+  - id: p34-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - col4
+    - guies
+    - alcada
+    - col7
+    - col8
+    - col9
+    - potencia_electrica
+    - preu
+    columnes_segons: amp
+    files:
+    - codi: '80306017'
+      cel_les:
+        codi: '80306017'
+        energia: '[icona]'
+        pes: '36'
+        mesures: 640x640x970
+        col4: SMALL
+        guies: '8'
+        alcada: '80'
+        col7: 480 x 340
+        col8: ''
+        col9: '-'
+        potencia_electrica: 700 W 230/1V
+        preu: '1.685'
+      icones_en_columna:
+      - energia
+    - codi: '80287017'
+      cel_les:
+        codi: '80406017'
+        energia: '[icona]'
+        pes: '42'
+        mesures: 820x700x970
+        col4: SMALL
+        guies: '8'
+        alcada: '80'
+        col7: 600 x 400
+        col8: ''
+        col9: '-'
+        potencia_electrica: 1,4 KW 230/1V
+        preu: '1.940'
+      codi_al_pdf: '80406017'
+      icones_en_columna:
+      - energia
+    - codi: '80839169'
+      cel_les:
+        codi: '80839169'
+        energia: '[icona]'
+        pes: '82'
+        mesures: 960x840x800
+        col4: 2 / 5 / 8
+        guies: 7+7
+        alcada: '80'
+        col7: 600 x 400
+        col8: ''
+        col9: '-'
+        potencia_electrica: 2,6 KW 230/1V
+        preu: '2.755'
+      icones_en_columna:
+      - energia
+    - codi: '80606017'
+      cel_les:
+        codi: '80606017'
+        energia: '[icona]'
+        pes: '80'
+        mesures: 880x935x1100
+        col4: '-'
+        guies: '10'
+        alcada: '80'
+        col7: 20-600 x 400
+        col8: ó
+        col9: 10-600 x 800
+        potencia_electrica: 1,4 KW 230/1V
+        preu: '3.255'
+      icones_en_columna:
+      - energia
+    avisos:
+    - hdr:recompte(10 vs 12)
+- pagina_pub: 35
+  pagina_pdf: 320
+  taules:
+  - id: p35-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - gastronorm
+    - motor
+    - rotacio
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '41016017'
+      cel_les:
+        codi: '41016017'
+        energia: '[icona]'
+        pes: '39'
+        mesures: 740x710x450
+        gastronorm: 3 - 1/1 - 65
+        motor: '1'
+        rotacio: ü
+        potencia_electrica: 3,9 KW 230/1V
+        preu: '2.775'
+      icones_en_columna:
+      - energia
+    - codi: '41116017'
+      cel_les:
+        codi: '41116017'
+        energia: '[icona]'
+        pes: '52'
+        mesures: 740x710x720
+        gastronorm: 6 - 1/1 - 65
+        motor: '1'
+        rotacio: ü
+        potencia_electrica: 5,7 KW 400/3V - 230/1V
+        preu: '2.985'
+      icones_en_columna:
+      - energia
+    - codi: '41216017'
+      cel_les:
+        codi: '41216017'
+        energia: '[icona]'
+        pes: '85'
+        mesures: 740x710x990
+        gastronorm: 10 - 1/1 - 65
+        motor: '2'
+        rotacio: ü
+        potencia_electrica: 10,3 KW 400/3V
+        preu: '4.320'
+      icones_en_columna:
+      - energia
+- pagina_pub: 40
+  pagina_pdf: 325
+  taules:
+  - id: p40-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - dimensions_parrilla
+    - potencia_gas
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 2901006H
+      cel_les:
+        codi: 2901006H
+        energia: '[icona]'
+        pes: '53'
+        mesures: 800x600x700
+        dimensions_parrilla: GN 1/1 530 x 325
+        potencia_gas: 4 KW
+        preu: '2.730'
+      icones_en_columna:
+      - energia
+    - codi: 2903009H
+      cel_les:
+        codi: 2903009H
+        energia: '[icona]'
+        pes: '83'
+        mesures: 800x900x700
+        dimensions_parrilla: GN 2/1 530 x 650
+        potencia_gas: 5 KW
+        preu: '3.225'
+      icones_en_columna:
+      - energia
+    - codi: '29200312'
+      cel_les:
+        codi: '29200312'
+        energia: '[icona]'
+        pes: '95'
+        mesures: 1200x900x700
+        dimensions_parrilla: 730 x 750
+        potencia_gas: 9,3 KW
+        preu: '6.430'
+      icones_en_columna:
+      - energia
+- pagina_pub: 41
+  pagina_pdf: 326
+  taules:
+  - id: p41-t3
+    reconstruida: true
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - nivells_i_separacio
+    - col5
+    - mesures_interiors_forn
+    - potencia_gas
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 514GR122
+      cel_les:
+        codi: 514GR122
+        energia: '[icona]'
+        pes: '104'
+        mesures: 1000x840x480
+        nivells_i_separacio: 4 - 300
+        col5: '1'
+        mesures_interiors_forn: 620 x 620 x 160
+        potencia_gas: 13,2 KW
+        preu: '5.095'
+      icones_en_columna:
+      - energia
+    - codi: 516GR122
+      cel_les:
+        codi: 516GR122
+        energia: '[icona]'
+        pes: '120'
+        mesures: 1000x1140x480
+        nivells_i_separacio: 6 - 300
+        col5: '2'
+        mesures_interiors_forn: 620 x 920 x 160
+        potencia_gas: 21 KW
+        preu: '5.990'
+      icones_en_columna:
+      - energia
+    - codi: 519GR122
+      cel_les:
+        codi: 519GR122
+        energia: '[icona]'
+        pes: '163'
+        mesures: 1300x1140x480
+        nivells_i_separacio: 9 - 300
+        col5: '2'
+        mesures_interiors_forn: 920 x 920 x 160
+        potencia_gas: 27 KW
+        preu: '7.215'
+      icones_en_columna:
+      - energia
+- pagina_pub: 42
+  pagina_pdf: 327
+  taules:
+  - id: p42-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - nivells_i_separacio
+    - col5
+    - mesures_interiors_forn
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 51G10012
+      cel_les:
+        codi: 51G10012
+        energia: '[icona]'
+        pes: '17'
+        mesures: 550x430x260
+        nivells_i_separacio: 1 - 360
+        col5: '-'
+        mesures_interiors_forn: 410 x 360 x 110
+        potencia_electrica: 1,6 KW 230/1V
+        preu: '760'
+      icones_en_columna:
+      - energia
+    - codi: '51100121'
+      cel_les:
+        codi: '51100121'
+        energia: '[icona]'
+        pes: '46'
+        mesures: 740x600x410
+        nivells_i_separacio: 2 - 360
+        col5: '1'
+        mesures_interiors_forn: 610 x 520 x 110
+        potencia_electrica: 3,2 KW 230/1V
+        preu: '1.305'
+      icones_en_columna:
+      - energia
+    - codi: 51B40012
+      cel_les:
+        codi: 51B40012
+        energia: '[icona]'
+        pes: '60'
+        mesures: 950x860x400
+        nivells_i_separacio: 4 - 360
+        col5: '1'
+        mesures_interiors_forn: 720 x 720 x 140
+        potencia_electrica: 6 KW 230/1 - 400/3V
+        preu: '2.070'
+      icones_en_columna:
+      - energia
+    - codi: 51B60012
+      cel_les:
+        codi: 51B60012
+        energia: '[icona]'
+        pes: '105'
+        mesures: 950x1220x400
+        nivells_i_separacio: 6 - 360
+        col5: '2'
+        mesures_interiors_forn: 720 x 1080 x 140
+        potencia_electrica: 9 KW 400/3V
+        preu: '2.530'
+      icones_en_columna:
+      - energia
+    - codi: 51LB6001
+      cel_les:
+        codi: 51LB6001
+        energia: '[icona]'
+        pes: '102'
+        mesures: 1310x860x400
+        nivells_i_separacio: 6 - 360
+        col5: '2'
+        mesures_interiors_forn: 1080 x 720 x 140
+        potencia_electrica: 9,2 KW 400/3V
+        preu: '2.845'
+      icones_en_columna:
+      - energia
+    - codi: 51B90012
+      cel_les:
+        codi: 51B90012
+        energia: '[icona]'
+        pes: '115'
+        mesures: 1310x1220x400
+        nivells_i_separacio: 9 - 360
+        col5: '4'
+        mesures_interiors_forn: 1080 x 1080 x 140
+        potencia_electrica: 13,8 KW 400/3V
+        preu: '3.035'
+      icones_en_columna:
+      - energia
+- pagina_pub: 43
+  pagina_pdf: 328
+  taules:
+  - id: p43-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - nivells_i_separacio
+    - col5
+    - mesures_interiors_forn
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 51G20012
+      cel_les:
+        codi: 51G20012
+        energia: '[icona]'
+        pes: '30'
+        mesures: 550x430x435
+        nivells_i_separacio: 2 - 360
+        col5: '-'
+        mesures_interiors_forn: 410 x 360 x 110
+        potencia_electrica: 3,2 KW 230/1V
+        preu: '1.145'
+      icones_en_columna:
+      - energia
+    - codi: '51200121'
+      cel_les:
+        codi: '51200121'
+        energia: '[icona]'
+        pes: '66'
+        mesures: 740x600x600
+        nivells_i_separacio: 4 - 360
+        col5: '2'
+        mesures_interiors_forn: 610 x 520 x 110
+        potencia_electrica: 4,8 KW 230/1V - 400/3V
+        preu: '1.965'
+      icones_en_columna:
+      - energia
+    - codi: 51B44012
+      cel_les:
+        codi: 51B44012
+        energia: '[icona]'
+        pes: '108'
+        mesures: 950x860x710
+        nivells_i_separacio: 8 - 360
+        col5: '2'
+        mesures_interiors_forn: 720 x 720 x 140
+        potencia_electrica: 12 KW 230/1 - 400/3V
+        preu: '3.395'
+      icones_en_columna:
+      - energia
+    - codi: 51B66012
+      cel_les:
+        codi: 51B66012
+        energia: '[icona]'
+        pes: '162'
+        mesures: 950x1220x710
+        nivells_i_separacio: 12 - 360
+        col5: '4'
+        mesures_interiors_forn: 720 x 1080 x 140
+        potencia_electrica: 18 KW 400/3V
+        preu: '3.990'
+      icones_en_columna:
+      - energia
+    - codi: 51LB6601
+      cel_les:
+        codi: 51LB6601
+        energia: '[icona]'
+        pes: '162'
+        mesures: 1310x860x710
+        nivells_i_separacio: 12 - 360
+        col5: '4'
+        mesures_interiors_forn: 1080 x 720 x 140
+        potencia_electrica: 18,4 KW 400/3V
+        preu: '4.715'
+      icones_en_columna:
+      - energia
+    - codi: 51B99012
+      cel_les:
+        codi: 51B99012
+        energia: '[icona]'
+        pes: '205'
+        mesures: 1310x1220x710
+        nivells_i_separacio: 18 - 360
+        col5: '8'
+        mesures_interiors_forn: 1080 x 1080 x 140
+        potencia_electrica: 27,6 KW 400/3V
+        preu: '5.505'
+      icones_en_columna:
+      - energia
+- pagina_pub: 48
+  pagina_pdf: 333
+  taules:
+  - id: p48-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - dimensions_parrilla
+    - persones
+    - temps
+    - diametre_conducte
+    - brasa
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '52101054'
+      cel_les:
+        codi: '52101054'
+        pes: '122'
+        mesures: 700x610x650
+        dimensions_parrilla: 585x465
+        persones: '90'
+        temps: '60'
+        diametre_conducte: '180'
+        brasa: 3 KW
+        preu: '5.850'
+    - codi: '52101094'
+      cel_les:
+        codi: '52101094'
+        pes: '170'
+        mesures: 800x680x650
+        dimensions_parrilla: 685x535
+        persones: '115'
+        temps: '75'
+        diametre_conducte: '180'
+        brasa: 4,5 KW
+        preu: '7.205'
+    - codi: '52101005'
+      cel_les:
+        codi: '52101005'
+        pes: '244'
+        mesures: 900x790x830
+        dimensions_parrilla: 780x625
+        persones: '130'
+        temps: '110'
+        diametre_conducte: '180'
+        brasa: 6 KW
+        preu: '8.220'
+    - codi: '52201054'
+      cel_les:
+        codi: '52201054'
+        pes: '122'
+        mesures: 700x610x650
+        dimensions_parrilla: 585x465
+        persones: '90'
+        temps: '60'
+        diametre_conducte: '180'
+        brasa: 3 KW
+        preu: '6.555'
+    - codi: '52201094'
+      cel_les:
+        codi: '52201094'
+        pes: '170'
+        mesures: 800x680x650
+        dimensions_parrilla: 685x535
+        persones: '115'
+        temps: '75'
+        diametre_conducte: '180'
+        brasa: 4,5 KW
+        preu: '7.620'
+    - codi: '52201005'
+      cel_les:
+        codi: '52201005'
+        pes: '244'
+        mesures: 900x790x830
+        dimensions_parrilla: 780x625
+        persones: '130'
+        temps: '110'
+        diametre_conducte: '180'
+        brasa: 6 KW
+        preu: '8.905'
+    - codi: '52542077'
+      cel_les:
+        codi: '52542077'
+        pes: '65'
+        mesures: 700x625x830
+        dimensions_parrilla: ''
+        persones: ''
+        temps: ''
+        diametre_conducte: ''
+        brasa: ''
+        preu: '955'
+    - codi: '52942077'
+      cel_les:
+        codi: '52942077'
+        pes: '71'
+        mesures: 800x685x830
+        dimensions_parrilla: ''
+        persones: ''
+        temps: ''
+        diametre_conducte: ''
+        brasa: ''
+        preu: '1.000'
+    - codi: '52452077'
+      cel_les:
+        codi: '52452077'
+        pes: '87'
+        mesures: 900x800x730
+        dimensions_parrilla: ''
+        persones: ''
+        temps: ''
+        diametre_conducte: ''
+        brasa: ''
+        preu: '1.045'
+- pagina_pub: 49
+  pagina_pdf: 334
+  taules:
+  - id: p49-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - col1
+    - preu
+    columnes_segons: amp
+    files: []
+    avisos:
+    - hdr:sense_capcalera
+    - cap_codi_al_pdf
+  - id: p49-t3
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - dimensions_parrilla
+    - persones
+    - temps
+    - diametre_conducte
+    - brasa
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '52401054'
+      cel_les:
+        codi: '52401054'
+        pes: '122'
+        mesures: 800x660x650
+        dimensions_parrilla: 585x465
+        persones: '90'
+        temps: '60'
+        diametre_conducte: '180'
+        brasa: 3 KW
+        preu: '8.475'
+    - codi: '52401094'
+      cel_les:
+        codi: '52401094'
+        pes: '170'
+        mesures: 900x660x650
+        dimensions_parrilla: 685x535
+        persones: '115'
+        temps: '75'
+        diametre_conducte: '180'
+        brasa: 4,5 KW
+        preu: '10.390'
+    - codi: '52401005'
+      cel_les:
+        codi: '52401005'
+        pes: '244'
+        mesures: 1000x780x830
+        dimensions_parrilla: 780x625
+        persones: '130'
+        temps: '110'
+        diametre_conducte: '180'
+        brasa: 6 KW
+        preu: '10.865'
+    - codi: '52401021'
+      cel_les:
+        codi: '52401021'
+        pes: '306'
+        mesures: 1300x780x830
+        dimensions_parrilla: 1060x625
+        persones: '175'
+        temps: '150'
+        diametre_conducte: '210'
+        brasa: 8 KW
+        preu: '13.750'
+    - codi: '52542077'
+      cel_les:
+        codi: '52542077'
+        pes: '65'
+        mesures: 700x625x830
+        dimensions_parrilla: ''
+        persones: ''
+        temps: ''
+        diametre_conducte: ''
+        brasa: ''
+        preu: '955'
+    - codi: '52942077'
+      cel_les:
+        codi: '52942077'
+        pes: '71'
+        mesures: 800x685x830
+        dimensions_parrilla: ''
+        persones: ''
+        temps: ''
+        diametre_conducte: ''
+        brasa: ''
+        preu: '1.000'
+    - codi: '52022077'
+      cel_les:
+        codi: '52022077'
+        pes: '102'
+        mesures: 1200x800x730
+        dimensions_parrilla: ''
+        persones: ''
+        temps: ''
+        diametre_conducte: ''
+        brasa: ''
+        preu: '1.565'
+    - codi: '52452077'
+      cel_les:
+        codi: '52452077'
+        pes: '87'
+        mesures: 900x800x730
+        dimensions_parrilla: ''
+        persones: ''
+        temps: ''
+        diametre_conducte: ''
+        brasa: ''
+        preu: '1.045'
+- pagina_pub: 50
+  pagina_pdf: 335
+  taules:
+  - id: p50-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - serie
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '42217202'
+      cel_les:
+        codi: '42217202'
+        serie: '2'
+        preu: '185'
+    - codi: '42948202'
+      cel_les:
+        codi: '42948202'
+        serie: '5'
+        preu: '185'
+    - codi: '41217202'
+      cel_les:
+        codi: '41217202'
+        serie: MINI
+        preu: '185'
+    - codi: '40217202'
+      cel_les:
+        codi: '40217202'
+        serie: '8'
+        preu: '80'
+  - id: p50-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - serie
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '44210006'
+      cel_les:
+        codi: '44210006'
+        serie: 5 - MINI - 8
+        preu: '250'
+  - id: p50-t3
+    reconstruida: false
+    columnes:
+    - codi
+    - serie
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '43000807'
+      cel_les:
+        codi: '43000807'
+        serie: 2 - 5 - MINI
+        preu: '204'
+  - id: p50-t4
+    reconstruida: true
+    columnes:
+    - codi
+    - col1
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '42500807'
+      cel_les:
+        codi: '42500807'
+        col1: '8'
+        preu: '480'
+  - id: p50-t5
+    reconstruida: true
+    columnes:
+    - codi
+    - capacitat_litres
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '41350807'
+      cel_les:
+        codi: '41350807'
+        capacitat_litres: 4 X 5 = 20 LTS.
+        preu: '210'
+  - id: p50-t6
+    reconstruida: true
+    columnes:
+    - codi
+    - col1
+    - forn_estatic
+    - nivells
+    - mesures
+    - alcada
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '46534202'
+      cel_les:
+        codi: '46534202'
+        col1: 2 - 5
+        forn_estatic: '5'
+        nivells: '4'
+        mesures: EN 600x400
+        alcada: '90'
+        preu: '295'
+    - codi: '40800202'
+      cel_les:
+        codi: '40800202'
+        col1: 2 - 5
+        forn_estatic: '10'
+        nivells: '8'
+        mesures: EN 600x400
+        alcada: '96'
+        preu: '520'
+    - codi: '41215202'
+      cel_les:
+        codi: '41215202'
+        col1: '8'
+        forn_estatic: '6'
+        nivells: '5'
+        mesures: EN 600x400
+        alcada: '80'
+        preu: '315'
+    - codi: '42215202'
+      cel_les:
+        codi: '42215202'
+        col1: '8'
+        forn_estatic: '10'
+        nivells: '8'
+        mesures: EN 600x400
+        alcada: '100'
+        preu: '365'
+- pagina_pub: 51
+  pagina_pdf: 336
+  taules:
+  - id: p51-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - mesures
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A01H018
+      cel_les:
+        codi: 4A01H018
+        mesures: 430 x 340
+        preu: '25'
+    - codi: P1230600
+      cel_les:
+        codi: P1230600
+        mesures: EN - 600 x 400
+        preu: '50'
+  - id: p51-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - mesures
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A90H018
+      cel_les:
+        codi: 4A90H018
+        mesures: 340 x 240
+        preu: '25'
+    - codi: 4A10H018
+      cel_les:
+        codi: 4A10H018
+        mesures: 430 x 340
+        preu: '25'
+    - codi: PI231600
+      cel_les:
+        codi: PI231600
+        mesures: EN - 600 x 400
+        preu: '57'
+  - id: p51-t3
+    reconstruida: true
+    columnes:
+    - codi
+    - mesures
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A21H068
+      cel_les:
+        codi: 4A21H068
+        mesures: 340 x 240
+        preu: '25'
+    - codi: 4A70H068
+      cel_les:
+        codi: 4A70H068
+        mesures: 430 x 340
+        preu: '30'
+    - codi: 3770INOX
+      cel_les:
+        codi: 3770INOX
+        mesures: EN - 600 x 400
+        preu: '72'
+  - id: p51-t4
+    reconstruida: true
+    columnes:
+    - codi
+    - col1
+    - mesures
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A30H028
+      cel_les:
+        codi: 4A30H028
+        col1: CR
+        mesures: 430 x 340
+        preu: '20'
+    - codi: '31940000'
+      cel_les:
+        codi: '31940000'
+        col1: INOX
+        mesures: GN 2/3 - 352 x 325
+        preu: '35'
+    - codi: '31950000'
+      cel_les:
+        codi: '31950000'
+        col1: INOX
+        mesures: GN 1/1 - 530 x 325
+        preu: '35'
+    - codi: '37711000'
+      cel_les:
+        codi: '37711000'
+        col1: INOX
+        mesures: EN - 600 x 400
+        preu: '35'
+    - codi: '31960000'
+      cel_les:
+        codi: '31960000'
+        col1: INOX
+        mesures: GN 2/1 - 530 x 650
+        preu: '47'
+  - id: p51-t5
+    reconstruida: true
+    columnes:
+    - codi
+    - col1
+    - mesures
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '21031320'
+      cel_les:
+        codi: '21031320'
+        col1: '5'
+        mesures: EN - 600 x 400
+        preu: '70'
+  - id: p51-t6
+    reconstruida: true
+    columnes:
+    - codi
+    - mesures
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '41182000'
+      cel_les:
+        codi: '41182000'
+        mesures: GN 2/1 - 530 x 650
+        preu: '62'
+  - id: p51-t7
+    reconstruida: true
+    columnes:
+    - codi
+    - mesures
+    - preu
+    - codi_2
+    - mesures_2
+    - preu_2
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: CP1102X1
+      cel_les:
+        codi: CP1102X1
+        mesures: '20'
+        preu: '29'
+    - codi: CP210201
+      cel_les:
+        codi_2: CP210201
+        mesures_2: '20'
+        preu_2: '59'
+    - codi: CP1104X1
+      cel_les:
+        codi: CP1104X1
+        mesures: '40'
+        preu: '32'
+    - codi: CP210401
+      cel_les:
+        codi_2: CP210401
+        mesures_2: '40'
+        preu_2: '67'
+    - codi: CP1106X1
+      cel_les:
+        codi: CP1106X1
+        mesures: '65'
+        preu: '36'
+    - codi: CP210651
+      cel_les:
+        codi_2: CP210651
+        mesures_2: '65'
+        preu_2: '76'
+    - codi: CP1110X1
+      cel_les:
+        codi: CP1110X1
+        mesures: '100'
+        preu: '48'
+    - codi: CP211001
+      cel_les:
+        codi_2: CP211001
+        mesures_2: '100'
+        preu_2: '94'
+    - codi: CP1204X1
+      cel_les:
+        codi: CP1204X1
+        mesures: '40'
+        preu: '22'
+    - codi: CP230401
+      cel_les:
+        codi_2: CP230401
+        mesures_2: '40'
+        preu_2: '33'
+    - codi: CP1206X1
+      cel_les:
+        codi: CP1206X1
+        mesures: '65'
+        preu: '26'
+    - codi: CP230651
+      cel_les:
+        codi_2: CP230651
+        mesures_2: '65'
+        preu_2: '38'
+    paraules_orfes:
+    - GN
+    - 1/2
+    - '325'
+    - x
+    - '265'
+    - GN
+    - 2/3
+    - '352'
+    - x
+    - '325'
+  - id: p51-t8
+    reconstruida: true
+    columnes:
+    - codi
+    - mesures
+    - preu
+    - codi_2
+    - mesures_2
+    - preu_2
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: CP110402
+      cel_les:
+        codi: CP110402
+        mesures: '40'
+        preu: '54'
+    - codi: CP210402
+      cel_les:
+        codi_2: CP210402
+        mesures_2: '40'
+        preu_2: '83'
+    - codi: CP110652
+      cel_les:
+        codi: CP110652
+        mesures: '65'
+        preu: '61'
+    - codi: CP210652
+      cel_les:
+        codi_2: CP210652
+        mesures_2: '65'
+        preu_2: '106'
+    - codi: CP111002
+      cel_les:
+        codi: CP111002
+        mesures: '100'
+        preu: '79'
+    - codi: CP211002
+      cel_les:
+        codi_2: CP211002
+        mesures_2: '100'
+        preu_2: '131'
+- pagina_pub: 52
+  pagina_pdf: 337
+  taules:
+  - id: p52-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - mesures
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '41023301'
+      cel_les:
+        codi: '41023301'
+        mesures: GN 1/1 530 x 325
+        preu: '200'
+  - id: p52-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - mesures
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A882301
+      cel_les:
+        codi: 4A882301
+        mesures: GN 1/1 530 x 325
+        preu: '220'
+  - id: p52-t3
+    reconstruida: false
+    columnes:
+    - codi
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '20100008'
+      cel_les:
+        codi: '20100008'
+        preu: '515'
+  - id: p52-t4
+    reconstruida: true
+    columnes:
+    - codi
+    - mesures
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A772301
+      cel_les:
+        codi: 4A772301
+        mesures: GN 1/1 530 x 325
+        preu: '275'
+  - id: p52-t5
+    reconstruida: true
+    columnes:
+    - codi
+    - mesures
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A623301
+      cel_les:
+        codi: 4A623301
+        mesures: GN 1/1 530 x 325
+        preu: '185'
+  - id: p52-t6
+    reconstruida: false
+    columnes:
+    - codi
+    - diametre_conducte
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A403050
+      cel_les:
+        codi: 4A403050
+        diametre_conducte: '180'
+        preu: '700'
+    - codi: 4A708000
+      cel_les:
+        codi: 4A708000
+        diametre_conducte: '210'
+        preu: '700'
+  - id: p52-t7
+    reconstruida: true
+    columnes:
+    - codi
+    - mesures
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A100059
+      cel_les:
+        codi: 4A100059
+        mesures: '845'
+        preu: '45'
+  - id: p52-t8
+    reconstruida: false
+    columnes:
+    - codi
+    - mesures
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A500059
+      cel_les:
+        codi: 4A500059
+        mesures: '345'
+        preu: '55'
+  - id: p52-t9
+    reconstruida: false
+    columnes:
+    - codi
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A300509
+      cel_les:
+        codi: 4A300509
+        preu: '90'
+- pagina_pub: 53
+  pagina_pdf: 338
+  taules:
+  - id: p53-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - barbacoa
+    - mesures
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A540009
+      cel_les:
+        codi: 4A540009
+        barbacoa: '1'
+        mesures: 585 x 465
+        preu: '490'
+    - codi: 4A940009
+      cel_les:
+        codi: 4A940009
+        barbacoa: '1'
+        mesures: 685 x 535
+        preu: '540'
+    - codi: 4A294009
+      cel_les:
+        codi: 4A294009
+        barbacoa: 1/2
+        mesures: 340 x 535
+        preu: '410'
+    - codi: 4A250009
+      cel_les:
+        codi: 4A250009
+        barbacoa: 1/2
+        mesures: 385 x 625
+        preu: '465'
+    - codi: 4A050009
+      cel_les:
+        codi: 4A050009
+        barbacoa: '1'
+        mesures: 780 x 625
+        preu: '615'
+    - codi: 4A021009
+      cel_les:
+        codi: 4A021009
+        barbacoa: '1'
+        mesures: 1060 x 625
+        preu: '805'
+    - codi: 4A221009
+      cel_les:
+        codi: 4A221009
+        barbacoa: 1/2
+        mesures: 530 x 625
+        preu: '510'
+  - id: p53-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - barbacoa
+    - mesures
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A540109
+      cel_les:
+        codi: 4A540109
+        barbacoa: '1'
+        mesures: 585 x 465
+        preu: '540'
+    - codi: 4A940109
+      cel_les:
+        codi: 4A940109
+        barbacoa: '1'
+        mesures: 685 x 535
+        preu: '570'
+    - codi: 4A294109
+      cel_les:
+        codi: 4A294109
+        barbacoa: 1/2
+        mesures: 340 x 535
+        preu: '420'
+    - codi: 4A250109
+      cel_les:
+        codi: 4A250109
+        barbacoa: 1/2
+        mesures: 385 x 625
+        preu: '509'
+    - codi: 4A050109
+      cel_les:
+        codi: 4A050109
+        barbacoa: '1'
+        mesures: 780 x 625
+        preu: '585'
+    - codi: 4A021109
+      cel_les:
+        codi: 4A021109
+        barbacoa: '1'
+        mesures: 1060 x 625
+        preu: '730'
+    - codi: 4A221109
+      cel_les:
+        codi: 4A221109
+        barbacoa: 1/2
+        mesures: 530 x 625
+        preu: '578'
+  - id: p53-t3
+    reconstruida: true
+    columnes:
+    - codi
+    - nivells
+    - mesures
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A940079
+      cel_les:
+        codi: 4A940079
+        nivells: '4'
+        mesures: '535'
+        preu: '229'
+    - codi: 4A050079
+      cel_les:
+        codi: 4A050079
+        nivells: '4'
+        mesures: '625'
+        preu: '242'
+    - codi: 4A021079
+      cel_les:
+        codi: 4A021079
+        nivells: '4'
+        mesures: '625'
+        preu: '242'
+  - id: p53-t4
+    reconstruida: true
+    columnes:
+    - codi
+    - placa_lisa
+    - mesures
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A294069
+      cel_les:
+        codi: 4A294069
+        placa_lisa: 1/2
+        mesures: 340 x 535
+        preu: '410'
+    - codi: 4A250069
+      cel_les:
+        codi: 4A250069
+        placa_lisa: 1/2
+        mesures: 385 x 625
+        preu: '430'
+    - codi: 4A221069
+      cel_les:
+        codi: 4A221069
+        placa_lisa: 1/2
+        mesures: 530 x 625
+        preu: '455'
+  - id: p53-t5
+    reconstruida: true
+    columnes:
+    - codi
+    - mesures
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A010059
+      cel_les:
+        codi: 4A010059
+        mesures: 540 x 180 x 40
+        preu: '70'
+  - id: p53-t6
+    reconstruida: true
+    columnes:
+    - codi
+    - mesures
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A520059
+      cel_les:
+        codi: 4A520059
+        mesures: 250 x 210 x 60
+        preu: '115'
+    - codi: 4A030059
+      cel_les:
+        codi: 4A030059
+        mesures: 300 x 260 x 60
+        preu: '125'

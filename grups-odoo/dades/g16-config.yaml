@@ -1,0 +1,3650 @@
+# Generat per scripts/genera_config.py --grup 16 (editable; es pot regenerar)
+grup:
+  numero: 16
+  codi_odoo: G16
+families:
+- clau: TRITURADORES
+  noms:
+    es: TRITURADORES
+    en: CRUSHERS
+    fr: BROYEURS
+  sequence: 10
+  tipus: producte
+  pagina: p06
+  taula: p06-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: velocitat
+    etiqueta: null
+  - codi: longitud_barra
+    etiqueta: null
+  - codi: immersio_mm
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: motor
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 170052XM
+    ordre: 10
+    valors:
+      velocitat:
+        es: '13000'
+        en: '13000'
+        fr: '13000'
+      longitud_barra:
+        es: '300'
+        en: '300'
+        fr: '300'
+      immersio_mm:
+        es: '190'
+        en: '190'
+        fr: '190'
+      capacitat_litres:
+        es: '30'
+        en: '30'
+        fr: '30'
+      motor:
+        es: 250 W 230/1V
+        en: 250 W 230/1V
+        fr: 250 W 230/1V
+  - codi: 17304MXF
+    ordre: 20
+    valors:
+      velocitat:
+        es: 2500/11000
+        en: 2500/11000
+        fr: 2500/11000
+      longitud_barra:
+        es: '300'
+        en: '300'
+        fr: '300'
+      immersio_mm:
+        es: '190'
+        en: '190'
+        fr: '190'
+      capacitat_litres:
+        es: '30'
+        en: '30'
+        fr: '30'
+      motor:
+        es: 400 W 230/1V
+        en: 400 W 230/1V
+        fr: 400 W 230/1V
+  - codi: 17404MXF
+    ordre: 30
+    valors:
+      velocitat:
+        es: 2500/11000
+        en: 2500/11000
+        fr: 2500/11000
+      longitud_barra:
+        es: '400'
+        en: '400'
+        fr: '400'
+      immersio_mm:
+        es: '290'
+        en: '290'
+        fr: '290'
+      capacitat_litres:
+        es: '60'
+        en: '60'
+        fr: '60'
+      motor:
+        es: 400 W 230/1V
+        en: 400 W 230/1V
+        fr: 400 W 230/1V
+  - codi: 17504MXF
+    ordre: 40
+    valors:
+      velocitat:
+        es: 2500/11000
+        en: 2500/11000
+        fr: 2500/11000
+      longitud_barra:
+        es: '500'
+        en: '500'
+        fr: '500'
+      immersio_mm:
+        es: '390'
+        en: '390'
+        fr: '390'
+      capacitat_litres:
+        es: '100'
+        en: '100'
+        fr: '100'
+      motor:
+        es: 400 W 230/1V
+        en: 400 W 230/1V
+        fr: 400 W 230/1V
+  - codi: 17604MXF
+    ordre: 50
+    valors:
+      velocitat:
+        es: 2500/11000
+        en: 2500/11000
+        fr: 2500/11000
+      longitud_barra:
+        es: '600'
+        en: '600'
+        fr: '600'
+      immersio_mm:
+        es: '490'
+        en: '490'
+        fr: '490'
+      capacitat_litres:
+        es: '150'
+        en: '150'
+        fr: '150'
+      motor:
+        es: 400 W 230/1V
+        en: 400 W 230/1V
+        fr: 400 W 230/1V
+  compartits: []
+- clau: BATIDORES-TRITURADORES
+  noms:
+    es: BATIDORES-TRITURADORES
+    en: MIXERS AND CRUSHERS
+    fr: MÉLANGEURS ET BROYEURS
+  sequence: 20
+  tipus: producte
+  pagina: p07
+  taula: p07-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: velocitat
+    etiqueta: null
+  - codi: batedora
+    etiqueta:
+      es: Longitud triturador
+      en: Crusher length
+      fr: Longueur du broyeur
+  - codi: longitud_barra
+    etiqueta: null
+  - codi: immersio_mm
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: motor
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 170F4MXF
+    ordre: 10
+    valors:
+      velocitat:
+        es: 250/1500
+        en: 250/1500
+        fr: 250/1500
+      batedora:
+        es: '350'
+        en: '350'
+        fr: '350'
+      longitud_barra:
+        es: '-'
+        en: '-'
+        fr: '-'
+      immersio_mm:
+        es: '190'
+        en: '190'
+        fr: '190'
+      capacitat_litres:
+        es: '30'
+        en: '30'
+        fr: '30'
+      motor:
+        es: 400 W 230/1V
+        en: 400 W 230/1V
+        fr: 400 W 230/1V
+  - codi: 173F4MXF
+    ordre: 20
+    valors:
+      velocitat:
+        es: 250/1500 2500/11000
+        en: 250/1500 2500/11000
+        fr: 250/1500 2500/11000
+      batedora:
+        es: '350'
+        en: '350'
+        fr: '350'
+      longitud_barra:
+        es: '300'
+        en: '300'
+        fr: '300'
+      immersio_mm:
+        es: '190'
+        en: '190'
+        fr: '190'
+      capacitat_litres:
+        es: '30'
+        en: '30'
+        fr: '30'
+      motor:
+        es: 400 W 230/1V
+        en: 400 W 230/1V
+        fr: 400 W 230/1V
+  - codi: 174F4MXF
+    ordre: 30
+    valors:
+      velocitat:
+        es: 250/1500 2500/11000
+        en: 250/1500 2500/11000
+        fr: 250/1500 2500/11000
+      batedora:
+        es: '350'
+        en: '350'
+        fr: '350'
+      longitud_barra:
+        es: '400'
+        en: '400'
+        fr: '400'
+      immersio_mm:
+        es: '290'
+        en: '290'
+        fr: '290'
+      capacitat_litres:
+        es: '60'
+        en: '60'
+        fr: '60'
+      motor:
+        es: 400 W 230/1V
+        en: 400 W 230/1V
+        fr: 400 W 230/1V
+  - codi: 175F4MXF
+    ordre: 40
+    valors:
+      velocitat:
+        es: 250/1500 2500/11000
+        en: 250/1500 2500/11000
+        fr: 250/1500 2500/11000
+      batedora:
+        es: '350'
+        en: '350'
+        fr: '350'
+      longitud_barra:
+        es: '500'
+        en: '500'
+        fr: '500'
+      immersio_mm:
+        es: '390'
+        en: '390'
+        fr: '390'
+      capacitat_litres:
+        es: '100'
+        en: '100'
+        fr: '100'
+      motor:
+        es: 400 W 230/1V
+        en: 400 W 230/1V
+        fr: 400 W 230/1V
+  - codi: 176F4MXF
+    ordre: 50
+    valors:
+      velocitat:
+        es: 250/1500 2500/11000
+        en: 250/1500 2500/11000
+        fr: 250/1500 2500/11000
+      batedora:
+        es: '350'
+        en: '350'
+        fr: '350'
+      longitud_barra:
+        es: '600'
+        en: '600'
+        fr: '600'
+      immersio_mm:
+        es: '490'
+        en: '490'
+        fr: '490'
+      capacitat_litres:
+        es: '150'
+        en: '150'
+        fr: '150'
+      motor:
+        es: 400 W 230/1V
+        en: 400 W 230/1V
+        fr: 400 W 230/1V
+  compartits: []
+- clau: 'COMPONENTES: BATIDOR'
+  noms:
+    es: 'COMPONENTES: BATIDOR'
+    en: 'COMPONENTS: MIXER'
+    fr: 'COMPOSANTS : MÉLANGEUR'
+  sequence: 30
+  tipus: producte
+  pagina: p08
+  taula: p08-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: mesures_text
+    etiqueta: null
+  - codi: motor
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 173MFATS
+    ordre: 10
+    valors:
+      mesures_text:
+        es: Ø 170 x 350
+        en: Ø 170 x 350
+        fr: Ø 170 x 350
+      motor:
+        es: PARA 400 W
+        en: FOR 400 W
+        fr: POUR 400 W
+  compartits: []
+- clau: 'COMPONENTES: TRITURADOR'
+  noms:
+    es: 'COMPONENTES: TRITURADOR'
+    en: 'COMPONENTS: CRUSHER'
+    fr: 'COMPOSANTS : BROYEUR'
+  sequence: 40
+  tipus: producte
+  pagina: p08
+  taula: p08-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: longitud_barra
+    etiqueta: null
+  - codi: motor
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 170352EM
+    ordre: 10
+    valors:
+      longitud_barra:
+        es: '300'
+        en: '300'
+        fr: '300'
+      motor:
+        es: PARA 250 W
+        en: FOR 250 W
+        fr: POUR 250 W
+  - codi: 170304EM
+    ordre: 20
+    valors:
+      longitud_barra:
+        es: '300'
+        en: '300'
+        fr: '300'
+      motor:
+        es: PARA 400 W
+        en: FOR 400 W
+        fr: POUR 400 W
+  - codi: 170404EM
+    ordre: 30
+    valors:
+      longitud_barra:
+        es: '400'
+        en: '400'
+        fr: '400'
+      motor:
+        es: PARA 400 W
+        en: FOR 400 W
+        fr: POUR 400 W
+  - codi: 170504EM
+    ordre: 40
+    valors:
+      longitud_barra:
+        es: '500'
+        en: '500'
+        fr: '500'
+      motor:
+        es: PARA 400 W
+        en: FOR 400 W
+        fr: POUR 400 W
+  - codi: 170604EM
+    ordre: 50
+    valors:
+      longitud_barra:
+        es: '600'
+        en: '600'
+        fr: '600'
+      motor:
+        es: PARA 400 W
+        en: FOR 400 W
+        fr: POUR 400 W
+  compartits: []
+- clau: CORTADORAS DE FIAMBRES
+  noms:
+    es: CORTADORAS DE FIAMBRES
+    en: SLICERS
+    fr: TRANCHEUSES
+  sequence: 50
+  tipus: producte
+  pagina: p09
+  taula: p09-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: diametre_alcada
+    etiqueta: null
+  - codi: distancia
+    etiqueta:
+      es: Espesor de corte
+      en: Cutting thickness
+      fr: Épaisseur de coupe
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '17539310'
+    ordre: 10
+    valors:
+      diametre_alcada:
+        es: '220'
+        en: '220'
+        fr: '220'
+      distancia:
+        es: '13'
+        en: '13'
+        fr: '13'
+      potencia_electrica:
+        es: 210 W 230/1V
+        en: 210 W 230/1V
+        fr: 210 W 230/1V
+  - codi: '17572210'
+    ordre: 20
+    valors:
+      diametre_alcada:
+        es: '250'
+        en: '250'
+        fr: '250'
+      distancia:
+        es: '13'
+        en: '13'
+        fr: '13'
+      potencia_electrica:
+        es: 240 W 230/1V
+        en: 240 W 230/1V
+        fr: 240 W 230/1V
+  - codi: 170030CE
+    ordre: 30
+    valors:
+      diametre_alcada:
+        es: '300'
+        en: '300'
+        fr: '300'
+      distancia:
+        es: '18'
+        en: '18'
+        fr: '18'
+      potencia_electrica:
+        es: 270 W 230/1V
+        en: 270 W 230/1V
+        fr: 270 W 230/1V
+  compartits: []
+- clau: CORTADORAS DE FIAMBRES#2
+  noms:
+    es: CORTADORAS DE FIAMBRES
+    en: SLICERS
+    fr: TRANCHEUSES
+  sequence: 60
+  tipus: producte
+  pagina: p10
+  taula: p10-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: diametre_alcada
+    etiqueta: null
+  - codi: distancia
+    etiqueta:
+      es: Espesor de corte
+      en: Cutting thickness
+      fr: Épaisseur de coupe
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '17865000'
+    ordre: 10
+    valors:
+      diametre_alcada:
+        es: '300'
+        en: '300'
+        fr: '300'
+      distancia:
+        es: '15'
+        en: '15'
+        fr: '15'
+      potencia_electrica:
+        es: 260 W 230/1V
+        en: 260 W 230/1V
+        fr: 260 W 230/1V
+  - codi: '17965000'
+    ordre: 20
+    valors:
+      diametre_alcada:
+        es: '350'
+        en: '350'
+        fr: '350'
+      distancia:
+        es: '15'
+        en: '15'
+        fr: '15'
+      potencia_electrica:
+        es: 370 W 230/1V
+        en: 370 W 230/1V
+        fr: 370 W 230/1V
+  compartits: []
+- clau: AMASADORAS CON CABEZAL FIJO
+  noms:
+    es: AMASADORAS CON CABEZAL FIJO
+    en: FIXED HEAD MIXERS
+    fr: MÉLANGEURS À TÊTE FIXE
+  sequence: 70
+  tipus: producte
+  pagina: p13
+  taula: p13-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: dimensions_cubeta
+    etiqueta: null
+  - codi: velocitat
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '55010121'
+    ordre: 10
+    valors:
+      capacitat_litres:
+        es: '7'
+        en: '7'
+        fr: '7'
+      dimensions_cubeta:
+        es: Ø 240 x 160
+        en: Ø 240 x 160
+        fr: Ø 240 x 160
+      velocitat:
+        es: '70'
+        en: '70'
+        fr: '70'
+      potencia_electrica:
+        es: 230 W 230/1V
+        en: 230 W 230/1V
+        fr: 230 W 230/1V
+  - codi: '55510121'
+    ordre: 20
+    valors:
+      capacitat_litres:
+        es: '16'
+        en: '16'
+        fr: '16'
+      dimensions_cubeta:
+        es: Ø 320 x 210
+        en: Ø 320 x 210
+        fr: Ø 320 x 210
+      velocitat:
+        es: '85'
+        en: '85'
+        fr: '85'
+      potencia_electrica:
+        es: 550 W 230/1V
+        en: 550 W 230/1V
+        fr: 550 W 230/1V
+  - codi: '55020121'
+    ordre: 30
+    valors:
+      capacitat_litres:
+        es: '21'
+        en: '21'
+        fr: '21'
+      dimensions_cubeta:
+        es: Ø 360 x 210
+        en: Ø 360 x 210
+        fr: Ø 360 x 210
+      velocitat:
+        es: '85'
+        en: '85'
+        fr: '85'
+      potencia_electrica:
+        es: 750 W 230/1V
+        en: 750 W 230/1V
+        fr: 750 W 230/1V
+  - codi: '55030121'
+    ordre: 40
+    valors:
+      capacitat_litres:
+        es: '32'
+        en: '32'
+        fr: '32'
+      dimensions_cubeta:
+        es: Ø 400 x 260
+        en: Ø 400 x 260
+        fr: Ø 400 x 260
+      velocitat:
+        es: '92'
+        en: '92'
+        fr: '92'
+      potencia_electrica:
+        es: 1100 W 230/1V
+        en: 1100 W 230/1V
+        fr: 1100 W 230/1V
+  compartits: []
+- clau: AMASADORAS CON CABEZAL ABATIBLE
+  noms:
+    es: AMASADORAS CON CABEZAL ABATIBLE
+    en: FOLDING HEAD MIXERS
+    fr: MÉLANGEURS À TÊTE PLIANTE
+  sequence: 80
+  tipus: producte
+  pagina: p14
+  taula: p14-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: dimensions_cubeta
+    etiqueta: null
+  - codi: velocitat
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '55020221'
+    ordre: 10
+    valors:
+      capacitat_litres:
+        es: '21'
+        en: '21'
+        fr: '21'
+      dimensions_cubeta:
+        es: Ø 380 x 210
+        en: Ø 380 x 210
+        fr: Ø 380 x 210
+      velocitat:
+        es: '85'
+        en: '85'
+        fr: '85'
+      potencia_electrica:
+        es: 750 W 230/1V
+        en: 750 W 230/1V
+        fr: 750 W 230/1V
+  - codi: '55020261'
+    ordre: 20
+    valors:
+      capacitat_litres:
+        es: '21'
+        en: '21'
+        fr: '21'
+      dimensions_cubeta:
+        es: Ø 380 x 210
+        en: Ø 380 x 210
+        fr: Ø 380 x 210
+      velocitat:
+        es: 85/170
+        en: 85/170
+        fr: 85/170
+      potencia_electrica:
+        es: 750 W 230/1V
+        en: 750 W 230/1V
+        fr: 750 W 230/1V
+  - codi: '55030221'
+    ordre: 30
+    valors:
+      capacitat_litres:
+        es: '32'
+        en: '32'
+        fr: '32'
+      dimensions_cubeta:
+        es: Ø 400 x 260
+        en: Ø 400 x 260
+        fr: Ø 400 x 260
+      velocitat:
+        es: '92'
+        en: '92'
+        fr: '92'
+      potencia_electrica:
+        es: 1100 W 230/1V
+        en: 1100 W 230/1V
+        fr: 1100 W 230/1V
+  - codi: '55030261'
+    ordre: 40
+    valors:
+      capacitat_litres:
+        es: '32'
+        en: '32'
+        fr: '32'
+      dimensions_cubeta:
+        es: Ø 400 x 260
+        en: Ø 400 x 260
+        fr: Ø 400 x 260
+      velocitat:
+        es: 92/184
+        en: 92/184
+        fr: 92/184
+      potencia_electrica:
+        es: 1500 W 230/1V
+        en: 1500 W 230/1V
+        fr: 1500 W 230/1V
+  - codi: '55040221'
+    ordre: 50
+    valors:
+      capacitat_litres:
+        es: '41'
+        en: '41'
+        fr: '41'
+      dimensions_cubeta:
+        es: Ø 450 x 260
+        en: Ø 450 x 260
+        fr: Ø 450 x 260
+      velocitat:
+        es: '92'
+        en: '92'
+        fr: '92'
+      potencia_electrica:
+        es: 1100 W 230/1V
+        en: 1100 W 230/1V
+        fr: 1100 W 230/1V
+  - codi: '55040261'
+    ordre: 60
+    valors:
+      capacitat_litres:
+        es: '41'
+        en: '41'
+        fr: '41'
+      dimensions_cubeta:
+        es: Ø 450 x 260
+        en: Ø 450 x 260
+        fr: Ø 450 x 260
+      velocitat:
+        es: 92/184
+        en: 92/184
+        fr: 92/184
+      potencia_electrica:
+        es: 2200 W 230/1V
+        en: 2200 W 230/1V
+        fr: 2200 W 230/1V
+  - codi: '55050221'
+    ordre: 70
+    valors:
+      capacitat_litres:
+        es: '48'
+        en: '48'
+        fr: '48'
+      dimensions_cubeta:
+        es: Ø 450 x 300
+        en: Ø 450 x 300
+        fr: Ø 450 x 300
+      velocitat:
+        es: '92'
+        en: '92'
+        fr: '92'
+      potencia_electrica:
+        es: 1500 W 230/1V
+        en: 1500 W 230/1V
+        fr: 1500 W 230/1V
+  - codi: '55050261'
+    ordre: 80
+    valors:
+      capacitat_litres:
+        es: '48'
+        en: '48'
+        fr: '48'
+      dimensions_cubeta:
+        es: Ø 450 x 300
+        en: Ø 450 x 300
+        fr: Ø 450 x 300
+      velocitat:
+        es: 92/184
+        en: 92/184
+        fr: 92/184
+      potencia_electrica:
+        es: 2200 W 230/1V
+        en: 2200 W 230/1V
+        fr: 2200 W 230/1V
+  compartits: []
+- clau: AMASADORAS PLANETARIAS
+  noms:
+    es: AMASADORAS PLANETARIAS
+    en: PLANETARY MIXERS
+    fr: MÉLANGEURS PLANÉTAIRES
+  sequence: 90
+  tipus: producte
+  pagina: p15
+  taula: p15-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: dimensions_cubeta
+    etiqueta: null
+  - codi: velocitat
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '55010521'
+    ordre: 10
+    valors:
+      capacitat_litres:
+        es: '10'
+        en: '10'
+        fr: '10'
+      dimensions_cubeta:
+        es: Ø 300 x 210
+        en: Ø 300 x 210
+        fr: Ø 300 x 210
+      velocitat:
+        es: 113/184/341
+        en: 113/184/341
+        fr: 113/184/341
+      potencia_electrica:
+        es: 450 W 230/1V
+        en: 450 W 230/1V
+        fr: 450 W 230/1V
+  - codi: '55020521'
+    ordre: 20
+    valors:
+      capacitat_litres:
+        es: '20'
+        en: '20'
+        fr: '20'
+      dimensions_cubeta:
+        es: Ø 380 x 210
+        en: Ø 380 x 210
+        fr: Ø 380 x 210
+      velocitat:
+        es: 108/161/382
+        en: 108/161/382
+        fr: 108/161/382
+      potencia_electrica:
+        es: 1100 W 230/1V
+        en: 1100 W 230/1V
+        fr: 1100 W 230/1V
+  - codi: '55030521'
+    ordre: 30
+    valors:
+      capacitat_litres:
+        es: '30'
+        en: '30'
+        fr: '30'
+      dimensions_cubeta:
+        es: Ø 400 x 260
+        en: Ø 400 x 260
+        fr: Ø 400 x 260
+      velocitat:
+        es: 108/161/382
+        en: 108/161/382
+        fr: 108/161/382
+      potencia_electrica:
+        es: 1100 W 400/3V
+        en: 1100 W 400/3V
+        fr: 1100 W 400/3V
+  - codi: '55040521'
+    ordre: 40
+    valors:
+      capacitat_litres:
+        es: '40'
+        en: '40'
+        fr: '40'
+      dimensions_cubeta:
+        es: Ø 450 x 260
+        en: Ø 450 x 260
+        fr: Ø 450 x 260
+      velocitat:
+        es: 84/151/270
+        en: 84/151/270
+        fr: 84/151/270
+      potencia_electrica:
+        es: 2200 W 400/3V
+        en: 2200 W 400/3V
+        fr: 2200 W 400/3V
+  compartits: []
+- clau: AMASADORAS PLANETARIAS DE SOBRE MESA
+  noms:
+    es: AMASADORAS PLANETARIAS DE SOBRE MESA
+    en: TABLE TOP PLANETARY MIXERS
+    fr: MÉLANGEURS PLANÉTAIRES DE TABLE
+  sequence: 100
+  tipus: producte
+  pagina: p16
+  taula: p16-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: dimensions_cubeta
+    etiqueta: null
+  - codi: velocitat
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '55124005'
+    ordre: 10
+    valors:
+      capacitat_litres:
+        es: '5'
+        en: '5'
+        fr: '5'
+      dimensions_cubeta:
+        es: Ø 240 x 180
+        en: Ø 240 x 180
+        fr: Ø 240 x 180
+      velocitat:
+        es: 0 a 302
+        en: 0 a 302
+        fr: 0 a 302
+      potencia_electrica:
+        es: 500 W 230/1V
+        en: 500 W 230/1V
+        fr: 500 W 230/1V
+  - codi: '55124007'
+    ordre: 20
+    valors:
+      capacitat_litres:
+        es: 7,5
+        en: 7,5
+        fr: 7,5
+      dimensions_cubeta:
+        es: Ø 240 x 200
+        en: Ø 240 x 200
+        fr: Ø 240 x 200
+      velocitat:
+        es: 0 a 302
+        en: 0 a 302
+        fr: 0 a 302
+      potencia_electrica:
+        es: 500 W 230/1V
+        en: 500 W 230/1V
+        fr: 500 W 230/1V
+  - codi: '55124010'
+    ordre: 30
+    valors:
+      capacitat_litres:
+        es: '10'
+        en: '10'
+        fr: '10'
+      dimensions_cubeta:
+        es: Ø 240 x 230
+        en: Ø 240 x 230
+        fr: Ø 240 x 230
+      velocitat:
+        es: 0 a 302
+        en: 0 a 302
+        fr: 0 a 302
+      potencia_electrica:
+        es: 500 W 230/1V
+        en: 500 W 230/1V
+        fr: 500 W 230/1V
+  compartits: []
+- clau: FORMADORAS DE MASA PARA PIZZA
+  noms:
+    es: FORMADORAS DE MASA PARA PIZZA
+    en: PIZZA DOUGH FORMERS
+    fr: FORMEUSES DE PÂTE À PIZZA
+  sequence: 110
+  tipus: producte
+  pagina: p19
+  taula: p19-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: diametre
+    etiqueta: null
+  - codi: pedal
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '55105012'
+    ordre: 10
+    valors:
+      diametre:
+        es: Ø 260 / 450
+        en: Ø 260 / 450
+        fr: Ø 260 / 450
+      pedal:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      potencia_electrica:
+        es: 370 W 230/1V
+        en: 370 W 230/1V
+        fr: 370 W 230/1V
+  - codi: 5510501P
+    ordre: 20
+    valors:
+      diametre:
+        es: Ø 260 / 450
+        en: Ø 260 / 450
+        fr: Ø 260 / 450
+      pedal:
+        es: OK
+        en: OK
+        fr: OK
+      potencia_electrica:
+        es: 370 W 230/1V
+        en: 370 W 230/1V
+        fr: 370 W 230/1V
+  - codi: 55130R13
+    ordre: 30
+    valors:
+      diametre:
+        es: Ø 140 / 300
+        en: Ø 140 / 300
+        fr: Ø 140 / 300
+      pedal:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      potencia_electrica:
+        es: 370 W 230/1V
+        en: 370 W 230/1V
+        fr: 370 W 230/1V
+  - codi: 55130R1P
+    ordre: 40
+    valors:
+      diametre:
+        es: Ø 140 / 300
+        en: Ø 140 / 300
+        fr: Ø 140 / 300
+      pedal:
+        es: OK
+        en: OK
+        fr: OK
+      potencia_electrica:
+        es: 370 W 230/1V
+        en: 370 W 230/1V
+        fr: 370 W 230/1V
+  - codi: 55140R13
+    ordre: 50
+    valors:
+      diametre:
+        es: Ø 260 / 400
+        en: Ø 260 / 400
+        fr: Ø 260 / 400
+      pedal:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      potencia_electrica:
+        es: 370 W 230/1V
+        en: 370 W 230/1V
+        fr: 370 W 230/1V
+  - codi: 55140R1P
+    ordre: 60
+    valors:
+      diametre:
+        es: Ø 260 / 400
+        en: Ø 260 / 400
+        fr: Ø 260 / 400
+      pedal:
+        es: OK
+        en: OK
+        fr: OK
+      potencia_electrica:
+        es: 370 W 230/1V
+        en: 370 W 230/1V
+        fr: 370 W 230/1V
+  - codi: '55100111'
+    ordre: 70
+    valors:
+      diametre:
+        es: PEDAL FOOTPEDAL
+        en: PEDAL FOOTPEDAL
+        fr: PEDAL FOOTPEDAL
+      pedal:
+        es: PÉDALE
+        en: PÉDALE
+        fr: PÉDALE
+  compartits: []
+- clau: CORTADORA DE HORTALIZAS
+  noms:
+    es: CORTADORA DE HORTALIZAS
+    en: VEGETABLES CUTTER
+    fr: COUPE LÉGUMES
+  sequence: 120
+  tipus: producte
+  pagina: p20
+  taula: p20-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: produccio_kg_h
+    etiqueta: null
+  - codi: dot_kitdiscr
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '55502121'
+    ordre: 10
+    valors:
+      produccio_kg_h:
+        es: '200'
+        en: '200'
+        fr: '200'
+      dot_kitdiscr:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      potencia_electrica:
+        es: 370 W 230/1V
+        en: 370 W 230/1V
+        fr: 370 W 230/1V
+  - codi: '55552121'
+    ordre: 20
+    valors:
+      produccio_kg_h:
+        es: '200'
+        en: '200'
+        fr: '200'
+      dot_kitdiscr:
+        es: OK
+        en: OK
+        fr: OK
+      potencia_electrica:
+        es: 370 W 230/1V
+        en: 370 W 230/1V
+        fr: 370 W 230/1V
+  - codi: KITDISCR
+    ordre: 30
+    valors:
+      produccio_kg_h:
+        es: DISCOS DISC KIT
+        en: DISCOS DISC KIT
+        fr: DISCOS DISC KIT
+      dot_kitdiscr:
+        es: KIT DE DISQUES
+        en: KIT DE DISQUES
+        fr: KIT DE DISQUES
+  compartits: []
+- clau: CLASS 1.1
+  noms:
+    es: CLASS 1.1
+    en: CLASS 1.1
+    fr: CLASS 1.1
+  sequence: 130
+  tipus: accessoris
+  pagina: p21
+  taula: p21-t1
+  blocs: 2
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: distancia
+    etiqueta:
+      es: Espesor de corte
+      en: Cutting thickness
+      fr: Épaisseur de coupe
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: DF011100
+    ordre: 10
+    valors:
+      distancia:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: DF041400
+    ordre: 1010
+    valors:
+      distancia:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: DF25N200
+    ordre: 20
+    valors:
+      distancia:
+        es: 2,5 combinar Combiner avec
+        en: 2,5 combinar Combiner avec
+        fr: 2,5 combinar Combiner avec
+  compartits: []
+- clau: CLASS 1.1 (2)
+  noms:
+    es: CLASS 1.1 (2)
+    en: CLASS 1.1 (2)
+    fr: CLASS 1.1 (2)
+  sequence: 140
+  tipus: accessoris
+  pagina: p21
+  taula: p21-t1
+  blocs: 2
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: distancia
+    etiqueta:
+      es: Espesor de corte
+      en: Cutting thickness
+      fr: Épaisseur de coupe
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: PS081700
+    ordre: 1010
+    valors:
+      distancia:
+        es: '8'
+        en: '8'
+        fr: '8'
+  - codi: DF101010
+    ordre: 20
+    valors:
+      distancia:
+        es: '10'
+        en: '10'
+        fr: '10'
+  - codi: PS101800
+    ordre: 1020
+    valors:
+      distancia:
+        es: '10'
+        en: '10'
+        fr: '10'
+  - codi: DF141410
+    ordre: 30
+    valors:
+      distancia:
+        es: '14'
+        en: '14'
+        fr: '14'
+  - codi: PS141010
+    ordre: 1030
+    valors:
+      distancia:
+        es: '14'
+        en: '14'
+        fr: '14'
+  compartits: []
+- clau: CLASS 4
+  noms:
+    es: CLASS 4
+    en: CLASS 4
+    fr: CLASS 4
+  sequence: 150
+  tipus: accessoris
+  pagina: p21
+  taula: p21-t2
+  blocs: 2
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: distancia
+    etiqueta:
+      es: Espesor de corte
+      en: Cutting thickness
+      fr: Épaisseur de coupe
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: DQ044000
+    ordre: 10
+    valors:
+      distancia:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: DTV11000
+    ordre: 1010
+    valors:
+      distancia:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: DQ066000
+    ordre: 20
+    valors:
+      distancia:
+        es: '6'
+        en: '6'
+        fr: '6'
+  - codi: DT021200
+    ordre: 1020
+    valors:
+      distancia:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: DQ088000
+    ordre: 30
+    valors:
+      distancia:
+        es: '8'
+        en: '8'
+        fr: '8'
+  - codi: DT031300
+    ordre: 1030
+    valors:
+      distancia:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: DQ100100
+    ordre: 40
+    valors:
+      distancia:
+        es: '10'
+        en: '10'
+        fr: '10'
+  - codi: DT041400
+    ordre: 1040
+    valors:
+      distancia:
+        es: '4'
+        en: '4'
+        fr: '4'
+  compartits: []
+- clau: PICADORAS DE CARNE
+  noms:
+    es: PICADORAS DE CARNE
+    en: MEAT MINCER
+    fr: HACHOIR À VIANDE
+  sequence: 160
+  tipus: producte
+  pagina: p24
+  taula: p24-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: produccio_kg_h
+    etiqueta: null
+  - codi: dimensions_safata_mm
+    etiqueta:
+      es: Bandeja de entrada
+      en: Inbox
+      fr: Boîte
+  - codi: entrada
+    etiqueta: null
+  - codi: sortida
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '17445100'
+    ordre: 10
+    valors:
+      produccio_kg_h:
+        es: '75'
+        en: '75'
+        fr: '75'
+      dimensions_safata_mm:
+        es: 250x200x50
+        en: 250x200x50
+        fr: 250x200x50
+      entrada:
+        es: '50'
+        en: '50'
+        fr: '50'
+      sortida:
+        es: '60'
+        en: '60'
+        fr: '60'
+      potencia_electrica:
+        es: 380 W 230/1V
+        en: 380 W 230/1V
+        fr: 380 W 230/1V
+  - codi: '17735100'
+    ordre: 20
+    valors:
+      produccio_kg_h:
+        es: '200'
+        en: '200'
+        fr: '200'
+      dimensions_safata_mm:
+        es: 340x250x50
+        en: 340x250x50
+        fr: 340x250x50
+      entrada:
+        es: '50'
+        en: '50'
+        fr: '50'
+      sortida:
+        es: '70'
+        en: '70'
+        fr: '70'
+      potencia_electrica:
+        es: 750 W 230/1V
+        en: 750 W 230/1V
+        fr: 750 W 230/1V
+  - codi: '17835100'
+    ordre: 30
+    valors:
+      produccio_kg_h:
+        es: '300'
+        en: '300'
+        fr: '300'
+      dimensions_safata_mm:
+        es: 340x250x50
+        en: 340x250x50
+        fr: 340x250x50
+      entrada:
+        es: '50'
+        en: '50'
+        fr: '50'
+      sortida:
+        es: '82'
+        en: '82'
+        fr: '82'
+      potencia_electrica:
+        es: 1100 W 230/1V
+        en: 1100 W 230/1V
+        fr: 1100 W 230/1V
+  - codi: '17345100'
+    ordre: 40
+    valors:
+      produccio_kg_h:
+        es: '400'
+        en: '400'
+        fr: '400'
+      dimensions_safata_mm:
+        es: 400x350x50
+        en: 400x350x50
+        fr: 400x350x50
+      entrada:
+        es: '50'
+        en: '50'
+        fr: '50'
+      sortida:
+        es: '98'
+        en: '98'
+        fr: '98'
+      potencia_electrica:
+        es: 1500 W 230/1V
+        en: 1500 W 230/1V
+        fr: 1500 W 230/1V
+  compartits: []
+- clau: SIERRAS DE CINTA
+  noms:
+    es: SIERRAS DE CINTA
+    en: BAND SAWS
+    fr: SCIES À RUBAN
+  sequence: 170
+  tipus: producte
+  pagina: p25
+  taula: p25-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: dimensions_placa
+    etiqueta: null
+  - codi: serra_cinta
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 17A0381E
+    ordre: 10
+    valors:
+      dimensions_placa:
+        es: 410x410
+        en: 410x410
+        fr: 410x410
+      serra_cinta:
+        es: '1830'
+        en: '1830'
+        fr: '1830'
+      potencia_electrica:
+        es: 750 W 230/1V
+        en: 750 W 230/1V
+        fr: 750 W 230/1V
+  - codi: 17A0202E
+    ordre: 20
+    valors:
+      dimensions_placa:
+        es: 535x500
+        en: 535x500
+        fr: 535x500
+      serra_cinta:
+        es: '2020'
+        en: '2020'
+        fr: '2020'
+      potencia_electrica:
+        es: 1500 W 230/1V
+        en: 1500 W 230/1V
+        fr: 1500 W 230/1V
+  compartits: []
+- clau: PELADORAS DE PATATAS
+  noms:
+    es: PELADORAS DE PATATAS
+    en: POTATO PEELERS
+    fr: ÉPLUCHEURS DE POMMES DE TERRE
+  sequence: 180
+  tipus: producte
+  pagina: p27
+  taula: p27-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: kg
+    etiqueta: null
+  - codi: produccio_kg_h
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 17005NPP
+    ordre: 10
+    valors:
+      kg:
+        es: '5'
+        en: '5'
+        fr: '5'
+      produccio_kg_h:
+        es: '60'
+        en: '60'
+        fr: '60'
+      potencia_electrica:
+        es: 370 W 230/1V
+        en: 370 W 230/1V
+        fr: 370 W 230/1V
+  - codi: 17005FPP
+    ordre: 20
+    valors:
+      kg:
+        es: '5'
+        en: '5'
+        fr: '5'
+      produccio_kg_h:
+        es: '60'
+        en: '60'
+        fr: '60'
+      potencia_electrica:
+        es: 370 W 230/1V
+        en: 370 W 230/1V
+        fr: 370 W 230/1V
+  - codi: 17M01FPP
+    ordre: 30
+    valors:
+      kg:
+        es: '10'
+        en: '10'
+        fr: '10'
+      produccio_kg_h:
+        es: '120'
+        en: '120'
+        fr: '120'
+      potencia_electrica:
+        es: 750 W 230/1V
+        en: 750 W 230/1V
+        fr: 750 W 230/1V
+  - codi: 17M81FPP
+    ordre: 40
+    valors:
+      kg:
+        es: '18'
+        en: '18'
+        fr: '18'
+      produccio_kg_h:
+        es: '220'
+        en: '220'
+        fr: '220'
+      potencia_electrica:
+        es: 1100 W 230/1V
+        en: 1100 W 230/1V
+        fr: 1100 W 230/1V
+  - codi: 17052FPP
+    ordre: 50
+    valors:
+      kg:
+        es: '25'
+        en: '25'
+        fr: '25'
+      produccio_kg_h:
+        es: '450'
+        en: '450'
+        fr: '450'
+      potencia_electrica:
+        es: 1100 W 230/1V
+        en: 1100 W 230/1V
+        fr: 1100 W 230/1V
+  compartits: []
+- clau: ENVASADORAS AL VACIO
+  noms:
+    es: ENVASADORAS AL VACIO
+    en: VACUUM PACKING MACHINES
+    fr: MACHINES D’EMBALLAGE SOUS VIDE
+  sequence: 190
+  tipus: producte
+  pagina: p30
+  taula: p30-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: dimensions_cuba
+    etiqueta: null
+  - codi: tall
+    etiqueta: null
+  - codi: motor
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '17425670'
+    ordre: 10
+    valors:
+      dimensions_cuba:
+        es: 305x380x75
+        en: 305x380x75
+        fr: 305x380x75
+      tall:
+        es: 1x260
+        en: 1x260
+        fr: 1x260
+      motor:
+        es: '8'
+        en: '8'
+        fr: '8'
+      potencia_electrica:
+        es: 370 W 230/1V
+        en: 370 W 230/1V
+        fr: 370 W 230/1V
+  - codi: '17325860'
+    ordre: 20
+    valors:
+      dimensions_cuba:
+        es: 345x380x120
+        en: 345x380x120
+        fr: 345x380x120
+      tall:
+        es: 1x300
+        en: 1x300
+        fr: 1x300
+      motor:
+        es: '10'
+        en: '10'
+        fr: '10'
+      potencia_electrica:
+        es: 370 W 230/1V
+        en: 370 W 230/1V
+        fr: 370 W 230/1V
+  - codi: '17225670'
+    ordre: 30
+    valors:
+      dimensions_cuba:
+        es: 525x550x180
+        en: 525x550x180
+        fr: 525x550x180
+      tall:
+        es: 2x500
+        en: 2x500
+        fr: 2x500
+      motor:
+        es: '20'
+        en: '20'
+        fr: '20'
+      potencia_electrica:
+        es: 900 W 230/1V
+        en: 900 W 230/1V
+        fr: 900 W 230/1V
+  - codi: '17225860'
+    ordre: 40
+    valors:
+      dimensions_cuba:
+        es: 440x445x180
+        en: 440x445x180
+        fr: 440x445x180
+      tall:
+        es: 2x400
+        en: 2x400
+        fr: 2x400
+      motor:
+        es: '20'
+        en: '20'
+        fr: '20'
+      potencia_electrica:
+        es: 750 W 230/1V
+        en: 750 W 230/1V
+        fr: 750 W 230/1V
+  - codi: '17325670'
+    ordre: 50
+    valors:
+      dimensions_cuba:
+        es: 500x525x180
+        en: 500x525x180
+        fr: 500x525x180
+      tall:
+        es: 2x500
+        en: 2x500
+        fr: 2x500
+      motor:
+        es: '20'
+        en: '20'
+        fr: '20'
+      potencia_electrica:
+        es: 750 W 230/1V
+        en: 750 W 230/1V
+        fr: 750 W 230/1V
+  compartits: []
+- clau: COCCIÓN AL VACÍO - SOUS VIDE
+  noms:
+    es: COCCIÓN AL VACÍO - SOUS VIDE
+    en: SOUS VIDE COOKING
+    fr: CUISSON SOUS VIDE
+  sequence: 200
+  tipus: producte
+  pagina: p31
+  taula: p31-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '17837860'
+    ordre: 10
+    valors:
+      capacitat_litres:
+        es: '25'
+        en: '25'
+        fr: '25'
+      potencia_electrica:
+        es: 700 W 230/1V
+        en: 700 W 230/1V
+        fr: 700 W 230/1V
+  compartits: []
+- clau: MICROONDAS DE ACERO INOXIDABLE
+  noms:
+    es: MICROONDAS DE ACERO INOXIDABLE
+    en: STAINLESS STEEL MICROWAVE OVENS
+    fr: FOURS MICRO-ONDES EN ACIER INOXYDABLE
+  sequence: 210
+  tipus: producte
+  pagina: p34
+  taula: p34-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: mesures_interiors
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: magnetr_n
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 17P00901
+    ordre: 10
+    valors:
+      mesures_interiors:
+        es: 340x320x220
+        en: 340x320x220
+        fr: 340x320x220
+      capacitat_litres:
+        es: '25'
+        en: '25'
+        fr: '25'
+      magnetr_n:
+        es: 1 = 900 W
+        en: 1 = 900 W
+        fr: 1 = 900 W
+      potencia_electrica:
+        es: 900 W 230/1V
+        en: 900 W 230/1V
+        fr: 900 W 230/1V
+  - codi: 17PG0119
+    ordre: 20
+    valors:
+      mesures_interiors:
+        es: 330x350x220
+        en: 330x350x220
+        fr: 330x350x220
+      capacitat_litres:
+        es: '25'
+        en: '25'
+        fr: '25'
+      magnetr_n:
+        es: 1 = 900 W
+        en: 1 = 900 W
+        fr: 1 = 900 W
+      potencia_electrica:
+        es: 1450 W 230/1V
+        en: 1450 W 230/1V
+        fr: 1450 W 230/1V
+  - codi: 17PGC918
+    ordre: 30
+    valors:
+      mesures_interiors:
+        es: 330x340x230
+        en: 330x340x230
+        fr: 330x340x230
+      capacitat_litres:
+        es: '25'
+        en: '25'
+        fr: '25'
+      magnetr_n:
+        es: 1 = 900 W
+        en: 1 = 900 W
+        fr: 1 = 900 W
+      potencia_electrica:
+        es: 2400 W 230/1V
+        en: 2400 W 230/1V
+        fr: 2400 W 230/1V
+  compartits: []
+- clau: MICROONDAS DE ACERO INOXIDABLE#2
+  noms:
+    es: MICROONDAS DE ACERO INOXIDABLE
+    en: STAINLESS STEEL MICROWAVE OVENS
+    fr: FOURS MICRO-ONDES EN ACIER INOXYDABLE
+  sequence: 220
+  tipus: producte
+  pagina: p35
+  taula: p35-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: mesures_interiors
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: magnetr_n
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '17798660'
+    ordre: 10
+    valors:
+      mesures_interiors:
+        es: 330x340x230
+        en: 330x340x230
+        fr: 330x340x230
+      capacitat_litres:
+        es: '25'
+        en: '25'
+        fr: '25'
+      magnetr_n:
+        es: 1 = 1000 W
+        en: 1 = 1000 W
+        fr: 1 = 1000 W
+      potencia_electrica:
+        es: 1500 W 230/1V
+        en: 1500 W 230/1V
+        fr: 1500 W 230/1V
+  - codi: '17409660'
+    ordre: 20
+    valors:
+      mesures_interiors:
+        es: 360x400x240
+        en: 360x400x240
+        fr: 360x400x240
+      capacitat_litres:
+        es: '34'
+        en: '34'
+        fr: '34'
+      magnetr_n:
+        es: 2 = 2800 W
+        en: 2 = 2800 W
+        fr: 2 = 2800 W
+      potencia_electrica:
+        es: 2800 W 230/1V
+        en: 2800 W 230/1V
+        fr: 2800 W 230/1V
+  - codi: 173561EN
+    ordre: 30
+    valors:
+      mesures_interiors:
+        es: 330x310x175
+        en: 330x310x175
+        fr: 330x310x175
+      capacitat_litres:
+        es: '20'
+        en: '20'
+        fr: '20'
+      magnetr_n:
+        es: 2 = 2600 W
+        en: 2 = 2600 W
+        fr: 2 = 2600 W
+      potencia_electrica:
+        es: 2600 W 230/1V
+        en: 2600 W 230/1V
+        fr: 2600 W 230/1V
+  compartits: []
+- clau: PLACAS DE INDUCCIÓN Y WOKS DE SOBREMESA
+  noms:
+    es: PLACAS DE INDUCCIÓN Y WOKS DE SOBREMESA
+    en: TABLE-TOP INDUCTION HOBS AND WOKS
+    fr: PLAQUES À INDUCTION ET WOKS DE TABLE
+  sequence: 230
+  tipus: producte
+  pagina: p38
+  taula: p38-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: dimensions_placa
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '17309060'
+    ordre: 10
+    valors:
+      dimensions_placa:
+        es: 380x380
+        en: 380x380
+        fr: 380x380
+      potencia_electrica:
+        es: 3,5 KW 230/1V
+        en: 3,5 KW 230/1V
+        fr: 3,5 KW 230/1V
+  - codi: '17475290'
+    ordre: 20
+    valors:
+      dimensions_placa:
+        es: 330x330
+        en: 330x330
+        fr: 330x330
+      potencia_electrica:
+        es: 5 KW 400/3V
+        en: 5 KW 400/3V
+        fr: 5 KW 400/3V
+  - codi: 1792967W
+    ordre: 30
+    valors:
+      dimensions_placa:
+        es: Ø 280
+        en: Ø 280
+        fr: Ø 280
+      potencia_electrica:
+        es: 3,5 KW 230/1V
+        en: 3,5 KW 230/1V
+        fr: 3,5 KW 230/1V
+  compartits: []
+- clau: HORNILLOS VITROCERÁMICOS DE SOBREMESA
+  noms:
+    es: HORNILLOS VITROCERÁMICOS DE SOBREMESA
+    en: TABLE-TOP GLASS CERAMIC STOVES
+    fr: RECHAUDS DE TABLE VITROCÉRAMIQUES
+  sequence: 240
+  tipus: producte
+  pagina: p39
+  taula: p39-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: dimensions_placa
+    etiqueta: null
+  - codi: placa_rodona
+    etiqueta: null
+  - codi: placa_rodona_2
+    etiqueta: null
+  - codi: placa_quadrada
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '17194240'
+    ordre: 10
+    valors:
+      dimensions_placa:
+        es: 310x350
+        en: 310x350
+        fr: 310x350
+      placa_rodona:
+        es: 1 x 2,5 / 1 x 1
+        en: 1 x 2,5 / 1 x 1
+        fr: 1 x 2,5 / 1 x 1
+      placa_rodona_2:
+        es: '-'
+        en: '-'
+        fr: '-'
+      placa_quadrada:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: 2,5 KW 230/1V
+        en: 2,5 KW 230/1V
+        fr: 2,5 KW 230/1V
+  compartits: []
+- clau: CUBETAS GASTRONORM GN 2/1 (650 x 530)
+  noms:
+    es: CUBETAS GASTRONORM GN 2/1 (650 x 530)
+    en: GASTRONORM CONTAINERS GN 2/1 (650 x 530)
+    fr: BACS GASTRONORM GN 2/1 (650 x 530)
+  sequence: 250
+  tipus: accessoris
+  pagina: p40
+  taula: p40-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: CP211501
+    ordre: 50
+    valors:
+      mesures_text:
+        es: '150'
+        en: '150'
+        fr: '150'
+      capacitat_litres:
+        es: '42'
+        en: '42'
+        fr: '42'
+  - codi: CP212001
+    ordre: 60
+    valors:
+      mesures_text:
+        es: '200'
+        en: '200'
+        fr: '200'
+      capacitat_litres:
+        es: 56,5
+        en: 56,5
+        fr: 56,5
+  - codi: CP215000
+    ordre: 100
+    valors:
+      mesures_text:
+        es: '-'
+        en: '-'
+        fr: '-'
+      capacitat_litres:
+        es: '-'
+        en: '-'
+        fr: '-'
+  compartits:
+  - codi: CP210201
+    ordre: 10
+    valors:
+      mesures_text:
+        es: '20'
+        en: '20'
+        fr: '20'
+      capacitat_litres:
+        es: 5,25
+        en: 5,25
+        fr: 5,25
+    propietari: G08
+  - codi: CP210401
+    ordre: 20
+    valors:
+      mesures_text:
+        es: '40'
+        en: '40'
+        fr: '40'
+      capacitat_litres:
+        es: 10,5
+        en: 10,5
+        fr: 10,5
+    propietari: G07
+  - codi: CP210651
+    ordre: 30
+    valors:
+      mesures_text:
+        es: '65'
+        en: '65'
+        fr: '65'
+      capacitat_litres:
+        es: 18,5
+        en: 18,5
+        fr: 18,5
+    propietari: G04
+  - codi: CP211001
+    ordre: 40
+    valors:
+      mesures_text:
+        es: '100'
+        en: '100'
+        fr: '100'
+      capacitat_litres:
+        es: '28'
+        en: '28'
+        fr: '28'
+    propietari: G07
+  - codi: CP210402
+    ordre: 70
+    valors:
+      mesures_text:
+        es: '40'
+        en: '40'
+        fr: '40'
+      capacitat_litres:
+        es: 10,5
+        en: 10,5
+        fr: 10,5
+    propietari: G08
+  - codi: CP210652
+    ordre: 80
+    valors:
+      mesures_text:
+        es: '65'
+        en: '65'
+        fr: '65'
+      capacitat_litres:
+        es: 18,5
+        en: 18,5
+        fr: 18,5
+    propietari: G08
+  - codi: CP211002
+    ordre: 90
+    valors:
+      mesures_text:
+        es: '100'
+        en: '100'
+        fr: '100'
+      capacitat_litres:
+        es: '28'
+        en: '28'
+        fr: '28'
+    propietari: G08
+- clau: CUBETAS GASTRONORM GN 1/1 (530 x 325)
+  noms:
+    es: CUBETAS GASTRONORM GN 1/1 (530 x 325)
+    en: GASTRONORM CONTAINERS GN 1/1 (530 x 325)
+    fr: BACS GASTRONORM GN 1/1 (530 x 325)
+  sequence: 260
+  tipus: accessoris
+  pagina: p40
+  taula: p40-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: CP115000
+    ordre: 100
+    valors:
+      mesures_text:
+        es: '-'
+        en: '-'
+        fr: '-'
+      capacitat_litres:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: CP1100X1
+    ordre: 110
+    valors:
+      mesures_text:
+        es: '-'
+        en: '-'
+        fr: '-'
+      capacitat_litres:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: CP1106P1
+    ordre: 120
+    valors:
+      mesures_text:
+        es: '65'
+        en: '65'
+        fr: '65'
+      capacitat_litres:
+        es: 9,5
+        en: 9,5
+        fr: 9,5
+  - codi: CP1110P1
+    ordre: 130
+    valors:
+      mesures_text:
+        es: '100'
+        en: '100'
+        fr: '100'
+      capacitat_litres:
+        es: '14'
+        en: '14'
+        fr: '14'
+  - codi: CP1115P1
+    ordre: 140
+    valors:
+      mesures_text:
+        es: '150'
+        en: '150'
+        fr: '150'
+      capacitat_litres:
+        es: '21'
+        en: '21'
+        fr: '21'
+  - codi: CP1120P1
+    ordre: 150
+    valors:
+      mesures_text:
+        es: '200'
+        en: '200'
+        fr: '200'
+      capacitat_litres:
+        es: '28'
+        en: '28'
+        fr: '28'
+  - codi: CP1150P1
+    ordre: 160
+    valors:
+      mesures_text:
+        es: '-'
+        en: '-'
+        fr: '-'
+      capacitat_litres:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: CP1100P1
+    ordre: 170
+    valors:
+      mesures_text:
+        es: '-'
+        en: '-'
+        fr: '-'
+      capacitat_litres:
+        es: '-'
+        en: '-'
+        fr: '-'
+  compartits:
+  - codi: CP1102X1
+    ordre: 10
+    valors:
+      mesures_text:
+        es: '20'
+        en: '20'
+        fr: '20'
+      capacitat_litres:
+        es: 2,75
+        en: 2,75
+        fr: 2,75
+    propietari: G07
+  - codi: CP1104X1
+    ordre: 20
+    valors:
+      mesures_text:
+        es: '40'
+        en: '40'
+        fr: '40'
+      capacitat_litres:
+        es: 5,5
+        en: 5,5
+        fr: 5,5
+    propietari: G07
+  - codi: CP1106X1
+    ordre: 30
+    valors:
+      mesures_text:
+        es: '65'
+        en: '65'
+        fr: '65'
+      capacitat_litres:
+        es: 9,5
+        en: 9,5
+        fr: 9,5
+    propietari: G04
+  - codi: CP1110X1
+    ordre: 40
+    valors:
+      mesures_text:
+        es: '100'
+        en: '100'
+        fr: '100'
+      capacitat_litres:
+        es: '14'
+        en: '14'
+        fr: '14'
+    propietari: G07
+  - codi: CP111501
+    ordre: 50
+    valors:
+      mesures_text:
+        es: '150'
+        en: '150'
+        fr: '150'
+      capacitat_litres:
+        es: '21'
+        en: '21'
+        fr: '21'
+    propietari: G07
+  - codi: CP112001
+    ordre: 60
+    valors:
+      mesures_text:
+        es: '200'
+        en: '200'
+        fr: '200'
+      capacitat_litres:
+        es: '28'
+        en: '28'
+        fr: '28'
+    propietari: G07
+  - codi: CP110402
+    ordre: 70
+    valors:
+      mesures_text:
+        es: '40'
+        en: '40'
+        fr: '40'
+      capacitat_litres:
+        es: 5,5
+        en: 5,5
+        fr: 5,5
+    propietari: G08
+  - codi: CP110652
+    ordre: 80
+    valors:
+      mesures_text:
+        es: '65'
+        en: '65'
+        fr: '65'
+      capacitat_litres:
+        es: 9,5
+        en: 9,5
+        fr: 9,5
+    propietari: G08
+  - codi: CP111002
+    ordre: 90
+    valors:
+      mesures_text:
+        es: '100'
+        en: '100'
+        fr: '100'
+      capacitat_litres:
+        es: '14'
+        en: '14'
+        fr: '14'
+    propietari: G08
+- clau: CUBETAS GASTRONORM GN 1/2 (265 x 325)
+  noms:
+    es: CUBETAS GASTRONORM GN 1/2 (265 x 325)
+    en: GASTRONORM CONTAINERS GN 1/2 (265 x 325)
+    fr: BACS GASTRONORM GN 1/2 (265 x 325)
+  sequence: 270
+  tipus: accessoris
+  pagina: p40
+  taula: p40-t3
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: CP125000
+    ordre: 70
+    valors:
+      mesures_text:
+        es: '-'
+        en: '-'
+        fr: '-'
+      capacitat_litres:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: CP1200X1
+    ordre: 80
+    valors:
+      mesures_text:
+        es: '-'
+        en: '-'
+        fr: '-'
+      capacitat_litres:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: CP1206P1
+    ordre: 90
+    valors:
+      mesures_text:
+        es: '65'
+        en: '65'
+        fr: '65'
+      capacitat_litres:
+        es: 3,7
+        en: 3,7
+        fr: 3,7
+  - codi: CP1210P1
+    ordre: 100
+    valors:
+      mesures_text:
+        es: '100'
+        en: '100'
+        fr: '100'
+      capacitat_litres:
+        es: 6,5
+        en: 6,5
+        fr: 6,5
+  - codi: CP1215P1
+    ordre: 110
+    valors:
+      mesures_text:
+        es: '150'
+        en: '150'
+        fr: '150'
+      capacitat_litres:
+        es: 9,5
+        en: 9,5
+        fr: 9,5
+  - codi: CP1220P1
+    ordre: 120
+    valors:
+      mesures_text:
+        es: '200'
+        en: '200'
+        fr: '200'
+      capacitat_litres:
+        es: 12,5
+        en: 12,5
+        fr: 12,5
+  - codi: CP1250P1
+    ordre: 130
+    valors:
+      mesures_text:
+        es: '-'
+        en: '-'
+        fr: '-'
+      capacitat_litres:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: CP1200P1
+    ordre: 140
+    valors:
+      mesures_text:
+        es: '-'
+        en: '-'
+        fr: '-'
+      capacitat_litres:
+        es: '-'
+        en: '-'
+        fr: '-'
+  compartits:
+  - codi: CP120201
+    ordre: 10
+    valors:
+      mesures_text:
+        es: '20'
+        en: '20'
+        fr: '20'
+      capacitat_litres:
+        es: 1,1
+        en: 1,1
+        fr: 1,1
+    propietari: G15
+  - codi: CP1204X1
+    ordre: 20
+    valors:
+      mesures_text:
+        es: '40'
+        en: '40'
+        fr: '40'
+      capacitat_litres:
+        es: 2,2
+        en: 2,2
+        fr: 2,2
+    propietari: G08
+  - codi: CP1206X1
+    ordre: 30
+    valors:
+      mesures_text:
+        es: '65'
+        en: '65'
+        fr: '65'
+      capacitat_litres:
+        es: 3,7
+        en: 3,7
+        fr: 3,7
+    propietari: G08
+  - codi: CP1210X1
+    ordre: 40
+    valors:
+      mesures_text:
+        es: '100'
+        en: '100'
+        fr: '100'
+      capacitat_litres:
+        es: 6,5
+        en: 6,5
+        fr: 6,5
+    propietari: G15
+  - codi: CP121501
+    ordre: 50
+    valors:
+      mesures_text:
+        es: '150'
+        en: '150'
+        fr: '150'
+      capacitat_litres:
+        es: 9,5
+        en: 9,5
+        fr: 9,5
+    propietari: G07
+  - codi: CP122001
+    ordre: 60
+    valors:
+      mesures_text:
+        es: '200'
+        en: '200'
+        fr: '200'
+      capacitat_litres:
+        es: 12,5
+        en: 12,5
+        fr: 12,5
+    propietari: G07
+- clau: CUBETAS GASTRONORM GN 2/3 (352 x 325)
+  noms:
+    es: CUBETAS GASTRONORM GN 2/3 (352 x 325)
+    en: GASTRONORM CONTAINERS GN 2/3 (352 x 325)
+    fr: BACS GASTRONORM GN 2/3 (352 x 325)
+  sequence: 280
+  tipus: accessoris
+  pagina: p40
+  taula: p40-t4
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: altura_mm
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta:
+      es: x 325
+      en: x 325
+      fr: x 325
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: CP230201
+    ordre: 10
+    valors:
+      altura_mm:
+        es: '20'
+        en: '20'
+        fr: '20'
+      capacitat_litres:
+        es: 1,6
+        en: 1,6
+        fr: 1,6
+  - codi: CP235000
+    ordre: 70
+    valors:
+      altura_mm:
+        es: '-'
+        en: '-'
+        fr: '-'
+      capacitat_litres:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: CP230000
+    ordre: 80
+    valors:
+      altura_mm:
+        es: '-'
+        en: '-'
+        fr: '-'
+      capacitat_litres:
+        es: '-'
+        en: '-'
+        fr: '-'
+  compartits:
+  - codi: CP230401
+    ordre: 20
+    valors:
+      altura_mm:
+        es: '40'
+        en: '40'
+        fr: '40'
+      capacitat_litres:
+        es: 3,2
+        en: 3,2
+        fr: 3,2
+    propietari: G07
+  - codi: CP230651
+    ordre: 30
+    valors:
+      altura_mm:
+        es: '65'
+        en: '65'
+        fr: '65'
+      capacitat_litres:
+        es: 5,5
+        en: 5,5
+        fr: 5,5
+    propietari: G08
+  - codi: CP231001
+    ordre: 40
+    valors:
+      altura_mm:
+        es: '100'
+        en: '100'
+        fr: '100'
+      capacitat_litres:
+        es: 8,7
+        en: 8,7
+        fr: 8,7
+    propietari: G15
+  - codi: CP231501
+    ordre: 50
+    valors:
+      altura_mm:
+        es: '150'
+        en: '150'
+        fr: '150'
+      capacitat_litres:
+        es: '13'
+        en: '13'
+        fr: '13'
+    propietari: G07
+  - codi: CP232001
+    ordre: 60
+    valors:
+      altura_mm:
+        es: '200'
+        en: '200'
+        fr: '200'
+      capacitat_litres:
+        es: '18'
+        en: '18'
+        fr: '18'
+    propietari: G07
+- clau: CUBETAS GASTRONORM GN 1/3 (325 x 176)
+  noms:
+    es: CUBETAS GASTRONORM GN 1/3 (325 x 176)
+    en: GASTRONORM CONTAINERS GN 1/3 (325 x 176)
+    fr: BACS GASTRONORM GN 1/3 (325 x 176)
+  sequence: 290
+  tipus: accessoris
+  pagina: p41
+  taula: p41-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: CP135000
+    ordre: 60
+    valors:
+      mesures_text:
+        es: '-'
+        en: '-'
+        fr: '-'
+      capacitat_litres:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: CP1300X1
+    ordre: 70
+    valors:
+      mesures_text:
+        es: '-'
+        en: '-'
+        fr: '-'
+      capacitat_litres:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: CP1306P1
+    ordre: 80
+    valors:
+      mesures_text:
+        es: '65'
+        en: '65'
+        fr: '65'
+      capacitat_litres:
+        es: 2,5
+        en: 2,5
+        fr: 2,5
+  - codi: CP1310P1
+    ordre: 90
+    valors:
+      mesures_text:
+        es: '100'
+        en: '100'
+        fr: '100'
+      capacitat_litres:
+        es: 3,7
+        en: 3,7
+        fr: 3,7
+  - codi: CP1315P1
+    ordre: 100
+    valors:
+      mesures_text:
+        es: '150'
+        en: '150'
+        fr: '150'
+      capacitat_litres:
+        es: 5,7
+        en: 5,7
+        fr: 5,7
+  - codi: CP1320P1
+    ordre: 110
+    valors:
+      mesures_text:
+        es: '200'
+        en: '200'
+        fr: '200'
+      capacitat_litres:
+        es: 7,7
+        en: 7,7
+        fr: 7,7
+  - codi: CP1350P1
+    ordre: 120
+    valors:
+      mesures_text:
+        es: '-'
+        en: '-'
+        fr: '-'
+      capacitat_litres:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: CP1300P1
+    ordre: 130
+    valors:
+      mesures_text:
+        es: '-'
+        en: '-'
+        fr: '-'
+      capacitat_litres:
+        es: '-'
+        en: '-'
+        fr: '-'
+  compartits:
+  - codi: CP1304X1
+    ordre: 10
+    valors:
+      mesures_text:
+        es: '40'
+        en: '40'
+        fr: '40'
+      capacitat_litres:
+        es: 1,5
+        en: 1,5
+        fr: 1,5
+    propietari: G12
+  - codi: CP1306X1
+    ordre: 20
+    valors:
+      mesures_text:
+        es: '65'
+        en: '65'
+        fr: '65'
+      capacitat_litres:
+        es: 2,5
+        en: 2,5
+        fr: 2,5
+    propietari: G15
+  - codi: CP131001
+    ordre: 30
+    valors:
+      mesures_text:
+        es: '100'
+        en: '100'
+        fr: '100'
+      capacitat_litres:
+        es: 3,7
+        en: 3,7
+        fr: 3,7
+    propietari: G14
+  - codi: CP131501
+    ordre: 40
+    valors:
+      mesures_text:
+        es: '150'
+        en: '150'
+        fr: '150'
+      capacitat_litres:
+        es: 5,7
+        en: 5,7
+        fr: 5,7
+    propietari: G07
+  - codi: CP132001
+    ordre: 50
+    valors:
+      mesures_text:
+        es: '200'
+        en: '200'
+        fr: '200'
+      capacitat_litres:
+        es: 7,7
+        en: 7,7
+        fr: 7,7
+    propietari: G07
+- clau: CUBETAS GASTRONORM GN 1/4 (265 x 162)
+  noms:
+    es: CUBETAS GASTRONORM GN 1/4 (265 x 162)
+    en: GASTRONORM CONTAINERS GN 1/4 (265 x 162)
+    fr: BACS GASTRONORM GN 1/4 (265 x 162)
+  sequence: 300
+  tipus: accessoris
+  pagina: p41
+  taula: p41-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: CP1406X1
+    ordre: 10
+    valors:
+      mesures_text:
+        es: '65'
+        en: '65'
+        fr: '65'
+      capacitat_litres:
+        es: 1,6
+        en: 1,6
+        fr: 1,6
+  - codi: CP142001
+    ordre: 40
+    valors:
+      mesures_text:
+        es: '200'
+        en: '200'
+        fr: '200'
+      capacitat_litres:
+        es: 5,7
+        en: 5,7
+        fr: 5,7
+  - codi: CP145000
+    ordre: 50
+    valors:
+      mesures_text:
+        es: '-'
+        en: '-'
+        fr: '-'
+      capacitat_litres:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: CP1400X1
+    ordre: 60
+    valors:
+      mesures_text:
+        es: '-'
+        en: '-'
+        fr: '-'
+      capacitat_litres:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: CP1406P1
+    ordre: 70
+    valors:
+      mesures_text:
+        es: '65'
+        en: '65'
+        fr: '65'
+      capacitat_litres:
+        es: 1,6
+        en: 1,6
+        fr: 1,6
+  - codi: CP1410P1
+    ordre: 80
+    valors:
+      mesures_text:
+        es: '100'
+        en: '100'
+        fr: '100'
+      capacitat_litres:
+        es: 2,7
+        en: 2,7
+        fr: 2,7
+  - codi: CP1415P1
+    ordre: 90
+    valors:
+      mesures_text:
+        es: '150'
+        en: '150'
+        fr: '150'
+      capacitat_litres:
+        es: 4,2
+        en: 4,2
+        fr: 4,2
+  - codi: CP1450P1
+    ordre: 100
+    valors:
+      mesures_text:
+        es: '-'
+        en: '-'
+        fr: '-'
+      capacitat_litres:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: CP1400P1
+    ordre: 110
+    valors:
+      mesures_text:
+        es: '-'
+        en: '-'
+        fr: '-'
+      capacitat_litres:
+        es: '-'
+        en: '-'
+        fr: '-'
+  compartits:
+  - codi: CP141001
+    ordre: 20
+    valors:
+      mesures_text:
+        es: '100'
+        en: '100'
+        fr: '100'
+      capacitat_litres:
+        es: 2,7
+        en: 2,7
+        fr: 2,7
+    propietari: G07
+  - codi: CP141501
+    ordre: 30
+    valors:
+      mesures_text:
+        es: '150'
+        en: '150'
+        fr: '150'
+      capacitat_litres:
+        es: 4,2
+        en: 4,2
+        fr: 4,2
+    propietari: G07
+- clau: CUBETAS GASTRONORM GN 1/6 (176 x 162)
+  noms:
+    es: CUBETAS GASTRONORM GN 1/6 (176 x 162)
+    en: GASTRONORM CONTAINERS GN 1/6 (176 x 162)
+    fr: BACS GASTRONORM GN 1/6 (176 x 162)
+  sequence: 310
+  tipus: accessoris
+  pagina: p41
+  taula: p41-t3
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: CP160651
+    ordre: 10
+    valors:
+      mesures_text:
+        es: '65'
+        en: '65'
+        fr: '65'
+      capacitat_litres:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: CP162001
+    ordre: 40
+    valors:
+      mesures_text:
+        es: '200'
+        en: '200'
+        fr: '200'
+      capacitat_litres:
+        es: 2,5
+        en: 2,5
+        fr: 2,5
+  - codi: CP160000
+    ordre: 50
+    valors:
+      mesures_text:
+        es: '-'
+        en: '-'
+        fr: '-'
+      capacitat_litres:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: CP1606P1
+    ordre: 60
+    valors:
+      mesures_text:
+        es: '65'
+        en: '65'
+        fr: '65'
+      capacitat_litres:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: CP1610P1
+    ordre: 70
+    valors:
+      mesures_text:
+        es: '100'
+        en: '100'
+        fr: '100'
+      capacitat_litres:
+        es: 1,6
+        en: 1,6
+        fr: 1,6
+  - codi: CP1615P1
+    ordre: 80
+    valors:
+      mesures_text:
+        es: '150'
+        en: '150'
+        fr: '150'
+      capacitat_litres:
+        es: 2,4
+        en: 2,4
+        fr: 2,4
+  - codi: CP1600P1
+    ordre: 90
+    valors:
+      mesures_text:
+        es: '-'
+        en: '-'
+        fr: '-'
+      capacitat_litres:
+        es: '-'
+        en: '-'
+        fr: '-'
+  compartits:
+  - codi: CP161001
+    ordre: 20
+    valors:
+      mesures_text:
+        es: '100'
+        en: '100'
+        fr: '100'
+      capacitat_litres:
+        es: 1,6
+        en: 1,6
+        fr: 1,6
+    propietari: G07
+  - codi: CP161501
+    ordre: 30
+    valors:
+      mesures_text:
+        es: '150'
+        en: '150'
+        fr: '150'
+      capacitat_litres:
+        es: 2,4
+        en: 2,4
+        fr: 2,4
+    propietari: G07
+- clau: CUBETAS GASTRONORM GN 1/9 (176 x 108)
+  noms:
+    es: CUBETAS GASTRONORM GN 1/9 (176 x 108)
+    en: GASTRONORM CONTAINERS GN 1/9 (176 x 108)
+    fr: BACS GASTRONORM GN 1/9 (176 x 108)
+  sequence: 320
+  tipus: accessoris
+  pagina: p41
+  taula: p41-t4
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: altura_mm
+    etiqueta: null
+  - codi: capacitat_litres
+    etiqueta:
+      es: x 108
+      en: x 108
+      fr: x 108
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: CP190651
+    ordre: 10
+    valors:
+      altura_mm:
+        es: '65'
+        en: '65'
+        fr: '65'
+      capacitat_litres:
+        es: 0,5
+        en: 0,5
+        fr: 0,5
+  - codi: CP191001
+    ordre: 20
+    valors:
+      altura_mm:
+        es: '100'
+        en: '100'
+        fr: '100'
+      capacitat_litres:
+        es: 0,9
+        en: 0,9
+        fr: 0,9
+  - codi: CP190000
+    ordre: 30
+    valors:
+      altura_mm:
+        es: '-'
+        en: '-'
+        fr: '-'
+      capacitat_litres:
+        es: '-'
+        en: '-'
+        fr: '-'
+  - codi: CP1906P1
+    ordre: 40
+    valors:
+      altura_mm:
+        es: '65'
+        en: '65'
+        fr: '65'
+      capacitat_litres:
+        es: 0,5
+        en: 0,5
+        fr: 0,5
+  - codi: CP1910P1
+    ordre: 50
+    valors:
+      altura_mm:
+        es: '100'
+        en: '100'
+        fr: '100'
+      capacitat_litres:
+        es: 0,9
+        en: 0,9
+        fr: 0,9
+  - codi: CP1900P1
+    ordre: 60
+    valors:
+      altura_mm:
+        es: '-'
+        en: '-'
+        fr: '-'
+      capacitat_litres:
+        es: '-'
+        en: '-'
+        fr: '-'
+  compartits: []
+- clau: PERFILES DIVISORIOS
+  noms:
+    es: PERFILES DIVISORIOS
+    en: DIVIDING PROFILES
+    fr: PROFILS DE DIVISION
+  sequence: 330
+  tipus: accessoris
+  pagina: p41
+  taula: p41-t5
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: gn
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes: []
+  compartits:
+  - codi: SEPAGN11
+    ordre: 10
+    valors:
+      mesures_text:
+        es: '530'
+        en: '530'
+        fr: '530'
+      gn:
+        es: 1/1
+        en: 1/1
+        fr: 1/1
+    propietari: G07
+  - codi: SEPAGN13
+    ordre: 20
+    valors:
+      mesures_text:
+        es: '325'
+        en: '325'
+        fr: '325'
+      gn:
+        es: 1/3
+        en: 1/3
+        fr: 1/3
+    propietari: G07
+- clau: PLATO ABRASIVO PELADORAS DE PATATAS
+  noms:
+    es: PLATO ABRASIVO PELADORAS DE PATATAS
+    en: ABRASIVE PLATE POTATO PEELER
+    fr: ÉPLUCHEUR DE POMMES DE TERRE À PLAQUE ABRASIVE
+  sequence: 340
+  tipus: accessoris
+  pagina: p42
+  taula: p42-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: para
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A000ATP
+    ordre: 10
+    valors:
+      para:
+        es: 5, 10 Y 18 Kgs.
+        en: 5, 10 Y 18 Kgs.
+        fr: 5, 10 Y 18 Kgs.
+  - codi: 4A000BTP
+    ordre: 20
+    valors:
+      para:
+        es: 25 Kgs.
+        en: 25 Kgs.
+        fr: 25 Kgs.
+  compartits: []
+- clau: CAJÓN CON FILTRO PELADORAS DE PATATAS
+  noms:
+    es: CAJÓN CON FILTRO PELADORAS DE PATATAS
+    en: FILTER BOX FOR POTATO PEELERS
+    fr: TIROIR AVEC FILTRE POUR ÉPLUCHEUR DE POMMES DE TERRE
+  sequence: 350
+  tipus: accessoris
+  pagina: p42
+  taula: p42-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: para
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A000FCC
+    ordre: 10
+    valors:
+      para:
+        es: 10 Y 15 Kgs.
+        en: 10 Y 15 Kgs.
+        fr: 10 Y 15 Kgs.
+  compartits: []
+- clau: ESTANTES MURALES PARA MICROONDAS
+  noms:
+    es: ESTANTES MURALES PARA MICROONDAS
+    en: SHELVES WALL MICROWAVE
+    fr: ÉTAGÈRES MURALES POUR MICRO-ONDES
+  sequence: 360
+  tipus: accessoris
+  pagina: p42
+  taula: p42-t3
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes: []
+  compartits:
+  - codi: '31040020'
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 600x400x230
+        en: 600x400x230
+        fr: 600x400x230
+    propietari: G14
+  - codi: '33040020'
+    ordre: 20
+    valors:
+      mesures_text:
+        es: 700x500x280
+        en: 700x500x280
+        fr: 700x500x280
+    propietari: G14
+- clau: CARRO PARA ENVASADORAS AL VACIO
+  noms:
+    es: CARRO PARA ENVASADORAS AL VACIO
+    en: TROLLEY FOR VACUUM PACKING MACHINES
+    fr: CHARIOT POUR MACHINES D’EMBALLAGE SOUS VIDE
+  sequence: 370
+  tipus: accessoris
+  pagina: p42
+  taula: p42-t4
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '17238400'
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 810x630x850
+        en: 810x630x850
+        fr: 810x630x850
+  compartits: []
+avisos:
+- 'pàgina p45 de tipus «desconeguda»: no es genera (l''extractor no l''ha sabut classificar)'
+- 'p19-t2 55100111: sense valor per a «potencia_electrica»'
+- 'p20-t1 KITDISCR: sense valor per a «potencia_electrica»'
+repeticions:
+  CUBETAS GASTRONORM GN 2/1 (650 x 530):
+  - codi: CP210201
+    ordre: 10
+  - codi: CP210401
+    ordre: 20
+  - codi: CP210651
+    ordre: 30
+  - codi: CP211001
+    ordre: 40
+  - codi: CP210402
+    ordre: 70
+  - codi: CP210652
+    ordre: 80
+  - codi: CP211002
+    ordre: 90
+  CUBETAS GASTRONORM GN 1/1 (530 x 325):
+  - codi: CP1102X1
+    ordre: 10
+  - codi: CP1104X1
+    ordre: 20
+  - codi: CP1106X1
+    ordre: 30
+  - codi: CP1110X1
+    ordre: 40
+  - codi: CP111501
+    ordre: 50
+  - codi: CP112001
+    ordre: 60
+  - codi: CP110402
+    ordre: 70
+  - codi: CP110652
+    ordre: 80
+  - codi: CP111002
+    ordre: 90
+  CUBETAS GASTRONORM GN 1/2 (265 x 325):
+  - codi: CP120201
+    ordre: 10
+  - codi: CP1204X1
+    ordre: 20
+  - codi: CP1206X1
+    ordre: 30
+  - codi: CP1210X1
+    ordre: 40
+  - codi: CP121501
+    ordre: 50
+  - codi: CP122001
+    ordre: 60
+  CUBETAS GASTRONORM GN 2/3 (352 x 325):
+  - codi: CP230401
+    ordre: 20
+  - codi: CP230651
+    ordre: 30
+  - codi: CP231001
+    ordre: 40
+  - codi: CP231501
+    ordre: 50
+  - codi: CP232001
+    ordre: 60
+  CUBETAS GASTRONORM GN 1/3 (325 x 176):
+  - codi: CP1304X1
+    ordre: 10
+  - codi: CP1306X1
+    ordre: 20
+  - codi: CP131001
+    ordre: 30
+  - codi: CP131501
+    ordre: 40
+  - codi: CP132001
+    ordre: 50
+  CUBETAS GASTRONORM GN 1/4 (265 x 162):
+  - codi: CP141001
+    ordre: 20
+  - codi: CP141501
+    ordre: 30
+  CUBETAS GASTRONORM GN 1/6 (176 x 162):
+  - codi: CP161001
+    ordre: 20
+  - codi: CP161501
+    ordre: 30
+  PERFILES DIVISORIOS:
+  - codi: SEPAGN11
+    ordre: 10
+  - codi: SEPAGN13
+    ordre: 20
+  ESTANTES MURALES PARA MICROONDAS:
+  - codi: '31040020'
+    ordre: 10
+  - codi: '33040020'
+    ordre: 20
+informe:
+  inexistents: []
+  descatalogats:
+  - codi: 30420G08
+    taula: p39-t1
+    pagina: p39
+    titol: HORNILLOS VITROCERÁMICOS DE SOBREMESA
+    preu_cataleg: '790'
+  arxivats: []
+  ambigus: []
+  ignorats: []
+  fora_pdf: []
+  columnes_eliminades: []
+  families_buides: []
+  taules_dividides:
+  - 'p21-t1: el tros «(2)» (blocs que no encaixen en una sola taula) és una família a part (cap codi es perd)'

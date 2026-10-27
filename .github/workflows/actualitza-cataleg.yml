@@ -19,7 +19,7 @@ concurrency:
 jobs:
   genera:
     runs-on: ubuntu-24.04
-    timeout-minutes: 45
+    timeout-minutes: 90
     environment:
       name: github-pages
       url: ${{ steps.desplega.outputs.page_url }}
@@ -64,6 +64,7 @@ jobs:
           ODOO_DB: ${{ secrets.ODOO_DB }}
           ODOO_USER: ${{ secrets.ODOO_USER }}
           ODOO_API_KEY: ${{ secrets.ODOO_API_KEY }}
+          CATALEG_PARALEL: "3"   # grups generats alhora (el runner públic té 4 CPU)
         run: bash ci/genera.sh
 
       - name: Escriu estat.json

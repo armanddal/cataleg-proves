@@ -1,0 +1,3466 @@
+esquema: tarifa-columnes-posicio/1
+grup: 12
+metode: posicio sobre el PDF publicat (intervals X = cel.les de la fila de capcalera del PDF; files = codi + vores de cel.la del PDF)
+font_pdf: cataleg_original_web.pdf
+nota: 'Per taula: fila (codi) -> columna (clau del gN.yaml) -> text tal com surt al PDF publicat. "-" = guio del catalag; "[icona]" = cel.la amb una icona (energia gas/electric...), sense text. icones_en_columna
+  = columnes amb una icona a la cel.la. cel_les_combinades (si n hi ha) = valor de cel.la combinada copiat a totes les files que cobreix. codi_al_pdf = el PDF porta un codi diferent del .pub.'
+pagines:
+- pagina_pub: 7
+  pagina_pdf: 504
+  taules:
+  - id: p07-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - mesures_gastronorm
+    - dot
+    - classe_energetica
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 13C42114
+      cel_les:
+        codi: 13C42114
+        pes: '25'
+        mesures: 1105x400x285
+        mesures_gastronorm: 4 - GN 1/3 - 40
+        dot: OK
+        classe_energetica: D
+        potencia_electrica: 0,16 KW
+        preu: '1.305'
+    - codi: 13CC2114
+      cel_les:
+        codi: 13CC2114
+        pes: '24'
+        mesures: 1105x400x285
+        mesures_gastronorm: '-'
+        dot: 'NO'
+        classe_energetica: D
+        potencia_electrica: 0,16 KW
+        preu: '1.270'
+    - codi: 13C62144
+      cel_les:
+        codi: 13C62144
+        pes: '35'
+        mesures: 1455x400x285
+        mesures_gastronorm: 6 - GN 1/3 - 40
+        dot: OK
+        classe_energetica: D
+        potencia_electrica: 0,16 KW
+        preu: '1.425'
+    - codi: 13CC2144
+      cel_les:
+        codi: 13CC2144
+        pes: '34'
+        mesures: 1455x400x285
+        mesures_gastronorm: '-'
+        dot: 'NO'
+        classe_energetica: D
+        potencia_electrica: 0,16 KW
+        preu: '1.360'
+    - codi: 13C82184
+      cel_les:
+        codi: 13C82184
+        pes: '42'
+        mesures: 1810x400x285
+        mesures_gastronorm: 8 - GN 1/3 - 40
+        dot: OK
+        classe_energetica: D
+        potencia_electrica: 0,16 KW
+        preu: '1.590'
+    - codi: 13CC2184
+      cel_les:
+        codi: 13CC2184
+        pes: '40'
+        mesures: 1810x400x285
+        mesures_gastronorm: '-'
+        dot: 'NO'
+        classe_energetica: D
+        potencia_electrica: 0,16 KW
+        preu: '1.505'
+    mapa_columnes: sense_colN(1 eliminades)
+- pagina_pub: 8
+  pagina_pdf: 505
+  taules:
+  - id: p08-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - mesures_gastronorm
+    - dot
+    - classe_energetica
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 13D65144
+      cel_les:
+        codi: 13D65144
+        pes: '38'
+        mesures: 1455x400x300
+        mesures_gastronorm: 6 - GN 1/3 - 40
+        dot: OK
+        classe_energetica: D
+        potencia_electrica: 0,16 KW
+        preu: '1.590'
+    - codi: 13DC5144
+      cel_les:
+        codi: 13DC5144
+        pes: '37'
+        mesures: 1455x400x300
+        mesures_gastronorm: '-'
+        dot: 'NO'
+        classe_energetica: D
+        potencia_electrica: 0,16 KW
+        preu: '1.545'
+    - codi: 13D85184
+      cel_les:
+        codi: 13D85184
+        pes: '44'
+        mesures: 1810x400x300
+        mesures_gastronorm: 8 - GN 1/3 - 40
+        dot: OK
+        classe_energetica: D
+        potencia_electrica: 0,16 KW
+        preu: '1.670'
+    - codi: 13DC5184
+      cel_les:
+        codi: 13DC5184
+        pes: '42'
+        mesures: 1810x400x300
+        mesures_gastronorm: '-'
+        dot: 'NO'
+        classe_energetica: D
+        potencia_electrica: 0,16 KW
+        preu: '1.605'
+    mapa_columnes: sense_colN(1 eliminades)
+- pagina_pub: 9
+  pagina_pdf: 506
+  taules:
+  - id: p09-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - mesures_gastronorm
+    - dot
+    - classe_energetica
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 13R48114
+      cel_les:
+        codi: 13R48114
+        pes: '25'
+        mesures: 1105x400x300
+        mesures_gastronorm: 4 - GN 1/3 - 40
+        dot: OK
+        classe_energetica: D
+        potencia_electrica: 0,16 KW
+        preu: '1.360'
+    - codi: 13RC8114
+      cel_les:
+        codi: 13RC8114
+        pes: '24'
+        mesures: 1105x400x300
+        mesures_gastronorm: '-'
+        dot: 'NO'
+        classe_energetica: D
+        potencia_electrica: 0,16 KW
+        preu: '1.325'
+    - codi: 13R68144
+      cel_les:
+        codi: 13R68144
+        pes: '35'
+        mesures: 1455x400x300
+        mesures_gastronorm: 6 - GN 1/3 - 40
+        dot: OK
+        classe_energetica: D
+        potencia_electrica: 0,16 KW
+        preu: '1.505'
+    - codi: 13RC8144
+      cel_les:
+        codi: 13RC8144
+        pes: '34'
+        mesures: 1455x400x300
+        mesures_gastronorm: '-'
+        dot: 'NO'
+        classe_energetica: D
+        potencia_electrica: 0,16 KW
+        preu: '1.455'
+    - codi: 13R88184
+      cel_les:
+        codi: 13R88184
+        pes: '42'
+        mesures: 1810x400x300
+        mesures_gastronorm: 8 - GN 1/3 - 40
+        dot: OK
+        classe_energetica: D
+        potencia_electrica: 0,16 KW
+        preu: '1.615'
+    - codi: 13RC8184
+      cel_les:
+        codi: 13RC8184
+        pes: '40'
+        mesures: 1810x400x300
+        mesures_gastronorm: '-'
+        dot: 'NO'
+        classe_energetica: D
+        potencia_electrica: 0,16 KW
+        preu: '1.535'
+    mapa_columnes: sense_colN(1 eliminades)
+- pagina_pub: 10
+  pagina_pdf: 507
+  taules:
+  - id: p10-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - mesures_gastronorm
+    - dot
+    - classe_energetica
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 13RC5144
+      cel_les:
+        codi: 13RC5144
+        pes: '38'
+        mesures: 1455x400x300
+        mesures_gastronorm: 6 - GN 1/3 - 40
+        dot: 'NO'
+        classe_energetica: D
+        potencia_electrica: 0,2 KW
+        preu: '2.080'
+    - codi: 13RC5184
+      cel_les:
+        codi: 13RC5184
+        pes: '44'
+        mesures: 1810x400x300
+        mesures_gastronorm: 8 - GN 1/3 - 40
+        dot: 'NO'
+        classe_energetica: D
+        potencia_electrica: 0,2 KW
+        preu: '2.200'
+    mapa_columnes: sense_colN(1 eliminades)
+- pagina_pub: 11
+  pagina_pdf: 508
+  taules:
+  - id: p11-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - mesures_gastronorm
+    - dot
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 13C4H824
+      cel_les:
+        codi: 13C4H824
+        pes: '15'
+        mesures: 820x400x285
+        mesures_gastronorm: 4 - GN 1/3 - 40
+        dot: OK
+        potencia_electrica: 0,8 KW 230/1V
+        preu: '845'
+    - codi: 13C6H114
+      cel_les:
+        codi: 13C6H114
+        pes: '20'
+        mesures: 1170x400x285
+        mesures_gastronorm: 6 - GN 1/3 - 40
+        dot: OK
+        potencia_electrica: 1 KW 230/1V
+        preu: '935'
+    mapa_columnes: sense_colN(1 eliminades)
+- pagina_pub: 12
+  pagina_pdf: 509
+  taules:
+  - id: p12-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - dimensions_safata
+    - frontal_vidre
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 13RPN114
+      cel_les:
+        codi: 13RPN114
+        pes: '14'
+        mesures: 1105x400x250
+        dimensions_safata: 1085x350
+        frontal_vidre: 1105x290
+        preu: '535'
+    - codi: 13RPN144
+      cel_les:
+        codi: 13RPN144
+        pes: '15'
+        mesures: 1455x400x250
+        dimensions_safata: 1435x350
+        frontal_vidre: 1455x290
+        preu: '605'
+    - codi: 13RPN184
+      cel_les:
+        codi: 13RPN184
+        pes: '16'
+        mesures: 1810x400x250
+        dimensions_safata: 1790x350
+        frontal_vidre: 1810x290
+        preu: '685'
+    mapa_columnes: sense_colN(2 eliminades)
+- pagina_pub: 15
+  pagina_pdf: 512
+  taules:
+  - id: p15-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes_corredisses
+    - barbacoa
+    - nivells_safates
+    - capacitat_litres
+    - classe_energetica
+    - kw_365
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '13787270'
+      cel_les:
+        codi: '13787270'
+        pes: '57'
+        mesures: 700x465x670
+        portes_corredisses: '2'
+        barbacoa: '2'
+        nivells_safates: '3'
+        capacitat_litres: '95'
+        classe_energetica: C
+        kw_365: '1201'
+        potencia_electrica: 0,15 KW
+        preu: '1.090'
+    - codi: '13987270'
+      cel_les:
+        codi: '13987270'
+        pes: '70'
+        mesures: 700x575x670
+        portes_corredisses: '2'
+        barbacoa: '2'
+        nivells_safates: '3'
+        capacitat_litres: '120'
+        classe_energetica: C
+        kw_365: '1480'
+        potencia_electrica: 0,16 KW
+        preu: '1.420'
+    - codi: '13097270'
+      cel_les:
+        codi: '13097270'
+        pes: '75'
+        mesures: 875x575x670
+        portes_corredisses: '2'
+        barbacoa: '2'
+        nivells_safates: '3'
+        capacitat_litres: '160'
+        classe_energetica: C
+        kw_365: '1676'
+        potencia_electrica: 0,16 KW
+        preu: '1.655'
+- pagina_pub: 16
+  pagina_pdf: 513
+  taules:
+  - id: p16-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes_corredisses
+    - barbacoa
+    - nivells_safates
+    - capacitat_litres
+    - classe_energetica
+    - col8
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 13RVF915
+      cel_les:
+        codi: 13RVF915
+        pes: '59'
+        mesures: 910x510x550
+        portes_corredisses: '4'
+        barbacoa: '1'
+        nivells_safates: '2'
+        capacitat_litres: '110'
+        classe_energetica: C
+        col8: '1264'
+        potencia_electrica: 0,18 KW
+        preu: '1.960'
+    - codi: 13RVF115
+      cel_les:
+        codi: 13RVF115
+        pes: '60'
+        mesures: 1110x510x550
+        portes_corredisses: '4'
+        barbacoa: '1'
+        nivells_safates: '2'
+        capacitat_litres: '150'
+        classe_energetica: C
+        col8: '1369'
+        potencia_electrica: 0,18 KW
+        preu: '2.180'
+    - codi: 13RVF135
+      cel_les:
+        codi: 13RVF135
+        pes: '72'
+        mesures: 1310x510x550
+        portes_corredisses: '4'
+        barbacoa: '1'
+        nivells_safates: '2'
+        capacitat_litres: '190'
+        classe_energetica: C
+        col8: '1491'
+        potencia_electrica: 0,18 KW
+        preu: '2.390'
+- pagina_pub: 17
+  pagina_pdf: 514
+  taules:
+  - id: p17-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes_corredisses
+    - barbacoa
+    - nivells_safates
+    - capacitat_litres
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '13809310'
+      cel_les:
+        codi: '13809310'
+        pes: '52'
+        mesures: 700x465x670
+        portes_corredisses: '2'
+        barbacoa: '2'
+        nivells_safates: '3'
+        capacitat_litres: '95'
+        potencia_electrica: 1 KW
+        preu: '1.010'
+    - codi: '13909310'
+      cel_les:
+        codi: '13909310'
+        pes: '65'
+        mesures: 700x575x670
+        portes_corredisses: '2'
+        barbacoa: '2'
+        nivells_safates: '3'
+        capacitat_litres: '120'
+        potencia_electrica: 1,1 KW
+        preu: '1.135'
+    - codi: '13019310'
+      cel_les:
+        codi: '13019310'
+        pes: '70'
+        mesures: 875x575x670
+        portes_corredisses: '2'
+        barbacoa: '2'
+        nivells_safates: '3'
+        capacitat_litres: '160'
+        potencia_electrica: 1,5 KW
+        preu: '1.320'
+- pagina_pub: 20
+  pagina_pdf: 517
+  taules:
+  - id: p20-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes
+    - barbacoa
+    - nivells_safates
+    - capacitat_litres
+    - classe_energetica
+    - col8
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '13859270'
+      cel_les:
+        codi: '13859270'
+        pes: '33'
+        mesures: 430x390x1000
+        portes: '1'
+        barbacoa: '3'
+        nivells_safates: '4'
+        capacitat_litres: '80'
+        classe_energetica: B
+        col8: '1022'
+        potencia_electrica: 0,16 KW
+        preu: '875'
+    - codi: '13959270'
+      cel_les:
+        codi: '13959270'
+        pes: '38'
+        mesures: 430x390x1150
+        portes: '1'
+        barbacoa: '4'
+        nivells_safates: '5'
+        capacitat_litres: '100'
+        classe_energetica: B
+        col8: '1240'
+        potencia_electrica: 0,17 KW
+        preu: '980'
+- pagina_pub: 21
+  pagina_pdf: 518
+  taules:
+  - id: p21-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes
+    - barbacoa
+    - nivells_safates
+    - capacitat_litres
+    - classe_energetica
+    - col8
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 13CVFF1X
+      cel_les:
+        codi: 13CVFF1X
+        pes: '50'
+        mesures: Ø480x1030
+        portes: '1'
+        barbacoa: '3'
+        nivells_safates: '4'
+        capacitat_litres: '100'
+        classe_energetica: B
+        col8: '1126'
+        potencia_electrica: 0,22 KW
+        preu: '1.755'
+    - codi: '13809660'
+      cel_les:
+        codi: '13809660'
+        pes: '60'
+        mesures: Ø450x985
+        portes: '1'
+        barbacoa: '4'
+        nivells_safates: '4'
+        capacitat_litres: '75'
+        classe_energetica: C
+        col8: '1041'
+        potencia_electrica: 0,19 KW
+        preu: '1.875'
+- pagina_pub: 24
+  pagina_pdf: 521
+  taules:
+  - id: p24-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes
+    - barbacoa
+    - nivells_safates
+    - capacitat_litres
+    - classe_energetica
+    - col8
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 14AE5050
+      cel_les:
+        codi: 14AE5050
+        pes: '26'
+        mesures: 430x465x510
+        portes: '1'
+        barbacoa: '1'
+        nivells_safates: '2'
+        capacitat_litres: '50'
+        classe_energetica: E
+        col8: '449'
+        potencia_electrica: 0,080 KW
+        preu: '640'
+    - codi: 14AE5067
+      cel_les:
+        codi: 14AE5067
+        pes: '33'
+        mesures: 435x500x675
+        portes: '1'
+        barbacoa: '2'
+        nivells_safates: '3'
+        capacitat_litres: '67'
+        classe_energetica: C
+        col8: '204'
+        potencia_electrica: 0,085 KW
+        preu: '890'
+    - codi: 14AE5087
+      cel_les:
+        codi: 14AE5087
+        pes: '38'
+        mesures: 430x525x760
+        portes: '1'
+        barbacoa: '2'
+        nivells_safates: '3'
+        capacitat_litres: '87'
+        classe_energetica: F
+        col8: '510'
+        potencia_electrica: 0,105 KW
+        preu: '720'
+    - codi: 14AE5085
+      cel_les:
+        codi: 14AE5085
+        pes: '41'
+        mesures: 505x590x780
+        portes: '1'
+        barbacoa: '3'
+        nivells_safates: '4'
+        capacitat_litres: '85'
+        classe_energetica: C
+        col8: '241'
+        potencia_electrica: 0,085 KW
+        preu: '925'
+    - codi: 14AE5115
+      cel_les:
+        codi: 14AE5115
+        pes: '43'
+        mesures: 505x590x855
+        portes: '1'
+        barbacoa: '3'
+        nivells_safates: '4'
+        capacitat_litres: '115'
+        classe_energetica: C
+        col8: '266'
+        potencia_electrica: 0,090 KW
+        preu: '990'
+- pagina_pub: 25
+  pagina_pdf: 522
+  taules:
+  - id: p25-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes
+    - barbacoa
+    - nivells_safates
+    - capacitat_litres
+    - classe_energetica
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 14ECC505
+      cel_les:
+        codi: 14ECC505
+        pes: '41'
+        mesures: 510x505x850
+        portes: '1'
+        barbacoa: '1'
+        nivells_safates: '2'
+        capacitat_litres: '60'
+        classe_energetica: D
+        potencia_electrica: 0,16 KW
+        preu: '2.340'
+    - codi: 14EC1505
+      cel_les:
+        codi: 14EC1505
+        pes: '38'
+        mesures: 510x505x850
+        portes: '1'
+        barbacoa: '1'
+        nivells_safates: '2'
+        capacitat_litres: '60'
+        classe_energetica: D
+        potencia_electrica: 0,16 KW
+        preu: '2.105'
+- pagina_pub: 28
+  pagina_pdf: 525
+  taules:
+  - id: p28-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes
+    - barbacoa
+    - nivells_safates
+    - capacitat_litres
+    - classe_energetica
+    - col8
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '14208011'
+      cel_les:
+        codi: '14208011'
+        pes: '44'
+        mesures: 620x535x870
+        portes: '1'
+        barbacoa: '2'
+        nivells_safates: '3'
+        capacitat_litres: '135'
+        classe_energetica: A
+        col8: '562'
+        potencia_electrica: 0,18 KW
+        preu: '990'
+    - codi: '14308011'
+      cel_les:
+        codi: '14308011'
+        pes: '62'
+        mesures: 900x535x870
+        portes: '2'
+        barbacoa: '2'
+        nivells_safates: '3'
+        capacitat_litres: '200'
+        classe_energetica: B
+        col8: '792'
+        potencia_electrica: 0,22 KW
+        preu: '1.280'
+    - codi: '14608011'
+      cel_les:
+        codi: '14608011'
+        pes: '80'
+        mesures: 1200x535x870
+        portes: '3'
+        barbacoa: '2'
+        nivells_safates: '3'
+        capacitat_litres: '320'
+        classe_energetica: B
+        col8: '1383'
+        potencia_electrica: 0,24 KW
+        preu: '1.575'
+- pagina_pub: 29
+  pagina_pdf: 526
+  taules:
+  - id: p29-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes_corredisses
+    - barbacoa
+    - nivells_safates
+    - capacitat_litres
+    - classe_energetica
+    - col8
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 14MTC905
+      cel_les:
+        codi: 14MTC905
+        pes: '62'
+        mesures: 920x560x900
+        portes_corredisses: '2'
+        barbacoa: '2'
+        nivells_safates: '3'
+        capacitat_litres: '200'
+        classe_energetica: B
+        col8: '975'
+        potencia_electrica: 0,22 KW
+        preu: '1.320'
+    - codi: 14MTC135
+      cel_les:
+        codi: 14MTC135
+        pes: '80'
+        mesures: 1370x560x900
+        portes_corredisses: '3'
+        barbacoa: '2'
+        nivells_safates: '3'
+        capacitat_litres: '320'
+        classe_energetica: B
+        col8: '1420'
+        potencia_electrica: 0,24 KW
+        preu: '1.665'
+- pagina_pub: 31
+  pagina_pdf: 528
+  taules:
+  - id: p31-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes_corredisses
+    - barbacoa
+    - nivells_safates
+    - capacitat_litres
+    - classe_energetica
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 13VMT105
+      cel_les:
+        codi: 13VMT105
+        pes: '110'
+        mesures: 1005x580x1110
+        portes_corredisses: '2'
+        barbacoa: '2'
+        nivells_safates: '3'
+        capacitat_litres: '220'
+        classe_energetica: D
+        potencia_electrica: 0,24 KW
+        preu: '3.390'
+    - codi: 13VMT145
+      cel_les:
+        codi: 13VMT145
+        pes: '140'
+        mesures: 1410x580x1110
+        portes_corredisses: '2'
+        barbacoa: '2'
+        nivells_safates: '3'
+        capacitat_litres: '340'
+        classe_energetica: D
+        potencia_electrica: 0,25 KW
+        preu: '3.790'
+- pagina_pub: 35
+  pagina_pdf: 532
+  taules:
+  - id: p35-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes_corredisses
+    - barbacoa
+    - nivells_safates
+    - capacitat_litres
+    - classe_energetica
+    - col8
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '13819660'
+      cel_les:
+        codi: '13819660'
+        pes: '142'
+        mesures: 900x800x1360
+        portes_corredisses: '2'
+        barbacoa: '3'
+        nivells_safates: '4'
+        capacitat_litres: '220'
+        classe_energetica: C
+        col8: '2473'
+        potencia_electrica: 0,48 KW
+        preu: '3.265'
+    - codi: '13029660'
+      cel_les:
+        codi: '13029660'
+        pes: '170'
+        mesures: 1200x800x1360
+        portes_corredisses: '2'
+        barbacoa: '3'
+        nivells_safates: '4'
+        capacitat_litres: '306'
+        classe_energetica: C
+        col8: '3102'
+        potencia_electrica: 0,48 KW
+        preu: '3.555'
+    - codi: '13834190'
+      cel_les:
+        codi: '13834190'
+        pes: '198'
+        mesures: 1500x800x1360
+        portes_corredisses: '2'
+        barbacoa: '3'
+        nivells_safates: '4'
+        capacitat_litres: '390'
+        classe_energetica: D
+        col8: '3844'
+        potencia_electrica: 0,48 KW
+        preu: '3.905'
+    - codi: 13VC8957
+      cel_les:
+        codi: 13VC8957
+        pes: '150'
+        mesures: 950x730x1380
+        portes_corredisses: '2'
+        barbacoa: '3'
+        nivells_safates: '4'
+        capacitat_litres: '231'
+        classe_energetica: E
+        col8: '4178'
+        potencia_electrica: 1,1 KW
+        preu: '6.365'
+    - codi: 13VC8137
+      cel_les:
+        codi: 13VC8137
+        pes: '180'
+        mesures: 1300x730x1380
+        portes_corredisses: '2'
+        barbacoa: '3'
+        nivells_safates: '4'
+        capacitat_litres: '322'
+        classe_energetica: E
+        col8: '4294'
+        potencia_electrica: 1,5 KW
+        preu: '7.025'
+    - codi: 13VC8167
+      cel_les:
+        codi: 13VC8167
+        pes: '218'
+        mesures: 1650x730x1380
+        portes_corredisses: '2'
+        barbacoa: '3'
+        nivells_safates: '4'
+        capacitat_litres: '417'
+        classe_energetica: E
+        col8: '5334'
+        potencia_electrica: 1,9 KW
+        preu: '8.610'
+- pagina_pub: 36
+  pagina_pdf: 533
+  taules:
+  - id: p36-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes_corredisses
+    - barbacoa
+    - nivells_safates
+    - capacitat_litres
+    - classe_energetica
+    - col8
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '13229660'
+      cel_les:
+        codi: '13229660'
+        pes: '142'
+        mesures: 900x800x1360
+        portes_corredisses: '2'
+        barbacoa: '3'
+        nivells_safates: '4'
+        capacitat_litres: '220'
+        classe_energetica: C
+        col8: '2789'
+        potencia_electrica: 0,48 KW
+        preu: '3.265'
+    - codi: '13429660'
+      cel_les:
+        codi: '13429660'
+        pes: '170'
+        mesures: 1200x800x1360
+        portes_corredisses: '2'
+        barbacoa: '3'
+        nivells_safates: '4'
+        capacitat_litres: '306'
+        classe_energetica: C
+        col8: '3194'
+        potencia_electrica: 0,48 KW
+        preu: '3.905'
+    - codi: '13054190'
+      cel_les:
+        codi: '13054190'
+        pes: '198'
+        mesures: 1500x800x1360
+        portes_corredisses: '2'
+        barbacoa: '3'
+        nivells_safates: '4'
+        capacitat_litres: '390'
+        classe_energetica: D
+        col8: '3844'
+        potencia_electrica: 0,48 KW
+        preu: '4.425'
+    - codi: 13VR8957
+      cel_les:
+        codi: 13VR8957
+        pes: '150'
+        mesures: 950x730x1380
+        portes_corredisses: '2'
+        barbacoa: '3'
+        nivells_safates: '4'
+        capacitat_litres: '231'
+        classe_energetica: E
+        col8: '4178'
+        potencia_electrica: 1,1 KW
+        preu: '6.350'
+    - codi: 13VR8137
+      cel_les:
+        codi: 13VR8137
+        pes: '180'
+        mesures: 1300x730x1380
+        portes_corredisses: '2'
+        barbacoa: '3'
+        nivells_safates: '4'
+        capacitat_litres: '322'
+        classe_energetica: E
+        col8: '4294'
+        potencia_electrica: 1,5 KW
+        preu: '7.020'
+    - codi: 13VR8167
+      cel_les:
+        codi: 13VR8167
+        pes: '218'
+        mesures: 1650x730x1380
+        portes_corredisses: '2'
+        barbacoa: '3'
+        nivells_safates: '4'
+        capacitat_litres: '417'
+        classe_energetica: E
+        col8: '5334'
+        potencia_electrica: 1,9 KW
+        preu: '8.570'
+- pagina_pub: 37
+  pagina_pdf: 534
+  taules:
+  - id: p37-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes
+    - barbacoa
+    - nivells_safates
+    - capacitat_litres
+    - classe_energetica
+    - col8
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 13VC1138
+      cel_les:
+        codi: 13VC1138
+        pes: '145'
+        mesures: 1315x850x1085
+        portes: '2'
+        barbacoa: '2'
+        nivells_safates: '3'
+        capacitat_litres: '470'
+        classe_energetica: D
+        col8: '1577'
+        potencia_electrica: 0,42 KW
+        preu: '4.690'
+    - codi: 13VC1158
+      cel_les:
+        codi: 13VC1158
+        pes: '165'
+        mesures: 1515x850x1085
+        portes: '2'
+        barbacoa: '2'
+        nivells_safates: '3'
+        capacitat_litres: '540'
+        classe_energetica: D
+        col8: '1767'
+        potencia_electrica: 0,42 KW
+        preu: '4.830'
+    - codi: 13VC1208
+      cel_les:
+        codi: 13VC1208
+        pes: '210'
+        mesures: 2015x850x1085
+        portes: '3'
+        barbacoa: '2'
+        nivells_safates: '3'
+        capacitat_litres: '710'
+        classe_energetica: D
+        col8: '1843'
+        potencia_electrica: 0,48 KW
+        preu: '5.900'
+- pagina_pub: 40
+  pagina_pdf: 537
+  taules:
+  - id: p40-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes
+    - barbacoa
+    - nivells_safates
+    - capacitat_litres
+    - classe_energetica
+    - col8
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '14069270'
+      cel_les:
+        codi: '14069270'
+        pes: '107'
+        mesures: 515x485x1900
+        portes: '1'
+        barbacoa: '4'
+        nivells_safates: '5'
+        capacitat_litres: '280'
+        classe_energetica: C
+        col8: '2019'
+        potencia_electrica: 0,26 KW
+        preu: '2.430'
+    - codi: 14AV8514
+      cel_les:
+        codi: 14AV8514
+        pes: '107'
+        mesures: 515x485x1900
+        portes: '1'
+        barbacoa: '4'
+        nivells_safates: '5'
+        capacitat_litres: '280'
+        classe_energetica: C
+        col8: '2019'
+        potencia_electrica: 0,26 KW
+        preu: '2.570'
+- pagina_pub: 41
+  pagina_pdf: 538
+  taules:
+  - id: p41-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes
+    - barbacoa
+    - nivells_safates
+    - capacitat_litres
+    - classe_energetica
+    - col8
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 14RRW514
+      cel_les:
+        codi: 14RRW514
+        pes: '110'
+        mesures: 515x485x1715
+        portes: '1'
+        barbacoa: '4'
+        nivells_safates: '5'
+        capacitat_litres: '240'
+        classe_energetica: B
+        col8: '1497'
+        potencia_electrica: 0,25 KW
+        preu: '1.735'
+    - codi: 14RR8514
+      cel_les:
+        codi: 14RR8514
+        pes: '110'
+        mesures: 515x485x1715
+        portes: '1'
+        barbacoa: '4'
+        nivells_safates: '5'
+        capacitat_litres: '240'
+        classe_energetica: B
+        col8: '1497'
+        potencia_electrica: 0,25 KW
+        preu: '1.735'
+- pagina_pub: 42
+  pagina_pdf: 539
+  taules:
+  - id: p42-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes
+    - barbacoa
+    - nivells_safates
+    - capacitat_litres
+    - classe_energetica
+    - col8
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '14119901'
+      cel_les:
+        codi: '14119901'
+        pes: '180'
+        mesures: 650x650x1950
+        portes: '1'
+        barbacoa: '5'
+        nivells_safates: '5'
+        capacitat_litres: '320'
+        classe_energetica: C
+        col8: '2391'
+        potencia_electrica: 0,32 KW
+        preu: '3.950'
+    - codi: '14219901'
+      cel_les:
+        codi: '14219901'
+        pes: '195'
+        mesures: 650x650x1950
+        portes: '1'
+        barbacoa: '5'
+        nivells_safates: '5'
+        capacitat_litres: '320'
+        classe_energetica: D
+        col8: '8582'
+        potencia_electrica: 1 KW
+        preu: '4.640'
+- pagina_pub: 47
+  pagina_pdf: 544
+  taules:
+  - id: p47-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - col2
+    - mesures
+    - portes
+    - barbacoa
+    - nivells_safates
+    - capacitat_litres
+    - classe_energetica
+    - col9
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 14AEC404
+      cel_les:
+        codi: 14AEC404
+        pes: '62'
+        col2: WHITE
+        mesures: 400x480x1870
+        portes: '1'
+        barbacoa: 6 FIXED
+        nivells_safates: '7'
+        capacitat_litres: '110'
+        classe_energetica: B
+        col9: '1599'
+        potencia_electrica: 0,31 KW
+        preu: '2.315'
+    - codi: 14AEC537
+      cel_les:
+        codi: 14AEC537
+        pes: '89'
+        col2: WHITE
+        mesures: 530x750x1960
+        portes: '1'
+        barbacoa: 6 FIXED
+        nivells_safates: '7'
+        capacitat_litres: '340'
+        classe_energetica: B
+        col9: '4430'
+        potencia_electrica: 0,45 KW
+        preu: '3.365'
+    - codi: 14AER447
+      cel_les:
+        codi: 14AER447
+        pes: '78'
+        col2: WHITE
+        mesures: 440x710x1840
+        portes: '1'
+        barbacoa: '4'
+        nivells_safates: '5'
+        capacitat_litres: '300'
+        classe_energetica: D
+        col9: '642'
+        potencia_electrica: 0,30 KW
+        preu: '1.545'
+    - codi: 14AE2447
+      cel_les:
+        codi: 14AE2447
+        pes: '78'
+        col2: BLACK
+        mesures: 440x710x1840
+        portes: '1'
+        barbacoa: '4'
+        nivells_safates: '5'
+        capacitat_litres: '300'
+        classe_energetica: D
+        col9: '642'
+        potencia_electrica: 0,30 KW
+        preu: '1.610'
+- pagina_pub: 48
+  pagina_pdf: 545
+  taules:
+  - id: p48-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - col2
+    - mesures
+    - portes
+    - barbacoa
+    - nivells_safates
+    - capacitat_litres
+    - classe_energetica
+    - col9
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 14AE3605
+      cel_les:
+        codi: 14AE3605
+        pes: '77'
+        col2: BLACK
+        mesures: 600x560x1800
+        portes: '1'
+        barbacoa: '5'
+        nivells_safates: '6'
+        capacitat_litres: '290'
+        classe_energetica: B
+        col9: '1007'
+        potencia_electrica: 0,24 KW
+        preu: '2.085'
+    - codi: 14AE3905
+      cel_les:
+        codi: 14AE3905
+        pes: '106'
+        col2: BLACK
+        mesures: 900x560x1800
+        portes: '2'
+        barbacoa: 5+5
+        nivells_safates: 6+6
+        capacitat_litres: '460'
+        classe_energetica: B
+        col9: '1168'
+        potencia_electrica: 0,30 KW
+        preu: '2.840'
+- pagina_pub: 49
+  pagina_pdf: 546
+  taules:
+  - id: p49-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - col2
+    - mesures
+    - portes
+    - barbacoa
+    - nivells_safates
+    - capacitat_litres
+    - classe_energetica
+    - col9
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '14699690'
+      cel_les:
+        codi: '14699690'
+        pes: '70'
+        col2: WHITE
+        mesures: 600x640x1840
+        portes: '1'
+        barbacoa: '5'
+        nivells_safates: '6'
+        capacitat_litres: '370'
+        classe_energetica: D
+        col9: '620'
+        potencia_electrica: 0,25 KW
+        preu: '1.145'
+    - codi: '14581301'
+      cel_les:
+        codi: '14581301'
+        pes: '70'
+        col2: BLACK
+        mesures: 600x640x1840
+        portes: '1'
+        barbacoa: '5'
+        nivells_safates: '6'
+        capacitat_litres: '370'
+        classe_energetica: D
+        col9: '620'
+        potencia_electrica: 0,25 KW
+        preu: '1.320'
+    - codi: '14936590'
+      cel_les:
+        codi: '14936590'
+        pes: '73'
+        col2: WHITE
+        mesures: 600x640x1840
+        portes: '1'
+        barbacoa: 6 FIXED
+        nivells_safates: '7'
+        capacitat_litres: '300'
+        classe_energetica: B
+        col9: '3017'
+        potencia_electrica: 0,60 KW
+        preu: '2.215'
+    - codi: 14AE8606
+      cel_les:
+        codi: 14AE8606
+        pes: '73'
+        col2: BLACK
+        mesures: 600x640x1840
+        portes: '1'
+        barbacoa: 6 FIXED
+        nivells_safates: '7'
+        capacitat_litres: '300'
+        classe_energetica: B
+        col9: '3017'
+        potencia_electrica: 0,60 KW
+        preu: '2.765'
+- pagina_pub: 50
+  pagina_pdf: 547
+  taules:
+  - id: p50-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - col2
+    - mesures
+    - portes
+    - barbacoa
+    - nivells_safates
+    - capacitat_litres
+    - classe_energetica
+    - col9
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '14636590'
+      cel_les:
+        codi: '14636590'
+        pes: '110'
+        col2: BLACK
+        mesures: 600x760x2000
+        portes: '1'
+        barbacoa: '4'
+        nivells_safates: '5'
+        capacitat_litres: '450'
+        classe_energetica: D
+        col9: '1321'
+        potencia_electrica: 0,25 KW
+        preu: '2.290'
+    - codi: '14056590'
+      cel_les:
+        codi: '14056590'
+        pes: '116'
+        col2: BLACK
+        mesures: 600x760x2000
+        portes: '1'
+        barbacoa: '4'
+        nivells_safates: '5'
+        capacitat_litres: '450'
+        classe_energetica: D
+        col9: '4380'
+        potencia_electrica: 0,70 KW
+        preu: '3.760'
+    - codi: 14AEW707
+      cel_les:
+        codi: 14AEW707
+        pes: '129'
+        col2: WHITE
+        mesures: 700x735x2000
+        portes: '1'
+        barbacoa: 6 FIXED
+        nivells_safates: '7'
+        capacitat_litres: '450'
+        classe_energetica: C
+        col9: '4672'
+        potencia_electrica: 0,46 KW
+        preu: '3.560'
+- pagina_pub: 51
+  pagina_pdf: 548
+  taules:
+  - id: p51-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - col2
+    - mesures
+    - portes
+    - barbacoa
+    - nivells_safates
+    - capacitat_litres
+    - classe_energetica
+    - col9
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '14736590'
+      cel_les:
+        codi: '14736590'
+        pes: '176'
+        col2: BLACK
+        mesures: 1200x760x2000
+        portes: '2'
+        barbacoa: 4+4
+        nivells_safates: 5+5
+        capacitat_litres: '1000'
+        classe_energetica: F
+        col9: '1793'
+        potencia_electrica: 0,40 KW
+        preu: '4.195'
+    - codi: '14156590'
+      cel_les:
+        codi: '14156590'
+        pes: '185'
+        col2: BLACK
+        mesures: 1200x760x2000
+        portes: '2'
+        barbacoa: 4+4
+        nivells_safates: 5+5
+        capacitat_litres: '1000'
+        classe_energetica: F
+        col9: '8688'
+        potencia_electrica: 1,05 KW
+        preu: '6.530'
+    - codi: 14AEW127
+      cel_les:
+        codi: 14AEW127
+        pes: '185'
+        col2: WHITE
+        mesures: 1200x780x2000
+        portes: '2'
+        barbacoa: 4+4
+        nivells_safates: 5+5
+        capacitat_litres: '1020'
+        classe_energetica: E
+        col9: '6504'
+        potencia_electrica: 0,70 KW
+        preu: '5.985'
+- pagina_pub: 52
+  pagina_pdf: 549
+  taules:
+  - id: p52-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - col2
+    - mesures
+    - portes
+    - barbacoa
+    - nivells_safates
+    - capacitat_litres
+    - classe_energetica
+    - col9
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '14060301'
+      cel_les:
+        codi: '14060301'
+        pes: '133'
+        col2: WHITE
+        mesures: 700x725x2025
+        portes: '1'
+        barbacoa: '4'
+        nivells_safates: '5'
+        capacitat_litres: '485'
+        classe_energetica: D
+        col9: '1296'
+        potencia_electrica: 0,25 KW
+        preu: '3.000'
+    - codi: '14160301'
+      cel_les:
+        codi: '14160301'
+        pes: '138'
+        col2: WHITE
+        mesures: 700x725x2025
+        portes: '1'
+        barbacoa: '4'
+        nivells_safates: '5'
+        capacitat_litres: '485'
+        classe_energetica: D
+        col9: '4325'
+        potencia_electrica: 0,68 KW
+        preu: '4.200'
+    - codi: 14AER707
+      cel_les:
+        codi: 14AER707
+        pes: '133'
+        col2: BLACK
+        mesures: 700x725x2025
+        portes: '1'
+        barbacoa: '4'
+        nivells_safates: '5'
+        capacitat_litres: '485'
+        classe_energetica: D
+        col9: '1296'
+        potencia_electrica: 0,25 KW
+        preu: '3.105'
+    - codi: 14AEC707
+      cel_les:
+        codi: 14AEC707
+        pes: '138'
+        col2: BLACK
+        mesures: 700x725x2025
+        portes: '1'
+        barbacoa: '4'
+        nivells_safates: '5'
+        capacitat_litres: '485'
+        classe_energetica: D
+        col9: '4325'
+        potencia_electrica: 0,68 KW
+        preu: '4.055'
+- pagina_pub: 53
+  pagina_pdf: 550
+  taules:
+  - id: p53-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - col2
+    - mesures
+    - portes
+    - barbacoa
+    - nivells_safates
+    - capacitat_litres
+    - classe_energetica
+    - col9
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '14500001'
+      cel_les:
+        codi: '14500001'
+        pes: '203'
+        col2: WHITE
+        mesures: 1375x725x2025
+        portes: '2'
+        barbacoa: 4+4
+        nivells_safates: 5+5
+        capacitat_litres: '1050'
+        classe_energetica: F
+        col9: '1809'
+        potencia_electrica: 0,40 KW
+        preu: '4.355'
+    - codi: '14600001'
+      cel_les:
+        codi: '14600001'
+        pes: '212'
+        col2: WHITE
+        mesures: 1375x725x2025
+        portes: '2'
+        barbacoa: 4+4
+        nivells_safates: 5+5
+        capacitat_litres: '1050'
+        classe_energetica: F
+        col9: '8752'
+        potencia_electrica: 1,10 KW
+        preu: '6.360'
+    - codi: 14AER137
+      cel_les:
+        codi: 14AER137
+        pes: '203'
+        col2: BLACK
+        mesures: 1375x725x2025
+        portes: '2'
+        barbacoa: 4+4
+        nivells_safates: 5+5
+        capacitat_litres: '1050'
+        classe_energetica: F
+        col9: '1809'
+        potencia_electrica: 0,40 KW
+        preu: '4.660'
+    - codi: 14AEC137
+      cel_les:
+        codi: 14AEC137
+        pes: '212'
+        col2: BLACK
+        mesures: 1375x725x2025
+        portes: '2'
+        barbacoa: 4+4
+        nivells_safates: 5+5
+        capacitat_litres: '1050'
+        classe_energetica: F
+        col9: '8752'
+        potencia_electrica: 1,10 KW
+        preu: '6.250'
+- pagina_pub: 57
+  pagina_pdf: 554
+  taules:
+  - id: p57-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes
+    - barbacoa
+    - nivells_safates
+    - capacitat_litres
+    - col7
+    - classe_energetica
+    - col9
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '15397240'
+      cel_les:
+        codi: '15397240'
+        pes: '50'
+        mesures: 570x505x950
+        portes: '1'
+        barbacoa: '1'
+        nivells_safates: '2'
+        capacitat_litres: '120'
+        col7: '31'
+        classe_energetica: E
+        col9: '423'
+        potencia_electrica: 0,23 KW
+        preu: '1.355'
+    - codi: '15497240'
+      cel_les:
+        codi: '15497240'
+        pes: '110'
+        mesures: 620x655x1850
+        portes: '1'
+        barbacoa: '4'
+        nivells_safates: '5'
+        capacitat_litres: '400'
+        col7: '72'
+        classe_energetica: E
+        col9: '909'
+        potencia_electrica: 0,26 KW
+        preu: '1.955'
+- pagina_pub: 58
+  pagina_pdf: 555
+  taules:
+  - id: p58-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - col2
+    - mesures
+    - portes
+    - barbacoa
+    - nivells_safates
+    - capacitat_litres
+    - col8
+    - classe_energetica
+    - col10
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 15EV8606
+      cel_les:
+        codi: 15EV8606
+        pes: '75'
+        col2: BLACK
+        mesures: 600x660x1850
+        portes: '1'
+        barbacoa: '6'
+        nivells_safates: '7'
+        capacitat_litres: '350'
+        col8: '78'
+        classe_energetica: D
+        col10: '714'
+        potencia_electrica: 0,30 KW
+        preu: '1.600'
+    - codi: 15EVW606
+      cel_les:
+        codi: 15EVW606
+        pes: '75'
+        col2: WOOD
+        mesures: 600x660x1850
+        portes: '1'
+        barbacoa: '6'
+        nivells_safates: '7'
+        capacitat_litres: '350'
+        col8: '78'
+        classe_energetica: D
+        col10: '714'
+        potencia_electrica: 0,30 KW
+        preu: '1.510'
+    - codi: 15EVA606
+      cel_les:
+        codi: 15EVA606
+        pes: '75'
+        col2: ALUMINIUM
+        mesures: 600x660x1850
+        portes: '1'
+        barbacoa: '6'
+        nivells_safates: '7'
+        capacitat_litres: '350'
+        col8: '78'
+        classe_energetica: D
+        col10: '714'
+        potencia_electrica: 0,30 KW
+        preu: '1.695'
+- pagina_pub: 59
+  pagina_pdf: 556
+  taules:
+  - id: p59-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes
+    - barbacoa
+    - nivells_safates
+    - capacitat_litres
+    - col7
+    - classe_energetica
+    - col9
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 15EV3386
+      cel_les:
+        codi: 15EV3386
+        pes: '35'
+        mesures: 380x650x870
+        portes: '1'
+        barbacoa: '6'
+        nivells_safates: '7'
+        capacitat_litres: '106'
+        col7: '31'
+        classe_energetica: F
+        col9: '94'
+        potencia_electrica: 0,08 KW
+        preu: '1.345'
+    - codi: 15EV3626
+      cel_les:
+        codi: 15EV3626
+        pes: '110'
+        mesures: 620x655x1850
+        portes: '1'
+        barbacoa: '4'
+        nivells_safates: '5'
+        capacitat_litres: '400'
+        col7: '72'
+        classe_energetica: E
+        col9: '909'
+        potencia_electrica: 0,26 KW
+        preu: '2.535'
+    - codi: 15EV3607
+      cel_les:
+        codi: 15EV3607
+        pes: '105'
+        mesures: 600x720x1770
+        portes: '1'
+        barbacoa: '8'
+        nivells_safates: '8'
+        capacitat_litres: '470'
+        col7: '150'
+        classe_energetica: G
+        col9: '158'
+        potencia_electrica: 0,26 KW
+        preu: '3.200'
+- pagina_pub: 60
+  pagina_pdf: 557
+  taules:
+  - id: p60-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes
+    - barbacoa
+    - nivells_safates
+    - capacitat_litres
+    - col7
+    - classe_energetica
+    - col9
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 15EV4605
+      cel_les:
+        codi: 15EV4605
+        pes: '80'
+        mesures: 600x560x1800
+        portes: '1'
+        barbacoa: '5'
+        nivells_safates: '6'
+        capacitat_litres: '295'
+        col7: '90'
+        classe_energetica: B
+        col9: '1007'
+        potencia_electrica: 0,24 KW
+        preu: '2.145'
+    - codi: 15EV4905
+      cel_les:
+        codi: 15EV4905
+        pes: '105'
+        mesures: 900x560x1800
+        portes: '2'
+        barbacoa: 5+5
+        nivells_safates: 6+6
+        capacitat_litres: '460'
+        col7: '154'
+        classe_energetica: B
+        col9: '1168'
+        potencia_electrica: 0,30 KW
+        preu: '2.965'
+- pagina_pub: 61
+  pagina_pdf: 558
+  taules:
+  - id: p61-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes
+    - barbacoa
+    - nivells_safates
+    - capacitat_litres
+    - col7
+    - classe_energetica
+    - col9
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 15EV5605
+      cel_les:
+        codi: 15EV5605
+        pes: '52'
+        mesures: 600x580x870
+        portes: '1'
+        barbacoa: '5'
+        nivells_safates: '6'
+        capacitat_litres: '150'
+        col7: '48'
+        classe_energetica: G
+        col9: '248'
+        potencia_electrica: 0,26 KW
+        preu: '1.445'
+    - codi: 15EV5496
+      cel_les:
+        codi: 15EV5496
+        pes: '50'
+        mesures: 495x635x840
+        portes: '1'
+        barbacoa: '5'
+        nivells_safates: '6'
+        capacitat_litres: '140'
+        col7: '34'
+        classe_energetica: G
+        col9: '142'
+        potencia_electrica: 0,09 KW
+        preu: '1.470'
+    - codi: 15EV5607
+      cel_les:
+        codi: 15EV5607
+        pes: '105'
+        mesures: 600x700x1605
+        portes: '1'
+        barbacoa: '8'
+        nivells_safates: '9'
+        capacitat_litres: '380'
+        col7: '143'
+        classe_energetica: G
+        col9: '398'
+        potencia_electrica: 0,47 KW
+        preu: '2.725'
+    - codi: 15EV5672
+      cel_les:
+        codi: 15EV5672
+        pes: '112'
+        mesures: 600x720x1770
+        portes: '1'
+        barbacoa: '8'
+        nivells_safates: '9'
+        capacitat_litres: '470'
+        col7: '165'
+        classe_energetica: G
+        col9: '175'
+        potencia_electrica: 0,26 KW
+        preu: '3.410'
+- pagina_pub: 62
+  pagina_pdf: 559
+  taules:
+  - id: p62-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes
+    - barbacoa
+    - nivells_safates
+    - capacitat_litres
+    - col7
+    - classe_energetica
+    - col9
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 15EV8687
+      cel_les:
+        codi: 15EV8687
+        pes: '124'
+        mesures: 680x740x2050
+        portes: '1'
+        barbacoa: '6'
+        nivells_safates: '6'
+        capacitat_litres: '505'
+        col7: '105'
+        classe_energetica: D
+        col9: '175'
+        potencia_electrica: 0,26 KW
+        preu: '4.210'
+    - codi: 15EV8137
+      cel_les:
+        codi: 15EV8137
+        pes: '220'
+        mesures: 1370x740x2050
+        portes: '2'
+        barbacoa: 6+6
+        nivells_safates: 6+6
+        capacitat_litres: '1010'
+        col7: '210'
+        classe_energetica: D
+        col9: '2780'
+        potencia_electrica: 0,52 KW
+        preu: '7.635'
+- pagina_pub: 65
+  pagina_pdf: 562
+  taules:
+  - id: p65-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes
+    - barra_ganxos
+    - barbacoa
+    - capacitat_litres
+    - pernil
+    - classe_energetica
+    - col9
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 15EC6609
+      cel_les:
+        codi: 15EC6609
+        pes: '50'
+        mesures: 600x650x900
+        portes: '1'
+        barra_ganxos: '1'
+        barbacoa: '1'
+        capacitat_litres: '120'
+        pernil: '20'
+        classe_energetica: D
+        col9: '900'
+        potencia_electrica: 0,20 KW
+        preu: '2.380'
+    - codi: 15EC6615
+      cel_les:
+        codi: 15EC6615
+        pes: '70'
+        mesures: 600x650x1550
+        portes: '1'
+        barra_ganxos: '1'
+        barbacoa: '2'
+        capacitat_litres: '240'
+        pernil: '55'
+        classe_energetica: D
+        col9: '1080'
+        potencia_electrica: 0,24 KW
+        preu: '3.745'
+    - codi: 15EC6619
+      cel_les:
+        codi: 15EC6619
+        pes: '85'
+        mesures: 600x650x1900
+        portes: '1'
+        barra_ganxos: '1'
+        barbacoa: '2'
+        capacitat_litres: '320'
+        pernil: '75'
+        classe_energetica: D
+        col9: '1395'
+        potencia_electrica: 0,31 KW
+        preu: '5.670'
+    - codi: 15EC6821
+      cel_les:
+        codi: 15EC6821
+        pes: '145'
+        mesures: 600x850x2130
+        portes: '1'
+        barra_ganxos: '1'
+        barbacoa: '2'
+        capacitat_litres: '645'
+        pernil: '150'
+        classe_energetica: D
+        col9: '1395'
+        potencia_electrica: 0,31 KW
+        preu: '6.170'
+- pagina_pub: 68
+  pagina_pdf: 565
+  taules:
+  - id: p68-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - codi_2
+    - pes
+    - mesures
+    - wok
+    - dimensions_cuba
+    - capacitat_litres
+    - portes
+    - classe_energetica
+    - col9
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 24X01159
+      cel_les:
+        codi: 24X01159
+    - codi: 24X02199
+      cel_les:
+        codi: 24X02199
+    - codi: 24X07159
+      cel_les:
+        codi_2: 24X07159
+        pes: '160'
+        mesures: 1505x940x1235
+        wok: '[icona]'
+        dimensions_cuba: 1,15
+        capacitat_litres: '452'
+        portes: '2'
+        classe_energetica: D
+        col9: '4905'
+        potencia_electrica: 1,09 KW
+        preu: '4.605'
+      icones_en_columna:
+      - wok
+    - codi: 24X08199
+      cel_les:
+        codi_2: 24X08199
+        pes: '172'
+        mesures: 1985x940x1235
+        wok: '[icona]'
+        dimensions_cuba: 1,54
+        capacitat_litres: '606'
+        portes: '3'
+        classe_energetica: D
+        col9: '5715'
+        potencia_electrica: 1,27 KW
+        preu: '5.500'
+      icones_en_columna:
+      - wok
+    - codi: 24X03249
+      cel_les:
+        codi: 24X03249
+    - codi: 24X09249
+      cel_les:
+        codi_2: 24X09249
+        pes: '195'
+        mesures: 2465x940x1235
+        wok: '[icona]'
+        dimensions_cuba: 1,92
+        capacitat_litres: '759'
+        portes: '4'
+        classe_energetica: D
+        col9: '6300'
+        potencia_electrica: 1,40 KW
+        preu: '6.665'
+      icones_en_columna:
+      - wok
+    - codi: 24X04159
+      cel_les:
+        codi: 24X04159
+    - codi: 24X10159
+      cel_les:
+        codi_2: 24X10159
+        pes: '160'
+        mesures: 1505x940x1235
+        wok: '[icona]'
+        dimensions_cuba: 1,29
+        capacitat_litres: '366'
+        portes: '2'
+        classe_energetica: D
+        col9: '4905'
+        potencia_electrica: 1,09 KW
+        preu: '4.965'
+      icones_en_columna:
+      - wok
+    - codi: 24X05199
+      cel_les:
+        codi: 24X05199
+    - codi: 24X11199
+      cel_les:
+        codi_2: 24X11199
+        pes: '172'
+        mesures: 1985x940x1235
+        wok: '[icona]'
+        dimensions_cuba: 1,72
+        capacitat_litres: '471'
+        portes: '3'
+        classe_energetica: D
+        col9: '5715'
+        potencia_electrica: 1,27 KW
+        preu: '5.685'
+      icones_en_columna:
+      - wok
+    - codi: 24X06249
+      cel_les:
+        codi: 24X06249
+    - codi: 24X12249
+      cel_les:
+        codi_2: 24X12249
+        pes: '195'
+        mesures: 2465x940x1235
+        wok: '[icona]'
+        dimensions_cuba: 2,15
+        capacitat_litres: '615'
+        portes: '4'
+        classe_energetica: D
+        col9: '6300'
+        potencia_electrica: 1,40 KW
+        preu: '6.905'
+      icones_en_columna:
+      - wok
+- pagina_pub: 69
+  pagina_pdf: 566
+  taules:
+  - id: p69-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - codi_2
+    - pes
+    - mesures
+    - wok
+    - dimensions_cuba
+    - capacitat_litres
+    - portes
+    - classe_energetica
+    - col9
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 24X13159
+      cel_les:
+        codi: 24X13159
+    - codi: 24X14199
+      cel_les:
+        codi: 24X14199
+    - codi: 24X19159
+      cel_les:
+        codi_2: 24X19159
+        pes: '160'
+        mesures: 1505x940x1235
+        wok: '[icona]'
+        dimensions_cuba: 1,15
+        capacitat_litres: '452'
+        portes: '2'
+        classe_energetica: D
+        col9: '4905'
+        potencia_electrica: 1,09 KW
+        preu: '4.645'
+      icones_en_columna:
+      - wok
+    - codi: 24X20199
+      cel_les:
+        codi_2: 24X20199
+        pes: '172'
+        mesures: 1985x940x1235
+        wok: '[icona]'
+        dimensions_cuba: 1,54
+        capacitat_litres: '606'
+        portes: '3'
+        classe_energetica: D
+        col9: '5715'
+        potencia_electrica: 1,27 KW
+        preu: '5.550'
+      icones_en_columna:
+      - wok
+    - codi: 24X15249
+      cel_les:
+        codi: 24X15249
+    - codi: 24X21249
+      cel_les:
+        codi_2: 24X21249
+        pes: '195'
+        mesures: 2465x940x1235
+        wok: '[icona]'
+        dimensions_cuba: 1,92
+        capacitat_litres: '759'
+        portes: '4'
+        classe_energetica: D
+        col9: '6300'
+        potencia_electrica: 1,40 KW
+        preu: '6.730'
+      icones_en_columna:
+      - wok
+    - codi: 24X16159
+      cel_les:
+        codi: 24X16159
+    - codi: 24X22159
+      cel_les:
+        codi_2: 24X22159
+        pes: '160'
+        mesures: 1505x940x1235
+        wok: '[icona]'
+        dimensions_cuba: 1,29
+        capacitat_litres: '366'
+        portes: '2'
+        classe_energetica: D
+        col9: '4905'
+        potencia_electrica: 1,09 KW
+        preu: '5.015'
+      icones_en_columna:
+      - wok
+    - codi: 24X17199
+      cel_les:
+        codi: 24X17199
+    - codi: 24X23199
+      cel_les:
+        codi_2: 24X23199
+        pes: '172'
+        mesures: 1985x940x1235
+        wok: '[icona]'
+        dimensions_cuba: 1,72
+        capacitat_litres: '471'
+        portes: '3'
+        classe_energetica: D
+        col9: '5715'
+        potencia_electrica: 1,27 KW
+        preu: '5.735'
+      icones_en_columna:
+      - wok
+    - codi: 24X18249
+      cel_les:
+        codi: 24X18249
+    - codi: 24X24249
+      cel_les:
+        codi_2: 24X24249
+        pes: '195'
+        mesures: 2465x940x1235
+        wok: '[icona]'
+        dimensions_cuba: 2,15
+        capacitat_litres: '615'
+        portes: '4'
+        classe_energetica: D
+        col9: '6300'
+        potencia_electrica: 1,40 KW
+        preu: '6.970'
+      icones_en_columna:
+      - wok
+- pagina_pub: 70
+  pagina_pdf: 567
+  taules:
+  - id: p70-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - codi_2
+    - pes
+    - mesures
+    - dimensions_cuba
+    - capacitat_litres
+    - portes
+    - classe_energetica
+    - col8
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 24M25151
+      cel_les:
+        codi: 24M25151
+    - codi: 24M28151
+      cel_les:
+        codi_2: 24M28151
+        pes: '173'
+        mesures: 1505x1080x1235
+        dimensions_cuba: 1,36
+        capacitat_litres: '444'
+        portes: '2'
+        classe_energetica: D
+        col8: '4725'
+        potencia_electrica: 1,05 KW
+        preu: '5.065'
+    - codi: 24M26191
+      cel_les:
+        codi: 24M26191
+    - codi: 24M29191
+      cel_les:
+        codi_2: 24M29191
+        pes: '186'
+        mesures: 1985x1080x1235
+        dimensions_cuba: 1,81
+        capacitat_litres: '594'
+        portes: '3'
+        classe_energetica: D
+        col8: '5805'
+        potencia_electrica: 1,29 KW
+        preu: '6.050'
+    - codi: 24M27241
+      cel_les:
+        codi: 24M27241
+    - codi: 24M30241
+      cel_les:
+        codi_2: 24M30241
+        pes: '215'
+        mesures: 2465x1080x1235
+        dimensions_cuba: 2,26
+        capacitat_litres: '745'
+        portes: '4'
+        classe_energetica: D
+        col8: '6120'
+        potencia_electrica: 1,36 KW
+        preu: '7.330'
+    - codi: 24M31151
+      cel_les:
+        codi: 24M31151
+    - codi: 24M34151
+      cel_les:
+        codi_2: 24M34151
+        pes: '173'
+        mesures: 1505x1080x1235
+        dimensions_cuba: 1,36
+        capacitat_litres: '444'
+        portes: '2'
+        classe_energetica: D
+        col8: '4725'
+        potencia_electrica: 1,05 KW
+        preu: '6.125'
+    - codi: 24M32191
+      cel_les:
+        codi: 24M32191
+    - codi: 24M35191
+      cel_les:
+        codi_2: 24M35191
+        pes: '186'
+        mesures: 1985x1080x1235
+        dimensions_cuba: 1,81
+        capacitat_litres: '594'
+        portes: '3'
+        classe_energetica: D
+        col8: '5805'
+        potencia_electrica: 1,29 KW
+        preu: '7.075'
+    - codi: 24M33241
+      cel_les:
+        codi: 24M33241
+    - codi: 24M36241
+      cel_les:
+        codi_2: 24M36241
+        pes: '215'
+        mesures: 2465x1080x1235
+        dimensions_cuba: 2,26
+        capacitat_litres: '745'
+        portes: '4'
+        classe_energetica: D
+        col8: '6120'
+        potencia_electrica: 1,36 KW
+        preu: '8.785'
+- pagina_pub: 71
+  pagina_pdf: 568
+  taules:
+  - id: p71-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - codi_2
+    - pes
+    - mesures
+    - wok
+    - dimensions_cuba
+    - capacitat_litres
+    - portes
+    - classe_energetica
+    - col9
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 24P37159
+      cel_les:
+        codi: 24P37159
+    - codi: 24P38199
+      cel_les:
+        codi: 24P38199
+    - codi: 24P43159
+      cel_les:
+        codi_2: 24P43159
+        pes: '165'
+        mesures: 1505x940x1300
+        wok: '2'
+        dimensions_cuba: 1,15
+        capacitat_litres: '452'
+        portes: '2'
+        classe_energetica: D
+        col9: '4635'
+        potencia_electrica: 1,03 KW
+        preu: '5.430'
+      icones_en_columna:
+      - wok
+    - codi: 24P44199
+      cel_les:
+        codi_2: 24P44199
+        pes: '177'
+        mesures: 1985x940x1300
+        wok: '3'
+        dimensions_cuba: 1,54
+        capacitat_litres: '606'
+        portes: '3'
+        classe_energetica: D
+        col9: '5625'
+        potencia_electrica: 1,25 KW
+        preu: '6.240'
+      icones_en_columna:
+      - wok
+    - codi: 24P39249
+      cel_les:
+        codi: 24P39249
+    - codi: 24P45249
+      cel_les:
+        codi_2: 24P45249
+        pes: '201'
+        mesures: 2465x940x1300
+        wok: '4'
+        dimensions_cuba: 1,92
+        capacitat_litres: '759'
+        portes: '4'
+        classe_energetica: D
+        col9: '5940'
+        potencia_electrica: 1,32 KW
+        preu: '7.565'
+      icones_en_columna:
+      - wok
+    - codi: 24P40159
+      cel_les:
+        codi: 24P40159
+    - codi: 24P46159
+      cel_les:
+        codi_2: 24P46159
+        pes: '165'
+        mesures: 1505x940x1300
+        wok: '2'
+        dimensions_cuba: 1,29
+        capacitat_litres: '366'
+        portes: '2'
+        classe_energetica: D
+        col9: '4635'
+        potencia_electrica: 1,03 KW
+        preu: '5.065'
+      icones_en_columna:
+      - wok
+    - codi: 24P41199
+      cel_les:
+        codi: 24P41199
+    - codi: 24P47199
+      cel_les:
+        codi_2: 24P47199
+        pes: '177'
+        mesures: 1985x940x1300
+        wok: '3'
+        dimensions_cuba: 1,72
+        capacitat_litres: '471'
+        portes: '3'
+        classe_energetica: D
+        col9: '5625'
+        potencia_electrica: 1,25 KW
+        preu: '6.055'
+      icones_en_columna:
+      - wok
+    - codi: 24P42249
+      cel_les:
+        codi: 24P42249
+    - codi: 24P48249
+      cel_les:
+        codi_2: 24P48249
+        pes: '201'
+        mesures: 2465x940x1300
+        wok: '4'
+        dimensions_cuba: 2,15
+        capacitat_litres: '615'
+        portes: '4'
+        classe_energetica: D
+        col9: '5940'
+        potencia_electrica: 1,32 KW
+        preu: '7.330'
+      icones_en_columna:
+      - wok
+- pagina_pub: 72
+  pagina_pdf: 569
+  taules:
+  - id: p72-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - codi_2
+    - pes
+    - mesures
+    - wok
+    - dimensions_cuba
+    - capacitat_litres
+    - portes
+    - classe_energetica
+    - col9
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 24P49159
+      cel_les:
+        codi: 24P49159
+    - codi: 24P50199
+      cel_les:
+        codi: 24P50199
+    - codi: 24P52159
+      cel_les:
+        codi_2: 24P52159
+        pes: '165'
+        mesures: 1505x940x1300
+        wok: '2'
+        dimensions_cuba: 1,15
+        capacitat_litres: '452'
+        portes: '2'
+        classe_energetica: D
+        col9: '4635'
+        potencia_electrica: 1,03 KW
+        preu: '5.480'
+      icones_en_columna:
+      - wok
+    - codi: 24P53199
+      cel_les:
+        codi_2: 24P53199
+        pes: '177'
+        mesures: 1985x940x1300
+        wok: '3'
+        dimensions_cuba: 1,54
+        capacitat_litres: '606'
+        portes: '3'
+        classe_energetica: D
+        col9: '5625'
+        potencia_electrica: 1,25 KW
+        preu: '6.295'
+      icones_en_columna:
+      - wok
+    - codi: 24P51249
+      cel_les:
+        codi: 24P51249
+    - codi: 24P54249
+      cel_les:
+        codi_2: 24P54249
+        pes: '201'
+        mesures: 2465x940x1300
+        wok: '4'
+        dimensions_cuba: 1,92
+        capacitat_litres: '759'
+        portes: '4'
+        classe_energetica: D
+        col9: '5940'
+        potencia_electrica: 1,32 KW
+        preu: '7.635'
+      icones_en_columna:
+      - wok
+    - codi: 24P55159
+      cel_les:
+        codi: 24P55159
+    - codi: 24P58159
+      cel_les:
+        codi_2: 24P58159
+        pes: '165'
+        mesures: 1505x940x1300
+        wok: '2'
+        dimensions_cuba: 1,29
+        capacitat_litres: '366'
+        portes: '2'
+        classe_energetica: D
+        col9: '4635'
+        potencia_electrica: 1,03 KW
+        preu: '5.110'
+      icones_en_columna:
+      - wok
+    - codi: 24P56199
+      cel_les:
+        codi: 24P56199
+    - codi: 24P59199
+      cel_les:
+        codi_2: 24P59199
+        pes: '177'
+        mesures: 1985x940x1300
+        wok: '3'
+        dimensions_cuba: 1,72
+        capacitat_litres: '471'
+        portes: '3'
+        classe_energetica: D
+        col9: '5625'
+        potencia_electrica: 1,25 KW
+        preu: '6.110'
+      icones_en_columna:
+      - wok
+    - codi: 24P57249
+      cel_les:
+        codi: 24P57249
+    - codi: 24P60249
+      cel_les:
+        codi_2: 24P60249
+        pes: '201'
+        mesures: 2465x940x1300
+        wok: '4'
+        dimensions_cuba: 2,15
+        capacitat_litres: '615'
+        portes: '4'
+        classe_energetica: D
+        col9: '5940'
+        potencia_electrica: 1,32 KW
+        preu: '7.400'
+      icones_en_columna:
+      - wok
+- pagina_pub: 75
+  pagina_pdf: 572
+  taules:
+  - id: p75-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - dimensions_cuba
+    - mesures_gastronorm
+    - classe_energetica
+    - col6
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 24F65M26
+      cel_les:
+        codi: 24F65M26
+        pes: '60'
+        mesures: 700x890x435
+        dimensions_cuba: 0,34
+        mesures_gastronorm: 2 - GN 1/1 - 65
+        classe_energetica: D
+        col6: '833'
+        potencia_electrica: 0,30 KW
+        preu: '2.500'
+    - codi: 24F65526
+      cel_les:
+        codi: 24F65526
+        pes: '76'
+        mesures: 700x890x1235
+        dimensions_cuba: 0,34
+        mesures_gastronorm: 2 - GN 1/1 - 65
+        classe_energetica: D
+        col6: '833'
+        potencia_electrica: 0,30 KW
+        preu: '2.995'
+    - codi: 24F65M36
+      cel_les:
+        codi: 24F65M36
+        pes: '80'
+        mesures: 1020x890x435
+        dimensions_cuba: 0,52
+        mesures_gastronorm: 3 - GN 1/1 - 65
+        classe_energetica: D
+        col6: '833'
+        potencia_electrica: 0,30 KW
+        preu: '2.995'
+    - codi: 24F65536
+      cel_les:
+        codi: 24F65536
+        pes: '98'
+        mesures: 1020x890x1235
+        dimensions_cuba: 0,52
+        mesures_gastronorm: 3 - GN 1/1 - 65
+        classe_energetica: D
+        col6: '833'
+        potencia_electrica: 0,30 KW
+        preu: '3.525'
+- pagina_pub: 76
+  pagina_pdf: 573
+  taules:
+  - id: p76-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - dimensions_cuba
+    - portes
+    - classe_energetica
+    - col6
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 24F61159
+      cel_les:
+        codi: 24F61159
+        pes: '130'
+        mesures: 1035x915x1235
+        dimensions_cuba: 0,76
+        portes: 'NO'
+        classe_energetica: G
+        col6: '2589'
+        potencia_electrica: 0,82 KW
+        preu: '4.355'
+    - codi: 24F62199
+      cel_les:
+        codi: 24F62199
+        pes: '154'
+        mesures: 1285x915x1235
+        dimensions_cuba: 0,95
+        portes: 'NO'
+        classe_energetica: G
+        col6: '2963'
+        potencia_electrica: 0,99 KW
+        preu: '4.800'
+    - codi: 24F63249
+      cel_les:
+        codi: 24F63249
+        pes: '178'
+        mesures: 1505x915x1235
+        dimensions_cuba: 1,13
+        portes: 'NO'
+        classe_energetica: G
+        col6: '3212'
+        potencia_electrica: 1,07 KW
+        preu: '5.040'
+    - codi: 24F64159
+      cel_les:
+        codi: 24F64159
+        pes: '130'
+        mesures: 1035x915x1235
+        dimensions_cuba: 0,76
+        portes: 'NO'
+        classe_energetica: G
+        col6: '2589'
+        potencia_electrica: 0,82 KW
+        preu: '4.380'
+    - codi: 24F65199
+      cel_les:
+        codi: 24F65199
+        pes: '154'
+        mesures: 1285x915x1235
+        dimensions_cuba: 0,95
+        portes: 'NO'
+        classe_energetica: G
+        col6: '2963'
+        potencia_electrica: 0,99 KW
+        preu: '5.050'
+    - codi: 24F66249
+      cel_les:
+        codi: 24F66249
+        pes: '178'
+        mesures: 1505x915x1235
+        dimensions_cuba: 1,13
+        portes: 'NO'
+        classe_energetica: G
+        col6: '3212'
+        potencia_electrica: 1,07 KW
+        preu: '5.555'
+- pagina_pub: 79
+  pagina_pdf: 576
+  taules:
+  - id: p79-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - codi_2
+    - pes
+    - mesures
+    - dimensions_cuba
+    - capacitat_litres
+    - portes
+    - barbacoa
+    - nivells_safates
+    - classe_energetica
+    - col10
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '24613607'
+      cel_les:
+        codi: '24613607'
+    - codi: 24R13607
+      cel_les:
+        codi_2: 24R13607
+        pes: '117'
+        mesures: 600x730x1380
+        dimensions_cuba: 0,62
+        capacitat_litres: '140'
+        portes: '0'
+        barbacoa: '3'
+        nivells_safates: '4'
+        classe_energetica: E
+        col10: '3840'
+        potencia_electrica: 1,14 KW
+        preu: '4.745'
+    - codi: '24613957'
+      cel_les:
+        codi: '24613957'
+    - codi: 24R13957
+      cel_les:
+        codi_2: 24R13957
+        pes: '135'
+        mesures: 950x730x1380
+        dimensions_cuba: 1,03
+        capacitat_litres: '231'
+        portes: '0'
+        barbacoa: '3'
+        nivells_safates: '4'
+        classe_energetica: F
+        col10: '5320'
+        potencia_electrica: 1,38 KW
+        preu: '5.620'
+    - codi: '24613137'
+      cel_les:
+        codi: '24613137'
+    - codi: 24R13137
+      cel_les:
+        codi_2: 24R13137
+        pes: '158'
+        mesures: 1300x730x1380
+        dimensions_cuba: 1,44
+        capacitat_litres: '322'
+        portes: '0'
+        barbacoa: '3'
+        nivells_safates: '4'
+        classe_energetica: F
+        col10: '7093'
+        potencia_electrica: 1,67 KW
+        preu: '6.125'
+    - codi: '24613167'
+      cel_les:
+        codi: '24613167'
+    - codi: 24R13167
+      cel_les:
+        codi_2: 24R13167
+        pes: '185'
+        mesures: 1650x730x1380
+        dimensions_cuba: 1,85
+        capacitat_litres: '417'
+        portes: '0'
+        barbacoa: '3'
+        nivells_safates: '4'
+        classe_energetica: F
+        col10: '7583'
+        potencia_electrica: 2,09 KW
+        preu: '8.130'
+- pagina_pub: 80
+  pagina_pdf: 577
+  taules:
+  - id: p80-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - dimensions_cuba
+    - capacitat_litres
+    - portes
+    - barbacoa
+    - nivells_safates
+    - classe_energetica
+    - col9
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '24510601'
+      cel_les:
+        codi: '24510601'
+        pes: '252'
+        mesures: 1320x770x2000
+        dimensions_cuba: 2,00
+        capacitat_litres: '460'
+        portes: '2'
+        barbacoa: '4'
+        nivells_safates: '5'
+        classe_energetica: E
+        col9: '7630'
+        potencia_electrica: 0,83 KW
+        preu: '4.855'
+    - codi: '24610601'
+      cel_les:
+        codi: '24610601'
+        pes: '305'
+        mesures: 1945x770x2000
+        dimensions_cuba: 3,50
+        capacitat_litres: '780'
+        portes: '3'
+        barbacoa: '4'
+        nivells_safates: '5'
+        classe_energetica: E
+        col9: '8291'
+        potencia_electrica: 1,25 KW
+        preu: '6.735'
+- pagina_pub: 83
+  pagina_pdf: 580
+  taules:
+  - id: p83-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - capacitat_litres
+    - col4
+    - col5
+    - portes_corredisses
+    - reixeta
+    - classe_energetica
+    - col9
+    - potencia_electrica
+    - preu
+    columnes_segons: amp
+    files:
+    - codi: '24220601'
+      cel_les:
+        codi: '24220601'
+        pes: '145'
+        mesures: 2000x1000x900
+        capacitat_litres: '1000'
+        col4: ''
+        col5: ''
+        portes_corredisses: '4'
+        reixeta: '5'
+        classe_energetica: D
+        col9: '2886'
+        potencia_electrica: 0,33 KW
+        preu: '3.995'
+    avisos:
+    - hdr:recompte(10 vs 12)
+- pagina_pub: 84
+  pagina_pdf: 581
+  taules:
+  - id: p84-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - capacitat_litres
+    - col4
+    - col5
+    - portes_corredisses
+    - reixeta
+    - classe_energetica
+    - col9
+    - potencia_electrica
+    - preu
+    columnes_segons: amp
+    files:
+    - codi: '24146901'
+      cel_les:
+        codi: '24146901'
+        pes: '110'
+        mesures: 1470x875x835
+        capacitat_litres: '459'
+        col4: ''
+        col5: ''
+        portes_corredisses: '2'
+        reixeta: '3'
+        classe_energetica: E
+        col9: '2354'
+        potencia_electrica: 0,27 KW
+        preu: '2.845'
+    - codi: '24676901'
+      cel_les:
+        codi: '24676901'
+        pes: '135'
+        mesures: 2000x890x880
+        capacitat_litres: '717'
+        col4: ''
+        col5: ''
+        portes_corredisses: '2'
+        reixeta: '5'
+        classe_energetica: D
+        col9: '2860'
+        potencia_electrica: 0,34 KW
+        preu: '3.295'
+    - codi: '24776901'
+      cel_les:
+        codi: '24776901'
+        pes: '165'
+        mesures: 2500x890x880
+        capacitat_litres: '872'
+        col4: ''
+        col5: ''
+        portes_corredisses: '2'
+        reixeta: '6'
+        classe_energetica: D
+        col9: '2775'
+        potencia_electrica: 0,37 KW
+        preu: '3.950'
+    avisos:
+    - hdr:recompte(10 vs 12)
+- pagina_pub: 87
+  pagina_pdf: 584
+  taules:
+  - id: p87-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - col3
+    - capacitat_litres
+    - mesures_interiors_forn
+    - col6
+    - cistella
+    - classe_energetica
+    - col9
+    - potencia_electrica
+    - preu
+    columnes_segons: amp
+    files:
+    - codi: '19478901'
+      cel_les:
+        codi: '19478901'
+        pes: '45'
+        mesures: 550x600x900
+        col3: ''
+        capacitat_litres: '120'
+        mesures_interiors_forn: 440x440x760
+        col6: ''
+        cistella: '1'
+        classe_energetica: C
+        col9: '244'
+        potencia_electrica: 0,10 KW
+        preu: '680'
+    - codi: '19486480'
+      cel_les:
+        codi: '19486480'
+        pes: '55'
+        mesures: 985x700x900
+        col3: ''
+        capacitat_litres: '236'
+        mesures_interiors_forn: 820x480x705
+        col6: ''
+        cistella: '1'
+        classe_energetica: E
+        col9: '206'
+        potencia_electrica: 0,15 KW
+        preu: '930'
+    - codi: '19586480'
+      cel_les:
+        codi: '19586480'
+        pes: '62'
+        mesures: 1285x700x900
+        col3: ''
+        capacitat_litres: '330'
+        mesures_interiors_forn: 1204x480x705
+        col6: ''
+        cistella: '1'
+        classe_energetica: C
+        col9: '223'
+        potencia_electrica: 0,22 KW
+        preu: '1.065'
+    - codi: '19986480'
+      cel_les:
+        codi: '19986480'
+        pes: '67'
+        mesures: 1505x700x900
+        col3: ''
+        capacitat_litres: '402'
+        mesures_interiors_forn: 1340x480x705
+        col6: ''
+        cistella: '1'
+        classe_energetica: B
+        col9: '224'
+        potencia_electrica: 0,23 KW
+        preu: '1.080'
+    - codi: '19056780'
+      cel_les:
+        codi: '19056780'
+        pes: '78'
+        mesures: 1805x700x945
+        col3: ''
+        capacitat_litres: '567'
+        mesures_interiors_forn: 1680x520x725
+        col6: ''
+        cistella: '1'
+        classe_energetica: C
+        col9: '639'
+        potencia_electrica: 0,25 KW
+        preu: '1.625'
+    - codi: '19731501'
+      cel_les:
+        codi: '19731501'
+        pes: '98'
+        mesures: 2055x715x835
+        col3: ''
+        capacitat_litres: '675'
+        mesures_interiors_forn: 1935x520x680
+        col6: ''
+        cistella: '1'
+        classe_energetica: D
+        col9: '1.199'
+        potencia_electrica: 0,26 KW
+        preu: '1.710'
+    avisos:
+    - hdr:recompte(10 vs 12)
+- pagina_pub: 88
+  pagina_pdf: 585
+  taules:
+  - id: p88-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - col3
+    - capacitat_litres
+    - mesures_interiors_forn
+    - col6
+    - cistella
+    - classe_energetica
+    - col9
+    - potencia_electrica
+    - preu
+    columnes_segons: amp
+    files:
+    - codi: '19686480'
+      cel_les:
+        codi: '19686480'
+        pes: '50'
+        mesures: 720x630x890
+        col3: ''
+        capacitat_litres: '191'
+        mesures_interiors_forn: 596x506x740
+        col6: ''
+        cistella: 'NO'
+        classe_energetica: D
+        col9: '534'
+        potencia_electrica: 0,20 KW
+        preu: '930'
+    - codi: '19196480'
+      cel_les:
+        codi: '19196480'
+        pes: '57'
+        mesures: 1010x630x890
+        col3: ''
+        capacitat_litres: '296'
+        mesures_interiors_forn: 886x506x740
+        col6: ''
+        cistella: 'NO'
+        classe_energetica: D
+        col9: '648'
+        potencia_electrica: 0,25 KW
+        preu: '1.095'
+    - codi: '19786480'
+      cel_les:
+        codi: '19786480'
+        pes: '62'
+        mesures: 1300x630x890
+        col3: ''
+        capacitat_litres: '385'
+        mesures_interiors_forn: 1176x506x740
+        col6: ''
+        cistella: 'NO'
+        classe_energetica: D
+        col9: '857'
+        potencia_electrica: 0,40 KW
+        preu: '1.180'
+    - codi: '19686780'
+      cel_les:
+        codi: '19686780'
+        pes: '69'
+        mesures: 1550x630x890
+        col3: ''
+        capacitat_litres: '491'
+        mesures_interiors_forn: 1426x506x740
+        col6: ''
+        cistella: 'NO'
+        classe_energetica: D
+        col9: '997'
+        potencia_electrica: 0,50 KW
+        preu: '1.335'
+    - codi: '19913590'
+      cel_les:
+        codi: '19913590'
+        pes: '78'
+        mesures: 1750x630x890
+        col3: ''
+        capacitat_litres: '555'
+        mesures_interiors_forn: 1626x506x740
+        col6: ''
+        cistella: 'NO'
+        classe_energetica: E
+        col9: '1570'
+        potencia_electrica: 0,50 KW
+        preu: '1.440'
+    - codi: '19813590'
+      cel_les:
+        codi: '19813590'
+        pes: '98'
+        mesures: 2055x630x900
+        col3: ''
+        capacitat_litres: '670'
+        mesures_interiors_forn: 1931x506x680
+        col6: ''
+        cistella: 'NO'
+        classe_energetica: D
+        col9: '1299'
+        potencia_electrica: 0,55 KW
+        preu: '1.665'
+    avisos:
+    - hdr:recompte(10 vs 12)
+- pagina_pub: 89
+  pagina_pdf: 586
+  taules:
+  - id: p89-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - mesures
+    - gastronorm
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: CP1304X1
+      cel_les:
+        codi: CP1304X1
+        mesures: 176x325x40
+        gastronorm: 1/3
+        preu: '19'
+  - id: p89-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - para
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4AE5TWRP
+      cel_les:
+        codi: 4AE5TWRP
+        para: 15497240 - 15EV3626
+        preu: '200'
+    - codi: 4AE5TVCD
+      cel_les:
+        codi: 4AE5TVCD
+        para: 15EV8006 - 15EVW606 - 15EVA606
+        preu: '130'
+    - codi: 4AE5TVC0
+      cel_les:
+        codi: 4AE5TVC0
+        para: 15EV8687 - 15EV8137
+        preu: '195'
+  - id: p89-t3
+    reconstruida: true
+    columnes:
+    - codi
+    - col1
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A8A5AC0
+      cel_les:
+        codi: 4A8A5AC0
+        col1: Todos All Tous
+        preu: '260'
+  - id: p89-t4
+    reconstruida: true
+    columnes:
+    - codi
+    - mesures
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4AVM15C0
+      cel_les:
+        codi: 4AVM15C0
+        mesures: '1505'
+        preu: '305'
+    - codi: 4AVM19C0
+      cel_les:
+        codi: 4AVM19C0
+        mesures: '1985'
+        preu: '380'
+    - codi: 4AVM24C0
+      cel_les:
+        codi: 4AVM24C0
+        mesures: '2465'
+        preu: '505'
+  - id: p89-t5
+    reconstruida: false
+    columnes:
+    - codi
+    - mesures
+    - para
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '19084855'
+      cel_les:
+        codi: '19084855'
+        mesures: 205x475x235
+        para: 19486480-19586480-19986480
+        preu: '30'
+    - codi: '19098444'
+      cel_les:
+        codi: '19098444'
+        mesures: 220x515x230
+        para: '19056780'
+        preu: '30'
+    - codi: '19105372'
+      cel_les:
+        codi: '19105372'
+        mesures: 220x515x230
+        para: '19731501'
+        preu: '30'
+    - codi: '19084854'
+      cel_les:
+        codi: '19084854'
+        mesures: 220x531x279
+        para: Puertas correderas Sliding doors Portes coulissantes
+        preu: '30'

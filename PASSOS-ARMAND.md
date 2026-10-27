@@ -11,25 +11,13 @@ Això **substitueix** el visor estàtic que hi ha ara a `main` (la pàgina conti
 cd ~/dev/tarifa-projecte/cataleg-cloud
 ```
 
-```bash
-git init -b main
-```
+La carpeta ja és un repositori git amb el commit fet (no cal `git init` ni `git add`). El remot `origin` ja hi és. Només cal pujar-lo (force: substitueix el visor estàtic actual):
 
 ```bash
-git add -A
+git push --force origin HEAD:main
 ```
 
-```bash
-git commit -m "Catàleg al núvol: generació des d'Odoo Staging amb GitHub Actions"
-```
-
-```bash
-git remote add origin https://github.com/armanddal/cataleg-proves.git
-```
-
-```bash
-git push --force origin main
-```
+Mida del repositori: uns 80 MB; cap fitxer passa de 2 MB.
 
 (El `.gitignore` ja deixa fora `sortida/`, `treball/` i `estat/`.)
 
@@ -76,7 +64,7 @@ Comprovació (només mostra els noms, mai els valors):
 gh secret list --repo armanddal/cataleg-proves
 ```
 
-## (d) Primera execució manual
+## (d) Primera execució manual (triga ~15-25 min; el límit del workflow és 90 min)
 
 ```bash
 gh workflow run actualitza-cataleg.yml --repo armanddal/cataleg-proves
@@ -102,7 +90,7 @@ L'estat de l'última generació (data i hora, resultat, grups, pàgines):
 curl -s https://armanddal.github.io/cataleg-proves/estat.json
 ```
 
-Ha de dir `"resultat": "ok"` i un `generat_local` de fa uns minuts. Després obre el visor i comprova que hi ha els grups 2 i 3 (48 pàgines):
+Ha de dir `"resultat": "ok"` i un `generat_local` de fa uns minuts. Després obre el visor i comprova que hi ha els 16 grups (932 pàgines; cataleg.pdf ~65 MB):
 
 ```bash
 open https://armanddal.github.io/cataleg-proves/

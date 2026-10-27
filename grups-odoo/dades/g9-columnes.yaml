@@ -1,0 +1,1654 @@
+esquema: tarifa-columnes-posicio/1
+grup: 9
+metode: posicio sobre el PDF publicat (intervals X = cel.les de la fila de capcalera del PDF; files = codi + vores de cel.la del PDF)
+font_pdf: cataleg_original_web.pdf
+nota: 'Per taula: fila (codi) -> columna (clau del gN.yaml) -> text tal com surt al PDF publicat. "-" = guio del catalag; "[icona]" = cel.la amb una icona (energia gas/electric...), sense text. icones_en_columna
+  = columnes amb una icona a la cel.la. cel_les_combinades (si n hi ha) = valor de cel.la combinada copiat a totes les files que cobreix. codi_al_pdf = el PDF porta un codi diferent del .pub.'
+pagines:
+- pagina_pub: 7
+  pagina_pdf: 348
+  taules:
+  - id: p07-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - pollastres
+    - broquetes
+    - llum
+    - potencia_electrica
+    - potencia_gas
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '53100021'
+      cel_les:
+        codi: '53100021'
+        energia: '[icona]'
+        pes: '50'
+        mesures: 1100x450x600
+        pollastres: 10/12
+        broquetes: '2'
+        llum: 'NO'
+        potencia_electrica: 85 W 230/1V
+        potencia_gas: 14 KW
+        preu: '1.985'
+      icones_en_columna:
+      - energia
+    - codi: 53100L21
+      cel_les:
+        codi: 53100L21
+        energia: '[icona]'
+        pes: '50'
+        mesures: 1100x450x600
+        pollastres: 10/12
+        broquetes: '2'
+        llum: OK
+        potencia_electrica: 110 W 230/1V
+        potencia_gas: 14 KW
+        preu: '2.150'
+      icones_en_columna:
+      - energia
+- pagina_pub: 8
+  pagina_pdf: 349
+  taules:
+  - id: p08-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - pollastres
+    - broquetes
+    - llum
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '53103021'
+      cel_les:
+        codi: '53103021'
+        energia: '[icona]'
+        pes: '54'
+        mesures: 1100x450x600
+        pollastres: 10/12
+        broquetes: '2'
+        llum: 'NO'
+        potencia_electrica: 8,4 kW 400/3V
+        preu: '1.985'
+      icones_en_columna:
+      - energia
+    - codi: 53103L21
+      cel_les:
+        codi: 53103L21
+        energia: '[icona]'
+        pes: '54'
+        mesures: 1100x450x600
+        pollastres: 10/12
+        broquetes: '2'
+        llum: OK
+        potencia_electrica: 8,4 kW 400/3V
+        preu: '2.150'
+      icones_en_columna:
+      - energia
+- pagina_pub: 9
+  pagina_pdf: 350
+  taules:
+  - id: p09-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - pollastres
+    - broquetes
+    - llum
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '53104021'
+      cel_les:
+        codi: '53104021'
+        energia: '[icona]'
+        pes: '57'
+        mesures: 1100x450x600
+        pollastres: 10/12
+        broquetes: '2'
+        llum: 'NO'
+        potencia_electrica: 8,4 kW 400/3V
+        preu: '2.525'
+      icones_en_columna:
+      - energia
+    - codi: 53104L21
+      cel_les:
+        codi: 53104L21
+        energia: '[icona]'
+        pes: '57'
+        mesures: 1100x450x600
+        pollastres: 10/12
+        broquetes: '2'
+        llum: OK
+        potencia_electrica: 8,4 kW 400/3V
+        preu: '2.690'
+      icones_en_columna:
+      - energia
+- pagina_pub: 10
+  pagina_pdf: 351
+  taules:
+  - id: p10-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - pollastres
+    - broquetes
+    - llum
+    - potencia_electrica
+    - potencia_gas
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '53150081'
+      cel_les:
+        codi: '53150081'
+        energia: '[icona]'
+        pes: '63'
+        mesures: 1100x450x780
+        pollastres: 15/18
+        broquetes: '3'
+        llum: 'NO'
+        potencia_electrica: 85 W 230/1V
+        potencia_gas: 21 KW
+        preu: '2.475'
+      icones_en_columna:
+      - energia
+    - codi: 53150L81
+      cel_les:
+        codi: 53150L81
+        energia: '[icona]'
+        pes: '63'
+        mesures: 1100x450x780
+        pollastres: 15/18
+        broquetes: '3'
+        llum: OK
+        potencia_electrica: 110 W 230/1V
+        potencia_gas: 21 KW
+        preu: '2.640'
+      icones_en_columna:
+      - energia
+- pagina_pub: 11
+  pagina_pdf: 352
+  taules:
+  - id: p11-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - pollastres
+    - broquetes
+    - llum
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '53153081'
+      cel_les:
+        codi: '53153081'
+        energia: '[icona]'
+        pes: '68'
+        mesures: 1100x450x780
+        pollastres: 15/18
+        broquetes: '3'
+        llum: 'NO'
+        potencia_electrica: 12,6 kW 400/3V
+        preu: '2.475'
+      icones_en_columna:
+      - energia
+    - codi: 53153L81
+      cel_les:
+        codi: 53153L81
+        energia: '[icona]'
+        pes: '68'
+        mesures: 1100x450x780
+        pollastres: 15/18
+        broquetes: '3'
+        llum: OK
+        potencia_electrica: 12,6 kW 400/3V
+        preu: '2.640'
+      icones_en_columna:
+      - energia
+- pagina_pub: 12
+  pagina_pdf: 353
+  taules:
+  - id: p12-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - pollastres
+    - broquetes
+    - llum
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '53154081'
+      cel_les:
+        codi: '53154081'
+        energia: '[icona]'
+        pes: '73'
+        mesures: 1100x450x780
+        pollastres: 15/18
+        broquetes: '3'
+        llum: 'NO'
+        potencia_electrica: 12,6 kW 400/3V
+        preu: '3.135'
+      icones_en_columna:
+      - energia
+    - codi: 53154L81
+      cel_les:
+        codi: 53154L81
+        energia: '[icona]'
+        pes: '73'
+        mesures: 1100x450x780
+        pollastres: 15/18
+        broquetes: '3'
+        llum: OK
+        potencia_electrica: 12,6 kW 400/3V
+        preu: '3.300'
+      icones_en_columna:
+      - energia
+- pagina_pub: 13
+  pagina_pdf: 354
+  taules:
+  - id: p13-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - pollastres
+    - broquetes
+    - llum
+    - potencia_electrica
+    - potencia_gas
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '53200042'
+      cel_les:
+        codi: '53200042'
+        energia: '[icona]'
+        pes: '76'
+        mesures: 1100x450x970
+        pollastres: 20/24
+        broquetes: '4'
+        llum: 'NO'
+        potencia_electrica: 85 W 230/1V
+        potencia_gas: 28 KW
+        preu: '2.930'
+      icones_en_columna:
+      - energia
+    - codi: 53200L42
+      cel_les:
+        codi: 53200L42
+        energia: '[icona]'
+        pes: '76'
+        mesures: 1100x450x970
+        pollastres: 20/24
+        broquetes: '4'
+        llum: OK
+        potencia_electrica: 110 W 230/1V
+        potencia_gas: 28 KW
+        preu: '3.095'
+      icones_en_columna:
+      - energia
+- pagina_pub: 14
+  pagina_pdf: 355
+  taules:
+  - id: p14-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - pollastres
+    - broquetes
+    - llum
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '53203042'
+      cel_les:
+        codi: '53203042'
+        energia: '[icona]'
+        pes: '85'
+        mesures: 1100x450x970
+        pollastres: 20/24
+        broquetes: '4'
+        llum: 'NO'
+        potencia_electrica: 16,8 kW 400/3V
+        preu: '2.930'
+      icones_en_columna:
+      - energia
+    - codi: 53203L42
+      cel_les:
+        codi: 53203L42
+        energia: '[icona]'
+        pes: '85'
+        mesures: 1100x450x970
+        pollastres: 20/24
+        broquetes: '4'
+        llum: OK
+        potencia_electrica: 16,8 kW 400/3V
+        preu: '3.095'
+      icones_en_columna:
+      - energia
+- pagina_pub: 15
+  pagina_pdf: 356
+  taules:
+  - id: p15-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - pollastres
+    - broquetes
+    - llum
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '53204042'
+      cel_les:
+        codi: '53204042'
+        energia: '[icona]'
+        pes: '93'
+        mesures: 1100x450x970
+        pollastres: 20/24
+        broquetes: '4'
+        llum: 'NO'
+        potencia_electrica: 16,8 kW 400/3V
+        preu: '3.725'
+      icones_en_columna:
+      - energia
+    - codi: 53204L42
+      cel_les:
+        codi: 53204L42
+        energia: '[icona]'
+        pes: '93'
+        mesures: 1100x450x970
+        pollastres: 20/24
+        broquetes: '4'
+        llum: OK
+        potencia_electrica: 16,8 kW 400/3V
+        preu: '3.890'
+      icones_en_columna:
+      - energia
+- pagina_pub: 16
+  pagina_pdf: 357
+  taules:
+  - id: p16-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - pollastres
+    - broquetes
+    - llum
+    - potencia_electrica
+    - potencia_gas
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '53300063'
+      cel_les:
+        codi: '53300063'
+        energia: '[icona]'
+        pes: '115'
+        mesures: 1100x450x1760
+        pollastres: 30/36
+        broquetes: '6'
+        llum: 'NO'
+        potencia_electrica: 85 W 230/1V
+        potencia_gas: 42 KW
+        preu: '3.830'
+      icones_en_columna:
+      - energia
+    - codi: 53300L63
+      cel_les:
+        codi: 53300L63
+        energia: '[icona]'
+        pes: '115'
+        mesures: 1100x450x1760
+        pollastres: 30/36
+        broquetes: '6'
+        llum: OK
+        potencia_electrica: 110 W 230/1V
+        potencia_gas: 42 KW
+        preu: '3.995'
+      icones_en_columna:
+      - energia
+- pagina_pub: 17
+  pagina_pdf: 358
+  taules:
+  - id: p17-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - pollastres
+    - broquetes
+    - llum
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '53303063'
+      cel_les:
+        codi: '53303063'
+        energia: '[icona]'
+        pes: '124'
+        mesures: 1100x450x1760
+        pollastres: 30/36
+        broquetes: '6'
+        llum: 'NO'
+        potencia_electrica: 25,2 kW 400/3V
+        preu: '3.830'
+      icones_en_columna:
+      - energia
+    - codi: 53303L63
+      cel_les:
+        codi: 53303L63
+        energia: '[icona]'
+        pes: '124'
+        mesures: 1100x450x1760
+        pollastres: 30/36
+        broquetes: '6'
+        llum: OK
+        potencia_electrica: 25,2 kW 400/3V
+        preu: '3.995'
+      icones_en_columna:
+      - energia
+- pagina_pub: 18
+  pagina_pdf: 359
+  taules:
+  - id: p18-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - pollastres
+    - broquetes
+    - llum
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '53304063'
+      cel_les:
+        codi: '53304063'
+        energia: '[icona]'
+        pes: '136'
+        mesures: 1100x450x1760
+        pollastres: 30/36
+        broquetes: '6'
+        llum: 'NO'
+        potencia_electrica: 25,2 kW 400/3V
+        preu: '4.830'
+      icones_en_columna:
+      - energia
+    - codi: 53304L63
+      cel_les:
+        codi: 53304L63
+        energia: '[icona]'
+        pes: '136'
+        mesures: 1100x450x1760
+        pollastres: 30/36
+        broquetes: '6'
+        llum: OK
+        potencia_electrica: 25,2 kW 400/3V
+        preu: '4.995'
+      icones_en_columna:
+      - energia
+- pagina_pub: 19
+  pagina_pdf: 360
+  taules:
+  - id: p19-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - pollastres
+    - broquetes
+    - llum
+    - potencia_electrica
+    - potencia_gas
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '53400084'
+      cel_les:
+        codi: '53400084'
+        energia: '[icona]'
+        pes: '139'
+        mesures: 1100x450x1800
+        pollastres: 40/48
+        broquetes: '8'
+        llum: 'NO'
+        potencia_electrica: 85 W 230/1V
+        potencia_gas: 56 KW
+        preu: '5.010'
+      icones_en_columna:
+      - energia
+    - codi: 53400L84
+      cel_les:
+        codi: 53400L84
+        energia: '[icona]'
+        pes: '139'
+        mesures: 1100x450x1800
+        pollastres: 40/48
+        broquetes: '8'
+        llum: OK
+        potencia_electrica: 110 W 230/1V
+        potencia_gas: 56 KW
+        preu: '5.175'
+      icones_en_columna:
+      - energia
+- pagina_pub: 20
+  pagina_pdf: 361
+  taules:
+  - id: p20-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - pollastres
+    - broquetes
+    - llum
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '53403084'
+      cel_les:
+        codi: '53403084'
+        energia: '[icona]'
+        pes: '149'
+        mesures: 1100x450x1800
+        pollastres: 40/48
+        broquetes: '8'
+        llum: 'NO'
+        potencia_electrica: 33,6 kW 400/3V
+        preu: '5.010'
+      icones_en_columna:
+      - energia
+    - codi: 53403L84
+      cel_les:
+        codi: 53403L84
+        energia: '[icona]'
+        pes: '149'
+        mesures: 1100x450x1800
+        pollastres: 40/48
+        broquetes: '8'
+        llum: OK
+        potencia_electrica: 33,6 kW 400/3V
+        preu: '5.175'
+      icones_en_columna:
+      - energia
+- pagina_pub: 21
+  pagina_pdf: 362
+  taules:
+  - id: p21-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - pollastres
+    - broquetes
+    - llum
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '53404084'
+      cel_les:
+        codi: '53404084'
+        energia: '[icona]'
+        pes: '168'
+        mesures: 1100x450x1800
+        pollastres: 40/48
+        broquetes: '8'
+        llum: 'NO'
+        potencia_electrica: 33,6 kW 400/3V
+        preu: '5.860'
+      icones_en_columna:
+      - energia
+    - codi: 53404L84
+      cel_les:
+        codi: 53404L84
+        energia: '[icona]'
+        pes: '168'
+        mesures: 1100x450x1800
+        pollastres: 40/48
+        broquetes: '8'
+        llum: OK
+        potencia_electrica: 33,6 kW 400/3V
+        preu: '6.025'
+      icones_en_columna:
+      - energia
+- pagina_pub: 22
+  pagina_pdf: 363
+  taules:
+  - id: p22-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - pollastres
+    - broquetes
+    - llum
+    - potencia_electrica
+    - potencia_gas
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '53550066'
+      cel_les:
+        codi: '53550066'
+        energia: '[icona]'
+        pes: '136'
+        mesures: 1100x610x1760
+        pollastres: 55/66
+        broquetes: '11'
+        llum: 'NO'
+        potencia_electrica: 85 W 230/1V
+        potencia_gas: 42 KW
+        preu: '5.275'
+      icones_en_columna:
+      - energia
+    - codi: 53550L66
+      cel_les:
+        codi: 53550L66
+        energia: '[icona]'
+        pes: '136'
+        mesures: 1100x610x1760
+        pollastres: 55/66
+        broquetes: '11'
+        llum: OK
+        potencia_electrica: 110 W 230/1V
+        potencia_gas: 42 KW
+        preu: '5.440'
+      icones_en_columna:
+      - energia
+- pagina_pub: 23
+  pagina_pdf: 364
+  taules:
+  - id: p23-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - pollastres
+    - broquetes
+    - llum
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '53553066'
+      cel_les:
+        codi: '53553066'
+        energia: '[icona]'
+        pes: '146'
+        mesures: 1100x610x1760
+        pollastres: 55/66
+        broquetes: '11'
+        llum: 'NO'
+        potencia_electrica: 25,2 kW 400/3V
+        preu: '5.275'
+      icones_en_columna:
+      - energia
+    - codi: 53553L66
+      cel_les:
+        codi: 53553L66
+        energia: '[icona]'
+        pes: '146'
+        mesures: 1100x610x1760
+        pollastres: 55/66
+        broquetes: '11'
+        llum: OK
+        potencia_electrica: 25,2 kW 400/3V
+        preu: '5.440'
+      icones_en_columna:
+      - energia
+- pagina_pub: 24
+  pagina_pdf: 365
+  taules:
+  - id: p24-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - pollastres
+    - broquetes
+    - llum
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '53554066'
+      cel_les:
+        codi: '53554066'
+        energia: '[icona]'
+        pes: '166'
+        mesures: 1100x610x1760
+        pollastres: 55/66
+        broquetes: '11'
+        llum: 'NO'
+        potencia_electrica: 25,2 kW 400/3V
+        preu: '6.715'
+      icones_en_columna:
+      - energia
+    - codi: 53554L66
+      cel_les:
+        codi: 53554L66
+        energia: '[icona]'
+        pes: '166'
+        mesures: 1100x610x1760
+        pollastres: 55/66
+        broquetes: '11'
+        llum: OK
+        potencia_electrica: 25,2 kW 400/3V
+        preu: '6.880'
+      icones_en_columna:
+      - energia
+- pagina_pub: 25
+  pagina_pdf: 366
+  taules:
+  - id: p25-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - pollastres
+    - broquetes
+    - llum
+    - potencia_electrica
+    - potencia_gas
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '53750009'
+      cel_les:
+        codi: '53750009'
+        energia: '[icona]'
+        pes: '139'
+        mesures: 1100x610x1800
+        pollastres: 75/90
+        broquetes: '15'
+        llum: 'NO'
+        potencia_electrica: 85 W 230/1V
+        potencia_gas: 56 KW
+        preu: '6.625'
+      icones_en_columna:
+      - energia
+    - codi: 53750L09
+      cel_les:
+        codi: 53750L09
+        energia: '[icona]'
+        pes: '139'
+        mesures: 1100x610x1800
+        pollastres: 75/90
+        broquetes: '15'
+        llum: OK
+        potencia_electrica: 110 W 230/1V
+        potencia_gas: 56 KW
+        preu: '6.790'
+      icones_en_columna:
+      - energia
+- pagina_pub: 26
+  pagina_pdf: 367
+  taules:
+  - id: p26-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - pollastres
+    - broquetes
+    - llum
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '53753009'
+      cel_les:
+        codi: '53753009'
+        energia: '[icona]'
+        pes: '146'
+        mesures: 1100x610x1800
+        pollastres: 75/90
+        broquetes: '15'
+        llum: 'NO'
+        potencia_electrica: 33,6 kW 400/3V
+        preu: '6.625'
+      icones_en_columna:
+      - energia
+    - codi: 53753L09
+      cel_les:
+        codi: 53753L09
+        energia: '[icona]'
+        pes: '146'
+        mesures: 1100x610x1800
+        pollastres: 75/90
+        broquetes: '15'
+        llum: OK
+        potencia_electrica: 33,6 kW 400/3V
+        preu: '6.790'
+      icones_en_columna:
+      - energia
+- pagina_pub: 27
+  pagina_pdf: 368
+  taules:
+  - id: p27-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - pollastres
+    - broquetes
+    - llum
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '53754009'
+      cel_les:
+        codi: '53754009'
+        energia: '[icona]'
+        pes: '166'
+        mesures: 1100x610x1800
+        pollastres: 75/90
+        broquetes: '15'
+        llum: 'NO'
+        potencia_electrica: 33,6 kW 400/3V
+        preu: '7.990'
+      icones_en_columna:
+      - energia
+    - codi: 53754L09
+      cel_les:
+        codi: 53754L09
+        energia: '[icona]'
+        pes: '166'
+        mesures: 1100x610x1800
+        pollastres: 75/90
+        broquetes: '15'
+        llum: OK
+        potencia_electrica: 33,6 kW 400/3V
+        preu: '8.155'
+      icones_en_columna:
+      - energia
+- pagina_pub: 31
+  pagina_pdf: 372
+  taules:
+  - id: p31-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - pollastres
+    - broquetes
+    - llum
+    - potencia_electrica
+    - potencia_gas
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 5320P042
+      cel_les:
+        codi: 5320P042
+        energia: '[icona]'
+        pes: '78'
+        mesures: 1230x620x640
+        pollastres: 20/24
+        broquetes: '4'
+        llum: 'NO'
+        potencia_electrica: 170 W 230/1V
+        potencia_gas: 14 KW
+        preu: '3.990'
+      icones_en_columna:
+      - energia
+    - codi: 5320PL42
+      cel_les:
+        codi: 5320PL42
+        energia: '[icona]'
+        pes: '78'
+        mesures: 1230x620x640
+        pollastres: 20/24
+        broquetes: '4'
+        llum: OK
+        potencia_electrica: 195 W 230/1V
+        potencia_gas: 14 KW
+        preu: '4.155'
+      icones_en_columna:
+      - energia
+- pagina_pub: 32
+  pagina_pdf: 373
+  taules:
+  - id: p32-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - pollastres
+    - broquetes
+    - llum
+    - potencia_electrica
+    - potencia_gas
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 5340P084
+      cel_les:
+        codi: 5340P084
+        energia: '[icona]'
+        pes: '124'
+        mesures: 1230x620x1050
+        pollastres: 40/48
+        broquetes: '8'
+        llum: 'NO'
+        potencia_electrica: 340 W 230/1V
+        potencia_gas: 28 KW
+        preu: '6.075'
+      icones_en_columna:
+      - energia
+    - codi: 5340PL84
+      cel_les:
+        codi: 5340PL84
+        energia: '[icona]'
+        pes: '124'
+        mesures: 1230x620x1050
+        pollastres: 40/48
+        broquetes: '8'
+        llum: OK
+        potencia_electrica: 365 W 230/1V
+        potencia_gas: 28 KW
+        preu: '6.240'
+      icones_en_columna:
+      - energia
+- pagina_pub: 33
+  pagina_pdf: 374
+  taules:
+  - id: p33-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - pollastres
+    - broquetes
+    - llum
+    - potencia_electrica
+    - potencia_gas
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 5360P027
+      cel_les:
+        codi: 5360P027
+        energia: '[icona]'
+        pes: '183'
+        mesures: 1230x620x1800
+        pollastres: 60/72
+        broquetes: '12'
+        llum: 'NO'
+        potencia_electrica: 510 W 230/1V
+        potencia_gas: 42 KW
+        preu: '8.800'
+      icones_en_columna:
+      - energia
+    - codi: 5360PL27
+      cel_les:
+        codi: 5360PL27
+        energia: '[icona]'
+        pes: '183'
+        mesures: 1230x620x1800
+        pollastres: 60/72
+        broquetes: '12'
+        llum: OK
+        potencia_electrica: 535 W 230/1V
+        potencia_gas: 42 KW
+        preu: '8.965'
+      icones_en_columna:
+      - energia
+- pagina_pub: 34
+  pagina_pdf: 375
+  taules:
+  - id: p34-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - pollastres
+    - broquetes
+    - llum
+    - potencia_electrica
+    - potencia_gas
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 5380P069
+      cel_les:
+        codi: 5380P069
+        energia: '[icona]'
+        pes: '234'
+        mesures: 1230x620x2070
+        pollastres: 80/96
+        broquetes: '16'
+        llum: 'NO'
+        potencia_electrica: 680 W 230/1V
+        potencia_gas: 56 KW
+        preu: '10.660'
+      icones_en_columna:
+      - energia
+    - codi: 5380PL69
+      cel_les:
+        codi: 5380PL69
+        energia: '[icona]'
+        pes: '234'
+        mesures: 1230x620x2070
+        pollastres: 80/96
+        broquetes: '16'
+        llum: OK
+        potencia_electrica: 705 W 230/1V
+        potencia_gas: 56 KW
+        preu: '10.825'
+      icones_en_columna:
+      - energia
+- pagina_pub: 37
+  pagina_pdf: 378
+  taules:
+  - id: p37-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - energia
+    - pes
+    - mesures
+    - pollastres
+    - portes
+    - nivells
+    - material_porta
+    - llum
+    - potencia_electrica
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 5301A4EC
+      cel_les:
+        codi: 5301A4EC
+        energia: '[icona]'
+        pes: '70'
+        mesures: 1100x450x840
+        pollastres: 50/60
+        portes: '2'
+        nivells: '4'
+        material_porta: Cristal
+        llum: OK
+        potencia_electrica: 2 kW 230/1V
+        preu: '2.045'
+      icones_en_columna:
+      - energia
+    - codi: 5301A4E1
+      cel_les:
+        codi: 5301A4E1
+        energia: '[icona]'
+        pes: '70'
+        mesures: 1100x450x840
+        pollastres: 50/60
+        portes: '2'
+        nivells: '4'
+        material_porta: Inox.
+        llum: OK
+        potencia_electrica: 2 kW 230/1V
+        preu: '2.045'
+      icones_en_columna:
+      - energia
+- pagina_pub: 38
+  pagina_pdf: 379
+  taules:
+  - id: p38-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - col3
+    - portes
+    - col5
+    - nivells
+    - preu
+    columnes_segons: amp
+    files:
+    - codi: 5302AR5M
+      cel_les:
+        codi: 5302AR5M
+        pes: '32'
+        mesures: 1100x450x770
+        col3: M24
+        portes: '2'
+        col5: ''
+        nivells: '1'
+        preu: '875'
+    - codi: 5302AR5P
+      cel_les:
+        codi: 5302AR5P
+        pes: '40'
+        mesures: 1250x650x770
+        col3: P
+        portes: '2'
+        col5: ''
+        nivells: '1'
+        preu: '945'
+    - codi: 5354ME5M
+      cel_les:
+        codi: 5354ME5M
+        pes: '18'
+        mesures: 1100x450x800
+        col3: M24
+        portes: '-'
+        col5: ''
+        nivells: '1'
+        preu: '670'
+    - codi: 5354ME5P
+      cel_les:
+        codi: 5354ME5P
+        pes: '25'
+        mesures: 1250x650x800
+        col3: P
+        portes: '-'
+        col5: ''
+        nivells: '1'
+        preu: '705'
+    - codi: 5300008T
+      cel_les:
+        codi: 5300008T
+        pes: '54'
+        mesures: 1100x450x240
+        col3: M24/P
+        portes: '-'
+        col5: ''
+        nivells: '2'
+        preu: '585'
+    avisos:
+    - hdr:recompte(7 vs 8)
+- pagina_pub: 41
+  pagina_pdf: 382
+  taules:
+  - id: p41-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - persones
+    - dimensions_parrilla
+    - temps
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '52000008'
+      cel_les:
+        codi: '52000008'
+        pes: '240'
+        mesures: 800x820x930
+        persones: '100'
+        dimensions_parrilla: 1 x 620x780
+        temps: '40'
+        preu: '6.740'
+    - codi: '52000021'
+      cel_les:
+        codi: '52000021'
+        pes: '350'
+        mesures: 1200x820x930
+        persones: '170'
+        dimensions_parrilla: 2 x 485x780
+        temps: '68'
+        preu: '7.945'
+    - codi: '52000061'
+      cel_les:
+        codi: '52000061'
+        pes: '410'
+        mesures: 1460x820x930
+        persones: '200'
+        dimensions_parrilla: 2 x 620x780
+        temps: '80'
+        preu: '8.060'
+- pagina_pub: 42
+  pagina_pdf: 383
+  taules:
+  - id: p42-t3
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - persones
+    - dimensions_parrilla
+    - temps
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '52990053'
+      cel_les:
+        codi: '52990053'
+        pes: '110'
+        mesures: 785x410x780
+        persones: '50'
+        dimensions_parrilla: 2 x 760x260
+        temps: '20'
+        preu: '3.245'
+    - codi: '52005377'
+      cel_les:
+        codi: '52005377'
+        pes: '65'
+        mesures: 900x500x760
+        persones: '-'
+        dimensions_parrilla: '-'
+        temps: '-'
+        preu: '1.075'
+- pagina_pub: 43
+  pagina_pdf: 384
+  taules:
+  - id: p43-t3
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - persones
+    - dimensions_parrilla
+    - temps
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '52995353'
+      cel_les:
+        codi: '52995353'
+        pes: '175'
+        mesures: 1570x410x780
+        persones: '100'
+        dimensions_parrilla: 4 x 760x260
+        temps: '40'
+        preu: '4.965'
+    - codi: '52535377'
+      cel_les:
+        codi: '52535377'
+        pes: '98'
+        mesures: 1650x500x760
+        persones: '-'
+        dimensions_parrilla: '-'
+        temps: '-'
+        preu: '1.885'
+- pagina_pub: 44
+  pagina_pdf: 385
+  taules:
+  - id: p44-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '70260498'
+      cel_les:
+        codi: '70260498'
+        preu: '11'
+  - id: p44-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - serie
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A100261
+      cel_les:
+        codi: 1 4A100261
+        serie: M24 - P
+        preu: '11'
+    - codi: 4A000261
+      cel_les:
+        codi: 2 4A000261
+        serie: M24 - P
+        preu: '15'
+    - codi: 4A031771
+      cel_les:
+        codi: 4A031771 3
+        serie: M24 - P
+        preu: '4'
+  - id: p44-t3
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 702M0069
+      cel_les:
+        codi: 702M0069
+        pes: 1 12 x 1,5 = 18 Kgs.
+        preu: 107,25
+    - codi: 702M0079
+      cel_les:
+        codi: 702M0079
+        pes: 2 1,5 Kgs.
+        preu: 9,75
+  - id: p44-t4
+    reconstruida: false
+    columnes:
+    - codi
+    - serie
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A265611
+      cel_les:
+        codi: 4A265611
+        serie: 1 M24
+        preu: '157'
+    - codi: 4A107611
+      cel_les:
+        codi: 4A107611
+        serie: 2 P
+        preu: '157'
+  - id: p44-t5
+    reconstruida: false
+    columnes:
+    - codi
+    - serie
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A565611
+      cel_les:
+        codi: 4A565611
+        serie: M24 1
+        preu: '115'
+    - codi: 4A765611
+      cel_les:
+        codi: 4A765611
+        serie: 2 P
+        preu: '107'
+  - id: p44-t6
+    reconstruida: false
+    columnes:
+    - codi
+    - serie
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A007610
+      cel_les:
+        codi: 4A007610
+        serie: 1 M24
+        preu: '315'
+    - codi: 4A137611
+      cel_les:
+        codi: 4A137611
+        serie: 2 P
+        preu: '318'
+  - id: p44-t7
+    reconstruida: false
+    columnes:
+    - codi
+    - serie
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A207610
+      cel_les:
+        codi: 4A207610
+        serie: M24
+        preu: '315'
+- pagina_pub: 45
+  pagina_pdf: 386
+  taules:
+  - id: p45-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - mesures
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A050909
+      cel_les:
+        codi: 4A050909
+        mesures: 790 x 350
+        preu: '330'
+  - id: p45-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - mesures
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A100059
+      cel_les:
+        codi: 4A100059
+        mesures: 1 845
+        preu: '45'
+    - codi: 4A500059
+      cel_les:
+        codi: 4A500059
+        mesures: 345 2
+        preu: '55'
+  - id: p45-t3
+    reconstruida: false
+    columnes:
+    - codi
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A300509
+      cel_les:
+        codi: 4A300509
+        preu: '90'
+  - id: p45-t4
+    reconstruida: false
+    columnes:
+    - codi
+    - mesures
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A010059
+      cel_les:
+        codi: 4A010059
+        mesures: 540 x 180 x 40
+        preu: '70'
+  - id: p45-t5
+    reconstruida: false
+    columnes:
+    - codi
+    - mesures
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A520059
+      cel_les:
+        codi: 4A520059
+        mesures: 250 x 210 x 60
+        preu: '115'
+    - codi: 4A030059
+      cel_les:
+        codi: 4A030059
+        mesures: 300 x 260 x 60
+        preu: '125'
+- pagina_pub: 46
+  pagina_pdf: 387
+  taules:
+  - id: p46-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - mesures
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A220009
+      cel_les:
+        codi: 4A220009
+        mesures: 1 - 620 x 780
+        preu: '531'
+    - codi: 4A222009
+      cel_les:
+        codi: 4A222009
+        mesures: 1/2 - 310 x 780
+        preu: '458'
+    - codi: 4A320009
+      cel_les:
+        codi: 4A320009
+        mesures: 1 - 495 x 780
+        preu: '517'
+    - codi: 4A515329
+      cel_les:
+        codi: 4A515329
+        mesures: 1 - 760 x 350
+        preu: '391'
+  - id: p46-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - mesures
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A222109
+      cel_les:
+        codi: 4A222109
+        mesures: 1/2 - 310 x 780
+        preu: '500'
+    - codi: 4A320109
+      cel_les:
+        codi: 4A320109
+        mesures: 1 - 495 x 780
+        preu: '571'
+    - codi: 4A015329
+      cel_les:
+        codi: 4A015329
+        mesures: 1 - 760 x 350
+        preu: '505'
+  - id: p46-t3
+    reconstruida: false
+    columnes:
+    - codi
+    - mesures
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A422109
+      cel_les:
+        codi: 4A422109
+        mesures: 1/2 - 310 x 780
+        preu: '560'
+  - id: p46-t4
+    reconstruida: false
+    columnes:
+    - codi
+    - mesures
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A440209
+      cel_les:
+        codi: 4A440209
+        mesures: 620 x 780
+        preu: '255'
+    - codi: 4A540209
+      cel_les:
+        codi: 4A540209
+        mesures: 495 x 780
+        preu: '240'
+  - id: p46-t5
+    reconstruida: false
+    columnes:
+    - codi
+    - mesures
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A005329
+      cel_les:
+        codi: 4A005329
+        mesures: 760 x 350
+        preu: '222'
+  - id: p46-t6
+    reconstruida: false
+    columnes:
+    - codi
+    - mesures
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A105329
+      cel_les:
+        codi: 4A105329
+        mesures: 1 350
+        preu: '45'
+    - codi: 4A115329
+      cel_les:
+        codi: 4A115329
+        mesures: 2 350
+        preu: '56'

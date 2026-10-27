@@ -77,7 +77,7 @@ def cerca_asset(grup, nom, glob_ext=False):
         gx = os.path.basename(d); b = os.path.basename(f[0])
         dst = os.path.join(ROOT, 'assets', gx, b)
         if not os.path.exists(dst):
-            os.makedirs(os.path.dirname(dst), exist_ok=True); shutil.copy2(f[0], dst)
+            os.makedirs(os.path.dirname(dst), exist_ok=True); tmp = os.path.join(os.path.dirname(dst), '.%d-%s' % (os.getpid(), b)); shutil.copy2(f[0], tmp); os.replace(tmp, dst)
         return f'assets/{gx}/{b}'
     return None
 

@@ -1,0 +1,4529 @@
+# Generat per scripts/genera_config.py --grup 10 (editable; es pot regenerar)
+grup:
+  numero: 10
+  codi_odoo: G10
+families:
+- clau: CAMPANAS MURALES CON MOTOR INCORPORADO PARA BAR O PEQUEÑAS INSTALACIONES
+  noms:
+    es: CAMPANAS MURALES CON MOTOR INCORPORADO PARA BAR O PEQUEÑAS INSTALACIONES
+    en: WALL HOODS WITH BUILT-IN MOTOR FOR BAR OR SMALL FACILITIES
+    fr: HOTTES MURALES AVEC MOTEUR INTÉGRÉ POUR BAR OU PETITES INSTALLATIONS
+  sequence: 10
+  tipus: producte
+  pagina: p05
+  taula: p05-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: filtres
+    etiqueta: null
+  - codi: ventilador
+    etiqueta: null
+  - codi: diametre_conducte
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 31025MMP
+    ordre: 10
+    valors:
+      filtres:
+        es: 2 - 245x325x9
+        en: 2 - 245x325x9
+        fr: 2 - 245x325x9
+      ventilador:
+        es: 7/7 - 1/10
+        en: 7/7 - 1/10
+        fr: 7/7 - 1/10
+      diametre_conducte:
+        es: '150'
+        en: '150'
+        fr: '150'
+      potencia_electrica:
+        es: 150 W 230/1V
+        en: 150 W 230/1V
+        fr: 150 W 230/1V
+  - codi: 31035MMP
+    ordre: 20
+    valors:
+      filtres:
+        es: 3 - 245x325x9
+        en: 3 - 245x325x9
+        fr: 3 - 245x325x9
+      ventilador:
+        es: 7/7 - 1/5
+        en: 7/7 - 1/5
+        fr: 7/7 - 1/5
+      diametre_conducte:
+        es: '200'
+        en: '200'
+        fr: '200'
+      potencia_electrica:
+        es: 150 W 230/1V
+        en: 150 W 230/1V
+        fr: 150 W 230/1V
+  - codi: 31045MMP
+    ordre: 30
+    valors:
+      filtres:
+        es: 4 - 245x325x9
+        en: 4 - 245x325x9
+        fr: 4 - 245x325x9
+      ventilador:
+        es: 7/7 - 1/5
+        en: 7/7 - 1/5
+        fr: 7/7 - 1/5
+      diametre_conducte:
+        es: '200'
+        en: '200'
+        fr: '200'
+      potencia_electrica:
+        es: 150 W 230/1V
+        en: 150 W 230/1V
+        fr: 150 W 230/1V
+  compartits: []
+- clau: CAMPANAS MURALES CON MOTOR INCORPORADO PARA SNACK
+  noms:
+    es: CAMPANAS MURALES CON MOTOR INCORPORADO PARA SNACK
+    en: WALL HOODS WITH BUILT-IN MOTOR FOR SNACK
+    fr: HOTTES MURALES AVEC MOTEUR INTÉGRÉ POUR SNACK
+  sequence: 20
+  tipus: producte
+  pagina: p06
+  taula: p06-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: filtres
+    etiqueta: null
+  - codi: ventilador
+    etiqueta: null
+  - codi: diametre_conducte
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 31025MM5
+    ordre: 10
+    valors:
+      filtres:
+        es: 2 - 500x500x50
+        en: 2 - 500x500x50
+        fr: 2 - 500x500x50
+      ventilador:
+        es: 7/7 - 1/5
+        en: 7/7 - 1/5
+        fr: 7/7 - 1/5
+      diametre_conducte:
+        es: '200'
+        en: '200'
+        fr: '200'
+      potencia_electrica:
+        es: 150 W 230/1V
+        en: 150 W 230/1V
+        fr: 150 W 230/1V
+  - codi: 31035MM5
+    ordre: 20
+    valors:
+      filtres:
+        es: 3 - 500x500x50
+        en: 3 - 500x500x50
+        fr: 3 - 500x500x50
+      ventilador:
+        es: 7/7 - 1/5
+        en: 7/7 - 1/5
+        fr: 7/7 - 1/5
+      diametre_conducte:
+        es: '250'
+        en: '250'
+        fr: '250'
+      potencia_electrica:
+        es: 150 W 230/1V
+        en: 150 W 230/1V
+        fr: 150 W 230/1V
+  - codi: 31045MM5
+    ordre: 30
+    valors:
+      filtres:
+        es: 4 - 500x500x50
+        en: 4 - 500x500x50
+        fr: 4 - 500x500x50
+      ventilador:
+        es: 7/7 - 1/5
+        en: 7/7 - 1/5
+        fr: 7/7 - 1/5
+      diametre_conducte:
+        es: '250'
+        en: '250'
+        fr: '250'
+      potencia_electrica:
+        es: 150 W 230/1V
+        en: 150 W 230/1V
+        fr: 150 W 230/1V
+  compartits: []
+- clau: CAMPANAS MURALES CON MOTOR INCORPORADO
+  noms:
+    es: CAMPANAS MURALES CON MOTOR INCORPORADO
+    en: WALL HOODS WITH BUILT-IN MOTOR
+    fr: HOTTES MURALES AVEC MOTEUR INTÉGRÉ
+  sequence: 30
+  tipus: producte
+  pagina: p08
+  taula: p08-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: filtres
+    etiqueta: null
+  - codi: ventilador
+    etiqueta: null
+  - codi: diametre_conducte
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 31027MMP
+    ordre: 10
+    valors:
+      filtres:
+        es: 2 - 500x500x50
+        en: 2 - 500x500x50
+        fr: 2 - 500x500x50
+      ventilador:
+        es: 9/9 - 1/2
+        en: 9/9 - 1/2
+        fr: 9/9 - 1/2
+      diametre_conducte:
+        es: '250'
+        en: '250'
+        fr: '250'
+      potencia_electrica:
+        es: 250 W 230/1V
+        en: 250 W 230/1V
+        fr: 250 W 230/1V
+  - codi: 31037MMP
+    ordre: 20
+    valors:
+      filtres:
+        es: 3 - 500x500x50
+        en: 3 - 500x500x50
+        fr: 3 - 500x500x50
+      ventilador:
+        es: 9/9 - 1/2
+        en: 9/9 - 1/2
+        fr: 9/9 - 1/2
+      diametre_conducte:
+        es: '250'
+        en: '250'
+        fr: '250'
+      potencia_electrica:
+        es: 250 W 230/1V
+        en: 250 W 230/1V
+        fr: 250 W 230/1V
+  - codi: 31047MMP
+    ordre: 30
+    valors:
+      filtres:
+        es: 4 - 500x500x50
+        en: 4 - 500x500x50
+        fr: 4 - 500x500x50
+      ventilador:
+        es: 10/10 - 1/3
+        en: 10/10 - 1/3
+        fr: 10/10 - 1/3
+      diametre_conducte:
+        es: '300'
+        en: '300'
+        fr: '300'
+      potencia_electrica:
+        es: 250 W 230/1V
+        en: 250 W 230/1V
+        fr: 250 W 230/1V
+  - codi: 31057MMP
+    ordre: 40
+    valors:
+      filtres:
+        es: 5 - 500x500x50
+        en: 5 - 500x500x50
+        fr: 5 - 500x500x50
+      ventilador:
+        es: 10/10 - 1/3
+        en: 10/10 - 1/3
+        fr: 10/10 - 1/3
+      diametre_conducte:
+        es: '350'
+        en: '350'
+        fr: '350'
+      potencia_electrica:
+        es: 250 W 230/1V
+        en: 250 W 230/1V
+        fr: 250 W 230/1V
+  - codi: 31031MMP
+    ordre: 50
+    valors:
+      filtres:
+        es: 3 - 500x500x50
+        en: 3 - 500x500x50
+        fr: 3 - 500x500x50
+      ventilador:
+        es: 9/9 - 1/2
+        en: 9/9 - 1/2
+        fr: 9/9 - 1/2
+      diametre_conducte:
+        es: '250'
+        en: '250'
+        fr: '250'
+      potencia_electrica:
+        es: 250 W 230/1V
+        en: 250 W 230/1V
+        fr: 250 W 230/1V
+  - codi: 31041MMP
+    ordre: 60
+    valors:
+      filtres:
+        es: 4 - 500x500x50
+        en: 4 - 500x500x50
+        fr: 4 - 500x500x50
+      ventilador:
+        es: 9/9 - 1/2
+        en: 9/9 - 1/2
+        fr: 9/9 - 1/2
+      diametre_conducte:
+        es: '300'
+        en: '300'
+        fr: '300'
+      potencia_electrica:
+        es: 250 W 230/1V
+        en: 250 W 230/1V
+        fr: 250 W 230/1V
+  - codi: 31051MMP
+    ordre: 70
+    valors:
+      filtres:
+        es: 5 - 500x500x50
+        en: 5 - 500x500x50
+        fr: 5 - 500x500x50
+      ventilador:
+        es: 10/10 - 1/3
+        en: 10/10 - 1/3
+        fr: 10/10 - 1/3
+      diametre_conducte:
+        es: '350'
+        en: '350'
+        fr: '350'
+      potencia_electrica:
+        es: 250 W 230/1V
+        en: 250 W 230/1V
+        fr: 250 W 230/1V
+  compartits: []
+- clau: CAMPANAS MURALES CON MOTOR INCORPORADO DE 400°C - 2 HORAS
+  noms:
+    es: CAMPANAS MURALES CON MOTOR INCORPORADO DE 400°C - 2 HORAS
+    en: WALL HOODS WITH BUILT-IN MOTOR 400°C - 2 HOURS
+    fr: HOTTES MURALES AVEC MOTEUR INTÉGRÉ 400°C - 2 HEURES
+  sequence: 40
+  tipus: producte
+  pagina: p09
+  taula: p09-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: filtres
+    etiqueta: null
+  - codi: ventilador
+    etiqueta: null
+  - codi: diametre_conducte
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 31027M4P
+    ordre: 10
+    valors:
+      filtres:
+        es: 2 - 500x500x50
+        en: 2 - 500x500x50
+        fr: 2 - 500x500x50
+      ventilador:
+        es: 9/9 - 1/3
+        en: 9/9 - 1/3
+        fr: 9/9 - 1/3
+      diametre_conducte:
+        es: '250'
+        en: '250'
+        fr: '250'
+      potencia_electrica:
+        es: 250 W 230/1V
+        en: 250 W 230/1V
+        fr: 250 W 230/1V
+  - codi: 31037M4P
+    ordre: 20
+    valors:
+      filtres:
+        es: 3 - 500x500x50
+        en: 3 - 500x500x50
+        fr: 3 - 500x500x50
+      ventilador:
+        es: 9/9 - 1/3
+        en: 9/9 - 1/3
+        fr: 9/9 - 1/3
+      diametre_conducte:
+        es: '250'
+        en: '250'
+        fr: '250'
+      potencia_electrica:
+        es: 250 W 230/1V
+        en: 250 W 230/1V
+        fr: 250 W 230/1V
+  - codi: 31047M4P
+    ordre: 30
+    valors:
+      filtres:
+        es: 4 - 500x500x50
+        en: 4 - 500x500x50
+        fr: 4 - 500x500x50
+      ventilador:
+        es: 10/10 - 1/3
+        en: 10/10 - 1/3
+        fr: 10/10 - 1/3
+      diametre_conducte:
+        es: '300'
+        en: '300'
+        fr: '300'
+      potencia_electrica:
+        es: 250 W 230/1V
+        en: 250 W 230/1V
+        fr: 250 W 230/1V
+  - codi: 31031M4P
+    ordre: 40
+    valors:
+      filtres:
+        es: 3 - 500x500x50
+        en: 3 - 500x500x50
+        fr: 3 - 500x500x50
+      ventilador:
+        es: 9/9 - 1/3
+        en: 9/9 - 1/3
+        fr: 9/9 - 1/3
+      diametre_conducte:
+        es: '250'
+        en: '250'
+        fr: '250'
+      potencia_electrica:
+        es: 250 W 230/1V
+        en: 250 W 230/1V
+        fr: 250 W 230/1V
+  - codi: 31041M4P
+    ordre: 50
+    valors:
+      filtres:
+        es: 4 - 500x500x50
+        en: 4 - 500x500x50
+        fr: 4 - 500x500x50
+      ventilador:
+        es: 10/10 - 1/3
+        en: 10/10 - 1/3
+        fr: 10/10 - 1/3
+      diametre_conducte:
+        es: '300'
+        en: '300'
+        fr: '300'
+      potencia_electrica:
+        es: 250 W 230/1V
+        en: 250 W 230/1V
+        fr: 250 W 230/1V
+  - codi: 31051M4P
+    ordre: 60
+    valors:
+      filtres:
+        es: 5 - 500x500x50
+        en: 5 - 500x500x50
+        fr: 5 - 500x500x50
+      ventilador:
+        es: 10/10 - 1/3
+        en: 10/10 - 1/3
+        fr: 10/10 - 1/3
+      diametre_conducte:
+        es: '350'
+        en: '350'
+        fr: '350'
+      potencia_electrica:
+        es: 250 W 230/1V
+        en: 250 W 230/1V
+        fr: 250 W 230/1V
+  compartits: []
+- clau: CAMPANAS CENTRALES CON MOTOR INCORPORADO
+  noms:
+    es: CAMPANAS CENTRALES CON MOTOR INCORPORADO
+    en: CENTRAL HOODS WITH BUILT-IN MOTOR
+    fr: HOTTES CENTRALES AVEC MOTEUR INTÉGRÉ
+  sequence: 50
+  tipus: producte
+  pagina: p10
+  taula: p10-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: filtres
+    etiqueta: null
+  - codi: ventilador
+    etiqueta: null
+  - codi: diametre_conducte
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 31061CMP
+    ordre: 10
+    valors:
+      filtres:
+        es: 6 - 500x500x50
+        en: 6 - 500x500x50
+        fr: 6 - 500x500x50
+      ventilador:
+        es: 12/9 - 1
+        en: 12/9 - 1
+        fr: 12/9 - 1
+      diametre_conducte:
+        es: '400'
+        en: '400'
+        fr: '400'
+      potencia_electrica:
+        es: 750 W 230/1V
+        en: 750 W 230/1V
+        fr: 750 W 230/1V
+  - codi: 31081CMP
+    ordre: 20
+    valors:
+      filtres:
+        es: 8 - 500x500x50
+        en: 8 - 500x500x50
+        fr: 8 - 500x500x50
+      ventilador:
+        es: 12/9 - 1
+        en: 12/9 - 1
+        fr: 12/9 - 1
+      diametre_conducte:
+        es: '450'
+        en: '450'
+        fr: '450'
+      potencia_electrica:
+        es: 1125 W 230/1V
+        en: 1125 W 230/1V
+        fr: 1125 W 230/1V
+  - codi: 31101CMP
+    ordre: 30
+    valors:
+      filtres:
+        es: 10 - 500x500x50
+        en: 10 - 500x500x50
+        fr: 10 - 500x500x50
+      ventilador:
+        es: 12/12 - 1,5
+        en: 12/12 - 1,5
+        fr: 12/12 - 1,5
+      diametre_conducte:
+        es: '500'
+        en: '500'
+        fr: '500'
+      potencia_electrica:
+        es: 1125 W 230/1V
+        en: 1125 W 230/1V
+        fr: 1125 W 230/1V
+  compartits: []
+- clau: CAMPANAS CENTRALES CON MOTOR INCORPORADO DE 400°C - 2 HORAS
+  noms:
+    es: CAMPANAS CENTRALES CON MOTOR INCORPORADO DE 400°C - 2 HORAS
+    en: CENTRAL HOODS WITH BUILT-IN MOTOR 400°C - 2 HOURS
+    fr: HOTTES CENTRALES AVEC MOTEUR INTÉGRÉ 400°C - 2 HEURES
+  sequence: 60
+  tipus: producte
+  pagina: p11
+  taula: p11-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: filtres
+    etiqueta: null
+  - codi: ventilador
+    etiqueta: null
+  - codi: diametre_conducte
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 31061C4P
+    ordre: 10
+    valors:
+      filtres:
+        es: 6 - 500x500x50
+        en: 6 - 500x500x50
+        fr: 6 - 500x500x50
+      ventilador:
+        es: 12/12 - 1,5
+        en: 12/12 - 1,5
+        fr: 12/12 - 1,5
+      diametre_conducte:
+        es: '400'
+        en: '400'
+        fr: '400'
+      potencia_electrica:
+        es: 1125 W 400/3V
+        en: 1125 W 400/3V
+        fr: 1125 W 400/3V
+  - codi: 31081C4P
+    ordre: 20
+    valors:
+      filtres:
+        es: 8 - 500x500x50
+        en: 8 - 500x500x50
+        fr: 8 - 500x500x50
+      ventilador:
+        es: 12/12 - 1,5
+        en: 12/12 - 1,5
+        fr: 12/12 - 1,5
+      diametre_conducte:
+        es: '450'
+        en: '450'
+        fr: '450'
+      potencia_electrica:
+        es: 1125 W 400/3V
+        en: 1125 W 400/3V
+        fr: 1125 W 400/3V
+  - codi: 31101C4P
+    ordre: 30
+    valors:
+      filtres:
+        es: 10 - 500x500x50
+        en: 10 - 500x500x50
+        fr: 10 - 500x500x50
+      ventilador:
+        es: 12/12 - 1,5
+        en: 12/12 - 1,5
+        fr: 12/12 - 1,5
+      diametre_conducte:
+        es: '500'
+        en: '500'
+        fr: '500'
+      potencia_electrica:
+        es: 1125 W 400/3V
+        en: 1125 W 400/3V
+        fr: 1125 W 400/3V
+  compartits: []
+- clau: CAMPANAS CON MOTOR, PARA MONTAJE ENCIMA DEL HORNO (SÓLO ELÉCTRICOS)
+  noms:
+    es: CAMPANAS CON MOTOR, PARA MONTAJE ENCIMA DEL HORNO (SÓLO ELÉCTRICOS)
+    en: HOODS WITH MOTOR, FOR MOUNTING ABOVE THE OVEN (ELECTRICAL ONLY)
+    fr: HOTTES AVEC MOTEUR, POUR MONTAGE AU-DESSUS DU FOUR (ÉLECTRIQUE UNIQUEMENT)
+  sequence: 70
+  tipus: producte
+  pagina: p13
+  taula: p13-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: serie
+    etiqueta: null
+  - codi: gastronorm
+    etiqueta: null
+  - codi: ventilador
+    etiqueta: null
+  - codi: diametre_conducte
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '31815080'
+    ordre: 10
+    valors:
+      serie:
+        es: MINI
+        en: MINI
+        fr: MINI
+      gastronorm:
+        es: 6-10 1/1
+        en: 6-10 1/1
+        fr: 6-10 1/1
+      ventilador:
+        es: 7/7 - 1/10
+        en: 7/7 - 1/10
+        fr: 7/7 - 1/10
+      diametre_conducte:
+        es: '150'
+        en: '150'
+        fr: '150'
+      potencia_electrica:
+        es: 100 W 230/1V
+        en: 100 W 230/1V
+        fr: 100 W 230/1V
+  - codi: '31915080'
+    ordre: 20
+    valors:
+      serie:
+        es: MINI
+        en: MINI
+        fr: MINI
+      gastronorm:
+        es: 6-10 1/1
+        en: 6-10 1/1
+        fr: 6-10 1/1
+      ventilador:
+        es: 7/7 - 1/10
+        en: 7/7 - 1/10
+        fr: 7/7 - 1/10
+      diametre_conducte:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: 400 W 230/1V
+        en: 400 W 230/1V
+        fr: 400 W 230/1V
+  - codi: '31715080'
+    ordre: 30
+    valors:
+      serie:
+        es: 2/5
+        en: 2/5
+        fr: 2/5
+      gastronorm:
+        es: 5-10 1/1
+        en: 5-10 1/1
+        fr: 5-10 1/1
+      ventilador:
+        es: 7/7 - 1/10
+        en: 7/7 - 1/10
+        fr: 7/7 - 1/10
+      diametre_conducte:
+        es: '150'
+        en: '150'
+        fr: '150'
+      potencia_electrica:
+        es: 100 W 230/1V
+        en: 100 W 230/1V
+        fr: 100 W 230/1V
+  - codi: '31585080'
+    ordre: 40
+    valors:
+      serie:
+        es: 2/5
+        en: 2/5
+        fr: 2/5
+      gastronorm:
+        es: 5-10 1/1
+        en: 5-10 1/1
+        fr: 5-10 1/1
+      ventilador:
+        es: 7/7 - 1/10
+        en: 7/7 - 1/10
+        fr: 7/7 - 1/10
+      diametre_conducte:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: 300 W 230/1V
+        en: 300 W 230/1V
+        fr: 300 W 230/1V
+  - codi: '31685080'
+    ordre: 50
+    valors:
+      serie:
+        es: '8'
+        en: '8'
+        fr: '8'
+      gastronorm:
+        es: 6-10 1/1
+        en: 6-10 1/1
+        fr: 6-10 1/1
+      ventilador:
+        es: 7/7 - 1/10
+        en: 7/7 - 1/10
+        fr: 7/7 - 1/10
+      diametre_conducte:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: 400 W 230/1V
+        en: 400 W 230/1V
+        fr: 400 W 230/1V
+  - codi: '31285080'
+    ordre: 60
+    valors:
+      serie:
+        es: '8'
+        en: '8'
+        fr: '8'
+      gastronorm:
+        es: 6-10 2/1
+        en: 6-10 2/1
+        fr: 6-10 2/1
+      ventilador:
+        es: 7/7 - 1/10
+        en: 7/7 - 1/10
+        fr: 7/7 - 1/10
+      diametre_conducte:
+        es: '-'
+        en: '-'
+        fr: '-'
+      potencia_electrica:
+        es: 400 W 230/1V
+        en: 400 W 230/1V
+        fr: 400 W 230/1V
+  compartits: []
+- clau: CAMPANAS MURALES PARA MOTOR A DISTANCIA, PARA ASADORES, HORNOS Y VAPOR
+  noms:
+    es: CAMPANAS MURALES PARA MOTOR A DISTANCIA, PARA ASADORES, HORNOS Y VAPOR
+    en: WALL HOODS -MOUNTED HOODS FOR REMOTE MOTOR, FOR ROTISSERIES, OVENS AND STEAM
+    fr: HOTTES MURALES POUR MOTEUR À DISTANCE, POUR RÔTISSOIRES, FOURS ET VAPEUR
+  sequence: 80
+  tipus: producte
+  pagina: p16
+  taula: p16-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: filtres
+    etiqueta: null
+  - codi: ventilador
+    etiqueta: null
+  - codi: hp
+    etiqueta: null
+  - codi: diametre_conducte
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 31021MDA
+    ordre: 10
+    valors:
+      filtres:
+        es: 2 - 500x500x50
+        en: 2 - 500x500x50
+        fr: 2 - 500x500x50
+      ventilador:
+        es: 10/10 -
+        en: 10/10 -
+        fr: 10/10 -
+      hp:
+        es: 3/4
+        en: 3/4
+        fr: 3/4
+      diametre_conducte:
+        es: '250'
+        en: '250'
+        fr: '250'
+  - codi: 31031MDA
+    ordre: 20
+    valors:
+      filtres:
+        es: 3 - 500x500x50
+        en: 3 - 500x500x50
+        fr: 3 - 500x500x50
+      ventilador:
+        es: 10/10 -
+        en: 10/10 -
+        fr: 10/10 -
+      hp:
+        es: '1'
+        en: '1'
+        fr: '1'
+      diametre_conducte:
+        es: '300'
+        en: '300'
+        fr: '300'
+  - codi: 31041MDA
+    ordre: 30
+    valors:
+      filtres:
+        es: 4 - 500x500x50
+        en: 4 - 500x500x50
+        fr: 4 - 500x500x50
+      ventilador:
+        es: 10/10 -
+        en: 10/10 -
+        fr: 10/10 -
+      hp:
+        es: 1,5
+        en: 1,5
+        fr: 1,5
+      diametre_conducte:
+        es: '350'
+        en: '350'
+        fr: '350'
+  - codi: 31051MDA
+    ordre: 40
+    valors:
+      filtres:
+        es: 5 - 500x500x50
+        en: 5 - 500x500x50
+        fr: 5 - 500x500x50
+      ventilador:
+        es: 12/12 -
+        en: 12/12 -
+        fr: 12/12 -
+      hp:
+        es: 1,5
+        en: 1,5
+        fr: 1,5
+      diametre_conducte:
+        es: '400'
+        en: '400'
+        fr: '400'
+  - codi: 31061MDA
+    ordre: 50
+    valors:
+      filtres:
+        es: 6 - 500x500x50
+        en: 6 - 500x500x50
+        fr: 6 - 500x500x50
+      ventilador:
+        es: 12/12 -
+        en: 12/12 -
+        fr: 12/12 -
+      hp:
+        es: 1,5
+        en: 1,5
+        fr: 1,5
+      diametre_conducte:
+        es: '400'
+        en: '400'
+        fr: '400'
+  - codi: 31022MDA
+    ordre: 60
+    valors:
+      filtres:
+        es: 2 - 500x500x50
+        en: 2 - 500x500x50
+        fr: 2 - 500x500x50
+      ventilador:
+        es: 10/10 -
+        en: 10/10 -
+        fr: 10/10 -
+      hp:
+        es: 3/4
+        en: 3/4
+        fr: 3/4
+      diametre_conducte:
+        es: '250'
+        en: '250'
+        fr: '250'
+  - codi: 31032MDA
+    ordre: 70
+    valors:
+      filtres:
+        es: 3 - 500x500x50
+        en: 3 - 500x500x50
+        fr: 3 - 500x500x50
+      ventilador:
+        es: 10/10 -
+        en: 10/10 -
+        fr: 10/10 -
+      hp:
+        es: '1'
+        en: '1'
+        fr: '1'
+      diametre_conducte:
+        es: '300'
+        en: '300'
+        fr: '300'
+  - codi: 31042MDA
+    ordre: 80
+    valors:
+      filtres:
+        es: 4 - 500x500x50
+        en: 4 - 500x500x50
+        fr: 4 - 500x500x50
+      ventilador:
+        es: 10/10 -
+        en: 10/10 -
+        fr: 10/10 -
+      hp:
+        es: 1,5
+        en: 1,5
+        fr: 1,5
+      diametre_conducte:
+        es: '350'
+        en: '350'
+        fr: '350'
+  - codi: 31052MDA
+    ordre: 90
+    valors:
+      filtres:
+        es: 5 - 500x500x50
+        en: 5 - 500x500x50
+        fr: 5 - 500x500x50
+      ventilador:
+        es: 12/12 -
+        en: 12/12 -
+        fr: 12/12 -
+      hp:
+        es: 1,5
+        en: 1,5
+        fr: 1,5
+      diametre_conducte:
+        es: '400'
+        en: '400'
+        fr: '400'
+  - codi: 31062MDA
+    ordre: 100
+    valors:
+      filtres:
+        es: 6 - 500x500x50
+        en: 6 - 500x500x50
+        fr: 6 - 500x500x50
+      ventilador:
+        es: 12/12 -
+        en: 12/12 -
+        fr: 12/12 -
+      hp:
+        es: 1,5
+        en: 1,5
+        fr: 1,5
+      diametre_conducte:
+        es: '400'
+        en: '400'
+        fr: '400'
+  compartits: []
+- clau: CAMPANAS MURALES PARA MOTOR A DISTANCIA CON PLÉNUM
+  noms:
+    es: CAMPANAS MURALES PARA MOTOR A DISTANCIA CON PLÉNUM
+    en: WALL HOODS FOR REMOTE MOTOR WITH PLENUM
+    fr: HOTTES MURALES POUR MOTEUR À DISTANCE AVEC PLÉNUM
+  sequence: 90
+  tipus: producte
+  pagina: p17
+  taula: p17-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: filtres
+    etiqueta: null
+  - codi: ventilador
+    etiqueta: null
+  - codi: hp
+    etiqueta: null
+  - codi: diametre_conducte
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 31037MDM
+    ordre: 10
+    valors:
+      filtres:
+        es: 3 - 500x500x50
+        en: 3 - 500x500x50
+        fr: 3 - 500x500x50
+      ventilador:
+        es: 10/10 -
+        en: 10/10 -
+        fr: 10/10 -
+      hp:
+        es: '1'
+        en: '1'
+        fr: '1'
+      diametre_conducte:
+        es: '300'
+        en: '300'
+        fr: '300'
+  - codi: 31047MDM
+    ordre: 20
+    valors:
+      filtres:
+        es: 4 - 500x500x50
+        en: 4 - 500x500x50
+        fr: 4 - 500x500x50
+      ventilador:
+        es: 10/10 -
+        en: 10/10 -
+        fr: 10/10 -
+      hp:
+        es: 1,5
+        en: 1,5
+        fr: 1,5
+      diametre_conducte:
+        es: '350'
+        en: '350'
+        fr: '350'
+  - codi: 31057MDM
+    ordre: 30
+    valors:
+      filtres:
+        es: 5 - 500x500x50
+        en: 5 - 500x500x50
+        fr: 5 - 500x500x50
+      ventilador:
+        es: 12/12 -
+        en: 12/12 -
+        fr: 12/12 -
+      hp:
+        es: 1,5
+        en: 1,5
+        fr: 1,5
+      diametre_conducte:
+        es: '400'
+        en: '400'
+        fr: '400'
+  - codi: 31067MDM
+    ordre: 40
+    valors:
+      filtres:
+        es: 6 - 500x500x50
+        en: 6 - 500x500x50
+        fr: 6 - 500x500x50
+      ventilador:
+        es: 12/12 -
+        en: 12/12 -
+        fr: 12/12 -
+      hp:
+        es: 1,5
+        en: 1,5
+        fr: 1,5
+      diametre_conducte:
+        es: '400'
+        en: '400'
+        fr: '400'
+  - codi: 31031MDM
+    ordre: 50
+    valors:
+      filtres:
+        es: 3 - 500x500x50
+        en: 3 - 500x500x50
+        fr: 3 - 500x500x50
+      ventilador:
+        es: 10/10 -
+        en: 10/10 -
+        fr: 10/10 -
+      hp:
+        es: '1'
+        en: '1'
+        fr: '1'
+      diametre_conducte:
+        es: '300'
+        en: '300'
+        fr: '300'
+  - codi: 31041MDM
+    ordre: 60
+    valors:
+      filtres:
+        es: 4 - 500x500x50
+        en: 4 - 500x500x50
+        fr: 4 - 500x500x50
+      ventilador:
+        es: 10/10 -
+        en: 10/10 -
+        fr: 10/10 -
+      hp:
+        es: 1,5
+        en: 1,5
+        fr: 1,5
+      diametre_conducte:
+        es: '350'
+        en: '350'
+        fr: '350'
+  - codi: 31051MDM
+    ordre: 70
+    valors:
+      filtres:
+        es: 5 - 500x500x50
+        en: 5 - 500x500x50
+        fr: 5 - 500x500x50
+      ventilador:
+        es: 12/12 -
+        en: 12/12 -
+        fr: 12/12 -
+      hp:
+        es: 1,5
+        en: 1,5
+        fr: 1,5
+      diametre_conducte:
+        es: '400'
+        en: '400'
+        fr: '400'
+  - codi: 31061MDM
+    ordre: 80
+    valors:
+      filtres:
+        es: 6 - 500x500x50
+        en: 6 - 500x500x50
+        fr: 6 - 500x500x50
+      ventilador:
+        es: 12/12 -
+        en: 12/12 -
+        fr: 12/12 -
+      hp:
+        es: 1,5
+        en: 1,5
+        fr: 1,5
+      diametre_conducte:
+        es: '400'
+        en: '400'
+        fr: '400'
+  compartits: []
+- clau: CAMPANAS MURALES PARA MOTOR A DISTANCIA CON PLÉNUM Y REGULACIÓN
+  noms:
+    es: CAMPANAS MURALES PARA MOTOR A DISTANCIA CON PLÉNUM Y REGULACIÓN
+    en: WALL-MOUNTED HOODS FOR REMOTE MOTOR WITH PLENUM AND CONTROL
+    fr: HOTTES MURALES POUR MOTEUR À DISTANCE AVEC PLÉNUM ET RÉGULATION
+  sequence: 100
+  tipus: producte
+  pagina: p18
+  taula: p18-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: filtres
+    etiqueta: null
+  - codi: ventilador
+    etiqueta: null
+  - codi: hp
+    etiqueta: null
+  - codi: diametre_conducte
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 31037MDR
+    ordre: 10
+    valors:
+      filtres:
+        es: 3 - 500x500x50
+        en: 3 - 500x500x50
+        fr: 3 - 500x500x50
+      ventilador:
+        es: 10/10 -
+        en: 10/10 -
+        fr: 10/10 -
+      hp:
+        es: '1'
+        en: '1'
+        fr: '1'
+      diametre_conducte:
+        es: '300'
+        en: '300'
+        fr: '300'
+  - codi: 31047MDR
+    ordre: 20
+    valors:
+      filtres:
+        es: 4 - 500x500x50
+        en: 4 - 500x500x50
+        fr: 4 - 500x500x50
+      ventilador:
+        es: 10/10 -
+        en: 10/10 -
+        fr: 10/10 -
+      hp:
+        es: 1,5
+        en: 1,5
+        fr: 1,5
+      diametre_conducte:
+        es: '350'
+        en: '350'
+        fr: '350'
+  - codi: 31057MDR
+    ordre: 30
+    valors:
+      filtres:
+        es: 5 - 500x500x50
+        en: 5 - 500x500x50
+        fr: 5 - 500x500x50
+      ventilador:
+        es: 12/12 -
+        en: 12/12 -
+        fr: 12/12 -
+      hp:
+        es: 1,5
+        en: 1,5
+        fr: 1,5
+      diametre_conducte:
+        es: '400'
+        en: '400'
+        fr: '400'
+  - codi: 31067MDR
+    ordre: 40
+    valors:
+      filtres:
+        es: 6 - 500x500x50
+        en: 6 - 500x500x50
+        fr: 6 - 500x500x50
+      ventilador:
+        es: 12/12 -
+        en: 12/12 -
+        fr: 12/12 -
+      hp:
+        es: 1,5
+        en: 1,5
+        fr: 1,5
+      diametre_conducte:
+        es: '400'
+        en: '400'
+        fr: '400'
+  - codi: 31031MDR
+    ordre: 50
+    valors:
+      filtres:
+        es: 3 - 500x500x50
+        en: 3 - 500x500x50
+        fr: 3 - 500x500x50
+      ventilador:
+        es: 10/10 -
+        en: 10/10 -
+        fr: 10/10 -
+      hp:
+        es: '1'
+        en: '1'
+        fr: '1'
+      diametre_conducte:
+        es: '300'
+        en: '300'
+        fr: '300'
+  - codi: 31041MDR
+    ordre: 60
+    valors:
+      filtres:
+        es: 4 - 500x500x50
+        en: 4 - 500x500x50
+        fr: 4 - 500x500x50
+      ventilador:
+        es: 10/10 -
+        en: 10/10 -
+        fr: 10/10 -
+      hp:
+        es: 1,5
+        en: 1,5
+        fr: 1,5
+      diametre_conducte:
+        es: '350'
+        en: '350'
+        fr: '350'
+  - codi: 31051MDR
+    ordre: 70
+    valors:
+      filtres:
+        es: 5 - 500x500x50
+        en: 5 - 500x500x50
+        fr: 5 - 500x500x50
+      ventilador:
+        es: 12/12 -
+        en: 12/12 -
+        fr: 12/12 -
+      hp:
+        es: 1,5
+        en: 1,5
+        fr: 1,5
+      diametre_conducte:
+        es: '400'
+        en: '400'
+        fr: '400'
+  - codi: 31061MDR
+    ordre: 80
+    valors:
+      filtres:
+        es: 6 - 500x500x50
+        en: 6 - 500x500x50
+        fr: 6 - 500x500x50
+      ventilador:
+        es: 12/12 -
+        en: 12/12 -
+        fr: 12/12 -
+      hp:
+        es: 1,5
+        en: 1,5
+        fr: 1,5
+      diametre_conducte:
+        es: '400'
+        en: '400'
+        fr: '400'
+  compartits: []
+- clau: CAMPANAS CENTRALES PARA MOTOR A DISTANCIA CON PLÉNUM
+  noms:
+    es: CAMPANAS CENTRALES PARA MOTOR A DISTANCIA CON PLÉNUM
+    en: CENTRAL HOODS FOR REMOTE MOTOR WITH PLENUM
+    fr: HOTTES CENTRALES POUR MOTEUR À DISTANCE AVEC PLÉNUM
+  sequence: 110
+  tipus: producte
+  pagina: p19
+  taula: p19-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: filtres
+    etiqueta: null
+  - codi: ventilador
+    etiqueta: null
+  - codi: hp
+    etiqueta: null
+  - codi: diametre_conducte
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 31061CDM
+    ordre: 10
+    valors:
+      filtres:
+        es: 6 - 500x500x50
+        en: 6 - 500x500x50
+        fr: 6 - 500x500x50
+      ventilador:
+        es: 12/12 -
+        en: 12/12 -
+        fr: 12/12 -
+      hp:
+        es: 1,5
+        en: 1,5
+        fr: 1,5
+      diametre_conducte:
+        es: '400'
+        en: '400'
+        fr: '400'
+  - codi: 31081CDM
+    ordre: 20
+    valors:
+      filtres:
+        es: 8 - 500x500x50
+        en: 8 - 500x500x50
+        fr: 8 - 500x500x50
+      ventilador:
+        es: 15/15 -
+        en: 15/15 -
+        fr: 15/15 -
+      hp:
+        es: '2'
+        en: '2'
+        fr: '2'
+      diametre_conducte:
+        es: '450'
+        en: '450'
+        fr: '450'
+  - codi: 31101CDM
+    ordre: 30
+    valors:
+      filtres:
+        es: 10 - 500x500x50
+        en: 10 - 500x500x50
+        fr: 10 - 500x500x50
+      ventilador:
+        es: 18/18 -
+        en: 18/18 -
+        fr: 18/18 -
+      hp:
+        es: '2'
+        en: '2'
+        fr: '2'
+      diametre_conducte:
+        es: '550'
+        en: '550'
+        fr: '550'
+  - codi: 31121CDM
+    ordre: 40
+    valors:
+      filtres:
+        es: 12 - 500x500x50
+        en: 12 - 500x500x50
+        fr: 12 - 500x500x50
+      ventilador:
+        es: 18/18 -
+        en: 18/18 -
+        fr: 18/18 -
+      hp:
+        es: '3'
+        en: '3'
+        fr: '3'
+      diametre_conducte:
+        es: '600'
+        en: '600'
+        fr: '600'
+  compartits: []
+- clau: CAMPANAS CENTRALES PARA MOTOR A DISTANCIA CON PLÉNUM Y REGULACIÓN
+  noms:
+    es: CAMPANAS CENTRALES PARA MOTOR A DISTANCIA CON PLÉNUM Y REGULACIÓN
+    en: CENTRAL MOUNTED HOODS FOR REMOTE MOTOR WITH PLENUM AND CONTROL
+    fr: HOTTES CENTRALES POUR MOTEUR À DISTANCE AVEC PLÉNUM ET RÉGULATION
+  sequence: 120
+  tipus: producte
+  pagina: p20
+  taula: p20-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: filtres
+    etiqueta: null
+  - codi: ventilador
+    etiqueta: null
+  - codi: hp
+    etiqueta: null
+  - codi: diametre_conducte
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 31082CDR
+    ordre: 10
+    valors:
+      filtres:
+        es: 8 - 500x500x50
+        en: 8 - 500x500x50
+        fr: 8 - 500x500x50
+      ventilador:
+        es: 15/15 -
+        en: 15/15 -
+        fr: 15/15 -
+      hp:
+        es: '2'
+        en: '2'
+        fr: '2'
+      diametre_conducte:
+        es: '450'
+        en: '450'
+        fr: '450'
+  - codi: 31102CDR
+    ordre: 20
+    valors:
+      filtres:
+        es: 10 - 500x500x50
+        en: 10 - 500x500x50
+        fr: 10 - 500x500x50
+      ventilador:
+        es: 18/18 -
+        en: 18/18 -
+        fr: 18/18 -
+      hp:
+        es: '2'
+        en: '2'
+        fr: '2'
+      diametre_conducte:
+        es: '550'
+        en: '550'
+        fr: '550'
+  - codi: 31122CDR
+    ordre: 30
+    valors:
+      filtres:
+        es: 12 - 500x500x50
+        en: 12 - 500x500x50
+        fr: 12 - 500x500x50
+      ventilador:
+        es: 18/18 -
+        en: 18/18 -
+        fr: 18/18 -
+      hp:
+        es: '3'
+        en: '3'
+        fr: '3'
+      diametre_conducte:
+        es: '600'
+        en: '600'
+        fr: '600'
+  - codi: 31142CDR
+    ordre: 40
+    valors:
+      filtres:
+        es: 14 - 500x500x50
+        en: 14 - 500x500x50
+        fr: 14 - 500x500x50
+      ventilador:
+        es: 18/18 -
+        en: 18/18 -
+        fr: 18/18 -
+      hp:
+        es: '3'
+        en: '3'
+        fr: '3'
+      diametre_conducte:
+        es: '650'
+        en: '650'
+        fr: '650'
+  - codi: 31162CDR
+    ordre: 50
+    valors:
+      filtres:
+        es: 16 - 500x500x50
+        en: 16 - 500x500x50
+        fr: 16 - 500x500x50
+      ventilador:
+        es: 18/18 -
+        en: 18/18 -
+        fr: 18/18 -
+      hp:
+        es: '4'
+        en: '4'
+        fr: '4'
+      diametre_conducte:
+        es: '650'
+        en: '650'
+        fr: '650'
+  - codi: 31182CDR
+    ordre: 60
+    valors:
+      filtres:
+        es: 18 - 500x500x50
+        en: 18 - 500x500x50
+        fr: 18 - 500x500x50
+      ventilador:
+        es: 18/18 -
+        en: 18/18 -
+        fr: 18/18 -
+      hp:
+        es: 5,5
+        en: 5,5
+        fr: 5,5
+      diametre_conducte:
+        es: '700'
+        en: '700'
+        fr: '700'
+  - codi: 31202CDR
+    ordre: 70
+    valors:
+      filtres:
+        es: 20 - 500x500x50
+        en: 20 - 500x500x50
+        fr: 20 - 500x500x50
+      ventilador:
+        es: 22/22 -
+        en: 22/22 -
+        fr: 22/22 -
+      hp:
+        es: 5,5
+        en: 5,5
+        fr: 5,5
+      diametre_conducte:
+        es: '750'
+        en: '750'
+        fr: '750'
+  compartits: []
+- clau: CAMPANAS MURALES COMPENSADAS PARA MOTOR A DISTANCIA CON PLÉNUM Y REGULACIÓN
+  noms:
+    es: CAMPANAS MURALES COMPENSADAS PARA MOTOR A DISTANCIA CON PLÉNUM Y REGULACIÓN
+    en: COMPENSATED WALL-MOUNTED HOODS FOR REMOTE MOTOR WITH PLENUM AND CONTROL
+    fr: HOTTES MURALES COMPENSÉES POUR MOTEUR À DISTANCE AVEC PLÉNUM ET RÉGULATION
+  sequence: 130
+  tipus: producte
+  pagina: p21
+  taula: p21-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: filtres
+    etiqueta: null
+  - codi: ventilador
+    etiqueta:
+      es: R ASPIRACIÓN HP
+      en: R ASPIRACIÓN HP
+      fr: R ASPIRACIÓN HP
+  - codi: diametre_conducte
+    etiqueta: null
+  - codi: ventilador_2
+    etiqueta: null
+  - codi: diametre_conducte_2
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 31031MDC
+    ordre: 10
+    valors:
+      filtres:
+        es: 3 - 500x500x50
+        en: 3 - 500x500x50
+        fr: 3 - 500x500x50
+      ventilador:
+        es: 10/10 - 1
+        en: 10/10 - 1
+        fr: 10/10 - 1
+      diametre_conducte:
+        es: '300'
+        en: '300'
+        fr: '300'
+      ventilador_2:
+        es: 9/9 - 1/3
+        en: 9/9 - 1/3
+        fr: 9/9 - 1/3
+      diametre_conducte_2:
+        es: '250'
+        en: '250'
+        fr: '250'
+  - codi: 31041MDC
+    ordre: 20
+    valors:
+      filtres:
+        es: 4 - 500x500x50
+        en: 4 - 500x500x50
+        fr: 4 - 500x500x50
+      ventilador:
+        es: 10/10 - 1,5
+        en: 10/10 - 1,5
+        fr: 10/10 - 1,5
+      diametre_conducte:
+        es: '350'
+        en: '350'
+        fr: '350'
+      ventilador_2:
+        es: 9/9 - 1/3
+        en: 9/9 - 1/3
+        fr: 9/9 - 1/3
+      diametre_conducte_2:
+        es: '300'
+        en: '300'
+        fr: '300'
+  - codi: 31051MDC
+    ordre: 30
+    valors:
+      filtres:
+        es: 5 - 500x500x50
+        en: 5 - 500x500x50
+        fr: 5 - 500x500x50
+      ventilador:
+        es: 12/12 - 1,5
+        en: 12/12 - 1,5
+        fr: 12/12 - 1,5
+      diametre_conducte:
+        es: '400'
+        en: '400'
+        fr: '400'
+      ventilador_2:
+        es: 10/10 - 1/3
+        en: 10/10 - 1/3
+        fr: 10/10 - 1/3
+      diametre_conducte_2:
+        es: '300'
+        en: '300'
+        fr: '300'
+  - codi: 31061MDC
+    ordre: 40
+    valors:
+      filtres:
+        es: 6 - 500x500x50
+        en: 6 - 500x500x50
+        fr: 6 - 500x500x50
+      ventilador:
+        es: 12/12 - 1,5
+        en: 12/12 - 1,5
+        fr: 12/12 - 1,5
+      diametre_conducte:
+        es: '400'
+        en: '400'
+        fr: '400'
+      ventilador_2:
+        es: 10/10 - 1/3
+        en: 10/10 - 1/3
+        fr: 10/10 - 1/3
+      diametre_conducte_2:
+        es: '350'
+        en: '350'
+        fr: '350'
+  - codi: 31071MDC
+    ordre: 50
+    valors:
+      filtres:
+        es: 7 - 500x500x50
+        en: 7 - 500x500x50
+        fr: 7 - 500x500x50
+      ventilador:
+        es: 15/15 - 1,5
+        en: 15/15 - 1,5
+        fr: 15/15 - 1,5
+      diametre_conducte:
+        es: '450'
+        en: '450'
+        fr: '450'
+      ventilador_2:
+        es: 10/10 - 1/3
+        en: 10/10 - 1/3
+        fr: 10/10 - 1/3
+      diametre_conducte_2:
+        es: '350'
+        en: '350'
+        fr: '350'
+  - codi: 31081MDC
+    ordre: 60
+    valors:
+      filtres:
+        es: 8 - 500x500x50
+        en: 8 - 500x500x50
+        fr: 8 - 500x500x50
+      ventilador:
+        es: 15/15 - 2
+        en: 15/15 - 2
+        fr: 15/15 - 2
+      diametre_conducte:
+        es: '450'
+        en: '450'
+        fr: '450'
+      ventilador_2:
+        es: 10/10 - 1/3
+        en: 10/10 - 1/3
+        fr: 10/10 - 1/3
+      diametre_conducte_2:
+        es: '350'
+        en: '350'
+        fr: '350'
+  - codi: 31091MDC
+    ordre: 70
+    valors:
+      filtres:
+        es: 9 - 500x500x50
+        en: 9 - 500x500x50
+        fr: 9 - 500x500x50
+      ventilador:
+        es: 18/18 - 2
+        en: 18/18 - 2
+        fr: 18/18 - 2
+      diametre_conducte:
+        es: '500'
+        en: '500'
+        fr: '500'
+      ventilador_2:
+        es: 12/12 - 1
+        en: 12/12 - 1
+        fr: 12/12 - 1
+      diametre_conducte_2:
+        es: '400'
+        en: '400'
+        fr: '400'
+  - codi: 31101MDC
+    ordre: 80
+    valors:
+      filtres:
+        es: 10 - 500x500x50
+        en: 10 - 500x500x50
+        fr: 10 - 500x500x50
+      ventilador:
+        es: 18/18 - 2
+        en: 18/18 - 2
+        fr: 18/18 - 2
+      diametre_conducte:
+        es: '550'
+        en: '550'
+        fr: '550'
+      ventilador_2:
+        es: 12/12 - 1
+        en: 12/12 - 1
+        fr: 12/12 - 1
+      diametre_conducte_2:
+        es: '400'
+        en: '400'
+        fr: '400'
+  compartits: []
+- clau: CAMPANAS CENTRALES COMPENSADAS PARA MOTOR A DISTANCIA CON PLENUM Y REGULACIÓN
+  noms:
+    es: CAMPANAS CENTRALES COMPENSADAS PARA MOTOR A DISTANCIA CON PLENUM Y REGULACIÓN
+    en: COMPENSATED CENTRAL HOODS FOR REMOTE MOTOR WITH PLENUM AND CONTROL
+    fr: HOTTES CENTRALES COMPENSÉES POUR MOTEUR À DISTANCE AVEC PLÉNUM ET RÉGULATION
+  sequence: 140
+  tipus: producte
+  pagina: p22
+  taula: p22-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: filtres
+    etiqueta: null
+  - codi: ventilador
+    etiqueta:
+      es: R ASPIRACIÓN HP
+      en: R ASPIRACIÓN HP
+      fr: R ASPIRACIÓN HP
+  - codi: diametre_conducte
+    etiqueta: null
+  - codi: ventilador_2
+    etiqueta: null
+  - codi: diametre_conducte_2
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 31082CDC
+    ordre: 10
+    valors:
+      filtres:
+        es: 8 - 500x500x50
+        en: 8 - 500x500x50
+        fr: 8 - 500x500x50
+      ventilador:
+        es: 15/15 - 2
+        en: 15/15 - 2
+        fr: 15/15 - 2
+      diametre_conducte:
+        es: '450'
+        en: '450'
+        fr: '450'
+      ventilador_2:
+        es: 10/10 - 3/4
+        en: 10/10 - 3/4
+        fr: 10/10 - 3/4
+      diametre_conducte_2:
+        es: '350'
+        en: '350'
+        fr: '350'
+  - codi: 31102CDC
+    ordre: 20
+    valors:
+      filtres:
+        es: 10 - 500x500x50
+        en: 10 - 500x500x50
+        fr: 10 - 500x500x50
+      ventilador:
+        es: 18/18 - 2
+        en: 18/18 - 2
+        fr: 18/18 - 2
+      diametre_conducte:
+        es: '550'
+        en: '550'
+        fr: '550'
+      ventilador_2:
+        es: 12/12 - 1
+        en: 12/12 - 1
+        fr: 12/12 - 1
+      diametre_conducte_2:
+        es: '400'
+        en: '400'
+        fr: '400'
+  - codi: 31122CDC
+    ordre: 30
+    valors:
+      filtres:
+        es: 12 - 500x500x50
+        en: 12 - 500x500x50
+        fr: 12 - 500x500x50
+      ventilador:
+        es: 18/18 - 3
+        en: 18/18 - 3
+        fr: 18/18 - 3
+      diametre_conducte:
+        es: '600'
+        en: '600'
+        fr: '600'
+      ventilador_2:
+        es: 12/12 - 1,5
+        en: 12/12 - 1,5
+        fr: 12/12 - 1,5
+      diametre_conducte_2:
+        es: '450'
+        en: '450'
+        fr: '450'
+  - codi: 31142CDC
+    ordre: 40
+    valors:
+      filtres:
+        es: 14 - 500x500x50
+        en: 14 - 500x500x50
+        fr: 14 - 500x500x50
+      ventilador:
+        es: 18/18 - 3
+        en: 18/18 - 3
+        fr: 18/18 - 3
+      diametre_conducte:
+        es: '650'
+        en: '650'
+        fr: '650'
+      ventilador_2:
+        es: 12/12 - 1,5
+        en: 12/12 - 1,5
+        fr: 12/12 - 1,5
+      diametre_conducte_2:
+        es: '500'
+        en: '500'
+        fr: '500'
+  - codi: 31162CDC
+    ordre: 50
+    valors:
+      filtres:
+        es: 16 - 500x500x50
+        en: 16 - 500x500x50
+        fr: 16 - 500x500x50
+      ventilador:
+        es: 18/18 - 4
+        en: 18/18 - 4
+        fr: 18/18 - 4
+      diametre_conducte:
+        es: '650'
+        en: '650'
+        fr: '650'
+      ventilador_2:
+        es: 15/15 - 3
+        en: 15/15 - 3
+        fr: 15/15 - 3
+      diametre_conducte_2:
+        es: '500'
+        en: '500'
+        fr: '500'
+  - codi: 31182CDC
+    ordre: 60
+    valors:
+      filtres:
+        es: 18 - 500x500x50
+        en: 18 - 500x500x50
+        fr: 18 - 500x500x50
+      ventilador:
+        es: 18/18 - 5,5
+        en: 18/18 - 5,5
+        fr: 18/18 - 5,5
+      diametre_conducte:
+        es: '700'
+        en: '700'
+        fr: '700'
+      ventilador_2:
+        es: 15/15 - 3
+        en: 15/15 - 3
+        fr: 15/15 - 3
+      diametre_conducte_2:
+        es: '500'
+        en: '500'
+        fr: '500'
+  - codi: 31202CDC
+    ordre: 70
+    valors:
+      filtres:
+        es: 20 - 500x500x50
+        en: 20 - 500x500x50
+        fr: 20 - 500x500x50
+      ventilador:
+        es: 22/22 - 5,5
+        en: 22/22 - 5,5
+        fr: 22/22 - 5,5
+      diametre_conducte:
+        es: '750'
+        en: '750'
+        fr: '750'
+      ventilador_2:
+        es: 15/15 - 3
+        en: 15/15 - 3
+        fr: 15/15 - 3
+      diametre_conducte_2:
+        es: '500'
+        en: '500'
+        fr: '500'
+  compartits: []
+- clau: PROTECCIÓN CONTRA INCENDIOS (PCI)
+  noms:
+    es: PROTECCIÓN CONTRA INCENDIOS (PCI)
+    en: FIRE PROTECTION (PCI)
+    fr: PROTECTION CONTRE L'INCENDIE (PCI)
+  sequence: 150
+  tipus: producte
+  pagina: p24
+  taula: p24-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: extincio_pci
+    etiqueta:
+      es: Sprinklers
+      en: Sprinklers
+      fr: Sprinklers
+  - codi: extintor
+    etiqueta: null
+  - codi: filtres
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 3108PG13
+    ordre: 10
+    valors:
+      extincio_pci:
+        es: '1'
+        en: '1'
+        fr: '1'
+      extintor:
+        es: '1'
+        en: '1'
+        fr: '1'
+      filtres:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: 3109PG13
+    ordre: 20
+    valors:
+      extincio_pci:
+        es: '2'
+        en: '2'
+        fr: '2'
+      extintor:
+        es: '1'
+        en: '1'
+        fr: '1'
+      filtres:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: 3110PG13
+    ordre: 30
+    valors:
+      extincio_pci:
+        es: '3'
+        en: '3'
+        fr: '3'
+      extintor:
+        es: '1'
+        en: '1'
+        fr: '1'
+      filtres:
+        es: '4'
+        en: '4'
+        fr: '4'
+  - codi: 3111PG13
+    ordre: 40
+    valors:
+      extincio_pci:
+        es: '3'
+        en: '3'
+        fr: '3'
+      extintor:
+        es: '1'
+        en: '1'
+        fr: '1'
+      filtres:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: 3112PG13
+    ordre: 50
+    valors:
+      extincio_pci:
+        es: 4 4
+        en: 4 4
+        fr: 4 4
+      extintor:
+        es: 1 1
+        en: 1 1
+        fr: 1 1
+      filtres:
+        es: 6 6 (3+3)
+        en: 6 6 (3+3)
+        fr: 6 6 (3+3)
+  - codi: 3129PG13
+    ordre: 60
+    valors:
+      extincio_pci:
+        es: 4 4
+        en: 4 4
+        fr: 4 4
+      extintor:
+        es: 1 1
+        en: 1 1
+        fr: 1 1
+      filtres:
+        es: 6 6 (3+3)
+        en: 6 6 (3+3)
+        fr: 6 6 (3+3)
+  - codi: 3130PG13
+    ordre: 70
+    valors:
+      extincio_pci:
+        es: '6'
+        en: '6'
+        fr: '6'
+      extintor:
+        es: '2'
+        en: '2'
+        fr: '2'
+      filtres:
+        es: 8 (4+4)
+        en: 8 (4+4)
+        fr: 8 (4+4)
+  - codi: 3131PG13
+    ordre: 80
+    valors:
+      extincio_pci:
+        es: '6'
+        en: '6'
+        fr: '6'
+      extintor:
+        es: '2'
+        en: '2'
+        fr: '2'
+      filtres:
+        es: 10 (5+5)
+        en: 10 (5+5)
+        fr: 10 (5+5)
+  - codi: 3132PG13
+    ordre: 90
+    valors:
+      extincio_pci:
+        es: '8'
+        en: '8'
+        fr: '8'
+      extintor:
+        es: '2'
+        en: '2'
+        fr: '2'
+      filtres:
+        es: 12 (6+6)
+        en: 12 (6+6)
+        fr: 12 (6+6)
+  - codi: 3133PG13
+    ordre: 100
+    valors:
+      extincio_pci:
+        es: '8'
+        en: '8'
+        fr: '8'
+      extintor:
+        es: '2'
+        en: '2'
+        fr: '2'
+      filtres:
+        es: 14 (7+7)
+        en: 14 (7+7)
+        fr: 14 (7+7)
+  - codi: 3134PG13
+    ordre: 110
+    valors:
+      extincio_pci:
+        es: '10'
+        en: '10'
+        fr: '10'
+      extintor:
+        es: '3'
+        en: '3'
+        fr: '3'
+      filtres:
+        es: 16 (8+8)
+        en: 16 (8+8)
+        fr: 16 (8+8)
+  - codi: 3135PG13
+    ordre: 120
+    valors:
+      extincio_pci:
+        es: '10'
+        en: '10'
+        fr: '10'
+      extintor:
+        es: '3'
+        en: '3'
+        fr: '3'
+      filtres:
+        es: 18 (9+9)
+        en: 18 (9+9)
+        fr: 18 (9+9)
+  - codi: 3136PG13
+    ordre: 130
+    valors:
+      extincio_pci:
+        es: '12'
+        en: '12'
+        fr: '12'
+      extintor:
+        es: '3'
+        en: '3'
+        fr: '3'
+      filtres:
+        es: 20 (10+10)
+        en: 20 (10+10)
+        fr: 20 (10+10)
+  compartits: []
+- clau: PANELES DE PARED
+  noms:
+    es: PANELES DE PARED
+    en: WALL PANELS
+    fr: PANNEAUX MURAUX
+  sequence: 160
+  tipus: producte
+  pagina: p25
+  taula: p25-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: mural_central
+    etiqueta: null
+  - codi: filtres
+    etiqueta: null
+  - codi: s_panells
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 3102PP10
+    ordre: 10
+    valors:
+      mural_central:
+        es: M
+        en: M
+        fr: M
+      filtres:
+        es: '2'
+        en: '2'
+        fr: '2'
+      s_panells:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: 3103PP15
+    ordre: 20
+    valors:
+      mural_central:
+        es: M
+        en: M
+        fr: M
+      filtres:
+        es: '3'
+        en: '3'
+        fr: '3'
+      s_panells:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: 3104PP20
+    ordre: 30
+    valors:
+      mural_central:
+        es: M
+        en: M
+        fr: M
+      filtres:
+        es: '4'
+        en: '4'
+        fr: '4'
+      s_panells:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: 3105PP25
+    ordre: 40
+    valors:
+      mural_central:
+        es: M
+        en: M
+        fr: M
+      filtres:
+        es: '5'
+        en: '5'
+        fr: '5'
+      s_panells:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: 3106PP30
+    ordre: 50
+    valors:
+      mural_central:
+        es: M
+        en: M
+        fr: M
+      filtres:
+        es: '6'
+        en: '6'
+        fr: '6'
+      s_panells:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: 3107PP35
+    ordre: 60
+    valors:
+      mural_central:
+        es: M
+        en: M
+        fr: M
+      filtres:
+        es: '7'
+        en: '7'
+        fr: '7'
+      s_panells:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: 3108PP40
+    ordre: 70
+    valors:
+      mural_central:
+        es: M
+        en: M
+        fr: M
+      filtres:
+        es: '8'
+        en: '8'
+        fr: '8'
+      s_panells:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: 3109PP45
+    ordre: 80
+    valors:
+      mural_central:
+        es: M
+        en: M
+        fr: M
+      filtres:
+        es: '9'
+        en: '9'
+        fr: '9'
+      s_panells:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: 3110PP50
+    ordre: 90
+    valors:
+      mural_central:
+        es: M
+        en: M
+        fr: M
+      filtres:
+        es: '10'
+        en: '10'
+        fr: '10'
+      s_panells:
+        es: '2'
+        en: '2'
+        fr: '2'
+  compartits: []
+- clau: CAJAS DE VENTILACIÓN
+  noms:
+    es: CAJAS DE VENTILACIÓN
+    en: VENTILATION BOXES
+    fr: BOÎTES DE VENTILATION
+  sequence: 170
+  tipus: producte
+  pagina: p28
+  taula: p28-t2
+  blocs: 2
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: ventilador
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 270913HN
+    ordre: 10
+    valors:
+      ventilador:
+        es: 9/9 - 1/3
+        en: 9/9 - 1/3
+        fr: 9/9 - 1/3
+      potencia_electrica:
+        es: 220/1V
+        en: 220/1V
+        fr: 220/1V
+  - codi: 270913VN
+    ordre: 1010
+    valors:
+      ventilador:
+        es: 9/9 - 1/3
+        en: 9/9 - 1/3
+        fr: 9/9 - 1/3
+      potencia_electrica:
+        es: 220/1V
+        en: 220/1V
+        fr: 220/1V
+  - codi: 271013HN
+    ordre: 20
+    valors:
+      ventilador:
+        es: 10/10 - 1/3
+        en: 10/10 - 1/3
+        fr: 10/10 - 1/3
+      potencia_electrica:
+        es: 220/1V
+        en: 220/1V
+        fr: 220/1V
+  - codi: 271013VN
+    ordre: 1020
+    valors:
+      ventilador:
+        es: 10/10 - 1/3
+        en: 10/10 - 1/3
+        fr: 10/10 - 1/3
+      potencia_electrica:
+        es: 220/1V
+        en: 220/1V
+        fr: 220/1V
+  - codi: 271034HN
+    ordre: 30
+    valors:
+      ventilador:
+        es: 10/10 - 3/4
+        en: 10/10 - 3/4
+        fr: 10/10 - 3/4
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+  - codi: 271034VN
+    ordre: 1030
+    valors:
+      ventilador:
+        es: 10/10 - 3/4
+        en: 10/10 - 3/4
+        fr: 10/10 - 3/4
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+  - codi: 271010HN
+    ordre: 40
+    valors:
+      ventilador:
+        es: 10/10 - 1
+        en: 10/10 - 1
+        fr: 10/10 - 1
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+  - codi: 271010VN
+    ordre: 1040
+    valors:
+      ventilador:
+        es: 10/10 - 1
+        en: 10/10 - 1
+        fr: 10/10 - 1
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+  - codi: 271015HN
+    ordre: 50
+    valors:
+      ventilador:
+        es: 10/10 - 1,5
+        en: 10/10 - 1,5
+        fr: 10/10 - 1,5
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+  - codi: 271015VN
+    ordre: 1050
+    valors:
+      ventilador:
+        es: 10/10 - 1,5
+        en: 10/10 - 1,5
+        fr: 10/10 - 1,5
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+  - codi: 271215HN
+    ordre: 60
+    valors:
+      ventilador:
+        es: 12/12 - 1,5
+        en: 12/12 - 1,5
+        fr: 12/12 - 1,5
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+  - codi: 271215VN
+    ordre: 1060
+    valors:
+      ventilador:
+        es: 12/12 - 1,5
+        en: 12/12 - 1,5
+        fr: 12/12 - 1,5
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+  - codi: 271515HN
+    ordre: 70
+    valors:
+      ventilador:
+        es: 15/15 - 1,5
+        en: 15/15 - 1,5
+        fr: 15/15 - 1,5
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+  - codi: 271515VN
+    ordre: 1070
+    valors:
+      ventilador:
+        es: 15/15 - 1,5
+        en: 15/15 - 1,5
+        fr: 15/15 - 1,5
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+  - codi: 271530HN
+    ordre: 80
+    valors:
+      ventilador:
+        es: 15/15 - 3
+        en: 15/15 - 3
+        fr: 15/15 - 3
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+  - codi: 271530VN
+    ordre: 1080
+    valors:
+      ventilador:
+        es: 15/15 - 3
+        en: 15/15 - 3
+        fr: 15/15 - 3
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+  - codi: 271820HN
+    ordre: 90
+    valors:
+      ventilador:
+        es: 18/18 - 2
+        en: 18/18 - 2
+        fr: 18/18 - 2
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+  - codi: 271820VN
+    ordre: 1090
+    valors:
+      ventilador:
+        es: 18/18 - 2
+        en: 18/18 - 2
+        fr: 18/18 - 2
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+  - codi: 272255HN
+    ordre: 100
+    valors:
+      ventilador:
+        es: 22/22 - 5,5
+        en: 22/22 - 5,5
+        fr: 22/22 - 5,5
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+  - codi: 272255VN
+    ordre: 1100
+    valors:
+      ventilador:
+        es: 22/22 - 5,5
+        en: 22/22 - 5,5
+        fr: 22/22 - 5,5
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+  - codi: 271210HN
+    ordre: 110
+    valors:
+      ventilador:
+        es: 12/12 - 1
+        en: 12/12 - 1
+        fr: 12/12 - 1
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+  - codi: 271210VN
+    ordre: 1110
+    valors:
+      ventilador:
+        es: 12/12 - 1
+        en: 12/12 - 1
+        fr: 12/12 - 1
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+  - codi: 271830HN
+    ordre: 120
+    valors:
+      ventilador:
+        es: 18/18 - 3
+        en: 18/18 - 3
+        fr: 18/18 - 3
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+  - codi: 271830VN
+    ordre: 1120
+    valors:
+      ventilador:
+        es: 18/18 - 3
+        en: 18/18 - 3
+        fr: 18/18 - 3
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+  - codi: 271840HN
+    ordre: 130
+    valors:
+      ventilador:
+        es: 18/18 - 4
+        en: 18/18 - 4
+        fr: 18/18 - 4
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+  - codi: 271840VN
+    ordre: 1130
+    valors:
+      ventilador:
+        es: 18/18 - 4
+        en: 18/18 - 4
+        fr: 18/18 - 4
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+  - codi: 271855HN
+    ordre: 140
+    valors:
+      ventilador:
+        es: 18/18 - 5,5
+        en: 18/18 - 5,5
+        fr: 18/18 - 5,5
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+  - codi: 271855VN
+    ordre: 1140
+    valors:
+      ventilador:
+        es: 18/18 - 5,5
+        en: 18/18 - 5,5
+        fr: 18/18 - 5,5
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+  - codi: 271520HN
+    ordre: 150
+    valors:
+      ventilador:
+        es: 15/15 - 2
+        en: 15/15 - 2
+        fr: 15/15 - 2
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+  - codi: 271520VN
+    ordre: 1150
+    valors:
+      ventilador:
+        es: 15/15 - 2
+        en: 15/15 - 2
+        fr: 15/15 - 2
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+  compartits: []
+- clau: CAJAS DE VENTILACIÓN 400°C - 2 HORAS PARA EXTRACCIÓN
+  noms:
+    es: CAJAS DE VENTILACIÓN 400°C - 2 HORAS PARA EXTRACCIÓN
+    en: VENTILATION BOXES 400°C - 2 HOURS FOR EXTRACTION
+    fr: BOÎTES DE VENTILATION 400°C - 2 HEURES POUR L’EXTRACTION
+  sequence: 180
+  tipus: producte
+  pagina: p29
+  taula: p29-t2
+  blocs: 2
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: ventilador
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 271010H4
+    ordre: 10
+    valors:
+      ventilador:
+        es: 10/10 - 1
+        en: 10/10 - 1
+        fr: 10/10 - 1
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+  - codi: 271010V4
+    ordre: 1010
+    valors:
+      ventilador:
+        es: 10/10 - 1
+        en: 10/10 - 1
+        fr: 10/10 - 1
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+  - codi: 271015H4
+    ordre: 20
+    valors:
+      ventilador:
+        es: 10/10 - 1,5
+        en: 10/10 - 1,5
+        fr: 10/10 - 1,5
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+  - codi: 271015V4
+    ordre: 1020
+    valors:
+      ventilador:
+        es: 10/10 - 1,5
+        en: 10/10 - 1,5
+        fr: 10/10 - 1,5
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+  - codi: 271210H4
+    ordre: 30
+    valors:
+      ventilador:
+        es: 12/12 - 1
+        en: 12/12 - 1
+        fr: 12/12 - 1
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+  - codi: 271210V4
+    ordre: 1030
+    valors:
+      ventilador:
+        es: 12/12 - 1
+        en: 12/12 - 1
+        fr: 12/12 - 1
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+  - codi: 271215H4
+    ordre: 40
+    valors:
+      ventilador:
+        es: 12/12 - 1,5
+        en: 12/12 - 1,5
+        fr: 12/12 - 1,5
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+  - codi: 271215V4
+    ordre: 1040
+    valors:
+      ventilador:
+        es: 12/12 - 1,5
+        en: 12/12 - 1,5
+        fr: 12/12 - 1,5
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+  - codi: 271515H4
+    ordre: 50
+    valors:
+      ventilador:
+        es: 15/15 - 1,5
+        en: 15/15 - 1,5
+        fr: 15/15 - 1,5
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+  - codi: 271515V4
+    ordre: 1050
+    valors:
+      ventilador:
+        es: 15/15 - 1,5
+        en: 15/15 - 1,5
+        fr: 15/15 - 1,5
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+  - codi: 271520H4
+    ordre: 60
+    valors:
+      ventilador:
+        es: 15/15 - 2
+        en: 15/15 - 2
+        fr: 15/15 - 2
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+  - codi: 271520V4
+    ordre: 1060
+    valors:
+      ventilador:
+        es: 15/15 - 2
+        en: 15/15 - 2
+        fr: 15/15 - 2
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+  - codi: 271530H4
+    ordre: 70
+    valors:
+      ventilador:
+        es: 15/15 - 3
+        en: 15/15 - 3
+        fr: 15/15 - 3
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+  - codi: 271530V4
+    ordre: 1070
+    valors:
+      ventilador:
+        es: 15/15 - 3
+        en: 15/15 - 3
+        fr: 15/15 - 3
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+  - codi: 271820H4
+    ordre: 80
+    valors:
+      ventilador:
+        es: 18/18 - 2
+        en: 18/18 - 2
+        fr: 18/18 - 2
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+  - codi: 271820V4
+    ordre: 1080
+    valors:
+      ventilador:
+        es: 18/18 - 2
+        en: 18/18 - 2
+        fr: 18/18 - 2
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+  - codi: 271830H4
+    ordre: 90
+    valors:
+      ventilador:
+        es: 18/18 - 3
+        en: 18/18 - 3
+        fr: 18/18 - 3
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+  - codi: 271830V4
+    ordre: 1090
+    valors:
+      ventilador:
+        es: 18/18 - 3
+        en: 18/18 - 3
+        fr: 18/18 - 3
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+  - codi: 271840H4
+    ordre: 100
+    valors:
+      ventilador:
+        es: 18/18 - 4
+        en: 18/18 - 4
+        fr: 18/18 - 4
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+  - codi: 271840V4
+    ordre: 1100
+    valors:
+      ventilador:
+        es: 18/18 - 4
+        en: 18/18 - 4
+        fr: 18/18 - 4
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+  - codi: 271855H4
+    ordre: 110
+    valors:
+      ventilador:
+        es: 18/18 - 5,5
+        en: 18/18 - 5,5
+        fr: 18/18 - 5,5
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+  - codi: 271855V4
+    ordre: 1110
+    valors:
+      ventilador:
+        es: 18/18 - 5,5
+        en: 18/18 - 5,5
+        fr: 18/18 - 5,5
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+  - codi: 272255H4
+    ordre: 120
+    valors:
+      ventilador:
+        es: 22/22 - 5,5
+        en: 22/22 - 5,5
+        fr: 22/22 - 5,5
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+  - codi: 272255V4
+    ordre: 1120
+    valors:
+      ventilador:
+        es: 22/22 - 5,5
+        en: 22/22 - 5,5
+        fr: 22/22 - 5,5
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+  compartits: []
+- clau: CONDUCTOS (tramos de 2 metros)
+  noms:
+    es: CONDUCTOS (tramos de 2 metros)
+    en: DUCTS (2 metres sections)
+    fr: CONDUITS (segments de 2 metres)
+  sequence: 190
+  tipus: accessoris
+  pagina: p30
+  taula: p30-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '80400150'
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 150x1000
+        en: 150x1000
+        fr: 150x1000
+  - codi: '80400000'
+    ordre: 20
+    valors:
+      mesures_text:
+        es: 200x1000
+        en: 200x1000
+        fr: 200x1000
+  - codi: '80410000'
+    ordre: 30
+    valors:
+      mesures_text:
+        es: 250x1000
+        en: 250x1000
+        fr: 250x1000
+  - codi: '80420000'
+    ordre: 40
+    valors:
+      mesures_text:
+        es: 300x1000
+        en: 300x1000
+        fr: 300x1000
+  - codi: '80430000'
+    ordre: 50
+    valors:
+      mesures_text:
+        es: 350x1000
+        en: 350x1000
+        fr: 350x1000
+  - codi: '80440000'
+    ordre: 60
+    valors:
+      mesures_text:
+        es: 400x1000
+        en: 400x1000
+        fr: 400x1000
+  - codi: '80450000'
+    ordre: 70
+    valors:
+      mesures_text:
+        es: 450x1000
+        en: 450x1000
+        fr: 450x1000
+  - codi: '80460000'
+    ordre: 80
+    valors:
+      mesures_text:
+        es: 500x1000
+        en: 500x1000
+        fr: 500x1000
+  - codi: '80470000'
+    ordre: 90
+    valors:
+      mesures_text:
+        es: 550x1000
+        en: 550x1000
+        fr: 550x1000
+  compartits: []
+- clau: MANGUITOS UNIÓN
+  noms:
+    es: MANGUITOS UNIÓN
+    en: JOINT SLEEVES
+    fr: MANCHONS DE JONCTION
+  sequence: 200
+  tipus: accessoris
+  pagina: p30
+  taula: p30-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: para
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '80480150'
+    ordre: 10
+    valors:
+      para:
+        es: '150'
+        en: '150'
+        fr: '150'
+  - codi: '80480000'
+    ordre: 20
+    valors:
+      para:
+        es: '200'
+        en: '200'
+        fr: '200'
+  - codi: '80490000'
+    ordre: 30
+    valors:
+      para:
+        es: '250'
+        en: '250'
+        fr: '250'
+  - codi: '80500000'
+    ordre: 40
+    valors:
+      para:
+        es: '300'
+        en: '300'
+        fr: '300'
+  - codi: '80510000'
+    ordre: 50
+    valors:
+      para:
+        es: '350'
+        en: '350'
+        fr: '350'
+  - codi: '80520000'
+    ordre: 60
+    valors:
+      para:
+        es: '400'
+        en: '400'
+        fr: '400'
+  - codi: '80530000'
+    ordre: 70
+    valors:
+      para:
+        es: '450'
+        en: '450'
+        fr: '450'
+  - codi: '80540000'
+    ordre: 80
+    valors:
+      para:
+        es: '500'
+        en: '500'
+        fr: '500'
+  - codi: '80550000'
+    ordre: 90
+    valors:
+      para:
+        es: '550'
+        en: '550'
+        fr: '550'
+  compartits: []
+- clau: ABRAZADERAS FIJACIÓN
+  noms:
+    es: ABRAZADERAS FIJACIÓN
+    en: FIXING CLAMPS
+    fr: COLLIERS DE FIXATION
+  sequence: 210
+  tipus: accessoris
+  pagina: p30
+  taula: p30-t3
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: para
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '80560150'
+    ordre: 10
+    valors:
+      para:
+        es: '150'
+        en: '150'
+        fr: '150'
+  - codi: '80560000'
+    ordre: 20
+    valors:
+      para:
+        es: '200'
+        en: '200'
+        fr: '200'
+  - codi: '80570000'
+    ordre: 30
+    valors:
+      para:
+        es: '250'
+        en: '250'
+        fr: '250'
+  - codi: '80580000'
+    ordre: 40
+    valors:
+      para:
+        es: '300'
+        en: '300'
+        fr: '300'
+  - codi: '80590000'
+    ordre: 50
+    valors:
+      para:
+        es: '350'
+        en: '350'
+        fr: '350'
+  - codi: '80600000'
+    ordre: 60
+    valors:
+      para:
+        es: '400'
+        en: '400'
+        fr: '400'
+  - codi: '80610000'
+    ordre: 70
+    valors:
+      para:
+        es: '450'
+        en: '450'
+        fr: '450'
+  - codi: '80620000'
+    ordre: 80
+    valors:
+      para:
+        es: '500'
+        en: '500'
+        fr: '500'
+  - codi: '80630000'
+    ordre: 90
+    valors:
+      para:
+        es: '550'
+        en: '550'
+        fr: '550'
+  compartits: []
+- clau: CODOS 90°
+  noms:
+    es: CODOS 90°
+    en: ELBOWS 90°
+    fr: COUDES 90°
+  sequence: 220
+  tipus: accessoris
+  pagina: p30
+  taula: p30-t4
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: para
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '80800150'
+    ordre: 10
+    valors:
+      para:
+        es: '150'
+        en: '150'
+        fr: '150'
+  - codi: '80800000'
+    ordre: 20
+    valors:
+      para:
+        es: '200'
+        en: '200'
+        fr: '200'
+  - codi: '80810000'
+    ordre: 30
+    valors:
+      para:
+        es: '250'
+        en: '250'
+        fr: '250'
+  - codi: '80820000'
+    ordre: 40
+    valors:
+      para:
+        es: '300'
+        en: '300'
+        fr: '300'
+  - codi: '80830000'
+    ordre: 50
+    valors:
+      para:
+        es: '350'
+        en: '350'
+        fr: '350'
+  - codi: '80840000'
+    ordre: 60
+    valors:
+      para:
+        es: '400'
+        en: '400'
+        fr: '400'
+  - codi: '80850000'
+    ordre: 70
+    valors:
+      para:
+        es: '450'
+        en: '450'
+        fr: '450'
+  - codi: '80860000'
+    ordre: 80
+    valors:
+      para:
+        es: '500'
+        en: '500'
+        fr: '500'
+  - codi: '80870000'
+    ordre: 90
+    valors:
+      para:
+        es: '550'
+        en: '550'
+        fr: '550'
+  compartits: []
+- clau: CODOS 45°
+  noms:
+    es: CODOS 45°
+    en: ELBOWS 45°
+    fr: COUDES 45°
+  sequence: 230
+  tipus: accessoris
+  pagina: p30
+  taula: p30-t5
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: para
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '80720150'
+    ordre: 10
+    valors:
+      para:
+        es: '150'
+        en: '150'
+        fr: '150'
+  - codi: '80720000'
+    ordre: 20
+    valors:
+      para:
+        es: '200'
+        en: '200'
+        fr: '200'
+  - codi: '80730000'
+    ordre: 30
+    valors:
+      para:
+        es: '250'
+        en: '250'
+        fr: '250'
+  - codi: '80740000'
+    ordre: 40
+    valors:
+      para:
+        es: '300'
+        en: '300'
+        fr: '300'
+  - codi: '80750000'
+    ordre: 50
+    valors:
+      para:
+        es: '350'
+        en: '350'
+        fr: '350'
+  - codi: '80760000'
+    ordre: 60
+    valors:
+      para:
+        es: '400'
+        en: '400'
+        fr: '400'
+  - codi: '80770000'
+    ordre: 70
+    valors:
+      para:
+        es: '450'
+        en: '450'
+        fr: '450'
+  - codi: '80780000'
+    ordre: 80
+    valors:
+      para:
+        es: '500'
+        en: '500'
+        fr: '500'
+  - codi: '80790000'
+    ordre: 90
+    valors:
+      para:
+        es: '550'
+        en: '550'
+        fr: '550'
+  compartits: []
+- clau: SOMBREROS JET
+  noms:
+    es: SOMBREROS JET
+    en: COWLS
+    fr: COUVERCLES
+  sequence: 240
+  tipus: accessoris
+  pagina: p30
+  taula: p30-t6
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: para
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '80880150'
+    ordre: 10
+    valors:
+      para:
+        es: '150'
+        en: '150'
+        fr: '150'
+  - codi: '80880013'
+    ordre: 20
+    valors:
+      para:
+        es: '200'
+        en: '200'
+        fr: '200'
+  - codi: '80890013'
+    ordre: 30
+    valors:
+      para:
+        es: '250'
+        en: '250'
+        fr: '250'
+  - codi: '80900013'
+    ordre: 40
+    valors:
+      para:
+        es: '300'
+        en: '300'
+        fr: '300'
+  - codi: '80910013'
+    ordre: 50
+    valors:
+      para:
+        es: '350'
+        en: '350'
+        fr: '350'
+  - codi: '80920013'
+    ordre: 60
+    valors:
+      para:
+        es: '400'
+        en: '400'
+        fr: '400'
+  - codi: '80930013'
+    ordre: 70
+    valors:
+      para:
+        es: '450'
+        en: '450'
+        fr: '450'
+  - codi: '80940013'
+    ordre: 80
+    valors:
+      para:
+        es: '500'
+        en: '500'
+        fr: '500'
+  - codi: '80950013'
+    ordre: 90
+    valors:
+      para:
+        es: '550'
+        en: '550'
+        fr: '550'
+  compartits: []
+- clau: MANGUITOS CORONA
+  noms:
+    es: MANGUITOS CORONA
+    en: CROWN SLEEVES
+    fr: MANCHONS COURONNE
+  sequence: 250
+  tipus: accessoris
+  pagina: p30
+  taula: p30-t7
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: para
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '80640000'
+    ordre: 10
+    valors:
+      para:
+        es: '200'
+        en: '200'
+        fr: '200'
+  - codi: '80650000'
+    ordre: 20
+    valors:
+      para:
+        es: '250'
+        en: '250'
+        fr: '250'
+  - codi: '80660000'
+    ordre: 30
+    valors:
+      para:
+        es: '300'
+        en: '300'
+        fr: '300'
+  - codi: '80670000'
+    ordre: 40
+    valors:
+      para:
+        es: '350'
+        en: '350'
+        fr: '350'
+  - codi: '80680000'
+    ordre: 50
+    valors:
+      para:
+        es: '400'
+        en: '400'
+        fr: '400'
+  - codi: '80690000'
+    ordre: 60
+    valors:
+      para:
+        es: '450'
+        en: '450'
+        fr: '450'
+  - codi: '80700000'
+    ordre: 70
+    valors:
+      para:
+        es: '500'
+        en: '500'
+        fr: '500'
+  - codi: '80710000'
+    ordre: 80
+    valors:
+      para:
+        es: '550'
+        en: '550'
+        fr: '550'
+  compartits: []
+- clau: TOLVA SALIDA
+  noms:
+    es: TOLVA SALIDA
+    en: EXTRACTOR HOODS
+    fr: TREMIES D’ECOULEMENT
+  sequence: 260
+  tipus: accessoris
+  pagina: p30
+  taula: p30-t8
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: ventilador
+    etiqueta: null
+  - codi: mesures_text
+    etiqueta: null
+  - codi: diametre_conducte
+    etiqueta:
+      es: Ø
+      en: Ø
+      fr: Ø
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 80MCR150
+    ordre: 10
+    valors:
+      ventilador:
+        es: BAR.
+        en: BAR.
+        fr: BAR.
+      mesures_text:
+        es: 237x108
+        en: 237x108
+        fr: 237x108
+      diametre_conducte:
+        es: '150'
+        en: '150'
+        fr: '150'
+  - codi: 80MCR200
+    ordre: 20
+    valors:
+      ventilador:
+        es: BAR.
+        en: BAR.
+        fr: BAR.
+      mesures_text:
+        es: 237x108
+        en: 237x108
+        fr: 237x108
+      diametre_conducte:
+        es: '200'
+        en: '200'
+        fr: '200'
+  - codi: '80000200'
+    ordre: 30
+    valors:
+      ventilador:
+        es: 7/7
+        en: 7/7
+        fr: 7/7
+      mesures_text:
+        es: 240x215
+        en: 240x215
+        fr: 240x215
+      diametre_conducte:
+        es: '200'
+        en: '200'
+        fr: '200'
+  - codi: '80010250'
+    ordre: 40
+    valors:
+      ventilador:
+        es: 7/7
+        en: 7/7
+        fr: 7/7
+      mesures_text:
+        es: 240x215
+        en: 240x215
+        fr: 240x215
+      diametre_conducte:
+        es: '250'
+        en: '250'
+        fr: '250'
+  - codi: '80020250'
+    ordre: 50
+    valors:
+      ventilador:
+        es: 9/9
+        en: 9/9
+        fr: 9/9
+      mesures_text:
+        es: 310x270
+        en: 310x270
+        fr: 310x270
+      diametre_conducte:
+        es: '250'
+        en: '250'
+        fr: '250'
+  - codi: '80030300'
+    ordre: 60
+    valors:
+      ventilador:
+        es: 9/9
+        en: 9/9
+        fr: 9/9
+      mesures_text:
+        es: 310x270
+        en: 310x270
+        fr: 310x270
+      diametre_conducte:
+        es: '300'
+        en: '300'
+        fr: '300'
+  - codi: '80040000'
+    ordre: 70
+    valors:
+      ventilador:
+        es: 10/10
+        en: 10/10
+        fr: 10/10
+      mesures_text:
+        es: 340x300
+        en: 340x300
+        fr: 340x300
+      diametre_conducte:
+        es: '250'
+        en: '250'
+        fr: '250'
+  - codi: '80050000'
+    ordre: 80
+    valors:
+      ventilador:
+        es: 10/10
+        en: 10/10
+        fr: 10/10
+      mesures_text:
+        es: 340x300
+        en: 340x300
+        fr: 340x300
+      diametre_conducte:
+        es: '300'
+        en: '300'
+        fr: '300'
+  - codi: '80060000'
+    ordre: 90
+    valors:
+      ventilador:
+        es: 10/10
+        en: 10/10
+        fr: 10/10
+      mesures_text:
+        es: 340x300
+        en: 340x300
+        fr: 340x300
+      diametre_conducte:
+        es: '350'
+        en: '350'
+        fr: '350'
+  - codi: '80074000'
+    ordre: 100
+    valors:
+      ventilador:
+        es: 12/9
+        en: 12/9
+        fr: 12/9
+      mesures_text:
+        es: 365x325
+        en: 365x325
+        fr: 365x325
+      diametre_conducte:
+        es: '400'
+        en: '400'
+        fr: '400'
+  - codi: '80080000'
+    ordre: 110
+    valors:
+      ventilador:
+        es: 12/12
+        en: 12/12
+        fr: 12/12
+      mesures_text:
+        es: 410x365
+        en: 410x365
+        fr: 410x365
+      diametre_conducte:
+        es: '400'
+        en: '400'
+        fr: '400'
+  - codi: '80090000'
+    ordre: 120
+    valors:
+      ventilador:
+        es: 12/12
+        en: 12/12
+        fr: 12/12
+      mesures_text:
+        es: 410x365
+        en: 410x365
+        fr: 410x365
+      diametre_conducte:
+        es: '450'
+        en: '450'
+        fr: '450'
+  - codi: '80100000'
+    ordre: 130
+    valors:
+      ventilador:
+        es: 12/12
+        en: 12/12
+        fr: 12/12
+      mesures_text:
+        es: 410x365
+        en: 410x365
+        fr: 410x365
+      diametre_conducte:
+        es: '500'
+        en: '500'
+        fr: '500'
+  - codi: '80110000'
+    ordre: 140
+    valors:
+      ventilador:
+        es: 15/15
+        en: 15/15
+        fr: 15/15
+      mesures_text:
+        es: 485x420
+        en: 485x420
+        fr: 485x420
+      diametre_conducte:
+        es: '450'
+        en: '450'
+        fr: '450'
+  - codi: '80120000'
+    ordre: 150
+    valors:
+      ventilador:
+        es: 15/15
+        en: 15/15
+        fr: 15/15
+      mesures_text:
+        es: 485x420
+        en: 485x420
+        fr: 485x420
+      diametre_conducte:
+        es: '500'
+        en: '500'
+        fr: '500'
+  - codi: '80130000'
+    ordre: 160
+    valors:
+      ventilador:
+        es: 18/18
+        en: 18/18
+        fr: 18/18
+      mesures_text:
+        es: 575x500
+        en: 575x500
+        fr: 575x500
+      diametre_conducte:
+        es: '500'
+        en: '500'
+        fr: '500'
+  - codi: '80140000'
+    ordre: 170
+    valors:
+      ventilador:
+        es: 18/18
+        en: 18/18
+        fr: 18/18
+      mesures_text:
+        es: 575x500
+        en: 575x500
+        fr: 575x500
+      diametre_conducte:
+        es: '550'
+        en: '550'
+        fr: '550'
+  compartits: []
+- clau: DEFLECTOR
+  noms:
+    es: DEFLECTOR
+    en: BAFFLE
+    fr: DEFLECTEUR
+  sequence: 270
+  tipus: accessoris
+  pagina: p30
+  taula: p30-t9
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '81030000'
+    ordre: 10
+    valors: {}
+  compartits: []
+- clau: CINTA ADHESIVA
+  noms:
+    es: CINTA ADHESIVA
+    en: ALUMINIUM AGHESIVE TAPE
+    fr: RUBAN ADHESIF ALUMINIUM
+  sequence: 280
+  tipus: accessoris
+  pagina: p30
+  taula: p30-t10
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '81040000'
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 50 mts x 50 mm
+        en: 50 mts x 50 mm
+        fr: 50 mts x 50 mm
+  compartits: []
+- clau: FILTROS
+  noms:
+    es: FILTROS
+    en: FILTERS
+    fr: FILTRES
+  sequence: 290
+  tipus: accessoris
+  pagina: p31
+  taula: p31-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: para
+    etiqueta: null
+  - codi: mesures_text
+    etiqueta: null
+  - codi: tipo
+    etiqueta: null
+  - codi: material
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 80310MCR
+    ordre: 10
+    valors:
+      para:
+        es: '1'
+        en: '1'
+        fr: '1'
+      mesures_text:
+        es: 245x325x9
+        en: 245x325x9
+        fr: 245x325x9
+      tipo:
+        es: Malla
+        en: Mesch
+        fr: A mailles
+      material:
+        es: EF Aluminio Aluminium
+        en: EF Aluminio Aluminium
+        fr: EF Aluminio Aluminium
+  - codi: '80320000'
+    ordre: 20
+    valors:
+      para:
+        es: '2'
+        en: '2'
+        fr: '2'
+      mesures_text:
+        es: 490x490x50
+        en: 490x490x50
+        fr: 490x490x50
+      tipo:
+        es: Malla
+        en: Mesch
+        fr: A mailles
+      material:
+        es: Galvanizado
+        en: Galvanized
+        fr: Galvanisé
+  - codi: '80330000'
+    ordre: 30
+    valors:
+      para:
+        es: '2'
+        en: '2'
+        fr: '2'
+      mesures_text:
+        es: 490x490x25
+        en: 490x490x25
+        fr: 490x490x25
+      tipo:
+        es: Malla
+        en: Mesch
+        fr: A mailles
+      material:
+        es: Galvanizado
+        en: Galvanized
+        fr: Galvanisé
+  - codi: '80350000'
+    ordre: 40
+    valors:
+      para:
+        es: '3'
+        en: '3'
+        fr: '3'
+      mesures_text:
+        es: 490x490x50
+        en: 490x490x50
+        fr: 490x490x50
+      tipo:
+        es: Lamas
+        en: Louvred
+        fr: Lames
+      material:
+        es: Inox 430 Stainless Steel 430
+        en: Inox 430 Stainless Steel 430
+        fr: Inox 430 Stainless Steel 430
+  - codi: '80360000'
+    ordre: 50
+    valors:
+      para:
+        es: '4'
+        en: '4'
+        fr: '4'
+      mesures_text:
+        es: 490x490x25
+        en: 490x490x25
+        fr: 490x490x25
+      tipo:
+        es: Carbón
+        en: Charcoal
+        fr: Charbon
+      material:
+        es: Galvanizado
+        en: Galvanized
+        fr: Galvanisé
+  compartits: []
+- clau: LUMINARIA ESTANCA MONTADA DE FÁBRICA
+  noms:
+    es: LUMINARIA ESTANCA MONTADA DE FÁBRICA
+    en: FACTORY-FITTED SEALED LIGHT FIXTURE
+    fr: LUMINAIRE ÉTANCHE MONTÉ EN USINE
+  sequence: 300
+  tipus: accessoris
+  pagina: p31
+  taula: p31-t2
+  blocs: 2
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 318200RE
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 706x236x55
+        en: 706x236x55
+        fr: 706x236x55
+  - codi: 318200AR
+    ordre: 1010
+    valors:
+      mesures_text:
+        es: 1306x236x55
+        en: 1306x236x55
+        fr: 1306x236x55
+  compartits: []
+- clau: REGULADORES DE VELOCIDAD
+  noms:
+    es: REGULADORES DE VELOCIDAD
+    en: SPEED REGULATORS
+    fr: RÉGULATEURS DE VITESSE
+  sequence: 310
+  tipus: accessoris
+  pagina: p31
+  taula: p31-t3
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: amperis
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 800301MR
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 80x80x145
+        en: 80x80x145
+        fr: 80x80x145
+      potencia_electrica:
+        es: 230V
+        en: 230V
+        fr: 230V
+      amperis:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: 800502MR
+    ordre: 20
+    valors:
+      mesures_text:
+        es: 95x85x165
+        en: 95x85x165
+        fr: 95x85x165
+      potencia_electrica:
+        es: 230V
+        en: 230V
+        fr: 230V
+      amperis:
+        es: '5'
+        en: '5'
+        fr: '5'
+  - codi: 801003MR
+    ordre: 30
+    valors:
+      mesures_text:
+        es: 95x85x165
+        en: 95x85x165
+        fr: 95x85x165
+      potencia_electrica:
+        es: 230V
+        en: 230V
+        fr: 230V
+      amperis:
+        es: '10'
+        en: '10'
+        fr: '10'
+  compartits: []
+- clau: VARIADORES DE FRECUENCIA
+  noms:
+    es: VARIADORES DE FRECUENCIA
+    en: FREQUENCY VARIATORS
+    fr: VARIATEURS DE FRÉQUENCE
+  sequence: 320
+  tipus: accessoris
+  pagina: p31
+  taula: p31-t4
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: hp
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 8001A561
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 70x130x130
+        en: 70x130x130
+        fr: 70x130x130
+      potencia_electrica:
+        es: 440V
+        en: 440V
+        fr: 440V
+      hp:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: 8002A561
+    ordre: 20
+    valors:
+      mesures_text:
+        es: 100x130x130
+        en: 100x130x130
+        fr: 100x130x130
+      potencia_electrica:
+        es: 440V
+        en: 440V
+        fr: 440V
+      hp:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: 8003A561
+    ordre: 30
+    valors:
+      mesures_text:
+        es: 140x155x130
+        en: 140x155x130
+        fr: 140x155x130
+      potencia_electrica:
+        es: 440V
+        en: 440V
+        fr: 440V
+      hp:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: 8055A561
+    ordre: 40
+    valors:
+      mesures_text:
+        es: 140x155x130
+        en: 140x155x130
+        fr: 140x155x130
+      potencia_electrica:
+        es: 440V
+        en: 440V
+        fr: 440V
+      hp:
+        es: 5,5
+        en: 5,5
+        fr: 5,5
+  compartits: []
+- clau: 4MOTORES PARA CAJAS DE VENTILACIÓN
+  noms:
+    es: 4MOTORES PARA CAJAS DE VENTILACIÓN
+    en: MOTORS FOR VENTILATION BOXES
+    fr: MOTEURS POUR BOÎTES DE VENTILATION
+  sequence: 330
+  tipus: accessoris
+  pagina: p31
+  taula: p31-t6
+  blocs: 2
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: hp
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '80340400'
+    ordre: 10
+    valors:
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+      hp:
+        es: 3/4
+        en: 3/4
+        fr: 3/4
+  - codi: '80340230'
+    ordre: 1010
+    valors:
+      potencia_electrica:
+        es: 230/1V
+        en: 230/1V
+        fr: 230/1V
+      hp:
+        es: 3/4
+        en: 3/4
+        fr: 3/4
+  - codi: '80100400'
+    ordre: 20
+    valors:
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+      hp:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: '80100230'
+    ordre: 1020
+    valors:
+      potencia_electrica:
+        es: 230/1V
+        en: 230/1V
+        fr: 230/1V
+      hp:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: '80150400'
+    ordre: 30
+    valors:
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+      hp:
+        es: 1,5
+        en: 1,5
+        fr: 1,5
+  - codi: '80150230'
+    ordre: 1030
+    valors:
+      potencia_electrica:
+        es: 230/1V
+        en: 230/1V
+        fr: 230/1V
+      hp:
+        es: 1,5
+        en: 1,5
+        fr: 1,5
+  - codi: '80200400'
+    ordre: 40
+    valors:
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+      hp:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: '80200230'
+    ordre: 1040
+    valors:
+      potencia_electrica:
+        es: 230/1V
+        en: 230/1V
+        fr: 230/1V
+      hp:
+        es: '2'
+        en: '2'
+        fr: '2'
+  - codi: '80400400'
+    ordre: 50
+    valors:
+      potencia_electrica:
+        es: 400/3V
+        en: 400/3V
+        fr: 400/3V
+      hp:
+        es: '3'
+        en: '3'
+        fr: '3'
+  - codi: '80400230'
+    ordre: 1050
+    valors:
+      potencia_electrica:
+        es: 230/1V
+        en: 230/1V
+        fr: 230/1V
+      hp:
+        es: '3'
+        en: '3'
+        fr: '3'
+  compartits: []
+avisos: []
+repeticions: {}
+informe:
+  inexistents: []
+  descatalogats: []
+  arxivats: []
+  ambigus: []
+  ignorats: []
+  fora_pdf: []
+  columnes_eliminades:
+  - taula: p28-t2
+    clau: col5
+    motiu: 'fantasma: sense cap valor'
+  - taula: p29-t2
+    clau: col5
+    motiu: 'fantasma: sense cap valor'
+  - taula: p30-t1
+    clau: col1
+    motiu: 'fantasma: sense cap valor'
+  - taula: p30-t2
+    clau: col1
+    motiu: 'fantasma: sense cap valor'
+  - taula: p30-t3
+    clau: col1
+    motiu: 'fantasma: sense cap valor'
+  - taula: p30-t4
+    clau: col1
+    motiu: 'fantasma: sense cap valor'
+  - taula: p30-t5
+    clau: col1
+    motiu: 'fantasma: sense cap valor'
+  - taula: p30-t6
+    clau: col1
+    motiu: 'fantasma: sense cap valor'
+  - taula: p30-t7
+    clau: col1
+    motiu: 'fantasma: sense cap valor'
+  - taula: p31-t1
+    clau: col3
+    motiu: 'fantasma: sense cap valor'
+  families_buides: []
+  taules_dividides: []

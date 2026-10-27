@@ -1,0 +1,7020 @@
+esquema: tarifa-columnes-posicio/1
+grup: 14
+metode: posicio sobre el PDF publicat (intervals X = cel.les de la fila de capcalera del PDF; files = codi + vores de cel.la del PDF)
+font_pdf: cataleg_original_web.pdf
+nota: 'Per taula: fila (codi) -> columna (clau del gN.yaml) -> text tal com surt al PDF publicat. "-" = guio del catalag; "[icona]" = cel.la amb una icona (energia gas/electric...), sense text. icones_en_columna
+  = columnes amb una icona a la cel.la. cel_les_combinades (si n hi ha) = valor de cel.la combinada copiat a totes les files que cobreix. codi_al_pdf = el PDF porta un codi diferent del .pub.'
+pagines:
+- pagina_pub: 6
+  pagina_pdf: 667
+  taules:
+  - id: p06-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - calaixos
+    - prestatge
+    - portes
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '13026509'
+      cel_les:
+        codi: '13026509'
+        pes: '52'
+        mesures: 1000x600x1050
+        calaixos: '2'
+        prestatge: '2'
+        portes: '1'
+        preu: '1.170'
+    - codi: '14026509'
+      cel_les:
+        codi: '14026509'
+        pes: '78'
+        mesures: 1500x600x1050
+        calaixos: '3'
+        prestatge: '4'
+        portes: '1'
+        preu: '1.490'
+    - codi: '15026509'
+      cel_les:
+        codi: '15026509'
+        pes: '87'
+        mesures: 2025x600x1050
+        calaixos: '3'
+        prestatge: '4'
+        portes: '1'
+        preu: '1.670'
+    - codi: '16026509'
+      cel_les:
+        codi: '16026509'
+        pes: '100'
+        mesures: 2550x600x1050
+        calaixos: '3'
+        prestatge: '4'
+        portes: '1'
+        preu: '1.905'
+- pagina_pub: 7
+  pagina_pdf: 668
+  taules:
+  - id: p07-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - prestatge
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '14476009'
+      cel_les:
+        codi: '14476009'
+        pes: '24'
+        mesures: 1000x350x1050
+        prestatge: '3'
+        preu: '735'
+    - codi: '16344109'
+      cel_les:
+        codi: '16344109'
+        pes: '35'
+        mesures: 1500x350x1050
+        prestatge: '3'
+        preu: '975'
+    - codi: '17344109'
+      cel_les:
+        codi: '17344109'
+        pes: '43'
+        mesures: 2025x350x1050
+        prestatge: '3'
+        preu: '1.150'
+    - codi: '19344109'
+      cel_les:
+        codi: '19344109'
+        pes: '42'
+        mesures: 1000x600x1050
+        prestatge: '3'
+        preu: '935'
+    - codi: '10444109'
+      cel_les:
+        codi: '10444109'
+        pes: '58'
+        mesures: 1500x600x1050
+        prestatge: '3'
+        preu: '1.165'
+    - codi: '19755009'
+      cel_les:
+        codi: '19755009'
+        pes: '70'
+        mesures: 2025x600x1050
+        prestatge: '3'
+        preu: '1.510'
+    mapa_columnes: sense_colN(1 eliminades)
+- pagina_pub: 10
+  pagina_pdf: 671
+  taules:
+  - id: p10-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes
+    - portes_corredisses
+    - prestatge
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 18006PMF
+      cel_les:
+        codi: 18006PMF
+        pes: '36'
+        mesures: 800x600x850
+        portes: '1'
+        portes_corredisses: '-'
+        prestatge: '2'
+        preu: '1.060'
+    - codi: 12106PMF
+      cel_les:
+        codi: 12106PMF
+        pes: '46'
+        mesures: 1200x600x850
+        portes: '-'
+        portes_corredisses: '2'
+        prestatge: '2'
+        preu: '1.475'
+    - codi: 16106PMF
+      cel_les:
+        codi: 16106PMF
+        pes: '61'
+        mesures: 1600x600x850
+        portes: '-'
+        portes_corredisses: '2'
+        prestatge: '2'
+        preu: '1.765'
+    - codi: 10206PMF
+      cel_les:
+        codi: 10206PMF
+        pes: '77'
+        mesures: 2000x600x850
+        portes: '-'
+        portes_corredisses: '2'
+        prestatge: '2'
+        preu: '2.050'
+    - codi: 18007PMF
+      cel_les:
+        codi: 18007PMF
+        pes: '39'
+        mesures: 800x700x850
+        portes: '1'
+        portes_corredisses: '-'
+        prestatge: '2'
+        preu: '1.095'
+    - codi: 12107PMF
+      cel_les:
+        codi: 12107PMF
+        pes: '50'
+        mesures: 1200x700x850
+        portes: '-'
+        portes_corredisses: '2'
+        prestatge: '2'
+        preu: '1.530'
+    - codi: 16107PMF
+      cel_les:
+        codi: 16107PMF
+        pes: '67'
+        mesures: 1600x700x850
+        portes: '-'
+        portes_corredisses: '2'
+        prestatge: '2'
+        preu: '1.830'
+    - codi: 10207PMF
+      cel_les:
+        codi: 10207PMF
+        pes: '84'
+        mesures: 2000x700x850
+        portes: '-'
+        portes_corredisses: '2'
+        prestatge: '2'
+        preu: '2.125'
+- pagina_pub: 11
+  pagina_pdf: 672
+  taules:
+  - id: p11-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - codi_2
+    - pes
+    - mesures
+    - calaixos
+    - prestatge
+    - portes_corredisses
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 1616DBPM
+      cel_les:
+        codi: 1616DBPM
+        codi_2: 1616IBPM
+        pes: '70'
+        mesures: 1600x600x850
+        calaixos: '3'
+        prestatge: '2'
+        portes_corredisses: '2'
+        preu: '2.765'
+    - codi: 1026DBPM
+      cel_les:
+        codi: 1026DBPM
+        codi_2: 1026IBPM
+        pes: '86'
+        mesures: 2000x600x850
+        calaixos: '3'
+        prestatge: '2'
+        portes_corredisses: '2'
+        preu: '3.035'
+    - codi: 1617DBPM
+      cel_les:
+        codi: 1617DBPM
+        codi_2: 1617IBPM
+        pes: '76'
+        mesures: 1600x700x850
+        calaixos: '3'
+        prestatge: '2'
+        portes_corredisses: '2'
+        preu: '2.900'
+    - codi: 1027DBPM
+      cel_les:
+        codi: 1027DBPM
+        codi_2: 1027IBPM
+        pes: '93'
+        mesures: 2000x700x850
+        calaixos: '3'
+        prestatge: '2'
+        portes_corredisses: '2'
+        preu: '3.175'
+- pagina_pub: 12
+  pagina_pdf: 673
+  taules:
+  - id: p12-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes
+    - portes_corredisses
+    - prestatge
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '10000420'
+      cel_les:
+        codi: '10000420'
+        pes: '55'
+        mesures: 600x600x1900
+        portes: '1'
+        portes_corredisses: '-'
+        prestatge: '4'
+        preu: '1.730'
+    - codi: '16000420'
+      cel_les:
+        codi: '16000420'
+        pes: '72'
+        mesures: 1000x600x1900
+        portes: '2'
+        portes_corredisses: '-'
+        prestatge: '4'
+        preu: '2.400'
+    - codi: '11000420'
+      cel_les:
+        codi: '11000420'
+        pes: '77'
+        mesures: 1200x600x1900
+        portes: '-'
+        portes_corredisses: '2'
+        prestatge: '4'
+        preu: '2.785'
+    - codi: '12000420'
+      cel_les:
+        codi: '12000420'
+        pes: '83'
+        mesures: 1400x600x1900
+        portes: '-'
+        portes_corredisses: '2'
+        prestatge: '4'
+        preu: '3.045'
+- pagina_pub: 13
+  pagina_pdf: 674
+  taules:
+  - id: p13-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - prestatge
+    - portes
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '11020420'
+      cel_les:
+        codi: '11020420'
+        pes: '45'
+        mesures: 600x450x1900
+        prestatge: '4'
+        portes: '1'
+        preu: '1.710'
+    - codi: '12020420'
+      cel_les:
+        codi: '12020420'
+        pes: '58'
+        mesures: 1000x450x1900
+        prestatge: '4'
+        portes: '2'
+        preu: '2.215'
+- pagina_pub: 14
+  pagina_pdf: 675
+  taules:
+  - id: p14-t1
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - portes
+    - portes_corredisses
+    - prestatge
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '15310420'
+      cel_les:
+        codi: '15310420'
+        pes: '17'
+        mesures: 500x400x600
+        portes: '1'
+        portes_corredisses: '-'
+        prestatge: '2'
+        preu: '800'
+    - codi: '16310420'
+      cel_les:
+        codi: '16310420'
+        pes: '26'
+        mesures: 800x400x600
+        portes: '2'
+        portes_corredisses: '-'
+        prestatge: '2'
+        preu: '1.020'
+    - codi: '12010420'
+      cel_les:
+        codi: '12010420'
+        pes: '33'
+        mesures: 1200x400x600
+        portes: '-'
+        portes_corredisses: '2'
+        prestatge: '2'
+        preu: '1.065'
+    - codi: '13010420'
+      cel_les:
+        codi: '13010420'
+        pes: '42'
+        mesures: 1600x400x600
+        portes: '-'
+        portes_corredisses: '2'
+        prestatge: '2'
+        preu: '1.260'
+    - codi: '10310420'
+      cel_les:
+        codi: '10310420'
+        pes: '26'
+        mesures: 1000x400x600
+        portes: '-'
+        portes_corredisses: '-'
+        prestatge: '2'
+        preu: '770'
+    - codi: '12310420'
+      cel_les:
+        codi: '12310420'
+        pes: '31'
+        mesures: 1400x400x600
+        portes: '-'
+        portes_corredisses: '-'
+        prestatge: '2'
+        preu: '955'
+- pagina_pub: 19
+  pagina_pdf: 680
+  taules:
+  - id: p19-t4
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - muntatge
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 1D80550M
+      cel_les:
+        codi: 1D80550M
+        pes: '20'
+        mesures: 800x550x850
+        muntatge: 'NO'
+        preu: '600'
+    - codi: 1M80550M
+      cel_les:
+        codi: 1M80550M
+        pes: '20'
+        mesures: 800x550x850
+        muntatge: OK
+        preu: '750'
+    - codi: 1D01550M
+      cel_les:
+        codi: 1D01550M
+        pes: '23'
+        mesures: 1000x550x850
+        muntatge: 'NO'
+        preu: '625'
+    - codi: 1M01550M
+      cel_les:
+        codi: 1M01550M
+        pes: '23'
+        mesures: 1000x550x850
+        muntatge: OK
+        preu: '775'
+    - codi: 1D21550M
+      cel_les:
+        codi: 1D21550M
+        pes: '26'
+        mesures: 1200x550x850
+        muntatge: 'NO'
+        preu: '645'
+    - codi: 1M21550M
+      cel_les:
+        codi: 1M21550M
+        pes: '26'
+        mesures: 1200x550x850
+        muntatge: OK
+        preu: '790'
+    - codi: 1D41550M
+      cel_les:
+        codi: 1D41550M
+        pes: '28'
+        mesures: 1400x550x850
+        muntatge: 'NO'
+        preu: '700'
+    - codi: 1M41550M
+      cel_les:
+        codi: 1M41550M
+        pes: '28'
+        mesures: 1400x550x850
+        muntatge: OK
+        preu: '895'
+    - codi: 1D80070M
+      cel_les:
+        codi: 1D80070M
+        pes: '24'
+        mesures: 800x700x850
+        muntatge: 'NO'
+        preu: '630'
+    - codi: 1M80070M
+      cel_les:
+        codi: 1M80070M
+        pes: '24'
+        mesures: 800x700x850
+        muntatge: OK
+        preu: '775'
+    - codi: 1D21070M
+      cel_les:
+        codi: 1D21070M
+        pes: '30'
+        mesures: 1200x700x850
+        muntatge: 'NO'
+        preu: '735'
+    - codi: 1M21070M
+      cel_les:
+        codi: 1M21070M
+        pes: '30'
+        mesures: 1200x700x850
+        muntatge: OK
+        preu: '885'
+    - codi: 1D61070M
+      cel_les:
+        codi: 1D61070M
+        pes: '36'
+        mesures: 1600x700x850
+        muntatge: 'NO'
+        preu: '840'
+    - codi: 1M61070M
+      cel_les:
+        codi: 1M61070M
+        pes: '36'
+        mesures: 1600x700x850
+        muntatge: OK
+        preu: '1.040'
+    - codi: 1D02070M
+      cel_les:
+        codi: 1D02070M
+        pes: '43'
+        mesures: 2000x700x850
+        muntatge: 'NO'
+        preu: '1.040'
+    - codi: 1M02070M
+      cel_les:
+        codi: 1M02070M
+        pes: '43'
+        mesures: 2000x700x850
+        muntatge: OK
+        preu: '1.235'
+    mapa_columnes: sense_colN(1 eliminades)
+    paraules_orfes:
+    - '700'
+  - id: p19-t5
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - muntatge
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 1D80060M
+      cel_les:
+        codi: 1D80060M
+        pes: '22'
+        mesures: 800x600x850
+        muntatge: 'NO'
+        preu: '620'
+    - codi: 1M80060M
+      cel_les:
+        codi: 1M80060M
+        pes: '22'
+        mesures: 800x600x850
+        muntatge: OK
+        preu: '770'
+    - codi: 1D21060M
+      cel_les:
+        codi: 1D21060M
+        pes: '27'
+        mesures: 1200x600x850
+        muntatge: 'NO'
+        preu: '670'
+    - codi: 1M21060M
+      cel_les:
+        codi: 1M21060M
+        pes: '27'
+        mesures: 1200x600x850
+        muntatge: OK
+        preu: '820'
+    - codi: 1D61060M
+      cel_les:
+        codi: 1D61060M
+        pes: '33'
+        mesures: 1600x600x850
+        muntatge: 'NO'
+        preu: '770'
+    - codi: 1M61060M
+      cel_les:
+        codi: 1M61060M
+        pes: '33'
+        mesures: 1600x600x850
+        muntatge: OK
+        preu: '965'
+    - codi: 1D02060M
+      cel_les:
+        codi: 1D02060M
+        pes: '38'
+        mesures: 2000x600x850
+        muntatge: 'NO'
+        preu: '905'
+    - codi: 1M02060M
+      cel_les:
+        codi: 1M02060M
+        pes: '38'
+        mesures: 2000x600x850
+        muntatge: OK
+        preu: '1.100'
+    - codi: 1D21080M
+      cel_les:
+        codi: 1D21080M
+        pes: '33'
+        mesures: 1200x800x850
+        muntatge: 'NO'
+        preu: '870'
+    - codi: 1M21080M
+      cel_les:
+        codi: 1M21080M
+        pes: '33'
+        mesures: 1200x800x850
+        muntatge: OK
+        preu: '1.020'
+    - codi: 1D61080M
+      cel_les:
+        codi: 1D61080M
+        pes: '40'
+        mesures: 1600x800x850
+        muntatge: 'NO'
+        preu: '1.030'
+    - codi: 1M61080M
+      cel_les:
+        codi: 1M61080M
+        pes: '40'
+        mesures: 1600x800x850
+        muntatge: OK
+        preu: '1.230'
+    - codi: 1D02080M
+      cel_les:
+        codi: 1D02080M
+        pes: '47'
+        mesures: 2000x800x850
+        muntatge: 'NO'
+        preu: '1.235'
+    - codi: 1M02080M
+      cel_les:
+        codi: 1M02080M
+        pes: '47'
+        mesures: 2000x800x850
+        muntatge: OK
+        preu: '1.430'
+    - codi: 1D42080M
+      cel_les:
+        codi: 1D42080M
+        pes: '54'
+        mesures: 2400x800x850
+        muntatge: 'NO'
+        preu: '1.545'
+    - codi: 1M42080M
+      cel_les:
+        codi: 1M42080M
+        pes: '54'
+        mesures: 2400x800x850
+        muntatge: OK
+        preu: '1.785'
+    mapa_columnes: sense_colN(1 eliminades)
+    paraules_orfes:
+    - '800'
+- pagina_pub: 20
+  pagina_pdf: 681
+  taules:
+  - id: p20-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - muntatge
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 1D80060C
+      cel_les:
+        codi: 1D80060C
+        pes: '22'
+        mesures: 800x600x850
+        muntatge: 'NO'
+        preu: '615'
+    - codi: 1M80060C
+      cel_les:
+        codi: 1M80060C
+        pes: '22'
+        mesures: 800x600x850
+        muntatge: OK
+        preu: '760'
+    - codi: 1D21060C
+      cel_les:
+        codi: 1D21060C
+        pes: '26'
+        mesures: 1200x600x850
+        muntatge: 'NO'
+        preu: '650'
+    - codi: 1M21060C
+      cel_les:
+        codi: 1M21060C
+        pes: '26'
+        mesures: 1200x600x850
+        muntatge: OK
+        preu: '800'
+    - codi: 1D61060C
+      cel_les:
+        codi: 1D61060C
+        pes: '32'
+        mesures: 1600x600x850
+        muntatge: 'NO'
+        preu: '750'
+    - codi: 1M61060C
+      cel_les:
+        codi: 1M61060C
+        pes: '32'
+        mesures: 1600x600x850
+        muntatge: OK
+        preu: '945'
+    - codi: 1D02060C
+      cel_les:
+        codi: 1D02060C
+        pes: '37'
+        mesures: 2000x600x850
+        muntatge: 'NO'
+        preu: '875'
+    - codi: 1M02060C
+      cel_les:
+        codi: 1M02060C
+        pes: '37'
+        mesures: 2000x600x850
+        muntatge: OK
+        preu: '1.070'
+    - codi: 1D21080C
+      cel_les:
+        codi: 1D21080C
+        pes: '32'
+        mesures: 1200x800x850
+        muntatge: 'NO'
+        preu: '820'
+    - codi: 1M21080C
+      cel_les:
+        codi: 1M21080C
+        pes: '32'
+        mesures: 1200x800x850
+        muntatge: OK
+        preu: '965'
+    - codi: 1D61080C
+      cel_les:
+        codi: 1D61080C
+        pes: '39'
+        mesures: 1600x800x850
+        muntatge: 'NO'
+        preu: '995'
+    - codi: 1M61080C
+      cel_les:
+        codi: 1M61080C
+        pes: '39'
+        mesures: 1600x800x850
+        muntatge: OK
+        preu: '1.190'
+    - codi: 1D02080C
+      cel_les:
+        codi: 1D02080C
+        pes: '46'
+        mesures: 2000x800x850
+        muntatge: 'NO'
+        preu: '1.190'
+    - codi: 1M02080C
+      cel_les:
+        codi: 1M02080C
+        pes: '46'
+        mesures: 2000x800x850
+        muntatge: OK
+        preu: '1.385'
+    - codi: 1D42080C
+      cel_les:
+        codi: 1D42080C
+        pes: '52'
+        mesures: 2400x800x850
+        muntatge: 'NO'
+        preu: '1.485'
+    - codi: 1M42080C
+      cel_les:
+        codi: 1M42080C
+        pes: '52'
+        mesures: 2400x800x850
+        muntatge: OK
+        preu: '1.730'
+    mapa_columnes: sense_colN(1 eliminades)
+    paraules_orfes:
+    - '800'
+  - id: p20-t3
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - muntatge
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 1D80070C
+      cel_les:
+        codi: 1D80070C
+        pes: '24'
+        mesures: 800x700x850
+        muntatge: 'NO'
+        preu: '615'
+    - codi: 1M80070C
+      cel_les:
+        codi: 1M80070C
+        pes: '24'
+        mesures: 800x700x850
+        muntatge: OK
+        preu: '760'
+    - codi: 1D21070C
+      cel_les:
+        codi: 1D21070C
+        pes: '30'
+        mesures: 1200x700x850
+        muntatge: 'NO'
+        preu: '675'
+    - codi: 1M21070C
+      cel_les:
+        codi: 1M21070C
+        pes: '30'
+        mesures: 1200x700x850
+        muntatge: OK
+        preu: '820'
+    - codi: 1D61070C
+      cel_les:
+        codi: 1D61070C
+        pes: '36'
+        mesures: 1600x700x850
+        muntatge: 'NO'
+        preu: '790'
+    - codi: 1M61070C
+      cel_les:
+        codi: 1M61070C
+        pes: '36'
+        mesures: 1600x700x850
+        muntatge: OK
+        preu: '985'
+    - codi: 1D02070C
+      cel_les:
+        codi: 1D02070C
+        pes: '43'
+        mesures: 2000x700x850
+        muntatge: 'NO'
+        preu: '965'
+    - codi: 1M02070C
+      cel_les:
+        codi: 1M02070C
+        pes: '43'
+        mesures: 2000x700x850
+        muntatge: OK
+        preu: '1.160'
+- pagina_pub: 21
+  pagina_pdf: 682
+  taules:
+  - id: p21-t4
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - muntatge
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 1D80551M
+      cel_les:
+        codi: 1D80551M
+        pes: '23'
+        mesures: 800x550x850
+        muntatge: 'NO'
+        preu: '645'
+    - codi: 1M80551M
+      cel_les:
+        codi: 1M80551M
+        pes: '23'
+        mesures: 800x550x850
+        muntatge: OK
+        preu: '790'
+    - codi: 1D01551M
+      cel_les:
+        codi: 1D01551M
+        pes: '28'
+        mesures: 1000x550x850
+        muntatge: 'NO'
+        preu: '660'
+    - codi: 1M01551M
+      cel_les:
+        codi: 1M01551M
+        pes: '28'
+        mesures: 1000x550x850
+        muntatge: OK
+        preu: '805'
+    - codi: 1D21551M
+      cel_les:
+        codi: 1D21551M
+        pes: '33'
+        mesures: 1200x550x850
+        muntatge: 'NO'
+        preu: '685'
+    - codi: 1M21551M
+      cel_les:
+        codi: 1M21551M
+        pes: '33'
+        mesures: 1200x550x850
+        muntatge: OK
+        preu: '835'
+    - codi: 1D41551M
+      cel_les:
+        codi: 1D41551M
+        pes: '36'
+        mesures: 1400x550x850
+        muntatge: 'NO'
+        preu: '745'
+    - codi: 1M41551M
+      cel_les:
+        codi: 1M41551M
+        pes: '36'
+        mesures: 1400x550x850
+        muntatge: OK
+        preu: '940'
+    - codi: 1D80071M
+      cel_les:
+        codi: 1D80071M
+        pes: '29'
+        mesures: 800x700x850
+        muntatge: 'NO'
+        preu: '675'
+    - codi: 1M80071M
+      cel_les:
+        codi: 1M80071M
+        pes: '29'
+        mesures: 800x700x850
+        muntatge: OK
+        preu: '825'
+    - codi: 1D21071M
+      cel_les:
+        codi: 1D21071M
+        pes: '38'
+        mesures: 1200x700x850
+        muntatge: 'NO'
+        preu: '765'
+    - codi: 1M21071M
+      cel_les:
+        codi: 1M21071M
+        pes: '38'
+        mesures: 1200x700x850
+        muntatge: OK
+        preu: '915'
+    - codi: 1D61071M
+      cel_les:
+        codi: 1D61071M
+        pes: '48'
+        mesures: 1600x700x850
+        muntatge: 'NO'
+        preu: '905'
+    - codi: 1M61071M
+      cel_les:
+        codi: 1M61071M
+        pes: '48'
+        mesures: 1600x700x850
+        muntatge: OK
+        preu: '1.100'
+    - codi: 1D02071M
+      cel_les:
+        codi: 1D02071M
+        pes: '58'
+        mesures: 2000x700x850
+        muntatge: 'NO'
+        preu: '1.115'
+    - codi: 1M02071M
+      cel_les:
+        codi: 1M02071M
+        pes: '58'
+        mesures: 2000x700x850
+        muntatge: OK
+        preu: '1.310'
+    mapa_columnes: sense_colN(1 eliminades)
+    paraules_orfes:
+    - '700'
+  - id: p21-t5
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - muntatge
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 1D80061M
+      cel_les:
+        codi: 1D80061M
+        pes: '26'
+        mesures: 800x600x850
+        muntatge: 'NO'
+        preu: '655'
+    - codi: 1M80061M
+      cel_les:
+        codi: 1M80061M
+        pes: '26'
+        mesures: 800x600x850
+        muntatge: OK
+        preu: '800'
+    - codi: 1D21061M
+      cel_les:
+        codi: 1D21061M
+        pes: '34'
+        mesures: 1200x600x850
+        muntatge: 'NO'
+        preu: '700'
+    - codi: 1M21061M
+      cel_les:
+        codi: 1M21061M
+        pes: '34'
+        mesures: 1200x600x850
+        muntatge: OK
+        preu: '845'
+    - codi: 1D61061M
+      cel_les:
+        codi: 1D61061M
+        pes: '43'
+        mesures: 1600x600x850
+        muntatge: 'NO'
+        preu: '805'
+    - codi: 1M61061M
+      cel_les:
+        codi: 1M61061M
+        pes: '43'
+        mesures: 1600x600x850
+        muntatge: OK
+        preu: '1.000'
+    - codi: 1D02061M
+      cel_les:
+        codi: 1D02061M
+        pes: '51'
+        mesures: 2000x600x850
+        muntatge: 'NO'
+        preu: '975'
+    - codi: 1M02061M
+      cel_les:
+        codi: 1M02061M
+        pes: '51'
+        mesures: 2000x600x850
+        muntatge: OK
+        preu: '1.170'
+    - codi: 1D21081M
+      cel_les:
+        codi: 1D21081M
+        pes: '42'
+        mesures: 1200x800x850
+        muntatge: 'NO'
+        preu: '930'
+    - codi: 1M21081M
+      cel_les:
+        codi: 1M21081M
+        pes: '42'
+        mesures: 1200x800x850
+        muntatge: OK
+        preu: '1.080'
+    - codi: 1D61081M
+      cel_les:
+        codi: 1D61081M
+        pes: '54'
+        mesures: 1600x800x850
+        muntatge: 'NO'
+        preu: '1.075'
+    - codi: 1M61081M
+      cel_les:
+        codi: 1M61081M
+        pes: '54'
+        mesures: 1600x800x850
+        muntatge: OK
+        preu: '1.275'
+    - codi: 1D02081M
+      cel_les:
+        codi: 1D02081M
+        pes: '64'
+        mesures: 2000x800x850
+        muntatge: 'NO'
+        preu: '1.300'
+    - codi: 1M02081M
+      cel_les:
+        codi: 1M02081M
+        pes: '64'
+        mesures: 2000x800x850
+        muntatge: OK
+        preu: '1.495'
+    - codi: 1D42081M
+      cel_les:
+        codi: 1D42081M
+        pes: '76'
+        mesures: 2400x800x850
+        muntatge: 'NO'
+        preu: '1.625'
+    - codi: 1M42081M
+      cel_les:
+        codi: 1M42081M
+        pes: '76'
+        mesures: 2400x800x850
+        muntatge: OK
+        preu: '1.865'
+    mapa_columnes: sense_colN(1 eliminades)
+    paraules_orfes:
+    - '800'
+- pagina_pub: 22
+  pagina_pdf: 683
+  taules:
+  - id: p22-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - muntatge
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 1D80061C
+      cel_les:
+        codi: 1D80061C
+        pes: '26'
+        mesures: 800x600x850
+        muntatge: 'NO'
+        preu: '640'
+    - codi: 1M80061C
+      cel_les:
+        codi: 1M80061C
+        pes: '26'
+        mesures: 800x600x850
+        muntatge: OK
+        preu: '790'
+    - codi: 1D21061C
+      cel_les:
+        codi: 1D21061C
+        pes: '33'
+        mesures: 1200x600x850
+        muntatge: 'NO'
+        preu: '680'
+    - codi: 1M21061C
+      cel_les:
+        codi: 1M21061C
+        pes: '33'
+        mesures: 1200x600x850
+        muntatge: OK
+        preu: '825'
+    - codi: 1D61061C
+      cel_les:
+        codi: 1D61061C
+        pes: '42'
+        mesures: 1600x600x850
+        muntatge: 'NO'
+        preu: '790'
+    - codi: 1M61061C
+      cel_les:
+        codi: 1M61061C
+        pes: '42'
+        mesures: 1600x600x850
+        muntatge: OK
+        preu: '985'
+    - codi: 1D02061C
+      cel_les:
+        codi: 1D02061C
+        pes: '50'
+        mesures: 2000x600x850
+        muntatge: 'NO'
+        preu: '930'
+    - codi: 1M02061C
+      cel_les:
+        codi: 1M02061C
+        pes: '50'
+        mesures: 2000x600x850
+        muntatge: OK
+        preu: '1.130'
+    - codi: 1D21081C
+      cel_les:
+        codi: 1D21081C
+        pes: '41'
+        mesures: 1200x800x850
+        muntatge: 'NO'
+        preu: '865'
+    - codi: 1M21081C
+      cel_les:
+        codi: 1M21081C
+        pes: '41'
+        mesures: 1200x800x850
+        muntatge: OK
+        preu: '1.010'
+    - codi: 1D61081C
+      cel_les:
+        codi: 1D61081C
+        pes: '53'
+        mesures: 1600x800x850
+        muntatge: 'NO'
+        preu: '1.035'
+    - codi: 1M61081C
+      cel_les:
+        codi: 1M61081C
+        pes: '53'
+        mesures: 1600x800x850
+        muntatge: OK
+        preu: '1.230'
+    - codi: 1D02081C
+      cel_les:
+        codi: 1D02081C
+        pes: '63'
+        mesures: 2000x800x850
+        muntatge: 'NO'
+        preu: '1.250'
+    - codi: 1M02081C
+      cel_les:
+        codi: 1M02081C
+        pes: '63'
+        mesures: 2000x800x850
+        muntatge: OK
+        preu: '1.445'
+    - codi: 1D42081C
+      cel_les:
+        codi: 1D42081C
+        pes: '74'
+        mesures: 2400x800x850
+        muntatge: 'NO'
+        preu: '1.560'
+    - codi: 1M42081C
+      cel_les:
+        codi: 1M42081C
+        pes: '74'
+        mesures: 2400x800x850
+        muntatge: OK
+        preu: '1.800'
+    mapa_columnes: sense_colN(1 eliminades)
+    paraules_orfes:
+    - '800'
+  - id: p22-t3
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - muntatge
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 1D80071C
+      cel_les:
+        codi: 1D80071C
+        pes: '29'
+        mesures: 800x700x850
+        muntatge: 'NO'
+        preu: '660'
+    - codi: 1M80071C
+      cel_les:
+        codi: 1M80071C
+        pes: '29'
+        mesures: 800x700x850
+        muntatge: OK
+        preu: '805'
+    - codi: 1D21071C
+      cel_les:
+        codi: 1D21071C
+        pes: '37'
+        mesures: 1200x700x850
+        muntatge: 'NO'
+        preu: '720'
+    - codi: 1M21071C
+      cel_les:
+        codi: 1M21071C
+        pes: '37'
+        mesures: 1200x700x850
+        muntatge: OK
+        preu: '865'
+    - codi: 1D61071C
+      cel_les:
+        codi: 1D61071C
+        pes: '47'
+        mesures: 1600x700x850
+        muntatge: 'NO'
+        preu: '865'
+    - codi: 1M61071C
+      cel_les:
+        codi: 1M61071C
+        pes: '47'
+        mesures: 1600x700x850
+        muntatge: OK
+        preu: '1.060'
+    - codi: 1D02071C
+      cel_les:
+        codi: 1D02071C
+        pes: '57'
+        mesures: 2000x700x850
+        muntatge: 'NO'
+        preu: '1.045'
+    - codi: 1M02071C
+      cel_les:
+        codi: 1M02071C
+        pes: '57'
+        mesures: 2000x700x850
+        muntatge: OK
+        preu: '1.240'
+- pagina_pub: 23
+  pagina_pdf: 684
+  taules:
+  - id: p23-t4
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - muntatge
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 1D80552M
+      cel_les:
+        codi: 1D80552M
+        pes: '30'
+        mesures: 800x550x850
+        muntatge: 'NO'
+        preu: '800'
+    - codi: 1M80552M
+      cel_les:
+        codi: 1M80552M
+        pes: '30'
+        mesures: 800x550x850
+        muntatge: OK
+        preu: '950'
+    - codi: 1D01552M
+      cel_les:
+        codi: 1D01552M
+        pes: '37'
+        mesures: 1000x550x850
+        muntatge: 'NO'
+        preu: '850'
+    - codi: 1M01552M
+      cel_les:
+        codi: 1M01552M
+        pes: '37'
+        mesures: 1000x550x850
+        muntatge: OK
+        preu: '995'
+    - codi: 1D21552M
+      cel_les:
+        codi: 1D21552M
+        pes: '44'
+        mesures: 1200x550x850
+        muntatge: 'NO'
+        preu: '890'
+    - codi: 1M21552M
+      cel_les:
+        codi: 1M21552M
+        pes: '44'
+        mesures: 1200x550x850
+        muntatge: OK
+        preu: '1.035'
+    - codi: 1D41552M
+      cel_les:
+        codi: 1D41552M
+        pes: '49'
+        mesures: 1400x550x850
+        muntatge: 'NO'
+        preu: '980'
+    - codi: 1M41552M
+      cel_les:
+        codi: 1M41552M
+        pes: '49'
+        mesures: 1400x550x850
+        muntatge: OK
+        preu: '1.130'
+    - codi: 1D80072M
+      cel_les:
+        codi: 1D80072M
+        pes: '38'
+        mesures: 800x700x850
+        muntatge: 'NO'
+        preu: '870'
+    - codi: 1M80072M
+      cel_les:
+        codi: 1M80072M
+        pes: '38'
+        mesures: 800x700x850
+        muntatge: OK
+        preu: '1.020'
+    - codi: 1D21072M
+      cel_les:
+        codi: 1D21072M
+        pes: '51'
+        mesures: 1200x700x850
+        muntatge: 'NO'
+        preu: '1.025'
+    - codi: 1M21072M
+      cel_les:
+        codi: 1M21072M
+        pes: '51'
+        mesures: 1200x700x850
+        muntatge: OK
+        preu: '1.175'
+    - codi: 1D61072M
+      cel_les:
+        codi: 1D61072M
+        pes: '66'
+        mesures: 1600x700x850
+        muntatge: 'NO'
+        preu: '1.255'
+    - codi: 1M61072M
+      cel_les:
+        codi: 1M61072M
+        pes: '66'
+        mesures: 1600x700x850
+        muntatge: OK
+        preu: '1.450'
+    - codi: 1D02072M
+      cel_les:
+        codi: 1D02072M
+        pes: '80'
+        mesures: 2000x700x850
+        muntatge: 'NO'
+        preu: '1.500'
+    - codi: 1M02072M
+      cel_les:
+        codi: 1M02072M
+        pes: '80'
+        mesures: 2000x700x850
+        muntatge: OK
+        preu: '1.695'
+    mapa_columnes: sense_colN(1 eliminades)
+    paraules_orfes:
+    - '700'
+  - id: p23-t5
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - muntatge
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 1D80062M
+      cel_les:
+        codi: 1D80062M
+        pes: '34'
+        mesures: 800x600x850
+        muntatge: 'NO'
+        preu: '830'
+    - codi: 1M80062M
+      cel_les:
+        codi: 1M80062M
+        pes: '34'
+        mesures: 800x600x850
+        muntatge: OK
+        preu: '975'
+    - codi: 1D21062M
+      cel_les:
+        codi: 1D21062M
+        pes: '46'
+        mesures: 1200x600x850
+        muntatge: 'NO'
+        preu: '930'
+    - codi: 1M21062M
+      cel_les:
+        codi: 1M21062M
+        pes: '46'
+        mesures: 1200x600x850
+        muntatge: OK
+        preu: '1.075'
+    - codi: 1D61062M
+      cel_les:
+        codi: 1D61062M
+        pes: '59'
+        mesures: 1600x600x850
+        muntatge: 'NO'
+        preu: '1.105'
+    - codi: 1M61062M
+      cel_les:
+        codi: 1M61062M
+        pes: '59'
+        mesures: 1600x600x850
+        muntatge: OK
+        preu: '1.300'
+    - codi: 1D02062M
+      cel_les:
+        codi: 1D02062M
+        pes: '71'
+        mesures: 2000x600x850
+        muntatge: 'NO'
+        preu: '1.330'
+    - codi: 1M02062M
+      cel_les:
+        codi: 1M02062M
+        pes: '71'
+        mesures: 2000x600x850
+        muntatge: OK
+        preu: '1.525'
+- pagina_pub: 24
+  pagina_pdf: 685
+  taules:
+  - id: p24-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - muntatge
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 1D80062C
+      cel_les:
+        codi: 1D80062C
+        pes: '34'
+        mesures: 800x600x850
+        muntatge: 'NO'
+        preu: '820'
+    - codi: 1M80062C
+      cel_les:
+        codi: 1M80062C
+        pes: '34'
+        mesures: 800x600x850
+        muntatge: OK
+        preu: '965'
+    - codi: 1D21062C
+      cel_les:
+        codi: 1D21062C
+        pes: '45'
+        mesures: 1200x600x850
+        muntatge: 'NO'
+        preu: '905'
+    - codi: 1M21062C
+      cel_les:
+        codi: 1M21062C
+        pes: '45'
+        mesures: 1200x600x850
+        muntatge: OK
+        preu: '1.055'
+    - codi: 1D61062C
+      cel_les:
+        codi: 1D61062C
+        pes: '58'
+        mesures: 1600x600x850
+        muntatge: 'NO'
+        preu: '1.085'
+    - codi: 1M61062C
+      cel_les:
+        codi: 1M61062C
+        pes: '58'
+        mesures: 1600x600x850
+        muntatge: OK
+        preu: '1.280'
+    - codi: 1D02062C
+      cel_les:
+        codi: 1D02062C
+        pes: '70'
+        mesures: 2000x600x850
+        muntatge: 'NO'
+        preu: '1.285'
+    - codi: 1M02062C
+      cel_les:
+        codi: 1M02062C
+        pes: '70'
+        mesures: 2000x600x850
+        muntatge: OK
+        preu: '1.480'
+    mapa_columnes: sense_colN(1 eliminades)
+  - id: p24-t3
+    reconstruida: false
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - muntatge
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 1D80072C
+      cel_les:
+        codi: 1D80072C
+        pes: '38'
+        mesures: 800x700x850
+        muntatge: 'NO'
+        preu: '855'
+    - codi: 1M80072C
+      cel_les:
+        codi: 1M80072C
+        pes: '38'
+        mesures: 800x700x850
+        muntatge: OK
+        preu: '1.005'
+    - codi: 1D21072C
+      cel_les:
+        codi: 1D21072C
+        pes: '50'
+        mesures: 1200x700x850
+        muntatge: 'NO'
+        preu: '980'
+    - codi: 1M21072C
+      cel_les:
+        codi: 1M21072C
+        pes: '50'
+        mesures: 1200x700x850
+        muntatge: OK
+        preu: '1.130'
+    - codi: 1D61072C
+      cel_les:
+        codi: 1D61072C
+        pes: '65'
+        mesures: 1600x700x850
+        muntatge: 'NO'
+        preu: '1.210'
+    - codi: 1M61072C
+      cel_les:
+        codi: 1M61072C
+        pes: '65'
+        mesures: 1600x700x850
+        muntatge: OK
+        preu: '1.405'
+    - codi: 1D02072C
+      cel_les:
+        codi: 1D02072C
+        pes: '79'
+        mesures: 2000x700x850
+        muntatge: 'NO'
+        preu: '1.430'
+    - codi: 1M02072C
+      cel_les:
+        codi: 1M02072C
+        pes: '79'
+        mesures: 2000x700x850
+        muntatge: OK
+        preu: '1.625'
+    mapa_columnes: sense_colN(1 eliminades)
+- pagina_pub: 25
+  pagina_pdf: 686
+  taules:
+  - id: p25-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - codi_2
+    - pes
+    - mesures
+    - mesures_interiors
+    - muntatge
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 1D2106RD
+      cel_les:
+        codi: 1D2106RD
+        codi_2: 1D2106RI
+        pes: '32'
+        mesures: 1200x600x850
+        mesures_interiors: 500x400x250
+        muntatge: 'NO'
+        preu: '905'
+    - codi: 1M2106RD
+      cel_les:
+        codi: 1M2106RD
+        codi_2: 1M2106RI
+        pes: '32'
+        mesures: 1200x600x850
+        mesures_interiors: 500x400x250
+        muntatge: OK
+        preu: '1.050'
+    - codi: 1D6106RD
+      cel_les:
+        codi: 1D6106RD
+        codi_2: 1D6106RI
+        pes: '38'
+        mesures: 1600x600x850
+        mesures_interiors: 500x400x250
+        muntatge: 'NO'
+        preu: '1.045'
+    - codi: 1M6106RD
+      cel_les:
+        codi: 1M6106RD
+        codi_2: 1M6106RI
+        pes: '38'
+        mesures: 1600x600x850
+        mesures_interiors: 500x400x250
+        muntatge: OK
+        preu: '1.240'
+    - codi: 1D0206RD
+      cel_les:
+        codi: 1D0206RD
+        codi_2: 1D0206RI
+        pes: '43'
+        mesures: 2000x600x850
+        mesures_interiors: 500x400x250
+        muntatge: 'NO'
+        preu: '1.190'
+    - codi: 1M0206RD
+      cel_les:
+        codi: 1M0206RD
+        codi_2: 1M0206RI
+        pes: '43'
+        mesures: 2000x600x850
+        mesures_interiors: 500x400x250
+        muntatge: OK
+        preu: '1.385'
+    - codi: 1D2107RD
+      cel_les:
+        codi: 1D2107RD
+        codi_2: 1D2107RI
+        pes: '35'
+        mesures: 1200x700x850
+        mesures_interiors: 500x400x250
+        muntatge: 'NO'
+        preu: '1.090'
+    - codi: 1M2107RD
+      cel_les:
+        codi: 1M2107RD
+        codi_2: 1M2107RI
+        pes: '35'
+        mesures: 1200x700x850
+        mesures_interiors: 500x400x250
+        muntatge: OK
+        preu: '1.235'
+    - codi: 1D6107RD
+      cel_les:
+        codi: 1D6107RD
+        codi_2: 1D6107RI
+        pes: '41'
+        mesures: 1600x700x850
+        mesures_interiors: 500x400x250
+        muntatge: 'NO'
+        preu: '1.210'
+    - codi: 1M6107RD
+      cel_les:
+        codi: 1M6107RD
+        codi_2: 1M6107RI
+        pes: '41'
+        mesures: 1600x700x850
+        mesures_interiors: 500x400x250
+        muntatge: OK
+        preu: '1.405'
+    - codi: 1D0207RD
+      cel_les:
+        codi: 1D0207RD
+        codi_2: 1D0207RI
+        pes: '48'
+        mesures: 2000x700x850
+        mesures_interiors: 500x400x250
+        muntatge: 'NO'
+        preu: '1.390'
+    - codi: 1M0207RD
+      cel_les:
+        codi: 1M0207RD
+        codi_2: 1M0207RI
+        pes: '48'
+        mesures: 2000x700x850
+        mesures_interiors: 500x400x250
+        muntatge: OK
+        preu: '1.585'
+    mapa_columnes: sense_colN(1 eliminades)
+- pagina_pub: 26
+  pagina_pdf: 687
+  taules:
+  - id: p26-t2
+    reconstruida: false
+    columnes:
+    - codi
+    - codi_2
+    - pes
+    - mesures
+    - mesures_interiors
+    - muntatge
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 1D2106ED
+      cel_les:
+        codi: 1D2106ED
+        codi_2: 1D2106EI
+        pes: '39'
+        mesures: 1200x600x850
+        mesures_interiors: 500x400x250
+        muntatge: 'NO'
+        preu: '950'
+    - codi: 1M2106ED
+      cel_les:
+        codi: 1M2106ED
+        codi_2: 1M2106EI
+        pes: '39'
+        mesures: 1200x600x850
+        mesures_interiors: 500x400x250
+        muntatge: OK
+        preu: '1.095'
+    - codi: 1D6106ED
+      cel_les:
+        codi: 1D6106ED
+        codi_2: 1D6106EI
+        pes: '48'
+        mesures: 1600x600x850
+        mesures_interiors: 500x400x250
+        muntatge: 'NO'
+        preu: '1.105'
+    - codi: 1M6106ED
+      cel_les:
+        codi: 1M6106ED
+        codi_2: 1M6106EI
+        pes: '48'
+        mesures: 1600x600x850
+        mesures_interiors: 500x400x250
+        muntatge: OK
+        preu: '1.300'
+    - codi: 1D0206ED
+      cel_les:
+        codi: 1D0206ED
+        codi_2: 1D0206EI
+        pes: '56'
+        mesures: 2000x600x850
+        mesures_interiors: 500x400x250
+        muntatge: 'NO'
+        preu: '1.285'
+    - codi: 1M0206ED
+      cel_les:
+        codi: 1M0206ED
+        codi_2: 1M0206EI
+        pes: '56'
+        mesures: 2000x600x850
+        mesures_interiors: 500x400x250
+        muntatge: OK
+        preu: '1.480'
+    - codi: 1D2107ED
+      cel_les:
+        codi: 1D2107ED
+        codi_2: 1D2107EI
+        pes: '43'
+        mesures: 1200x700x850
+        mesures_interiors: 500x400x250
+        muntatge: 'NO'
+        preu: '1.140'
+    - codi: 1M2107ED
+      cel_les:
+        codi: 1M2107ED
+        codi_2: 1M2107EI
+        pes: '43'
+        mesures: 1200x700x850
+        mesures_interiors: 500x400x250
+        muntatge: OK
+        preu: '1.285'
+    - codi: 1D6107ED
+      cel_les:
+        codi: 1D6107ED
+        codi_2: 1D6107EI
+        pes: '53'
+        mesures: 1600x700x850
+        mesures_interiors: 500x400x250
+        muntatge: 'NO'
+        preu: '1.295'
+    - codi: 1M6107ED
+      cel_les:
+        codi: 1M6107ED
+        codi_2: 1M6107EI
+        pes: '53'
+        mesures: 1600x700x850
+        mesures_interiors: 500x400x250
+        muntatge: OK
+        preu: '1.495'
+    - codi: 1D0207ED
+      cel_les:
+        codi: 1D0207ED
+        codi_2: 1D0207EI
+        pes: '63'
+        mesures: 2000x700x850
+        mesures_interiors: 500x400x250
+        muntatge: 'NO'
+        preu: '1.495'
+    - codi: 1M0207ED
+      cel_les:
+        codi: 1M0207ED
+        codi_2: 1M0207EI
+        pes: '63'
+        mesures: 2000x700x850
+        mesures_interiors: 500x400x250
+        muntatge: OK
+        preu: '1.690'
+    mapa_columnes: sense_colN(1 eliminades)
+- pagina_pub: 27
+  pagina_pdf: 688
+  taules:
+  - id: p27-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - mesures_2
+    - calaixos
+    - guies_inclinades
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '12030200'
+      cel_les:
+        codi: '12030200'
+        pes: '6'
+        mesures: 460x450x150
+        mesures_2: Todas All Toutes
+        calaixos: '1'
+        guies_inclinades: '-'
+        preu: '280'
+    - codi: 10406C3B
+      cel_les:
+        codi: 10406C3B
+        pes: '15'
+        mesures: 400x510x590
+        mesures_2: '600'
+        calaixos: '3'
+        guies_inclinades: '-'
+        preu: '835'
+    - codi: 10407C3B
+      cel_les:
+        codi: 10407C3B
+        pes: '16'
+        mesures: 400x610x590
+        mesures_2: 700/800
+        calaixos: '3'
+        guies_inclinades: '-'
+        preu: '890'
+    - codi: '10430200'
+      cel_les:
+        codi: '10430200'
+        pes: '9'
+        mesures: 465x510x590
+        mesures_2: '600'
+        calaixos: '1'
+        guies_inclinades: '-'
+        preu: '855'
+    - codi: '11430200'
+      cel_les:
+        codi: '11430200'
+        pes: '10'
+        mesures: 465x610x590
+        mesures_2: 700/800
+        calaixos: '1'
+        guies_inclinades: '-'
+        preu: '895'
+    - codi: '12330200'
+      cel_les:
+        codi: '12330200'
+        pes: '6'
+        mesures: 380x530x560
+        mesures_2: 600/700/800
+        calaixos: '-'
+        guies_inclinades: 7 - GN 1/1
+        preu: '500'
+    - codi: '17330200'
+      cel_les:
+        codi: '17330200'
+        pes: '7'
+        mesures: 436x660x596
+        mesures_2: 700/800
+        calaixos: '-'
+        guies_inclinades: 7 - EN 400x600
+        preu: '555'
+    mapa_columnes: sense_colN(1 eliminades)
+- pagina_pub: 28
+  pagina_pdf: 689
+  taules:
+  - id: p28-t4
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - muntatge
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 1080661C
+      cel_les:
+        codi: 1080661C
+        pes: '25'
+        mesures: 800x600x600
+        muntatge: 'NO'
+        preu: '640'
+    - codi: 1021661C
+      cel_les:
+        codi: 1021661C
+        pes: '32'
+        mesures: 1200x600x600
+        muntatge: 'NO'
+        preu: '680'
+    - codi: 1061661C
+      cel_les:
+        codi: 1061661C
+        pes: '41'
+        mesures: 1600x600x600
+        muntatge: 'NO'
+        preu: '790'
+    - codi: 1002661C
+      cel_les:
+        codi: 1002661C
+        pes: '49'
+        mesures: 2000x600x600
+        muntatge: 'NO'
+        preu: '930'
+    mapa_columnes: sense_colN(1 eliminades)
+  - id: p28-t5
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - muntatge
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 1080761C
+      cel_les:
+        codi: 1080761C
+        pes: '28'
+        mesures: 800x700x600
+        muntatge: 'NO'
+        preu: '660'
+    - codi: 1021761C
+      cel_les:
+        codi: 1021761C
+        pes: '36'
+        mesures: 1200x700x600
+        muntatge: 'NO'
+        preu: '720'
+    - codi: 1061761C
+      cel_les:
+        codi: 1061761C
+        pes: '46'
+        mesures: 1600x700x600
+        muntatge: 'NO'
+        preu: '865'
+    - codi: 1002761C
+      cel_les:
+        codi: 1002761C
+        pes: '56'
+        mesures: 2000x700x600
+        muntatge: 'NO'
+        preu: '1.045'
+    - codi: 1042761C
+      cel_les:
+        codi: 1042761C
+        pes: '66'
+        mesures: 2400x700x600
+        muntatge: 'NO'
+        preu: '1.225'
+    - codi: 1082761C
+      cel_les:
+        codi: 1082761C
+        pes: '76'
+        mesures: 2800x700x600
+        muntatge: 'NO'
+        preu: '1.415'
+    mapa_columnes: sense_colN(1 eliminades)
+- pagina_pub: 29
+  pagina_pdf: 690
+  taules:
+  - id: p29-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - calaixos
+    - portes
+    - muntatge
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 10607APM
+      cel_les:
+        codi: 10607APM
+        pes: '23'
+        mesures: 700x600x850
+        calaixos: '-'
+        portes: '1'
+        muntatge: OK
+        preu: '1.075'
+    - codi: 10707APM
+      cel_les:
+        codi: 10707APM
+        pes: '28'
+        mesures: 700x700x850
+        calaixos: '-'
+        portes: '1'
+        muntatge: OK
+        preu: '1.105'
+    - codi: 100605BM
+      cel_les:
+        codi: 100605BM
+        pes: '25'
+        mesures: 500x600x850
+        calaixos: '3'
+        portes: '-'
+        muntatge: OK
+        preu: '1.430'
+    - codi: 100705BM
+      cel_les:
+        codi: 100705BM
+        pes: '30'
+        mesures: 500x700x850
+        calaixos: '3'
+        portes: '-'
+        muntatge: OK
+        preu: '1.520'
+    - codi: 100606AM
+      cel_les:
+        codi: 100606AM
+        pes: '18'
+        mesures: 600x600x850
+        calaixos: '-'
+        portes: '-'
+        muntatge: 'NO'
+        preu: '805'
+    - codi: 100607AM
+      cel_les:
+        codi: 100607AM
+        pes: '22'
+        mesures: 700x600x850
+        calaixos: '-'
+        portes: '-'
+        muntatge: 'NO'
+        preu: '850'
+    - codi: 100706AM
+      cel_les:
+        codi: 100706AM
+        pes: '22'
+        mesures: 600x700x850
+        calaixos: '-'
+        portes: '-'
+        muntatge: 'NO'
+        preu: '850'
+    - codi: 100707AM
+      cel_les:
+        codi: 100707AM
+        pes: '25'
+        mesures: 700x700x850
+        calaixos: '-'
+        portes: '-'
+        muntatge: 'NO'
+        preu: '890'
+- pagina_pub: 30
+  pagina_pdf: 691
+  taules:
+  - id: p30-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - col3
+    - prestatge
+    - mesures_2
+    - potencia_electrica
+    - preu
+    columnes_segons: amp
+    files:
+    - codi: '18000300'
+      cel_les:
+        codi: '18000300'
+        pes: '4'
+        mesures: 900x350x400
+        col3: ''
+        prestatge: '1'
+        mesures_2: '1200'
+        potencia_electrica: '-'
+        preu: '450'
+    - codi: '13000300'
+      cel_les:
+        codi: '13000300'
+        pes: '5'
+        mesures: 1300x350x400
+        col3: ''
+        prestatge: '1'
+        mesures_2: '1600'
+        potencia_electrica: '-'
+        preu: '470'
+    - codi: '15000300'
+      cel_les:
+        codi: '15000300'
+        pes: '6'
+        mesures: 1700x350x400
+        col3: ''
+        prestatge: '1'
+        mesures_2: '2000'
+        potencia_electrica: '-'
+        preu: '520'
+    - codi: 1800030P
+      cel_les:
+        codi: 1800030P
+        pes: '9'
+        mesures: 900x350x400
+        col3: ''
+        prestatge: '1'
+        mesures_2: '1200'
+        potencia_electrica: 600 W 230/1V
+        preu: '1.100'
+    - codi: 1300030P
+      cel_les:
+        codi: 1300030P
+        pes: '11'
+        mesures: 1300x350x400
+        col3: ''
+        prestatge: '1'
+        mesures_2: '1600'
+        potencia_electrica: 900 W 230/1V
+        preu: '1.190'
+    - codi: 1500030P
+      cel_les:
+        codi: 1500030P
+        pes: '13'
+        mesures: 1700x350x400
+        col3: ''
+        prestatge: '1'
+        mesures_2: '2000'
+        potencia_electrica: 1200 W 230/1V
+        preu: '1.300'
+    - codi: '18010300'
+      cel_les:
+        codi: '18010300'
+        pes: '7'
+        mesures: 900x350x700
+        col3: ''
+        prestatge: '2'
+        mesures_2: '1200'
+        potencia_electrica: '-'
+        preu: '620'
+    - codi: '13010300'
+      cel_les:
+        codi: '13010300'
+        pes: '10'
+        mesures: 1300x350x700
+        col3: ''
+        prestatge: '2'
+        mesures_2: '1600'
+        potencia_electrica: '-'
+        preu: '650'
+    - codi: '15010300'
+      cel_les:
+        codi: '15010300'
+        pes: '13'
+        mesures: 1700x350x700
+        col3: ''
+        prestatge: '2'
+        mesures_2: '2000'
+        potencia_electrica: '-'
+        preu: '770'
+    - codi: 1801030P
+      cel_les:
+        codi: 1801030P
+        pes: '12'
+        mesures: 900x350x700
+        col3: ''
+        prestatge: '2'
+        mesures_2: '1200'
+        potencia_electrica: 600 W 230/1V
+        preu: '1.355'
+    - codi: 1301030P
+      cel_les:
+        codi: 1301030P
+        pes: '16'
+        mesures: 1300x350x700
+        col3: ''
+        prestatge: '2'
+        mesures_2: '1600'
+        potencia_electrica: 900 W 230/1V
+        preu: '1.455'
+    - codi: 1501030P
+      cel_les:
+        codi: 1501030P
+        pes: '20'
+        mesures: 1700x350x700
+        col3: ''
+        prestatge: '2'
+        mesures_2: '2000'
+        potencia_electrica: 1200 W 230/1V
+        preu: '1.650'
+    - codi: '11060201'
+      cel_les:
+        codi: '11060201'
+        pes: '5'
+        mesures: 800x150x60
+        col3: ''
+        prestatge: '-'
+        mesures_2: '1200'
+        potencia_electrica: 600 W 230/1V
+        preu: '735'
+    - codi: '12060201'
+      cel_les:
+        codi: '12060201'
+        pes: '6'
+        mesures: 1200x150x60
+        col3: ''
+        prestatge: '-'
+        mesures_2: '1600'
+        potencia_electrica: 900 W 230/1V
+        preu: '805'
+    - codi: '13060201'
+      cel_les:
+        codi: '13060201'
+        pes: '7'
+        mesures: 1600x150x60
+        col3: ''
+        prestatge: '-'
+        mesures_2: '2000'
+        potencia_electrica: 1200 W 230/1V
+        preu: '880'
+    avisos:
+    - hdr:sense_capcalera
+- pagina_pub: 35
+  pagina_pdf: 696
+  taules:
+  - id: p35-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - calaixos
+    - prestatge
+    - muntatge
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 10100G08
+      cel_les:
+        codi: 10100G08
+        pes: '36'
+        mesures: 800x500x850
+        calaixos: '1'
+        prestatge: '1'
+        muntatge: OK
+        preu: '630'
+    - codi: '10204470'
+      cel_les:
+        codi: '10204470'
+        pes: '18'
+        mesures: 700x500x850
+        calaixos: '-'
+        prestatge: '2'
+        muntatge: OK
+        preu: '570'
+    - codi: '10224470'
+      cel_les:
+        codi: '10224470'
+        pes: '15'
+        mesures: 500x500x650
+        calaixos: '-'
+        prestatge: '1'
+        muntatge: OK
+        preu: '410'
+    - codi: '10784470'
+      cel_les:
+        codi: '10784470'
+        pes: '20'
+        mesures: 500x500x850/1220
+        calaixos: '-'
+        prestatge: '2'
+        muntatge: OK
+        preu: '1.055'
+    - codi: '10404470'
+      cel_les:
+        codi: '10404470'
+        pes: '18'
+        mesures: 700x500x850
+        calaixos: '-'
+        prestatge: '-'
+        muntatge: OK
+        preu: '520'
+    - codi: '10704470'
+      cel_les:
+        codi: '10704470'
+        pes: '18'
+        mesures: 700x500x850
+        calaixos: '-'
+        prestatge: '-'
+        muntatge: OK
+        preu: '520'
+    - codi: '10604470'
+      cel_les:
+        codi: '10604470'
+        pes: '18'
+        mesures: 700x500x850
+        calaixos: '-'
+        prestatge: '-'
+        muntatge: OK
+        preu: '520'
+- pagina_pub: 36
+  pagina_pdf: 697
+  taules:
+  - id: p36-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - codi_2
+    - pes
+    - mesures
+    - distancia
+    - muntatge
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '16030300'
+      cel_les:
+        codi: '16030300'
+    - codi: '16530300'
+      cel_les:
+        codi_2: '16530300'
+        pes: '21'
+        mesures: 500x500x850
+        distancia: '50'
+        muntatge: OK
+        preu: '505'
+    - codi: '18030300'
+      cel_les:
+        codi: '18030300'
+    - codi: '18530300'
+      cel_les:
+        codi_2: '18530300'
+        pes: '20'
+        mesures: 400x600x850
+        distancia: '50'
+        muntatge: OK
+        preu: '545'
+    - codi: '10130300'
+      cel_les:
+        codi: '10130300'
+    - codi: '10630300'
+      cel_les:
+        codi_2: '10630300'
+        pes: '27'
+        mesures: 500x700x850
+        distancia: '50'
+        muntatge: OK
+        preu: '660'
+    - codi: '12130300'
+      cel_les:
+        codi: '12130300'
+    - codi: '12630300'
+      cel_les:
+        codi_2: '12630300'
+        pes: '37'
+        mesures: 1000x500x850
+        distancia: '50'
+        muntatge: OK
+        preu: '800'
+    - codi: '10012170'
+      cel_les:
+        codi: '10012170'
+    - codi: '10062170'
+      cel_les:
+        codi_2: '10062170'
+        pes: '37'
+        mesures: 1500x600x850
+        distancia: '30'
+        muntatge: OK
+        preu: '790'
+    - codi: '10212170'
+      cel_les:
+        codi: '10212170'
+    - codi: '10262170'
+      cel_les:
+        codi_2: '10262170'
+        pes: '53'
+        mesures: 2000x600x850
+        distancia: '30'
+        muntatge: OK
+        preu: '985'
+- pagina_pub: 37
+  pagina_pdf: 698
+  taules:
+  - id: p37-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - prestatge
+    - distancia
+    - muntatge
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '11130320'
+      cel_les:
+        codi: '11130320'
+        pes: '33'
+        mesures: 1000x600x850
+        prestatge: '-'
+        distancia: '20'
+        muntatge: OK
+        preu: '1.235'
+    - codi: '12130320'
+      cel_les:
+        codi: '12130320'
+        pes: '42'
+        mesures: 1500x600x850
+        prestatge: '-'
+        distancia: '20'
+        muntatge: OK
+        preu: '1.395'
+    - codi: '14130320'
+      cel_les:
+        codi: '14130320'
+        pes: '34'
+        mesures: 1000x700x850
+        prestatge: '-'
+        distancia: '20'
+        muntatge: OK
+        preu: '1.335'
+    - codi: '15130320'
+      cel_les:
+        codi: '15130320'
+        pes: '46'
+        mesures: 1500x700x850
+        prestatge: '-'
+        distancia: '20'
+        muntatge: OK
+        preu: '1.495'
+    - codi: 1113E320
+      cel_les:
+        codi: 1113E320
+        pes: '37'
+        mesures: 1000x600x850
+        prestatge: '1'
+        distancia: '20'
+        muntatge: OK
+        preu: '1.340'
+    - codi: 1213E320
+      cel_les:
+        codi: 1213E320
+        pes: '49'
+        mesures: 1500x600x850
+        prestatge: '1'
+        distancia: '20'
+        muntatge: OK
+        preu: '1.525'
+    - codi: 1413E320
+      cel_les:
+        codi: 1413E320
+        pes: '39'
+        mesures: 1000x700x850
+        prestatge: '1'
+        distancia: '20'
+        muntatge: OK
+        preu: '1.440'
+    - codi: 1513E320
+      cel_les:
+        codi: 1513E320
+        pes: '54'
+        mesures: 1500x700x850
+        prestatge: '1'
+        distancia: '20'
+        muntatge: OK
+        preu: '1.655'
+- pagina_pub: 38
+  pagina_pdf: 699
+  taules:
+  - id: p38-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - muntatge
+    - junta_goma
+    - portes
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 101062RM
+      cel_les:
+        codi: 101062RM
+        pes: '33'
+        mesures: 1200x600x850
+        muntatge: 'NO'
+        junta_goma: '2'
+        portes: '-'
+        preu: '1.060'
+    - codi: 151063RM
+      cel_les:
+        codi: 151063RM
+        pes: '42'
+        mesures: 1500x600x850
+        muntatge: 'NO'
+        junta_goma: '3'
+        portes: '-'
+        preu: '1.355'
+    - codi: '17002700'
+      cel_les:
+        codi: '17002700'
+        pes: '37'
+        mesures: 1200x600x850
+        muntatge: OK
+        junta_goma: '2'
+        portes: '2'
+        preu: '2.755'
+    - codi: '18002700'
+      cel_les:
+        codi: '18002700'
+        pes: '49'
+        mesures: 1800x600x850
+        muntatge: OK
+        junta_goma: '3'
+        portes: '3'
+        preu: '3.785'
+- pagina_pub: 39
+  pagina_pdf: 700
+  taules:
+  - id: p39-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - prestatge
+    - portes
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '10214180'
+      cel_les:
+        codi: '10214180'
+        pes: '27'
+        mesures: 370x480x2010
+        prestatge: '2'
+        portes: '1'
+        preu: '1.020'
+    - codi: '10014180'
+      cel_les:
+        codi: '10014180'
+        pes: '28'
+        mesures: 370x480x2010
+        prestatge: '4'
+        portes: '2'
+        preu: '1.155'
+    - codi: '10604180'
+      cel_les:
+        codi: '10604180'
+        pes: '49'
+        mesures: 680x480x2010
+        prestatge: '4'
+        portes: '2'
+        preu: '1.490'
+    - codi: '10204180'
+      cel_les:
+        codi: '10204180'
+        pes: '50'
+        mesures: 680x480x2010
+        prestatge: '8'
+        portes: '4'
+        preu: '1.645'
+    - codi: '10804180'
+      cel_les:
+        codi: '10804180'
+        pes: '62'
+        mesures: 985x480x2010
+        prestatge: '6'
+        portes: '3'
+        preu: '1.995'
+    - codi: '10404180'
+      cel_les:
+        codi: '10404180'
+        pes: '68'
+        mesures: 985x480x2010
+        prestatge: '12'
+        portes: '6'
+        preu: '2.300'
+- pagina_pub: 42
+  pagina_pdf: 703
+  taules:
+  - id: p42-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - preu
+    - codi_2
+    - pes_2
+    - mesures_2
+    - preu_2
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '30600110'
+      cel_les:
+        codi: '30600110'
+        pes: 1,6
+        mesures: 40x40x1450
+        preu: '40'
+    - codi: '30010110'
+      cel_les:
+        codi_2: '30010110'
+        pes_2: 2,4
+        mesures_2: 40x40x2050
+        preu_2: '46'
+    - codi: '30800110'
+      cel_les:
+        codi: '30800110'
+        pes: '2'
+        mesures: 40x40x1750
+        preu: '42'
+    - codi: '30210110'
+      cel_les:
+        codi_2: '30210110'
+        pes_2: 2,8
+        mesures_2: 40x40x2350
+        preu_2: '59'
+    - codi: '30204010'
+      cel_les:
+        codi: '30204010'
+        pes: 4,2
+        mesures: 800x300x40
+        preu: '66'
+    - codi: '30814010'
+      cel_les:
+        codi_2: '30814010'
+        pes_2: 6,2
+        mesures_2: 800x500x40
+        preu_2: '103'
+    - codi: '30404010'
+      cel_les:
+        codi: '30404010'
+        pes: 5,2
+        mesures: 1000x300x40
+        preu: '85'
+    - codi: '30024010'
+      cel_les:
+        codi_2: '30024010'
+        pes_2: 7,7
+        mesures_2: 1000x500x40
+        preu_2: '120'
+    - codi: '30604010'
+      cel_les:
+        codi: '30604010'
+        pes: '6'
+        mesures: 1200x300x40
+        preu: '102'
+    - codi: '30224010'
+      cel_les:
+        codi_2: '30224010'
+        pes_2: 9,1
+        mesures_2: 1200x500x40
+        preu_2: '139'
+    - codi: '30804010'
+      cel_les:
+        codi: '30804010'
+        pes: '7'
+        mesures: 1400x300x40
+        preu: '119'
+    - codi: '30424010'
+      cel_les:
+        codi_2: '30424010'
+        pes_2: 10,6
+        mesures_2: 1400x500x40
+        preu_2: '159'
+    - codi: '30014010'
+      cel_les:
+        codi: '30014010'
+        pes: 5,3
+        mesures: 800x400x40
+        preu: '87'
+    - codi: '30214010'
+      cel_les:
+        codi: '30214010'
+        pes: 6,3
+        mesures: 1000x400x40
+        preu: '103'
+    - codi: '30414010'
+      cel_les:
+        codi: '30414010'
+        pes: 7,7
+        mesures: 1200x400x40
+        preu: '120'
+    - codi: '30614010'
+      cel_les:
+        codi: '30614010'
+        pes: '9'
+        mesures: 1400x400x40
+        preu: '139'
+    paraules_orfes:
+    - ESTANTES
+    - SHELF
+    - ÉTAGÈRES
+    - ESTANTES
+    - SHELF
+    - ÉTAGÈRES
+- pagina_pub: 43
+  pagina_pdf: 704
+  taules:
+  - id: p43-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - wok
+    - prestatge
+    - distancia
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '38004214'
+      cel_les:
+        codi: '38004214'
+        pes: '33'
+        mesures: 1000x400x1750
+        wok: '225'
+        prestatge: '4'
+        distancia: 1,5 mm
+        preu: '590'
+    - codi: '38004414'
+      cel_les:
+        codi: '38004414'
+        pes: '39'
+        mesures: 1200x400x1750
+        wok: '125'
+        prestatge: '4'
+        distancia: 1,5 mm
+        preu: '655'
+    - codi: '38004350'
+      cel_les:
+        codi: '38004350'
+        pes: '44'
+        mesures: 1400x400x1750
+        wok: '115'
+        prestatge: '4'
+        distancia: 1,5 mm
+        preu: '735'
+    - codi: '38005214'
+      cel_les:
+        codi: '38005214'
+        pes: '40'
+        mesures: 1000x400x1750
+        wok: '225'
+        prestatge: '5'
+        distancia: 1,5 mm
+        preu: '695'
+    - codi: '38005414'
+      cel_les:
+        codi: '38005414'
+        pes: '47'
+        mesures: 1200x400x1750
+        wok: '125'
+        prestatge: '5'
+        distancia: 1,5 mm
+        preu: '780'
+    - codi: '38005350'
+      cel_les:
+        codi: '38005350'
+        pes: '53'
+        mesures: 1400x400x1750
+        wok: '115'
+        prestatge: '5'
+        distancia: 1,5 mm
+        preu: '875'
+    - codi: '38006214'
+      cel_les:
+        codi: '38006214'
+        pes: '46'
+        mesures: 1000x400x1750
+        wok: '225'
+        prestatge: '6'
+        distancia: 1,5 mm
+        preu: '800'
+    - codi: '38006414'
+      cel_les:
+        codi: '38006414'
+        pes: '54'
+        mesures: 1200x400x1750
+        wok: '125'
+        prestatge: '6'
+        distancia: 1,5 mm
+        preu: '900'
+    - codi: '38006350'
+      cel_les:
+        codi: '38006350'
+        pes: '62'
+        mesures: 1400x400x1750
+        wok: '115'
+        prestatge: '6'
+        distancia: 1,5 mm
+        preu: '1.015'
+    - codi: '38004024'
+      cel_les:
+        codi: '38004024'
+        pes: '39'
+        mesures: 1000x500x1750
+        wok: '225'
+        prestatge: '4'
+        distancia: 1,5 mm
+        preu: '655'
+    - codi: '38004224'
+      cel_les:
+        codi: '38004224'
+        pes: '44'
+        mesures: 1200x500x1750
+        wok: '125'
+        prestatge: '4'
+        distancia: 1,5 mm
+        preu: '735'
+    - codi: '38004424'
+      cel_les:
+        codi: '38004424'
+        pes: '50'
+        mesures: 1400x500x1750
+        wok: '100'
+        prestatge: '4'
+        distancia: 1,5 mm
+        preu: '810'
+    - codi: '38005024'
+      cel_les:
+        codi: '38005024'
+        pes: '47'
+        mesures: 1000x500x1750
+        wok: '225'
+        prestatge: '5'
+        distancia: 1,5 mm
+        preu: '780'
+    - codi: '38005224'
+      cel_les:
+        codi: '38005224'
+        pes: '54'
+        mesures: 1200x500x1750
+        wok: '125'
+        prestatge: '5'
+        distancia: 1,5 mm
+        preu: '875'
+    - codi: '38005424'
+      cel_les:
+        codi: '38005424'
+        pes: '61'
+        mesures: 1400x500x1750
+        wok: '100'
+        prestatge: '5'
+        distancia: 1,5 mm
+        preu: '970'
+    - codi: '38006024'
+      cel_les:
+        codi: '38006024'
+        pes: '54'
+        mesures: 1000x500x1750
+        wok: '225'
+        prestatge: '6'
+        distancia: 1,5 mm
+        preu: '900'
+    - codi: '38006224'
+      cel_les:
+        codi: '38006224'
+        pes: '63'
+        mesures: 1200x500x1750
+        wok: '125'
+        prestatge: '6'
+        distancia: 1,5 mm
+        preu: '1.015'
+    - codi: '38006424'
+      cel_les:
+        codi: '38006424'
+        pes: '72'
+        mesures: 1400x500x1750
+        wok: '100'
+        prestatge: '6'
+        distancia: 1,5 mm
+        preu: '1.130'
+    mapa_columnes: sense_colN(1 eliminades)
+- pagina_pub: 44
+  pagina_pdf: 705
+  taules:
+  - id: p44-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - wok
+    - prestatge
+    - distancia
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '30020380'
+      cel_les:
+        codi: '30020380'
+        pes: '25'
+        mesures: 800x300x1750
+        wok: '300'
+        prestatge: '6'
+        distancia: 1,5 mm
+        preu: '570'
+    - codi: '30220380'
+      cel_les:
+        codi: '30220380'
+        pes: '28'
+        mesures: 1000x300x1750
+        wok: '250'
+        prestatge: '6'
+        distancia: 1,5 mm
+        preu: '685'
+    mapa_columnes: sense_colN(1 eliminades)
+- pagina_pub: 45
+  pagina_pdf: 706
+  taules:
+  - id: p45-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '79951000'
+      cel_les:
+        codi: '79951000'
+        pes: 3,7
+        mesures: 799x570x250
+        preu: '230'
+    - codi: '96351000'
+      cel_les:
+        codi: '96351000'
+        pes: 4,1
+        mesures: 963x570x250
+        preu: '245'
+    - codi: '11275100'
+      cel_les:
+        codi: '11275100'
+        pes: 4,5
+        mesures: 1127x570x250
+        preu: '260'
+    - codi: '13735100'
+      cel_les:
+        codi: '13735100'
+        pes: 5,2
+        mesures: 1373x570x250
+        preu: '275'
+    mapa_columnes: sense_colN(1 eliminades)
+- pagina_pub: 46
+  pagina_pdf: 707
+  taules:
+  - id: p46-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: ES1700X3
+      cel_les:
+        codi: ES1700X3
+        pes: 2,1
+        mesures: 28x370x1700
+        preu: '85'
+    - codi: ES2000X3
+      cel_les:
+        codi: ES2000X3
+        pes: 2,5
+        mesures: 28x370x2000
+        preu: '110'
+    - codi: EC0661X3
+      cel_les:
+        codi: EC0661X3
+        pes: 1,5
+        mesures: 661x370x50
+        preu: '55'
+    - codi: EC0743X3
+      cel_les:
+        codi: EC0743X3
+        pes: 1,7
+        mesures: 743x370x50
+        preu: '65'
+    - codi: EC0825X3
+      cel_les:
+        codi: EC0825X3
+        pes: '2'
+        mesures: 825x370x50
+        preu: '70'
+    - codi: EC0907X3
+      cel_les:
+        codi: EC0907X3
+        pes: 2,1
+        mesures: 907x370x50
+        preu: '75'
+    - codi: EC0989X3
+      cel_les:
+        codi: EC0989X3
+        pes: 2,3
+        mesures: 989x370x50
+        preu: '80'
+    - codi: EC1071X3
+      cel_les:
+        codi: EC1071X3
+        pes: 2,5
+        mesures: 1071x370x50
+        preu: '85'
+    - codi: EC1235X3
+      cel_les:
+        codi: EC1235X3
+        pes: 2,9
+        mesures: 1235x370x50
+        preu: '95'
+    - codi: EC1317X3
+      cel_les:
+        codi: EC1317X3
+        pes: 3,2
+        mesures: 1317x370x50
+        preu: '100'
+    - codi: EC1399X3
+      cel_les:
+        codi: EC1399X3
+        pes: 3,3
+        mesures: 1399x370x50
+        preu: '110'
+    - codi: EC1563X3
+      cel_les:
+        codi: EC1563X3
+        pes: 3,6
+        mesures: 1563x370x50
+        preu: '115'
+    - codi: SOPAN370
+      cel_les:
+        codi: SOPAN370
+        pes: 0,17
+        mesures: 370x70
+        preu: '19'
+    mapa_columnes: sense_colN(1 eliminades)
+    paraules_orfes:
+    - ESTANTES
+    - □
+    - SHELF
+    - □
+    - ÉTAGÈRES
+    - SOPORTE
+    - EN
+    - ÁNGULO
+    - □
+    - ANGLE
+    - BRACKET
+    - □
+    - SUPPORT
+    - D'ANGLE
+  - id: p46-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: ES1700X4
+      cel_les:
+        codi: ES1700X4
+        pes: 2,3
+        mesures: 28x470x1700
+        preu: '90'
+    - codi: ES2000X4
+      cel_les:
+        codi: ES2000X4
+        pes: 2,6
+        mesures: 28x470x2000
+        preu: '120'
+    - codi: EC0661X4
+      cel_les:
+        codi: EC0661X4
+        pes: 1,6
+        mesures: 661x470x50
+        preu: '55'
+    - codi: EC0743X4
+      cel_les:
+        codi: EC0743X4
+        pes: 1,8
+        mesures: 743x470x50
+        preu: '65'
+    - codi: EC0825X4
+      cel_les:
+        codi: EC0825X4
+        pes: 2,1
+        mesures: 825x470x50
+        preu: '65'
+    - codi: EC0907X4
+      cel_les:
+        codi: EC0907X4
+        pes: 2,2
+        mesures: 907x470x50
+        preu: '75'
+    - codi: EC0989X4
+      cel_les:
+        codi: EC0989X4
+        pes: 2,4
+        mesures: 989x470x50
+        preu: '80'
+    - codi: EC1071X4
+      cel_les:
+        codi: EC1071X4
+        pes: 2,6
+        mesures: 1071x470x50
+        preu: '85'
+    - codi: EC1235X4
+      cel_les:
+        codi: EC1235X4
+        pes: '3'
+        mesures: 1235x470x50
+        preu: '95'
+    - codi: EC1317X4
+      cel_les:
+        codi: EC1317X4
+        pes: 3,3
+        mesures: 1317x470x50
+        preu: '100'
+    - codi: EC1399X4
+      cel_les:
+        codi: EC1399X4
+        pes: 3,4
+        mesures: 1399x470x50
+        preu: '105'
+    - codi: EC1563X4
+      cel_les:
+        codi: EC1563X4
+        pes: 3,7
+        mesures: 1563x470x50
+        preu: '115'
+    - codi: SOPAN470
+      cel_les:
+        codi: SOPAN470
+        pes: 0,22
+        mesures: 470x70
+        preu: '25'
+    mapa_columnes: sense_colN(1 eliminades)
+    paraules_orfes:
+    - ESTANTES
+    - □
+    - SHELF
+    - □
+    - ÉTAGÈRES
+    - SOPORTE
+    - EN
+    - ÁNGULO
+    - □
+    - ANGLE
+    - BRACKET
+    - □
+    - SUPPORT
+    - D'ANGLE
+- pagina_pub: 47
+  pagina_pdf: null
+  taules:
+  - id: p47-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - mesures
+    - muntants
+    - estants
+    - pes
+    - preu
+    columnes_segons: recomposada del text del .pub (no es fa servir la posicio)
+    files:
+    - codi: '71733000'
+      cel_les:
+        codi: '71733000'
+        mesures: 717x370x1700
+        muntants: '2'
+        estants: '3'
+        pes: 8,7
+        preu: '340'
+    - codi: '71734000'
+      cel_les:
+        codi: '71734000'
+        mesures: 717x370x1700
+        muntants: '2'
+        estants: '4'
+        pes: 10,2
+        preu: '395'
+    - codi: '71735000'
+      cel_les:
+        codi: '71735000'
+        mesures: 717x370x1700
+        muntants: '2'
+        estants: '5'
+        pes: 11,7
+        preu: '450'
+    - codi: '79933000'
+      cel_les:
+        codi: '79933000'
+        mesures: 799x370x1700
+        muntants: '2'
+        estants: '3'
+        pes: 9,3
+        preu: '360'
+    - codi: '79934000'
+      cel_les:
+        codi: '79934000'
+        mesures: 799x370x1700
+        muntants: '2'
+        estants: '4'
+        pes: '11'
+        preu: '425'
+    - codi: '79935000'
+      cel_les:
+        codi: '79935000'
+        mesures: 799x370x1700
+        muntants: '2'
+        estants: '5'
+        pes: 12,7
+        preu: '490'
+    - codi: '88133000'
+      cel_les:
+        codi: '88133000'
+        mesures: 881x370x1700
+        muntants: '2'
+        estants: '3'
+        pes: 10,2
+        preu: '375'
+    - codi: '88134000'
+      cel_les:
+        codi: '88134000'
+        mesures: 881x370x1700
+        muntants: '2'
+        estants: '4'
+        pes: 12,2
+        preu: '440'
+    - codi: '88135000'
+      cel_les:
+        codi: '88135000'
+        mesures: 881x370x1700
+        muntants: '2'
+        estants: '5'
+        pes: 14,2
+        preu: '510'
+    - codi: '96333000'
+      cel_les:
+        codi: '96333000'
+        mesures: 963x370x1700
+        muntants: '2'
+        estants: '3'
+        pes: 10,5
+        preu: '390'
+    - codi: '96334000'
+      cel_les:
+        codi: '96334000'
+        mesures: 963x370x1700
+        muntants: '2'
+        estants: '4'
+        pes: 12,6
+        preu: '465'
+    - codi: '96335000'
+      cel_les:
+        codi: '96335000'
+        mesures: 963x370x1700
+        muntants: '2'
+        estants: '5'
+        pes: 14,7
+        preu: '535'
+    - codi: '10453300'
+      cel_les:
+        codi: '10453300'
+        mesures: 1045x370x1700
+        muntants: '2'
+        estants: '3'
+        pes: 11,1
+        preu: '405'
+    - codi: '10453400'
+      cel_les:
+        codi: '10453400'
+        mesures: 1045x370x1700
+        muntants: '2'
+        estants: '4'
+        pes: 13,4
+        preu: '485'
+    - codi: '10453500'
+      cel_les:
+        codi: '10453500'
+        mesures: 1045x370x1700
+        muntants: '2'
+        estants: '5'
+        pes: 15,7
+        preu: '560'
+    - codi: '11273300'
+      cel_les:
+        codi: '11273300'
+        mesures: 1127x370x1700
+        muntants: '2'
+        estants: '3'
+        pes: 11,7
+        preu: '425'
+    - codi: '11273400'
+      cel_les:
+        codi: '11273400'
+        mesures: 1127x370x1700
+        muntants: '2'
+        estants: '4'
+        pes: 14,2
+        preu: '515'
+    - codi: '11273500'
+      cel_les:
+        codi: '11273500'
+        mesures: 1127x370x1700
+        muntants: '2'
+        estants: '5'
+        pes: 16,7
+        preu: '595'
+    - codi: '12913300'
+      cel_les:
+        codi: '12913300'
+        mesures: 1291x370x1700
+        muntants: '2'
+        estants: '3'
+        pes: 12,9
+        preu: '455'
+    - codi: '12913400'
+      cel_les:
+        codi: '12913400'
+        mesures: 1291x370x1700
+        muntants: '2'
+        estants: '4'
+        pes: 15,8
+        preu: '550'
+    - codi: '12913500'
+      cel_les:
+        codi: '12913500'
+        mesures: 1291x370x1700
+        muntants: '2'
+        estants: '5'
+        pes: 18,7
+        preu: '650'
+    - codi: '13733300'
+      cel_les:
+        codi: '13733300'
+        mesures: 1373x370x1700
+        muntants: '2'
+        estants: '3'
+        pes: 13,8
+        preu: '465'
+    - codi: '13733400'
+      cel_les:
+        codi: '13733400'
+        mesures: 1373x370x1700
+        muntants: '2'
+        estants: '4'
+        pes: '17'
+        preu: '570'
+    - codi: '13733500'
+      cel_les:
+        codi: '13733500'
+        mesures: 1373x370x1700
+        muntants: '2'
+        estants: '5'
+        pes: 20,2
+        preu: '670'
+    - codi: '14553300'
+      cel_les:
+        codi: '14553300'
+        mesures: 1455x370x1700
+        muntants: '2'
+        estants: '3'
+        pes: 14,1
+        preu: '485'
+    - codi: '14553400'
+      cel_les:
+        codi: '14553400'
+        mesures: 1455x370x1700
+        muntants: '2'
+        estants: '4'
+        pes: 17,4
+        preu: '595'
+    - codi: '14553500'
+      cel_les:
+        codi: '14553500'
+        mesures: 1455x370x1700
+        muntants: '2'
+        estants: '5'
+        pes: 20,7
+        preu: '700'
+    - codi: '16193300'
+      cel_les:
+        codi: '16193300'
+        mesures: 1619x370x1700
+        muntants: '2'
+        estants: '3'
+        pes: '15'
+        preu: '525'
+    - codi: '16193400'
+      cel_les:
+        codi: '16193400'
+        mesures: 1619x370x1700
+        muntants: '2'
+        estants: '4'
+        pes: 18,6
+        preu: '640'
+    - codi: '16193500'
+      cel_les:
+        codi: '16193500'
+        mesures: 1619x370x1700
+        muntants: '2'
+        estants: '5'
+        pes: 22,2
+        preu: '755'
+    - codi: '71743000'
+      cel_les:
+        codi: '71743000'
+        mesures: 717x470x1700
+        muntants: '2'
+        estants: '3'
+        pes: 9,4
+        preu: '350'
+    - codi: '71744000'
+      cel_les:
+        codi: '71744000'
+        mesures: 717x470x1700
+        muntants: '2'
+        estants: '4'
+        pes: '11'
+        preu: '405'
+    - codi: '71745000'
+      cel_les:
+        codi: '71745000'
+        mesures: 717x470x1700
+        muntants: '2'
+        estants: '5'
+        pes: 12,6
+        preu: '460'
+    - codi: '79943000'
+      cel_les:
+        codi: '79943000'
+        mesures: 799x470x1700
+        muntants: '2'
+        estants: '3'
+        pes: '10'
+        preu: '370'
+    - codi: '79944000'
+      cel_les:
+        codi: '79944000'
+        mesures: 799x470x1700
+        muntants: '2'
+        estants: '4'
+        pes: 11,8
+        preu: '435'
+    - codi: '79945000'
+      cel_les:
+        codi: '79945000'
+        mesures: 799x470x1700
+        muntants: '2'
+        estants: '5'
+        pes: 13,6
+        preu: '500'
+    - codi: '88143000'
+      cel_les:
+        codi: '88143000'
+        mesures: 881x470x1700
+        muntants: '2'
+        estants: '3'
+        pes: 10,9
+        preu: '385'
+    - codi: '88144000'
+      cel_les:
+        codi: '88144000'
+        mesures: 881x470x1700
+        muntants: '2'
+        estants: '4'
+        pes: '13'
+        preu: '455'
+    - codi: '88145000'
+      cel_les:
+        codi: '88145000'
+        mesures: 881x470x1700
+        muntants: '2'
+        estants: '5'
+        pes: 15,1
+        preu: '520'
+    - codi: '96343000'
+      cel_les:
+        codi: '96343000'
+        mesures: 963x470x1700
+        muntants: '2'
+        estants: '3'
+        pes: 11,2
+        preu: '400'
+    - codi: '96344000'
+      cel_les:
+        codi: '96344000'
+        mesures: 963x470x1700
+        muntants: '2'
+        estants: '4'
+        pes: 13,4
+        preu: '475'
+    - codi: '96345000'
+      cel_les:
+        codi: '96345000'
+        mesures: 963x470x1700
+        muntants: '2'
+        estants: '5'
+        pes: 15,6
+        preu: '545'
+    - codi: '10454300'
+      cel_les:
+        codi: '10454300'
+        mesures: 1045x470x1700
+        muntants: '2'
+        estants: '3'
+        pes: 11,8
+        preu: '415'
+    - codi: '10454400'
+      cel_les:
+        codi: '10454400'
+        mesures: 1045x470x1700
+        muntants: '2'
+        estants: '4'
+        pes: 14,2
+        preu: '495'
+    - codi: '10454500'
+      cel_les:
+        codi: '10454500'
+        mesures: 1045x470x1700
+        muntants: '2'
+        estants: '5'
+        pes: 16,6
+        preu: '570'
+    - codi: '11274300'
+      cel_les:
+        codi: '11274300'
+        mesures: 1127x470x1700
+        muntants: '2'
+        estants: '3'
+        pes: 12,4
+        preu: '435'
+    - codi: '11274400'
+      cel_les:
+        codi: '11274400'
+        mesures: 1127x470x1700
+        muntants: '2'
+        estants: '4'
+        pes: '15'
+        preu: '525'
+    - codi: '11274500'
+      cel_les:
+        codi: '11274500'
+        mesures: 1127x470x1700
+        muntants: '2'
+        estants: '5'
+        pes: 17,6
+        preu: '605'
+    - codi: '12914300'
+      cel_les:
+        codi: '12914300'
+        mesures: 1291x470x1700
+        muntants: '2'
+        estants: '3'
+        pes: 13,6
+        preu: '470'
+    - codi: '12914400'
+      cel_les:
+        codi: '12914400'
+        mesures: 1291x470x1700
+        muntants: '2'
+        estants: '4'
+        pes: 16,6
+        preu: '565'
+    - codi: '12914500'
+      cel_les:
+        codi: '12914500'
+        mesures: 1291x470x1700
+        muntants: '2'
+        estants: '5'
+        pes: 19,6
+        preu: '660'
+    - codi: '13734300'
+      cel_les:
+        codi: '13734300'
+        mesures: 1373x470x1700
+        muntants: '2'
+        estants: '3'
+        pes: 14,5
+        preu: '480'
+    - codi: '13734400'
+      cel_les:
+        codi: '13734400'
+        mesures: 1373x470x1700
+        muntants: '2'
+        estants: '4'
+        pes: 17,8
+        preu: '580'
+    - codi: '13734500'
+      cel_les:
+        codi: '13734500'
+        mesures: 1373x470x1700
+        muntants: '2'
+        estants: '5'
+        pes: 21,1
+        preu: '680'
+    - codi: '14554300'
+      cel_les:
+        codi: '14554300'
+        mesures: 1455x470x1700
+        muntants: '2'
+        estants: '3'
+        pes: 14,8
+        preu: '505'
+    - codi: '14554400'
+      cel_les:
+        codi: '14554400'
+        mesures: 1455x470x1700
+        muntants: '2'
+        estants: '4'
+        pes: 18,2
+        preu: '605'
+    - codi: '14554500'
+      cel_les:
+        codi: '14554500'
+        mesures: 1455x470x1700
+        muntants: '2'
+        estants: '5'
+        pes: 21,6
+        preu: '715'
+    - codi: '16194300'
+      cel_les:
+        codi: '16194300'
+        mesures: 1619x470x1700
+        muntants: '2'
+        estants: '3'
+        pes: 15,7
+        preu: '535'
+    - codi: '16194400'
+      cel_les:
+        codi: '16194400'
+        mesures: 1619x470x1700
+        muntants: '2'
+        estants: '4'
+        pes: 19,4
+        preu: '650'
+    - codi: '16194500'
+      cel_les:
+        codi: '16194500'
+        mesures: 1619x470x1700
+        muntants: '2'
+        estants: '5'
+        pes: 23,1
+        preu: '765'
+- pagina_pub: 48
+  pagina_pdf: null
+  taules:
+  - id: p48-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - mesures
+    - muntants
+    - estants
+    - pes
+    - preu
+    columnes_segons: recomposada del text del .pub (no es fa servir la posicio)
+    files:
+    - codi: '17343300'
+      cel_les:
+        codi: '17343300'
+        mesures: 1734x370x1700
+        muntants: '3'
+        estants: '3'
+        pes: 18,3
+        preu: '665'
+    - codi: '17343400'
+      cel_les:
+        codi: '17343400'
+        mesures: 1734x370x1700
+        muntants: '3'
+        estants: '4'
+        pes: 22,3
+        preu: '800'
+    - codi: '17343500'
+      cel_les:
+        codi: '17343500'
+        mesures: 1734x370x1700
+        muntants: '3'
+        estants: '5'
+        pes: 26,3
+        preu: '935'
+    - codi: '18163300'
+      cel_les:
+        codi: '18163300'
+        mesures: 1816x370x1700
+        muntants: '3'
+        estants: '3'
+        pes: 18,6
+        preu: '680'
+    - codi: '18163400'
+      cel_les:
+        codi: '18163400'
+        mesures: 1816x370x1700
+        muntants: '3'
+        estants: '4'
+        pes: 22,7
+        preu: '820'
+    - codi: '18163500'
+      cel_les:
+        codi: '18163500'
+        mesures: 1816x370x1700
+        muntants: '3'
+        estants: '5'
+        pes: 26,8
+        preu: '960'
+    - codi: '18983300'
+      cel_les:
+        codi: '18983300'
+        mesures: 1898x370x1700
+        muntants: '3'
+        estants: '3'
+        pes: 18,9
+        preu: '695'
+    - codi: '18983400'
+      cel_les:
+        codi: '18983400'
+        mesures: 1898x370x1700
+        muntants: '3'
+        estants: '4'
+        pes: 23,1
+        preu: '840'
+    - codi: '18983500'
+      cel_les:
+        codi: '18983500'
+        mesures: 1898x370x1700
+        muntants: '3'
+        estants: '5'
+        pes: 27,3
+        preu: '985'
+    - codi: '19803300'
+      cel_les:
+        codi: '19803300'
+        mesures: 1980x370x1700
+        muntants: '3'
+        estants: '3'
+        pes: 19,5
+        preu: '710'
+    - codi: '19803400'
+      cel_les:
+        codi: '19803400'
+        mesures: 1980x370x1700
+        muntants: '3'
+        estants: '4'
+        pes: 23,9
+        preu: '860'
+    - codi: '19803500'
+      cel_les:
+        codi: '19803500'
+        mesures: 1980x370x1700
+        muntants: '3'
+        estants: '5'
+        pes: 28,3
+        preu: '1.010'
+    - codi: '20623300'
+      cel_les:
+        codi: '20623300'
+        mesures: 2062x370x1700
+        muntants: '3'
+        estants: '3'
+        pes: 20,1
+        preu: '725'
+    - codi: '20623400'
+      cel_les:
+        codi: '20623400'
+        mesures: 2062x370x1700
+        muntants: '3'
+        estants: '4'
+        pes: 24,7
+        preu: '880'
+    - codi: '20623500'
+      cel_les:
+        codi: '20623500'
+        mesures: 2062x370x1700
+        muntants: '3'
+        estants: '5'
+        pes: 29,3
+        preu: '1.035'
+    - codi: '21443300'
+      cel_les:
+        codi: '21443300'
+        mesures: 2144x370x1700
+        muntants: '3'
+        estants: '3'
+        pes: 20,7
+        preu: '745'
+    - codi: '21443400'
+      cel_les:
+        codi: '21443400'
+        mesures: 2144x370x1700
+        muntants: '3'
+        estants: '4'
+        pes: 25,5
+        preu: '910'
+    - codi: '21443500'
+      cel_les:
+        codi: '21443500'
+        mesures: 2144x370x1700
+        muntants: '3'
+        estants: '5'
+        pes: 30,3
+        preu: '1.070'
+    - codi: '22263300'
+      cel_les:
+        codi: '22263300'
+        mesures: 2226x370x1700
+        muntants: '3'
+        estants: '3'
+        pes: 21,3
+        preu: '765'
+    - codi: '22263400'
+      cel_les:
+        codi: '22263400'
+        mesures: 2226x370x1700
+        muntants: '3'
+        estants: '4'
+        pes: 26,3
+        preu: '935'
+    - codi: '22263500'
+      cel_les:
+        codi: '22263500'
+        mesures: 2226x370x1700
+        muntants: '3'
+        estants: '5'
+        pes: 31,3
+        preu: '1.105'
+    - codi: '23083300'
+      cel_les:
+        codi: '23083300'
+        mesures: 2308x370x1700
+        muntants: '3'
+        estants: '3'
+        pes: 21,9
+        preu: '780'
+    - codi: '23083400'
+      cel_les:
+        codi: '23083400'
+        mesures: 2308x370x1700
+        muntants: '3'
+        estants: '4'
+        pes: 27,1
+        preu: '950'
+    - codi: '23083500'
+      cel_les:
+        codi: '23083500'
+        mesures: 2308x370x1700
+        muntants: '3'
+        estants: '5'
+        pes: 32,3
+        preu: '1.120'
+    - codi: '23903300'
+      cel_les:
+        codi: '23903300'
+        mesures: 2390x370x1700
+        muntants: '3'
+        estants: '3'
+        pes: 22,5
+        preu: '800'
+    - codi: '23903400'
+      cel_les:
+        codi: '23903400'
+        mesures: 2390x370x1700
+        muntants: '3'
+        estants: '4'
+        pes: 27,9
+        preu: '980'
+    - codi: '23903500'
+      cel_les:
+        codi: '23903500'
+        mesures: 2390x370x1700
+        muntants: '3'
+        estants: '5'
+        pes: 33,3
+        preu: '1.155'
+    - codi: '24723300'
+      cel_les:
+        codi: '24723300'
+        mesures: 2472x370x1700
+        muntants: '3'
+        estants: '3'
+        pes: 23,4
+        preu: '810'
+    - codi: '24723400'
+      cel_les:
+        codi: '24723400'
+        mesures: 2472x370x1700
+        muntants: '3'
+        estants: '4'
+        pes: 29,1
+        preu: '995'
+    - codi: '24723500'
+      cel_les:
+        codi: '24723500'
+        mesures: 2472x370x1700
+        muntants: '3'
+        estants: '5'
+        pes: 34,8
+        preu: '1.175'
+    - codi: '25543300'
+      cel_les:
+        codi: '25543300'
+        mesures: 2554x370x1700
+        muntants: '3'
+        estants: '3'
+        pes: 23,7
+        preu: '830'
+    - codi: '25543400'
+      cel_les:
+        codi: '25543400'
+        mesures: 2554x370x1700
+        muntants: '3'
+        estants: '4'
+        pes: 29,5
+        preu: '1.020'
+    - codi: '25543500'
+      cel_les:
+        codi: '25543500'
+        mesures: 2554x370x1700
+        muntants: '3'
+        estants: '5'
+        pes: 35,3
+        preu: '1.210'
+    - codi: '26363300'
+      cel_les:
+        codi: '26363300'
+        mesures: 2636x370x1700
+        muntants: '3'
+        estants: '3'
+        pes: 24,6
+        preu: '840'
+    - codi: '26363400'
+      cel_les:
+        codi: '26363400'
+        mesures: 2636x370x1700
+        muntants: '3'
+        estants: '4'
+        pes: 30,7
+        preu: '1.035'
+    - codi: '26363500'
+      cel_les:
+        codi: '26363500'
+        mesures: 2636x370x1700
+        muntants: '3'
+        estants: '5'
+        pes: 36,8
+        preu: '1.230'
+    - codi: '27183300'
+      cel_les:
+        codi: '27183300'
+        mesures: 2718x370x1700
+        muntants: '3'
+        estants: '3'
+        pes: 25,5
+        preu: '850'
+    - codi: '27183400'
+      cel_les:
+        codi: '27183400'
+        mesures: 2718x370x1700
+        muntants: '3'
+        estants: '4'
+        pes: 31,9
+        preu: '1.050'
+    - codi: '27183500'
+      cel_les:
+        codi: '27183500'
+        mesures: 2718x370x1700
+        muntants: '3'
+        estants: '5'
+        pes: 38,3
+        preu: '1.250'
+    - codi: '28003300'
+      cel_les:
+        codi: '28003300'
+        mesures: 2800x370x1700
+        muntants: '3'
+        estants: '3'
+        pes: 25,8
+        preu: '875'
+    - codi: '28003400'
+      cel_les:
+        codi: '28003400'
+        mesures: 2800x370x1700
+        muntants: '3'
+        estants: '4'
+        pes: 32,3
+        preu: '1.080'
+    - codi: '28003500'
+      cel_les:
+        codi: '28003500'
+        mesures: 2800x370x1700
+        muntants: '3'
+        estants: '5'
+        pes: 38,8
+        preu: '1.280'
+    - codi: '28823300'
+      cel_les:
+        codi: '28823300'
+        mesures: 2882x370x1700
+        muntants: '3'
+        estants: '3'
+        pes: 26,1
+        preu: '895'
+    - codi: '28823400'
+      cel_les:
+        codi: '28823400'
+        mesures: 2882x370x1700
+        muntants: '3'
+        estants: '4'
+        pes: 32,7
+        preu: '1.105'
+    - codi: '28823500'
+      cel_les:
+        codi: '28823500'
+        mesures: 2882x370x1700
+        muntants: '3'
+        estants: '5'
+        pes: 39,3
+        preu: '1.315'
+    - codi: '29643300'
+      cel_les:
+        codi: '29643300'
+        mesures: 2964x370x1700
+        muntants: '3'
+        estants: '3'
+        pes: 26,7
+        preu: '905'
+    - codi: '29643400'
+      cel_les:
+        codi: '29643400'
+        mesures: 2964x370x1700
+        muntants: '3'
+        estants: '4'
+        pes: 33,5
+        preu: '1.120'
+    - codi: '29643500'
+      cel_les:
+        codi: '29643500'
+        mesures: 2964x370x1700
+        muntants: '3'
+        estants: '5'
+        pes: 40,3
+        preu: '1.335'
+    - codi: '30463300'
+      cel_les:
+        codi: '30463300'
+        mesures: 3046x370x1700
+        muntants: '3'
+        estants: '3'
+        pes: '27'
+        preu: '925'
+    - codi: '30463400'
+      cel_les:
+        codi: '30463400'
+        mesures: 3046x370x1700
+        muntants: '3'
+        estants: '4'
+        pes: 33,9
+        preu: '1.150'
+    - codi: '30463500'
+      cel_les:
+        codi: '30463500'
+        mesures: 3046x370x1700
+        muntants: '3'
+        estants: '5'
+        pes: 40,8
+        preu: '1.370'
+    - codi: '32103300'
+      cel_les:
+        codi: '32103300'
+        mesures: 3210x370x1700
+        muntants: '3'
+        estants: '3'
+        pes: 27,9
+        preu: '960'
+    - codi: '32103400'
+      cel_les:
+        codi: '32103400'
+        mesures: 3210x370x1700
+        muntants: '3'
+        estants: '4'
+        pes: 35,1
+        preu: '1.190'
+    - codi: '32103500'
+      cel_les:
+        codi: '32103500'
+        mesures: 3210x370x1700
+        muntants: '3'
+        estants: '5'
+        pes: 42,3
+        preu: '1.420'
+    - codi: '17344300'
+      cel_les:
+        codi: '17344300'
+        mesures: 1734x470x1700
+        muntants: '3'
+        estants: '3'
+        pes: 19,5
+        preu: '680'
+    - codi: '17344400'
+      cel_les:
+        codi: '17344400'
+        mesures: 1734x470x1700
+        muntants: '3'
+        estants: '4'
+        pes: 23,7
+        preu: '815'
+    - codi: '17344500'
+      cel_les:
+        codi: '17344500'
+        mesures: 1734x470x1700
+        muntants: '3'
+        estants: '5'
+        pes: 27,9
+        preu: '950'
+    - codi: '18164300'
+      cel_les:
+        codi: '18164300'
+        mesures: 1816x470x1700
+        muntants: '3'
+        estants: '3'
+        pes: 19,8
+        preu: '695'
+    - codi: '18164400'
+      cel_les:
+        codi: '18164400'
+        mesures: 1816x470x1700
+        muntants: '3'
+        estants: '4'
+        pes: 24,1
+        preu: '835'
+    - codi: '18164500'
+      cel_les:
+        codi: '18164500'
+        mesures: 1816x470x1700
+        muntants: '3'
+        estants: '5'
+        pes: 28,4
+        preu: '975'
+    - codi: '18984300'
+      cel_les:
+        codi: '18984300'
+        mesures: 1898x470x1700
+        muntants: '3'
+        estants: '3'
+        pes: 20,1
+        preu: '710'
+    - codi: '18984400'
+      cel_les:
+        codi: '18984400'
+        mesures: 1898x470x1700
+        muntants: '3'
+        estants: '4'
+        pes: 24,5
+        preu: '855'
+    - codi: '18984500'
+      cel_les:
+        codi: '18984500'
+        mesures: 1898x470x1700
+        muntants: '3'
+        estants: '5'
+        pes: 28,9
+        preu: '1.000'
+    - codi: '19804300'
+      cel_les:
+        codi: '19804300'
+        mesures: 1980x470x1700
+        muntants: '3'
+        estants: '3'
+        pes: 20,7
+        preu: '725'
+    - codi: '19804400'
+      cel_les:
+        codi: '19804400'
+        mesures: 1980x470x1700
+        muntants: '3'
+        estants: '4'
+        pes: 25,3
+        preu: '875'
+    - codi: '19804500'
+      cel_les:
+        codi: '19804500'
+        mesures: 1980x470x1700
+        muntants: '3'
+        estants: '5'
+        pes: 29,9
+        preu: '1.025'
+    - codi: '20624300'
+      cel_les:
+        codi: '20624300'
+        mesures: 2062x470x1700
+        muntants: '3'
+        estants: '3'
+        pes: 21,3
+        preu: '740'
+    - codi: '20624400'
+      cel_les:
+        codi: '20624400'
+        mesures: 2062x470x1700
+        muntants: '3'
+        estants: '4'
+        pes: 26,1
+        preu: '895'
+    - codi: '20624500'
+      cel_les:
+        codi: '20624500'
+        mesures: 2062x470x1700
+        muntants: '3'
+        estants: '5'
+        pes: 30,9
+        preu: '1.050'
+    - codi: '21444300'
+      cel_les:
+        codi: '21444300'
+        mesures: 2144x470x1700
+        muntants: '3'
+        estants: '3'
+        pes: 21,9
+        preu: '760'
+    - codi: '21444400'
+      cel_les:
+        codi: '21444400'
+        mesures: 2144x470x1700
+        muntants: '3'
+        estants: '4'
+        pes: 26,9
+        preu: '925'
+    - codi: '21444500'
+      cel_les:
+        codi: '21444500'
+        mesures: 2144x470x1700
+        muntants: '3'
+        estants: '5'
+        pes: 31,9
+        preu: '1.085'
+    - codi: '22264300'
+      cel_les:
+        codi: '22264300'
+        mesures: 2226x470x1700
+        muntants: '3'
+        estants: '3'
+        pes: 22,5
+        preu: '785'
+    - codi: '22264400'
+      cel_les:
+        codi: '22264400'
+        mesures: 2226x470x1700
+        muntants: '3'
+        estants: '4'
+        pes: 27,7
+        preu: '950'
+    - codi: '22264500'
+      cel_les:
+        codi: '22264500'
+        mesures: 2226x470x1700
+        muntants: '3'
+        estants: '5'
+        pes: 32,9
+        preu: '1.120'
+    - codi: '23084300'
+      cel_les:
+        codi: '23084300'
+        mesures: 2308x470x1700
+        muntants: '3'
+        estants: '3'
+        pes: 23,1
+        preu: '795'
+    - codi: '23084400'
+      cel_les:
+        codi: '23084400'
+        mesures: 2308x470x1700
+        muntants: '3'
+        estants: '4'
+        pes: 28,5
+        preu: '965'
+    - codi: '23084500'
+      cel_les:
+        codi: '23084500'
+        mesures: 2308x470x1700
+        muntants: '3'
+        estants: '5'
+        pes: 33,9
+        preu: '1.140'
+    - codi: '23904300'
+      cel_les:
+        codi: '23904300'
+        mesures: 2390x470x1700
+        muntants: '3'
+        estants: '3'
+        pes: 23,7
+        preu: '815'
+    - codi: '23904400'
+      cel_les:
+        codi: '23904400'
+        mesures: 2390x470x1700
+        muntants: '3'
+        estants: '4'
+        pes: 29,3
+        preu: '995'
+    - codi: '23904500'
+      cel_les:
+        codi: '23904500'
+        mesures: 2390x470x1700
+        muntants: '3'
+        estants: '5'
+        pes: 34,9
+        preu: '1.175'
+    - codi: '24724300'
+      cel_les:
+        codi: '24724300'
+        mesures: 2472x470x1700
+        muntants: '3'
+        estants: '3'
+        pes: 24,6
+        preu: '825'
+    - codi: '24724400'
+      cel_les:
+        codi: '24724400'
+        mesures: 2472x470x1700
+        muntants: '3'
+        estants: '4'
+        pes: 30,5
+        preu: '1.010'
+    - codi: '24724500'
+      cel_les:
+        codi: '24724500'
+        mesures: 2472x470x1700
+        muntants: '3'
+        estants: '5'
+        pes: 36,4
+        preu: '1.195'
+    - codi: '25544300'
+      cel_les:
+        codi: '25544300'
+        mesures: 2554x470x1700
+        muntants: '3'
+        estants: '3'
+        pes: 24,9
+        preu: '845'
+    - codi: '25544400'
+      cel_les:
+        codi: '25544400'
+        mesures: 2554x470x1700
+        muntants: '3'
+        estants: '4'
+        pes: 30,9
+        preu: '1.035'
+    - codi: '25544500'
+      cel_les:
+        codi: '25544500'
+        mesures: 2554x470x1700
+        muntants: '3'
+        estants: '5'
+        pes: 36,9
+        preu: '1.225'
+    - codi: '26364300'
+      cel_les:
+        codi: '26364300'
+        mesures: 2636x470x1700
+        muntants: '3'
+        estants: '3'
+        pes: 25,8
+        preu: '860'
+    - codi: '26364400'
+      cel_les:
+        codi: '26364400'
+        mesures: 2636x470x1700
+        muntants: '3'
+        estants: '4'
+        pes: 32,1
+        preu: '1.050'
+    - codi: '26364500'
+      cel_les:
+        codi: '26364500'
+        mesures: 2636x470x1700
+        muntants: '3'
+        estants: '5'
+        pes: 38,4
+        preu: '1.245'
+    - codi: '27184300'
+      cel_les:
+        codi: '27184300'
+        mesures: 2718x470x1700
+        muntants: '3'
+        estants: '3'
+        pes: 26,7
+        preu: '870'
+    - codi: '27184400'
+      cel_les:
+        codi: '27184400'
+        mesures: 2718x470x1700
+        muntants: '3'
+        estants: '4'
+        pes: 33,3
+        preu: '1.065'
+    - codi: '27184500'
+      cel_les:
+        codi: '27184500'
+        mesures: 2718x470x1700
+        muntants: '3'
+        estants: '5'
+        pes: 39,9
+        preu: '1.265'
+    - codi: '28004300'
+      cel_les:
+        codi: '28004300'
+        mesures: 2800x470x1700
+        muntants: '3'
+        estants: '3'
+        pes: '27'
+        preu: '890'
+    - codi: '28004400'
+      cel_les:
+        codi: '28004400'
+        mesures: 2800x470x1700
+        muntants: '3'
+        estants: '4'
+        pes: 33,7
+        preu: '1.095'
+    - codi: '28004500'
+      cel_les:
+        codi: '28004500'
+        mesures: 2800x470x1700
+        muntants: '3'
+        estants: '5'
+        pes: 40,4
+        preu: '1.300'
+    - codi: '28824300'
+      cel_les:
+        codi: '28824300'
+        mesures: 2882x470x1700
+        muntants: '3'
+        estants: '3'
+        pes: 27,3
+        preu: '910'
+    - codi: '28824400'
+      cel_les:
+        codi: '28824400'
+        mesures: 2882x470x1700
+        muntants: '3'
+        estants: '4'
+        pes: 34,1
+        preu: '1.125'
+    - codi: '28824500'
+      cel_les:
+        codi: '28824500'
+        mesures: 2882x470x1700
+        muntants: '3'
+        estants: '5'
+        pes: 40,9
+        preu: '1.335'
+    - codi: '29644300'
+      cel_les:
+        codi: '29644300'
+        mesures: 2964x470x1700
+        muntants: '3'
+        estants: '3'
+        pes: 27,9
+        preu: '920'
+    - codi: '29644400'
+      cel_les:
+        codi: '29644400'
+        mesures: 2964x470x1700
+        muntants: '3'
+        estants: '4'
+        pes: 34,9
+        preu: '1.140'
+    - codi: '29644500'
+      cel_les:
+        codi: '29644500'
+        mesures: 2964x470x1700
+        muntants: '3'
+        estants: '5'
+        pes: 41,9
+        preu: '1.350'
+    - codi: '30464300'
+      cel_les:
+        codi: '30464300'
+        mesures: 3046x470x1700
+        muntants: '3'
+        estants: '3'
+        pes: 28,2
+        preu: '940'
+    - codi: '30464400'
+      cel_les:
+        codi: '30464400'
+        mesures: 3046x470x1700
+        muntants: '3'
+        estants: '4'
+        pes: 35,3
+        preu: '1.165'
+    - codi: '30464500'
+      cel_les:
+        codi: '30464500'
+        mesures: 3046x470x1700
+        muntants: '3'
+        estants: '5'
+        pes: 42,4
+        preu: '1.385'
+    - codi: '32104300'
+      cel_les:
+        codi: '32104300'
+        mesures: 3210x470x1700
+        muntants: '3'
+        estants: '3'
+        pes: 29,1
+        preu: '975'
+    - codi: '32104400'
+      cel_les:
+        codi: '32104400'
+        mesures: 3210x470x1700
+        muntants: '3'
+        estants: '4'
+        pes: 36,5
+        preu: '1.210'
+    - codi: '32104500'
+      cel_les:
+        codi: '32104500'
+        mesures: 3210x470x1700
+        muntants: '3'
+        estants: '5'
+        pes: 43,9
+        preu: '1.440'
+- pagina_pub: 49
+  pagina_pdf: null
+  taules:
+  - id: p49-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - mesures
+    - muntants
+    - estants
+    - pes
+    - preu
+    columnes_segons: recomposada del text del .pub (no es fa servir la posicio)
+    files:
+    - codi: '33253300'
+      cel_les:
+        codi: '33253300'
+        mesures: 3325x370x1700
+        muntants: '4'
+        estants: '3'
+        pes: 30,9
+        preu: '1.095'
+    - codi: '33253400'
+      cel_les:
+        codi: '33253400'
+        mesures: 3325x370x1700
+        muntants: '4'
+        estants: '4'
+        pes: 38,4
+        preu: '1.345'
+    - codi: '33253500'
+      cel_les:
+        codi: '33253500'
+        mesures: 3325x370x1700
+        muntants: '4'
+        estants: '5'
+        pes: 45,9
+        preu: '1.595'
+    - codi: '34073300'
+      cel_les:
+        codi: '34073300'
+        mesures: 3407x370x1700
+        muntants: '4'
+        estants: '3'
+        pes: 31,5
+        preu: '1.115'
+    - codi: '34073400'
+      cel_les:
+        codi: '34073400'
+        mesures: 3407x370x1700
+        muntants: '4'
+        estants: '4'
+        pes: 39,2
+        preu: '1.375'
+    - codi: '34073500'
+      cel_les:
+        codi: '34073500'
+        mesures: 3407x370x1700
+        muntants: '4'
+        estants: '5'
+        pes: 46,9
+        preu: '1.630'
+    - codi: '34893300'
+      cel_les:
+        codi: '34893300'
+        mesures: 3489x370x1700
+        muntants: '4'
+        estants: '3'
+        pes: 32,1
+        preu: '1.140'
+    - codi: '34893400'
+      cel_les:
+        codi: '34893400'
+        mesures: 3489x370x1700
+        muntants: '4'
+        estants: '4'
+        pes: '40'
+        preu: '1.400'
+    - codi: '34893500'
+      cel_les:
+        codi: '34893500'
+        mesures: 3489x370x1700
+        muntants: '4'
+        estants: '5'
+        pes: 47,9
+        preu: '1.665'
+    - codi: '35713300'
+      cel_les:
+        codi: '35713300'
+        mesures: 3571x370x1700
+        muntants: '4'
+        estants: '3'
+        pes: 32,7
+        preu: '1.150'
+    - codi: '35713400'
+      cel_les:
+        codi: '35713400'
+        mesures: 3571x370x1700
+        muntants: '4'
+        estants: '4'
+        pes: 40,8
+        preu: '1.415'
+    - codi: '35713500'
+      cel_les:
+        codi: '35713500'
+        mesures: 3571x370x1700
+        muntants: '4'
+        estants: '5'
+        pes: 48,9
+        preu: '1.685'
+    - codi: '36533300'
+      cel_les:
+        codi: '36533300'
+        mesures: 3653x370x1700
+        muntants: '4'
+        estants: '3'
+        pes: 33,3
+        preu: '1.170'
+    - codi: '36533400'
+      cel_les:
+        codi: '36533400'
+        mesures: 3653x370x1700
+        muntants: '4'
+        estants: '4'
+        pes: 41,6
+        preu: '1.445'
+    - codi: '36533500'
+      cel_les:
+        codi: '36533500'
+        mesures: 3653x370x1700
+        muntants: '4'
+        estants: '5'
+        pes: 49,9
+        preu: '1.715'
+    - codi: '37353300'
+      cel_les:
+        codi: '37353300'
+        mesures: 3735x370x1700
+        muntants: '4'
+        estants: '3'
+        pes: 34,2
+        preu: '1.180'
+    - codi: '37353400'
+      cel_les:
+        codi: '37353400'
+        mesures: 3735x370x1700
+        muntants: '4'
+        estants: '4'
+        pes: 42,8
+        preu: '1.460'
+    - codi: '37353500'
+      cel_les:
+        codi: '37353500'
+        mesures: 3735x370x1700
+        muntants: '4'
+        estants: '5'
+        pes: 51,4
+        preu: '1.735'
+    - codi: '38173300'
+      cel_les:
+        codi: '38173300'
+        mesures: 3817x370x1700
+        muntants: '4'
+        estants: '3'
+        pes: 34,5
+        preu: '1.200'
+    - codi: '38173400'
+      cel_les:
+        codi: '38173400'
+        mesures: 3817x370x1700
+        muntants: '4'
+        estants: '4'
+        pes: 43,2
+        preu: '1.485'
+    - codi: '38173500'
+      cel_les:
+        codi: '38173500'
+        mesures: 3817x370x1700
+        muntants: '4'
+        estants: '5'
+        pes: 51,9
+        preu: '1.770'
+    - codi: '38993300'
+      cel_les:
+        codi: '38993300'
+        mesures: 3899x370x1700
+        muntants: '4'
+        estants: '3'
+        pes: 35,4
+        preu: '1.210'
+    - codi: '38993400'
+      cel_les:
+        codi: '38993400'
+        mesures: 3899x370x1700
+        muntants: '4'
+        estants: '4'
+        pes: 44,4
+        preu: '1.500'
+    - codi: '38993500'
+      cel_les:
+        codi: '38993500'
+        mesures: 3899x370x1700
+        muntants: '4'
+        estants: '5'
+        pes: 53,4
+        preu: '1.790'
+    - codi: '39813300'
+      cel_les:
+        codi: '39813300'
+        mesures: 3981x370x1700
+        muntants: '4'
+        estants: '3'
+        pes: 36,3
+        preu: '1.225'
+    - codi: '39813400'
+      cel_les:
+        codi: '39813400'
+        mesures: 3981x370x1700
+        muntants: '4'
+        estants: '4'
+        pes: 45,6
+        preu: '1.515'
+    - codi: '39813500'
+      cel_les:
+        codi: '39813500'
+        mesures: 3981x370x1700
+        muntants: '4'
+        estants: '5'
+        pes: 54,9
+        preu: '1.810'
+    - codi: '40633300'
+      cel_les:
+        codi: '40633300'
+        mesures: 4063x370x1700
+        muntants: '4'
+        estants: '3'
+        pes: 37,2
+        preu: '1.235'
+    - codi: '40633400'
+      cel_les:
+        codi: '40633400'
+        mesures: 4063x370x1700
+        muntants: '4'
+        estants: '4'
+        pes: 46,8
+        preu: '1.530'
+    - codi: '40633500'
+      cel_les:
+        codi: '40633500'
+        mesures: 4063x370x1700
+        muntants: '4'
+        estants: '5'
+        pes: 56,4
+        preu: '1.830'
+    - codi: '41453300'
+      cel_les:
+        codi: '41453300'
+        mesures: 4145x370x1700
+        muntants: '4'
+        estants: '3'
+        pes: 37,5
+        preu: '1.255'
+    - codi: '41453400'
+      cel_les:
+        codi: '41453400'
+        mesures: 4145x370x1700
+        muntants: '4'
+        estants: '4'
+        pes: 47,2
+        preu: '1.560'
+    - codi: '41453500'
+      cel_les:
+        codi: '41453500'
+        mesures: 4145x370x1700
+        muntants: '4'
+        estants: '5'
+        pes: 56,9
+        preu: '1.860'
+    - codi: '42273300'
+      cel_les:
+        codi: '42273300'
+        mesures: 4227x370x1700
+        muntants: '4'
+        estants: '3'
+        pes: 37,8
+        preu: '1.275'
+    - codi: '42273400'
+      cel_les:
+        codi: '42273400'
+        mesures: 4227x370x1700
+        muntants: '4'
+        estants: '4'
+        pes: 47,6
+        preu: '1.585'
+    - codi: '42273500'
+      cel_les:
+        codi: '42273500'
+        mesures: 4227x370x1700
+        muntants: '4'
+        estants: '5'
+        pes: 57,4
+        preu: '1.895'
+    - codi: '43093300'
+      cel_les:
+        codi: '43093300'
+        mesures: 4309x370x1700
+        muntants: '4'
+        estants: '3'
+        pes: 38,1
+        preu: '1.295'
+    - codi: '43093400'
+      cel_les:
+        codi: '43093400'
+        mesures: 4309x370x1700
+        muntants: '4'
+        estants: '4'
+        pes: '48'
+        preu: '1.615'
+    - codi: '43093500'
+      cel_les:
+        codi: '43093500'
+        mesures: 4309x370x1700
+        muntants: '4'
+        estants: '5'
+        pes: 57,9
+        preu: '1.930'
+    - codi: '43913300'
+      cel_les:
+        codi: '43913300'
+        mesures: 4391x370x1700
+        muntants: '4'
+        estants: '3'
+        pes: 38,7
+        preu: '1.310'
+    - codi: '43913400'
+      cel_les:
+        codi: '43913400'
+        mesures: 4391x370x1700
+        muntants: '4'
+        estants: '4'
+        pes: 48,8
+        preu: '1.630'
+    - codi: '43913500'
+      cel_les:
+        codi: '43913500'
+        mesures: 4391x370x1700
+        muntants: '4'
+        estants: '5'
+        pes: 58,9
+        preu: '1.950'
+    - codi: '44733300'
+      cel_les:
+        codi: '44733300'
+        mesures: 4473x370x1700
+        muntants: '4'
+        estants: '3'
+        pes: '39'
+        preu: '1.330'
+    - codi: '44733400'
+      cel_les:
+        codi: '44733400'
+        mesures: 4473x370x1700
+        muntants: '4'
+        estants: '4'
+        pes: 49,2
+        preu: '1.655'
+    - codi: '44733500'
+      cel_les:
+        codi: '44733500'
+        mesures: 4473x370x1700
+        muntants: '4'
+        estants: '5'
+        pes: 59,4
+        preu: '1.985'
+    - codi: '45553300'
+      cel_les:
+        codi: '45553300'
+        mesures: 4555x370x1700
+        muntants: '4'
+        estants: '3'
+        pes: 39,6
+        preu: '1.340'
+    - codi: '45553400'
+      cel_les:
+        codi: '45553400'
+        mesures: 4555x370x1700
+        muntants: '4'
+        estants: '4'
+        pes: '50'
+        preu: '1.670'
+    - codi: '45553500'
+      cel_les:
+        codi: '45553500'
+        mesures: 4555x370x1700
+        muntants: '4'
+        estants: '5'
+        pes: 60,4
+        preu: '2.005'
+    - codi: '46373300'
+      cel_les:
+        codi: '46373300'
+        mesures: 4637x370x1700
+        muntants: '4'
+        estants: '3'
+        pes: 39,9
+        preu: '1.360'
+    - codi: '46373400'
+      cel_les:
+        codi: '46373400'
+        mesures: 4637x370x1700
+        muntants: '4'
+        estants: '4'
+        pes: 50,4
+        preu: '1.700'
+    - codi: '46373500'
+      cel_les:
+        codi: '46373500'
+        mesures: 4637x370x1700
+        muntants: '4'
+        estants: '5'
+        pes: 60,9
+        preu: '2.035'
+    - codi: '48013300'
+      cel_les:
+        codi: '48013300'
+        mesures: 4801x370x1700
+        muntants: '4'
+        estants: '3'
+        pes: 40,8
+        preu: '1.395'
+    - codi: '48013400'
+      cel_les:
+        codi: '48013400'
+        mesures: 4801x370x1700
+        muntants: '4'
+        estants: '4'
+        pes: 51,6
+        preu: '1.740'
+    - codi: '48013500'
+      cel_les:
+        codi: '48013500'
+        mesures: 4801x370x1700
+        muntants: '4'
+        estants: '5'
+        pes: 62,4
+        preu: '2.090'
+    - codi: '33254300'
+      cel_les:
+        codi: '33254300'
+        mesures: 3325x470x1700
+        muntants: '4'
+        estants: '3'
+        pes: 32,6
+        preu: '1.120'
+    - codi: '33254400'
+      cel_les:
+        codi: '33254400'
+        mesures: 3325x470x1700
+        muntants: '4'
+        estants: '4'
+        pes: 40,4
+        preu: '1.370'
+    - codi: '33254500'
+      cel_les:
+        codi: '33254500'
+        mesures: 3325x470x1700
+        muntants: '4'
+        estants: '5'
+        pes: 48,2
+        preu: '1.620'
+    - codi: '34074300'
+      cel_les:
+        codi: '34074300'
+        mesures: 3407x470x1700
+        muntants: '4'
+        estants: '3'
+        pes: 33,2
+        preu: '1.140'
+    - codi: '34074400'
+      cel_les:
+        codi: '34074400'
+        mesures: 3407x470x1700
+        muntants: '4'
+        estants: '4'
+        pes: 41,2
+        preu: '1.400'
+    - codi: '34074500'
+      cel_les:
+        codi: '34074500'
+        mesures: 3407x470x1700
+        muntants: '4'
+        estants: '5'
+        pes: 49,2
+        preu: '1.655'
+    - codi: '34894300'
+      cel_les:
+        codi: '34894300'
+        mesures: 3489x470x1700
+        muntants: '4'
+        estants: '3'
+        pes: 33,8
+        preu: '1.160'
+    - codi: '34894400'
+      cel_les:
+        codi: '34894400'
+        mesures: 3489x470x1700
+        muntants: '4'
+        estants: '4'
+        pes: '42'
+        preu: '1.425'
+    - codi: '34894500'
+      cel_les:
+        codi: '34894500'
+        mesures: 3489x470x1700
+        muntants: '4'
+        estants: '5'
+        pes: 50,2
+        preu: '1.690'
+    - codi: '35714300'
+      cel_les:
+        codi: '35714300'
+        mesures: 3571x470x1700
+        muntants: '4'
+        estants: '3'
+        pes: 34,4
+        preu: '1.170'
+    - codi: '35714400'
+      cel_les:
+        codi: '35714400'
+        mesures: 3571x470x1700
+        muntants: '4'
+        estants: '4'
+        pes: 42,8
+        preu: '1.440'
+    - codi: '35714500'
+      cel_les:
+        codi: '35714500'
+        mesures: 3571x470x1700
+        muntants: '4'
+        estants: '5'
+        pes: 51,2
+        preu: '1.705'
+    - codi: '36534300'
+      cel_les:
+        codi: '36534300'
+        mesures: 3653x470x1700
+        muntants: '4'
+        estants: '3'
+        pes: '35'
+        preu: '1.190'
+    - codi: '36534400'
+      cel_les:
+        codi: '36534400'
+        mesures: 3653x470x1700
+        muntants: '4'
+        estants: '4'
+        pes: 43,6
+        preu: '1.465'
+    - codi: '36534500'
+      cel_les:
+        codi: '36534500'
+        mesures: 3653x470x1700
+        muntants: '4'
+        estants: '5'
+        pes: 52,2
+        preu: '1.740'
+    - codi: '37354300'
+      cel_les:
+        codi: '37354300'
+        mesures: 3735x470x1700
+        muntants: '4'
+        estants: '3'
+        pes: 35,9
+        preu: '1.205'
+    - codi: '37354400'
+      cel_les:
+        codi: '37354400'
+        mesures: 3735x470x1700
+        muntants: '4'
+        estants: '4'
+        pes: 44,8
+        preu: '1.480'
+    - codi: '37354500'
+      cel_les:
+        codi: '37354500'
+        mesures: 3735x470x1700
+        muntants: '4'
+        estants: '5'
+        pes: 53,7
+        preu: '1.760'
+    - codi: '38174300'
+      cel_les:
+        codi: '38174300'
+        mesures: 3817x470x1700
+        muntants: '4'
+        estants: '3'
+        pes: 36,2
+        preu: '1.225'
+    - codi: '38174400'
+      cel_les:
+        codi: '38174400'
+        mesures: 3817x470x1700
+        muntants: '4'
+        estants: '4'
+        pes: 45,2
+        preu: '1.505'
+    - codi: '38174500'
+      cel_les:
+        codi: '38174500'
+        mesures: 3817x470x1700
+        muntants: '4'
+        estants: '5'
+        pes: 54,2
+        preu: '1.795'
+    - codi: '38994300'
+      cel_les:
+        codi: '38994300'
+        mesures: 3899x470x1700
+        muntants: '4'
+        estants: '3'
+        pes: 37,1
+        preu: '1.235'
+    - codi: '38994400'
+      cel_les:
+        codi: '38994400'
+        mesures: 3899x470x1700
+        muntants: '4'
+        estants: '4'
+        pes: 46,4
+        preu: '1.525'
+    - codi: '38994500'
+      cel_les:
+        codi: '38994500'
+        mesures: 3899x470x1700
+        muntants: '4'
+        estants: '5'
+        pes: 55,7
+        preu: '1.815'
+    - codi: '39814300'
+      cel_les:
+        codi: '39814300'
+        mesures: 3981x470x1700
+        muntants: '4'
+        estants: '3'
+        pes: '38'
+        preu: '1.245'
+    - codi: '39814400'
+      cel_les:
+        codi: '39814400'
+        mesures: 3981x470x1700
+        muntants: '4'
+        estants: '4'
+        pes: 47,4
+        preu: '1.540'
+    - codi: '39814500'
+      cel_les:
+        codi: '39814500'
+        mesures: 3981x470x1700
+        muntants: '4'
+        estants: '5'
+        pes: 57,2
+        preu: '1.830'
+    - codi: '40634300'
+      cel_les:
+        codi: '40634300'
+        mesures: 4063x470x1700
+        muntants: '4'
+        estants: '3'
+        pes: 38,9
+        preu: '1.260'
+    - codi: '40634400'
+      cel_les:
+        codi: '40634400'
+        mesures: 4063x470x1700
+        muntants: '4'
+        estants: '4'
+        pes: 48,8
+        preu: '1.555'
+    - codi: '40634500'
+      cel_les:
+        codi: '40634500'
+        mesures: 4063x470x1700
+        muntants: '4'
+        estants: '5'
+        pes: 58,7
+        preu: '1.850'
+    - codi: '41454300'
+      cel_les:
+        codi: '41454300'
+        mesures: 4145x470x1700
+        muntants: '4'
+        estants: '3'
+        pes: 39,2
+        preu: '1.280'
+    - codi: '41454400'
+      cel_les:
+        codi: '41454400'
+        mesures: 4145x470x1700
+        muntants: '4'
+        estants: '4'
+        pes: 49,2
+        preu: '1.585'
+    - codi: '41454500'
+      cel_les:
+        codi: '41454500'
+        mesures: 4145x470x1700
+        muntants: '4'
+        estants: '5'
+        pes: 59,2
+        preu: '1.885'
+    - codi: '42274300'
+      cel_les:
+        codi: '42274300'
+        mesures: 4227x470x1700
+        muntants: '4'
+        estants: '3'
+        pes: 39,5
+        preu: '1.300'
+    - codi: '42274400'
+      cel_les:
+        codi: '42274400'
+        mesures: 4227x470x1700
+        muntants: '4'
+        estants: '4'
+        pes: 49,6
+        preu: '1.610'
+    - codi: '42274500'
+      cel_les:
+        codi: '42274500'
+        mesures: 4227x470x1700
+        muntants: '4'
+        estants: '5'
+        pes: 59,7
+        preu: '1.920'
+    - codi: '43094300'
+      cel_les:
+        codi: '43094300'
+        mesures: 4309x470x1700
+        muntants: '4'
+        estants: '3'
+        pes: 39,8
+        preu: '1.320'
+    - codi: '43094400'
+      cel_les:
+        codi: '43094400'
+        mesures: 4309x470x1700
+        muntants: '4'
+        estants: '4'
+        pes: '50'
+        preu: '1.640'
+    - codi: '43094500'
+      cel_les:
+        codi: '43094500'
+        mesures: 4309x470x1700
+        muntants: '4'
+        estants: '5'
+        pes: 60,2
+        preu: '1.955'
+    - codi: '43914300'
+      cel_les:
+        codi: '43914300'
+        mesures: 4391x470x1700
+        muntants: '4'
+        estants: '3'
+        pes: 40,4
+        preu: '1.330'
+    - codi: '43914400'
+      cel_les:
+        codi: '43914400'
+        mesures: 4391x470x1700
+        muntants: '4'
+        estants: '4'
+        pes: 50,8
+        preu: '1.655'
+    - codi: '43914500'
+      cel_les:
+        codi: '43914500'
+        mesures: 4391x470x1700
+        muntants: '4'
+        estants: '5'
+        pes: 61,2
+        preu: '1.975'
+    - codi: '44734300'
+      cel_les:
+        codi: '44734300'
+        mesures: 4473x470x1700
+        muntants: '4'
+        estants: '3'
+        pes: 40,7
+        preu: '1.350'
+    - codi: '44734400'
+      cel_les:
+        codi: '44734400'
+        mesures: 4473x470x1700
+        muntants: '4'
+        estants: '4'
+        pes: 51,2
+        preu: '1.680'
+    - codi: '44734500'
+      cel_les:
+        codi: '44734500'
+        mesures: 4473x470x1700
+        muntants: '4'
+        estants: '5'
+        pes: 61,7
+        preu: '2.010'
+    - codi: '45554300'
+      cel_les:
+        codi: '45554300'
+        mesures: 4555x470x1700
+        muntants: '4'
+        estants: '3'
+        pes: 41,3
+        preu: '1.365'
+    - codi: '45554400'
+      cel_les:
+        codi: '45554400'
+        mesures: 4555x470x1700
+        muntants: '4'
+        estants: '4'
+        pes: '52'
+        preu: '1.695'
+    - codi: '45554500'
+      cel_les:
+        codi: '45554500'
+        mesures: 4555x470x1700
+        muntants: '4'
+        estants: '5'
+        pes: 62,7
+        preu: '2.025'
+    - codi: '46374300'
+      cel_les:
+        codi: '46374300'
+        mesures: 4637x470x1700
+        muntants: '4'
+        estants: '3'
+        pes: 41,6
+        preu: '1.385'
+    - codi: '46374400'
+      cel_les:
+        codi: '46374400'
+        mesures: 4637x470x1700
+        muntants: '4'
+        estants: '4'
+        pes: 52,4
+        preu: '1.725'
+    - codi: '46374500'
+      cel_les:
+        codi: '46374500'
+        mesures: 4637x470x1700
+        muntants: '4'
+        estants: '5'
+        pes: 63,2
+        preu: '2.060'
+    - codi: '48014300'
+      cel_les:
+        codi: '48014300'
+        mesures: 4801x470x1700
+        muntants: '4'
+        estants: '3'
+        pes: 42,5
+        preu: '1.415'
+    - codi: '48014400'
+      cel_les:
+        codi: '48014400'
+        mesures: 4801x470x1700
+        muntants: '4'
+        estants: '4'
+        pes: 53,6
+        preu: '1.765'
+    - codi: '48014500'
+      cel_les:
+        codi: '48014500'
+        mesures: 4801x470x1700
+        muntants: '4'
+        estants: '5'
+        pes: 64,7
+        preu: '2.115'
+- pagina_pub: 50
+  pagina_pdf: null
+  taules:
+  - id: p50-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - mesures
+    - muntants
+    - estants
+    - pes
+    - preu
+    columnes_segons: recomposada del text del .pub (no es fa servir la posicio)
+    files:
+    - codi: '49163300'
+      cel_les:
+        codi: '49163300'
+        mesures: 4916x370x1700
+        muntants: '5'
+        estants: '3'
+        pes: 44,1
+        preu: '1.540'
+    - codi: '49163400'
+      cel_les:
+        codi: '49163400'
+        mesures: 4916x370x1700
+        muntants: '5'
+        estants: '4'
+        pes: 55,3
+        preu: '1.910'
+    - codi: '49163500'
+      cel_les:
+        codi: '49163500'
+        mesures: 4916x370x1700
+        muntants: '5'
+        estants: '5'
+        pes: 66,5
+        preu: '2.280'
+    - codi: '49983300'
+      cel_les:
+        codi: '49983300'
+        mesures: 4998x370x1700
+        muntants: '5'
+        estants: '3'
+        pes: '45'
+        preu: '1.550'
+    - codi: '49983400'
+      cel_les:
+        codi: '49983400'
+        mesures: 4998x370x1700
+        muntants: '5'
+        estants: '4'
+        pes: 56,5
+        preu: '1.925'
+    - codi: '49983500'
+      cel_les:
+        codi: '49983500'
+        mesures: 4998x370x1700
+        muntants: '5'
+        estants: '5'
+        pes: '68'
+        preu: '2.300'
+    - codi: '50803300'
+      cel_les:
+        codi: '50803300'
+        mesures: 5080x370x1700
+        muntants: '5'
+        estants: '3'
+        pes: 45,3
+        preu: '1.570'
+    - codi: '50803400'
+      cel_les:
+        codi: '50803400'
+        mesures: 5080x370x1700
+        muntants: '5'
+        estants: '4'
+        pes: 56,9
+        preu: '1.950'
+    - codi: '50803500'
+      cel_les:
+        codi: '50803500'
+        mesures: 5080x370x1700
+        muntants: '5'
+        estants: '5'
+        pes: 68,5
+        preu: '2.330'
+    - codi: '51623300'
+      cel_les:
+        codi: '51623300'
+        mesures: 5162x370x1700
+        muntants: '5'
+        estants: '3'
+        pes: 46,2
+        preu: '1.580'
+    - codi: '51623400'
+      cel_les:
+        codi: '51623400'
+        mesures: 5162x370x1700
+        muntants: '5'
+        estants: '4'
+        pes: 58,1
+        preu: '1.965'
+    - codi: '51623500'
+      cel_les:
+        codi: '51623500'
+        mesures: 5162x370x1700
+        muntants: '5'
+        estants: '5'
+        pes: '70'
+        preu: '2.350'
+    - codi: '52443300'
+      cel_les:
+        codi: '52443300'
+        mesures: 5244x370x1700
+        muntants: '5'
+        estants: '3'
+        pes: 47,1
+        preu: '1.595'
+    - codi: '52443400'
+      cel_les:
+        codi: '52443400'
+        mesures: 5244x370x1700
+        muntants: '5'
+        estants: '4'
+        pes: 59,3
+        preu: '1.980'
+    - codi: '52443500'
+      cel_les:
+        codi: '52443500'
+        mesures: 5244x370x1700
+        muntants: '5'
+        estants: '5'
+        pes: 71,5
+        preu: '2.370'
+    - codi: '53263300'
+      cel_les:
+        codi: '53263300'
+        mesures: 5326x370x1700
+        muntants: '5'
+        estants: '3'
+        pes: '48'
+        preu: '1.605'
+    - codi: '53263400'
+      cel_les:
+        codi: '53263400'
+        mesures: 5326x370x1700
+        muntants: '5'
+        estants: '4'
+        pes: 60,5
+        preu: '2.000'
+    - codi: '53263500'
+      cel_les:
+        codi: '53263500'
+        mesures: 5326x370x1700
+        muntants: '5'
+        estants: '5'
+        pes: '73'
+        preu: '2.390'
+    - codi: '54083300'
+      cel_les:
+        codi: '54083300'
+        mesures: 5408x370x1700
+        muntants: '5'
+        estants: '3'
+        pes: 48,9
+        preu: '1.620'
+    - codi: '54083400'
+      cel_les:
+        codi: '54083400'
+        mesures: 5408x370x1700
+        muntants: '5'
+        estants: '4'
+        pes: 61,7
+        preu: '2.015'
+    - codi: '54083500'
+      cel_les:
+        codi: '54083500'
+        mesures: 5408x370x1700
+        muntants: '5'
+        estants: '5'
+        pes: 74,5
+        preu: '2.410'
+    - codi: '54903300'
+      cel_les:
+        codi: '54903300'
+        mesures: 5490x370x1700
+        muntants: '5'
+        estants: '3'
+        pes: 49,2
+        preu: '1.640'
+    - codi: '54903400'
+      cel_les:
+        codi: '54903400'
+        mesures: 5490x370x1700
+        muntants: '5'
+        estants: '4'
+        pes: 62,1
+        preu: '2.040'
+    - codi: '54903500'
+      cel_les:
+        codi: '54903500'
+        mesures: 5490x370x1700
+        muntants: '5'
+        estants: '5'
+        pes: '75'
+        preu: '2.445'
+    - codi: '55723300'
+      cel_les:
+        codi: '55723300'
+        mesures: 5572x370x1700
+        muntants: '5'
+        estants: '3'
+        pes: 49,5
+        preu: '1.690'
+    - codi: '55723400'
+      cel_les:
+        codi: '55723400'
+        mesures: 5572x370x1700
+        muntants: '5'
+        estants: '4'
+        pes: 62,5
+        preu: '2.070'
+    - codi: '55723500'
+      cel_les:
+        codi: '55723500'
+        mesures: 5572x370x1700
+        muntants: '5'
+        estants: '5'
+        pes: 75,5
+        preu: '2.475'
+    - codi: '56543300'
+      cel_les:
+        codi: '56543300'
+        mesures: 5654x370x1700
+        muntants: '5'
+        estants: '3'
+        pes: 52,5
+        preu: '1.710'
+    - codi: '56543400'
+      cel_les:
+        codi: '56543400'
+        mesures: 5654x370x1700
+        muntants: '5'
+        estants: '4'
+        pes: 62,9
+        preu: '2.095'
+    - codi: '56543500'
+      cel_les:
+        codi: '56543500'
+        mesures: 5654x370x1700
+        muntants: '5'
+        estants: '5'
+        pes: '76'
+        preu: '2.510'
+    - codi: '49164300'
+      cel_les:
+        codi: '49164300'
+        mesures: 4916x470x1700
+        muntants: '5'
+        estants: '3'
+        pes: 46,3
+        preu: '1.565'
+    - codi: '49164400'
+      cel_les:
+        codi: '49164400'
+        mesures: 4916x470x1700
+        muntants: '5'
+        estants: '4'
+        pes: 57,9
+        preu: '1.940'
+    - codi: '49164500'
+      cel_les:
+        codi: '49164500'
+        mesures: 4916x470x1700
+        muntants: '5'
+        estants: '5'
+        pes: 69,5
+        preu: '2.310'
+    - codi: '49984300'
+      cel_les:
+        codi: '49984300'
+        mesures: 4998x470x1700
+        muntants: '5'
+        estants: '3'
+        pes: 47,2
+        preu: '1.580'
+    - codi: '49984400'
+      cel_les:
+        codi: '49984400'
+        mesures: 4998x470x1700
+        muntants: '5'
+        estants: '4'
+        pes: 59,1
+        preu: '1.955'
+    - codi: '49984500'
+      cel_les:
+        codi: '49984500'
+        mesures: 4998x470x1700
+        muntants: '5'
+        estants: '5'
+        pes: '71'
+        preu: '2.330'
+    - codi: '50804300'
+      cel_les:
+        codi: '50804300'
+        mesures: 5080x470x1700
+        muntants: '5'
+        estants: '3'
+        pes: 47,5
+        preu: '1.600'
+    - codi: '50804400'
+      cel_les:
+        codi: '50804400'
+        mesures: 5080x470x1700
+        muntants: '5'
+        estants: '4'
+        pes: 59,5
+        preu: '1.980'
+    - codi: '50804500'
+      cel_les:
+        codi: '50804500'
+        mesures: 5080x470x1700
+        muntants: '5'
+        estants: '5'
+        pes: 71,5
+        preu: '2.360'
+    - codi: '51624300'
+      cel_les:
+        codi: '51624300'
+        mesures: 5162x470x1700
+        muntants: '5'
+        estants: '3'
+        pes: 48,4
+        preu: '1.610'
+    - codi: '51624400'
+      cel_les:
+        codi: '51624400'
+        mesures: 5162x470x1700
+        muntants: '5'
+        estants: '4'
+        pes: 60,7
+        preu: '1.995'
+    - codi: '51624500'
+      cel_les:
+        codi: '51624500'
+        mesures: 5162x470x1700
+        muntants: '5'
+        estants: '5'
+        pes: '73'
+        preu: '2.380'
+    - codi: '52444300'
+      cel_les:
+        codi: '52444300'
+        mesures: 5244x470x1700
+        muntants: '5'
+        estants: '3'
+        pes: 49,3
+        preu: '1.625'
+    - codi: '52444400'
+      cel_les:
+        codi: '52444400'
+        mesures: 5244x470x1700
+        muntants: '5'
+        estants: '4'
+        pes: 61,9
+        preu: '2.010'
+    - codi: '52444500'
+      cel_les:
+        codi: '52444500'
+        mesures: 5244x470x1700
+        muntants: '5'
+        estants: '5'
+        pes: 74,5
+        preu: '2.400'
+    - codi: '53264300'
+      cel_les:
+        codi: '53264300'
+        mesures: 5326x470x1700
+        muntants: '5'
+        estants: '3'
+        pes: 50,2
+        preu: '1.635'
+    - codi: '53264400'
+      cel_les:
+        codi: '53264400'
+        mesures: 5326x470x1700
+        muntants: '5'
+        estants: '4'
+        pes: 63,1
+        preu: '2.025'
+    - codi: '53264500'
+      cel_les:
+        codi: '53264500'
+        mesures: 5326x470x1700
+        muntants: '5'
+        estants: '5'
+        pes: '76'
+        preu: '2.420'
+    - codi: '54084300'
+      cel_les:
+        codi: '54084300'
+        mesures: 5408x470x1700
+        muntants: '5'
+        estants: '3'
+        pes: 51,1
+        preu: '1.645'
+    - codi: '54084400'
+      cel_les:
+        codi: '54084400'
+        mesures: 5408x470x1700
+        muntants: '5'
+        estants: '4'
+        pes: 64,3
+        preu: '2.045'
+    - codi: '54084500'
+      cel_les:
+        codi: '54084500'
+        mesures: 5408x470x1700
+        muntants: '5'
+        estants: '5'
+        pes: 77,5
+        preu: '2.440'
+    - codi: '54904300'
+      cel_les:
+        codi: '54904300'
+        mesures: 5490x470x1700
+        muntants: '5'
+        estants: '3'
+        pes: 51,4
+        preu: '1.670'
+    - codi: '54904400'
+      cel_les:
+        codi: '54904400'
+        mesures: 5490x470x1700
+        muntants: '5'
+        estants: '4'
+        pes: 64,7
+        preu: '2.070'
+    - codi: '54904500'
+      cel_les:
+        codi: '54904500'
+        mesures: 5490x470x1700
+        muntants: '5'
+        estants: '5'
+        pes: '78'
+        preu: '2.475'
+    - codi: '55724300'
+      cel_les:
+        codi: '55724300'
+        mesures: 5572x470x1700
+        muntants: '5'
+        estants: '3'
+        pes: 51,7
+        preu: '1.975'
+    - codi: '55724400'
+      cel_les:
+        codi: '55724400'
+        mesures: 5572x470x1700
+        muntants: '5'
+        estants: '4'
+        pes: 65,1
+        preu: '2.100'
+    - codi: '55724500'
+      cel_les:
+        codi: '55724500'
+        mesures: 5572x470x1700
+        muntants: '5'
+        estants: '5'
+        pes: 78,5
+        preu: '2.505'
+    - codi: '56544300'
+      cel_les:
+        codi: '56544300'
+        mesures: 5654x470x1700
+        muntants: '5'
+        estants: '3'
+        pes: '52'
+        preu: '2.020'
+    - codi: '56544400'
+      cel_les:
+        codi: '56544400'
+        mesures: 5654x470x1700
+        muntants: '5'
+        estants: '4'
+        pes: 65,5
+        preu: '2.125'
+    - codi: '56544500'
+      cel_les:
+        codi: '56544500'
+        mesures: 5654x470x1700
+        muntants: '5'
+        estants: '5'
+        pes: '79'
+        preu: '2.540'
+- pagina_pub: 53
+  pagina_pdf: 714
+  taules:
+  - id: p53-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - prestatge_mural
+    - pes
+    - mesures
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '36320010'
+      cel_les:
+        codi: '36320010'
+        prestatge_mural: '31060010'
+        pes: '3'
+        mesures: 800x250x150
+        preu: '135'
+    - codi: '38320010'
+      cel_les:
+        codi: '38320010'
+        prestatge_mural: '33060010'
+        pes: '4'
+        mesures: 1200x250x150
+        preu: '165'
+    - codi: '31420010'
+      cel_les:
+        codi: '31420010'
+        prestatge_mural: '36060010'
+        pes: '5'
+        mesures: 1600x250x150
+        preu: '190'
+    - codi: '35420010'
+      cel_les:
+        codi: '35420010'
+        prestatge_mural: '39160010'
+        pes: 4,5
+        mesures: 800x400x250
+        preu: '155'
+    - codi: '37420010'
+      cel_les:
+        codi: '37420010'
+        prestatge_mural: '31260010'
+        pes: 5,5
+        mesures: 1200x400x250
+        preu: '190'
+      icones_en_columna:
+      - prestatge_mural
+    - codi: '30520010'
+      cel_les:
+        codi: '30520010'
+        prestatge_mural: '34260010'
+        pes: 6,5
+        mesures: 1600x400x250
+        preu: '225'
+    - codi: '38000010'
+      cel_les:
+        codi: '38000010'
+        prestatge_mural: ''
+        pes: 5,5
+        mesures: 800x400x250
+        preu: '270'
+    - codi: '32000010'
+      cel_les:
+        codi: '32000010'
+        prestatge_mural: ''
+        pes: 6,5
+        mesures: 1200x400x250
+        preu: '305'
+    - codi: '34000010'
+      cel_les:
+        codi: '34000010'
+        prestatge_mural: ''
+        pes: 7,5
+        mesures: 1600x400x250
+        preu: '350'
+- pagina_pub: 54
+  pagina_pdf: 715
+  taules:
+  - id: p54-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '31040020'
+      cel_les:
+        codi: '31040020'
+        pes: '5'
+        mesures: 600x400x230
+        preu: '280'
+    - codi: '32040020'
+      cel_les:
+        codi: '32040020'
+        pes: 5,5
+        mesures: 800x400x230
+        preu: '290'
+    - codi: '33040020'
+      cel_les:
+        codi: '33040020'
+        pes: '6'
+        mesures: 700x500x280
+        preu: '305'
+    - codi: '31010020'
+      cel_les:
+        codi: '31010020'
+        pes: '5'
+        mesures: 1115x400x180
+        preu: '520'
+    - codi: '32010020'
+      cel_les:
+        codi: '32010020'
+        pes: '6'
+        mesures: 1650x400x180
+        preu: '600'
+    - codi: '33010020'
+      cel_les:
+        codi: '33010020'
+        pes: '7'
+        mesures: 2180x400x180
+        preu: '675'
+    - codi: '31000120'
+      cel_les:
+        codi: '31000120'
+        pes: 1,5
+        mesures: 1000x150x100
+        preu: '170'
+    - codi: '32000120'
+      cel_les:
+        codi: '32000120'
+        pes: '2'
+        mesures: 1500x150x100
+        preu: '205'
+    - codi: '33000120'
+      cel_les:
+        codi: '33000120'
+        pes: 2,5
+        mesures: 2000x150x100
+        preu: '235'
+    - codi: '31020120'
+      cel_les:
+        codi: '31020120'
+        pes: 0,7
+        mesures: 600x50x60
+        preu: '170'
+    mapa_columnes: sense_colN(1 eliminades)
+- pagina_pub: 55
+  pagina_pdf: 716
+  taules:
+  - id: p55-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - gastronorm
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '31000210'
+      cel_les:
+        codi: 31000210 1
+        pes: '1'
+        mesures: 40x20x600
+        gastronorm: '-'
+        preu: '42'
+      cel_les_combinades:
+      - codi
+    - codi: '32000210'
+      cel_les:
+        codi: 32000210 1
+        pes: 1,5
+        mesures: 40x20x1000
+        gastronorm: '-'
+        preu: '51'
+      cel_les_combinades:
+      - codi
+    - codi: '33000210'
+      cel_les:
+        codi: 1 33000210
+        pes: '2'
+        mesures: 40x20x1500
+        gastronorm: '-'
+        preu: '68'
+      cel_les_combinades:
+      - codi
+    - codi: '31140010'
+      cel_les:
+        codi: 31140010 2
+        pes: '5'
+        mesures: 1000x400x250
+        gastronorm: '-'
+        preu: '180'
+      cel_les_combinades:
+      - codi
+    - codi: '33140010'
+      cel_les:
+        codi: 33140010 2
+        pes: 5,5
+        mesures: 1200x400x250
+        gastronorm: '-'
+        preu: '225'
+      cel_les_combinades:
+      - codi
+    - codi: '32140010'
+      cel_les:
+        codi: 2 32140010
+        pes: '6'
+        mesures: 1400x400x250
+        gastronorm: '-'
+        preu: '250'
+      icones_en_columna:
+      - codi
+      cel_les_combinades:
+      - codi
+    - codi: '31040010'
+      cel_les:
+        codi: 31040010 3
+        pes: 3,5
+        mesures: 1000x250x150
+        gastronorm: '-'
+        preu: '125'
+      cel_les_combinades:
+      - codi
+    - codi: '33040010'
+      cel_les:
+        codi: 33040010 3
+        pes: '4'
+        mesures: 1200x250x150
+        gastronorm: '-'
+        preu: '160'
+      cel_les_combinades:
+      - codi
+    - codi: '32040010'
+      cel_les:
+        codi: 3 32040010
+        pes: 4,5
+        mesures: 1400x250x150
+        gastronorm: '-'
+        preu: '175'
+      cel_les_combinades:
+      - codi
+    - codi: '31050010'
+      cel_les:
+        codi: 31050010 4
+        pes: '3'
+        mesures: 1000x250x150
+        gastronorm: 4 x 1/6-100
+        preu: '255'
+      cel_les_combinades:
+      - codi
+    - codi: '31150010'
+      cel_les:
+        codi: 4 31150010
+        pes: 4,5
+        mesures: 1000x400x250
+        gastronorm: 4 x 1/3-100
+        preu: '340'
+      cel_les_combinades:
+      - codi
+    mapa_columnes: sense_colN(2 eliminades)
+- pagina_pub: 56
+  pagina_pdf: 717
+  taules:
+  - id: p56-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - gastronorm
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 3102206N
+      cel_les:
+        codi: 3102206N
+        pes: 11,5
+        mesures: 1000x250x600
+        gastronorm: 4 x 1/6-100
+        preu: '465'
+    - codi: '31024200'
+      cel_les:
+        codi: '31024200'
+        pes: 10,5
+        mesures: 1000x400/250x600
+        gastronorm: '-'
+        preu: '390'
+    - codi: '31224200'
+      cel_les:
+        codi: '31224200'
+        pes: 11,5
+        mesures: 1200x400/250x600
+        gastronorm: '-'
+        preu: '470'
+    - codi: '31424200'
+      cel_les:
+        codi: '31424200'
+        pes: 12,5
+        mesures: 1400x400/250x600
+        gastronorm: '-'
+        preu: '510'
+    - codi: '31022000'
+      cel_les:
+        codi: '31022000'
+        pes: '7'
+        mesures: 1000x250x600
+        gastronorm: '-'
+        preu: '340'
+    - codi: '31222000'
+      cel_les:
+        codi: '31222000'
+        pes: '10'
+        mesures: 1200x250x600
+        gastronorm: '-'
+        preu: '410'
+    - codi: '31422000'
+      cel_les:
+        codi: '31422000'
+        pes: '11'
+        mesures: 1400x250x600
+        gastronorm: '-'
+        preu: '435'
+    - codi: '31024000'
+      cel_les:
+        codi: '31024000'
+        pes: '12'
+        mesures: 1000x400x600
+        gastronorm: '-'
+        preu: '445'
+    - codi: '31224000'
+      cel_les:
+        codi: '31224000'
+        pes: '13'
+        mesures: 1200x400x600
+        gastronorm: '-'
+        preu: '530'
+    - codi: '31424000'
+      cel_les:
+        codi: '31424000'
+        pes: '14'
+        mesures: 1400x400x600
+        gastronorm: '-'
+        preu: '585'
+    mapa_columnes: sense_colN(2 eliminades)
+  - id: p56-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - gastronorm
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 3103426N
+      cel_les:
+        codi: 3103426N
+        pes: '15'
+        mesures: 1000x400/250x1000
+        gastronorm: 4 x 1/3-100
+        preu: '750'
+    - codi: '31034200'
+      cel_les:
+        codi: '31034200'
+        pes: 16,5
+        mesures: 1000x400/250x1000
+        gastronorm: '-'
+        preu: '590'
+    - codi: '31234200'
+      cel_les:
+        codi: '31234200'
+        pes: '18'
+        mesures: 1200x400/250x1000
+        gastronorm: '-'
+        preu: '710'
+    - codi: '31434200'
+      cel_les:
+        codi: '31434200'
+        pes: 19,5
+        mesures: 1400x400/250x1000
+        gastronorm: '-'
+        preu: '775'
+    - codi: '31032000'
+      cel_les:
+        codi: '31032000'
+        pes: 13,5
+        mesures: 1000x250x1000
+        gastronorm: '-'
+        preu: '485'
+    - codi: '31232000'
+      cel_les:
+        codi: '31232000'
+        pes: '15'
+        mesures: 1200x250x1000
+        gastronorm: '-'
+        preu: '590'
+    - codi: '31432000'
+      cel_les:
+        codi: '31432000'
+        pes: 16,5
+        mesures: 1400x250x1000
+        gastronorm: '-'
+        preu: '625'
+    - codi: '31034000'
+      cel_les:
+        codi: '31034000'
+        pes: '18'
+        mesures: 1000x400x1000
+        gastronorm: '-'
+        preu: '645'
+    - codi: '31234000'
+      cel_les:
+        codi: '31234000'
+        pes: 19,5
+        mesures: 1200x400x1000
+        gastronorm: '-'
+        preu: '775'
+    - codi: '31434000'
+      cel_les:
+        codi: '31434000'
+        pes: '21'
+        mesures: 1400x400x1000
+        gastronorm: '-'
+        preu: '850'
+    mapa_columnes: sense_colN(2 eliminades)
+- pagina_pub: 59
+  pagina_pdf: 720
+  taules:
+  - id: p59-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - col3
+    - regulacio_alcada
+    - nivells_safates
+    - rodes
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '90845009'
+      cel_les:
+        codi: '90845009'
+        pes: '22'
+        mesures: 755x755x1800
+        col3: 100 - 330
+        regulacio_alcada: '60'
+        nivells_safates: '25'
+        rodes: '125'
+        preu: '980'
+    - codi: 9084500F
+      cel_les:
+        codi: 9084500F
+        pes: '26'
+        mesures: 755x755x1800
+        col3: 100 - 330
+        regulacio_alcada: '60'
+        nivells_safates: '25'
+        rodes: '125'
+        preu: '1.350'
+    - codi: '92030620'
+      cel_les:
+        codi: '92030620'
+        pes: '15'
+        mesures: 575x320x855
+        col3: 20 - 320
+        regulacio_alcada: '76'
+        nivells_safates: '10'
+        rodes: '-'
+        preu: '1.175'
+- pagina_pub: 60
+  pagina_pdf: 721
+  taules:
+  - id: p60-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - mesures_interiors
+    - capacitat_litres
+    - rodes
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '91070620'
+      cel_les:
+        codi: '91070620'
+        pes: '12'
+        mesures: 600x500x600
+        mesures_interiors: 600x500x300
+        capacitat_litres: '-'
+        rodes: '105'
+        preu: '745'
+    - codi: '93050620'
+      cel_les:
+        codi: '93050620'
+        pes: '18'
+        mesures: 610x400x725
+        mesures_interiors: '-'
+        capacitat_litres: '135'
+        rodes: '50'
+        preu: '805'
+    mapa_columnes: sense_colN(1 eliminades)
+- pagina_pub: 61
+  pagina_pdf: 722
+  taules:
+  - id: p61-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - carrega_maxima
+    - alcada
+    - nivells_safates
+    - rodes
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '94040620'
+      cel_les:
+        codi: '94040620'
+        pes: '20'
+        mesures: 900x600x950
+        carrega_maxima: '200'
+        alcada: '250'
+        nivells_safates: '3'
+        rodes: '125'
+        preu: '610'
+    - codi: '95040620'
+      cel_les:
+        codi: '95040620'
+        pes: '23'
+        mesures: 1000x600x950
+        carrega_maxima: '200'
+        alcada: '250'
+        nivells_safates: '3'
+        rodes: '125'
+        preu: '625'
+    - codi: '97040620'
+      cel_les:
+        codi: '97040620'
+        pes: '28'
+        mesures: 1000x600x1250
+        carrega_maxima: '200'
+        alcada: '250'
+        nivells_safates: '4'
+        rodes: '125'
+        preu: '1.020'
+    - codi: '92000620'
+      cel_les:
+        codi: '92000620'
+        pes: '24'
+        mesures: 1040x640x1050
+        carrega_maxima: '300'
+        alcada: '-'
+        nivells_safates: '1'
+        rodes: '150'
+        preu: '935'
+    - codi: '91040620'
+      cel_les:
+        codi: '91040620'
+        pes: '16'
+        mesures: 900x600x950
+        carrega_maxima: '200'
+        alcada: '535'
+        nivells_safates: '2'
+        rodes: '125'
+        preu: '470'
+    - codi: '92040620'
+      cel_les:
+        codi: '92040620'
+        pes: '18'
+        mesures: 1000x600x950
+        carrega_maxima: '200'
+        alcada: '535'
+        nivells_safates: '2'
+        rodes: '125'
+        preu: '495'
+- pagina_pub: 64
+  pagina_pdf: 725
+  taules:
+  - id: p64-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - alcada
+    - gastronorm
+    - rodes
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '91060620'
+      cel_les:
+        codi: '91060620'
+        pes: '18'
+        mesures: 460x630x1700
+        alcada: '75'
+        gastronorm: 18 - 1/1
+        rodes: '125'
+        preu: '690'
+    - codi: '91090620'
+      cel_les:
+        codi: '91090620'
+        pes: '23'
+        mesures: 660x750x1700
+        alcada: '75'
+        gastronorm: 18 - 2/1 ó 36 - 1/1
+        rodes: '125'
+        preu: '785'
+    - codi: 9106062F
+      cel_les:
+        codi: 9106062F
+        pes: '22'
+        mesures: 460x630x1700
+        alcada: '75'
+        gastronorm: 18 - 1/1
+        rodes: '125'
+        preu: '950'
+    - codi: 9109062F
+      cel_les:
+        codi: 9109062F
+        pes: '27'
+        mesures: 660x750x1700
+        alcada: '75'
+        gastronorm: 18 - 2/1 ó 36 - 1/1
+        rodes: '125'
+        preu: '1.065'
+    - codi: '91160620'
+      cel_les:
+        codi: '91160620'
+        pes: '12'
+        mesures: 460x630x900
+        alcada: '75'
+        gastronorm: 7 - 1/1
+        rodes: '125'
+        preu: '655'
+    - codi: '91190620'
+      cel_les:
+        codi: '91190620'
+        pes: '16'
+        mesures: 660x750x900
+        alcada: '75'
+        gastronorm: 7 - 2/1 ó 14 - 1/1
+        rodes: '125'
+        preu: '740'
+    - codi: '91001620'
+      cel_les:
+        codi: '91001620'
+        pes: '20'
+        mesures: 540x700x1700
+        alcada: '85'
+        gastronorm: 16 - 400x600
+        rodes: '125'
+        preu: '665'
+    mapa_columnes: sense_colN(1 eliminades)
+- pagina_pub: 65
+  pagina_pdf: 726
+  taules:
+  - id: p65-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - alcada
+    - prestatge
+    - rodes
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '91011620'
+      cel_les:
+        codi: '91011620'
+        pes: '17'
+        mesures: 570x650x1720
+        alcada: '100'
+        prestatge: '12'
+        rodes: '125'
+        preu: '875'
+    - codi: '92011620'
+      cel_les:
+        codi: '92011620'
+        pes: '31'
+        mesures: 570x650x1720
+        alcada: '100'
+        prestatge: '12'
+        rodes: '125'
+        preu: '1.325'
+    - codi: '91021620'
+      cel_les:
+        codi: '91021620'
+        pes: '27'
+        mesures: 970x650x1720
+        alcada: '100'
+        prestatge: 12 + 12
+        rodes: '125'
+        preu: '1.150'
+    - codi: '92021620'
+      cel_les:
+        codi: '92021620'
+        pes: '41'
+        mesures: 970x650x1720
+        alcada: '100'
+        prestatge: 12 + 12
+        rodes: '125'
+        preu: '1.575'
+    mapa_columnes: sense_colN(1 eliminades)
+- pagina_pub: 66
+  pagina_pdf: 727
+  taules:
+  - id: p66-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - pes
+    - mesures
+    - col3
+    - col4
+    - alcada
+    - guies_inclinades
+    - reixeta
+    - prestatge
+    - rodes
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '91051620'
+      cel_les:
+        codi: '91051620'
+        pes: '21'
+        mesures: 1165x570x850
+        col3: '150'
+        col4: '320'
+        alcada: '-'
+        guies_inclinades: '-'
+        reixeta: '2'
+        prestatge: '-'
+        rodes: '125'
+        preu: '1.110'
+    - codi: '91071620'
+      cel_les:
+        codi: '91071620'
+        pes: '16'
+        mesures: 625x640x1720
+        col3: '-'
+        col4: '-'
+        alcada: '200'
+        guies_inclinades: '7'
+        reixeta: '-'
+        prestatge: '-'
+        rodes: '125'
+        preu: '970'
+    - codi: '91010620'
+      cel_les:
+        codi: '91010620'
+        pes: '8'
+        mesures: 730x630x1050
+        col3: '-'
+        col4: '-'
+        alcada: '-'
+        guies_inclinades: '-'
+        reixeta: '-'
+        prestatge: '1'
+        rodes: '125'
+        preu: '515'
+    - codi: '91000620'
+      cel_les:
+        codi: '91000620'
+        pes: '5'
+        mesures: 520x520x250
+        col3: '-'
+        col4: '-'
+        alcada: '-'
+        guies_inclinades: '-'
+        reixeta: '-'
+        prestatge: '1'
+        rodes: '125'
+        preu: '330'
+- pagina_pub: 67
+  pagina_pdf: 728
+  taules:
+  - id: p67-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - mesures
+    - preu
+    - codi_2
+    - mesures_2
+    - preu_2
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A08006E
+      cel_les:
+        codi: 4A08006E
+        mesures: 800x600
+        preu: '175'
+    - codi: 4A08007E
+      cel_les:
+        codi_2: 4A08007E
+        mesures_2: 800x700
+        preu_2: '200'
+    - codi: 4A02106E
+      cel_les:
+        codi: 4A02106E
+        mesures: 1200x600
+        preu: '230'
+    - codi: 4A02107E
+      cel_les:
+        codi_2: 4A02107E
+        mesures_2: 1200x700
+        preu_2: '260'
+    - codi: 4A06106E
+      cel_les:
+        codi: 4A06106E
+        mesures: 1600x600
+        preu: '295'
+    - codi: 4A06107E
+      cel_les:
+        codi_2: 4A06107E
+        mesures_2: 1600x700
+        preu_2: '350'
+    - codi: 4A00206E
+      cel_les:
+        codi: 4A00206E
+        mesures: 2000x600
+        preu: '355'
+    - codi: 4A00207E
+      cel_les:
+        codi_2: 4A00207E
+        mesures_2: 2000x700
+        preu_2: '385'
+  - id: p67-t2
+    reconstruida: true
+    columnes:
+    - codi
+    - col1
+    - preu
+    - codi_2
+    - col4
+    - preu_2
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A610000
+      cel_les:
+        codi: 4A610000
+        col1: '550'
+        preu: '170'
+    - codi: 4A510000
+      cel_les:
+        codi_2: 4A510000
+        col4: '550'
+        preu_2: '170'
+    - codi: 4A600000
+      cel_les:
+        codi: 4A600000
+        col1: '600'
+        preu: '175'
+    - codi: 4A500000
+      cel_les:
+        codi_2: 4A500000
+        col4: '600'
+        preu_2: '175'
+    - codi: 4A800000
+      cel_les:
+        codi: 4A800000
+        col1: '700'
+        preu: '190'
+    - codi: 4A700000
+      cel_les:
+        codi_2: 4A700000
+        col4: '700'
+        preu_2: '190'
+    - codi: 4A810000
+      cel_les:
+        codi: 4A810000
+        col1: '800'
+        preu: '205'
+    - codi: 4A710000
+      cel_les:
+        codi_2: 4A710000
+        col4: '800'
+        preu_2: '205'
+  - id: p67-t3
+    reconstruida: true
+    columnes:
+    - codi
+    - col1
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A05500L
+      cel_les:
+        codi: 4A05500L
+        col1: '550'
+        preu: '160'
+    - codi: 4A00600L
+      cel_les:
+        codi: 4A00600L
+        col1: '600'
+        preu: '170'
+    - codi: 4A00700L
+      cel_les:
+        codi: 4A00700L
+        col1: '700'
+        preu: '180'
+    - codi: 4A00800L
+      cel_les:
+        codi: 4A00800L
+        col1: '800'
+        preu: '195'
+  - id: p67-t4
+    reconstruida: true
+    columnes:
+    - codi
+    - col1
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: '42130200'
+      cel_les:
+        codi: '42130200'
+        col1: 40x40
+        preu: '329'
+- pagina_pub: 68
+  pagina_pdf: 729
+  taules:
+  - id: p68-t1
+    reconstruida: true
+    columnes:
+    - codi
+    - col1
+    - preu
+    - codi_2
+    - preu_2
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 40R0000R
+      cel_les:
+        codi: 40R0000R
+        col1: ROJO □ RED □ ROUGE
+        preu: '76'
+    - codi: '16000028'
+      cel_les:
+        codi_2: '16000028'
+        preu_2: '39'
+    - codi: 4EV0000R
+      cel_les:
+        codi: 4EV0000R
+        col1: AMARILLO □ YELLOW □ JAUNE
+        preu: '76'
+    - codi: 4MA0000R
+      cel_les:
+        codi: 4MA0000R
+        col1: AZUL □ BLUE □ BLEU
+        preu: '76'
+    - codi: 42AD000R
+      cel_les:
+        codi: 42AD000R
+        col1: VERDE □ GREEN □ VERT
+        preu: '76'
+  - id: p68-t3
+    reconstruida: true
+    columnes:
+    - codi
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A902062
+      cel_les:
+        codi: 4A902062
+        preu: '260'
+  - id: p68-t4
+    reconstruida: true
+    columnes:
+    - codi
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A012062
+      cel_les:
+        codi: 4A012062
+        preu: '150'
+  - id: p68-t5
+    reconstruida: true
+    columnes:
+    - codi
+    - preu
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A702062
+      cel_les:
+        codi: 4A702062
+        preu: '140'
+  - id: p68-t6
+    reconstruida: true
+    columnes:
+    - codi
+    - mesures
+    - preu
+    - codi_2
+    - gastronorm
+    - preu_2
+    columnes_segons: capcalera del PDF (cel.les de la fila de capcalera)
+    files:
+    - codi: 4A608140
+      cel_les:
+        codi: 4A608140
+        mesures: 210x140x370
+        preu: '310'
+    - codi: CP161001
+      cel_les:
+        codi_2: CP161001
+        gastronorm: 1/6 - 100
+        preu_2: '22'
+    - codi: CP131001
+      cel_les:
+        codi_2: CP131001
+        gastronorm: 1/3 - 100
+        preu_2: '27'

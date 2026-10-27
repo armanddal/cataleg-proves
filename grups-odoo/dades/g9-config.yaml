@@ -1,0 +1,2859 @@
+# Generat per scripts/genera_config.py --grup 9 (editable; es pot regenerar)
+grup:
+  numero: 9
+  codi_odoo: G09
+families:
+- clau: ASADORES DE POLLOS A GAS DE 2 ESPADAS
+  noms:
+    es: ASADORES DE POLLOS A GAS DE 2 ESPADAS
+    en: GAS CHICKEN ROASTERS WITH 2 SWORDS
+    fr: RÔTISSOIRES À POULETS À GAZ AVEC 2 BROCHES
+  sequence: 10
+  tipus: producte
+  pagina: p07
+  taula: p07-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: pollastres
+    etiqueta: null
+  - codi: broquetes
+    etiqueta: null
+  - codi: llum
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '53100021'
+    ordre: 10
+    valors:
+      pollastres:
+        es: 10/12
+        en: 10/12
+        fr: 10/12
+      broquetes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      llum:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      potencia_electrica:
+        es: 85 W 230/1V
+        en: 85 W 230/1V
+        fr: 85 W 230/1V
+      potencia_gas:
+        es: 14 KW
+        en: 14 KW
+        fr: 14 KW
+  - codi: 53100L21
+    ordre: 20
+    valors:
+      pollastres:
+        es: 10/12
+        en: 10/12
+        fr: 10/12
+      broquetes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      llum:
+        es: OK
+        en: OK
+        fr: OK
+      potencia_electrica:
+        es: 110 W 230/1V
+        en: 110 W 230/1V
+        fr: 110 W 230/1V
+      potencia_gas:
+        es: 14 KW
+        en: 14 KW
+        fr: 14 KW
+  compartits: []
+- clau: ASADORES DE POLLOS A GAS ASADORES DE POLLOS ELÉCTRICOS DE 2 ESPADAS
+  noms:
+    es: ASADORES DE POLLOS A GAS ASADORES DE POLLOS ELÉCTRICOS DE 2 ESPADAS
+    en: GAS CHICKEN ROASTERS ELECTRIC CHICKEN ROASTERS WITH 2 SWORDS
+    fr: RÔTISSOIRES À POULETS À GAZ RÔTISSOIRES À POULETS ÉLÉCTRIQUES AVEC 2 BROCHES
+  sequence: 20
+  tipus: producte
+  pagina: p08
+  taula: p08-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: pollastres
+    etiqueta: null
+  - codi: broquetes
+    etiqueta: null
+  - codi: llum
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '53103021'
+    ordre: 10
+    valors:
+      pollastres:
+        es: 10/12
+        en: 10/12
+        fr: 10/12
+      broquetes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      llum:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      potencia_electrica:
+        es: 8,4 kW 400/3V
+        en: 8,4 kW 400/3V
+        fr: 8,4 kW 400/3V
+  - codi: 53103L21
+    ordre: 20
+    valors:
+      pollastres:
+        es: 10/12
+        en: 10/12
+        fr: 10/12
+      broquetes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      llum:
+        es: OK
+        en: OK
+        fr: OK
+      potencia_electrica:
+        es: 8,4 kW 400/3V
+        en: 8,4 kW 400/3V
+        fr: 8,4 kW 400/3V
+  compartits: []
+- clau: ASADORES DE POLLOS VITROCERÁMICOS ELÉCTRICOS DE 2 ESPADAS
+  noms:
+    es: ASADORES DE POLLOS VITROCERÁMICOS ELÉCTRICOS DE 2 ESPADAS
+    en: ELECTRIC GLASS CERAMIC CHICKEN ROASTERS WITH 2 SWORDS
+    fr: RÔTISSOIRES À POULETS VITROCERAMIQUE AVEC 2 BROCHES
+  sequence: 30
+  tipus: producte
+  pagina: p09
+  taula: p09-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: pollastres
+    etiqueta: null
+  - codi: broquetes
+    etiqueta: null
+  - codi: llum
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '53104021'
+    ordre: 10
+    valors:
+      pollastres:
+        es: 10/12
+        en: 10/12
+        fr: 10/12
+      broquetes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      llum:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      potencia_electrica:
+        es: 8,4 kW 400/3V
+        en: 8,4 kW 400/3V
+        fr: 8,4 kW 400/3V
+  - codi: 53104L21
+    ordre: 20
+    valors:
+      pollastres:
+        es: 10/12
+        en: 10/12
+        fr: 10/12
+      broquetes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      llum:
+        es: OK
+        en: OK
+        fr: OK
+      potencia_electrica:
+        es: 8,4 kW 400/3V
+        en: 8,4 kW 400/3V
+        fr: 8,4 kW 400/3V
+  compartits: []
+- clau: ASADORES DE POLLOS A GAS DE 3 ESPADAS
+  noms:
+    es: ASADORES DE POLLOS A GAS DE 3 ESPADAS
+    en: GAS CHICKEN ROASTERS WITH 3 SWORDS
+    fr: RÔTISSOIRES À POULETS À GAZ AVEC 3 BROCHES
+  sequence: 40
+  tipus: producte
+  pagina: p10
+  taula: p10-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: pollastres
+    etiqueta: null
+  - codi: broquetes
+    etiqueta: null
+  - codi: llum
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '53150081'
+    ordre: 10
+    valors:
+      pollastres:
+        es: 15/18
+        en: 15/18
+        fr: 15/18
+      broquetes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      llum:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      potencia_electrica:
+        es: 85 W 230/1V
+        en: 85 W 230/1V
+        fr: 85 W 230/1V
+      potencia_gas:
+        es: 21 KW
+        en: 21 KW
+        fr: 21 KW
+  - codi: 53150L81
+    ordre: 20
+    valors:
+      pollastres:
+        es: 15/18
+        en: 15/18
+        fr: 15/18
+      broquetes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      llum:
+        es: OK
+        en: OK
+        fr: OK
+      potencia_electrica:
+        es: 110 W 230/1V
+        en: 110 W 230/1V
+        fr: 110 W 230/1V
+      potencia_gas:
+        es: 21 KW
+        en: 21 KW
+        fr: 21 KW
+  compartits: []
+- clau: ASADORES DE POLLOS A GAS ASADORES DE POLLOS ELÉCTRICOS DE 3 ESPADAS
+  noms:
+    es: ASADORES DE POLLOS A GAS ASADORES DE POLLOS ELÉCTRICOS DE 3 ESPADAS
+    en: GAS CHICKEN ROASTERS ELECTRIC CHICKEN ROASTERS WITH 3 SWORDS
+    fr: RÔTISSOIRES À POULETS À GAZ RÔTISSOIRES À POULETS ÉLÉCTRIQUES AVEC 3 BROCHES
+  sequence: 50
+  tipus: producte
+  pagina: p11
+  taula: p11-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: pollastres
+    etiqueta: null
+  - codi: broquetes
+    etiqueta: null
+  - codi: llum
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '53153081'
+    ordre: 10
+    valors:
+      pollastres:
+        es: 15/18
+        en: 15/18
+        fr: 15/18
+      broquetes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      llum:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      potencia_electrica:
+        es: 12,6 kW 400/3V
+        en: 12,6 kW 400/3V
+        fr: 12,6 kW 400/3V
+  - codi: 53153L81
+    ordre: 20
+    valors:
+      pollastres:
+        es: 15/18
+        en: 15/18
+        fr: 15/18
+      broquetes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      llum:
+        es: OK
+        en: OK
+        fr: OK
+      potencia_electrica:
+        es: 12,6 kW 400/3V
+        en: 12,6 kW 400/3V
+        fr: 12,6 kW 400/3V
+  compartits: []
+- clau: ASADORES DE POLLOS VITROCERÁMICOS ELÉCTRICOS DE 3 ESPADAS
+  noms:
+    es: ASADORES DE POLLOS VITROCERÁMICOS ELÉCTRICOS DE 3 ESPADAS
+    en: ELECTRIC GLASS CERAMIC CHICKEN ROASTERS WITH 3 SWORDS
+    fr: RÔTISSOIRES À POULETS VITROCERAMIQUE AVEC 3 BROCHES
+  sequence: 60
+  tipus: producte
+  pagina: p12
+  taula: p12-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: pollastres
+    etiqueta: null
+  - codi: broquetes
+    etiqueta: null
+  - codi: llum
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '53154081'
+    ordre: 10
+    valors:
+      pollastres:
+        es: 15/18
+        en: 15/18
+        fr: 15/18
+      broquetes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      llum:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      potencia_electrica:
+        es: 12,6 kW 400/3V
+        en: 12,6 kW 400/3V
+        fr: 12,6 kW 400/3V
+  - codi: 53154L81
+    ordre: 20
+    valors:
+      pollastres:
+        es: 15/18
+        en: 15/18
+        fr: 15/18
+      broquetes:
+        es: '3'
+        en: '3'
+        fr: '3'
+      llum:
+        es: OK
+        en: OK
+        fr: OK
+      potencia_electrica:
+        es: 12,6 kW 400/3V
+        en: 12,6 kW 400/3V
+        fr: 12,6 kW 400/3V
+  compartits: []
+- clau: ASADORES DE POLLOS A GAS DE 4 ESPADAS
+  noms:
+    es: ASADORES DE POLLOS A GAS DE 4 ESPADAS
+    en: GAS CHICKEN ROASTERS WITH 4 SWORDS
+    fr: RÔTISSOIRES À POULETS À GAZ AVEC 4 BROCHES
+  sequence: 70
+  tipus: producte
+  pagina: p13
+  taula: p13-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: pollastres
+    etiqueta: null
+  - codi: broquetes
+    etiqueta: null
+  - codi: llum
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '53200042'
+    ordre: 10
+    valors:
+      pollastres:
+        es: 20/24
+        en: 20/24
+        fr: 20/24
+      broquetes:
+        es: '4'
+        en: '4'
+        fr: '4'
+      llum:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      potencia_electrica:
+        es: 85 W 230/1V
+        en: 85 W 230/1V
+        fr: 85 W 230/1V
+      potencia_gas:
+        es: 28 KW
+        en: 28 KW
+        fr: 28 KW
+  - codi: 53200L42
+    ordre: 20
+    valors:
+      pollastres:
+        es: 20/24
+        en: 20/24
+        fr: 20/24
+      broquetes:
+        es: '4'
+        en: '4'
+        fr: '4'
+      llum:
+        es: OK
+        en: OK
+        fr: OK
+      potencia_electrica:
+        es: 110 W 230/1V
+        en: 110 W 230/1V
+        fr: 110 W 230/1V
+      potencia_gas:
+        es: 28 KW
+        en: 28 KW
+        fr: 28 KW
+  compartits: []
+- clau: ASADORES DE POLLOS A GAS ASADORES DE POLLOS ELÉCTRICOS DE 4 ESPADAS
+  noms:
+    es: ASADORES DE POLLOS A GAS ASADORES DE POLLOS ELÉCTRICOS DE 4 ESPADAS
+    en: GAS CHICKEN ROASTERS ELECTRIC CHICKEN ROASTERS WITH 4 SWORDS
+    fr: RÔTISSOIRES À POULETS À GAZ RÔTISSOIRES À POULETS ÉLÉCTRIQUES AVEC 4 BROCHES
+  sequence: 80
+  tipus: producte
+  pagina: p14
+  taula: p14-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: pollastres
+    etiqueta: null
+  - codi: broquetes
+    etiqueta: null
+  - codi: llum
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '53203042'
+    ordre: 10
+    valors:
+      pollastres:
+        es: 20/24
+        en: 20/24
+        fr: 20/24
+      broquetes:
+        es: '4'
+        en: '4'
+        fr: '4'
+      llum:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      potencia_electrica:
+        es: 16,8 kW 400/3V
+        en: 16,8 kW 400/3V
+        fr: 16,8 kW 400/3V
+  - codi: 53203L42
+    ordre: 20
+    valors:
+      pollastres:
+        es: 20/24
+        en: 20/24
+        fr: 20/24
+      broquetes:
+        es: '4'
+        en: '4'
+        fr: '4'
+      llum:
+        es: OK
+        en: OK
+        fr: OK
+      potencia_electrica:
+        es: 16,8 kW 400/3V
+        en: 16,8 kW 400/3V
+        fr: 16,8 kW 400/3V
+  compartits: []
+- clau: ASADORES DE POLLOS VITROCERÁMICOS ELÉCTRICOS DE 4 ESPADAS
+  noms:
+    es: ASADORES DE POLLOS VITROCERÁMICOS ELÉCTRICOS DE 4 ESPADAS
+    en: ELECTRIC GLASS CERAMIC CHICKEN ROASTERS WITH 4 SWORDS
+    fr: RÔTISSOIRES À POULETS VITROCERAMIQUE AVEC 4 BROCHES
+  sequence: 90
+  tipus: producte
+  pagina: p15
+  taula: p15-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: pollastres
+    etiqueta: null
+  - codi: broquetes
+    etiqueta: null
+  - codi: llum
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '53204042'
+    ordre: 10
+    valors:
+      pollastres:
+        es: 20/24
+        en: 20/24
+        fr: 20/24
+      broquetes:
+        es: '4'
+        en: '4'
+        fr: '4'
+      llum:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      potencia_electrica:
+        es: 16,8 kW 400/3V
+        en: 16,8 kW 400/3V
+        fr: 16,8 kW 400/3V
+  - codi: 53204L42
+    ordre: 20
+    valors:
+      pollastres:
+        es: 20/24
+        en: 20/24
+        fr: 20/24
+      broquetes:
+        es: '4'
+        en: '4'
+        fr: '4'
+      llum:
+        es: OK
+        en: OK
+        fr: OK
+      potencia_electrica:
+        es: 16,8 kW 400/3V
+        en: 16,8 kW 400/3V
+        fr: 16,8 kW 400/3V
+  compartits: []
+- clau: ASADORES DE POLLOS A GAS DE 6 ESPADAS
+  noms:
+    es: ASADORES DE POLLOS A GAS DE 6 ESPADAS
+    en: GAS CHICKEN ROASTERS WITH 6 SWORDS
+    fr: RÔTISSOIRES À POULETS À GAZ AVEC 6 BROCHES
+  sequence: 100
+  tipus: producte
+  pagina: p16
+  taula: p16-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: pollastres
+    etiqueta: null
+  - codi: broquetes
+    etiqueta: null
+  - codi: llum
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '53300063'
+    ordre: 10
+    valors:
+      pollastres:
+        es: 30/36
+        en: 30/36
+        fr: 30/36
+      broquetes:
+        es: '6'
+        en: '6'
+        fr: '6'
+      llum:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      potencia_electrica:
+        es: 85 W 230/1V
+        en: 85 W 230/1V
+        fr: 85 W 230/1V
+      potencia_gas:
+        es: 42 KW
+        en: 42 KW
+        fr: 42 KW
+  - codi: 53300L63
+    ordre: 20
+    valors:
+      pollastres:
+        es: 30/36
+        en: 30/36
+        fr: 30/36
+      broquetes:
+        es: '6'
+        en: '6'
+        fr: '6'
+      llum:
+        es: OK
+        en: OK
+        fr: OK
+      potencia_electrica:
+        es: 110 W 230/1V
+        en: 110 W 230/1V
+        fr: 110 W 230/1V
+      potencia_gas:
+        es: 42 KW
+        en: 42 KW
+        fr: 42 KW
+  compartits: []
+- clau: ASADORES DE POLLOS A GAS ASADORES DE POLLOS ELÉCTRICOS DE 6 ESPADAS
+  noms:
+    es: ASADORES DE POLLOS A GAS ASADORES DE POLLOS ELÉCTRICOS DE 6 ESPADAS
+    en: GAS CHICKEN ROASTERS ELECTRIC CHICKEN ROASTERS WITH 6 SWORDS
+    fr: RÔTISSOIRES À POULETS À GAZ RÔTISSOIRES À POULETS ÉLÉCTRIQUES AVEC 6 BROCHES
+  sequence: 110
+  tipus: producte
+  pagina: p17
+  taula: p17-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: pollastres
+    etiqueta: null
+  - codi: broquetes
+    etiqueta: null
+  - codi: llum
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '53303063'
+    ordre: 10
+    valors:
+      pollastres:
+        es: 30/36
+        en: 30/36
+        fr: 30/36
+      broquetes:
+        es: '6'
+        en: '6'
+        fr: '6'
+      llum:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      potencia_electrica:
+        es: 25,2 kW 400/3V
+        en: 25,2 kW 400/3V
+        fr: 25,2 kW 400/3V
+  - codi: 53303L63
+    ordre: 20
+    valors:
+      pollastres:
+        es: 30/36
+        en: 30/36
+        fr: 30/36
+      broquetes:
+        es: '6'
+        en: '6'
+        fr: '6'
+      llum:
+        es: OK
+        en: OK
+        fr: OK
+      potencia_electrica:
+        es: 25,2 kW 400/3V
+        en: 25,2 kW 400/3V
+        fr: 25,2 kW 400/3V
+  compartits: []
+- clau: ASADORES DE POLLOS VITROCERÁMICOS ELÉCTRICOS DE 6 ESPADAS
+  noms:
+    es: ASADORES DE POLLOS VITROCERÁMICOS ELÉCTRICOS DE 6 ESPADAS
+    en: ELECTRIC GLASS CERAMIC CHICKEN ROASTERS WITH 6 SWORDS
+    fr: RÔTISSOIRES À POULETS VITROCERAMIQUE AVEC 6 BROCHES
+  sequence: 120
+  tipus: producte
+  pagina: p18
+  taula: p18-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: pollastres
+    etiqueta: null
+  - codi: broquetes
+    etiqueta: null
+  - codi: llum
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '53304063'
+    ordre: 10
+    valors:
+      pollastres:
+        es: 30/36
+        en: 30/36
+        fr: 30/36
+      broquetes:
+        es: '6'
+        en: '6'
+        fr: '6'
+      llum:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      potencia_electrica:
+        es: 25,2 kW 400/3V
+        en: 25,2 kW 400/3V
+        fr: 25,2 kW 400/3V
+  - codi: 53304L63
+    ordre: 20
+    valors:
+      pollastres:
+        es: 30/36
+        en: 30/36
+        fr: 30/36
+      broquetes:
+        es: '6'
+        en: '6'
+        fr: '6'
+      llum:
+        es: OK
+        en: OK
+        fr: OK
+      potencia_electrica:
+        es: 25,2 kW 400/3V
+        en: 25,2 kW 400/3V
+        fr: 25,2 kW 400/3V
+  compartits: []
+- clau: ASADORES DE POLLOS A GAS DE 8 ESPADAS
+  noms:
+    es: ASADORES DE POLLOS A GAS DE 8 ESPADAS
+    en: GAS CHICKEN ROASTERS WITH 8 SWORDS
+    fr: RÔTISSOIRES À POULETS À GAZ AVEC 8 BROCHES
+  sequence: 130
+  tipus: producte
+  pagina: p19
+  taula: p19-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: pollastres
+    etiqueta: null
+  - codi: broquetes
+    etiqueta: null
+  - codi: llum
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '53400084'
+    ordre: 10
+    valors:
+      pollastres:
+        es: 40/48
+        en: 40/48
+        fr: 40/48
+      broquetes:
+        es: '8'
+        en: '8'
+        fr: '8'
+      llum:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      potencia_electrica:
+        es: 85 W 230/1V
+        en: 85 W 230/1V
+        fr: 85 W 230/1V
+      potencia_gas:
+        es: 56 KW
+        en: 56 KW
+        fr: 56 KW
+  - codi: 53400L84
+    ordre: 20
+    valors:
+      pollastres:
+        es: 40/48
+        en: 40/48
+        fr: 40/48
+      broquetes:
+        es: '8'
+        en: '8'
+        fr: '8'
+      llum:
+        es: OK
+        en: OK
+        fr: OK
+      potencia_electrica:
+        es: 110 W 230/1V
+        en: 110 W 230/1V
+        fr: 110 W 230/1V
+      potencia_gas:
+        es: 56 KW
+        en: 56 KW
+        fr: 56 KW
+  compartits: []
+- clau: ASADORES DE POLLOS A GAS ASADORES DE POLLOS ELÉCTRICOS DE 8 ESPADAS
+  noms:
+    es: ASADORES DE POLLOS A GAS ASADORES DE POLLOS ELÉCTRICOS DE 8 ESPADAS
+    en: GAS CHICKEN ROASTERS ELECTRIC CHICKEN ROASTERS WITH 8 SWORDS
+    fr: RÔTISSOIRES À POULETS À GAZ RÔTISSOIRES À POULETS ÉLÉCTRIQUES AVEC 8 BROCHES
+  sequence: 140
+  tipus: producte
+  pagina: p20
+  taula: p20-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: pollastres
+    etiqueta: null
+  - codi: broquetes
+    etiqueta: null
+  - codi: llum
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '53403084'
+    ordre: 10
+    valors:
+      pollastres:
+        es: 40/48
+        en: 40/48
+        fr: 40/48
+      broquetes:
+        es: '8'
+        en: '8'
+        fr: '8'
+      llum:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      potencia_electrica:
+        es: 33,6 kW 400/3V
+        en: 33,6 kW 400/3V
+        fr: 33,6 kW 400/3V
+  - codi: 53403L84
+    ordre: 20
+    valors:
+      pollastres:
+        es: 40/48
+        en: 40/48
+        fr: 40/48
+      broquetes:
+        es: '8'
+        en: '8'
+        fr: '8'
+      llum:
+        es: OK
+        en: OK
+        fr: OK
+      potencia_electrica:
+        es: 33,6 kW 400/3V
+        en: 33,6 kW 400/3V
+        fr: 33,6 kW 400/3V
+  compartits: []
+- clau: ASADORES DE POLLOS VITROCERÁMICOS ELÉCTRICOS DE 8 ESPADAS
+  noms:
+    es: ASADORES DE POLLOS VITROCERÁMICOS ELÉCTRICOS DE 8 ESPADAS
+    en: ELECTRIC GLASS CERAMIC CHICKEN ROASTERS WITH 8 SWORDS
+    fr: RÔTISSOIRES À POULETS VITROCERAMIQUE AVEC 8 BROCHES
+  sequence: 150
+  tipus: producte
+  pagina: p21
+  taula: p21-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: pollastres
+    etiqueta: null
+  - codi: broquetes
+    etiqueta: null
+  - codi: llum
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '53404084'
+    ordre: 10
+    valors:
+      pollastres:
+        es: 40/48
+        en: 40/48
+        fr: 40/48
+      broquetes:
+        es: '8'
+        en: '8'
+        fr: '8'
+      llum:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      potencia_electrica:
+        es: 33,6 kW 400/3V
+        en: 33,6 kW 400/3V
+        fr: 33,6 kW 400/3V
+  - codi: 53404L84
+    ordre: 20
+    valors:
+      pollastres:
+        es: 40/48
+        en: 40/48
+        fr: 40/48
+      broquetes:
+        es: '8'
+        en: '8'
+        fr: '8'
+      llum:
+        es: OK
+        en: OK
+        fr: OK
+      potencia_electrica:
+        es: 33,6 kW 400/3V
+        en: 33,6 kW 400/3V
+        fr: 33,6 kW 400/3V
+  compartits: []
+- clau: ASADORES DE POLLOS DE DOBLE ESPADA A GAS DE 11 ESPADAS
+  noms:
+    es: ASADORES DE POLLOS DE DOBLE ESPADA A GAS DE 11 ESPADAS
+    en: DOUBLE SPEAR GAS CHICKEN ROASTERS WITH 11 SWORDS
+    fr: RÔTISSOIRES À POULETS DE DOUBLES BROCHES À GAZ AVEC 11 BROCHES
+  sequence: 160
+  tipus: producte
+  pagina: p22
+  taula: p22-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: pollastres
+    etiqueta: null
+  - codi: broquetes
+    etiqueta: null
+  - codi: llum
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '53550066'
+    ordre: 10
+    valors:
+      pollastres:
+        es: 55/66
+        en: 55/66
+        fr: 55/66
+      broquetes:
+        es: '11'
+        en: '11'
+        fr: '11'
+      llum:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      potencia_electrica:
+        es: 85 W 230/1V
+        en: 85 W 230/1V
+        fr: 85 W 230/1V
+      potencia_gas:
+        es: 42 KW
+        en: 42 KW
+        fr: 42 KW
+  - codi: 53550L66
+    ordre: 20
+    valors:
+      pollastres:
+        es: 55/66
+        en: 55/66
+        fr: 55/66
+      broquetes:
+        es: '11'
+        en: '11'
+        fr: '11'
+      llum:
+        es: OK
+        en: OK
+        fr: OK
+      potencia_electrica:
+        es: 110 W 230/1V
+        en: 110 W 230/1V
+        fr: 110 W 230/1V
+      potencia_gas:
+        es: 42 KW
+        en: 42 KW
+        fr: 42 KW
+  compartits: []
+- clau: ASADORES DE POLLOS DE DOBLE ESPADA ELÉCTRICOS DE 11 ESPADAS
+  noms:
+    es: ASADORES DE POLLOS DE DOBLE ESPADA ELÉCTRICOS DE 11 ESPADAS
+    en: ELECTRIC DOUBLE SPEAR GAS CHICKEN ROASTERS WITH 11 SWORDS
+    fr: RÔTISSOIRES À POULETS DE DOUBLES BROCHES ÉLÉCTRIQUES AVEC 11 BROCHES
+  sequence: 170
+  tipus: producte
+  pagina: p23
+  taula: p23-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: pollastres
+    etiqueta: null
+  - codi: broquetes
+    etiqueta: null
+  - codi: llum
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '53553066'
+    ordre: 10
+    valors:
+      pollastres:
+        es: 55/66
+        en: 55/66
+        fr: 55/66
+      broquetes:
+        es: '11'
+        en: '11'
+        fr: '11'
+      llum:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      potencia_electrica:
+        es: 25,2 kW 400/3V
+        en: 25,2 kW 400/3V
+        fr: 25,2 kW 400/3V
+  - codi: 53553L66
+    ordre: 20
+    valors:
+      pollastres:
+        es: 55/66
+        en: 55/66
+        fr: 55/66
+      broquetes:
+        es: '11'
+        en: '11'
+        fr: '11'
+      llum:
+        es: OK
+        en: OK
+        fr: OK
+      potencia_electrica:
+        es: 25,2 kW 400/3V
+        en: 25,2 kW 400/3V
+        fr: 25,2 kW 400/3V
+  compartits: []
+- clau: ASADORES DE POLLOS DE DOBLE ESPADA VITROCERÁMICOS ELÉCTRICOS DE 11 ESPADAS
+  noms:
+    es: ASADORES DE POLLOS DE DOBLE ESPADA VITROCERÁMICOS ELÉCTRICOS DE 11 ESPADAS
+    en: ELECTRIC DOUBLE SPEAR VITROCERAMIC CHICKEN ROASTERS WITH 11 SWORDS
+    fr: RÔTISSOIRES À POULETS DE DOUBLES BROCHES ÉLÉCTRIQUES EN VITROCÉRAMIQUE AVEC 11 BROCHES
+  sequence: 180
+  tipus: producte
+  pagina: p24
+  taula: p24-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: pollastres
+    etiqueta: null
+  - codi: broquetes
+    etiqueta: null
+  - codi: llum
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '53554066'
+    ordre: 10
+    valors:
+      pollastres:
+        es: 55/66
+        en: 55/66
+        fr: 55/66
+      broquetes:
+        es: '11'
+        en: '11'
+        fr: '11'
+      llum:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      potencia_electrica:
+        es: 25,2 kW 400/3V
+        en: 25,2 kW 400/3V
+        fr: 25,2 kW 400/3V
+  - codi: 53554L66
+    ordre: 20
+    valors:
+      pollastres:
+        es: 55/66
+        en: 55/66
+        fr: 55/66
+      broquetes:
+        es: '11'
+        en: '11'
+        fr: '11'
+      llum:
+        es: OK
+        en: OK
+        fr: OK
+      potencia_electrica:
+        es: 25,2 kW 400/3V
+        en: 25,2 kW 400/3V
+        fr: 25,2 kW 400/3V
+  compartits: []
+- clau: ASADORES DE POLLOS DE DOBLE ESPADA A GAS DE 15 ESPADAS
+  noms:
+    es: ASADORES DE POLLOS DE DOBLE ESPADA A GAS DE 15 ESPADAS
+    en: DOUBLE SPEAR GAS CHICKEN ROASTERS WITH 15 SWORDS
+    fr: RÔTISSOIRES À POULETS DE DOUBLES BROCHES À GAZ AVEC 15 BROCHES
+  sequence: 190
+  tipus: producte
+  pagina: p25
+  taula: p25-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: pollastres
+    etiqueta: null
+  - codi: broquetes
+    etiqueta: null
+  - codi: llum
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '53750009'
+    ordre: 10
+    valors:
+      pollastres:
+        es: 75/90
+        en: 75/90
+        fr: 75/90
+      broquetes:
+        es: '15'
+        en: '15'
+        fr: '15'
+      llum:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      potencia_electrica:
+        es: 85 W 230/1V
+        en: 85 W 230/1V
+        fr: 85 W 230/1V
+      potencia_gas:
+        es: 56 KW
+        en: 56 KW
+        fr: 56 KW
+  - codi: 53750L09
+    ordre: 20
+    valors:
+      pollastres:
+        es: 75/90
+        en: 75/90
+        fr: 75/90
+      broquetes:
+        es: '15'
+        en: '15'
+        fr: '15'
+      llum:
+        es: OK
+        en: OK
+        fr: OK
+      potencia_electrica:
+        es: 110 W 230/1V
+        en: 110 W 230/1V
+        fr: 110 W 230/1V
+      potencia_gas:
+        es: 56 KW
+        en: 56 KW
+        fr: 56 KW
+  compartits: []
+- clau: ASADORES DE POLLOS DE DOBLE ESPADA ELÉCTRICOS DE 15 ESPADAS
+  noms:
+    es: ASADORES DE POLLOS DE DOBLE ESPADA ELÉCTRICOS DE 15 ESPADAS
+    en: ELECTRIC DOUBLE SPEAR GAS CHICKEN ROASTERS WITH 15 SWORDS
+    fr: RÔTISSOIRES À POULETS DE DOUBLES BROCHES ÉLÉCTRIQUES AVEC 15 BROCHES
+  sequence: 200
+  tipus: producte
+  pagina: p26
+  taula: p26-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: pollastres
+    etiqueta: null
+  - codi: broquetes
+    etiqueta: null
+  - codi: llum
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '53753009'
+    ordre: 10
+    valors:
+      pollastres:
+        es: 75/90
+        en: 75/90
+        fr: 75/90
+      broquetes:
+        es: '15'
+        en: '15'
+        fr: '15'
+      llum:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      potencia_electrica:
+        es: 33,6 kW 400/3V
+        en: 33,6 kW 400/3V
+        fr: 33,6 kW 400/3V
+  - codi: 53753L09
+    ordre: 20
+    valors:
+      pollastres:
+        es: 75/90
+        en: 75/90
+        fr: 75/90
+      broquetes:
+        es: '15'
+        en: '15'
+        fr: '15'
+      llum:
+        es: OK
+        en: OK
+        fr: OK
+      potencia_electrica:
+        es: 33,6 kW 400/3V
+        en: 33,6 kW 400/3V
+        fr: 33,6 kW 400/3V
+  compartits: []
+- clau: ASADORES DE POLLOS DE DOBLE ESPADA VITROCERÁMICOS ELÉCTRICOS DE 15 ESPADAS
+  noms:
+    es: ASADORES DE POLLOS DE DOBLE ESPADA VITROCERÁMICOS ELÉCTRICOS DE 15 ESPADAS
+    en: ELECTRIC DOUBLE SPEAR VITROCERAMIC CHICKEN ROASTERS WITH 15 SWORDS
+    fr: RÔTISSOIRES À POULETS DE DOUBLES BROCHES ÉLÉCTRIQUES EN VITROCÉRAMIQUE AVEC 15 BROCHES
+  sequence: 210
+  tipus: producte
+  pagina: p27
+  taula: p27-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: pollastres
+    etiqueta: null
+  - codi: broquetes
+    etiqueta: null
+  - codi: llum
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '53754009'
+    ordre: 10
+    valors:
+      pollastres:
+        es: 75/90
+        en: 75/90
+        fr: 75/90
+      broquetes:
+        es: '15'
+        en: '15'
+        fr: '15'
+      llum:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      potencia_electrica:
+        es: 33,6 kW 400/3V
+        en: 33,6 kW 400/3V
+        fr: 33,6 kW 400/3V
+  - codi: 53754L09
+    ordre: 20
+    valors:
+      pollastres:
+        es: 75/90
+        en: 75/90
+        fr: 75/90
+      broquetes:
+        es: '15'
+        en: '15'
+        fr: '15'
+      llum:
+        es: OK
+        en: OK
+        fr: OK
+      potencia_electrica:
+        es: 33,6 kW 400/3V
+        en: 33,6 kW 400/3V
+        fr: 33,6 kW 400/3V
+  compartits: []
+- clau: ASADORES DE POLLOS PLANETARIOS A GAS DE 4 ESPADAS
+  noms:
+    es: ASADORES DE POLLOS PLANETARIOS A GAS DE 4 ESPADAS
+    en: PLANETARY GAS CHICKEN ROASTERS WITH 4 SWORDS
+    fr: RÔTISSOIRES À POULETS À GAZ AVEC 4 BROCHES
+  sequence: 220
+  tipus: producte
+  pagina: p31
+  taula: p31-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: pollastres
+    etiqueta: null
+  - codi: broquetes
+    etiqueta: null
+  - codi: llum
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 5320P042
+    ordre: 10
+    valors:
+      pollastres:
+        es: 20/24
+        en: 20/24
+        fr: 20/24
+      broquetes:
+        es: '4'
+        en: '4'
+        fr: '4'
+      llum:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      potencia_electrica:
+        es: 170 W 230/1V
+        en: 170 W 230/1V
+        fr: 170 W 230/1V
+      potencia_gas:
+        es: 14 KW
+        en: 14 KW
+        fr: 14 KW
+  - codi: 5320PL42
+    ordre: 20
+    valors:
+      pollastres:
+        es: 20/24
+        en: 20/24
+        fr: 20/24
+      broquetes:
+        es: '4'
+        en: '4'
+        fr: '4'
+      llum:
+        es: OK
+        en: OK
+        fr: OK
+      potencia_electrica:
+        es: 195 W 230/1V
+        en: 195 W 230/1V
+        fr: 195 W 230/1V
+      potencia_gas:
+        es: 14 KW
+        en: 14 KW
+        fr: 14 KW
+  compartits: []
+- clau: ASADORES DE POLLOS PLANETARIOS A GAS DE 8 ESPADAS
+  noms:
+    es: ASADORES DE POLLOS PLANETARIOS A GAS DE 8 ESPADAS
+    en: PLANETARY GAS CHICKEN ROASTERS WITH 8 SWORDS
+    fr: RÔTISSOIRES À POULETS À GAZ AVEC 8 BROCHES
+  sequence: 230
+  tipus: producte
+  pagina: p32
+  taula: p32-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: pollastres
+    etiqueta: null
+  - codi: broquetes
+    etiqueta: null
+  - codi: llum
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 5340P084
+    ordre: 10
+    valors:
+      pollastres:
+        es: 40/48
+        en: 40/48
+        fr: 40/48
+      broquetes:
+        es: '8'
+        en: '8'
+        fr: '8'
+      llum:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      potencia_electrica:
+        es: 340 W 230/1V
+        en: 340 W 230/1V
+        fr: 340 W 230/1V
+      potencia_gas:
+        es: 28 KW
+        en: 28 KW
+        fr: 28 KW
+  - codi: 5340PL84
+    ordre: 20
+    valors:
+      pollastres:
+        es: 40/48
+        en: 40/48
+        fr: 40/48
+      broquetes:
+        es: '8'
+        en: '8'
+        fr: '8'
+      llum:
+        es: OK
+        en: OK
+        fr: OK
+      potencia_electrica:
+        es: 365 W 230/1V
+        en: 365 W 230/1V
+        fr: 365 W 230/1V
+      potencia_gas:
+        es: 28 KW
+        en: 28 KW
+        fr: 28 KW
+  compartits: []
+- clau: ASADORES DE POLLOS PLANETARIOS A GAS DE 12 ESPADAS
+  noms:
+    es: ASADORES DE POLLOS PLANETARIOS A GAS DE 12 ESPADAS
+    en: PLANETARY GAS CHICKEN ROASTERS WITH 12 SWORDS
+    fr: RÔTISSOIRES À POULETS À GAZ AVEC 12 BROCHES
+  sequence: 240
+  tipus: producte
+  pagina: p33
+  taula: p33-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: pollastres
+    etiqueta: null
+  - codi: broquetes
+    etiqueta: null
+  - codi: llum
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 5360P027
+    ordre: 10
+    valors:
+      pollastres:
+        es: 60/72
+        en: 60/72
+        fr: 60/72
+      broquetes:
+        es: '12'
+        en: '12'
+        fr: '12'
+      llum:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      potencia_electrica:
+        es: 510 W 230/1V
+        en: 510 W 230/1V
+        fr: 510 W 230/1V
+      potencia_gas:
+        es: 42 KW
+        en: 42 KW
+        fr: 42 KW
+  - codi: 5360PL27
+    ordre: 20
+    valors:
+      pollastres:
+        es: 60/72
+        en: 60/72
+        fr: 60/72
+      broquetes:
+        es: '12'
+        en: '12'
+        fr: '12'
+      llum:
+        es: OK
+        en: OK
+        fr: OK
+      potencia_electrica:
+        es: 535 W 230/1V
+        en: 535 W 230/1V
+        fr: 535 W 230/1V
+      potencia_gas:
+        es: 42 KW
+        en: 42 KW
+        fr: 42 KW
+  compartits: []
+- clau: ASADORES DE POLLOS PLANETARIOS A GAS DE 16 ESPADAS
+  noms:
+    es: ASADORES DE POLLOS PLANETARIOS A GAS DE 16 ESPADAS
+    en: PLANETARY GAS CHICKEN ROASTERS WITH 16 SWORDS
+    fr: RÔTISSOIRES À POULETS À GAZ AVEC 16 BROCHES
+  sequence: 250
+  tipus: producte
+  pagina: p34
+  taula: p34-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: pollastres
+    etiqueta: null
+  - codi: broquetes
+    etiqueta: null
+  - codi: llum
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: potencia_gas
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 5380P069
+    ordre: 10
+    valors:
+      pollastres:
+        es: 80/96
+        en: 80/96
+        fr: 80/96
+      broquetes:
+        es: '16'
+        en: '16'
+        fr: '16'
+      llum:
+        es: 'NO'
+        en: 'NO'
+        fr: 'NO'
+      potencia_electrica:
+        es: 680 W 230/1V
+        en: 680 W 230/1V
+        fr: 680 W 230/1V
+      potencia_gas:
+        es: 56 KW
+        en: 56 KW
+        fr: 56 KW
+  - codi: 5380PL69
+    ordre: 20
+    valors:
+      pollastres:
+        es: 80/96
+        en: 80/96
+        fr: 80/96
+      broquetes:
+        es: '16'
+        en: '16'
+        fr: '16'
+      llum:
+        es: OK
+        en: OK
+        fr: OK
+      potencia_electrica:
+        es: 705 W 230/1V
+        en: 705 W 230/1V
+        fr: 705 W 230/1V
+      potencia_gas:
+        es: 56 KW
+        en: 56 KW
+        fr: 56 KW
+  compartits: []
+- clau: VITRINAS CALEFACTORAS
+  noms:
+    es: VITRINAS CALEFACTORAS
+    en: HEATING SHOWCASES
+    fr: VITRINES DE CHAUFFAGE
+  sequence: 260
+  tipus: producte
+  pagina: p37
+  taula: p37-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: energia
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: pollastres
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: nivells
+    etiqueta: null
+  - codi: material_porta
+    etiqueta: null
+  - codi: llum
+    etiqueta: null
+  - codi: potencia_electrica
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 5301A4EC
+    ordre: 10
+    valors:
+      pollastres:
+        es: 50/60
+        en: 50/60
+        fr: 50/60
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      nivells:
+        es: '4'
+        en: '4'
+        fr: '4'
+      material_porta:
+        es: Cristal
+        en: Cristal
+        fr: Cristal
+      llum:
+        es: OK
+        en: OK
+        fr: OK
+      potencia_electrica:
+        es: 2 kW 230/1V
+        en: 2 kW 230/1V
+        fr: 2 kW 230/1V
+  - codi: 5301A4E1
+    ordre: 20
+    valors:
+      pollastres:
+        es: 50/60
+        en: 50/60
+        fr: 50/60
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      nivells:
+        es: '4'
+        en: '4'
+        fr: '4'
+      material_porta:
+        es: Inox.
+        en: Inox.
+        fr: Inox.
+      llum:
+        es: OK
+        en: OK
+        fr: OK
+      potencia_electrica:
+        es: 2 kW 230/1V
+        en: 2 kW 230/1V
+        fr: 2 kW 230/1V
+  compartits: []
+- clau: ARMARIOS, MESAS SOPORTE Y BANDEJAS DE TROCEO
+  noms:
+    es: ARMARIOS, MESAS SOPORTE Y BANDEJAS DE TROCEO
+    en: CABINETS, SUPPORT TABLES, AND CUTTING TRAYS
+    fr: ARMOIRES, TABLES DE SUPPORT ET PLATEAUX DE DÉCOUPE
+  sequence: 270
+  tipus: producte
+  pagina: p38
+  taula: p38-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: serie
+    etiqueta: null
+  - codi: portes
+    etiqueta: null
+  - codi: nivells
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 5302AR5M
+    ordre: 10
+    valors:
+      serie:
+        es: M24
+        en: M24
+        fr: M24
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      nivells:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: 5302AR5P
+    ordre: 20
+    valors:
+      serie:
+        es: P
+        en: P
+        fr: P
+      portes:
+        es: '2'
+        en: '2'
+        fr: '2'
+      nivells:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: 5354ME5M
+    ordre: 30
+    valors:
+      serie:
+        es: M24
+        en: M24
+        fr: M24
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+      nivells:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: 5354ME5P
+    ordre: 40
+    valors:
+      serie:
+        es: P
+        en: P
+        fr: P
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+      nivells:
+        es: '1'
+        en: '1'
+        fr: '1'
+  - codi: 5300008T
+    ordre: 50
+    valors:
+      serie:
+        es: M24/P
+        en: M24/P
+        fr: M24/P
+      portes:
+        es: '-'
+        en: '-'
+        fr: '-'
+      nivells:
+        es: '2'
+        en: '2'
+        fr: '2'
+  compartits: []
+- clau: BARBACOAS A CARBÓN VEGETAL
+  noms:
+    es: BARBACOAS A CARBÓN VEGETAL
+    en: VEGETABLE CHARCOAL BARBECUES
+    fr: BARBECUES AU CHARBON DE BOIS
+  sequence: 280
+  tipus: producte
+  pagina: p41
+  taula: p41-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: persones
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta: null
+  - codi: temps
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '52000008'
+    ordre: 10
+    valors:
+      persones:
+        es: '100'
+        en: '100'
+        fr: '100'
+      dimensions_parrilla:
+        es: 1 x 620x780
+        en: 1 x 620x780
+        fr: 1 x 620x780
+      temps:
+        es: '40'
+        en: '40'
+        fr: '40'
+  - codi: '52000021'
+    ordre: 20
+    valors:
+      persones:
+        es: '170'
+        en: '170'
+        fr: '170'
+      dimensions_parrilla:
+        es: 2 x 485x780
+        en: 2 x 485x780
+        fr: 2 x 485x780
+      temps:
+        es: '68'
+        en: '68'
+        fr: '68'
+  - codi: '52000061'
+    ordre: 30
+    valors:
+      persones:
+        es: '200'
+        en: '200'
+        fr: '200'
+      dimensions_parrilla:
+        es: 2 x 620x780
+        en: 2 x 620x780
+        fr: 2 x 620x780
+      temps:
+        es: '80'
+        en: '80'
+        fr: '80'
+  compartits: []
+- clau: MULTI-BARBACOA / ESPETO A CARBÓN VEGETAL Y MESA CARBONERA
+  noms:
+    es: MULTI-BARBACOA / ESPETO A CARBÓN VEGETAL Y MESA CARBONERA
+    en: MULTI BARBECUE / CHARCOAL SKEWER AND COAL TABLE
+    fr: MULTI BARBECUE / BROCHETTE DE CHARBON DE BOIS ET TABLE POUR CHARBON DE BOIS
+  sequence: 290
+  tipus: producte
+  pagina: p42
+  taula: p42-t3
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: persones
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta: null
+  - codi: temps
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '52990053'
+    ordre: 10
+    valors:
+      persones:
+        es: '50'
+        en: '50'
+        fr: '50'
+      dimensions_parrilla:
+        es: 2 x 760x260
+        en: 2 x 760x260
+        fr: 2 x 760x260
+      temps:
+        es: '20'
+        en: '20'
+        fr: '20'
+  - codi: '52005377'
+    ordre: 20
+    valors:
+      persones:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dimensions_parrilla:
+        es: '-'
+        en: '-'
+        fr: '-'
+      temps:
+        es: '-'
+        en: '-'
+        fr: '-'
+  compartits: []
+- clau: MULTI-BARBACOA / ESPETO A CARBÓN VEGETAL Y MESA CARBONERA#2
+  noms:
+    es: MULTI-BARBACOA / ESPETO A CARBÓN VEGETAL Y MESA CARBONERA
+    en: MULTI BARBECUE / CHARCOAL SKEWER AND COAL TABLE
+    fr: MULTI BARBECUE / BROCHETTE DE CHARBON DE BOIS ET TABLE POUR CHARBON DE BOIS
+  sequence: 300
+  tipus: producte
+  pagina: p43
+  taula: p43-t3
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta: null
+  - codi: pes
+    etiqueta: null
+  - codi: mesures
+    etiqueta: null
+  - codi: persones
+    etiqueta: null
+  - codi: dimensions_parrilla
+    etiqueta: null
+  - codi: temps
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '52995353'
+    ordre: 10
+    valors:
+      persones:
+        es: '100'
+        en: '100'
+        fr: '100'
+      dimensions_parrilla:
+        es: 4 x 760x260
+        en: 4 x 760x260
+        fr: 4 x 760x260
+      temps:
+        es: '40'
+        en: '40'
+        fr: '40'
+  - codi: '52535377'
+    ordre: 20
+    valors:
+      persones:
+        es: '-'
+        en: '-'
+        fr: '-'
+      dimensions_parrilla:
+        es: '-'
+        en: '-'
+        fr: '-'
+      temps:
+        es: '-'
+        en: '-'
+        fr: '-'
+  compartits: []
+- clau: GANCHO ESPADAS
+  noms:
+    es: GANCHO ESPADAS
+    en: SPEAR HORK
+    fr: CROCHET BROCHE
+  sequence: 310
+  tipus: accessoris
+  pagina: p44
+  taula: p44-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: '70260498'
+    ordre: 10
+    valors: {}
+  compartits: []
+- clau: PINCHOS VARILLA
+  noms:
+    es: PINCHOS VARILLA
+    en: ROD CLAMPS
+    fr: PIQUES DE TIGE
+  sequence: 320
+  tipus: accessoris
+  pagina: p44
+  taula: p44-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: serie
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A100261
+    ordre: 10
+    valors:
+      serie:
+        es: M24 - P
+        en: M24 - P
+        fr: M24 - P
+  - codi: 4A000261
+    ordre: 20
+    valors:
+      serie:
+        es: M24 - P
+        en: M24 - P
+        fr: M24 - P
+  compartits: []
+- clau: CONDIMENTO
+  noms:
+    es: CONDIMENTO
+    en: CONDIMENTO
+    fr: CONDIMENTS
+  sequence: 330
+  tipus: accessoris
+  pagina: p44
+  taula: p44-t3
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: pes
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 702M0069
+    ordre: 10
+    valors: {}
+  - codi: 702M0079
+    ordre: 20
+    valors: {}
+  compartits: []
+- clau: ESPADA DE SERIE CON PINCHOS
+  noms:
+    es: ESPADA DE SERIE CON PINCHOS
+    en: SERIE SPEAR WITH CLAMPS
+    fr: BROCHE DE SERIE AVEC PIQUES
+  sequence: 340
+  tipus: accessoris
+  pagina: p44
+  taula: p44-t4
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: serie
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A265611
+    ordre: 10
+    valors:
+      serie:
+        es: 1 M24
+        en: 1 M24
+        fr: 1 M24
+  - codi: 4A107611
+    ordre: 20
+    valors:
+      serie:
+        es: 2 P
+        en: 2 P
+        fr: 2 P
+  compartits: []
+- clau: ESPADA PINCHO PLANO
+  noms:
+    es: ESPADA PINCHO PLANO
+    en: FLAT SPEAR
+    fr: BROCHE PLATE
+  sequence: 350
+  tipus: accessoris
+  pagina: p44
+  taula: p44-t5
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: serie
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A565611
+    ordre: 10
+    valors:
+      serie:
+        es: M24 1
+        en: M24 1
+        fr: M24 1
+  - codi: 4A765611
+    ordre: 20
+    valors:
+      serie:
+        es: 2 P
+        en: 2 P
+        fr: 2 P
+  compartits: []
+- clau: ESPADA DE JAULA
+  noms:
+    es: ESPADA DE JAULA
+    en: GRID SPEAR
+    fr: BROCHE PANIER
+  sequence: 360
+  tipus: accessoris
+  pagina: p44
+  taula: p44-t6
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: serie
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A007610
+    ordre: 10
+    valors:
+      serie:
+        es: 1 M24
+        en: 1 M24
+        fr: 1 M24
+  - codi: 4A137611
+    ordre: 20
+    valors:
+      serie:
+        es: 2 P
+        en: 2 P
+        fr: 2 P
+  compartits: []
+- clau: ESPADA PARA POLLO ABIERTO Y CONEJOS
+  noms:
+    es: ESPADA PARA POLLO ABIERTO Y CONEJOS
+    en: SWORD FOR BUTTERFLIED CHICKEN AND RABBITS
+    fr: BROCHE POUR POULET OUVERT ET LAPINS
+  sequence: 370
+  tipus: accessoris
+  pagina: p44
+  taula: p44-t7
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: serie
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A207610
+    ordre: 10
+    valors:
+      serie:
+        es: M24
+        en: M24
+        fr: M24
+  compartits: []
+- clau: ENCIMERA DE TRABAJO LATERAL PARA BARBACOAS
+  noms:
+    es: ENCIMERA DE TRABAJO LATERAL PARA BARBACOAS
+    en: SIDE WORKTOP FOR BARBECUES
+    fr: PLAN DE TRAVAIL LATÉRAL POUR BARBECUE
+  sequence: 380
+  tipus: accessoris
+  pagina: p45
+  taula: p45-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A050909
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 790 x 350
+        en: 790 x 350
+        fr: 790 x 350
+  compartits: []
+- clau: ATIZADOR - PINZAS INOX
+  noms:
+    es: ATIZADOR - PINZAS INOX
+    en: ATTIZER - STAINLESS STEEL TONGS
+    fr: ATTIZER - PINCE EN ACIER INOXYDABLE
+  sequence: 390
+  tipus: accessoris
+  pagina: p45
+  taula: p45-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes: []
+  compartits:
+  - codi: 4A100059
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 1 845
+        en: 1 845
+        fr: 1 845
+    propietari: G08
+  - codi: 4A500059
+    ordre: 20
+    valors:
+      mesures_text:
+        es: 345 2
+        en: 345 2
+        fr: 345 2
+    propietari: G08
+- clau: PALA PARA CARBÓN
+  noms:
+    es: PALA PARA CARBÓN
+    en: COAL SHOVEL
+    fr: PELLE À CHARBON
+  sequence: 400
+  tipus: accessoris
+  pagina: p45
+  taula: p45-t3
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: preu
+    etiqueta: null
+  productes: []
+  compartits:
+  - codi: 4A300509
+    ordre: 10
+    valors: {}
+    propietari: G08
+- clau: JAULA PARA PESCADO EN ACERO INOXIDABLE
+  noms:
+    es: JAULA PARA PESCADO EN ACERO INOXIDABLE
+    en: STAINLESS STEEL FISH CAGE
+    fr: CAGE À POISSON EN ACIER INOXYDABLE
+  sequence: 410
+  tipus: accessoris
+  pagina: p45
+  taula: p45-t4
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes: []
+  compartits:
+  - codi: 4A010059
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 540 x 180 x 40
+        en: 540 x 180 x 40
+        fr: 540 x 180 x 40
+    propietari: G08
+- clau: JAULA PARA PIEZAS PEQUEÑAS EN ACERO INOXIDABLE
+  noms:
+    es: JAULA PARA PIEZAS PEQUEÑAS EN ACERO INOXIDABLE
+    en: CAGE FOR SMALL PARTS IN STAINLESS STEEL
+    fr: CAGE POUR PETITES PIECES EN ACIER INOXYDABLE
+  sequence: 420
+  tipus: accessoris
+  pagina: p45
+  taula: p45-t5
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes: []
+  compartits:
+  - codi: 4A520059
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 250 x 210 x 60
+        en: 250 x 210 x 60
+        fr: 250 x 210 x 60
+    propietari: G08
+  - codi: 4A030059
+    ordre: 20
+    valors:
+      mesures_text:
+        es: 300 x 260 x 60
+        en: 300 x 260 x 60
+        fr: 300 x 260 x 60
+    propietari: G08
+- clau: PARRILLAS DE VARILLA DE INOX
+  noms:
+    es: PARRILLAS DE VARILLA DE INOX
+    en: STAINLESS STEEL ROUND ROD GRILLS
+    fr: GRILLES À TIGE RONDE EN ACIER INOXYDABLE
+  sequence: 430
+  tipus: accessoris
+  pagina: p46
+  taula: p46-t1
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A220009
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 1 - 620 x 780
+        en: 1 - 620 x 780
+        fr: 1 - 620 x 780
+  - codi: 4A222009
+    ordre: 20
+    valors:
+      mesures_text:
+        es: 1/2 - 310 x 780
+        en: 1/2 - 310 x 780
+        fr: 1/2 - 310 x 780
+  - codi: 4A320009
+    ordre: 30
+    valors:
+      mesures_text:
+        es: 1 - 495 x 780
+        en: 1 - 495 x 780
+        fr: 1 - 495 x 780
+  - codi: 4A515329
+    ordre: 40
+    valors:
+      mesures_text:
+        es: 1 - 760 x 350
+        en: 1 - 760 x 350
+        fr: 1 - 760 x 350
+  compartits: []
+- clau: PARRILLAS ACANALADAS DE INOX
+  noms:
+    es: PARRILLAS ACANALADAS DE INOX
+    en: STAINLESS STEEL RIBBED GRILLS
+    fr: GRILLES NERVURÉES EN ACIER INOXYDABLE
+  sequence: 440
+  tipus: accessoris
+  pagina: p46
+  taula: p46-t2
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A222109
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 1/2 - 310 x 780
+        en: 1/2 - 310 x 780
+        fr: 1/2 - 310 x 780
+  - codi: 4A320109
+    ordre: 20
+    valors:
+      mesures_text:
+        es: 1 - 495 x 780
+        en: 1 - 495 x 780
+        fr: 1 - 495 x 780
+  - codi: 4A015329
+    ordre: 30
+    valors:
+      mesures_text:
+        es: 1 - 760 x 350
+        en: 1 - 760 x 350
+        fr: 1 - 760 x 350
+  compartits: []
+- clau: PLACAS-FRYTOP
+  noms:
+    es: PLACAS-FRYTOP
+    en: ROASTING IRONS
+    fr: PLAQUES-FRYTOP
+  sequence: 450
+  tipus: accessoris
+  pagina: p46
+  taula: p46-t3
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A422109
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 1/2 - 310 x 780
+        en: 1/2 - 310 x 780
+        fr: 1/2 - 310 x 780
+  compartits: []
+- clau: PARRILLAS PAELLERA
+  noms:
+    es: PARRILLAS PAELLERA
+    en: PAELLA GRILL
+    fr: GRILL À PAELLA
+  sequence: 460
+  tipus: accessoris
+  pagina: p46
+  taula: p46-t4
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A440209
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 620 x 780
+        en: 620 x 780
+        fr: 620 x 780
+  - codi: 4A540209
+    ordre: 20
+    valors:
+      mesures_text:
+        es: 495 x 780
+        en: 495 x 780
+        fr: 495 x 780
+  compartits: []
+- clau: SOPORTE ESPETOS DE INOX
+  noms:
+    es: SOPORTE ESPETOS DE INOX
+    en: STAINLESS STEEL SKEWERS STAND
+    fr: SUPPORT DE BROCHETTES EN ACIER INOXYDABLE
+  sequence: 470
+  tipus: accessoris
+  pagina: p46
+  taula: p46-t5
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A005329
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 760 x 350
+        en: 760 x 350
+        fr: 760 x 350
+  compartits: []
+- clau: ESPETOS DE INOX
+  noms:
+    es: ESPETOS DE INOX
+    en: STAINLESS STEEL SKEWERS
+    fr: BROCHETTES EN ACIER INOXYDABLE
+  sequence: 480
+  tipus: accessoris
+  pagina: p46
+  taula: p46-t6
+  blocs: 1
+  columnes:
+  - codi: codi
+    etiqueta:
+      es: COD.
+      en: COD.
+      fr: COD.
+  - codi: mesures_text
+    etiqueta: null
+  - codi: preu
+    etiqueta: null
+  productes:
+  - codi: 4A105329
+    ordre: 10
+    valors:
+      mesures_text:
+        es: 1 350
+        en: 1 350
+        fr: 1 350
+  - codi: 4A115329
+    ordre: 20
+    valors:
+      mesures_text:
+        es: 2 350
+        en: 2 350
+        fr: 2 350
+  compartits: []
+avisos: []
+repeticions:
+  ATIZADOR - PINZAS INOX:
+  - codi: 4A100059
+    ordre: 10
+  - codi: 4A500059
+    ordre: 20
+  PALA PARA CARBÓN:
+  - codi: 4A300509
+    ordre: 10
+  JAULA PARA PESCADO EN ACERO INOXIDABLE:
+  - codi: 4A010059
+    ordre: 10
+  JAULA PARA PIEZAS PEQUEÑAS EN ACERO INOXIDABLE:
+  - codi: 4A520059
+    ordre: 10
+  - codi: 4A030059
+    ordre: 20
+informe:
+  inexistents:
+  - codi: 4A031771
+    taula: p44-t2
+    pagina: p44
+    titol: PINCHOS VARILLA
+    preu_cataleg: '4'
+  descatalogats: []
+  arxivats: []
+  ambigus: []
+  ignorats: []
+  fora_pdf: []
+  columnes_eliminades:
+  - taula: p38-t1
+    clau: col5
+    motiu: 'fantasma: sense cap valor'
+  families_buides: []
+  taules_dividides: []
