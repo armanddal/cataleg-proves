@@ -36,6 +36,8 @@ window.addEventListener('load', function(){
       if (b.height > 0 && b.bottom > lim) prob.push('tallat: ' + e.className.split(' ')[0] + (e.tagName == 'TR' ? 'fila' : '') + ' fins a ' + ((b.bottom - r.top)/CM).toFixed(1) + ' cm');
       if (b.width > 0 && b.right > r.right + 2) prob.push('surt pel costat: ' + (e.className || e.tagName));
     });
+    var fotsI = Array.from(pg.querySelectorAll('.foto-ref'));
+    pg.querySelectorAll('.info-col').forEach(function(c){ var b = c.getBoundingClientRect(); fotsI.forEach(function(f){ var q = f.getBoundingClientRect(); if (q.top > b.top && q.top < b.bottom - 2 && q.left < b.right && q.right > b.left) prob.push('el text trepitja una foto (info)'); }); });
     var petites = 0, amagades = 0, n = 0;
     pg.querySelectorAll('.fotos figure > img, .acc-fotos > img').forEach(function(im){
       n++;

@@ -618,10 +618,20 @@ TIPUS = {'pagina_imatge': pagina_imatge, 'portada_grup': pagina_portada, 'index_
 # la mida de lletra fins que no passen del peu de pàgina.
 AJUST_JS = '''
 document.querySelectorAll('.page.info').forEach(function(pg){
-  var lim = pg.getBoundingClientRect().top + 28.1*37.795;
-  pg.querySelectorAll('.info-col').forEach(function(c){
-    var fs = parseFloat(getComputedStyle(c).fontSize), n = 0;
-    while (c.getBoundingClientRect().bottom > lim && fs > 5 && n < 80) { fs -= 0.2; c.style.fontSize = fs + 'px'; n++; }
+  var CM = 37.795, r0 = pg.getBoundingClientRect(), cols = Array.from(pg.querySelectorAll('.info-col')), fots = Array.from(pg.querySelectorAll('.foto-ref'));
+  var base = r0.top + 28.1 * CM;
+  function marge(c){
+    var b = c.getBoundingClientRect(), lim = base;
+    fots.forEach(function(f){ var q = f.getBoundingClientRect(); if (q.top > b.top && q.left < b.right && q.right > b.left) lim = Math.min(lim, q.top - 0.2 * CM); });
+    cols.forEach(function(o){ if (o === c) return; var q = o.getBoundingClientRect(); if (q.top > b.top + 0.1 * CM && q.left < b.right && q.right > b.left) lim = Math.min(lim, q.top - 0.15 * CM); });
+    return lim;
+  }
+  cols.forEach(function(c){
+    var lim = marge(c), fs = parseFloat(getComputedStyle(c).fontSize), n = 0;
+    while (c.getBoundingClientRect().bottom > lim && fs > 5 && n < 120) { fs -= 0.2; c.style.fontSize = fs + 'px'; n++; }
+    if (n == 0 && fs < 9 * 4 / 3) {          // lletra petita de l'original: s'augmenta fins on càpiga (màx. 9 pt) perquè no quedi mig full en blanc
+      while (fs < 9 * 4 / 3 && n < 60) { c.style.fontSize = (fs + 0.3) + 'px'; if (c.getBoundingClientRect().bottom > lim) { c.style.fontSize = fs + 'px'; break; } fs += 0.3; n++; }
+    }
   });
 });
 '''
