@@ -283,6 +283,7 @@ def pagina_index(ctx, p, n):
 def parag_html(ps):
     out = []; lst = False
     for q in ps:
+        q = dict(q, text=re.sub(r' {2,}', ' ', q['text'].replace('\u25a1', '')).strip())      # □ = número de referència del .pub sense glifo (les refs ja van a q['refs'])
         refs = ''.join(f'<i class="ref">{r}</i>' for r in q.get('refs', []))
         if q['role'] == 'titol':
             if lst: out.append('</ul>'); lst = False
