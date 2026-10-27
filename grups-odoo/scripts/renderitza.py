@@ -64,6 +64,33 @@ def img(src, cls='', alt=''):
     return f'<img class="{cls}" src="{BASE}{E(src)}" alt="{E(alt)}">' if src else ''
 
 
+def retalla(src):
+    """Foto de producte sense els marges blancs (les d'Odoo en porten molts i el producte quedava petit i lluny de l'etiqueta):
+    en fa una còpia retallada a treball/img-retallades/ i en torna el camí relatiu. Si no cal o no es pot, torna l'original."""
+    try:
+        from PIL import Image, ImageChops
+        orig = os.path.join(ROOT, src)
+        dest_rel = os.path.join('treball', 'img-retallades', hashlib.md5(f'{src}:{os.path.getmtime(orig)}'.encode()).hexdigest() + '.png')
+        dest = os.path.join(ROOT, dest_rel)
+        if os.path.exists(dest): return dest_rel
+        im = Image.open(orig)
+        rgba = im.convert('RGBA')
+        fons = Image.new('RGBA', rgba.size, (255, 255, 255, 255))
+        pla = Image.alpha_composite(fons, rgba).convert('RGB')
+        dif = ImageChops.difference(pla, Image.new('RGB', pla.size, (255, 255, 255))).convert('L').point(lambda v: 255 if v > 14 else 0)
+        bb = dif.getbbox()
+        if not bb: return src
+        w, h = pla.size
+        pad = int(max(bb[2] - bb[0], bb[3] - bb[1]) * .02) + 1
+        bb = (max(0, bb[0] - pad), max(0, bb[1] - pad), min(w, bb[2] + pad), min(h, bb[3] + pad))
+        if (bb[2] - bb[0]) * (bb[3] - bb[1]) > .92 * w * h: return src
+        os.makedirs(os.path.dirname(dest), exist_ok=True)
+        pla.crop(bb).save(dest)
+        return dest_rel
+    except Exception:
+        return src
+
+
 def lang_lines(d, cls='ml'):
     """{'es':..,'en':..,'fr':..} -> línies amb quadret E/F/D (l'ES va sol, sense lletra)."""
     out = []
@@ -259,13 +286,17 @@ def pagina_index(ctx, p, n):
     bl = sorted(p.get('banda_logos', []), key=lambda l: l['pos']['y'])
     if bl: dreta = bl[0]['pos']['x'] > 10
     else: dreta = bool(p.get('targetes')) and min(t['pos']['x'] for t in p['targetes']) < 4     # G3-G5: la franja és a l'altra banda de les targetes
-    toks = p.get('banda_lateral', '').split()
+    lateral = p.get('banda_lateral', '')
+    if not lateral.strip() and not bl:      # G1, G6-G16: l'extracció no porta el text lateral; hi va el nom del grup (part en castellà)
+        lateral = re.split(r'\s+/\s+|\s+-\s+', ctx.d['grup'].get('nom', ''))[0].strip()
+    toks = lateral.split()
     h = '<div class="page index">'
     h += f'<div class="franja {"dreta" if dreta else "esq"}">'
     if len(bl) == 2 and len(toks) == 3:
         h += f'<div class="vt">{toks[2]} {toks[1]}</div>{img(bl[0]["asset"], "bl")}<div class="vt">{toks[0]}</div>{img(bl[1]["asset"], "bl")}'
     else:
-        h += f'<div class="vt">{E(p.get("banda_lateral", ""))}</div>' + ''.join(img(l['asset'], 'bl') for l in bl)
+        mida = f' style="font-size:{max(22, min(50, 50 * 13 / len(lateral))):.1f}pt"' if len(lateral) > 13 else ''
+        h += f'<div class="vt"{mida}>{E(lateral)}</div>' + ''.join(img(l['asset'], 'bl') for l in bl)
     h += '</div>'
     for t in p['targetes']:
         pos = t['pos']
@@ -496,7 +527,7 @@ def pagina_producte(ctx, p, n):
             # l'última foto d'una fila incompleta s'estira fins al final de la fila (centrada), com abans amb 3, 5, 7...
             sobra = len(fotos) % nc
             est = f' style="grid-column:span {nc - sobra + 1}"' if sobra and k == len(fotos) - 1 else ''
-            h += f'<figure{est}>{img(f["asset"])}{etiqueta_foto(f) if f.get("codi") else ""}</figure>'
+            h += f'<figure{est}>{img(retalla(f["asset"]))}{etiqueta_foto(f) if f.get("codi") else ""}</figure>'
         h += '</div></div>'
         amb_foto = {c['codi'] for f in p.get('fotos', []) for c in (f.get('codis') or [{'codi': f.get('codi')}])}
         sense_foto = sorted(set(ordre_codis) - amb_foto)
@@ -540,7 +571,7 @@ def pagina_accessoris(ctx, p, n):
     for k, t in enumerate(taules, 1):
         fots = [f for f in p.get('fotos', []) if f.get('taula_ordre') == k]
         ample = ' full' if any(c.get('bloc') == 2 for c in t['columnes']) else ''
-        h += f'<div class="acc-card{ample}"><div class="acc-fotos">' + ''.join(img(f['asset']) for f in fots) + '</div>' + taula_html(ctx, t, True) + '</div>'
+        h += f'<div class="acc-card{ample}"><div class="acc-fotos">' + ''.join(img(retalla(f['asset'])) for f in fots) + '</div>' + taula_html(ctx, t, True) + '</div>'
     h += '</div>'
     return h + peu(ctx, p, n) + '</div>'
 

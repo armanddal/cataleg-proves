@@ -4,6 +4,7 @@ html, body { margin: 0; padding: 0; background: #fff }
 body { font-family: 'Franklin Gothic Book', 'Libre Franklin', 'Helvetica Neue', Arial, sans-serif; color: #000; -webkit-print-color-adjust: exact; print-color-adjust: exact }
 .page { position: relative; width: 210mm; height: 297mm; overflow: hidden; page-break-after: always; break-after: page; background: #fff }
 .abs { position: absolute }
+img.abs { object-fit: contain }          /* mai deformar una foto: si el requadre del .pub no té la proporció de la imatge, es respecta la imatge */
 img { display: block }
 .lt { display: inline-block; border: 1px solid currentColor; border-radius: 2px; font-size: 6.5pt; line-height: 1; padding: 1px 2.5px; margin-right: 4px; font-weight: bold; vertical-align: middle }
 .lt-w { color: #fff } .lt-o { color: var(--taronja-portada) }
@@ -37,7 +38,7 @@ img { display: block }
 .fotos.c4 .et, .fotos.c5 .et { min-width: 0; font-size: 8.5pt }
 .et .mes { font-style: normal; font-size: 8pt; align-self: center }
 figure { margin: 0; display: flex; flex-direction: column; align-items: center; min-height: 0; min-width: 0 }
-figure img { flex: 1; min-height: 0; max-width: 100%; object-fit: contain }
+figure img { flex: 1; min-height: 0; max-width: 100%; object-fit: contain; object-position: center bottom }       /* la foto s'ajunta a l'etiqueta de sota */
 .et { display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: center; gap: .05cm .35cm; margin-top: .05cm; border-top: 1px solid #000; border-bottom: 1px solid #000; padding: .03cm .1cm; font: 10pt Calibri, Carlito, Arial, sans-serif; min-width: 5cm; flex: none }
 .et .cx { display: flex; flex-direction: column; align-items: center }
 .et .cl { display: flex; align-items: center; gap: .1cm }

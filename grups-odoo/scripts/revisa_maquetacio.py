@@ -46,6 +46,13 @@ window.addEventListener('load', function(){
       else if (b.height < 2 || b.width < 2) amagades++;
       else if (b.height < 2.5*CM && b.width < 2.5*CM) petites++;
     });
+    pg.querySelectorAll('img').forEach(function(im){
+      if (!im.naturalWidth || im.closest('.franja')) return;
+      var b = im.getBoundingClientRect(), of = getComputedStyle(im).objectFit;
+      if (b.width < 20 || b.height < 20 || of == 'contain' || of == 'scale-down' || of == 'cover') return;
+      var d = (b.width / b.height) / (im.naturalWidth / im.naturalHeight);
+      if (d < 0.95 || d > 1.05) prob.push('imatge deformada (' + d.toFixed(2) + '): ' + (im.getAttribute('src') || '').split('/').pop());
+    });
     if (amagades) prob.push(amagades + ' de ' + n + ' fotos amagades (0 cm)');
     if (petites) prob.push(petites + ' de ' + n + ' fotos petites (< 2,5 cm)');
     if (prob.length) res.push({p: i + 1, prob: Array.from(new Set(prob)).slice(0, 6)});
