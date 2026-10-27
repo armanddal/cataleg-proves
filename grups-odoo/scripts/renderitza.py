@@ -654,6 +654,8 @@ def construeix_html(dades, preus, estrenyer=None):
     cos = [TIPUS[p['tipus']](ctx, p, i) for i, p in enumerate(dades['pagines'], 1)]
     doc = ('<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Tarifa Eurast - Grupo %s</title><style>%s\n%s</style></head><body>%s<script>%s</script></body></html>'
            % (ctx.grup, vars_, CSS, '\n'.join(cos), AJUST_JS))
+    doc = re.sub(r'(TARIFA|PRICE LIST|TARIF) □ ', r'\1 · ', doc)      # portada: separador d'idiomes
+    doc = re.sub(r' {2,}', ' ', doc.replace('\u25a1', ''))          # □ = glifo que no existeix (número de referència del .pub): mai ha de sortir al paper
     return doc, ctx
 
 
