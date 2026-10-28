@@ -392,7 +392,50 @@ def parag_html(ps):
     return ''.join(out)
 
 
+def _aspecte(src):
+    try:
+        from PIL import Image
+        w, h = Image.open(os.path.join(ROOT, src)).size
+        return w / h
+    except Exception:
+        return 1.0
+
+
+def blocs_html(blocs):
+    """Pàgina d'informació en mode «blocs» (dades d'Odoo: pagines_odoo.blocs_de): files de fotos amb la seva referència i blocs imatge + text per idioma."""
+    W_, GAP = 18.6, 0.5                                          # ample útil (cm) i separació entre fotos
+    files = [b for b in blocs if b['k'] == 'fotos']
+    asps = [[_aspecte(f['asset']) for f in b['fotos']] for b in files]
+    alt = min([6.2] + [(W_ - GAP * 2) / max(sum(a), 3 * 0.9) for a in asps])         # totes les files de fotos tenen la mateixa alçada (la que faci caber la més ampla)
+    h = '<div class="bl-cos">'
+    for b in blocs:
+        if b['k'] == 'fotos':
+            fs = b['fotos']; asp = asps[files.index(b)]
+            h += f'<div class="bl-fila" style="height:{alt:.2f}cm">'
+            for f, a in zip(fs, asp):
+                ref = f'<i class="bl-n">{f["referencia"]}</i>' if f.get('referencia') else ''
+                h += f'<div class="bl-foto" style="width:{alt * a:.2f}cm"><img src="{BASE}{redueix(f["asset"])}">{ref}</div>'
+            h += '</div>'
+        elif b['k'] == 'text':           # text de la pàgina del Doc (paràgrafs normals): títols en negreta + vinyetes, sota els blocs
+            h += '<div class="bl-text">'
+            for l in b['linies']:
+                h += (f'<p class="bl-vin">{E(l["t"])}</p>' if l['vinyeta'] else f'<p class="{"bl-tit" if l["neg"] else "bl-par"}">{E(l["t"])}</p>')
+            h += '</div>'
+        else:
+            num = f'<i class="bl-n">{E(b["num"])}</i>' if b.get('num') else ''
+            h += f'<div class="bl-bloc">{num}<div class="bl-img"><img src="{BASE}{redueix(b["asset"])}"></div><div class="bl-cols">'
+            for c in b['cols']:
+                marc = f'<span class="lt">{c["idioma"][0].upper()}</span>' if c['idioma'] != 'es' else ''
+                tag = 'ol' if c['numerat'] else 'ul'
+                h += (f'<div class="bl-col"><h4>{marc}{E(c["titol"])}</h4><{tag} class="bl-{"num" if c["numerat"] else "vin"}">'
+                      + ''.join(f'<li>{E(x)}</li>' for x in c['items']) + f'</{tag}></div>')
+            h += '</div></div>'
+    return h + '</div>'
+
+
 def pagina_info(ctx, p, n):
+    if p.get('blocs'):
+        return '<div class="page info blocs">' + capcalera(ctx, p) + blocs_html(p['blocs']) + peu(ctx, p, n) + '</div>'
     h = '<div class="page info">' + capcalera(ctx, p)
     for c in p['columnes']:
         pos = c['pos']
@@ -820,6 +863,18 @@ function fluid(pg){
   }
 }
 window.addEventListener('load', function(){ FLUID_PGS.forEach(fluid); });
+
+/* Pàgines d'informació en mode «blocs» (.page.blocs): la lletra dels blocs és la més gran que càpiga (6,5-9,5 pt); si ni a 6,5 pt hi cap, les files de fotos s'encongeixen. */
+document.querySelectorAll('.page.blocs').forEach(function(pg){
+  var cos = pg.querySelector('.bl-cos'), fil = Array.from(pg.querySelectorAll('.bl-fila')), blocs = Array.from(pg.querySelectorAll('.bl-bloc,.bl-text'));
+  function cap(){ return cos.scrollHeight <= cos.clientHeight + 1; }
+  function fs(pt){ blocs.forEach(function(b){ b.style.fontSize = pt + 'pt'; }); }
+  var h0 = fil.map(function(f){ return parseFloat(f.style.height); }), w0 = fil.map(function(f){ return Array.from(f.children).map(function(c){ return parseFloat(c.style.width); }); }), ok = false;
+  for (var esc = 1.0; esc >= 0.45 && !ok; esc -= 0.05) {
+    fil.forEach(function(f, i){ f.style.height = (h0[i] * esc) + 'cm'; Array.from(f.children).forEach(function(c, k){ c.style.width = (w0[i][k] * esc) + 'cm'; }); });
+    for (var pt = 9.5; pt >= 6.5 && !ok; pt -= 0.25) { fs(pt); ok = cap(); }
+  }
+});
 '''
 CSS = open(os.path.join(HERE, 'estil.css'), encoding='utf8').read()
 
@@ -895,7 +950,62 @@ def renderitza(dades, preus, sortida):
             ctx.avisos += [f'p{i} (renderitzada): el contingut no hi cap i queda tallat' for i in desb]; break
     if os.path.exists(sortida + '.pdf'): os.remove(sortida + '.pdf')
     genera_pdf(sortida + '.html', sortida + '.pdf')
+    posa_pagines_slides(ctx, sortida + '.pdf')
     return ctx
+
+
+def baixa_slide(sid, ctx, pag):
+    """PDF de la diapositiva (export de Google Slides). Funciona sense credencials si la carpeta del Drive és «qualsevol amb l'enllaç
+    pot veure»; si no, es fa servir l'última còpia baixada (treball/slides/<id>.pdf) i es deixa un avís."""
+    import urllib.request
+    dest = os.path.join(ROOT, 'treball', 'slides', f'{sid}.pdf')
+    try:
+        with urllib.request.urlopen(f'https://docs.google.com/presentation/d/{sid}/export/pdf', timeout=60) as r:
+            dades = r.read()
+        if dades[:5] == b'%PDF-':
+            os.makedirs(os.path.dirname(dest), exist_ok=True)
+            open(dest, 'wb').write(dades)
+            return dest
+        ctx.avisos.append(f'p{pag}: la diapositiva {sid} no és pública (cal «qualsevol amb l\'enllaç pot veure» a la carpeta); es fa servir la còpia local')
+    except Exception as e:
+        ctx.avisos.append(f'p{pag}: no s\'ha pogut baixar la diapositiva {sid} ({e}); es fa servir la còpia local')
+    return dest if os.path.exists(dest) else None
+
+
+def posa_pagines_slides(ctx, pdf):
+    """Pàgines dissenyades a Google Slides (slides-pagines.yaml: grup -> {pàgina renderitzada: id de la presentació}).
+    El PDF de la diapositiva substitueix aquella pàgina tal qual; el peu (data, número de pàgina, enllaç) el posa el generador
+    al damunt, perquè quedi bé encara que la pàgina canviï de lloc."""
+    cfg_p = os.path.join(ROOT, 'slides-pagines.yaml')
+    if not os.path.exists(cfg_p): return
+    mapa = (yaml.safe_load(open(cfg_p, encoding='utf8')) or {}).get(ctx.grup) or {}
+    if not mapa: return
+    html_p = pdf[:-4] + '.html'
+    cap = open(html_p, encoding='utf8').read().split('<body', 1)[0]
+    for pag, sid in sorted(mapa.items(), key=lambda x: -int(x[0])):
+        pag = int(pag)
+        src = baixa_slide(sid, ctx, pag)
+        if not src:
+            ctx.avisos.append(f'p{pag}: no hi ha el PDF de la diapositiva {sid}; es deixa la pàgina generada'); continue
+        tmp = pdf + '.tmp.pdf'
+        parts = ([pdf, f'1-{pag - 1}'] if pag > 1 else []) + [src, '1'] + [pdf, f'{pag + 1}-z']
+        r = subprocess.run(['qpdf', '--empty', '--pages'] + parts + ['--', tmp], capture_output=True, text=True)
+        if r.returncode not in (0, 3):
+            ctx.avisos.append(f'p{pag}: no s\'ha pogut posar la diapositiva ({r.stderr.strip()[:200]})'); continue
+        os.replace(tmp, pdf)
+        # peu del generador al damunt (fons blanc a la franja del peu i res més: la resta de la diapositiva queda intacta)
+        p = ctx.pagines[pag - 1]
+        sob = (cap + '<body><style>html,body,.page{background:transparent !important}</style><div class="page">'
+               '<div style="position:absolute;left:0;bottom:0;width:21cm;height:1.45cm;background:#fff"></div>'
+               + peu(ctx, p, pag) + '</div></body></html>')
+        sob_html = pdf[:-4] + f'.peu{pag}.html'; sob_pdf = pdf[:-4] + f'.peu{pag}.pdf'
+        open(sob_html, 'w', encoding='utf8').write(sob)
+        genera_pdf(sob_html, sob_pdf)
+        r = subprocess.run(['qpdf', pdf, '--overlay', sob_pdf, f'--to={pag}', '--from=1', '--', tmp], capture_output=True, text=True)
+        if r.returncode in (0, 3): os.replace(tmp, pdf)
+        else: ctx.avisos.append(f'p{pag}: no s\'ha pogut posar el peu ({r.stderr.strip()[:200]})')
+        for f in (sob_html, sob_pdf):
+            if os.path.exists(f): os.remove(f)
 
 
 def prepara(a):

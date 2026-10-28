@@ -460,6 +460,75 @@ def _marca(p, op, tema):
 def _imatge_n(op, j): return op['imatges'][j] if j < len(op['imatges']) else None
 
 
+def llegenda_bloc(t):
+    """Text d'una llegenda de bloc (camp d'UNA línia: «# TÍTOL | ítem | ítem») -> {'titol', 'items', 'numerat'}. Separadors: `|` o salt de línia.
+    `#` al començament = llista numerada 1..n (sense: vinyetes)."""
+    parts = [x.strip() for x in re.split(r'\s*\|\s*|\r?\n', t or '') if x.strip()]
+    if not parts: return None
+    tit = parts[0]; num = tit.startswith('#')
+    return {'titol': tit.lstrip('#').strip(), 'items': parts[1:], 'numerat': num}
+
+
+def es_blocs(op):
+    """Pàgina d'informació de tipus «blocs»: alguna de les seves imatges té llegenda."""
+    return any(any((v or '').strip() for v in (n.get('llegenda') or {}).values()) for n in op['imatges'])
+
+
+def blocs_de(op):
+    """Imatges d'Odoo (en ordre de `sequence`) -> blocs del full: files de fins a 3 fotos (les sense llegenda, amb la referència = `codis`) i,
+    per a cada imatge amb llegenda, un bloc a ample complet (imatge + una columna de text per idioma amb text diferent)."""
+    out = []; fila = None
+    for n in op['imatges']:
+        ll = n.get('llegenda') or {}; c = (n.get('codis') or '').strip()
+        if any((v or '').strip() for v in ll.values()):
+            fila = None; cols = []; vistos = set()
+            for l in ('es', 'en', 'fr'):
+                t = (ll.get(l) or '').strip()
+                if not t or t in vistos: continue
+                vistos.add(t); b = llegenda_bloc(t)
+                if b: cols.append(dict(b, idioma=l))
+            out.append({'k': 'bloc', 'asset': n['path'], 'num': c, 'cols': cols})
+        else:
+            if fila is None or len(fila['fotos']) >= 3: fila = {'k': 'fotos', 'fotos': []}; out.append(fila)
+            fila['fotos'].append({'asset': n['path'], 'referencia': int(c) if c.isdigit() else None})
+    return out
+
+
+def blocs_doc(op, avisos):
+    """Blocs de la pàgina a partir del seu Google Doc (scripts/llegeix_doc_pagina.py), o None si la pàgina no en té.
+    Cada «[FOTO n]» és la imatge d'Odoo amb `codis` = n; una imatge enganxada al Doc es fa servir tal qual."""
+    import llegeix_doc_pagina as LD
+    doc = LD.doc_de_pagina(op['id'])
+    if not doc: return None
+    try: r = LD.llegeix_doc(LD.html_del_doc(doc))
+    except Exception as e:
+        avisos.append(f"pàgina d'Odoo {op['id']}: no es pot llegir el Doc {doc} ({e}); es fa servir el contingut d'Odoo"); return None
+    avisos += [f"Doc {doc}: {a}" for a in r['avisos']]
+    per_ref = {}
+    for n in op['imatges']:
+        c = (n.get('codis') or '').strip()
+        if c.isdigit(): per_ref.setdefault(int(c), n['path'])
+    usades = set()
+    def foto(f):
+        if f is None: return None
+        if 'imatge' in f: return {'asset': f['imatge'], 'referencia': None}
+        a = per_ref.get(f['referencia'])
+        if a is None: avisos.append(f"Doc {doc}: [FOTO {f['referencia']}] no existeix a la pàgina d'Odoo {op['id']}"); return None
+        usades.add(f['referencia']); return {'asset': a, 'referencia': f['referencia']}
+    out = []
+    for it in r['items']:
+        if it['k'] == 'fotos':
+            fs = [x for x in (foto(f) for f in it['fotos']) if x]
+            for i in range(0, len(fs), 3): out.append({'k': 'fotos', 'fotos': fs[i:i + 3]})
+        elif it['k'] == 'bloc':
+            f = foto(it['foto'])
+            if f: out.append({'k': 'bloc', 'asset': f['asset'], 'num': str(f['referencia'] or ''), 'cols': it['cols']})
+        else: out.append(it)
+    sobren = sorted(set(per_ref) - usades)
+    if sobren: avisos.append(f"Doc {doc}: les fotos d'Odoo amb referència {sobren} no són al Doc; no surten")
+    return out
+
+
 def aplica_tema(tema, op, grup, avisos):
     """Pàgines del yaml del tema amb el contingut d'Odoo (op) al damunt. Retorna llista de pàgines (còpies)."""
     t = tema['tipus']; ps = copy.deepcopy(tema['pagines']); est = U.carrega_estandard()
@@ -496,6 +565,12 @@ def aplica_tema(tema, op, grup, avisos):
             if bl: pg['banda_lateral'] = bl
             pg['banda_logos'] = [dict(lg, asset=mapa[lg['asset']]) for lg in pg.get('banda_logos', []) if mapa.get(lg['asset'])]
     elif t == 'informacion':
+        bl = blocs_doc(op, avisos)       # pàgina amb Google Doc (docs-pagines.yaml): estructura i text del Doc, fotos d'Odoo per referència
+        if bl is None: bl = blocs_de(op) if es_blocs(op) else None
+        if bl:       # mode «blocs»: la pàgina del .pub amb les fotos passa a ser la de blocs (sense columnes ni fotos fixes); la resta de pàgines del tema porten el cos
+            i = next((k for k, q in enumerate(ps) if q.get('fotos')), 0); pb = ps[i]
+            pb['columnes'] = []; pb['fotos'] = []; pb['blocs'] = bl
+            for k_ in ('insignies', 'textos_pagina', 'decoracio'): pb.pop(k_, None)
         slots = {l: [] for l in IDIOMES}
         for pi, p in enumerate(ps):
             ids = idiomes_columnes(p)
@@ -526,6 +601,7 @@ def aplica_tema(tema, op, grup, avisos):
                 if n is None: continue
                 i['asset'] = n['path']; ins.append(i)
             if 'insignies' in p: p['insignies'] = ins
+        if bl: k = len(imgs)
         if len(imgs) > k: avisos.append(f"informació (Odoo {op['id']}, «{noms['es']}»): {len(imgs) - k} imatges de més sense lloc a la plantilla; no surten")
         for p in ps:
             if p.get('capcalera', {}).get('titol') is not None:
