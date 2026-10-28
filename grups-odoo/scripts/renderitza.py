@@ -34,6 +34,7 @@ CHROME = _chrome()
 def CHROME_ARGS():
     return [CHROME, '--headless=new', '--disable-gpu'] + (['--no-sandbox', '--disable-dev-shm-usage'] if os.environ.get('CHROME_NO_SANDBOX') else []) + ['--allow-file-access-from-files']
 E = html.escape
+SENSE_SLIDES = False     # --sense-slides: no es posa cap diapositiva (pàgina objectiu generada pel codi)
 BASE = '../'     # prefix relatiu cap a l'arrel (on és assets/); es recalcula a renderitza()
 # Opcions de disseny (CLI): capçalera 'text' (nom + icona opcional; per defecte) | 'icona' (mode antic: només icona);
 # idioma del nom a la capçalera (es|en|fr); llegenda 'auto' (generada de les columnes del grup) | 'fixa' (la de gN.yaml)
@@ -975,13 +976,15 @@ def baixa_slide(sid, ctx, pag):
 def posa_pagines_slides(ctx, pdf):
     """Pàgines dissenyades a Google Slides (slides-pagines.yaml: grup -> {pàgina renderitzada: id de la presentació}).
     El PDF de la diapositiva substitueix aquella pàgina tal qual; el peu (data, número de pàgina, enllaç) el posa el generador
-    al damunt, perquè quedi bé encara que la pàgina canviï de lloc."""
+    al damunt, perquè quedi bé encara que la pàgina canviï de lloc. Tots els peus d'un grup es fan en UNA sola execució de Chrome."""
+    if SENSE_SLIDES: return
     cfg_p = os.path.join(ROOT, 'slides-pagines.yaml')
     if not os.path.exists(cfg_p): return
     mapa = (yaml.safe_load(open(cfg_p, encoding='utf8')) or {}).get(ctx.grup) or {}
     if not mapa: return
     html_p = pdf[:-4] + '.html'
     cap = open(html_p, encoding='utf8').read().split('<body', 1)[0]
+    fetes = []
     for pag, sid in sorted(mapa.items(), key=lambda x: -int(x[0])):
         pag = int(pag)
         src = baixa_slide(sid, ctx, pag)
@@ -993,19 +996,21 @@ def posa_pagines_slides(ctx, pdf):
         if r.returncode not in (0, 3):
             ctx.avisos.append(f'p{pag}: no s\'ha pogut posar la diapositiva ({r.stderr.strip()[:200]})'); continue
         os.replace(tmp, pdf)
-        # peu del generador al damunt (fons blanc a la franja del peu i res més: la resta de la diapositiva queda intacta)
-        p = ctx.pagines[pag - 1]
-        sob = (cap + '<body><style>html,body,.page{background:transparent !important}</style><div class="page">'
-               '<div style="position:absolute;left:0;bottom:0;width:21cm;height:1.45cm;background:#fff"></div>'
-               + peu(ctx, p, pag) + '</div></body></html>')
-        sob_html = pdf[:-4] + f'.peu{pag}.html'; sob_pdf = pdf[:-4] + f'.peu{pag}.pdf'
-        open(sob_html, 'w', encoding='utf8').write(sob)
-        genera_pdf(sob_html, sob_pdf)
-        r = subprocess.run(['qpdf', pdf, '--overlay', sob_pdf, f'--to={pag}', '--from=1', '--', tmp], capture_output=True, text=True)
-        if r.returncode in (0, 3): os.replace(tmp, pdf)
-        else: ctx.avisos.append(f'p{pag}: no s\'ha pogut posar el peu ({r.stderr.strip()[:200]})')
-        for f in (sob_html, sob_pdf):
-            if os.path.exists(f): os.remove(f)
+        fetes.append(pag)
+    if not fetes: return
+    fetes.sort()
+    peus = ''.join('<div class="page" style="background:transparent !important;page-break-after:always">'
+                   '<div style="position:absolute;left:0;bottom:0;width:21cm;height:1.45cm;background:#fff"></div>'
+                   + peu(ctx, ctx.pagines[p - 1], p) + '</div>' for p in fetes)
+    sob_html = pdf[:-4] + '.peus.html'; sob_pdf = pdf[:-4] + '.peus.pdf'
+    open(sob_html, 'w', encoding='utf8').write(cap + '<body><style>html,body{background:transparent !important}</style>' + peus + '</body></html>')
+    genera_pdf(sob_html, sob_pdf)
+    tmp = pdf + '.tmp.pdf'
+    r = subprocess.run(['qpdf', pdf, '--overlay', sob_pdf, '--from=1-' + str(len(fetes)), '--to=' + ','.join(map(str, fetes)), '--', tmp], capture_output=True, text=True)
+    if r.returncode in (0, 3): os.replace(tmp, pdf)
+    else: ctx.avisos.append(f'no s\'han pogut posar els peus de les diapositives ({r.stderr.strip()[:200]})')
+    for f in (sob_html, sob_pdf):
+        if os.path.exists(f): os.remove(f)
 
 
 def prepara(a):
@@ -1061,7 +1066,10 @@ def main(argv=None):
                     help="odoo (defecte): pàgines genèriques i fotos de producte d'Odoo si n'hi ha per al grup; yaml: les de dades/gN.yaml (comportament antic)")
     ap.add_argument('--llegenda', choices=['auto', 'fixa'], default='auto',
                     help='auto (defecte): la pàgina de simbologia es genera de les columnes del grup; fixa: la de gN.yaml')
+    ap.add_argument('--sense-slides', action='store_true', help='no posa les diapositives de Google Slides (slides-pagines.yaml): genera la pàgina objectiu del codi')
     a = ap.parse_args(argv)
+    global SENSE_SLIDES
+    SENSE_SLIDES = a.sense_slides
     OPC.update(capcalera=a.capcalera, idioma=a.idioma, llegenda=a.llegenda)
     sortida = a.sortida or os.path.join(ROOT, 'sortida', f'g{a.grup}')
     if a.data and not re.fullmatch(r'\d{4}/(0[1-9]|1[0-2])', a.data): raise SystemExit('--data ha de ser AAAA/MM (p. ex. 2026/10)')
