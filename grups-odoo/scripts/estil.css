@@ -203,3 +203,17 @@ th.ban .l-es { font: bold 8pt Arial, sans-serif } th.ban .l-x { font: bold 6.5pt
 
 .le.llarg .le-t .ml-s .l-es { font-size: 9pt } .le.llarg .le-t .ml-s .l-x { font-size: 6.2pt } .le.llarg .le-t .ml-s .lt { font-size: 5pt }
 .tau td.nw, .tau td.cod { white-space: nowrap }
+
+.titol-pag { flex: none; text-align: center; font: bold 17pt Arial, Helvetica, sans-serif; color: #111; padding: .25cm 1cm 0 4cm }
+
+/* info FLUIDA (activada per AJUST_JS quan el text no hi cap amb el disseny absolut del .pub): fotos en fila a dalt, text en 2 columnes a sota */
+.page.fluid .fl-body { position: absolute; left: 1.2cm; right: 1.2cm; top: 2.9cm }
+.page.fluid .fl-fotos { display: flex; flex-wrap: wrap; justify-content: center; align-items: flex-start; gap: .25cm .4cm; margin-bottom: .45cm }
+.page.fluid .foto-ref { position: relative; flex: none }
+.page.fluid i.ref.big { left: .05cm; top: .05cm }
+.page.fluid .fl-text { column-count: 2; column-gap: .8cm; text-align: justify }
+.page.fluid .info-col { position: static; width: auto; text-align: justify; break-inside: auto }
+.page.fluid .col-lang { margin: .15cm 0 .1cm; break-after: avoid }
+.page.fluid .info-col h3 { break-after: avoid }
+.page.fluid .info-col li { break-inside: avoid }
+.page.fluid .fl-fotos img.ins { object-fit: contain; flex: none }

@@ -38,6 +38,7 @@ window.addEventListener('load', function(){
     });
     var fotsI = Array.from(pg.querySelectorAll('.foto-ref'));
     pg.querySelectorAll('.info-col').forEach(function(c){ var b = c.getBoundingClientRect(); fotsI.forEach(function(f){ var q = f.getBoundingClientRect(); if (q.top > b.top && q.top < b.bottom - 2 && q.left < b.right && q.right > b.left) prob.push('el text trepitja una foto (info)'); }); });
+    pg.querySelectorAll('.info-col').forEach(function(c){ var fs = parseFloat(getComputedStyle(c).fontSize) * 0.75; if (fs < 6.45) prob.push('text d\'informacio massa petit (' + fs.toFixed(1) + ' pt)'); });
     var petites = 0, amagades = 0, n = 0;
     pg.querySelectorAll('.fotos figure > img, .acc-fotos > img').forEach(function(im){
       n++;

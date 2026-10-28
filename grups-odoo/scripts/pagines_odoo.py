@@ -430,11 +430,17 @@ def reparteix(linies, n):
     return out
 
 
-def _paragrafs(linies, estil_mida):
+def _paragrafs(linies, estil_mida, comptador=None):
+    """comptador: llista d'un element amb l'últim número de referència donat; si es passa, cada «□» del text d'una línia (el marcador que
+    escriu qui edita a Odoo) es converteix en el següent número de cercle (1, 2, 3...), com feia estructura_text amb el paràgraf pla."""
     out = []
     for x in linies:
         q = {'role': 'titol' if x['k'] == 'h' else 'text', 'text': x['t']}
         if x['r']: q['refs'] = list(x['r'])
+        elif comptador is not None and x['k'] != 'h' and '\u25a1' in x['t']:
+            n = x['t'].count('\u25a1')
+            q['refs'] = list(range(comptador[0] + 1, comptador[0] + 1 + n)); comptador[0] += n
+            q['text'] = U.net(x['t'].replace('\u25a1', ''))
         if estil_mida and q['role'] == 'text': q['estil'] = {'mida': estil_mida}
         out.append(q)
     return out
@@ -498,9 +504,9 @@ def aplica_tema(tema, op, grup, avisos):
         for l, sl in slots.items():
             if not sl: continue
             linies_ = linies_planes(_unitats_lang(op, l))
-            parts = reparteix(linies_, len(sl))
+            parts = reparteix(linies_, len(sl)); cmp_ = [0]
             for (p, c), pt in zip(sl, parts):
-                c['paragrafs'] = _paragrafs(pt, _mida_orig(c))
+                c['paragrafs'] = _paragrafs(pt, _mida_orig(c), cmp_)
         for p in ps: p['columnes'] = [c for c in p.get('columnes', []) if c['paragrafs']]      # idioma sense text a Odoo: la columna no surt
         k = 0
         for p in ps:
@@ -672,8 +678,7 @@ def baixa_binaris(lect, model, ids_wd, camp, carpeta, nom_fitxer, lot=4):
             if not r[camp]: continue
             b = base64.b64decode(r[camp])
             f = os.path.join(carpeta, f"{nom_fitxer(r['id'], ids_wd[r['id']])}.{_ext(b)}")
-            tmp = os.path.join(carpeta, '.%d-%s' % (os.getpid(), os.path.basename(f)))      # escriptura atòmica: es generen diversos grups alhora i comparteixen aquesta carpeta
-            open(tmp, 'wb').write(b); os.replace(tmp, f)
+            open(f, 'wb').write(b)
             res[r['id']] = (os.path.relpath(f, ROOT), hashlib.sha1(b).hexdigest())
     return res
 

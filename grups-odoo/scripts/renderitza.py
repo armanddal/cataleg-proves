@@ -61,6 +61,7 @@ def fmt_preu(v):
 def img(src, cls='', alt=''):
     if src and src.endswith('.bin') and os.path.exists(os.path.join(ROOT, src[:-4] + '.png')):
         src = src[:-4] + '.png'          # icones TIFF extretes del .pub: el navegador no les mostra; se'n fa servir la còpia PNG
+    if src: src = redueix(src)
     return f'<img class="{cls}" src="{BASE}{E(src)}" alt="{E(alt)}">' if src else ''
 
 
@@ -70,7 +71,7 @@ def retalla(src):
     try:
         from PIL import Image, ImageChops
         orig = os.path.join(ROOT, src)
-        dest_rel = os.path.join('treball', 'img-retallades', hashlib.md5(f'{src}:{os.path.getmtime(orig)}'.encode()).hexdigest() + '.png')
+        dest_rel = os.path.join('treball', 'img-retallades', hashlib.md5(f'{src}:{os.path.getmtime(orig)}:v2'.encode()).hexdigest() + '.jpg')
         dest = os.path.join(ROOT, dest_rel)
         if os.path.exists(dest): return dest_rel
         im = Image.open(orig)
@@ -79,13 +80,39 @@ def retalla(src):
         pla = Image.alpha_composite(fons, rgba).convert('RGB')
         dif = ImageChops.difference(pla, Image.new('RGB', pla.size, (255, 255, 255))).convert('L').point(lambda v: 255 if v > 14 else 0)
         bb = dif.getbbox()
-        if not bb: return src
+        if not bb: return redueix(src)
         w, h = pla.size
         pad = int(max(bb[2] - bb[0], bb[3] - bb[1]) * .02) + 1
         bb = (max(0, bb[0] - pad), max(0, bb[1] - pad), min(w, bb[2] + pad), min(h, bb[3] + pad))
-        if (bb[2] - bb[0]) * (bb[3] - bb[1]) > .92 * w * h: return src
+        if (bb[2] - bb[0]) * (bb[3] - bb[1]) > .92 * w * h: return redueix(src)
         os.makedirs(os.path.dirname(dest), exist_ok=True)
-        pla.crop(bb).save(dest)
+        talla = pla.crop(bb)
+        talla.thumbnail((MAX_PX, MAX_PX))
+        talla.save(dest, 'JPEG', quality=84, optimize=True)
+        return dest_rel
+    except Exception:
+        return src
+
+
+MAX_PX = 1500        # costat llarg màxim d'una foto al PDF (~225 ppp a 17 cm): més resolució només engreixa el PDF
+
+
+def redueix(src):
+    """Còpia reduïda (MAX_PX, JPEG 84) d'una foto gran; si ja és petita o no es pot, torna l'original. Les amb transparència es queden com estan."""
+    try:
+        from PIL import Image
+        orig = os.path.join(ROOT, src)
+        if not src.lower().endswith(('.jpg', '.jpeg', '.png')) or os.path.getsize(orig) < 150_000: return src
+        dest_rel = os.path.join('treball', 'img-reduides', hashlib.md5(f'{src}:{os.path.getmtime(orig)}:v1'.encode()).hexdigest() + '.jpg')
+        dest = os.path.join(ROOT, dest_rel)
+        if os.path.exists(dest): return dest_rel
+        im = Image.open(orig)
+        if im.mode in ('RGBA', 'LA') or 'transparency' in im.info: return src
+        im = im.convert('RGB')
+        if max(im.size) <= MAX_PX and os.path.getsize(orig) < 400_000: return src
+        im.thumbnail((MAX_PX, MAX_PX))
+        os.makedirs(os.path.dirname(dest), exist_ok=True)
+        im.save(dest, 'JPEG', quality=84, optimize=True)
         return dest_rel
     except Exception:
         return src
@@ -267,7 +294,7 @@ def pagina_portada(ctx, p, n):
             h += (f'<div class="segell" style="left:{pos["x"]}cm;top:{pos["y"]}cm;width:{pos["w"]}cm;height:{pos["h"]}cm">'
                   f'<span>{a}</span><span>{b}</span></div>')
             continue
-        h += f'<img class="abs {rol}" style="left:{pos["x"]}cm;top:{pos["y"]}cm;width:{pos["w"]}cm;height:{pos["h"]}cm" src="{BASE}{im["asset"]}">'
+        h += f'<img class="abs {rol}" style="left:{pos["x"]}cm;top:{pos["y"]}cm;width:{pos["w"]}cm;height:{pos["h"]}cm" src="{BASE}{redueix(im["asset"])}">'
     h += f'<div class="grup-et">{E(g["etiqueta"]["es"])}<span class="grup-num">{g["numero"]}</span></div>'
     series = g.get('serie', [])
     nom = g.get('nom', '')
@@ -307,7 +334,7 @@ def pagina_index(ctx, p, n):
         for f in t['fotos']:
             fp = f['pos']
             aj = ';object-fit:contain' if f.get('ajust') == 'contain' else ''   # fotos d'Odoo (targetes automàtiques)
-            h += f'<img class="abs" style="left:{fp["x"]}cm;top:{fp["y"]}cm;width:{fp["w"]}cm;height:{fp["h"]}cm{aj}" src="{BASE}{f["asset"]}">'
+            h += f'<img class="abs" style="left:{fp["x"]}cm;top:{fp["y"]}cm;width:{fp["w"]}cm;height:{fp["h"]}cm{aj}" src="{BASE}{redueix(f["asset"])}">'
     return h + peu(ctx, p, n) + '</div>'
 
 
@@ -377,12 +404,12 @@ def pagina_info(ctx, p, n):
               f'{marc}{parag_html(c["paragrafs"])}</div>')
     for f in p.get('fotos', []):
         pos = f['pos']
-        h += f'<div class="abs foto-ref" style="left:{pos["x"]}cm;top:{pos["y"]}cm;width:{pos["w"]}cm;height:{pos["h"]}cm"><img src="{BASE}{f["asset"]}">'
+        h += f'<div class="abs foto-ref" style="left:{pos["x"]}cm;top:{pos["y"]}cm;width:{pos["w"]}cm;height:{pos["h"]}cm"><img src="{BASE}{redueix(f["asset"])}">'
         if f.get('referencia'): h += f'<i class="ref big">{f["referencia"]}</i>'
         h += '</div>'
     for i in p.get('insignies', []):
         pos = i['pos']
-        h += f'<img class="abs" style="left:{pos["x"]}cm;top:{pos["y"]}cm;width:{pos["w"]}cm" src="{BASE}{i["asset"]}">'
+        h += f'<img class="abs" style="left:{pos["x"]}cm;top:{pos["y"]}cm;width:{pos["w"]}cm" src="{BASE}{redueix(i["asset"])}">'
     return h + peu(ctx, p, n) + '</div>'
 
 
@@ -402,10 +429,19 @@ def etiqueta_foto(f):
     return f'<div class="et">{h}</div>'
 
 
+def es_titol_pagina(q):
+    """Text gran sota la capçalera («HASTA FIN DE EXISTENCIAS»): títol de la pàgina, no llegenda."""
+    return 1.0 <= q['pos']['y'] < 4.0 and q['pos']['w'] > 8 and len(U.net(q.get('text'))) > 6 and not re.search(r'\d', q['text'])
+
+
+def titols_pagina_html(p):
+    return ''.join(f'<div class="titol-pag">{E(q["text"].strip())}</div>' for q in (p.get('textos_pagina') or []) if es_titol_pagina(q))
+
+
 def llegenda_html(p):
     """Llegenda del quadre de comandes electrònic (textos_pagina + imatge «sense classificar»): ES / E / F amb els números en cercle."""
     # G11+: el títol de la pàgina i les etiquetes soltes («700») també són a textos_pagina; no són llegenda
-    tx = sorted([q for q in (p.get('textos_pagina') or []) if not (q['pos']['y'] < 1.0 and q['pos']['w'] > 10) and len(U.net(q.get('text'))) > 6],
+    tx = sorted([q for q in (p.get('textos_pagina') or []) if not (q['pos']['y'] < 1.0 and q['pos']['w'] > 10) and not es_titol_pagina(q) and len(U.net(q.get('text'))) > 6],
                 key=lambda q: q['pos']['y'])
     if not tx: return ''
     cos = tx[-1]['text']
@@ -534,6 +570,7 @@ def pagina_producte(ctx, p, n):
     h = '<div class="page producte' + (' cont' if p.get('continuacio') else '') + '">' + capcalera(ctx, p)
     ordre_codis = [r['cel_les'].get('codi') for t in p.get('taules', []) if t['format'] == 'taula_producte' for r in t['files'] if r['cel_les'].get('codi')]
     if not p.get('continuacio'):
+        h += titols_pagina_html(p)
         h += '<div class="cos">'
         if p.get('insignies'):
             h += '<div class="insig">' + ''.join(img(i['asset']) for i in p['insignies']) + '</div>'
@@ -711,9 +748,13 @@ TIPUS = {'pagina_imatge': pagina_imatge, 'portada_grup': pagina_portada, 'index_
 # Les fonts del .pub (Franklin Gothic...) no són aquí: les columnes de text d'una pàgina d'informació poden sortir més altes; es redueix
 # la mida de lletra fins que no passen del peu de pàgina.
 AJUST_JS = '''
+/* Pàgines d'informació. 1) Mode del .pub (coordenades absolutes): el text es redueix fins que càpiga, però mai per sota de 7 pt.
+   2) Si així no hi cap sense trepitjar una foto/una altra columna o sortir del full, o una columna fa menys de 5 cm d'ample,
+   la pàgina és «problemàtica» i es passa al mode FLUID (flux normal: fotos en fila a dalt, text en 2 columnes a sota). Vegeu fluid(). */
+var MIN_PX = 7 * 4 / 3, FLUID_PGS = [];
 document.querySelectorAll('.page.info').forEach(function(pg){
   var CM = 37.795, r0 = pg.getBoundingClientRect(), cols = Array.from(pg.querySelectorAll('.info-col')), fots = Array.from(pg.querySelectorAll('.foto-ref'));
-  var base = r0.top + 28.1 * CM;
+  var base = r0.top + 28.1 * CM, mal = false;
   function marge(c){
     var b = c.getBoundingClientRect(), lim = base;
     fots.forEach(function(f){ var q = f.getBoundingClientRect(); if (q.top > b.top && q.left < b.right && q.right > b.left) lim = Math.min(lim, q.top - 0.2 * CM); });
@@ -722,12 +763,63 @@ document.querySelectorAll('.page.info').forEach(function(pg){
   }
   cols.forEach(function(c){
     var lim = marge(c), fs = parseFloat(getComputedStyle(c).fontSize), n = 0;
-    while (c.getBoundingClientRect().bottom > lim && fs > 5 && n < 120) { fs -= 0.2; c.style.fontSize = fs + 'px'; n++; }
+    if (c.getBoundingClientRect().width < 5 * CM) { mal = true; pg.dataset.why = (pg.dataset.why||'') + ' ample' + (c.getBoundingClientRect().width/CM).toFixed(1); }
+    while (c.getBoundingClientRect().bottom > lim && fs > MIN_PX && n < 120) { fs -= 0.2; c.style.fontSize = fs + 'px'; n++; }
+    if (c.getBoundingClientRect().bottom > lim + 1) { mal = true; pg.dataset.why = (pg.dataset.why||'') + ' noCap'; }
     if (n == 0 && fs < 10.5 * 4 / 3) {          // lletra petita de l'original: s'augmenta fins on càpiga (màx. 10,5 pt) perquè no quedi mig full en blanc
       while (fs < 10.5 * 4 / 3 && n < 60) { c.style.fontSize = (fs + 0.3) + 'px'; if (c.getBoundingClientRect().bottom > lim) { c.style.fontSize = fs + 'px'; break; } fs += 0.3; n++; }
     }
   });
+  function inter(a, b){ return Math.min(a.right, b.right) - Math.max(a.left, b.left) > 3 && Math.min(a.bottom, b.bottom) - Math.max(a.top, b.top) > 3; }
+  cols.forEach(function(c, i){
+    var b = c.getBoundingClientRect();
+    fots.forEach(function(f){ if (inter(b, f.getBoundingClientRect())) { mal = true; pg.dataset.why = (pg.dataset.why||'') + ' foto'; } });
+    cols.forEach(function(o, j){ if (j > i && inter(b, o.getBoundingClientRect())) { mal = true; pg.dataset.why = (pg.dataset.why||'') + ' cols'; } });
+  });
+  if (mal) FLUID_PGS.push(pg);
 });
+function fluid(pg){
+  var CM = 37.795, r0 = pg.getBoundingClientRect(), base = r0.top + 28.1 * CM;
+  var cols = Array.from(pg.querySelectorAll('.info-col')), fots = Array.from(pg.querySelectorAll('.foto-ref'));
+  pg.classList.add('fluid');
+  var body = document.createElement('div'), fz = document.createElement('div'), tx = document.createElement('div');
+  body.className = 'fl-body'; fz.className = 'fl-fotos'; tx.className = 'fl-text';
+  fots.forEach(function(f){ f.removeAttribute('style'); f.classList.remove('abs'); fz.appendChild(f); });
+  Array.from(pg.children).forEach(function(e){ if (e.tagName == 'IMG' && e.classList.contains('abs')) { e.removeAttribute('style'); e.classList.remove('abs'); e.classList.add('ins'); fz.appendChild(e); fots.push(e); } });     // tires d'icones del .pub (alineades al text): ara van a la fila de fotos
+  var rang = {es: 0, e: 1, f: 2, d: 3}, ant = '';
+  cols = cols.map(function(c, i){ var m = c.querySelector('.col-lang .lt'); return {c: c, i: i, l: m ? m.textContent.trim().toLowerCase() : 'es'}; })
+            .sort(function(a, b){ return ((rang[a.l] === undefined ? 9 : rang[a.l]) - (rang[b.l] === undefined ? 9 : rang[b.l])) || a.i - b.i; });
+  cols.forEach(function(o){          // els idiomes junts (ES, EN, FR, DE); una columna del mateix idioma que l'anterior no repeteix el quadret E/F/D
+    var c = o.c; c.removeAttribute('style');
+    var m = c.querySelector('.col-lang'); if (m && o.l == ant) m.parentNode.removeChild(m);
+    ant = o.l; tx.appendChild(c);
+  });
+  body.appendChild(fz); body.appendChild(tx);
+  pg.insertBefore(body, pg.querySelector('.peu'));
+  var asp = fots.map(function(f){ var im = f.tagName == 'IMG' ? f : f.querySelector('img'); return im && im.naturalHeight ? im.naturalWidth / im.naturalHeight : 1; });
+  function posa(h){ fots.forEach(function(f, i){ f.style.height = h + 'cm'; f.style.width = Math.min(h * asp[i], 17) + 'cm'; }); }
+  function cap(){ return tx.getBoundingClientRect().bottom <= base; }
+  if (!fots.length) fz.style.display = 'none';
+  var ok = false, sizes = [9.5, 9, 8.5, 8, 7.5, 7];      // lletra preferida: la més gran que càpiga; les fotos baixen fins a 2,4 cm abans de reduir la lletra
+  function prova(fs, hmin){ tx.style.fontSize = fs + 'pt'; for (var h = 5.2; h >= hmin - 1e-6; h -= 0.2) { posa(h); if (cap()) return true; } return false; }
+  for (var k = 0; k < sizes.length && !ok; k++) ok = prova(sizes[k], 2.4);
+  if (!ok) {          // massa text per a 2 columnes a 7 pt: 3 columnes (≥ 5 cm cadascuna)
+    tx.style.columnCount = 3;
+    for (var k3 = 0; k3 < sizes.length - 2 && !ok; k3++) ok = prova(sizes[k3 + 2], 2.0);
+  }
+  if (!ok) {          // darrer recurs: 6,5 pt (el mínim absolut), interlineat ajustat i fotos fins a 1,6 cm
+    tx.style.fontSize = '6.5pt'; tx.style.lineHeight = '1.08';
+    for (var h2 = 2.4; h2 >= 1.6 - 1e-6 && !ok; h2 -= 0.2) { posa(h2); if (cap()) ok = true; }
+    if (!ok) posa(1.6);
+  }
+  if (ok) {          // sobra lloc: es fa créixer la lletra (fins a 10,5 pt) i, si encara sobra, les fotos
+    var fsz = parseFloat(tx.style.fontSize);
+    while (fsz < 10.5) { tx.style.fontSize = (fsz + 0.25) + 'pt'; if (!cap()) { tx.style.fontSize = fsz + 'pt'; break; } fsz += 0.25; }
+    var hh = parseFloat(fots.length ? fots[0].style.height : 0);
+    while (fots.length && hh < 7) { posa(hh + 0.2); if (!cap()) { posa(hh); break; } hh += 0.2; }
+  }
+}
+window.addEventListener('load', function(){ FLUID_PGS.forEach(fluid); });
 '''
 CSS = open(os.path.join(HERE, 'estil.css'), encoding='utf8').read()
 
