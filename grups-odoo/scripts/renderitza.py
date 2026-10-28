@@ -973,14 +973,36 @@ def baixa_slide(sid, ctx, pag):
     return dest if os.path.exists(dest) else None
 
 
+def clau_pagines_slides(ctx):
+    """Per cada pàgina renderitzada del grup: «<id Odoo>:<k>» (k = ordre dins del mateix registre d'Odoo) o None si no ve d'una pàgina d'Odoo."""
+    visites, claus = {}, []
+    for p in ctx.pagines:
+        oid = p.get('_odoo_id')
+        if not oid: claus.append(None); continue
+        visites[oid] = visites.get(oid, 0) + 1
+        claus.append(f'{oid}:{visites[oid]}')
+    return claus
+
+
 def posa_pagines_slides(ctx, pdf):
     """Pàgines dissenyades a Google Slides (slides-pagines.yaml: grup -> {pàgina renderitzada: id de la presentació}).
     El PDF de la diapositiva substitueix aquella pàgina tal qual; el peu (data, número de pàgina, enllaç) el posa el generador
     al damunt, perquè quedi bé encara que la pàgina canviï de lloc. Tots els peus d'un grup es fan en UNA sola execució de Chrome."""
+    clau_de = clau_pagines_slides(ctx)
+    if os.environ.get('DUMP_CLAUS_SLIDES'):
+        print('CLAUS_SLIDES ' + json.dumps({i + 1: c for i, c in enumerate(clau_de) if c}))
     if SENSE_SLIDES: return
     cfg_p = os.path.join(ROOT, 'slides-pagines.yaml')
     if not os.path.exists(cfg_p): return
-    mapa = (yaml.safe_load(open(cfg_p, encoding='utf8')) or {}).get(ctx.grup) or {}
+    brut = (yaml.safe_load(open(cfg_p, encoding='utf8')) or {}).get(ctx.grup) or {}
+    # La clau d'una diapositiva és «<id de la pàgina d'Odoo>:<k>» (k = 1a, 2a... pàgina d'aquell registre), no el número de pàgina:
+    # així afegir o treure productes o pàgines no desquadra el mapa. Les claus numèriques antigues encara es respecten.
+    mapa = {}
+    for k, sid in brut.items():
+        if isinstance(k, str) and ':' in k:
+            if k in clau_de: mapa[clau_de.index(k) + 1] = sid
+            else: ctx.avisos.append(f'diapositiva {sid} (clau {k}): aquesta pàgina d\'Odoo ja no existeix al catàleg; no es fa servir')
+        else: mapa[int(k)] = sid
     if not mapa: return
     html_p = pdf[:-4] + '.html'
     cap = open(html_p, encoding='utf8').read().split('<body', 1)[0]

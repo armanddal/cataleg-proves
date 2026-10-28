@@ -453,7 +453,7 @@ def _mida_orig(c):
 
 
 def _marca(p, op, tema):
-    p['_odoo'] = True; p['_ancora_fam_id'] = op.get('familia_id'); p['_seq'] = op['sequence']
+    p['_odoo'] = True; p['_odoo_id'] = op['id']; p['_ancora_fam_id'] = op.get('familia_id'); p['_seq'] = op['sequence']
     return p
 
 
