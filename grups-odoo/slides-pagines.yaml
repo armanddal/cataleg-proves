@@ -1,4 +1,26 @@
-# Pàgines dissenyades a Google Slides (prototip): grup -> {pàgina renderitzada del grup: id de la presentació}.
-# El PDF exportat de la diapositiva va a treball/slides/<id>.pdf
+# Pàgines dissenyades a Google Slides: grup -> {pàgina renderitzada del grup: id de la presentació}.
+# El generador n'exporta el PDF (docs.google.com/presentation/d/<id>/export/pdf) i el posa en lloc de la pàgina.
+# Versió v2 (convertidor calibrat amb el render real de Slides). Les diapositives de la v1 són a la paperera del Drive pendents d'esborrar.
 8:
+  4: 19JGhcaBzafQ5-P-uqJU-1Sh497gL2BbJpcCpLRHPLwM
+  5: 1CWfBu2Zv_pVYtK-Rk0mKtyfrwy1OEuEok4eKmWgQMGY
+  8: 1mOTNF7vgEAozx5djZQjEV907g7PY6XjMk3Yph8UMX3Y
   9: 19wsQ2bCVokoq8p0Dz-A3gurOKywC7awcsVto2l28iOo
+  10: 1HkXcc4E_fK1ANZh0micAUjc5uCS_q_bgHXZLgm4eE28
+  15: 1svR4BMt3ob9bDxR4yOgOPKgn40ZYFnyO83u2D8b7mUw
+  16: 1rSojhzfEvydvXyJwMkTVdGJd9-W-nJkSAwSMGf3wysI
+  17: 1ve5IofbRc-WGuN0MnJ3-5GVuqnHQdtAixz6mOuDWU4I
+  20: 15h3n3zq1Vcz4t6zxRN8guHSqnqeZa7WjG8f2lU7phIc
+  21: 1UJoTowhAIZtk6qO0l0ys1qYYjWd04HgIiOVm1xcU4os
+  22: 1YCIe6hCzXqLinIpidxIynA9s2j9Wp7kwyemt_bQ94ik
+  29: 1TFeiuaJvhEmJUf5vwxUmSVKH2xnX4QHItFZnN7qYMFM
+  30: 1CSKLw0vZbRTVB8rrEbWlgywk08IuPx1wWNYeEvDvVHk
+  31: 1-dehl322S4Xoz0q5Nyn_XiZ2aeXiDgB-QtUbxNEcwlU
+  36: 1iEDUMrviRYzVsZFDG4wMUPk7qJvPsni8owg3VlaXJtE
+  37: 15MgqcTNQq4QY1sKe5xlEzv2Y3xWdW5GeQoVl-LMMkQo
+  38: 1_IsxXtJhacl0H7T8sqD67pmjgvOsSM0WKAHmicdHeuw
+  39: 1rtGHd7r1khMZQrQvWv4FbR_VuW1MEYAawDLtXzyAMSI
+  44: 1w-WL1GJK-QjR57XWkNQY7y_926tJDghWJhlZ1C1a2-Y
+  45: 1qjPq90HuX-o0VZHqp33Vtw0rm7Arw3hXMj7FJhg469k
+  46: 1YZk3XLUEr-Z01hJzu7qEcXzZjHcqimOuaBDFFJPdOBE
+  47: 1MPi4xrYWSfH5jJN59dqXuixCEkR3B33S1asE1cLez3o
