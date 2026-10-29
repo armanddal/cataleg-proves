@@ -24,7 +24,7 @@ plantilla:
     mesura_diagonal: assets/g10/icona-mesura-diagonal.jpg
     electric: assets/g10/icona-cel-energia-electric.jpg
   peu:
-    logo: assets/g10/plantilla-logo-eurast-e5e0df.jpg
+    logo: assets/g10/plantilla-logo-eurast.jpg
     data_edicio: grup.data_edicio
     text_peu: Grupo {grup} - {data_edicio}
     numero_pagina: true

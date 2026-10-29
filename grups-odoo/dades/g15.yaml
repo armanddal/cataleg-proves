@@ -19,7 +19,7 @@ plantilla:
     resistencia_electrica: assets/g15/icona-resistencia-electrica.png
     electric: assets/g15/icona-cel-energia-electric.jpg
   peu:
-    logo: assets/g15/plantilla-logo-eurast-e5e0df.jpg
+    logo: assets/g15/plantilla-logo-eurast.jpg
     data_edicio: grup.data_edicio
     text_peu: Grupo {grup} - {data_edicio}
     numero_pagina: true
