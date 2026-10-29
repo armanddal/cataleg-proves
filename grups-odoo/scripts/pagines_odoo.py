@@ -341,7 +341,8 @@ def extreu(tema, grup):
         tc = p['titol_catalog']
         r['cos'] = construeix_cos({l: [lin('p', tc[l])] for l in IDIOMES if tc.get(l)})
         for im in p['imatges']:
-            if im.get('rol') in ('foto_producte', 'logo'): r['imatges'].append(_conf_imatge(grup, im['asset']))
+            if im.get('rol') in ('foto_producte', 'logo') and not im['asset'].lower().endswith('.emf'):   # l'.emf (quadre de número de G10/G15) no és una foto: no es puja a Odoo
+                r['imatges'].append(_conf_imatge(grup, im['asset']))
     elif t == 'indice':
         p = ps[0]
         r['noms'] = {'es': 'Índice', 'en': 'Index', 'fr': 'Index'}
@@ -546,7 +547,7 @@ def aplica_tema(tema, op, grup, avisos):
         if nou: p['titol_catalog'] = nou
         k = 0; ims = []
         for im in p['imatges']:
-            if im.get('rol') in ('foto_producte', 'logo'):
+            if im.get('rol') in ('foto_producte', 'logo') and not im['asset'].lower().endswith('.emf'):       # l'.emf es queda tal com és (no consumeix cap imatge d'Odoo)
                 n = _imatge_n(op, k); k += 1
                 if n is None: continue                      # imatge treta a Odoo
                 im['asset'] = n['path']

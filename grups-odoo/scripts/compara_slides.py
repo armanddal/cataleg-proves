@@ -21,7 +21,7 @@ Comprovacions per pàgina:
   VISUAL diferència a 40 ppp en gris per blocs de 8x8; guarda /private/tmp/claude-501/diff/gN-pNN.png (objectiu | Slides | diferències)
 Exit code 1 si hi ha cap AVIS.
 """
-import argparse, collections, os, re, shutil, subprocess, sys, tempfile, unicodedata
+import argparse, collections, json, os, re, shutil, subprocess, sys, tempfile, unicodedata
 import yaml
 from PIL import Image, ImageChops, ImageDraw
 
@@ -286,15 +286,38 @@ def comprova_visual(opdf, opag, spdf, g, pag, desa):
 
 
 # ---------------------------------------------------------------- objectiu
+def _hi_ha_claus(g):
+    mapa = (yaml.safe_load(open(os.path.join(ROOT, 'slides-pagines.yaml'), encoding='utf8')) or {}).get(g) or {}
+    return any(isinstance(k, str) and ':' in k for k in mapa)
+
+
+def mapa_pagines(g):
+    """slides-pagines.yaml del grup -> {número de pàgina: id de diapositiva}; entén claus '<id Odoo>:<k>' i numèriques."""
+    brut = (yaml.safe_load(open(os.path.join(ROOT, 'slides-pagines.yaml'), encoding='utf8')) or {}).get(g) or {}
+    claus = {}
+    cp = os.path.join(OBJ_BASE, f'g{g}', f'g{g}.claus.json')
+    if os.path.exists(cp): claus = {v: int(k) for k, v in json.load(open(cp)).items()}
+    mapa = {}
+    for k, sid in brut.items():
+        if isinstance(k, str) and ':' in k:
+            if k in claus: mapa[claus[k]] = sid
+            else: print(f'AVÍS: clau {k} (diapositiva {sid}) no és al catàleg actual; s\'ignora', file=sys.stderr)
+        else: mapa[int(k)] = sid
+    return mapa
+
+
 def assegura_objectiu(g, regenera, objectiu):
     if objectiu: return objectiu
     sortida = os.path.join(OBJ_BASE, f'g{g}', f'g{g}')
     pdf = sortida + '.pdf'
-    if regenera or not os.path.exists(pdf):
+    if regenera or not os.path.exists(pdf) or (not os.path.exists(sortida + '.claus.json') and _hi_ha_claus(g)):
         os.makedirs(os.path.dirname(sortida), exist_ok=True)
         print(f'Generant l\'objectiu de G{g} sense diapositives (renderitza.py --sense-slides)...', file=sys.stderr)
         r = subprocess.run([PY, os.path.join(ROOT, 'scripts', 'renderitza.py'), '--grup', str(g), '--cache-estat', '--sense-slides', '--sortida', sortida],
-                           capture_output=True, text=True, cwd=ROOT)
+                           capture_output=True, text=True, cwd=ROOT, env={**os.environ, 'DUMP_CLAUS_SLIDES': '1'})
+        for l in r.stdout.splitlines():
+            if l.startswith('CLAUS_SLIDES '):
+                json.dump(json.loads(l[len('CLAUS_SLIDES '):]), open(sortida + '.claus.json', 'w'))
         if not os.path.exists(pdf): raise SystemExit('No s\'ha pogut generar l\'objectiu:\n' + r.stdout[-800:] + r.stderr[-800:])
     return pdf
 
@@ -307,15 +330,15 @@ def main(argv=None):
     ap.add_argument('--objectiu', default=None, help="PDF objectiu ja generat sense diapositives")
     ap.add_argument('--detall', action='store_true', help='mostra també les mètriques de les pàgines OK')
     a = ap.parse_args(argv)
-    mapa = (yaml.safe_load(open(os.path.join(ROOT, 'slides-pagines.yaml'), encoding='utf8')) or {}).get(a.grup) or {}
-    pags = sorted(int(p) for p in mapa if not a.pagina or int(p) in a.pagina)
-    if not pags: raise SystemExit(f'Cap pàgina a slides-pagines.yaml per al grup {a.grup}')
     opdf = assegura_objectiu(a.grup, a.regenera, a.objectiu)
+    mapa = mapa_pagines(a.grup)
+    pags = sorted(p for p in mapa if not a.pagina or p in a.pagina)
+    if not pags: raise SystemExit(f'Cap pàgina a slides-pagines.yaml per al grup {a.grup}')
     n_avis = 0
     print(f'Grup {a.grup} | objectiu {opdf}\n')
     print(f'{"pàg":>3}  {"estat":<5} detall')
     for p in pags:
-        sid = mapa[p] if p in mapa else mapa[str(p)]
+        sid = mapa[p]
         spdf = os.path.join(SLIDES_DIR, f'{sid}.pdf')
         if not os.path.exists(spdf):
             print(f'{p:>3}  AVIS  no hi ha el PDF de la diapositiva {sid}'); n_avis += 1; continue
