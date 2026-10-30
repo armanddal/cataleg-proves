@@ -22,7 +22,7 @@ plantilla:
     electric: assets/g7/icona-cel-energia-electric.jpg
     gas: assets/g7/icona-cel-energia-gas.jpg
   peu:
-    logo: assets/g7/plantilla-logo-eurast-c8031c.jpg
+    logo: assets/g7/plantilla-logo-eurast.jpg
     data_edicio: grup.data_edicio
     text_peu: Grupo {grup} - {data_edicio}
     numero_pagina: true

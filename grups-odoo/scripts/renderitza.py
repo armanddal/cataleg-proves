@@ -289,6 +289,7 @@ def pagina_portada(ctx, p, n):
             h += f'<line x1="{q["x"]}" y1="{q["y"] + q["h"]}" x2="{q["x"] + q["w"]}" y2="{q["y"]}" stroke="url(#gd)" stroke-width=".22" gradientUnits="userSpaceOnUse"/>'
     h += '</svg>'
     for im in p['imatges']:
+        if im['asset'].lower().endswith('.emf'): continue     # quadre de número (.emf) de G10/G15: el navegador no el mostra (icona trencada)
         pos = im['pos']; rol = im.get('rol')
         if rol == 'segell_data':
             a, b = ctx.data.split('/')
