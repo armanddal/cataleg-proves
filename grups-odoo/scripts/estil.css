@@ -241,3 +241,8 @@ i.bl-n { position: absolute; z-index: 5; left: -.02cm; top: -.02cm; min-width: .
 .bl-text .bl-vin { position: relative; padding-left: .3cm }
 .bl-text .bl-vin::before { content: '\2022'; position: absolute; left: .04cm }
 .bl-col li { margin-bottom: .07cm }
+
+/* retoc 4: capçalera només amb símbol */
+.tau.hct thead th.hc.sol .hci { height: .75cm; max-width: 1.6cm; margin: 0 auto }
+.accessoris .tau.hct thead th.hc.sol .hci { height: .5cm; max-width: 1.1cm }
+.tau td .tic { color: #1a9a3a; font-weight: bold; font-size: 11pt; font-family: 'Apple Symbols','Zapf Dingbats','DejaVu Sans',sans-serif } .tau td .creu { color: #d32017; font-weight: bold; font-size: 11pt; font-family: 'Apple Symbols','Zapf Dingbats','DejaVu Sans',sans-serif }

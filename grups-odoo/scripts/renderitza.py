@@ -38,7 +38,10 @@ SENSE_SLIDES = False     # --sense-slides: no es posa cap diapositiva (pàgina o
 BASE = '../'     # prefix relatiu cap a l'arrel (on és assets/); es recalcula a renderitza()
 # Opcions de disseny (CLI): capçalera 'text' (nom + icona opcional; per defecte) | 'icona' (mode antic: només icona);
 # idioma del nom a la capçalera (es|en|fr); llegenda 'auto' (generada de les columnes del grup) | 'fixa' (la de gN.yaml)
-OPC = {'capcalera': 'text', 'idioma': 'es', 'llegenda': 'auto'}
+OPC = {'capcalera': 'text', 'idioma': 'es', 'llegenda': 'auto',
+       'caixes_ull': False,        # retoc 1 (Sergi 16/11): les caixes amb l'ull + foto sota la foto del producte NO es pinten (--caixes-ull les torna)
+       'icones_etiqueta_foto': False,   # retoc 2: les 3 fotos petites al costat dels codis de l'etiqueta NO es pinten (--icones-etiqueta-foto les torna)
+       'capcalera_simbol': True}   # retoc 4: capçalera de taula = només el símbol quan la columna en té (--capcalera-nom torna el nom)
 _STD = {}
 
 
@@ -198,7 +201,12 @@ def lang_inline(d, cls='ml-i'):
     return f'<div class="{cls}">{h.strip()}</div>'
 
 
+TIC_CREU = True     # retoc 3: els «ü»/«û» (caràcters de Wingdings que arriben d'Odoo) es pinten com a tic verd / creu vermella; False = es veu el caràcter cru
+
+
 def cella_valor(v, inline=False):
+    if TIC_CREU and isinstance(v, str) and v.strip() in ('ü', 'û'):
+        return '<span class="tic">&#10003;</span>' if v.strip() == 'ü' else '<span class="creu">&#10007;</span>'
     if isinstance(v, dict): return lang_inline(v, 'ml-cell') if inline else lang_lines(v, 'ml-cell')
     return E(str(v)) if v is not None else ''
 
@@ -218,6 +226,8 @@ def th_text(ctx, c, nom=None):
     """Capçalera «text primer»: nom sempre; icona estàndard petita damunt, només si la columna en té."""
     ic = icona_std(ctx, c)
     nom = nom if nom is not None else nom_capcalera(c)
+    if ic and OPC['capcalera_simbol']:       # només el símbol (el significat és a la pàgina de simbologia); sense símbol, es manté el nom
+        return f'<th class="hc sol" title="{E(nom)}">' + img(ic, 'hci') + '</th>'
     return ('<th class="hc">' + (img(ic, 'hci') if ic else '') + f'<div class="hcn" lang="{OPC["idioma"]}">{E(nom)}</div></th>')
 
 
@@ -461,7 +471,7 @@ def pagina_info(ctx, p, n):
 def etiqueta_foto(f):
     """Etiqueta d'una foto: un o diversos codis (variants gas/elèctrica, potències...), cada un amb les seves icones i text."""
     codis = f.get('codis') or [{'codi': f['codi']}]
-    h = ''.join(img(i['asset'], 'et-ico-f') for i in f.get('icones_foto', []) or [])
+    h = ''.join(img(i['asset'], 'et-ico-f') for i in f.get('icones_foto', []) or []) if OPC['icones_etiqueta_foto'] else ''
     h = f'<span class="et-fotoic">{h}</span>' if h else ''
     if len(codis) > 6:      # foto compartida per moltes files (prestatgeries): primer i últim codi; la resta són a la taula
         codis = [codis[0], codis[-1]]; mes = f'<i class="mes">… {len(f["codis"])} models</i>'
@@ -529,6 +539,7 @@ def nota_linies(t):
 
 def nota_html(t):
     col = t['columnes'][0]
+    if not OPC['caixes_ull'] and col.get('icones_capcalera'): return ''      # caixa amb l'ull + foto (enllaç a accessoris d'un altre grup): fora
     ample = ' wide' if t.get('pos', {}).get('w', 0) > 10 else ''
     ics = ''.join(img(i['asset']) for i in col.get('icones_capcalera', []))
     return f'<div class="nota-caixa{ample}">{ics}<div>' + ''.join(lang_lines(l, 'ml-n') for l in nota_linies(t)) + '</div></div>'
@@ -1089,11 +1100,15 @@ def main(argv=None):
                     help="odoo (defecte): pàgines genèriques i fotos de producte d'Odoo si n'hi ha per al grup; yaml: les de dades/gN.yaml (comportament antic)")
     ap.add_argument('--llegenda', choices=['auto', 'fixa'], default='auto',
                     help='auto (defecte): la pàgina de simbologia es genera de les columnes del grup; fixa: la de gN.yaml')
+    ap.add_argument('--caixes-ull', action='store_true', help="torna les caixes amb l'ull i la foto sota la foto del producte (retirades per defecte)")
+    ap.add_argument('--icones-etiqueta-foto', action='store_true', help="torna les fotos petites al costat dels codis (retirades per defecte)")
+    ap.add_argument('--capcalera-nom', action='store_true', help='torna el nom petit sota el símbol a les capçaleres de taula (retirat per defecte)')
     ap.add_argument('--sense-slides', action='store_true', help='no posa les diapositives de Google Slides (slides-pagines.yaml): genera la pàgina objectiu del codi')
     a = ap.parse_args(argv)
     global SENSE_SLIDES
     SENSE_SLIDES = a.sense_slides
-    OPC.update(capcalera=a.capcalera, idioma=a.idioma, llegenda=a.llegenda)
+    OPC.update(capcalera=a.capcalera, idioma=a.idioma, llegenda=a.llegenda, caixes_ull=a.caixes_ull,
+               icones_etiqueta_foto=a.icones_etiqueta_foto, capcalera_simbol=not a.capcalera_nom)
     sortida = a.sortida or os.path.join(ROOT, 'sortida', f'g{a.grup}')
     if a.data and not re.fullmatch(r'\d{4}/(0[1-9]|1[0-2])', a.data): raise SystemExit('--data ha de ser AAAA/MM (p. ex. 2026/10)')
     dades, preus, font, avisos, estat = prepara(a)
