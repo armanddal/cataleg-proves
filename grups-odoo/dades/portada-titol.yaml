@@ -1,0 +1,16 @@
+# Posició del títol vertical de la portada (nom del grup) a la tarifa publicada, en cm sobre el full A4: x0/x1 = columna del text, y0/y1 = extensió.
+# Mesurat sobre el PDF publicat (cataleg_original_web.pdf, portades) detectant el text negre a la franja dreta. Els grups que no hi són (G1, G11, G15: mesura
+# dubtosa) mantenen la posició per defecte del generador. El generador centra el títol aquí i n'ajusta la mida perquè faci aquesta llargada (entre 85 % i 125 %).
+2: {x0: 19.05, x1: 19.84, y0: 4.57, y1: 27.05}
+3: {x0: 19.15, x1: 19.94, y0: 6.71, y1: 24.92}
+4: {x0: 19.15, x1: 19.94, y0: 8.64, y1: 22.96}
+5: {x0: 19.18, x1: 19.96, y0: 9.22, y1: 22.71}
+6: {x0: 19.00, x1: 20.14, y0: 6.68, y1: 23.16}
+7: {x0: 19.18, x1: 19.94, y0: 5.66, y1: 25.88}
+8: {x0: 19.15, x1: 19.94, y0: 2.82, y1: 11.48}
+9: {x0: 19.43, x1: 20.19, y0: 3.35, y1: 28.24}
+10: {x0: 19.43, x1: 20.19, y0: 7.16, y1: 24.41}
+12: {x0: 19.51, x1: 20.19, y0: 2.90, y1: 28.98}
+13: {x0: 19.71, x1: 20.47, y0: 10.74, y1: 20.83}
+14: {x0: 19.56, x1: 20.32, y0: 4.14, y1: 27.41}
+16: {x0: 19.56, x1: 20.32, y0: 2.90, y1: 27.86}

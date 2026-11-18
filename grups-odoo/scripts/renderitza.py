@@ -38,7 +38,7 @@ SENSE_SLIDES = False     # --sense-slides: no es posa cap diapositiva (pàgina o
 BASE = '../'     # prefix relatiu cap a l'arrel (on és assets/); es recalcula a renderitza()
 # Opcions de disseny (CLI): capçalera 'text' (nom + icona opcional; per defecte) | 'icona' (mode antic: només icona);
 # idioma del nom a la capçalera (es|en|fr); llegenda 'auto' (generada de les columnes del grup) | 'fixa' (la de gN.yaml)
-OPC = {'capcalera': 'text', 'idioma': 'es', 'llegenda': 'auto',
+OPC = {'capcalera': 'text', 'idioma': 'es', 'llegenda': 'original',
        'caixes_ull': False,        # retoc 1 (Sergi 16/11): les caixes amb l'ull + foto sota la foto del producte NO es pinten (--caixes-ull les torna)
        'icones_etiqueta_foto': False,   # retoc 2: les 3 fotos petites al costat dels codis de l'etiqueta NO es pinten (--icones-etiqueta-foto les torna)
        'capcalera_simbol': True}   # retoc 4: capçalera de taula = només el símbol quan la columna en té (--capcalera-nom torna el nom)
@@ -93,6 +93,57 @@ def retalla(src):
         talla = pla.crop(bb)
         talla.thumbnail((MAX_PX, MAX_PX))
         talla.save(dest, 'JPEG', quality=84, optimize=True)
+        return dest_rel
+    except Exception:
+        return src
+
+
+_RECORTS = None
+
+
+def _dhash(im):
+    from PIL import Image
+    im = im.convert('RGBA')
+    g = Image.alpha_composite(Image.new('RGBA', im.size, (255, 255, 255, 255)), im).convert('L').resize((17, 16))
+    px = list(g.getdata()); bits = 0
+    for r in range(16):
+        for c in range(16): bits = (bits << 1) | (px[r * 17 + c] > px[r * 17 + c + 1])
+    return f'{bits:064x}'
+
+
+def recorta_pub(src, portada=False):
+    """Foto d'una pàgina d'informació tal com la retalla la tarifa publicada (marc + zoom del .pub): dades/recorts-fotos.yaml, clau = sha1 de
+    l'asset (portada=True: només els recorts de portada; el troba scripts/recorts_pub.py comparant amb el PDF publicat). Torna una còpia retallada a treball/img-recortades/ o l'original si no n'hi ha."""
+    global _RECORTS
+    try:
+        if _RECORTS is None:
+            f = os.path.join(ROOT, 'dades', 'recorts-fotos.yaml')
+            _RECORTS = (yaml.safe_load(open(f, encoding='utf8')) or {}) if os.path.exists(f) else {}
+        if not _RECORTS or not src: return src
+        orig = os.path.join(ROOT, src)
+        sha = hashlib.sha1(open(orig, 'rb').read()).hexdigest()
+        r = _RECORTS.get(sha)
+        from PIL import Image
+        im = Image.open(orig)
+        if not r:        # Odoo desa les fotos reescalades: es busca per aspecte + dHash (mateixa foto, qualsevol resolució)
+            dh = _dhash(im); ar = im.width / im.height
+            millor = 19
+            for v in _RECORTS.values():
+                if v.get('dh') and ('portada' in v['font']) == portada and abs(ar / v['ar'] - 1) < .012:     # la mateixa foto pot sortir a la portada i a una pàgina d'informació amb recorts diferents
+                    dist = bin(int(dh, 16) ^ int(v['dh'], 16)).count('1')
+                    if dist < millor: millor, r = dist, v
+            if not r: return src
+        alfa = im.mode in ('RGBA', 'LA') or 'transparency' in im.info          # portades: PNG amb transparència, es conserva
+        dest_rel = os.path.join('treball', 'img-recortades', sha + '-' + hashlib.md5(repr(r['rect']).encode()).hexdigest()[:8] + ('.png' if alfa else '.jpg'))
+        dest = os.path.join(ROOT, dest_rel)
+        if os.path.exists(dest): return dest_rel
+        if alfa: im = im.convert('RGBA')
+        else: im = im.convert('RGB')
+        w, h = im.size; x0, y0, x1, y1 = r['rect']
+        os.makedirs(os.path.dirname(dest), exist_ok=True)
+        talla = im.crop((round(x0 * w), round(y0 * h), round(x1 * w), round(y1 * h)))
+        if alfa: talla.save(dest, 'PNG', optimize=True)
+        else: talla.save(dest, 'JPEG', quality=88, optimize=True)
         return dest_rel
     except Exception:
         return src
@@ -289,6 +340,17 @@ def taula_html(ctx, t, inline=False):
 
 
 # ----------------------------------------------------------------------------- tipus de pàgina
+_TITOL_POS = None
+
+
+def _titol_pos():
+    global _TITOL_POS
+    if _TITOL_POS is None:
+        f = os.path.join(ROOT, 'dades', 'portada-titol.yaml')
+        _TITOL_POS = (yaml.safe_load(open(f, encoding='utf8')) or {}) if os.path.exists(f) else {}
+    return _TITOL_POS
+
+
 def pagina_portada(ctx, p, n):
     g = p['grup']
     h = '<div class="page portada">'
@@ -306,7 +368,7 @@ def pagina_portada(ctx, p, n):
             h += (f'<div class="segell" style="left:{pos["x"]}cm;top:{pos["y"]}cm;width:{pos["w"]}cm;height:{pos["h"]}cm">'
                   f'<span>{a}</span><span>{b}</span></div>')
             continue
-        h += f'<img class="abs {rol}" style="left:{pos["x"]}cm;top:{pos["y"]}cm;width:{pos["w"]}cm;height:{pos["h"]}cm" src="{BASE}{redueix(im["asset"])}">'
+        h += f'<img class="abs {rol}" style="left:{pos["x"]}cm;top:{pos["y"]}cm;width:{pos["w"]}cm;height:{pos["h"]}cm" src="{BASE}{redueix(recorta_pub(im["asset"], True))}">'
     h += f'<div class="grup-et">{E(g["etiqueta"]["es"])}<span class="grup-num">{g["numero"]}</span></div>'
     series = g.get('serie', [])
     nom = g.get('nom', '')
@@ -315,7 +377,15 @@ def pagina_portada(ctx, p, n):
     if len(series) == 1: ss = '<span class="fl">⤢</span>' + ss        # G3-G5: la fletxa va entre el nom i la sèrie
     llarg = len(nom) + sum(len(s_) + 3 for s_ in series)
     mida = f' style="font-size:{max(16, min(33, 33 * 34 / llarg)):.1f}pt"' if llarg > 34 else ''      # noms llargs (G6: «EQUIPOS GRAN PRODUCCIÓN / ...»): redueix la lletra perquè càpiga
-    h += f'<div class="grup-nom"{mida}>{E(nom)} {ss}</div>'
+    nom_h = E(nom)
+    pt = _titol_pos().get(g['numero'])
+    if pt:        # posició i llargada del títol a la tarifa publicada (dades/portada-titol.yaml); el JS (AJUST_JS) n'ajusta la mida
+        base = 33
+        if llarg > 34 and ' / ' in nom: nom_h = E(nom).replace(' / ', '<br>')        # nom llarg (G6): a la tarifa publicada va en dues línies (ES / EN)
+        else: base = max(16, min(33, 33 * 34 / llarg)) if llarg > 34 else 33
+        mida = (f' style="left:{(pt["x0"] + pt["x1"]) / 2:.2f}cm;top:{(pt["y0"] + pt["y1"]) / 2:.2f}cm;right:auto;bottom:auto;'
+                f'font-size:{base:.1f}pt;transform:translate(-50%,-50%) rotate(180deg)" data-len="{pt["y1"] - pt["y0"]:.2f}" data-mida="{base:.1f}"')
+    h += f'<div class="grup-nom"{mida}>{nom_h} {ss}</div>'
     tc = p['titol_catalog']
     h += '<div class="cat-tit"><div class="e0">' + E(tc['es']) + '</div>' + ''.join(f'<div><span class="lt lt-o">{l[0].upper()}</span>{E(tc[l])}</div>' for l in ('en', 'fr', 'de') if l in tc) + '</div>'
     return h + '</div>'
@@ -417,6 +487,8 @@ def blocs_html(blocs):
     """Pàgina d'informació en mode «blocs» (dades d'Odoo: pagines_odoo.blocs_de): files de fotos amb la seva referència i blocs imatge + text per idioma."""
     W_, GAP = 18.6, 0.5                                          # ample útil (cm) i separació entre fotos
     files = [b for b in blocs if b['k'] == 'fotos']
+    for b in files:
+        for f in b['fotos']: f = f.update(asset=recorta_pub(f['asset']))      # recorte de la tarifa publicada (si en té)
     asps = [[_aspecte(f['asset']) for f in b['fotos']] for b in files]
     alt = min([6.2] + [(W_ - GAP * 2) / max(sum(a), 3 * 0.9) for a in asps])         # totes les files de fotos tenen la mateixa alçada (la que faci caber la més ampla)
     h = '<div class="bl-cos">'
@@ -459,7 +531,7 @@ def pagina_info(ctx, p, n):
               f'{marc}{parag_html(c["paragrafs"])}</div>')
     for f in p.get('fotos', []):
         pos = f['pos']
-        h += f'<div class="abs foto-ref" style="left:{pos["x"]}cm;top:{pos["y"]}cm;width:{pos["w"]}cm;height:{pos["h"]}cm"><img src="{BASE}{redueix(f["asset"])}">'
+        h += f'<div class="abs foto-ref" style="left:{pos["x"]}cm;top:{pos["y"]}cm;width:{pos["w"]}cm;height:{pos["h"]}cm"><img src="{BASE}{redueix(recorta_pub(f["asset"]))}">'
         if f.get('referencia'): h += f'<i class="ref big">{f["referencia"]}</i>'
         h += '</div>'
     for i in p.get('insignies', []):
@@ -746,7 +818,7 @@ def pagina_simbologia_auto(ctx, p, n):
 
 def pagina_simbologia(ctx, p, n):
     """Cada símbol és al seu lloc del .pub (el text és a x, la icona 2 cm a l'esquerra)."""
-    if OPC['llegenda'] == 'auto' and ctx.d.get('cataleg_columnes'): return pagina_simbologia_auto(ctx, p, n)
+    if OPC['llegenda'] in ('auto', 'original') and ctx.d.get('cataleg_columnes'): return pagina_simbologia_auto(ctx, p, n)
     h = '<div class="page simbologia">' + capcalera(ctx, p)
     for s in p['simbols']:
         q = s['pos']
@@ -804,6 +876,11 @@ TIPUS = {'pagina_imatge': pagina_imatge, 'portada_grup': pagina_portada, 'index_
 # Les fonts del .pub (Franklin Gothic...) no són aquí: les columnes de text d'una pàgina d'informació poden sortir més altes; es redueix
 # la mida de lletra fins que no passen del peu de pàgina.
 AJUST_JS = '''
+/* Portada: el títol vertical fa la llargada que té a la tarifa publicada (data-len, cm): la mida de lletra s'hi ajusta entre un 85 % i un 125 % de la base. */
+document.querySelectorAll('.grup-nom[data-len]').forEach(function(t){
+  var base = parseFloat(t.dataset.mida), tgt = parseFloat(t.dataset.len) * 37.795, h = t.getBoundingClientRect().height;
+  if (h > 0) t.style.fontSize = (base * Math.max(0.85, Math.min(1.25, tgt / h))) + 'pt';
+});
 /* Pàgines d'informació. 1) Mode del .pub (coordenades absolutes): el text es redueix fins que càpiga, però mai per sota de 7 pt.
    2) Si així no hi cap sense trepitjar una foto/una altra columna o sortir del full, o una columna fa menys de 5 cm d'ample,
    la pàgina és «problemàtica» i es passa al mode FLUID (flux normal: fotos en fila a dalt, text en 2 columnes a sota). Vegeu fluid(). */
@@ -1003,10 +1080,8 @@ def posa_pagines_slides(ctx, pdf):
     clau_de = clau_pagines_slides(ctx)
     if os.environ.get('DUMP_CLAUS_SLIDES'):
         print('CLAUS_SLIDES ' + json.dumps({i + 1: c for i, c in enumerate(clau_de) if c}))
-    if SENSE_SLIDES: return
     cfg_p = os.path.join(ROOT, 'slides-pagines.yaml')
-    if not os.path.exists(cfg_p): return
-    brut = (yaml.safe_load(open(cfg_p, encoding='utf8')) or {}).get(ctx.grup) or {}
+    brut = {} if (SENSE_SLIDES or not os.path.exists(cfg_p)) else ((yaml.safe_load(open(cfg_p, encoding='utf8')) or {}).get(ctx.grup) or {})
     # La clau d'una diapositiva és «<id de la pàgina d'Odoo>:<k>» (k = 1a, 2a... pàgina d'aquell registre), no el número de pàgina:
     # així afegir o treure productes o pàgines no desquadra el mapa. Les claus numèriques antigues encara es respecten.
     mapa = {}
@@ -1015,13 +1090,18 @@ def posa_pagines_slides(ctx, pdf):
             if k in clau_de: mapa[clau_de.index(k) + 1] = sid
             else: ctx.avisos.append(f'diapositiva {sid} (clau {k}): aquesta pàgina d\'Odoo ja no existeix al catàleg; no es fa servir')
         else: mapa[int(k)] = sid
+    if OPC['llegenda'] == 'original':       # simbologia = la pàgina de la tarifa publicada (assets/simbologia-original/gN.pdf, vectorial); el peu el posa el generador al damunt
+        orig = os.path.join(ROOT, 'assets', 'simbologia-original', f'g{ctx.grup}.pdf')
+        if os.path.exists(orig):
+            for i, q in enumerate(ctx.pagines, 1):
+                if q['tipus'] == 'simbologia' and i not in mapa: mapa[i] = 'file:' + orig
     if not mapa: return
     html_p = pdf[:-4] + '.html'
     cap = open(html_p, encoding='utf8').read().split('<body', 1)[0]
     fetes = []
     for pag, sid in sorted(mapa.items(), key=lambda x: -int(x[0])):
         pag = int(pag)
-        src = baixa_slide(sid, ctx, pag)
+        src = sid[5:] if str(sid).startswith('file:') else baixa_slide(sid, ctx, pag)
         if not src:
             ctx.avisos.append(f'p{pag}: no hi ha el PDF de la diapositiva {sid}; es deixa la pàgina generada'); continue
         tmp = pdf + '.tmp.pdf'
@@ -1098,8 +1178,8 @@ def main(argv=None):
     ap.add_argument('--idioma', choices=['es', 'en', 'fr'], default='es', help='idioma del nom a les capçaleres de columna (defecte es)')
     ap.add_argument('--pagines', choices=['odoo', 'yaml'], default='odoo',
                     help="odoo (defecte): pàgines genèriques i fotos de producte d'Odoo si n'hi ha per al grup; yaml: les de dades/gN.yaml (comportament antic)")
-    ap.add_argument('--llegenda', choices=['auto', 'fixa'], default='auto',
-                    help='auto (defecte): la pàgina de simbologia es genera de les columnes del grup; fixa: la de gN.yaml')
+    ap.add_argument('--llegenda', choices=['original', 'auto', 'fixa'], default='original',
+                    help='original (defecte): la pàgina de simbologia de la tarifa publicada (assets/simbologia-original/gN.pdf; si no hi és, cau a auto); auto: generada de les columnes del grup; fixa: la de gN.yaml')
     ap.add_argument('--caixes-ull', action='store_true', help="torna les caixes amb l'ull i la foto sota la foto del producte (retirades per defecte)")
     ap.add_argument('--icones-etiqueta-foto', action='store_true', help="torna les fotos petites al costat dels codis (retirades per defecte)")
     ap.add_argument('--capcalera-nom', action='store_true', help='torna el nom petit sota el símbol a les capçaleres de taula (retirat per defecte)')

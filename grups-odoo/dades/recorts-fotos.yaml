@@ -1,0 +1,3747 @@
+003876f921e2cc8b5fa8c6f07f5da5514d0761b1:
+  ar: 1.268
+  dh: 0180018001804380c600a980c9d0f9809c0e860e860e860ee61876001e000c00
+  font: G13 p22 info-p22-1.jpg
+  rect:
+  - 0.0117
+  - 0.2208
+  - 0.4565
+  - 0.7558
+  score: 0.9
+03da117626b4aacf936e8d1536d9dc2ea8530631:
+  ar: 1.0
+  dh: 00000000000000007000f800df84c6f8c878ccf8ec3878000000000000000000
+  font: G15 portada portada-06.png
+  metode: matching
+  rect:
+  - 0.0
+  - 0.2136
+  - 1.0
+  - 0.7627
+  score: 0.98
+0410ac7a118403d9ee6977fb1dadd3b1aff149e2:
+  ar: 1.0
+  dh: 000000000000000000006c00ec409cc0cd807418380e00000000000000000000
+  font: G16 p36 info-p36-4.jpg
+  rect:
+  - 0.0
+  - 0.2906
+  - 1.0
+  - 0.707
+  score: 0.81
+06191fb1b3c9f50df13b5b9a3bc907255e046edc:
+  ar: 1.0
+  dh: 00006000e0a089b2fd00f410ce10901090108010b000ae80eb80e312c0020000
+  font: G7 portada portada-02.png
+  metode: matching
+  rect:
+  - 0.0091
+  - 0.1142
+  - 0.9726
+  - 0.8858
+  score: 0.93
+06898ca42d68eed617d18d06b4ba49dd4b2147e8:
+  ar: 1.4403
+  dh: 01f27f22809801988198c198e18eb07839c0f804830409041904198619861986
+  font: G7 p15 info-p15-2.jpg
+  rect:
+  - 0.1468
+  - 0.0
+  - 0.8532
+  - 1.0
+  score: 0.95
+086d72249fc5a10199abfbcd58c36c61b34a9696:
+  ar: 1.8879
+  dh: '1326132613261322132213221322132213223322332203220322006200060006'
+  font: G16 p4 info-p04-2.jpg
+  rect:
+  - 0.6215
+  - 0.0025
+  - 0.7676
+  - 0.8922
+  score: 0.85
+0875b9ab4de252cefdc0144f970a6915a864e317:
+  ar: 1.0
+  dh: 1f003780eec0e600e600fac0ee80ee3876e86ef037c03e001e300e7006000100
+  font: G15 p36 info-p36-1.jpg
+  rect:
+  - 0.0741
+  - 0.0235
+  - 0.9295
+  - 0.5805
+  score: 0.98
+0879ccf4a5075167549736e93deb5899e45c21a2:
+  ar: 0.9521
+  dh: 00e007807e10dd30e0c0a770dd186ccc37221b0c8e43c33c230c1b340e700710
+  font: G4 p30 info-p30-8.jpg
+  rect:
+  - 0.0
+  - 0.1686
+  - 1.0
+  - 0.7321
+  score: 0.75
+0892b83d72f07f8f08fe30b32d710e0bd8c6df15:
+  ar: 1.0
+  dh: 000003e07f86be389bf8eff0edb8adfaade8ae78ad80ac00ec00680030000000
+  font: G1 portada portada-03.png
+  metode: bbox
+  rect:
+  - 0.013
+  - 0.071
+  - 0.985
+  - 0.938
+  score: 0.59
+091f8b696c2f8ac3c35d6a584711c76a63ca71da:
+  ar: 1.0
+  dh: 000000000000000000006000f000aff8207d0004000d000c0000000000000000
+  font: G14 p40 info-p40-4.jpg
+  rect:
+  - 0.0
+  - 0.4636
+  - 0.2438
+  - 0.6165
+  score: 0.72
+097c2e85b9f454d90fef5f14b071a611fb6c48d3:
+  ar: 1.0
+  dh: 1b001a601b401b401b401b401a401b401b400b400bc00fc00b40096003600300
+  font: G14 portada portada-10.png
+  metode: matching
+  rect:
+  - 0.2462
+  - 0.0
+  - 0.7
+  - 1.0
+  score: 0.86
+09b3eadb0ee5906855b677262f55ae046a513ff7:
+  ar: 2.2424
+  dh: 03a021d010e68866c036c236d15ab8cea8ce786ec326f896fe8e3ec6c726f4c0
+  font: G8 p4 info-p04-2.jpg
+  rect:
+  - 0.0306
+  - 0.03
+  - 0.9924
+  - 0.9914
+  score: 0.97
+0a3dce6c2ab80044d785409d988072e1fe664798:
+  ar: 1.0
+  dh: 000006007e00e39e8038816ee27ec27cde3cde3ee63cde30ffa00fe000c00000
+  font: G6 p4 info-p04-11.jpg
+  rect:
+  - 0.0471
+  - 0.0942
+  - 0.9731
+  - 0.3632
+  score: 0.94
+0a5d9903f94b01f7dd1f774f136979d6339c7d81:
+  ar: 1.0
+  dh: 0000000000bed680dcc8e2e0c1c080c080c080c08180c3006600280000000000
+  font: G8 p9 info-p09-6.jpg
+  rect:
+  - 0.0
+  - 0.1487
+  - 1.0
+  - 0.8397
+  score: 0.87
+0b17c195a13e2dd78cbcf4fb3e34ea3ebb6ab551:
+  ar: 1.0
+  dh: 0780be00fb00df00e740de40eb64f4e4def86ff077003e501ed00ed00fc00100
+  font: G15 p26 info-p26-1.jpg
+  rect:
+  - 0.0
+  - 0.0
+  - 1.0
+  - 0.5451
+  score: 0.99
+0bf52d53c1a992ea2ada6273d5e4ec216b0b80de:
+  ar: 1.6529
+  dh: 04001c00fe00f600cec0e780ef82da467a1efa3420e403840e441e5c7a34f360
+  font: G15 p63 info-p56-6.jpg
+  rect:
+  - 0.0804
+  - 0.0712
+  - 0.6588
+  - 0.5825
+  score: 0.86
+0cfccc77e19dc45fe8d7a7304d18a6afb1582a49:
+  ar: 0.999
+  dh: 078016807e007a80db80dbe2dbc0fe40f980f224fb1c8d06b180308014800c00
+  font: G16 p4 info-p04-5.jpg
+  rect:
+  - 0.0034
+  - 0.5275
+  - 0.4096
+  - 0.9227
+  score: 0.95
+0dec53ef509b9c758fefe44ed72f90b2f25ba745:
+  ar: 1.0
+  dh: 000000000018bffc872ee7feeffee00ce278ef46e934e100c000000000000000
+  font: G14 p8 info-p08-7.jpg
+  rect:
+  - 0.0205
+  - 0.1969
+  - 0.4731
+  - 0.7749
+  score: 0.88
+0e9e443a23c53fd9916678857074dffb93c87acf:
+  ar: 1.0
+  dh: 00300df01ea01e0019301c201e001e801e801e801e801e801f001f001c000e00
+  font: G16 p4 info-p04-1.jpg
+  rect:
+  - 0.0076
+  - 0.0
+  - 0.9015
+  - 1.0
+  score: 0.86
+0ecccd88fef51207b7a4d724cf69fc3138494bdf:
+  ar: 1.0
+  dh: 1c803d003c00fc00ec8074c078507c707e086ec03fe03f001e200e6006c00100
+  font: G15 p36 info-p36-3.jpg
+  rect:
+  - 0.0853
+  - 0.0217
+  - 0.8763
+  - 0.5
+  score: 0.97
+0ef5418d5f5e6af4b6413c800232764a4122a971:
+  ar: 1.4432
+  dh: 0000c000fc000c009c041c0418045804d8449a0c1d0c8048fc081fe000fc0004
+  font: G12 p5 info-p05-1.jpg
+  rect:
+  - 0.0783
+  - 0.0
+  - 0.9217
+  - 1.0
+  score: 0.98
+110addb5df623252151ba417680ccb4ae02194e5:
+  ar: 1.0
+  dh: 00000000000000001000e000c000c83cc8f8cc38f80008000000000000000000
+  font: G15 portada portada-08.png
+  metode: matching
+  rect:
+  - 0.0
+  - 0.278
+  - 1.0
+  - 0.7186
+  score: 0.94
+1348d47967aadcda718fa1792c659be9687cef2d:
+  ar: 2.381
+  dh: 000000400108018107a00f603c79f8cde4e0a8a0d8c0f180d900f640dd20ff80
+  font: G1 p9 info-p09-1.jpg
+  rect:
+  - 0.3918
+  - 0.0
+  - 0.8057
+  - 1.0
+  score: 0.98
+141482885efdc8e46983ed70f694cae6e24071fc:
+  ar: 0.7923
+  dh: a6fe5cfe5d824cfe4cde4dae4cba4f3a4d3e4db259b2e5a606f006e006000600
+  font: G8 p9 info-p09-2.jpg
+  rect:
+  - 0.1437
+  - 0.0045
+  - 0.9183
+  - 0.7951
+  score: 0.86
+14b976a8f616473297bd39d710bb2f1386e7d3f1:
+  ar: 1.0
+  dh: 00000000000000c00fc0fd20f191b9ccd868ecd0ee1172003800300000000000
+  font: G1 p16 info-p16-2.jpg
+  rect:
+  - 0.1698
+  - 0.2601
+  - 0.748
+  - 0.6429
+  score: 0.96
+152bb0bd08e4c8e0836e65c6f7c07a0bd434e163:
+  ar: 1.0
+  dh: 00000000000000000000800080308fe0f0641fe001fc000e0000000000000000
+  font: G12 portada portada-06.png
+  metode: matching
+  rect:
+  - 0.0
+  - 0.322
+  - 1.0
+  - 0.724
+  score: 0.97
+157d5e868b8ba2b6d2f25babe5a4c275535dd457:
+  ar: 0.9907
+  dh: 0007c0ff3ff0ff20f921a1a027c02ac02a404b01480b8079076030e1860018c4
+  font: G5 p35 info-p35-4.jpg
+  rect:
+  - 0.0
+  - 0.0272
+  - 1.0
+  - 0.8207
+  score: 0.94
+163c38aa4c9564f72305608975725294f0335e44:
+  ar: 1.0
+  dh: 000000000000000000106030f860f060bc68bf78ffda0ffc006c000000000000
+  font: G9 p36 info-p36-2.jpg
+  rect:
+  - 0.0027
+  - 0.2005
+  - 0.4588
+  - 0.8516
+  score: 0.9
+1728882cb20a5dc95b0ba988754fc816fb97e21e:
+  ar: 1.6534
+  dh: 1de68d98e11e823ec8aec11d623c267f8cf9817c21f749e1c9f0cd9d418e7361
+  font: G8 p45 info-p45-10.jpg
+  rect:
+  - 0.0
+  - 0.0625
+  - 1.0
+  - 0.9712
+  score: 0.83
+1761727aee5b32799f13b170a0c9ca510c4c53c8:
+  ar: 1.0
+  dh: 00001c00f800fac0bde880fe8006b006b684b01db00c800c800e000c00080008
+  font: G13 p5 info-p05-1.jpg
+  rect:
+  - 0.0376
+  - 0.0571
+  - 0.4436
+  - 0.2763
+  score: 0.91
+17c5140b6ce02ff62c086fb628dfc9aa82dafd93:
+  ar: 1.1289
+  dh: 0000000000001e00f900c18099a0c9e0aee0dec8ee04f7187b8c3d881e070508
+  font: G15 p36 info-p36-5.png
+  rect:
+  - 0.2937
+  - 0.5084
+  - 0.5374
+  - 0.6923
+  score: 0.62
+1842aca9cec49824a98f842e9deaa675cf883848:
+  ar: 1.8315
+  dh: 1801070163c1a071c81c240c9b0ccd8c66687729bf29a918a8f8e9f8e3f8e3f8
+  font: G15 p88 info-p56-4.jpg
+  rect:
+  - 0.5732
+  - 0.6696
+  - 0.8583
+  - 0.8851
+  score: 0.58
+18642de28489f65b8c2b94a7d9f25f9aba967b40:
+  ar: 1.1628
+  dh: 9078c07840fc587c6c4ce0dce239e78ce588e7087308e3cbe2d763bfc7ff47ff
+  font: G11 p67 info-p04-5.png
+  rect:
+  - 0.0619
+  - 0.299
+  - 0.3956
+  - 0.6319
+  score: 0.69
+19522bd8cb95cf3e74d5bc529467f31613797b98:
+  ar: 1.0
+  dh: 00000000000000000000003c3ff68e0600040000000000000000000000000000
+  font: G14 p51 icona-wok-19522b.jpg
+  rect:
+  - 0.0
+  - 0.3537
+  - 0.4223
+  - 0.6448
+  score: 0.65
+196b697e6d133b41d754f8d84d5c9d1033ca9730:
+  ar: 1.0
+  dh: 00000000000010003400cea09caf99ebf94b0fd301f2003e0002000000000000
+  font: G2 p9 info-p09-10.jpg
+  rect:
+  - 0.0
+  - 0.2388
+  - 1.0
+  - 0.7562
+  score: 0.61
+1d2c5a1de1c166f0bdf1ed4eb5dabf60222d6464:
+  ar: 1.0
+  dh: 0000000000000038bcfe8096c03cb806907e9a3e9c02d0006000200000000000
+  font: G12 p81 info-p81-1.jpg
+  rect:
+  - 0.5595
+  - 0.2919
+  - 0.9986
+  - 0.573
+  score: 0.8
+1dfecbda195ee03f548baed3d0c30ff4d4951b62:
+  ar: 0.9613
+  dh: fe04b21e01fe07fe07fe9f829f12224f006e1cf8e4c8e40ce48dd4b9e613e67f
+  font: G5 p35 info-p35-1.jpg
+  rect:
+  - 0.0105
+  - 0.0152
+  - 0.9737
+  - 0.9798
+  score: 0.91
+1ee5f7083b85544e81f32edba04559089c248be1:
+  ar: 1.0
+  dh: 000000000000fe00f100e180f000f1c0ecc0fc867ca439e4319c000000000000
+  font: G15 p26 info-p26-6.jpg
+  rect:
+  - 0.0
+  - 0.1694
+  - 0.7905
+  - 0.5899
+  score: 1.0
+2210fa9c34cecef44dbf529ccd02343f88d3be9f:
+  ar: 1.0
+  dh: 7c10710070607c207c20780078203c203c107c1073b8361037903d90378001c0
+  font: G12 p22 info-p22-2.jpg
+  rect:
+  - 0.1528
+  - 0.5596
+  - 0.8292
+  - 1.0
+  score: 0.77
+2241379255cc70dd5cfd25fe0e763c74d0e786f9:
+  ar: 1.0
+  dh: 07003e00f0f0c03cc70cf0d8dc50eb88f090f3803e001e007c80688070001000
+  font: G1 p24 info-p08-4.jpg
+  rect:
+  - 0.0673
+  - 0.3364
+  - 0.6667
+  - 0.9878
+  score: 0.97
+234a3fb8be1ef97e2cb6d9f23ea96c3b7ab8a83a:
+  ar: 1.4894
+  dh: dff08ff8c39c60fc39e42bdc0bdc0bdc2bdc2bdc2bdc2bdc2bdc0fdc0fdc2ddc
+  font: G7 p31 info-p31-5.jpg
+  rect:
+  - 0.008
+  - 0.008
+  - 0.9706
+  - 0.9721
+  score: 0.86
+2497005deff52cf8c74753e0aa5baf195f3787a2:
+  ar: 1.2165
+  dh: f61cec0f9973a7074cff9f80b1081358c51871b05c30678007e0a39017804e80
+  font: G12 p66 info-p66-2.jpg
+  rect:
+  - 0.0916
+  - 0.0
+  - 0.9163
+  - 1.0
+  score: 0.87
+24bd2111476d5dffade03515bb812c2fcd92053d:
+  ar: 1.1851
+  dh: 39905009f266fc703c70c8e0c9d011d014f119b119f2ddc2d7c4c7046600b320
+  font: G16 p22 info-p22-1.jpg
+  rect:
+  - 0.0217
+  - 0.0171
+  - 0.9783
+  - 0.9786
+  score: 0.88
+25dfdf003a441fef624b5377cb2c71b77d7de359:
+  ar: 1.0
+  dh: 060006001e401e401f801f801e001e001e001f801c8019c0194019400c400c40
+  font: G13 p58 info-p58-7.jpg
+  rect:
+  - 0.3049
+  - 0.0942
+  - 0.7691
+  - 0.6502
+  score: 0.94
+26164fe4f4901208da0c33df83e3f2795c2539c9:
+  ar: 0.8044
+  dh: 8d02c0e1c007c9818cf8841ec026cc02c702c460ed2cde6cd7ccd4f8f6bc3fb4
+  font: G12 p81 info-p81-3.png
+  rect:
+  - 0.0167
+  - 0.0135
+  - 0.9389
+  - 0.9417
+  score: 0.57
+26889f1e3fdda82167c0d53ab849470f6be5b9ff:
+  ar: 1.0
+  dh: 007007f07f08f07867f8efc0e000f01ab1f2d7f2d7e2d60e9670978078003000
+  font: G15 p49 info-p44-1.jpg
+  rect:
+  - 0.1655
+  - 0.7692
+  - 0.4093
+  - 0.9833
+  score: 0.75
+26a091e8e28e7d83a5528c2ce067d397c8989dbc:
+  ar: 1.0
+  dh: 1c003c1030703110319036d036d036d036d836d836d836503e5036d037c000c0
+  font: G15 portada portada-16.png
+  metode: matching
+  rect:
+  - 0.1692
+  - 0.0
+  - 0.8383
+  - 1.0
+  score: 0.99
+26c6b53f107b2325411df88ba7557804b6b1ec83:
+  ar: 1.5015
+  dh: 03f0e07e1c0f03810078001e0027802f880700316011f8893e310f8127e109f9
+  font: G11 p61 info-p56-1.jpg
+  rect:
+  - 0.5263
+  - 0.5859
+  - 0.9325
+  - 0.9914
+  score: 0.55
+27229d6fda52c7fa2964d15858b242644eafc9b9:
+  ar: 1.0
+  dh: 0000000000001fe0f2c0f060d8f0fc98a602f0e4f3247b207000200000000000
+  font: G3 p4 info-p04-3.jpg
+  rect:
+  - 0.0153
+  - 0.1986
+  - 0.6163
+  - 0.6112
+  score: 0.92
+27459871292c59db1c901e442637820378d19a86:
+  ar: 1.3514
+  dh: 78c0f180c380c280c380c20004006006c60cc40cd80cc994a898c990c9f090e0
+  font: G11 p22 info-p22-2.jpg
+  rect:
+  - 0.3289
+  - 0.376
+  - 0.5575
+  - 0.6198
+  score: 0.62
+2a88a60710bae450fb059322038c4ea092a9c447:
+  ar: 1.0
+  dh: 1b401b401bc01bc01bc01b8019c019c01bc019c01bc01b801bc01b401d400c40
+  font: G12 p56 info-p56-1.jpg
+  rect:
+  - 0.3556
+  - 0.0186
+  - 0.6324
+  - 0.3939
+  score: 0.98
+2aaabec6fe8d169c93afcfd2f65e405f3d67e339:
+  ar: 1.0
+  dh: c51ee496c406c92cd03a90ca956ad00a95fa906a95ea906a92aec28ee40ee002
+  font: G12 p30 info-p30-1.jpg
+  rect:
+  - 0.3624
+  - 0.6841
+  - 0.9636
+  - 0.9869
+  score: 0.86
+2ad2bc592107b2833280f6b93929329597fe2e58:
+  ar: 1.0
+  dh: 000080028006800287febffe9ffe81ffa00b9e1887c98072800e807c00000000
+  font: G14 p40 info-p40-3.jpg
+  rect:
+  - 0.0
+  - 0.1182
+  - 1.0
+  - 0.8581
+  score: 0.77
+2b07856622bce301bb7d810dfcb2826ee5c63b9c:
+  ar: 0.7079
+  dh: 3e3e7e2e796e787cfc4c6703c68e324c4d60c51ca193a11fc07cc679326302e1
+  font: G9 portada complementaria-p41-1.jpg
+  metode: matching
+  rect:
+  - 0.0
+  - 0.288
+  - 1.0
+  - 1.0
+  score: 0.99
+2c7b5e841c97c4f7972399ee152e5cb06f76c092:
+  ar: 1.0741
+  dh: 84009ef086ffa000a000e000de00bd80a1cfa980a1c0a7e0be4ff000a0802039
+  font: G12 p66 info-p66-7.jpg
+  rect:
+  - 0.013
+  - 0.0093
+  - 0.9697
+  - 0.9721
+  score: 0.86
+2d70a3dbd50be7391179519b127a9cdddf4f359c:
+  ar: 1.0
+  dh: 3728211c297c2b1c295c2b1c2b5c2b1c295c291c295c391c30083000320837f0
+  font: G12 portada portada-12.png
+  metode: matching
+  rect:
+  - 0.1424
+  - 0.0
+  - 0.8544
+  - 1.0
+  score: 0.99
+2f39dfdc9570868429ad68f34d748dbacc626af1:
+  ar: 1.0
+  dh: 0000030007000f801f843ce2f8f2cc66c788c018f800fe001f00038000800000
+  font: G5 p16 info-p16-5.jpg
+  rect:
+  - 0.2721
+  - 0.2328
+  - 0.8064
+  - 0.5564
+  score: 0.96
+2f7df1b8fbf6b08f540ed599a9cf9bcee6359435:
+  ar: 1.0
+  dh: 0f00fe20ffe0f3b8f8007a687f287d207db87fb87d887d887c88380810001000
+  font: G5 p29 info-p29-6.jpg
+  rect:
+  - 0.1652
+  - 0.4889
+  - 0.8688
+  - 0.9659
+  score: 0.98
+2fd5f79caf87850e8318e8c5745c765ce3ec8356:
+  ar: 1.0
+  dh: 0000000007e0ffe0c03cc01ec7fcff92f032e390780070002000000000000000
+  font: G1 p17 info-p09-4.jpg
+  rect:
+  - 0.0011
+  - 0.1877
+  - 0.3574
+  - 0.5631
+  score: 0.91
+31414a4419d6714c807a14ed581139f735fc76df:
+  ar: 1.0
+  dh: ff80ec80e8c0f020f810d808ec18f810f980ee76726633283b3819b01d000c00
+  font: G5 p29 info-p29-2.jpg
+  rect:
+  - 0.1224
+  - 0.0068
+  - 0.8844
+  - 0.5204
+  score: 0.92
+31cf7a88a96731b5e59efd4e7dea55e0c5262ac7:
+  ar: 0.9625
+  dh: c07881e0c7008006901f907e91ff91db91bf917f917f917f817f81bf817f81df
+  font: G11 p165 info-p07-3.jpg
+  rect:
+  - 0.6144
+  - 0.0986
+  - 0.8679
+  - 0.2991
+  score: 0.55
+32e6cceeaa44d31ec046c261d366566d7b70ea78:
+  ar: 1.0
+  dh: 8db0907090f080f280f080f2a0f2adf2e018c0168ffec802dfc4f7ccf000e000
+  font: G12 p77 info-p77-3.jpg
+  rect:
+  - 0.1362
+  - 0.7468
+  - 0.8128
+  - 0.9979
+  score: 0.93
+33dd5cd9ea1368848631c454e5b7b12b4cba68a5:
+  ar: 1.0
+  dh: 00000c000c001c24db68dc8e8066f072f806ce0ecc0ec40efe041ffc003c0004
+  font: G6 portada portada-07.png
+  metode: matching
+  rect:
+  - 0.0
+  - 0.0489
+  - 1.0
+  - 0.9609
+  score: 0.98
+34622ff49d7be54efe3892ce80b41513fa2b499d:
+  ar: 0.9733
+  dh: b402b021d87ffbfffffedb7fdec4cc1eef787c6b3f0f1e3e1f080e0004000000
+  font: G5 p59 info-p21-1.jpg
+  rect:
+  - 0.2658
+  - 0.5791
+  - 0.5096
+  - 0.8097
+  score: 0.64
+34eb25d5a1627e4cd642e293155770a6ef4a2035:
+  ar: 1.0
+  dh: 00000180018001800f80f480c9d0f9909c0e860e860ee6087e001e0004000000
+  font: G13 p22 info-p22-2.jpg
+  rect:
+  - 0.3374
+  - 0.1222
+  - 0.9878
+  - 0.7433
+  score: 0.89
+356d057137e29ab3f8f3c841acaacb97acf07627:
+  ar: 1.368
+  dh: c82fc8e3b9f3bcb3b993b8149835d831fc35f070fa02f001c000b00020002000
+  font: G12 p73 info-p73-3.jpg
+  rect:
+  - 0.1326
+  - 0.0
+  - 0.8646
+  - 1.0
+  score: 0.97
+3636fb577b874b466afe66ae36cef8f1976cb899:
+  ar: 0.8358
+  dh: 00cc0188db003e20b840fc48c7f0dbc0f7c0e790e580f9c0f9c0e3b0c3d0c790
+  font: G16 p11 info-p11-4.png
+  rect:
+  - 0.0163
+  - 0.0956
+  - 0.9796
+  - 0.901
+  score: 0.91
+37109b1753a756041f40717a88da333728466285:
+  ar: 1.0
+  dh: 00000000000000000000c00097b012b28032fffe002e00000000000000000000
+  font: G12 p6 info-p06-1.jpg
+  rect:
+  - 0.466
+  - 0.3979
+  - 1.0
+  - 0.6448
+  score: 0.98
+38677e5134f54d8dfd6eb613f8975ed0bb770d7f:
+  ar: 1.0
+  dh: 30007082d0f6d006f00eb80ebb8eb9fef98e1ffe81feac2eac2cff2c03fc0018
+  font: G12 p13 info-p13-6.jpg
+  rect:
+  - 0.5077
+  - 0.0433
+  - 0.9752
+  - 0.8669
+  score: 0.87
+38bcc45e60c4ace4772cf64dba09dd791864e8e5:
+  ar: 1.0
+  dh: 000000008ff2f37cf23cf22cf23cf65cf67cf23ce26cd264bffc1ffc00000000
+  font: G9 p5 info-p05-8.jpg
+  rect:
+  - 0.0964
+  - 0.2645
+  - 0.3673
+  - 0.64
+  score: 0.97
+39626fb9f1c76e07f9670eb780d2b051090b1718:
+  ar: 1.0
+  dh: 0000000000000f00fc809c800c800c846d8666cc00cc00ce006c003000000000
+  font: G15 p85 info-p85-1.jpg
+  rect:
+  - 0.3354
+  - 0.5978
+  - 0.5792
+  - 0.7796
+  score: 0.55
+39b9b1dfbad4182c803ff11111b59c14c0c3933e:
+  ar: 1.0
+  dh: df84c0c0e010e0a4f3acf204f058f218f01cf25cf250c234c148d008100cd280
+  font: G5 p42 info-p42-2.jpg
+  rect:
+  - 0.0054
+  - 0.0054
+  - 0.7962
+  - 0.7614
+  score: 0.79
+39e6a1bc4c4b2504a8d2ad4e0791965226381d06:
+  ar: 1.0
+  dh: 00000000000000003000f000d800cffcf6f81ff801f800080000000000000000
+  font: G15 p8 info-p04-2.jpg
+  rect:
+  - 0.0
+  - 0.3699
+  - 0.602
+  - 0.6097
+  score: 0.77
+39e70f1c350bb6e0165b10697c2386639d992e06:
+  ar: 1.0
+  dh: 000001e2fbc0e32083108200c026c002e004600260066002e002e00060000000
+  font: G12 p85 info-p85-2.jpg
+  rect:
+  - 0.0
+  - 0.0663
+  - 1.0
+  - 0.543
+  score: 0.78
+3a3631b2f48382967a54f93c3eff69ed1c81901f:
+  ar: 1.0
+  dh: 0000000006000e023d5a7490ffc49ff0a078e608e5803f9003f0003000000000
+  font: G7 portada portada-11.png
+  metode: matching
+  rect:
+  - 0.0
+  - 0.1364
+  - 1.0
+  - 0.8604
+  score: 1.0
+3ac24611b937a9ab134182061d2326b84346bf1b:
+  ar: 1.0627
+  dh: 000000007f80ff80e64070801180bf80f6c0bee0def0eec87800b1b8bf19b189
+  font: G5 p46 info-p46-1.jpg
+  rect:
+  - 0.0
+  - 0.0586
+  - 1.0
+  - 0.9955
+  score: 0.94
+3bb42926f773f9e7053b1eb25bdd2a9df98da223:
+  ar: 1.2281
+  dh: 1c4efc4cf422d4161482c4821e64fe66830e00c600741018e08c39e0e600e602
+  font: G7 p9 info-p09-3.jpg
+  rect:
+  - 0.0923
+  - 0.0
+  - 0.9077
+  - 1.0
+  score: 0.98
+3c9c16458aa583dc01008b80dc28fbfd70ec2487:
+  ar: 1.0
+  dh: 000000003f907de06e18e1f0b842ae0ee1f2ffc4f9c4f8a27003600000000000
+  font: G1 p39 info-p39-1.jpg
+  rect:
+  - 0.1338
+  - 0.0067
+  - 0.8946
+  - 0.4615
+  score: 0.97
+3e8e0055a41f7ef15cc4790f5eb02c640b07fe53:
+  ar: 1.0
+  dh: 0f807f80f040d020d890ec18f448dcf4cf18e61466b036ec1e981e4c0e000400
+  font: G3 p11 info-p11-4.jpg
+  rect:
+  - 0.0279
+  - 0.0035
+  - 0.9547
+  - 0.6237
+  score: 0.92
+3ec2248ed5f1bf63917446e7d61f2806cd27e8d8:
+  ar: 1.0627
+  dh: 000000007f80ff80e64070801180bf80f6c0bee0def0eec87800b1b8bf19b189
+  font: G4 p48 info-p48-1.jpg
+  rect:
+  - 0.0
+  - 0.0586
+  - 1.0
+  - 0.9955
+  score: 0.94
+3f0bcd21562d4bdea40cfe577a82358afd7306d6:
+  ar: 1.0
+  dh: 000000000000000030007000eff8cffcfefc3ffc01fc000c0000000000000000
+  font: G9 p39 info-p39-4.jpg
+  rect:
+  - 0.0
+  - 0.213
+  - 1.0
+  - 0.7304
+  score: 0.93
+3f71ba2240af990215739533983be8eb0f6fa8b9:
+  ar: 1.0
+  dh: 101438701994b056ac6eac6eac6eac6eeceeeceeec66ec66ec46fc429ef20019
+  font: G11 p117 info-p117-1.jpg
+  rect:
+  - 0.3219
+  - 0.1448
+  - 0.4349
+  - 0.3886
+  score: 0.81
+400a0d1a9d2953b62c3049b9ed6d3d96cec0cde0:
+  ar: 1.0
+  dh: df84c0c0e010e0a4f3acf204f058f218f01cf25cf250c234c148d008100cd280
+  font: G4 p43 info-p43-3.jpg
+  rect:
+  - 0.0054
+  - 0.0054
+  - 0.7962
+  - 0.7587
+  score: 0.8
+40227c7b10a8a44411936754fbe781498d9fc67a:
+  ar: 1.0
+  dh: 000000000000000000006c00ec409cc0cd807418380e00000000000000000000
+  font: G6 p26 info-p26-9.jpg
+  rect:
+  - 0.0
+  - 0.3211
+  - 1.0
+  - 0.6732
+  score: 0.83
+40624d46a3b6b33b62f1239ffe49ca77e37f73f9:
+  ar: 0.893
+  dh: 7f00fc80476077f07fb4f03403f0fe00e0048004000c000401fc3f80f0000000
+  font: G5 p46 info-p46-3.jpg
+  rect:
+  - 0.0286
+  - 0.0073
+  - 0.9918
+  - 0.9708
+  score: 0.84
+40c4df52ee6229503ecc88e3c56da9a278dd26c0:
+  ar: 1.3864
+  dh: 363c0e1d28ada887a317c24bbcf68d9ee41e661e39ae3e6e773e5f191fd91fd1
+  font: G8 p45 info-p45-7.jpg
+  rect:
+  - 0.0
+  - 0.0444
+  - 1.0
+  - 0.9516
+  score: 0.72
+40e27baaa11f5038e4b22069e28c074fbe433ad8:
+  ar: 1.0
+  dh: c008801098508812c0129818ebf2fff0c094c7bccffcce00d800fc00f0007000
+  font: G15 p8 info-p08-2.jpg
+  rect:
+  - 0.6339
+  - 0.0229
+  - 0.9515
+  - 0.498
+  score: 0.85
+410dd57738109df17c736db0a47112c340b89646:
+  ar: 0.75
+  dh: 11ff007f0f073f833df17cf8fab0f2b4f3645b646cf03cd1bf030f09033d013d
+  font: G5 p16 info-p16-6.jpg
+  rect:
+  - 0.0
+  - 0.0621
+  - 1.0
+  - 0.9172
+  score: 0.98
+41aa2177ad4370c74c9d914fdd3f950d41ae19df:
+  ar: 1.0
+  dh: 0000d800d9c08f6ef07070a07800700070e0f0d8d41acc06cc427e8001e00000
+  font: G7 p9 info-p09-4.jpg
+  rect:
+  - 0.0
+  - 0.0693
+  - 1.0
+  - 0.9307
+  score: 0.66
+42745d9c5ab803e1bed783d4a8d2504b5187c532:
+  ar: 0.999
+  dh: 8000800080008000f000e6f89266eee68e768026fb8402fc0000000000000000
+  font: G6 portada portada-04.png
+  metode: matching
+  rect:
+  - 0.0
+  - 0.0
+  - 1.0
+  - 0.7564
+  score: 1.0
+427918fa512bbd28ab2d624810d7d8c4d16e12ff:
+  ar: 1.0
+  dh: 000000008ff2f37cf23cf22cf23cf65cf67cf23ce26cd264bffc1ffc00000000
+  font: G9 portada portada-11.png
+  metode: matching
+  rect:
+  - 0.0
+  - 0.1424
+  - 1.0
+  - 0.8847
+  score: 0.95
+42fd324698a1bb8267f82084152f3b2ab9e6ea47:
+  ar: 1.0
+  dh: 000000000000000000007000c000b03c1ef804f8000800000000000000000000
+  font: G15 p46 foto-111330fp.jpg
+  rect:
+  - 0.0007
+  - 0.3065
+  - 0.4572
+  - 0.5435
+  score: 0.7
+431c2c6720621a23f92e84b1b9964e33d320a845:
+  ar: 1.0
+  dh: 0f007c00c7e087789e0cbc3cb804b800b800b800b800b800b800b800f0007000
+  font: G13 p18 info-p18-4.jpg
+  rect:
+  - 0.0
+  - 0.0294
+  - 1.0
+  - 0.9743
+  score: 0.82
+432b1af57d96700a3185f1480e53da4148bd673f:
+  ar: 1.0
+  dh: 0000000006003f007330e1f8c0f4c0f483c687c2df807f801f80000000000000
+  font: G15 p69 info-p23-1.jpg
+  rect:
+  - 0.2486
+  - 0.5385
+  - 0.7622
+  - 0.7416
+  score: 0.56
+43535c96ac3f08d2624cc374eb9b39809ce81c6e:
+  ar: 1.0
+  dh: 003003f07f00f07867f4af7e93f0cf06e032c1f0cbe4ce18e9c0ec0070003000
+  font: G15 p51 info-p46-1.jpg
+  rect:
+  - 0.0
+  - 0.0
+  - 0.7042
+  - 0.577
+  score: 0.91
+44c55af4784090a4d17c8d0e462a39efcdaf5fa7:
+  ar: 1.0
+  dh: 000000000700ff80bf808f90cfc0c7f081d0a3fc32e030003000300000000000
+  font: G13 p31 info-p31-4.jpg
+  rect:
+  - 0.0
+  - 0.1544
+  - 1.0
+  - 0.8456
+  score: 0.88
+44f1b6f61f868234170dc6ec098698ea31f9a0ee:
+  ar: 1.0
+  dh: 0e000c800800090008400b0009000b000b0008000c400d800d800cc00cc00600
+  font: G12 p38 info-p38-2.jpg
+  rect:
+  - 0.2828
+  - 0.6396
+  - 0.7053
+  - 0.9869
+  score: 0.81
+452a08f0568d04b1ebe5eea5caac3712e4e94e0f:
+  ar: 1.0
+  dh: 0000004000c0c180a7a0be409e709ed8c648920680fec13ccf00680020000000
+  font: G13 p22 info-p22-4.jpg
+  rect:
+  - 0.0026
+  - 0.1005
+  - 0.7063
+  - 0.7857
+  score: 0.87
+452a9b46afddfaf15fb323bb414445a8005ccd3d:
+  ar: 1.0
+  dh: 070007000e800e80068006800680068007400f400f400f400f400f400f400600
+  font: G16 p4 icona-batedora.jpg
+  rect:
+  - 0.2616
+  - 0.0
+  - 0.7257
+  - 1.0
+  score: 0.89
+45662acaf234012845750c9d0121b9515da53771:
+  ar: 1.0
+  dh: 000000000000000061037107e09eee3a8520a900bb0002000000000000000000
+  font: G7 portada portada-04.png
+  metode: matching
+  rect:
+  - 0.0174
+  - 0.2885
+  - 0.9805
+  - 0.7137
+  score: 0.98
+46edbe5267571cca7d995c7bc34a5b759bfcdd20:
+  ar: 1.0
+  dh: 00000000000000000ff0fc78fa5cf20cc214ea0cc00880000000000000000000
+  font: G5 portada portada-02.png
+  metode: matching
+  rect:
+  - 0.0
+  - 0.2511
+  - 1.0
+  - 0.7498
+  score: 0.97
+489ce9936d3fc6b574f525241337ec1cc99d7139:
+  ar: 1.0
+  dh: 00000d800de009200b200b000b80bb08df345b25ab25a325a307a3b580800000
+  font: G13 portada portada-10.png
+  metode: matching
+  rect:
+  - 0.0
+  - 0.0711
+  - 1.0
+  - 0.9059
+  score: 0.97
+4a7be3fec8bbbf664a9bd93e12a7a280581d7874:
+  ar: 1.0
+  dh: b310f168f368f320e400e610e798e788f300f300f340f720f700e400e000b80c
+  font: G8 p16 info-p16-2.jpg
+  rect:
+  - 0.0169
+  - 0.0
+  - 0.9463
+  - 1.0
+  score: 0.71
+4b119f7ed49d6cc1638c0cb294361c2efc39360f:
+  ar: 1.0
+  dh: 000000000000ffc0f3c0c00cc03c99fcb1fcb9c8b808c0004000400000000000
+  font: G15 portada portada-15.png
+  metode: matching
+  rect:
+  - 0.0
+  - 0.0961
+  - 1.0
+  - 0.8754
+  score: 0.91
+4d4760b6b9d08a92755f5be2570e212178b3c676:
+  ar: 1.0
+  dh: 00006000e800dff8d1f4d1c4d1c4d0e4c0e4d0e0f1e4bff4bffc000400040000
+  font: G9 p35 opcional-p07-t1-1.jpg
+  rect:
+  - 0.0157
+  - 0.1164
+  - 0.522
+  - 0.8208
+  score: 0.87
+4d57a9bcdafb9a722ae4ec0b9192ab6135635b58:
+  ar: 1.0
+  dh: 000000000780ff80df40ff20b390d9c87d846c0c34fc1e041c00080000000000
+  font: G7 p25 info-p25-3.jpg
+  rect:
+  - 0.0
+  - 0.1486
+  - 1.0
+  - 0.848
+  score: 0.93
+4f370ad2453fd3c939b0eafc3b732ae95078a565:
+  ar: 1.001
+  dh: 65bc656c6f3c63fc6c3c7c3c799c799c7f9c6c3c6fbc6ffc6fbc6fbc67ec6fec
+  font: G15 p50 info-p19-2.png
+  rect:
+  - 0.107
+  - 0.1169
+  - 0.9303
+  - 0.8532
+  score: 0.76
+4fd9fd26db640dc2656426fdb5a1d860dfc59e7b:
+  ar: 1.0
+  dh: 000007c03f98f7f8dff8ffc6ee06e836e214e016eff0f802e002400040000000
+  font: G8 p37 info-p37-1.jpg
+  rect:
+  - 0.6791
+  - 0.2693
+  - 1.0
+  - 0.5798
+  score: 0.62
+4ff11482cfd34b9c04e17bbdd44718bf35145356:
+  ar: 1.0
+  dh: 0c000e00030007000c800c801c00198019901f101e203e781eb00fb00fc00780
+  font: G16 p17 info-p17-3.jpg
+  rect:
+  - 0.2455
+  - 0.0028
+  - 0.6524
+  - 0.6524
+  score: 0.94
+50dbcd35fb0c4b01bdc84caeaf5762aff43a17cf:
+  ar: 1.0
+  dh: 000000007802faa8801cc236fea689b6c18e82b6c086ff0607fc001800000000
+  font: G2 p9 info-p09-3.jpg
+  rect:
+  - 0.0319
+  - 0.3697
+  - 0.5665
+  - 0.7952
+  score: 0.91
+516202538cfc0a10afae100a2401284085339f84:
+  ar: 1.0
+  dh: 00000000e1f881fc9eeab0abb0ab90aa90abb0abb178b1eec000400000000000
+  font: G12 portada portada-04.png
+  metode: matching
+  rect:
+  - 0.0
+  - 0.1416
+  - 1.0
+  - 0.8494
+  score: 0.97
+519e954e68c778c5ec11ced21712bdfccf31dc63:
+  ar: 1.0
+  dh: 000001800180018006000c1818f4b3c6ce06d806c006c000f000c000c0000000
+  font: G13 p18 icona-aixeta.jpg
+  rect:
+  - 0.0026
+  - 0.031
+  - 0.7054
+  - 0.6873
+  score: 0.85
+51c8294cf1e8f761570a3b33749ce2d1e088f53f:
+  ar: 1.3245
+  dh: c013c013c033c013c003c013f013dc13cf13039301e3007b001f000600020006
+  font: G15 p77 info-p77-1.jpg
+  rect:
+  - 0.0
+  - 0.1538
+  - 1.0
+  - 0.8974
+  score: 0.97
+52457c9e0fc3ab5e1b64396410aa982f8d1decc2:
+  ar: 1.0
+  dh: 00000000000003003f00f8e0e0f8fc30e7c03e480f1001800040000000000000
+  font: G15 p13 info-p13-6.jpg
+  rect:
+  - 0.3012
+  - 0.4083
+  - 0.7764
+  - 0.7791
+  score: 0.96
+548927fec222c0aded5002a8e7a22df2df04b9e1:
+  ar: 1.0
+  dh: 00000000000038c0bcd8c538c708c3f8f24cf3ccf2c49fc8803c000400000000
+  font: G1 p24 info-p24-6.jpg
+  rect:
+  - 0.021
+  - 0.2099
+  - 0.9103
+  - 0.4695
+  score: 0.87
+55c25c3c4ee57430158ceffaf6cd6739132638a7:
+  ar: 1.0
+  dh: e8c8e1cc1a463f0e78c332a1775076a27aa3b4d39947cf0cc5f2e1c673083c80
+  font: G7 p4 info-p04-3.jpg
+  rect:
+  - 0.0
+  - 0.0897
+  - 1.0
+  - 0.9136
+  score: 0.96
+55fda1d249330029a396bc9dc8aed5ccd29a9ef6:
+  ar: 1.0
+  dh: 060006401c4018401f801fc01f801f801ca01c8019c019c019c019c01c402440
+  font: G13 p58 info-p58-4.jpg
+  rect:
+  - 0.219
+  - 0.0106
+  - 0.7652
+  - 0.6121
+  score: 0.9
+580032d86b3fb9f2f8369aedf27faaa32e78e18e:
+  ar: 1.0
+  dh: 00000097035f42fd32cb433d077f051e84dee138b13330735e87059f07270000
+  font: G1 p8 info-p08-3.jpg
+  rect:
+  - 0.0
+  - 0.1131
+  - 1.0
+  - 0.8869
+  score: 0.98
+58af09bbba519c31124cc505109173286e8a7ad7:
+  ar: 1.0
+  dh: 3bf03bd03bd03b503b5039d03bd03be03fe039e0398039c038c039c027f02070
+  font: G9 p35 info-p35-1.jpg
+  rect:
+  - 0.2323
+  - 0.3286
+  - 0.8102
+  - 0.6459
+  score: 0.92
+59569087642afa3f540b83319ccec4056b5e2327:
+  ar: 1.0
+  dh: 000000000800f800c700dc98ef94e7f07d900f9201f000380018000000000000
+  font: G1 p6 info-p06-3.jpg
+  rect:
+  - 0.0151
+  - 0.1483
+  - 0.6157
+  - 0.4614
+  score: 0.96
+59d3cbd5adce5bd8a4e2abc331445b99d7c70f98:
+  ar: 1.0
+  dh: 0000000007f0fe52e012b012b012b012b3fab6168012a002b000300000000000
+  font: G14 p16 info-p16-5.jpg
+  rect:
+  - 0.0
+  - 0.273
+  - 0.5243
+  - 0.8744
+  score: 0.78
+5b098674b7669bf77a4afb06273153376e7e43c0:
+  ar: 1.0
+  dh: 07000c000e000c000e000e000680068006800680068006800680068006000e00
+  font: G16 portada portada-13.png
+  metode: matching
+  rect:
+  - 0.261
+  - 0.0129
+  - 0.6873
+  - 0.9767
+  score: 0.87
+5ba8db6133af777d5357b5724dc1576faa6b4820:
+  ar: 1.0881
+  dh: 6002664666026232602276267662766276627676167e3676367236623672763e
+  font: G8 p21 info-p09-4.jpg
+  rect:
+  - 0.0336
+  - 0.0041
+  - 0.9925
+  - 0.9675
+  score: 0.8
+5c3a1620b1ea3097bcfffe429ea0904a2ecadc4f:
+  ar: 1.0
+  dh: 0000000000000f181f381f18fed076607308cf2047a003c001c0000000000000
+  font: G1 p27 info-p27-1.jpg
+  rect:
+  - 0.0
+  - 0.1236
+  - 1.0
+  - 0.8764
+  score: 0.83
+5ca54400e617a54d7a09b102d584d029f35d7c01:
+  ar: 1.328
+  dh: 100cd0c8d0dcd0d8f0da301c100c04010000113c087c02fe20ef10e74147000a
+  font: G12 p63 info-p63-4.jpg
+  rect:
+  - 0.0
+  - 0.0
+  - 1.0
+  - 0.4358
+  score: 0.86
+5d9c0fe2f4336ea7bd5f96c088e42dce32a0dc63:
+  ar: 1.003
+  dh: e004a01420253ff0fff0ffe4781078100cd10991c590ff90481109904591ff90
+  font: G11 p155 info-p144-6.jpg
+  rect:
+  - 0.1629
+  - 0.5468
+  - 0.4955
+  - 0.8805
+  score: 0.63
+5db15299c1c49ee3fc34eb6ee8b848439ee023ba:
+  ar: 1.0
+  dh: 00000000000018007400e740cf1cf25cce1c7fd01f7003d000f0001000000000
+  font: G1 p6 info-p06-1.jpg
+  rect:
+  - 0.3517
+  - 0.2161
+  - 0.9528
+  - 0.6228
+  score: 0.96
+5efa0af053e461e83d39f3f5076c93ba3bc7f69a:
+  ar: 1.0
+  dh: 1f001e001ca01ca01c201e201c20182018201c401ec01b40134012c01ac01c00
+  font: G12 p18 info-p18-2.jpg
+  rect:
+  - 0.3239
+  - 0.0
+  - 0.623
+  - 0.731
+  score: 0.9
+5f17534502719d6b9e884da28cd559a2629429a2:
+  ar: 1.0
+  dh: 1b401b401b401b001b00198019c019c019c019c019c019401b401b401d400c40
+  font: G12 portada portada-07.png
+  metode: matching
+  rect:
+  - 0.1318
+  - 0.0
+  - 0.8682
+  - 1.0
+  score: 0.99
+5f897c6dcd87891002d2e787ebccb72f44139b35:
+  ar: 1.0
+  dh: 01800d80198018a018e018e018e018e018e018e018e018c018c01ec00e000300
+  font: G13 portada portada-06.png
+  metode: matching
+  rect:
+  - 0.1927
+  - 0.0
+  - 0.8021
+  - 1.0
+  score: 0.97
+5f94b30432cef98db5d7fcf68d802fc87e215cfb:
+  ar: 1.4714
+  dh: e98c85c8374a330e1f1ac74ab342c98ef34af106cd0e071a070e070acd88e0e0
+  font: G11 p59 info-p59-3.jpg
+  rect:
+  - 0.5146
+  - 0.3287
+  - 0.8753
+  - 0.6896
+  score: 0.64
+603c83b95358c7366ce0bbe70d3757c2896c7b4a:
+  ar: 1.0
+  dh: 6000600040004000400040007c00fce0d298f09ce06cec0c602ce808ffe00070
+  font: G6 p4 info-p04-8.jpg
+  rect:
+  - 0.0974
+  - 0.0056
+  - 0.3225
+  - 0.4625
+  score: 0.95
+605ab1fc319927e2749936124be7a26e6fea62ea:
+  ar: 1.0
+  dh: 000000000000c000f108f168f168f160f360c7e2fe301ff00078000000000000
+  font: G12 p34 info-p34-1.jpg
+  rect:
+  - 0.0206
+  - 0.2057
+  - 0.3815
+  - 0.5665
+  score: 0.94
+60eb5cf6a955b268eed1f334feb3034bad203397:
+  ar: 1.0
+  dh: 0c001300118001800180018001800180018001b0018001800180018000800080
+  font: G13 p27 info-p27-1.jpg
+  rect:
+  - 0.0
+  - 0.0062
+  - 1.0
+  - 0.7815
+  score: 0.68
+61ba82023a892e5f271c45976f5d9c281a1229d1:
+  ar: 1.0
+  dh: def8d6b0c6b0ceb2ceb2ceb2eeb2aef0e078e0029006c12ac4fcdffcf0006000
+  font: G12 p33 info-p32-3.jpg
+  rect:
+  - 0.0918
+  - 0.0259
+  - 0.4541
+  - 0.5812
+  score: 0.84
+62372cf484b2a8884a19f5f1711d5698fd2bdadd:
+  ar: 1.0
+  dh: 0000030007000f801f843ce2f8f2cc66c788c018f800fe001f00038000800000
+  font: G4 p17 info-p17-5.jpg
+  rect:
+  - 0.2721
+  - 0.2328
+  - 0.8064
+  - 0.5564
+  score: 0.96
+6342b168ab4034842c0817b1bb3746cfd0bbe85f:
+  ar: 1.0
+  dh: 000006000c04cc04dc02fc7ccc38bff0803283068484fc84fce001f800000000
+  font: G1 p30 info-p30-3.jpg
+  rect:
+  - 0.0754
+  - 0.1454
+  - 1.0
+  - 0.5153
+  score: 0.87
+635519db058cb7aa30ff5a6a4b31404f30932f18:
+  ar: 0.8746
+  dh: 3fc0e8084cc018d01ae01c40f8181c48f00843880e08f0088008000800080008
+  font: G4 p48 info-p48-4.jpg
+  rect:
+  - 0.0
+  - 0.0
+  - 1.0
+  - 0.7283
+  score: 0.96
+63e0430dd8761a6147ac6fbb867c68e95c7cf055:
+  ar: 1.0
+  dh: 060006000d800c001c801c803d8039c039403d4039003a003a003b003c000cc0
+  font: G16 p22 info-p22-4.jpg
+  rect:
+  - 0.1341
+  - 0.3694
+  - 0.3398
+  - 0.6132
+  score: 0.71
+647c1de1be2025aaecd8ad301d359aeee661cbac:
+  ar: 1.0
+  dh: 000000000000fc0085e085c087c08e1c861886188618b6503c60040000000000
+  font: G7 p15 info-p15-6.jpg
+  rect:
+  - 0.5252
+  - 0.3784
+  - 1.0
+  - 0.617
+  score: 0.94
+64b1b6da1db68f95ff18c2154980efda9a069741:
+  ar: 1.0
+  dh: 0000000007e0fde0803c80fedfc0f01af238ff18720070002000000000000000
+  font: G1 p17 info-p09-2.jpg
+  rect:
+  - 0.0
+  - 0.1761
+  - 0.4059
+  - 0.5635
+  score: 0.93
+65f87ec916de2514971c30f7e98db28e2f156d0e:
+  ar: 1.0
+  dh: 0b000ec616f296f016fc276c663c673863302798278c2780239007900380a240
+  font: G6 p17 info-p17-1.png
+  rect:
+  - 0.0
+  - 0.2126
+  - 1.0
+  - 1.0
+  score: 0.94
+67128076d065f08fbd53320599d72a4f195ee140:
+  ar: 1.0
+  dh: 0c400c400c400c400c400c400c400c400cc00cc00cc00c400c000c000cc00c40
+  font: G14 p8 info-p08-2.jpg
+  rect:
+  - 0.3333
+  - 0.3587
+  - 0.5471
+  - 0.6027
+  score: 0.73
+6773124bb39abbea66226a75443d7121859c3219:
+  ar: 1.0
+  dh: 000000000000afe08648d872d872d832dc32cc32cc0a80028000000000000000
+  font: G7 p31 info-p25-1.jpg
+  rect:
+  - 0.0033
+  - 0.2089
+  - 0.247
+  - 0.4353
+  score: 0.66
+68976393b4322022c1a1509cc73709766ae22c17:
+  ar: 1.0
+  dh: 00000000c000e004e904ae18bc788ffecfc2e0f2fe04e400e000c00000000000
+  font: G12 p66 info-p66-6.jpg
+  rect:
+  - 0.6766
+  - 0.4158
+  - 0.9836
+  - 0.7243
+  score: 0.93
+696e043a862aabfc851df50d24acc95a934c96c1:
+  ar: 1.3812
+  dh: 3e403db07cb37c07e767e1e6f61ff607d601e346ca4b738f778f370f2f160f76
+  font: G12 p73 info-p73-2.jpg
+  rect:
+  - 0.139
+  - 0.0
+  - 0.8638
+  - 1.0
+  score: 0.95
+6a374b727ecd1a81cb0259032d459f9f0c907249:
+  ar: 1.0
+  dh: 000000000000bff8c1fce664e624e664e764e3a4bff43ffc007c000000000000
+  font: G9 portada portada-10.png
+  metode: matching
+  rect:
+  - 0.0
+  - 0.1898
+  - 1.0
+  - 0.8102
+  score: 0.99
+6ae7ccd8cfb217f35d79f181286192d13e09ecf0:
+  ar: 1.0
+  dh: 0000c13ac63b86198e1986198e198ef9ee28e001a0178ffe9ffcf400e0000000
+  font: G12 p33 info-p33-3.jpg
+  rect:
+  - 0.0457
+  - 0.0881
+  - 0.4657
+  - 0.6017
+  score: 0.88
+6c522ba0c865aec59b2bca38d21178b45f604334:
+  ar: 1.0
+  dh: 0000fff0d800e3fcc688c0dcd8c0c848c8c870c878c478827000380008000000
+  font: G14 p4 info-p04-1.jpg
+  rect:
+  - 0.0
+  - 0.0891
+  - 0.358
+  - 0.645
+  score: 0.92
+6c8e4f6265b0124aa74e38773302e0a9c6a8646d:
+  ar: 1.0
+  dh: 8000e01ef89ef831b63b9a19ed86e6b3f306d10fd807cc87c60fc64fcf9fcd9e
+  font: G6 p4 info-p04-1.jpg
+  rect:
+  - 0.0737
+  - 0.1475
+  - 1.0
+  - 0.8802
+  score: 0.94
+6d62f79dafd24c94b4bbbfe5863ddad680d58f8b:
+  ar: 1.0
+  dh: 000007000e2c1cc8781c7fe831f035d83738e62c972c330831f8003000180004
+  font: G1 p24 info-p24-4.jpg
+  rect:
+  - 0.0023
+  - 0.2928
+  - 0.5158
+  - 0.7725
+  score: 0.96
+6d6b9c0d1b85e3f5cde71cb1ce9bc666050a9a42:
+  ar: 1.6175
+  dh: fbf0236037d82c84461f071f076c8b6d8b6cc76c4368c368cb68db28fb37d717
+  font: G11 p83 info-p04-4.png
+  rect:
+  - 0.5889
+  - 0.1024
+  - 0.8854
+  - 0.3984
+  score: 0.65
+6fd9a601af3a270a90595694c1d45bcc464796a6:
+  ar: 1.0
+  dh: 000000000000000000003000f000ff00e9f878b8000c00000000000000000000
+  font: G15 p51 info-p13-5.jpg
+  rect:
+  - 0.0688
+  - 0.3104
+  - 0.3125
+  - 0.4796
+  score: 0.95
+708965d426a819af7eb6c6c44fbdcc1685cf69fa:
+  ar: 1.0
+  dh: 0000b1f0f238e258d862fa3ae222e732e21ae362e038f806dfe0ff323ff80008
+  font: G9 p5 info-p05-3.jpg
+  rect:
+  - 0.1342
+  - 0.1966
+  - 0.3043
+  - 0.4403
+  score: 0.75
+70919b52dfd85c95673071faf8dca690f73d0dc0:
+  ar: 1.0
+  dh: a4a886fc826e826e835e827e835e825e834e830e837e825ec00ef240fffc007e
+  font: G12 p26 info-p26-6.jpg
+  rect:
+  - 0.0
+  - 0.314
+  - 1.0
+  - 1.0
+  score: 0.95
+71f8dded52602452ae46acae6913e599d771a104:
+  ar: 1.0
+  dh: 00003800e000803e9ff081f28bf0c3f0c3f0c3f2d1f0dffc03f0003000300000
+  font: G15 p56 info-p56-7.jpg
+  rect:
+  - 0.1696
+  - 0.086
+  - 0.56
+  - 0.2151
+  score: 0.85
+72dc46484f0ef53a701a8de233cf13f9deab1897:
+  ar: 1.7094
+  dh: 03ef3ebde1e8e6f03143fc3ebe703f003e417055386f946fdc7fe87fe27ffe7f
+  font: G15 p63 info-p56-8.jpg
+  rect:
+  - 0.0054
+  - 0.0421
+  - 0.8093
+  - 0.9346
+  score: 0.83
+738f8989993c2848e0875b7d0a47c21586d14bba:
+  ar: 1.0
+  dh: 000000000000000000001ff8fd30d658f490f648764800000000000000000000
+  font: G14 p51 info-p51-5.jpg
+  rect:
+  - 0.0
+  - 0.3049
+  - 0.761
+  - 0.6841
+  score: 0.86
+74f12c0b387682c585bc186d049837065db8f776:
+  ar: 0.8516
+  dh: f80001201fe07fc0e4409300981c8dfc9bfc9ff88c888ef88efc8e00e8003000
+  font: G7 p15 info-p15-8.jpg
+  rect:
+  - 0.4823
+  - 0.1085
+  - 0.8161
+  - 0.3832
+  score: 0.65
+753501d531244e8fd6a69aa5420e71b8f2d20326:
+  ar: 2.3327
+  dh: 98207800fc009f008ec8c3f2f1fcf07e7e3f5f0f4f6793abcd9ced1875a835e1
+  font: G13 p5 info-p05-8.jpg
+  rect:
+  - 0.08
+  - 0.0
+  - 0.9147
+  - 1.0
+  score: 0.86
+759e75a3c1bff3ce879de2393fe84e88b89df22d:
+  ar: 0.9521
+  dh: 00e007807e10dd30e0c0a770dd186ccc37221b0c8e43c33c230c1b340e700710
+  font: G5 p29 info-p29-8.jpg
+  rect:
+  - 0.0
+  - 0.1686
+  - 1.0
+  - 0.7321
+  score: 0.75
+768dd1b62ea6525053c3ff1ce54aaef794954a0b:
+  ar: 1.0
+  dh: 1f207338f338f334e70cc71cc71cc71cc71cc71cc71cc71ce70c670833103610
+  font: G15 p42 info-p42-1.jpg
+  rect:
+  - 0.0
+  - 0.6106
+  - 1.0
+  - 1.0
+  score: 0.9
+78bf599fab7440b3411f4b7a70aaf99a71f6a6c1:
+  ar: 1.0
+  dh: 006001c007b0e33cd17c997c9b38931880e8c94cdb64c342c903e10060006000
+  font: G16 p4 info-p04-4.jpg
+  rect:
+  - 0.1074
+  - 0.2369
+  - 0.7576
+  - 0.6887
+  score: 0.93
+78c6507b4ed5bbd2e7a7fa2993cc9903be29e541:
+  ar: 1.0
+  dh: 00000000e1f881fc9eeab0abb0ab90aa90abb0abb178b1eec000400000000000
+  font: G12 p13 info-p13-4.jpg
+  rect:
+  - 0.0181
+  - 0.1787
+  - 0.5294
+  - 0.7805
+  score: 0.83
+793bf7dc39425218430f600503c8e0eafbfe2dfe:
+  ar: 1.0
+  dh: 0000030007000f801f843ce2f8f2cc66c788c018f800fe001f00038000800000
+  font: G16 p36 info-p36-1.jpg
+  rect:
+  - 0.0
+  - 0.1743
+  - 1.0
+  - 0.8208
+  score: 0.94
+799a4b9b70b0bcb7a8afc5ffdb6bfb52cf85d40f:
+  ar: 1.0
+  dh: cb80c0c0dfc0ce30f3f8fb88da28daf8da78db08d838fcc87808701830181000
+  font: G9 p39 info-p39-1.jpg
+  rect:
+  - 0.5443
+  - 0.541
+  - 0.9213
+  - 0.9311
+  score: 0.97
+7a38a9ca35db7df6542c263e0502cdc1e6d1577c:
+  ar: 1.0
+  dh: 64c86cf86ce86c086c086c086c486cf86cf86cf86cf86cf86cf86e0872081000
+  font: G14 p8 info-p08-6.jpg
+  rect:
+  - 0.1823
+  - 0.0626
+  - 0.5083
+  - 0.919
+  score: 0.96
+7a81037b087d879a431717f51d6ae8803f6749b1:
+  ar: 1.0
+  dh: 000020008002c41891f881f8a5f9a5f887f8c7e8c7c2e7823f8003f800180000
+  font: G11 p59 info-p59-1.jpg
+  rect:
+  - 0.4968
+  - 0.6895
+  - 0.8051
+  - 0.9422
+  score: 0.73
+7a894c23bea3e589684b3104d76f29f0b64d7e4a:
+  ar: 1.0
+  dh: 07907be0d20cfe7c78fc6cfc68fc6cfc68fc78fc7ce8ccc4cd00ce0046000600
+  font: G15 p69 info-p69-7.jpg
+  rect:
+  - 0.0662
+  - 0.0713
+  - 0.5637
+  - 0.8031
+  score: 0.94
+7abba95218bb78eb0cabb1b331814db50795eb33:
+  ar: 1.0
+  dh: 00000000000000003000f000f800eff8e6f87f2403a801e80070000000000000
+  font: G15 p13 info-p13-4.jpg
+  rect:
+  - 0.1382
+  - 0.2846
+  - 0.4589
+  - 0.439
+  score: 0.94
+7b1f225cb4dde37239c657f3d87d263d016945bf:
+  ar: 0.9091
+  dh: 4698021890f812c8096801a0059040000000e000ff30039f0380038003800380
+  font: G6 p17 info-p17-3.png
+  rect:
+  - 0.0
+  - 0.0148
+  - 0.2438
+  - 0.2365
+  score: 0.62
+7b386a46afcb909b29e80231aab2a3dd3ae71e34:
+  ar: 1.6
+  dh: 0030803290329033c3f79f379ff09c108030803780bf9fccf804a00020000000
+  font: G13 p22 info-p22-5.jpg
+  rect:
+  - 0.0762
+  - 0.0
+  - 0.9206
+  - 1.0
+  score: 0.72
+7b41f23f3901b50fe689a0bdfad380f4042cda2d:
+  ar: 1.0
+  dh: 00000000000000001800f640c710fb1cee1873d01cf007c100f0003000000000
+  font: G1 p8 info-p08-1.jpg
+  rect:
+  - 0.1671
+  - 0.2847
+  - 0.4637
+  - 0.4858
+  score: 0.94
+7bc26dba2a7fab8d520a4d0da8b46d830d1026fe:
+  ar: 1.0
+  dh: 03e00f300c1018003800300030003000300032003600360070006c0070007000
+  font: G13 p18 info-p18-1.jpg
+  rect:
+  - 0.1513
+  - 0.4538
+  - 0.9132
+  - 0.9972
+  score: 0.65
+7c99acff151b0cea6c77dac7d9d9729fd7d8bace:
+  ar: 1.0
+  dh: 000001e0f380be48862e9ffe9f12dd325d32593259025d024d00400000000000
+  font: G13 p5 info-p05-2.jpg
+  rect:
+  - 0.0996
+  - 0.121
+  - 0.6566
+  - 0.8523
+  score: 0.88
+7cf914660ee875f0623c4e25893a957668ed9ccb:
+  ar: 1.0
+  dh: 1a001a001b001a001b001b101a101a001a001a001a001a001a6018700b200320
+  font: G7 portada portada-05.png
+  metode: matching
+  rect:
+  - 0.246
+  - 0.0
+  - 0.8046
+  - 1.0
+  score: 0.76
+7d7e67680b8230fd1f47a6ace9eaeac7fc5d1e48:
+  ar: 1.0
+  dh: 0e000c800cc00cc00c000c800c800c800c800c800ca00c800c800cc00e800e60
+  font: G12 p63 info-p63-3.jpg
+  rect:
+  - 0.3882
+  - 0.7162
+  - 0.6966
+  - 0.8874
+  score: 0.96
+7f49e8ed70f05fc5cd9d21f6fcd4afc4b62db757:
+  ar: 1.0
+  dh: 000000000780ff80df40ff20b390d9c07d846c0c34fc1e041c00080000000000
+  font: G5 p46 info-p46-6.jpg
+  rect:
+  - 0.0
+  - 0.1398
+  - 1.0
+  - 0.8644
+  score: 0.92
+7fd33f6968801ca3ba22bdd446fc772cabd62390:
+  ar: 1.0
+  dh: 00000000000010007600e640cef0cfcc5fe01f8403f4007c000c000000000000
+  font: G2 p9 info-p09-8.jpg
+  rect:
+  - 0.0
+  - 0.1891
+  - 1.0
+  - 0.801
+  score: 0.96
+814c4121517d538ce43b2925b291fd0a725e29f8:
+  ar: 2.0354
+  dh: 3e007700f180e860f03b3843df003fc41df3c77f71de18ee1f4987cde3ee60de
+  font: G13 p5 info-p05-5.jpg
+  rect:
+  - 0.1467
+  - 0.0
+  - 0.8533
+  - 1.0
+  score: 0.94
+816bfb79744979ac6cebe1eb8700b6ec0f13bd08:
+  ar: 1.0
+  dh: 0380ff00e180e3c0f3b0d878fc30fc04d6e86ff0770036101ed00ed00ec00180
+  font: G15 p26 info-p26-3.jpg
+  rect:
+  - 0.0
+  - 0.0169
+  - 1.0
+  - 0.5631
+  score: 0.99
+818039f519db96d8c79a5a0e97ae03b343395c34:
+  ar: 1.0
+  dh: 00000000000000000008007807e43e66f1e2e498e4603c000000000000000000
+  font: G10 portada portada-04.png
+  metode: matching
+  rect:
+  - 0.0
+  - 0.0898
+  - 0.9633
+  - 0.9755
+  score: 0.39
+818551ac9ab4e9d013e4394a1d97484e73b82b9f:
+  ar: 1.0
+  dh: 00000000000c00f800c200c66046fd0600060006000600060006000000000000
+  font: G6 p26 info-p26-6.jpg
+  rect:
+  - 0.0
+  - 0.1127
+  - 1.0
+  - 0.7746
+  score: 0.84
+8229ae0158bb6c57ddc28eb8d9dc8506368b3f69:
+  ar: 1.0
+  dh: 2000e402c00282088000a000fff880068006800680068002b8009ff880380008
+  font: G11 p59 info-p59-2.jpg
+  rect:
+  - 0.5867
+  - 0.2762
+  - 0.8718
+  - 0.537
+  score: 0.71
+8240a48af28f4f2c3a0538ffb8a0b422028662b7:
+  ar: 1.0
+  dh: 0000ffc0ffe0c1c0805e81fe87fe87fe87fe87fe87faa702e002600060006000
+  font: G13 p5 info-p05-3.jpg
+  rect:
+  - 0.0773
+  - 0.2145
+  - 0.4383
+  - 0.4648
+  score: 0.89
+82674fc2f1dae64ecffbd741c336887990793c18:
+  ar: 1.0
+  dh: fb30fa20f800f004f204f284f044f244f244e000e004e000e100e000700c380c
+  font: G13 p31 info-p31-5.jpg
+  rect:
+  - 0.2363
+  - 0.0224
+  - 0.9129
+  - 0.3234
+  score: 0.73
+83434f6b90561134179267ff058a84f82b4b740d:
+  ar: 1.0
+  dh: 1fc0fc00e2b0fff8fc00f998df9cd998fb20fa18f98078787fc0380810081000
+  font: G8 p37 info-p37-2.jpg
+  rect:
+  - 0.2474
+  - 0.5438
+  - 0.8483
+  - 0.923
+  score: 0.96
+834ee97ee3d53eabd0eaa1c2c0d341be62904675:
+  ar: 1.0
+  dh: 000000000000fc0085e085c087c08e1c861886188618b6503c60040000000000
+  font: G7 portada portada-03.png
+  metode: matching
+  rect:
+  - 0.0199
+  - 0.1821
+  - 0.9834
+  - 0.8179
+  score: 0.97
+838aba0cbbbd934c04345f9a58b56e672ed8c123:
+  ar: 1.0
+  dh: 00007800fad0c048b08ed18ec00ee006fe66c076e006fc04dfe441f000100000
+  font: G6 p4 info-p04-2.jpg
+  rect:
+  - 0.0545
+  - 0.3773
+  - 0.5114
+  - 0.8341
+  score: 0.98
+83e3985eb869588380e220ee901e22238a2198d0:
+  ar: 1.0
+  dh: 0000000000c007801f9efe8efe46b322d992ecd876c038001800000000000000
+  font: G10 portada portada-05.png
+  metode: matching
+  rect:
+  - 0.0
+  - 0.0211
+  - 1.0
+  - 0.9464
+  score: 0.35
+84c3b00ba5fc13b09b1a7de4668fa713ae5476cb:
+  ar: 1.0788
+  dh: 6fc0bf00f046f040f040fc40ce40de40fc40fc40e640d840c1209f383f1c3104
+  font: G11 p83 info-p04-3.jpg
+  rect:
+  - 0.1124
+  - 0.6506
+  - 0.3562
+  - 0.8939
+  score: 0.71
+85662011c6a15890c7d81916be9561387d44504a:
+  ar: 1.0
+  dh: 00000000000000f01fe0191839fc39c0e414f3b49b0018000000000000000000
+  font: G7 p15 info-p15-5.jpg
+  rect:
+  - 0.0883
+  - 0.2848
+  - 0.5453
+  - 0.6556
+  score: 0.9
+868b9eff5c0905f4e95b7d87b3c03d4f9496d713:
+  ar: 1.0
+  dh: 000000003000f0028020c018c49884909c98c098ff98cfb847f0001000000000
+  font: G16 p32 info-p32-6.jpg
+  rect:
+  - 0.6982
+  - 0.1762
+  - 1.0
+  - 0.826
+  score: 0.87
+876f1bf022de88f9eccaa0f51d406b2b3a01a3c8:
+  ar: 1.0
+  dh: 0f00fe20ffe0f3b8f8007a687f287d207db87fb87d887d887c88380810001000
+  font: G4 p30 foto-35961617.jpg
+  rect:
+  - 0.1652
+  - 0.4889
+  - 0.8688
+  - 0.9659
+  score: 0.98
+88e88596c331f16755d2b08ec89041b2dddee0ed:
+  ar: 1.0
+  dh: 0000fbc0f3e0f404b00081808d808f808f808f808f80cf80e080608060000000
+  font: G13 p5 info-p05-6.jpg
+  rect:
+  - 0.0
+  - 0.2406
+  - 0.5883
+  - 0.9436
+  score: 0.85
+8b28956dd1b29566fbed709cb5992a7628e46797:
+  ar: 1.0
+  dh: 000000000180f780b5b0d638f610e04e8902c25ae49a64006000600000000000
+  font: G7 p20 info-p20-3.jpg
+  rect:
+  - 0.1099
+  - 0.2629
+  - 1.0
+  - 0.7996
+  score: 0.95
+8be32f9daac8ba7d2a16eb2bb3d3c5398ec591aa:
+  ar: 1.0
+  dh: 3e0036203620362036203620362016201620162016601ac018c018c01e000600
+  font: G12 portada portada-14.png
+  metode: matching
+  rect:
+  - 0.2283
+  - 0.0
+  - 0.7215
+  - 1.0
+  score: 0.99
+8c667b36a207f2967e5e8e9061571da3ed7da113:
+  ar: 1.0
+  dh: 0000000001e0bc00800e9ffafb68db4a9f9cff1cff04e004c000c00000000000
+  font: G6 portada portada-09.png
+  metode: matching
+  rect:
+  - 0.0
+  - 0.1786
+  - 1.0
+  - 0.8418
+  score: 0.98
+8ca3e9f61c6a223b5c8e213c20d23b8a497e1d27:
+  ar: 0.7629
+  dh: 1ff0e7902600a098a0d8a0d8b8b8b8b8b89da8d9a89aa898a8d8b0d8b0087a00
+  font: G8 p21 info-p21-3.jpg
+  rect:
+  - 0.0107
+  - 0.0054
+  - 0.975
+  - 0.9674
+  score: 0.86
+8cbc6640d01c58871feec44506a87a477dff80d5:
+  ar: 1.083
+  dh: 3800f8c0f880e080e10003803bc03e609e70cbf8c49ce4f662bc33609b008cc4
+  font: G15 p26 info-p26-7.jpg
+  rect:
+  - 0.0
+  - 0.102
+  - 1.0
+  - 0.7653
+  score: 0.96
+8cfccaf5812801f199fcf1ed45e7375856a24e2e:
+  ar: 1.0
+  dh: 8000fc04fa0af262f262f206f036f026f01ef01ef076f03ef3fc7b0038000000
+  font: G12 p22 info-p22-1.jpg
+  rect:
+  - 0.2099
+  - 0.0921
+  - 0.7661
+  - 0.4715
+  score: 0.98
+8d068d2d7f99bb90b9ad3549c3501563f636fea1:
+  ar: 1.0
+  dh: 0000000000000000c000c0809e08999cda5c7b78077c00fc000c000000000000
+  font: G3 portada portada-02.png
+  metode: matching
+  rect:
+  - 0.0
+  - 0.2625
+  - 1.0
+  - 0.8047
+  score: 0.95
+8dae385c64bcc3c5989f8b127acc2a7e2489db9f:
+  ar: 1.0
+  dh: 0000000000000000000000f0fff09f1880188000000000000000000000000000
+  font: G14 p51 info-p51-1.jpg
+  rect:
+  - 0.0
+  - 0.3446
+  - 0.3337
+  - 0.6627
+  score: 0.75
+8dd321cf24148c7f1a32406c3c9024ec383637ce:
+  ar: 1.0
+  dh: 00000000c000e004e904ae18bc788ffecfc0e032fe04e400e000c00000000000
+  font: G12 p66 info-p66-3.jpg
+  rect:
+  - 0.6766
+  - 0.4143
+  - 0.9851
+  - 0.7228
+  score: 0.93
+8e374c9b2687cff0a7f122548f005fb5d89cf99c:
+  ar: 2.0964
+  dh: 03f8ffc4c004004400e44efcbcfc20c24ec04ac04bc048f049cc4e7cfdf4f8b4
+  font: G12 p66 info-p66-1.png
+  rect:
+  - 0.0924
+  - 0.0
+  - 0.9053
+  - 1.0
+  score: 0.83
+8e88fb9b04a16e2b6c10dafef45392b27f3b1378:
+  ar: 1.0
+  dh: 0000000007f8fdc4e800c08cfadcf9d4f334f334f3f4f304f004c00040000000
+  font: G2 portada portada-12.png
+  metode: matching
+  rect:
+  - 0.0183
+  - 0.1239
+  - 0.9817
+  - 0.9243
+  score: 0.91
+8ece48f1b41a8d4ed1a78067db750fe9b39dc5f1:
+  ar: 1.0
+  dh: 0000fdfae9d2eb72e972e1d2ea16ea13e612e312e772eb36c9b6bbfe3ffe0000
+  font: G9 p29 info-p29-1.jpg
+  rect:
+  - 0.3859
+  - 0.0769
+  - 0.9791
+  - 0.678
+  score: 0.96
+8f261615bccd0dc58feb8f16c33c95eac711f0f3:
+  ar: 1.0
+  dh: 00000000000001003f8081b0819c61f239021c020c000c000c00000000000000
+  font: G13 p31 info-p31-3.jpg
+  rect:
+  - 0.0
+  - 0.2169
+  - 1.0
+  - 0.7757
+  score: 0.78
+90598cf2a0a4fc10fc8fcfdb4a660bce2ee4d8ab:
+  ar: 1.0
+  dh: 000081e087ccb704b006a606a7c4b404e406a406a7bcef38a626a40620002000
+  font: G11 p25 info-p25-4.jpg
+  rect:
+  - 0.0568
+  - 0.3409
+  - 0.2169
+  - 0.5847
+  score: 0.72
+9066478131b8352ebba255368834bc4ae9dd4176:
+  ar: 2.2222
+  dh: 0ff2fd82e192098219820982098a0982298609b819c01984712002001800e000
+  font: G15 p77 info-p56-1.jpg
+  rect:
+  - 0.5491
+  - 0.3933
+  - 0.9957
+  - 0.8873
+  score: 0.97
+91dfd40f8ec1eb5fe430880ff6194fbe3e0ea9d9:
+  ar: 1.0
+  dh: 1ee03ed032d030d032d032d030d030d032d03e501e003e1036403e003e001a80
+  font: G12 p18 info-p18-6.jpg
+  rect:
+  - 0.2281
+  - 0.5687
+  - 0.6672
+  - 0.9469
+  score: 0.95
+920cbb68164af3381f78572a9e3a70205a1599d5:
+  ar: 0.5942
+  dh: 80003c004600e0c065326e0076586668626872502a1072101e00420070c02230
+  font: G14 p57 info-p57-6.jpg
+  rect:
+  - 0.0122
+  - 0.0073
+  - 0.9755
+  - 0.9709
+  score: 0.73
+92919eec4160d488b6ee568b1504cff1e5c145eb:
+  ar: 1.0
+  dh: 00000000ff80ffc0fa30e2f8f3ecede4f1f0e1b0fdc0e0166012600000000000
+  font: G7 p25 info-p25-4.jpg
+  rect:
+  - 0.3495
+  - 0.233
+  - 1.0
+  - 0.7626
+  score: 0.97
+937182963b36aa332a7a012d5739403f3fa40fb7:
+  ar: 1.5873
+  dh: 6f263c2fe13f8d391fb99e31b7a9ef29b9a8b3b0ba30b03472b9663d37bd15bf
+  font: G12 p32 info-p32-2.jpg
+  rect:
+  - 0.1378
+  - 0.0
+  - 0.9467
+  - 1.0
+  score: 0.99
+93883a5db2aa1c9e776f0f6086500765b7bd0fb7:
+  ar: 1.0
+  dh: 000000000010e8f897f89830883880308030803880388038c000400000000000
+  font: G15 p19 info-p19-3.jpg
+  rect:
+  - 0.0
+  - 0.2155
+  - 1.0
+  - 0.7845
+  score: 0.83
+939dc84800dc386f1715f45c89745cd0cfe31d8a:
+  ar: 1.3316
+  dh: 0f8007800f00c0c01fe0bff0bf0078f03fc07c047804f00cd01cd078f1003800
+  font: G13 p39 info-p39-1.jpg
+  rect:
+  - 0.0169
+  - 0.0135
+  - 0.9324
+  - 0.9775
+  score: 0.77
+940fa16eee665f37c4c5c0d7d5e573765dbe8bd4:
+  ar: 1.0
+  dh: 1f007f007f0078007e807d0076087bf03ef03fc01f100f300600024002000200
+  font: G15 p26 info-p26-8.jpg
+  rect:
+  - 0.1677
+  - 0.0902
+  - 0.8437
+  - 0.4219
+  score: 0.93
+941398f0e354d48b0477fc70ac763f6d2301b726:
+  ar: 1.0
+  dh: 36f883ec800c8008001800183ff8900c800800087ff8ed78f250e4c872487232
+  font: G14 p51 info-p51-2.jpg
+  rect:
+  - 0.0
+  - 0.0
+  - 0.205
+  - 1.0
+  score: 0.83
+963d86f2af3a56417908e8898183ad0b0a6e5cba:
+  ar: 1.0
+  dh: 000000007802faa8801cc236fea689b6c18e82b6c086ff0607fc001800000000
+  font: G6 p4 info-p04-7.jpg
+  rect:
+  - 0.0319
+  - 0.3697
+  - 0.5665
+  - 0.7952
+  score: 0.91
+96859d90e404c9c8ea5d38dc29095225f06a262d:
+  ar: 1.3064
+  dh: 0048b332b332b13231733553355335133343334b3573357335533513f170e16c
+  font: G8 p9 info-p09-5.jpg
+  rect:
+  - 0.0186
+  - 0.0163
+  - 0.9783
+  - 0.9797
+  score: 0.9
+973896c1bd528f8a6a98446211a6f7fbe7bbdf23:
+  ar: 1.5699
+  dh: 01840145016d01ad198d3c847c8d610d614460cd7c4d63c5e9046ffc61fc617c
+  font: G15 p69 info-p69-8.jpg
+  rect:
+  - 0.0
+  - 0.112
+  - 0.8226
+  - 0.8361
+  score: 0.58
+9a22057b8ed44a6eafb72f59a724ab9a8dcf4aef:
+  ar: 1.0
+  dh: 000000000000000000006000f000cf00b058bf18ffda0ffc006c000000000000
+  font: G9 p36 opcional-p07-t1-4.jpg
+  rect:
+  - 0.0179
+  - 0.3363
+  - 0.9821
+  - 0.7848
+  score: 0.97
+9ad2b46df6ac160e389e02cbeb9ab73a5fe10241:
+  ar: 1.0
+  dh: 00000000cda69dc69dc69fc69fc29f829fc29fc0dfc08fc0c580413000000000
+  font: G14 p8 info-p08-5.jpg
+  rect:
+  - 0.4344
+  - 0.1928
+  - 0.8895
+  - 0.8689
+  score: 0.93
+9af499b9527afa2bf69f82a85426b33f7d95b04b:
+  ar: 1.0
+  dh: 7338d518d514d114fa40c570d014fa00dfe0d134f814df00c5e00c3404340030
+  font: G14 portada portada-13.png
+  metode: matching
+  rect:
+  - 0.0961
+  - 0.0
+  - 0.9039
+  - 1.0
+  score: 0.91
+9bcb3ae4566e06fcb76450d83200c2f79c7fe619:
+  ar: 1.0
+  dh: 0000ffc0ffe0c1c0805e81fe87fe87fe87fe87fe87faa702e002600060006000
+  font: G13 portada portada-03.png
+  metode: matching
+  rect:
+  - 0.0
+  - 0.0365
+  - 1.0
+  - 0.9635
+  score: 0.96
+9ce6784ebd146fe05650209897097fc952901fac:
+  ar: 1.0
+  dh: 387039e039d039d039d039d039d039d039d039d039c036503640364036403e00
+  font: G12 p18 info-p18-3.jpg
+  rect:
+  - 0.313
+  - 0.0194
+  - 0.611
+  - 0.7228
+  score: 0.99
+9cf486e7f860260ed3ed04f6546efe9b978df3e2:
+  ar: 0.9831
+  dh: 03001f0038c07a18ce38cbf491fc91fe8bfee7a4c1c4ebe8639037c00f800300
+  font: G4 p30 info-p30-1.jpg
+  rect:
+  - 0.037
+  - 0.0364
+  - 0.9588
+  - 0.9636
+  score: 0.95
+9d1af29b3b78af2f247d1f06288c769304ea7b2a:
+  ar: 1.0
+  dh: 1b401b401b401b001b00198019c019c019c019c019c019401b401b401d400c40
+  font: G12 p56 info-p54-2.jpg
+  rect:
+  - 0.4449
+  - 0.4913
+  - 0.7086
+  - 0.7124
+  score: 0.98
+9d4cd56da2f745d1e28125f0d4baf52b9b548878:
+  ar: 1.0
+  dh: 3fe0ff50eb38f500d814db68fb68f970fbf0f910f91079f07b80380818180800
+  font: G3 p4 info-p04-2.jpg
+  rect:
+  - 0.0906
+  - 0.0136
+  - 0.4112
+  - 0.24
+  score: 0.83
+9e586d36164133710f3534e7de0700ba239d2745:
+  ar: 1.38
+  dh: 0000002101920f981f991b211ba21ba47700cb08cb00ce3ed8e0e00060100800
+  font: G1 p16 info-p08-2.jpg
+  rect:
+  - 0.0245
+  - 0.0304
+  - 0.9877
+  - 0.9899
+  score: 0.9
+9ee79566dfea752f99c550c1992e5f65cec3300e:
+  ar: 1.2833
+  dh: be7dbe7dbfdd9ffda3ffbc7e9e1adee6dffed7f4d9fc4cfc473c67986fe866f8
+  font: G11 p133 info-p126-7.jpg
+  rect:
+  - 0.2163
+  - 0.2344
+  - 0.4601
+  - 0.478
+  score: 0.58
+9ee826dbd849631215d03805ebceb8bcd892d083:
+  ar: 1.0
+  dh: 060006401c4018401f801fc01f801f801ca01c8019c019c019c019c01c402440
+  font: G13 portada portada-08.png
+  metode: matching
+  rect:
+  - 0.218
+  - 0.0
+  - 0.7845
+  - 1.0
+  score: 0.99
+9f19a623ce0f58a8d12bf920c24fb24cc0b31dfc:
+  ar: 1.0
+  dh: 000001e0f380be48862e9ffe9f12dd325d32593259025d024d00400000000000
+  font: G13 portada portada-05.png
+  metode: matching
+  rect:
+  - 0.0
+  - 0.0683
+  - 1.0
+  - 0.8957
+  score: 0.94
+a02c0d210ff2299b82b2d9891d25c8612e5b1f8f:
+  ar: 5.1237
+  dh: 0000007001f8078c3e0cf21e813c809082e287868e1e8846c102c002c002c002
+  font: G12 p85 info-p85-5.jpg
+  rect:
+  - 0.0253
+  - 0.0185
+  - 0.9847
+  - 0.9815
+  score: 0.79
+a09147a3f342a34f0842e2d5ac6cf02fb75a483b:
+  ar: 1.0
+  dh: 000000001000f00080c0c038dc98d498d4b8c098ff98ffb80ffc000000000000
+  font: G16 p32 info-p32-4.jpg
+  rect:
+  - 0.7083
+  - 0.1861
+  - 0.9861
+  - 0.8111
+  score: 0.89
+a2429d29d9ae1af78a238c4ec397f914a8f76ed3:
+  ar: 1.0
+  dh: 7df079c879e079f079f079e07a6079f079f0786079e071e07de07fe06ff067f0
+  font: G9 portada portada-02.png
+  metode: matching
+  rect:
+  - 0.1502
+  - 0.0
+  - 0.8498
+  - 1.0
+  score: 0.72
+a3345705f1b3ea5dd28886cb963f237c857146cb:
+  ar: 1.0
+  dh: 1e201c201c201c801c801e201e201e201e201c201c201a201a201e201e201420
+  font: G11 portada portada-14.png
+  metode: bbox
+  rect:
+  - 0.232
+  - 0.019
+  - 0.739
+  - 1.0
+  score: 0.48
+a3b81e3e3ac8e1f8f943e36b7657d8917f3a9f9d:
+  ar: 1.0
+  dh: 00000000000000007ac8ee74c46eca38f276b236841680020000000000000000
+  font: G1 portada portada-09.png
+  metode: matching
+  rect:
+  - 0.6782
+  - 0.4005
+  - 0.922
+  - 0.5189
+  score: 0.73
+a3f05289ffca0ece3f1991a7ce16b596e82b083d:
+  ar: 1.0
+  dh: 00000000e002b980bc7cbc7cbe7cbefcbefcbefcbefc3efc0ffc000c00000000
+  font: G9 p36 opcional-p07-t1-2.jpg
+  rect:
+  - 0.0165
+  - 0.1264
+  - 0.978
+  - 0.6978
+  score: 0.94
+a53b1468b139f30359129653f527b7c6558628f8:
+  ar: 1.0
+  dh: 000000001ff0fff080028002e002c402e402c402e402e0024000400000000000
+  font: G14 p8 info-p08-4.jpg
+  rect:
+  - 0.0126
+  - 0.3023
+  - 0.4584
+  - 0.796
+  score: 0.73
+a5969a6490ee7ff83045838bbadb270e896acb3d:
+  ar: 1.1859
+  dh: 42602260a060476326614a7f03f000c7f0780f61ef0fbe1fbadf4dd7ccd78cd7
+  font: G14 p4 info-p04-2.jpg
+  rect:
+  - 0.0753
+  - 0.0
+  - 0.9247
+  - 1.0
+  score: 0.82
+a5fc2b6d62eaf40f6f5de8c4f1f9bd7bf861d297:
+  ar: 1.0
+  dh: 00000000000010023002300270027002f006e03ed07cb3fc0ff8000000000000
+  font: G14 p51 info-p51-3.jpg
+  rect:
+  - 0.0025
+  - 0.1726
+  - 0.7056
+  - 0.8299
+  score: 0.83
+a6a1c85eab02ba3639d5e4210f2bfa093f98ce44:
+  ar: 1.0
+  dh: 0000000000001000f000f800dfc0c6f8ff58079801e800f80018000000000000
+  font: G15 p51 info-p13-1.jpg
+  rect:
+  - 0.0465
+  - 0.2163
+  - 0.2902
+  - 0.396
+  score: 0.78
+a9d19ecdb4604b6f3147c178d83b16c30c4e93a4:
+  ar: 1.0
+  dh: 7fd83c7084f494f284b294b294f0bea3a4f084f2b001807c90609162c000c000
+  font: G12 p13 info-p13-1.jpg
+  rect:
+  - 0.0
+  - 0.0289
+  - 0.627
+  - 0.8842
+  score: 0.9
+aa2c28f759f47bc3834c2d6cab23f6d4e60e09a4:
+  ar: 1.0
+  dh: ff8cf804d846fa66f836f926f924f124f124f11ef91ef976d97cf9f87b001800
+  font: G12 p22 info-p22-3.jpg
+  rect:
+  - 0.4818
+  - 0.2517
+  - 0.9553
+  - 0.9553
+  score: 0.96
+ac7dc214b47ede5abf00be139d9330bbed05166a:
+  ar: 0.8746
+  dh: 3fc0e8084cc018d01ae01c40f8181c48f00843880e08f0088008000800080008
+  font: G5 p46 info-p46-4.jpg
+  rect:
+  - 0.0
+  - 0.0
+  - 1.0
+  - 0.7283
+  score: 0.96
+ac7fc1fd40c876a3c7d874bac060f84e90c5ba01:
+  ar: 1.0
+  dh: 0000000000001e007f00d892ff82d60cf31c9f009fa001c00040000000000000
+  font: G1 p39 info-p39-2.jpg
+  rect:
+  - 0.0325
+  - 0.4099
+  - 0.7356
+  - 0.7368
+  score: 0.97
+ad4b3d3a13b5b09dea42a2a6a80084983d08215c:
+  ar: 1.0
+  dh: 0000000000204030c0d8958038c018601ed0647cc00db0042000000000000000
+  font: G7 p4 icona-reixa-fogo.jpg
+  rect:
+  - 0.0
+  - 0.023
+  - 1.0
+  - 0.9732
+  score: 0.94
+ad7b1eb627add6495f74d91565b19810f48e5e1b:
+  ar: 1.0
+  dh: 000000000000c01c809cc13cce304d34325c5698e318d2960421000000000000
+  font: G9 p29 info-p29-5.jpg
+  rect:
+  - 0.0
+  - 0.1992
+  - 1.0
+  - 0.7966
+  score: 0.8
+adca2ad624ba1e4ec4c9b270c5fbfc2d89f2c319:
+  ar: 1.195
+  dh: 1c003c08bc88e800e07843e01c083058246825982588e788e580740030000000
+  font: G1 p27 info-p27-2.jpg
+  rect:
+  - 0.081
+  - 0.0
+  - 0.919
+  - 1.0
+  score: 0.85
+adf6e9469968a5b1719b888a88e2c282572f6b6a:
+  ar: 1.0
+  dh: 00009bfae3e4e3ece0e4e6e4e67ce2e4e27cf1e4e2f4f004d7f2bffc0ffc0000
+  font: G9 p5 info-p05-1.jpg
+  rect:
+  - 0.0945
+  - 0.1755
+  - 0.2827
+  - 0.5509
+  score: 0.9
+ae2c1683a43ce72d542bb27ba76a13b8cce660a2:
+  ar: 1.0
+  dh: 000006000e001cc078d8e27cc6d8f050fe60dfc0d9c078c01f0003c000c00000
+  font: G1 p6 info-p06-2.jpg
+  rect:
+  - 0.2151
+  - 0.1492
+  - 0.7093
+  - 0.5504
+  score: 0.95
+aea157e15aa9e7c29ef31af3febda052ba8b7512:
+  ar: 1.0
+  dh: 310031d035f035d0357035f0357035f035f03570390039803920392019200c20
+  font: G12 p18 info-p18-4.jpg
+  rect:
+  - 0.2109
+  - 0.5804
+  - 0.7891
+  - 0.9957
+  score: 0.88
+aeab7ad5d192b466c490d4012d113c15df08688a:
+  ar: 1.0
+  dh: 0000000000f0ffe0fd86fc8c93fa8712a072a7f2ae02e002a000200020000000
+  font: G13 portada portada-04.png
+  metode: matching
+  rect:
+  - 0.0
+  - 0.1063
+  - 1.0
+  - 0.8976
+  score: 0.95
+aedf6ffd3f0337546dc288f3e1e33312ec6db258:
+  ar: 1.0
+  dh: 1e401ea01fa01da01fa01fa01da01fa01fa01fa01ea01fa01e401e401e401e00
+  font: G12 portada portada-08.png
+  metode: matching
+  rect:
+  - 0.2467
+  - 0.0
+  - 0.7039
+  - 1.0
+  score: 0.96
+b00946f92ab4b27e2964a9264be153d18fb44b20:
+  ar: 0.543
+  dh: 00fc3ce6fc06cc865c865c865c065c965c765c365c665cc64c86cc0638fc340c
+  font: G12 p38 info-p38-1.jpg
+  rect:
+  - 0.0229
+  - 0.0071
+  - 0.9869
+  - 0.9681
+  score: 0.86
+b0c9aaf3962f99de9a36a51fbd9ed8a0f4296efb:
+  ar: 1.0
+  dh: 0000000081a0e5a03dec1ff819f81d401e001c681c881ca806d0070003000000
+  font: G1 p30 info-p29-2.jpg
+  rect:
+  - 0.2604
+  - 0.4418
+  - 0.4911
+  - 0.8481
+  score: 0.86
+b159deaedb508f27a8927642885126402b8bf37a:
+  ar: 1.0
+  dh: 000000008fe0ffe0bcda9c90a036a7f09f3c9e049966c366f320300000000000
+  font: G7 p9 info-p09-5.jpg
+  rect:
+  - 0.3444
+  - 0.133
+  - 0.9952
+  - 0.8361
+  score: 0.93
+b26d489e1138df48839334713208189b31451536:
+  ar: 0.7991
+  dh: 00c001820f033c86f1c8e509d9439a7bd96b77481d0c0f9f079107e38ff7cfff
+  font: G6 p4 info-p04-3.jpg
+  rect:
+  - 0.0048
+  - 0.3103
+  - 0.9665
+  - 0.9923
+  score: 0.98
+b2b345c0c24f5cc5e9948bf953070cfd7515aee6:
+  ar: 1.0
+  dh: 000000000000f824f8dcc170c770c750c350df329fd0ffd800f8000000000000
+  font: G16 p32 info-p32-3.jpg
+  rect:
+  - 0.6427
+  - 0.2108
+  - 0.9897
+  - 0.7892
+  score: 0.87
+b3f1f457ae5c3bf32a8fa4dce2b94fab8c9eda3a:
+  ar: 1.0
+  dh: 000000001f00f220a1f8e008e018c038c078c1f8c708c0086000600000000000
+  font: G15 p69 info-p69-4.jpg
+  rect:
+  - 0.0
+  - 0.1522
+  - 1.0
+  - 0.852
+  score: 0.83
+b3f56ca9af2b1b3c2b51b912157734fccf8f93a0:
+  ar: 1.0
+  dh: ec00cdc2c1cec1c6c4c6c4cac4c6c4cec4c2c2cac6caa6caa6cee7d0f0006000
+  font: G12 p26 info-p26-4.jpg
+  rect:
+  - 0.1216
+  - 0.0
+  - 0.9437
+  - 0.7973
+  score: 0.9
+b41f4f027f9076a81ab580c875a25dbba56288b8:
+  ar: 0.75
+  dh: 11ff007f0f073f833df17cf8fab0f2b4f3645b646cf03cd1bf030f09033d013d
+  font: G4 p17 info-p17-6.jpg
+  rect:
+  - 0.0
+  - 0.0621
+  - 1.0
+  - 0.9172
+  score: 0.98
+b42c2fdce6c5b416d224652d03a3bd69174b8e6f:
+  ar: 1.0
+  dh: 00000000c000e004e90cae18bc788ffecfc0e032fe04e400e000c00000000000
+  font: G12 portada portada-15.png
+  metode: matching
+  rect:
+  - 0.0
+  - 0.1741
+  - 1.0
+  - 0.8657
+  score: 0.93
+b46f90ac1600cc582fed08b90c5152a2a3e81ca0:
+  ar: 1.0
+  dh: 78007b0076b076b076b072b072b072b076b072b076b076b0708877f874883080
+  font: G12 portada portada-09.png
+  metode: matching
+  rect:
+  - 0.17
+  - 0.0
+  - 0.8646
+  - 1.0
+  score: 0.98
+b4b72a3593e6def4c5c84493775871e8fd977834:
+  ar: 1.0
+  dh: 000000000780ff80df40ff20b390d9c07d846c0c34fc1e041c00080000000000
+  font: G4 p48 info-p48-6.jpg
+  rect:
+  - 0.0
+  - 0.1398
+  - 1.0
+  - 0.8644
+  score: 0.92
+b4d7e8104c59f46c0f5ce43cb90887781b6cbc5a:
+  ar: 1.0
+  dh: 0000000000e09ff09f988b8c2906bc72963ec39b678330003000100000000000
+  font: G12 p73 info-p73-4.jpg
+  rect:
+  - 0.2386
+  - 0.1605
+  - 1.0
+  - 0.7354
+  score: 0.92
+b4d817a0c43f92f4148cfcbc0267c4bd38f2eb4e:
+  ar: 1.0
+  dh: 6780660064086408640c640c6408640064006400641064d02498263006300600
+  font: G7 p31 info-p31-6.jpg
+  rect:
+  - 0.1388
+  - 0.6592
+  - 0.8696
+  - 1.0
+  score: 0.96
+b51e18ec76aacfe6b6f10a267b5ea66fdd9f2c80:
+  ar: 1.0
+  dh: 000000000000c01c81bcc258cc604a69209c5538e63056292856000000000000
+  font: G9 p5 info-p05-7.jpg
+  rect:
+  - 0.0
+  - 0.2118
+  - 1.0
+  - 0.7857
+  score: 0.96
+b527a4d3438a2aa21ec3a978aa7c357886ec0f65:
+  ar: 1.0
+  dh: 000000000000000000063edcf58e862edaece880800080000000000000000000
+  font: G3 portada portada-03.png
+  metode: matching
+  rect:
+  - 0.0302
+  - 0.2682
+  - 0.9924
+  - 0.7262
+  score: 0.85
+b54aeeb254af134fd4b87e6b4f8331c5a126f768:
+  ar: 1.0
+  dh: f644ae468e46ae468e468e468e46ae46aec6aec6aec68bc6cfc4cf84b0201024
+  font: G14 p8 info-p08-3.jpg
+  rect:
+  - 0.2582
+  - 0.044
+  - 0.7445
+  - 0.9341
+  score: 0.9
+b5dda796b655aff3640b1ce17c4a44d37012bcc5:
+  ar: 1.0
+  dh: 00006002e026e006e006c006c006c00e150e800c8006800ee002ffe003fc0004
+  font: G12 p77 info-p77-5.jpg
+  rect:
+  - 0.0
+  - 0.0723
+  - 1.0
+  - 0.7704
+  score: 0.85
+b73ee9c62a12e7b5a3345b3a209eed378f2c20ee:
+  ar: 1.0
+  dh: 00003f00ff00e180f3c0f870dc60cc04ce046ed47e583f181f380f000c000000
+  font: G3 p4 info-p04-4.jpg
+  rect:
+  - 0.0512
+  - 0.0535
+  - 0.8744
+  - 0.5744
+  score: 0.97
+b7b37706541f2d1b21fc0c282545a882b8fea728:
+  ar: 0.75
+  dh: 013e003e01c60e3019c4370b6c036c526a5868426c0133833c062f000383fc00
+  font: G6 p26 info-p26-3.jpg
+  rect:
+  - 0.0
+  - 0.0788
+  - 1.0
+  - 0.9281
+  score: 0.96
+b7e711db67bd723b5918267d64accd5108a55d27:
+  ar: 1.044
+  dh: 050f30070247024d018d038d060e060e050e070c838c860cc60c664003000300
+  font: G12 p66 info-p66-4.jpg
+  rect:
+  - 0.0185
+  - 0.0
+  - 0.9769
+  - 1.0
+  score: 0.95
+b95e37b7de5363746d9a4bc3d6e7779e3b681db9:
+  ar: 1.5028
+  dh: 038b038b01852185124499249c911e4917250b9109c80fc419e033d079f0f708
+  font: G6 p26 info-p26-5.jpg
+  rect:
+  - 0.1233
+  - 0.0105
+  - 0.9465
+  - 0.7308
+  score: 0.93
+ba1bdd62c097312ee2e546b3c3751dfe983a608d:
+  ar: 1.0351
+  dh: 000c019c039807320e661ccc39987330e660ccc09980b300e600c8009000b000
+  font: franges de portada (totes les portades)
+  metode: matching amb màscara (SQDIFF), idèntic a G2/G3/G8/G13/G16
+  rect:
+  - 0.363
+  - 0.001
+  - 1.0
+  - 0.711
+  score: 1.0
+ba92b263ad0f3af5f23fbce3d968b2265f8617f4:
+  ar: 1.0
+  dh: 3c90379033903790339033903390319031903390319031903190309038801830
+  font: G12 p54 info-p54-1.jpg
+  rect:
+  - 0.4175
+  - 0.0
+  - 0.8066
+  - 0.3902
+  score: 0.96
+bb4cf20424e06b46086c01118732b8ba9fb90250:
+  ar: 1.0
+  dh: 0700fe00e000ff80f640f8a0fd90fe006e006f2437303fb01f900f800e000000
+  font: G4 p17 info-p17-1.jpg
+  rect:
+  - 0.6391
+  - 0.4702
+  - 1.0
+  - 0.7732
+  score: 0.86
+bb6c0c570fa79f8dbf59c27e5fcd46f2eae7c434:
+  ar: 1.0
+  dh: 1d241b9c1b4019841870185c3b00f298e6c6c44cc188c200c7f8800c800c0004
+  font: G6 p11 info-p11-3.png
+  rect:
+  - 0.1806
+  - 0.4229
+  - 0.8304
+  - 0.7467
+  score: 0.94
+bb79d5ab62335aaf958141dc110137b601cb2f81:
+  ar: 1.0
+  dh: 00000000000000001f00ff00a962ed48ecc0fe880f0001000000000000000000
+  font: G15 p69 opcional-p24-t1-2.jpg
+  rect:
+  - 0.0
+  - 0.2326
+  - 1.0
+  - 0.7674
+  score: 0.88
+bba478856d603ad4aeb5e0154d5d48fc79e7ade3:
+  ar: 1.1924
+  dh: 000001007f00fd00c000c900c000c030c010d820ce00c200f3c0f3c0fec0de04
+  font: G1 p27 info-p27-3.jpg
+  rect:
+  - 0.0732
+  - 0.0
+  - 0.9228
+  - 1.0
+  score: 0.87
+bc487ac802cb9176b5d1ac8f45a3b9ee003fa154:
+  ar: 1.0
+  dh: fe40e600e608f208da40fe506f00670c61e46184619c71e439e01db00fb00310
+  font: G1 p30 info-p30-2.jpg
+  rect:
+  - 0.2916
+  - 0.0
+  - 0.8699
+  - 0.4964
+  score: 0.86
+bcd66e48fccee781160af7364f337855c3224306:
+  ar: 1.0
+  dh: 00000000bf1880348436fe26b036802e8026be32be268032a87c2e3800000000
+  font: G8 p37 info-p37-4.jpg
+  rect:
+  - 0.2126
+  - 0.1423
+  - 0.7745
+  - 0.7431
+  score: 0.91
+bd89659a8c9b736040060d903ee02657a5d3c4d2:
+  ar: 1.0
+  dh: 7b00f2c0ca40eb70e738fb4cfb486c0474107ff0370036301ed01ed00dc00100
+  font: G15 p26 info-p26-2.jpg
+  rect:
+  - 0.0163
+  - 0.0
+  - 0.9783
+  - 0.5236
+  score: 0.91
+bdc619e3234fecc733eee31c1e48ada7644bf8dc:
+  ar: 0.75
+  dh: 11ff007f0f073f833df17cf8fab0f2b4f3645b646cf03cd1bf030f09033d013d
+  font: G6 p26 info-p26-2.jpg
+  rect:
+  - 0.0
+  - 0.0685
+  - 1.0
+  - 0.9178
+  score: 0.98
+bddb912c20c2ddd3fe45180c2a9de1c8c0991dd0:
+  ar: 1.0
+  dh: 0000000000000000dfe08020bdc09fc0e00680fe9e01c0000000000000000000
+  font: G11 p94 info-p94-2.jpg
+  rect:
+  - 0.1923
+  - 0.6052
+  - 0.4271
+  - 0.849
+  score: 0.65
+bff646e239cb9d0648db527a511663d5f2ebf316:
+  ar: 1.0
+  dh: 000000000fe0fdb0c598e8ccec44f134ef30f2a8d3acdba46900600000000000
+  font: G5 p29 info-p29-3.jpg
+  rect:
+  - 0.136
+  - 0.2904
+  - 0.9596
+  - 0.7243
+  score: 0.91
+c035011579f040bded2c77b5169d5abb447a6591:
+  ar: 1.0
+  dh: 00000030d7f0c00ccfe4eea0e304e00cc78cc79ce7e8cc08c000400040000000
+  font: G15 p63 info-p56-5.jpg
+  rect:
+  - 0.0697
+  - 0.0992
+  - 0.8606
+  - 0.4129
+  score: 0.82
+c1f893940fa3475675892a988e65329f7cdf1797:
+  ar: 1.6706
+  dh: bc9809b93b1c033cff9bf99b98d996d1d896c336df16c33eef3c9e9c2878c599
+  font: G9 p29 info-p29-6.jpg
+  rect:
+  - 0.1406
+  - 0.0
+  - 0.9719
+  - 1.0
+  score: 0.96
+c21888210e77959abda01cff4ff90fd231cb3b73:
+  ar: 1.2853
+  dh: f800f8001e00e7c081f0007880de205e103808e083c0470004486080e3008a00
+  font: G1 p14 info-p14-2.png
+  rect:
+  - 0.2853
+  - 0.3346
+  - 0.6707
+  - 0.8288
+  score: 0.73
+c2fe8dae4814893877a46f155354c4eaae8eaac3:
+  ar: 1.0
+  dh: 000000000018003000f007c41fa81c30ec308d001e1018601f80060006000000
+  font: G1 p29 info-p29-1.jpg
+  rect:
+  - 0.0047
+  - 0.3033
+  - 0.5182
+  - 0.6761
+  score: 0.95
+c310765e746011cceec6c5ee032f2852d3ea8b3a:
+  ar: 1.0
+  dh: 000000000000c1b4c4cc96a4c1a6c466b7e6b5e6fbdc52fc0000000000000000
+  font: G12 p81 info-p81-4.jpg
+  rect:
+  - 0.0294
+  - 0.2082
+  - 0.5636
+  - 0.4259
+  score: 0.93
+c5f02ec9887856c44ae68fedce7497b988d32bbb:
+  ar: 1.0
+  dh: 0000000000006ff8e6789872b872d8729872f83ac80280028000000000000000
+  font: G7 portada portada-07.png
+  metode: bbox
+  rect:
+  - 0.0
+  - 0.224
+  - 0.989
+  - 0.776
+  score: 0.48
+c66739536bad666397ef7711ddd77a053523848a:
+  ar: 1.0
+  dh: 00004000888096729633963396339633963296739e769ef09800c00000000000
+  font: G12 portada portada-13.png
+  metode: matching
+  rect:
+  - 0.0
+  - 0.1094
+  - 1.0
+  - 0.8723
+  score: 0.99
+c838d242e5ae7c03e851a534ea966377772aadb1:
+  ar: 1.0
+  dh: 060006401c4018401f801fc01f801f801ca01c8019c019c019c019c01c402440
+  font: G13 p58 info-p58-1.jpg
+  rect:
+  - 0.4862
+  - 0.5689
+  - 0.7713
+  - 0.7355
+  score: 0.78
+cb3dcd1e23ff81610f8981888a15718828baa94c:
+  ar: 1.4139
+  dh: 98f09c7c9e1a9b1b199f389a30993098789e689e709e3c9e1e9e069fc39d919d
+  font: G11 p83 info-p04-1.png
+  rect:
+  - 0.7566
+  - 0.1097
+  - 1.0
+  - 0.3536
+  score: 0.69
+cba40e8e7ff0ec40c3d4874877ec4e1bbfd4c3a6:
+  ar: 1.0
+  dh: 0000000000000c802ec02ec03a60fe44b2a499a2890089000000000000000000
+  font: G13 portada portada-11.png
+  metode: matching
+  rect:
+  - 0.0
+  - 0.2332
+  - 1.0
+  - 0.7695
+  score: 0.98
+cbe04ad16538c39fc4559caff467784e4aed919e:
+  ar: 1.0
+  dh: 00000fe0ffc080008f82b206e206c206ce06e206e206e602e006600060000000
+  font: G14 p8 info-p08-1.jpg
+  rect:
+  - 0.0163
+  - 0.2516
+  - 0.5948
+  - 0.8301
+  score: 0.67
+cc0a95a4a494b262af65f0c6a118dfa886487c0f:
+  ar: 1.3333
+  dh: 00ff7ff7e3e747644ff9c799c79de1b9f8f0e0c8e320e26070c071c071803300
+  font: G6 p33 info-p33-1.jpg
+  rect:
+  - 0.0
+  - 0.0
+  - 0.713
+  - 1.0
+  score: 0.93
+cc8c6dd3f750053d495ad39e71d15d1ca475f7c6:
+  ar: 1.2887
+  dh: c9c0cde0e4f03458f898b0d8fc58b4d8fc98dc586c5accda6cdaccd2ce520a1a
+  font: G8 p9 info-p09-1.jpg
+  rect:
+  - 0.2123
+  - 0.0
+  - 1.0
+  - 1.0
+  score: 0.97
+cd2202ec07f4db65e85152158b2624f639b7a66a:
+  ar: 1.0
+  dh: 0000000000003c00e60ee03ec0e6c382c700cc00c000c000c000000000000000
+  font: G13 p18 info-p18-2.jpg
+  rect:
+  - 0.0
+  - 0.0
+  - 0.5143
+  - 0.5786
+  score: 0.95
+cd9c87016fb7c2f4a355d2780c4315677c938046:
+  ar: 1.0
+  dh: 10003c0038003340e580d3809b88be187634fe26765e3e9c1fbc1fb00f800380
+  font: G16 p17 info-p17-4.jpg
+  rect:
+  - 0.6804
+  - 0.5568
+  - 0.9234
+  - 0.8007
+  score: 0.59
+ce9ca9364df26e0b7aa2f5d7e038d70aecc9ec3d:
+  ar: 1.0
+  dh: 000000000300ff00ed00bd20b000dbdccf687078603070043000300000000000
+  font: G16 p36 info-p36-2.jpg
+  rect:
+  - 0.6266
+  - 0.4581
+  - 0.9472
+  - 0.6894
+  score: 0.93
+d1607ade2a0963b7b9e0de370e5e7983876b0169:
+  ar: 1.1344
+  dh: f016f116f116f016f016f016f016f216f016f416f116f2b6f7f6f004f00ce01c
+  font: G11 p155 info-p104-2.jpg
+  rect:
+  - 0.5171
+  - 0.0
+  - 0.7444
+  - 0.2438
+  score: 0.74
+d185d1400aef17b4c175af6eedb3794eeed6169a:
+  ar: 1.0
+  dh: 247072e07ae072a07aa07aa07aa07aa07aa07aa07a807a807ae0679036903240
+  font: G8 portada portada-02.png
+  metode: matching
+  rect:
+  - 0.1529
+  - 0.0
+  - 0.845
+  - 1.0
+  score: 0.85
+d2adaef055d91c87bef6677cb195ba0d00f0ce8d:
+  ar: 1.0
+  dh: 0000000000007fc0f830c01cc0ecefd4f230f670760470003000000000000000
+  font: G1 p17 info-p09-3.jpg
+  rect:
+  - 0.0085
+  - 0.2074
+  - 0.3989
+  - 0.582
+  score: 0.92
+d386d6574f9aa6d2fd22692ecd48df9e14162f3b:
+  ar: 1.0
+  dh: 07000e801cc078f07020e038c09cb09270107010701070107110759079b03820
+  font: G15 p69 info-p69-6.jpg
+  rect:
+  - 0.0
+  - 0.2241
+  - 1.0
+  - 0.5687
+  score: 0.82
+d4ac9e3cd926dd9b06d8d9dc14835e0319ae703e:
+  ar: 1.0
+  dh: 39f038b03830383038b038b03a303a303a30383038303a3030303e102fe00060
+  font: G9 portada portada-03.png
+  metode: matching
+  rect:
+  - 0.1637
+  - 0.0
+  - 0.8363
+  - 1.0
+  score: 0.6
+d4f4177ce1ebc1c1dbdc7fd7155712efb0216651:
+  ar: 1.0
+  dh: 00006000e0a089b2fd00f410ce10901090108010b000ae80eb80e312c0120000
+  font: G7 p9 info-p09-6.jpg
+  rect:
+  - 0.0
+  - 0.5915
+  - 1.0
+  - 0.9204
+  score: 0.98
+d4f91a57f31cfe6f966f2e08dadd92dfdfbfec11:
+  ar: 1.0
+  dh: 0000000000006ff8e6789872b872d8729872f83ac80280028000000000000000
+  font: G7 p25 info-p25-2.jpg
+  rect:
+  - 0.0
+  - 0.2229
+  - 0.4229
+  - 0.7171
+  score: 0.87
+d66dbe9685d1562f40d432f9d7b2a9d02aa2c8f5:
+  ar: 1.0
+  dh: 000000000fe0fdb0c598e8ccec44f134ef30f2a8d3acdba46900600000000000
+  font: G4 p30 info-p30-3.jpg
+  rect:
+  - 0.136
+  - 0.2904
+  - 0.9596
+  - 0.7243
+  score: 0.91
+d834df708b142d8c7a057160ae7302f8322949fc:
+  ar: 1.0
+  dh: 000000000e003c84f114ff845bf8934c70cc4fc401cc0038000c000000000000
+  font: G1 p24 info-p24-5.jpg
+  rect:
+  - 0.1628
+  - 0.1475
+  - 0.9234
+  - 0.408
+  score: 0.88
+d83a20438acab441e8f24cc61e803fb7ba0ff835:
+  ar: 1.3245
+  dh: 08000000c007e7fce000818080fe83c0c720470b0f100b9abb1cc724cf20ec00
+  font: G12 p85 info-p85-3.jpg
+  rect:
+  - 0.0
+  - 0.0348
+  - 1.0
+  - 0.9617
+  score: 0.97
+da947237fb27f0ed4bec5789b580445ff910f795:
+  ar: 1.0
+  dh: 37e038282be03a2038683be038282be038282be03a2039e03b20381828001800
+  font: G14 portada portada-08.png
+  metode: matching
+  rect:
+  - 0.1506
+  - 0.0
+  - 0.8208
+  - 1.0
+  score: 0.95
+db73cd136287267459c5eb26c95e679ecc07d1ba:
+  ar: 1.0
+  dh: 1000e6009e109c90989099d099b09320b3a0b30084b085308530c790f0101000
+  font: G13 p58 info-p58-6.jpg
+  rect:
+  - 0.0948
+  - 0.0043
+  - 0.9871
+  - 0.6552
+  score: 0.87
+dc30bfb3e5b55e23b3eefe082b0dd9119c21b484:
+  ar: 1.464
+  dh: 602ae180e12ce138e1b8e878e9f8c198c998c4b9c819cc51c471c451d8d1c891
+  font: G6 p11 info-p11-5.png
+  rect:
+  - 0.0
+  - 0.0846
+  - 1.0
+  - 0.9453
+  score: 0.89
+dc38209c6fde18ad53d8a61f0d28984aaf659b7e:
+  ar: 1.2862
+  dh: c36fc76ee77cf178f170f1e0f1e0f3609b60c760c7c0418000d000c000e00060
+  font: G16 p11 info-p11-5.png
+  rect:
+  - 0.1089
+  - 0.0
+  - 0.8878
+  - 1.0
+  score: 0.86
+dc5a5fa9213547fcbd60c22c2ef0a0a68c44efca:
+  ar: 1.0
+  dh: e000b14cb004b08cb024b204b00cf004e084c7bccffcce00d800fc00f4003000
+  font: G15 p8 info-p08-6.jpg
+  rect:
+  - 0.2836
+  - 0.006
+  - 0.9881
+  - 0.4358
+  score: 0.66
+dd4ab25b8bce5bcf55288ffe4dd29e25741a65ea:
+  ar: 1.3975
+  dh: ff30ff18df1ef29e120c5b0d694d2d85ad8584a596a3d6334a736b71a92155c9
+  font: G10 p4 info-p04-4.jpg
+  rect:
+  - 0.0122
+  - 0.0114
+  - 0.9756
+  - 0.9716
+  score: 0.55
+dd4b0d95d667fd4981868f754523578abde0117e:
+  ar: 1.0
+  dh: 000000009ae2c7fce6ece564e7e4e664e664e6e4e144fbe4bffc3ff800000000
+  font: G9 p5 info-p05-9.jpg
+  rect:
+  - 0.0969
+  - 0.2997
+  - 0.3465
+  - 0.6333
+  score: 0.93
+de0da5e02de6c7667a835329e141a0dfcd184841:
+  ar: 1.0
+  dh: 000006007e00e39e8038816ee27ec27cde3cde3ee63cde30ffa00fe000c00000
+  font: G6 portada portada-05.png
+  metode: matching
+  rect:
+  - 0.0
+  - 0.0897
+  - 1.0
+  - 0.9379
+  score: 0.99
+df3d1cb6a671fc3f8728c8c62e01a2b43ee4ec23:
+  ar: 1.0
+  dh: 00000000000007a07f20f39c1e063002901ec0f063c032001800000000000000
+  font: G13 p39 foto-p13.jpg
+  rect:
+  - 0.0
+  - 0.1624
+  - 1.0
+  - 0.8192
+  score: 0.74
+e062e9e3f4236d6fe2ef14c33ed704ae1c463fc4:
+  ar: 0.8007
+  dh: 01c01fa05fc0cec0bdc0f4c0e6d0c7f0e7f0bb986e0e171e0d8c8360e0807020
+  font: G3 p16 info-p16-3.png
+  rect:
+  - 0.4747
+  - 0.3323
+  - 0.7181
+  - 0.5761
+  score: 0.55
+e0b2d90439cf0abe7c2394b884bc29890253f1c8:
+  ar: 0.6495
+  dh: 6000e008c000c000c000800098009818dbc0dbc0d9e0c9a8c244dbc058c01860
+  font: G10 p4 info-p04-6.jpg
+  rect:
+  - 0.4825
+  - 0.457
+  - 0.8432
+  - 0.7102
+  score: 0.6
+e170bd599adaf4fe1af5a4ecfa92a680c8b434f5:
+  ar: 1.0
+  dh: ff80ec80e8c0f020f810d808ec18f810f980ee76726633283b3819b01d000c00
+  font: G4 p30 info-p30-2.jpg
+  rect:
+  - 0.1224
+  - 0.0068
+  - 0.8844
+  - 0.5204
+  score: 0.92
+e1ac23803309884ba5d462e126c936f679c75f6b:
+  ar: 1.0
+  dh: 007077e0e700bc14b840710b761b301b201b27fa2fdaae026003600060002000
+  font: G14 p16 info-p16-6.jpg
+  rect:
+  - 0.0049
+  - 0.0706
+  - 0.5189
+  - 0.4663
+  score: 0.89
+e23889608fd05fa7b9dddc4870db93dc145c81b5:
+  ar: 1.0
+  dh: 000000000000000000000010201fc078c0480000000000000000000000000000
+  font: G14 p16 icona-wok.jpg
+  rect:
+  - 0.0
+  - 0.3255
+  - 1.0
+  - 0.5883
+  score: 0.78
+e327013d38ae898f333c8f6b90abb6d5a2639693:
+  ar: 1.0
+  dh: 00000000000000007000f800df84c6f8c878ccf8ec3878000000000000000000
+  font: G15 p8 info-p04-1.jpg
+  rect:
+  - 0.0613
+  - 0.4785
+  - 0.452
+  - 0.75
+  score: 0.89
+e4076e7f0d65249fba26a945ed40369fbfd81ebc:
+  ar: 1.0
+  dh: 000000007e00ff00e080f0c0f8f078f83c003e041e640e660600020000000000
+  font: G16 p36 info-p36-5.jpg
+  rect:
+  - 0.074
+  - 0.4103
+  - 1.0
+  - 0.796
+  score: 0.89
+e6de2355c522e45737d79c606ca750382764417c:
+  ar: 1.0
+  dh: 000000000000000000003000f000ff00e9f878b8000c00000000000000000000
+  font: G15 portada portada-09.png
+  metode: matching
+  rect:
+  - 0.0
+  - 0.2169
+  - 1.0
+  - 0.7831
+  score: 0.97
+e6e09f49dddb515fff51fa69bf2f634b6e09700a:
+  ar: 1.0
+  dh: 18001bf63803c7b680fe841e8c768a5e8a1e981ebc6ebfe883fa801800180018
+  font: G9 p39 info-p39-5.jpg
+  rect:
+  - 0.0817
+  - 0.3245
+  - 0.7067
+  - 0.6106
+  score: 0.89
+e71265bb0c12f14a7bfc600b16df7dcfea4f724c:
+  ar: 1.0
+  dh: 000000000010e8f897f89830883880308030803880388038c000400000000000
+  font: G15 p19 opcional-p06-t1-1.jpg
+  rect:
+  - 0.0
+  - 0.189
+  - 0.494
+  - 0.4617
+  score: 0.81
+e7e9057177797fa57be5c20cc24e5b99135e77a6:
+  ar: 1.0
+  dh: 00007800fad0c048b08ed18ec00ee006fe66c076e006fc04dfe441f000100000
+  font: G2 p9 info-p09-1.jpg
+  rect:
+  - 0.0568
+  - 0.3795
+  - 0.5136
+  - 0.8364
+  score: 0.97
+e8aec4095f5125e5e7d1f968d79cdf2a5f3d6423:
+  ar: 1.0
+  dh: 780070007e007a00720072007200300073007e003700786076e83fa807880300
+  font: G1 p38 info-p38-2.jpg
+  rect:
+  - 0.1102
+  - 0.0873
+  - 0.7859
+  - 0.684
+  score: 0.97
+e8eaaa5144eb26121448209b56dfe7c75339fce4:
+  ar: 1.0
+  dh: 0000000008003582b03abe22beb2b232d232681a6ff270163ff4007800000000
+  font: G12 p34 info-p34-2.jpg
+  rect:
+  - 0.0
+  - 0.1787
+  - 0.4749
+  - 0.6526
+  score: 0.92
+ea06001f2d7eef490249bc5fefd5e84adaa10211:
+  ar: 1.0
+  dh: 3728211c297c2b1c295c2b1c2b5c2b1c295c291c295c391c30083000320837f0
+  font: G12 p77 info-p77-2.jpg
+  rect:
+  - 0.1819
+  - 0.0145
+  - 0.5819
+  - 0.7747
+  score: 0.86
+eb7c47a94d360325669115f7bff48388db1c8c61:
+  ar: 1.0
+  dh: 798078187818781878187818781878187818781861787270726073803a100c10
+  font: G12 p22 info-p22-4.jpg
+  rect:
+  - 0.2705
+  - 0.0
+  - 0.8716
+  - 0.5656
+  score: 0.81
+ec51b56a68916c323eb9e99e636506a04a0cd631:
+  ar: 1.0
+  dh: 0700fe00e000ff80f640f8a0fd90fe006e006f2437303fb01f900f800e000000
+  font: G5 p16 info-p16-1.jpg
+  rect:
+  - 0.6391
+  - 0.4702
+  - 1.0
+  - 0.7732
+  score: 0.86
+ec8dc2381399e89cbaa6717d11026d30e397069d:
+  ar: 1.0
+  dh: 310031c039803980394039c0390039003b403900380039803920392019000c00
+  font: G12 p18 info-p18-1.jpg
+  rect:
+  - 0.2221
+  - 0.039
+  - 0.5962
+  - 0.5949
+  score: 0.87
+ecae7fc03fa06acf6d1b7f9dd6b9b3efb63f0591:
+  ar: 1.0
+  dh: 838003830387330f121f067707f003f8007e601fe383c38083c003f003fe83fe
+  font: G11 p162 info-p04-2.jpg
+  rect:
+  - 0.0094
+  - 0.0219
+  - 0.9342
+  - 0.9467
+  score: 1.0
+ed2f12d5b1679d48d07ac9e9da7fb66883cd8ab0:
+  ar: 1.0
+  dh: 3e0036203620362036203620362016201620162016601ac018c018c01e000600
+  font: G12 p38 info-p38-3.jpg
+  rect:
+  - 0.2376
+  - 0.3745
+  - 0.7128
+  - 0.6564
+  score: 0.94
+ed7fc4c977cdb529f61ba3156e51cfd8fda3ffe9:
+  ar: 0.8722
+  dh: bd1b79ccc9ec89789ddc25c23d13213e88f387bcde8ef38bb6c1ce60cc30de31
+  font: G6 p4 info-p04-4.jpg
+  rect:
+  - 0.0048
+  - 0.0208
+  - 0.9665
+  - 0.9833
+  score: 0.8
+ee01205b7bcadff91e4e7011140bed756622b824:
+  ar: 1.1958
+  dh: 000f3ffe9800907fcf00e0aeed77b333bb9de8dded82b02fe05fe3e0f0006000
+  font: G11 p86 info-p83-5.jpg
+  rect:
+  - 0.0
+  - 0.0
+  - 1.0
+  - 0.9561
+  score: 1.0
+efad71be161419118d9a2e1d2094122eabc6473c:
+  ar: 1.0
+  dh: 000000001ff0fff080028002e002c402e402c402e402e0024000400000000000
+  font: G14 portada portada-05.png
+  metode: matching
+  rect:
+  - 0.0
+  - 0.1038
+  - 1.0
+  - 0.888
+  score: 0.91
+efcb98c66ad876af6d062f57ec6d50744c92b648:
+  ar: 0.7815
+  dh: 01bf051f0d0f090f094f014f064f064f064f044f060f1f073f036593f830f800
+  font: G14 p62 info-p57-3.jpg
+  rect:
+  - 0.1521
+  - 0.0278
+  - 0.822
+  - 0.9899
+  score: 0.78
+f02fe2bfc9fa4b4a08efc220a7ca3aea1fe24fc9:
+  ar: 1.0
+  dh: 00000000000010003400cea09caf99ebf94b0fd301f2003e0002000000000000
+  font: G6 p4 info-p04-10.jpg
+  rect:
+  - 0.0
+  - 0.2388
+  - 1.0
+  - 0.7562
+  score: 0.63
+f0b4fc0033b898c638f10e424ad5d5213ec9d200:
+  ar: 1.0
+  dh: 3c0078807f007a0039007900790038003b003f003e607e00771039501c400600
+  font: G1 p38 info-p38-1.jpg
+  rect:
+  - 0.1442
+  - 0.0013
+  - 0.5662
+  - 0.2818
+  score: 0.97
+f0fca3475c8d80bad710d31aa6b6eb828c218f34:
+  ar: 1.0
+  dh: 39f0387038f038d038d038d03a50385038d0385038d038d038503dd037f00030
+  font: G9 portada portada-05.png
+  metode: matching
+  rect:
+  - 0.1917
+  - 0.0
+  - 0.812
+  - 1.0
+  score: 0.95
+f1ac7a5355a5324803b3149ceeb49750d9430716:
+  ar: 1.0
+  dh: 01e01fc07c1031e0f7e09e04d870e704f834e0f0e3e0e70ce660750038001800
+  font: G15 p50 info-p45-1.jpg
+  rect:
+  - 0.5886
+  - 0.5258
+  - 0.8324
+  - 0.7609
+  score: 0.9
+f1b7bd30be5383e0a1c98cc32aea1cbdd4cdb5ed:
+  ar: 1.0
+  dh: fe00f300f700df10c604c604c604c604c604c604c604c504dd04dd0405040c00
+  font: G14 p16 info-p16-3.jpg
+  rect:
+  - 0.1534
+  - 0.0
+  - 0.8109
+  - 1.0
+  score: 0.92
+f1c2da8d9eb5a4569a49e9a39aafba1537596abe:
+  ar: 1.0
+  dh: 7df079c879e079f079f079e07a6079f079f0786079e071e07de07fe06ff067f0
+  font: G9 p29 info-p29-7.jpg
+  rect:
+  - 0.1824
+  - 0.3856
+  - 0.4734
+  - 0.8422
+  score: 0.91
+f20fc93808154bd1298128001a84b3644c23781b:
+  ar: 1.0
+  dh: 00c01fa2ff2ef63efe7e93789c839d8383c39fdafcc69d869e00860006000600
+  font: G7 p20 info-p20-1.jpg
+  rect:
+  - 0.0379
+  - 0.1115
+  - 0.5126
+  - 0.5126
+  score: 0.94
+f2f69b43a39efad08a6db0284b481ed02095066e:
+  ar: 1.0
+  dh: 0080008080c080a080d0c0e8b0d6c8e8a8d6c82868143808180c180608000c00
+  font: G7 p25 info-p25-5.jpg
+  rect:
+  - 0.0
+  - 0.1385
+  - 1.0
+  - 0.8615
+  score: 0.84
+f48de0c37cb3e50c4329ff120150e8bebf4c3174:
+  ar: 1.0
+  dh: 0000000000000002001e007803e00f007800e000800080008000000000000000
+  font: G9 p29 info-p05-6.jpg
+  rect:
+  - 0.0
+  - 0.1928
+  - 1.0
+  - 0.7924
+  score: 0.94
+f4901e249832332a287c49c81061d766c45296f7:
+  ar: 1.0
+  dh: 08003f4ee7ce83ece2e0ee348734c1bcc19cc1dcc1dcc1dcd1d8e79867f00030
+  font: G13 p58 info-p58-2.jpg
+  rect:
+  - 0.3052
+  - 0.1861
+  - 0.8189
+  - 0.5012
+  score: 0.77
+f4c2c10f9b70f5aaea35e0226a3eee76240c0097:
+  ar: 1.0
+  dh: 70027263f003f2863027f002f806f300dfa28cfec00cc004f808bfc001f8000c
+  font: G9 p40 info-p39-2.jpg
+  rect:
+  - 0.0
+  - 0.1009
+  - 1.0
+  - 0.6468
+  score: 0.91
+f5acb7602cadb90afe666908c9a3ddc44b63c53f:
+  ar: 1.0
+  dh: 39f039d038c038c038403b00384038c038c0394039c037f037f037f037f02070
+  font: G9 portada portada-04.png
+  metode: matching
+  rect:
+  - 0.1676
+  - 0.0
+  - 0.8343
+  - 1.0
+  score: 0.76
+f5ba311d93b7136c92544d1f7be9ababd3277e3c:
+  ar: 1.0
+  dh: 00001fc0ff90c7e0f040b000e000e002a012a012a012a006a006600060000000
+  font: G13 portada portada-02.png
+  metode: matching
+  rect:
+  - 0.0
+  - 0.0087
+  - 1.0
+  - 0.9391
+  score: 0.98
+f606cfb3214974aec0e136d5d9882b9367ea174a:
+  ar: 1.0
+  dh: 00000000000000000000000e03fc7de0e8802800800000000000000000000000
+  font: G1 p13 info-p13-1.jpg
+  rect:
+  - 0.7136
+  - 0.3451
+  - 0.9988
+  - 0.5029
+  score: 0.96
+f60e075eac7a447f7d51d21a99dd193247b6cacd:
+  ar: 1.0
+  dh: 00008bfae3e4e3ece0e4e6e4e67ce2e4e27cf1e4e2f4f004d7f2bffc0ffc0000
+  font: G9 portada portada-12.png
+  metode: matching
+  rect:
+  - 0.0
+  - 0.0576
+  - 1.0
+  - 0.9492
+  score: 0.93
+f637953ceee011391fe2310c5b83c2dd68b7d9a6:
+  ar: 1.0
+  dh: 0f00fe20fee0f7a8f8007a687f287d207db87fb87d887d887c88380810001000
+  font: G5 p16 info-p16-4.jpg
+  rect:
+  - 0.1548
+  - 0.4903
+  - 0.8581
+  - 0.9613
+  score: 0.95
+f73d6376642b1c3cf6954430e83d2cef79537fe5:
+  ar: 1.3997
+  dh: 3f00fd008d808e80bda0c680d0c060e06f30ef10ef986e5cebd038207860bfc4
+  font: G5 p59 info-p21-3.jpg
+  rect:
+  - 0.0255
+  - 0.4184
+  - 0.4013
+  - 0.7923
+  score: 0.56
+f9b76a1a4dfd1292f665e8e6d24099bb4e7d70fe:
+  ar: 1.0
+  dh: 02000c001b0237026f06cd42af0681cef04eb74caa3cb8b8b430f8203b8001c0
+  font: G1 p4 info-p04-1.jpg
+  rect:
+  - 0.2921
+  - 0.0618
+  - 0.7481
+  - 0.5185
+  score: 0.95
+fa82edc59185a8f3d5fd5015eabb5c355aeee2b5:
+  ar: 1.5012
+  dh: 00001e007ce0cc6cdd66f860de04d818b838981cd81cdc1ce0307e000f000000
+  font: G6 p26 info-p26-4.jpg
+  rect:
+  - 0.0163
+  - 0.0082
+  - 0.9783
+  - 0.9714
+  score: 0.89
+fb921102e8d13708b92ea1b5092b968528ff30c6:
+  ar: 1.2195
+  dh: 4fdebfafdd916fcea7e6927eda3eecf3e7e1ef84efbce4d9e6db73613f673fb3
+  font: G12 p66 info-p66-5.jpg
+  rect:
+  - 0.0873
+  - 0.0
+  - 0.9087
+  - 1.0
+  score: 0.93
+fc79b4ce9f93393fa2ceb4a78b2ab62c86bcb231:
+  ar: 1.0
+  dh: 00001c001b000300ff70d920ccc8e4eee266a48e9cec9c40c000c08080000000
+  font: G6 portada portada-08.png
+  metode: matching
+  rect:
+  - 0.0
+  - 0.056
+  - 1.0
+  - 0.9027
+  score: 0.99
+fdce8ef325b500874f923aaa15b0609dc89c84d5:
+  ar: 1.0
+  dh: 0000000000009ff8e1e4e6e4c6fce6e4c2f4c0a4bff43ffc007c000000000000
+  font: G9 p29 info-p05-2.jpg
+  rect:
+  - 0.0336
+  - 0.5413
+  - 0.3945
+  - 0.6934
+  score: 0.97
+fff2852efe38094bb42c69a2455153d1707e3407:
+  ar: 1.0
+  dh: 7c006878687c685c68dc68cc68dc68fc68ec688c680c680c683c6df87e000c00
+  font: G12 p26 info-p26-2.jpg
+  rect:
+  - 0.252
+  - 0.0265
+  - 0.6578
+  - 0.2402
+  score: 0.97
