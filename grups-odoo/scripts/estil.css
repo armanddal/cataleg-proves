@@ -100,9 +100,16 @@ i.ref.big { position: absolute; z-index: 5; left: -.55cm; top: 0; width: .7cm; h
 .grup-num { border: 1.5px solid var(--taronja-portada); color: var(--taronja-portada); font-size: 35pt; width: 2.35cm; text-align: center; line-height: 1.5cm; height: 1.5cm; margin-top: .2cm }
 .grup-nom { position: absolute; right: .6cm; bottom: 1.6cm; writing-mode: vertical-rl; transform: rotate(180deg); font: bold 33pt 'Avenir Next Condensed', 'Arial Narrow', Arial, sans-serif; white-space: nowrap; line-height: 1.1; text-transform: uppercase }
 .grup-nom .fl { margin: .5cm 0; font-size: 28pt }
-.cat-tit { position: absolute; left: 1cm; bottom: .6cm; color: var(--taronja-portada); font: italic bold 11pt 'Avenir Next Condensed', 'Arial Narrow', Arial, sans-serif; line-height: 1.5 }
+.cat-tit { position: absolute; left: 1.05cm; bottom: .55cm; color: var(--taronja-portada); font: italic bold 13.5pt 'Avenir Next Condensed', 'Arial Narrow', Arial, sans-serif; line-height: 1.43 }
+.cat-tit .lt { font: normal 11.5pt 'Avenir Next Condensed', Arial, sans-serif; width: .5cm; height: .5cm; line-height: .46cm; text-align: center; padding: 0; margin-right: .3cm; border-radius: 4px; vertical-align: .02cm }
 .cat-tit .e0 { }
-.segell { position: absolute; border: .17cm solid #ff0000; border-radius: 50%; color: #ff0000; font: 900 24pt Impact, 'Arial Black', sans-serif; display: flex; flex-direction: column; align-items: center; justify-content: center; line-height: 1; letter-spacing: .05em }
+.segell { position: absolute; border: .17cm solid #ff0000; border-radius: 50%; color: #ff0000; font: 900 23pt 'Arial Black', Impact, sans-serif; display: flex; flex-direction: column; align-items: center; justify-content: center; line-height: 1.12; letter-spacing: .02em }
+.segell span { display: block; transform: scaleX(1.85) }      /* la xifra de la tarifa publicada és molt ampla (tipus Eurostile Black Extended) */
+.grup-nom .fl { display: inline-block; line-height: 0; vertical-align: middle; margin: .12cm 0 } .grup-nom .fl-svg { display: block }
+.ser-top { position: absolute; left: 4.7cm; top: 2.12cm; display: flex; align-items: center; gap: .2cm; z-index: 3 }
+.ser-top .mat.buit { background: none; padding: .12cm 0 }
+.ser-top .mat { min-width: 2.45cm; box-sizing: border-box; background: #7b2f33; color: #fff; font: 11pt Arial, sans-serif; padding: .12cm .3cm; line-height: 1.1 }
+.ser-top .ser { color: #7b2f33; font: 900 11.5pt 'Arial Black', sans-serif; letter-spacing: .03em; display: inline-block; transform: scaleX(1.1); transform-origin: left }
 
 /* index */
 .franja { position: absolute; top: 0; width: 4cm; height: 29.7cm; background: var(--granat) }

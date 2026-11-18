@@ -212,6 +212,18 @@
   - 0.9217
   - 1.0
   score: 0.98
+0f7ca5a976ab829bf1bd76fc65c40957ef03d50a:
+  ar: 0.9831
+  dh: 03001f0038c07a18ce38cbf491fc91fe8bfee7a4c1c4ebe8639037c00f800300
+  font: G5 p29 info-p29-1.jpg
+  metode: pub-veïna
+  pagina_pub: 179
+  rect:
+  - 0.037
+  - 0.0364
+  - 0.9588
+  - 0.9636
+  score: 0.95
 110addb5df623252151ba417680ccb4ae02194e5:
   ar: 1.0
   dh: 00000000000000001000e000c000c83cc8f8cc38f80008000000000000000000
@@ -658,6 +670,18 @@
   - 0.9878
   - 0.7433
   score: 0.89
+3555b11ebc531c5a7b7831eedb13741c536210e0:
+  ar: 1.0
+  dh: 0c0005800d800cc00c800c000c000c000c000c000c000c000c000c000c000600
+  font: G13 p27 info-p27-2.jpg
+  metode: pub-veïna
+  pagina_pub: 613
+  rect:
+  - 0.6086
+  - 0.0552
+  - 0.9988
+  - 0.377
+  score: 0.82
 356d057137e29ab3f8f3c841acaacb97acf07627:
   ar: 1.368
   dh: c82fc8e3b9f3bcb3b993b8149835d831fc35f070fa02f001c000b00020002000
@@ -1600,6 +1624,18 @@
   - 0.761
   - 0.6841
   score: 0.86
+74cb679aaf9ebbedc91e387f36fd63dbc9f264a6:
+  ar: 1.0
+  dh: 3000300030003000320037003520fb60c90ccc98cb78dbf8df70f85c78040800
+  font: G6 p11 info-p11-4.png
+  metode: pub-veïna
+  pagina_pub: 214
+  rect:
+  - 0.0736
+  - 0.1149
+  - 0.3174
+  - 0.2992
+  score: 0.9
 74f12c0b387682c585bc186d049837065db8f776:
   ar: 0.8516
   dh: f80001201fe07fc0e4409300981c8dfc9bfc9ff88c888ef88efc8e00e8003000
@@ -1630,6 +1666,18 @@
   - 1.0
   - 0.7321
   score: 0.75
+760de237f2ccf8f2987712a7860170194117cb39:
+  ar: 1.0
+  dh: 0080008080c080a080d0c0e8b0d6c8e8a8d6c82868143808180c180608000c00
+  font: G4 p4 info-p04-5.jpg
+  metode: pub-global
+  pagina_pub: 112
+  rect:
+  - 0.7426
+  - 0.0714
+  - 0.9865
+  - 0.3154
+  score: 0.9
 768dd1b62ea6525053c3ff1ce54aaef794954a0b:
   ar: 1.0
   dh: 1f207338f338f334e70cc71cc71cc71cc71cc71cc71cc71ce70c670833103610
@@ -1811,6 +1859,18 @@
   - 1.0
   - 0.801
   score: 0.96
+80bdd724bcb672df1f275a28963722fde9f57641:
+  ar: 0.8431
+  dh: 6000700068015c0146016b01f1812cc1ee71ec7872bc919a098d048e067e07f0
+  font: G5 p59 info-p21-2.jpg
+  metode: pub-global
+  pagina_pub: 171
+  rect:
+  - 0.4424
+  - 0.0
+  - 0.9169
+  - 0.4751
+  score: 0.98
 814c4121517d538ce43b2925b291fd0a725e29f8:
   ar: 2.0354
   dh: 3e007700f180e860f03b3843df003fc41df3c77f71de18ee1f4987cde3ee60de
@@ -2404,6 +2464,18 @@ a3345705f1b3ea5dd28886cb963f237c857146cb:
   - 0.739
   - 1.0
   score: 0.48
+a3859ab63beef2ab9d92b74872d2c932e0838156:
+  ar: 1.0
+  dh: 7000c88c95fc800e80068002800280028002d802e806fa04c826fe0407e00038
+  font: G11 p44 info-p44-2.jpg
+  metode: pub-global
+  pagina_pub: 447
+  rect:
+  - 0.1991
+  - 0.1542
+  - 0.9593
+  - 0.7366
+  score: 0.91
 a3b81e3e3ac8e1f8f943e36b7657d8917f3a9f9d:
   ar: 1.0
   dh: 00000000000000007ac8ee74c46eca38f276b236841680020000000000000000
@@ -3084,6 +3156,18 @@ ce9ca9364df26e0b7aa2f5d7e038d70aecc9ec3d:
   - 0.9472
   - 0.6894
   score: 0.93
+ce9d6113b280758d73bd5889ccb087ebf623d0ae:
+  ar: 1.3132
+  dh: 70007000e8609ce0068406c406f806f006f03f003bc0bff0c0ffe800dfa0c1bf
+  font: G11 p77 info-p77-2.jpg
+  metode: pub-global
+  pagina_pub: 432
+  rect:
+  - 0.0401
+  - 0.4695
+  - 0.2834
+  - 0.7133
+  score: 0.88
 d1607ade2a0963b7b9e0de370e5e7983876b0169:
   ar: 1.1344
   dh: f016f116f116f016f016f016f016f216f016f416f116f2b6f7f6f004f00ce01c
@@ -3207,6 +3291,18 @@ db73cd136287267459c5eb26c95e679ecc07d1ba:
   - 0.9871
   - 0.6552
   score: 0.87
+dbe87bd887f635e3bc195f45cc9a151b2e05f24f:
+  ar: 1.6105
+  dh: 18001000132212021302130231c2e003d5203ff8381c7c0c000cf80e3fde03f0
+  font: G11 p77 info-p77-1.jpg
+  metode: pub-global
+  pagina_pub: 450
+  rect:
+  - 0.0202
+  - 0.113
+  - 0.2727
+  - 0.3664
+  score: 0.95
 dc30bfb3e5b55e23b3eefe082b0dd9119c21b484:
   ar: 1.464
   dh: 602ae180e12ce138e1b8e878e9f8c198c998c4b9c819cc51c471c451d8d1c891
@@ -3713,6 +3809,18 @@ fb921102e8d13708b92ea1b5092b968528ff30c6:
   - 0.0
   - 0.9087
   - 1.0
+  score: 0.93
+fc58c5028a437e16e2d3e095ed926e5056f75fc6:
+  ar: 1.0
+  dh: 0000000000000002001e00f803c09ec0d000c000c00060006000000000000000
+  font: G5 p59 info-p21-4.jpg
+  metode: pub-global
+  pagina_pub: 179
+  rect:
+  - 0.5606
+  - 0.3788
+  - 0.8044
+  - 0.6226
   score: 0.93
 fc79b4ce9f93393fa2ceb4a78b2ab62c86bcb231:
   ar: 1.0

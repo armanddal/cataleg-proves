@@ -351,14 +351,39 @@ def _titol_pos():
     return _TITOL_POS
 
 
+_LINIES = None
+
+
+def _linies_portada():
+    global _LINIES
+    if _LINIES is None:
+        f = os.path.join(ROOT, 'dades', 'portada-linies.yaml')
+        _LINIES = (yaml.safe_load(open(f, encoding='utf8')) or {}) if os.path.exists(f) else {}
+    return _LINIES
+
+
+FLETXA_SVG = ('<svg class="fl-svg" viewBox="0 0 12 12" width="1.25cm" height="1.25cm"><path d="M1.6 1.6L10.4 10.4M1.6 1.6H6M1.6 1.6V6M10.4 10.4H6M10.4 10.4V6" '
+              'stroke="#000" stroke-width="1.05" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>')
+
+
 def pagina_portada(ctx, p, n):
     g = p['grup']
     h = '<div class="page portada">'
-    h += '<svg class="franges-svg" viewBox="0 0 21 29.7" width="21cm" height="29.7cm"><defs><linearGradient id="gd"><stop offset="0" stop-color="#f7a600"/><stop offset=".5" stop-color="#e81c0c"/><stop offset="1" stop-color="#f7a600"/></linearGradient></defs>'
-    for d in p.get('decoracio', []):
-        if d['forma'] == 'degradat':
-            q = d['pos']
-            h += f'<line x1="{q["x"]}" y1="{q["y"] + q["h"]}" x2="{q["x"] + q["w"]}" y2="{q["y"]}" stroke="url(#gd)" stroke-width=".22" gradientUnits="userSpaceOnUse"/>'
+    h += '<svg class="franges-svg" viewBox="0 0 21 29.7" width="21cm" height="29.7cm"><defs><linearGradient id="gd"><stop offset="0" stop-color="#ffbd00"/><stop offset=".5" stop-color="#ff0800"/><stop offset="1" stop-color="#ffbd00"/></linearGradient></defs>'
+    lin = _linies_portada().get(g['numero'])
+    davant = ''
+    if lin:        # segments reals mesurats a la tarifa publicada (dades/portada-linies.yaml): direcció, gruix i si van per sobre de les fotos
+        for l_ in lin:
+            gid = f'gl{len(davant) + len(h) % 997}{int(l_["x1"] * 100)}{int(l_["y1"] * 100)}'
+            ln = (f'<defs><linearGradient id="{gid}" gradientUnits="userSpaceOnUse" x1="{l_["x1"]}" y1="{l_["y1"]}" x2="{l_["x2"]}" y2="{l_["y2"]}"><stop offset="0" stop-color="#ffbd00"/><stop offset=".5" stop-color="#ff0800"/><stop offset="1" stop-color="#ffbd00"/></linearGradient></defs>'
+                  f'<line x1="{l_["x1"]}" y1="{l_["y1"]}" x2="{l_["x2"]}" y2="{l_["y2"]}" stroke="url(#{gid})" stroke-width="{l_["w"]}"/>')
+            if l_.get('davant'): davant += ln
+            else: h += ln
+    else:
+        for d in p.get('decoracio', []):
+            if d['forma'] == 'degradat':
+                q = d['pos']
+                h += f'<line x1="{q["x"]}" y1="{q["y"] + q["h"]}" x2="{q["x"] + q["w"]}" y2="{q["y"]}" stroke="url(#gd)" stroke-width=".22" gradientUnits="userSpaceOnUse"/>'
     h += '</svg>'
     for im in p['imatges']:
         if im['asset'].lower().endswith('.emf'): continue     # quadre de número (.emf) de G10/G15: el navegador no el mostra (icona trencada)
@@ -369,24 +394,30 @@ def pagina_portada(ctx, p, n):
                   f'<span>{a}</span><span>{b}</span></div>')
             continue
         h += f'<img class="abs {rol}" style="left:{pos["x"]}cm;top:{pos["y"]}cm;width:{pos["w"]}cm;height:{pos["h"]}cm" src="{BASE}{redueix(recorta_pub(im["asset"], True))}">'
+    if davant:
+        h += ('<svg class="franges-svg" viewBox="0 0 21 29.7" width="21cm" height="29.7cm" style="z-index:2"><defs><linearGradient id="gd2"><stop offset="0" stop-color="#ffbd00"/><stop offset=".5" stop-color="#ff0800"/><stop offset="1" stop-color="#ffbd00"/></linearGradient></defs>' + davant + '</svg>')
     h += f'<div class="grup-et">{E(g["etiqueta"]["es"])}<span class="grup-num">{g["numero"]}</span></div>'
     series = g.get('serie', [])
+    if g['numero'] in (10, 15): series = []        # G10, G15: la portada publicada no du sèrie (el .pub n'arrossega una «700» d'un altre grup)
     nom = g.get('nom', '')
     for s_ in reversed(series): nom = re.sub(r'\s*' + re.escape(s_) + r'\s*$', '', nom).strip()
-    ss = '<span class="fl">⤢</span>'.join(f'<span class="ser">{s_}</span>' for s_ in series)
-    if len(series) == 1: ss = '<span class="fl">⤢</span>' + ss        # G3-G5: la fletxa va entre el nom i la sèrie
+    ss = f'<span class="fl">{FLETXA_SVG}</span>'.join(f'<span class="ser">{s_}</span>' for s_ in series)
+    if len(series) == 1: ss = f'<span class="fl">{FLETXA_SVG}</span>' + ss        # G3-G5: la fletxa va entre el nom i la sèrie
     llarg = len(nom) + sum(len(s_) + 3 for s_ in series)
     mida = f' style="font-size:{max(16, min(33, 33 * 34 / llarg)):.1f}pt"' if llarg > 34 else ''      # noms llargs (G6: «EQUIPOS GRAN PRODUCCIÓN / ...»): redueix la lletra perquè càpiga
     nom_h = E(nom)
     pt = _titol_pos().get(g['numero'])
     if pt:        # posició i llargada del títol a la tarifa publicada (dades/portada-titol.yaml); el JS (AJUST_JS) n'ajusta la mida
         base = 33
-        if llarg > 34 and ' / ' in nom: nom_h = E(nom).replace(' / ', '<br>')        # nom llarg (G6): a la tarifa publicada va en dues línies (ES / EN)
+        if llarg > 34 and ' / ' in nom and g['numero'] == 6: nom_h = E(nom).replace(' / ', '<br>')        # nom llarg (G6): a la tarifa publicada va en dues línies (ES / EN)
         else: base = max(16, min(33, 33 * 34 / llarg)) if llarg > 34 else 33
         mida = (f' style="left:{(pt["x0"] + pt["x1"]) / 2:.2f}cm;top:{(pt["y0"] + pt["y1"]) / 2:.2f}cm;right:auto;bottom:auto;'
                 f'font-size:{base:.1f}pt;transform:translate(-50%,-50%) rotate(180deg)" data-len="{pt["y1"] - pt["y0"]:.2f}" data-mida="{base:.1f}"')
     h += f'<div class="grup-nom"{mida}>{nom_h} {ss}</div>'
-    tc = p['titol_catalog']
+    tc = dict(p['titol_catalog'])
+    if len(tc) == 1:        # G3-G5, G7, G8, G11, G14, G15: les 4 línies (ES, E, F, D) arriben en un sol text: «CATÁLOGO / TARIFA E CATALOG / PRICE LIST F ...» (o separades per □)
+        pt_ = re.split(r'\s+(?:□|E|F|D)\s+(?=[A-ZÁÉÍÓÚ])', tc['es'])
+        if len(pt_) == 4: tc = dict(zip(('es', 'en', 'fr', 'de'), [x.strip() for x in pt_]))
     h += '<div class="cat-tit"><div class="e0">' + E(tc['es']) + '</div>' + ''.join(f'<div><span class="lt lt-o">{l[0].upper()}</span>{E(tc[l])}</div>' for l in ('en', 'fr', 'de') if l in tc) + '</div>'
     return h + '</div>'
 
@@ -565,6 +596,15 @@ def titols_pagina_html(p):
     return ''.join(f'<div class="titol-pag">{E(q["text"].strip())}</div>' for q in (p.get('textos_pagina') or []) if es_titol_pagina(q))
 
 
+def ser_g1(tx):
+    """G1: la tarifa publicada posa «Fe 15 mm  SERIE 5» (material en caixa granat + sèrie en lletra gruixuda) sota la barra del títol, no sobre la taula."""
+    txt = [re.sub(r'\s+', ' ', q['text']).strip() for q in tx]
+    ser = next((t for t in txt if re.fullmatch(r'SERIE \d', t, re.I)), None)
+    if not ser or len(txt) > 2: return ''
+    mat = next((t for t in txt if t is not ser), '')
+    return (f'<div class="ser-top">' + (f'<span class="mat">{E(mat)}</span>' if mat else '<span class="mat buit"></span>') + f'<span class="ser">{E(ser.upper())}</span></div>')
+
+
 def llegenda_html(p):
     """Llegenda del quadre de comandes electrònic (textos_pagina + imatge «sense classificar»): ES / E / F amb els números en cercle."""
     # G11+: el títol de la pàgina i les etiquetes soltes («700») també són a textos_pagina; no són llegenda
@@ -580,6 +620,7 @@ def llegenda_html(p):
         n, text = int(parts[k]), parts[k + 1].strip(); k += 2
         if n == 1 or not grups: grups.append([])
         grups[-1].append((n, text))
+    if ser_g1(tx): return ser_g1(tx)
     if not grups:                       # llegenda sense números («D calor directe / I calor indirecte»): una línia per text, amb la seva icona
         icones = []
         for f in p.get('fotos', []):
@@ -677,7 +718,7 @@ def parteix_pagina(p, k=0):
     altres = [t for t in p.get('taules', []) if t['format'] != 'taula_producte']
     f = .82 ** k          # k > 0: la mesura real al Chrome ha dit que no hi cabia; es parteix més
     alt_util = ALT_UTIL_CM * f
-    lim = (ALT_UTIL_CM - (FOTOS_MIN_CM if p.get('fotos') else 0) - (LLEGENDA_CM if llegenda_html(p) else 0) - 2.0 * len(altres)) * f
+    lim = (ALT_UTIL_CM - (FOTOS_MIN_CM if p.get('fotos') else 0) - (LLEGENDA_CM if llegenda_html(p) and not llegenda_html(p).startswith('<div class="ser-top"') else 0) - 2.0 * len(altres)) * f
     if sum(CAP_TAULA_CM + FILA_CM * len(t['files']) for t in taules) <= lim: return [p]
     pags, resta = [[]], lim
     for t in taules:
@@ -708,7 +749,7 @@ def pagina_producte(ctx, p, n):
             return min(ii) if ii else 99
         fotos = agrupa_fotos(sorted(p.get('fotos', []), key=idx))
         files_tau = sum(CAP_TAULA_CM + FILA_CM * len(t['files']) for t in p.get('taules', []) if t['format'] == 'taula_producte')
-        alt_fotos = ALT_UTIL_CM - files_tau - (LLEGENDA_CM if llegenda_html(p) else 0) - .6
+        alt_fotos = ALT_UTIL_CM - files_tau - (LLEGENDA_CM if llegenda_html(p) and not llegenda_html(p).startswith('<div class="ser-top"') else 0) - .6
         nc = columnes_fotos(len(fotos), [ratio_foto(f['asset']) for f in fotos], alt_fotos)
         h += f'<div class="fotos n{len(fotos)} c{nc}" style="grid-template-columns:repeat({nc},1fr)">'
         for k, f in enumerate(fotos):
