@@ -1163,6 +1163,41 @@ def clau_pagines_slides(ctx):
     return claus
 
 
+def recolora_pdf(src, dst, grup):
+    """Recolora una diapositiva de Google Slides (plantilla en vermell de cocció) amb els colors del grup (dades/colors-grup.yaml).
+    Canvia només els operadors de color de farciment/traç (rg/RG) del content stream: el text i les imatges no es toquen
+    (una imatge raster amb vermell encastat no es pot canviar). No fa res als grups sense colors propis (cocció G1-G9).
+    Paleta vermella de la plantilla -> rol: #772f32 pestanya de sèrie -> chip; #a22b2d capçalera i títols -> vermell_titols;
+    #cc0000 subtítols i números de referència -> vermell_referencies; #bf5130 capçalera de taula -> taronja_icones.
+    Torna True si ha canviat algun color (i ha escrit dst)."""
+    c = colors_grup({}, grup)
+    if not c or not all(k in c for k in ('chip', 'vermell_titols', 'vermell_referencies', 'taronja_icones')):
+        return False
+    def rgb(h): return tuple(int(h[i:i + 2], 16) for i in (1, 3, 5))
+    mapa = [(rgb('#772f32'), rgb(c['chip'])), (rgb('#a22b2d'), rgb(c['vermell_titols'])),
+            (rgb('#cc0000'), rgb(c['vermell_referencies'])), (rgb('#bf5130'), rgb(c['taronja_icones']))]
+    r = subprocess.run(['qpdf', '--qdf', '--object-streams=disable', src, '-'], capture_output=True)
+    if r.returncode not in (0, 3): return False
+    pat = re.compile(rb'(?<![\w.])(-?\d*\.?\d+)(\s+)(-?\d*\.?\d+)(\s+)(-?\d*\.?\d+)(\s+)(rg|RG)\b')
+    canvis = [0]
+    def fmt(x): return (b'%.6f' % (x / 255)).rstrip(b'0').rstrip(b'.') or b'0'
+    def sub(m):
+        v = tuple(round(float(m.group(i)) * 255) for i in (1, 3, 5))
+        for o, n in mapa:
+            if max(abs(a - b) for a, b in zip(v, o)) <= 3:      # variants properes (arrodoniments de l'exportador)
+                canvis[0] += 1
+                return fmt(n[0]) + m.group(2) + fmt(n[1]) + m.group(4) + fmt(n[2]) + m.group(6) + m.group(7)
+        return m.group(0)
+    dades = pat.sub(sub, r.stdout)
+    if not canvis[0]: return False
+    f = subprocess.run(['fix-qdf'], input=dades, capture_output=True)
+    qdf = dst + '.qdf'
+    open(qdf, 'wb').write(f.stdout)
+    r = subprocess.run(['qpdf', qdf, dst], capture_output=True, text=True)
+    os.remove(qdf)
+    return r.returncode in (0, 3)
+
+
 def posa_pagines_slides(ctx, pdf):
     """Pàgines dissenyades a Google Slides (slides-pagines.yaml: grup -> {pàgina renderitzada: id de la presentació}).
     El PDF de la diapositiva substitueix aquella pàgina tal qual; el peu (data, número de pàgina, enllaç) el posa el generador
@@ -1194,12 +1229,15 @@ def posa_pagines_slides(ctx, pdf):
         src = sid[5:] if str(sid).startswith('file:') else baixa_slide(sid, ctx, pag)
         if not src:
             ctx.avisos.append(f'p{pag}: no hi ha el PDF de la diapositiva {sid}; es deixa la pàgina generada'); continue
+        rec = pdf + f'.rec{pag}.pdf'      # colors del grup (fred = blau, neutres/campanes = lila); als grups de cocció no fa res
+        if recolora_pdf(src, rec, ctx.grup): src = rec
         tmp = pdf + '.tmp.pdf'
         parts = ([pdf, f'1-{pag - 1}'] if pag > 1 else []) + [src, '1'] + [pdf, f'{pag + 1}-z']
         r = subprocess.run(['qpdf', '--empty', '--pages'] + parts + ['--', tmp], capture_output=True, text=True)
         if r.returncode not in (0, 3):
             ctx.avisos.append(f'p{pag}: no s\'ha pogut posar la diapositiva ({r.stderr.strip()[:200]})'); continue
         os.replace(tmp, pdf)
+        if os.path.exists(pdf + f'.rec{pag}.pdf'): os.remove(pdf + f'.rec{pag}.pdf')
         fetes.append(pag)
     if not fetes: return
     fetes.sort()
