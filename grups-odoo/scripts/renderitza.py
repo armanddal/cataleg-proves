@@ -142,6 +142,7 @@ def _dhash(im):
 
 
 _ORIG = None
+_ORIGEN_RETALL = {}      # còpia retallada (camí relatiu) -> (asset original, rect en fraccions o None): ho fa servir retalla_fotos_slide()
 
 
 def recorts_original(clau):
@@ -163,11 +164,14 @@ def recorta_original(src, clau):
     try:
         from PIL import Image
         orig = os.path.join(ROOT, src); im = Image.open(orig)
-        if e.get('bitmap'): return e['bitmap'] if os.path.exists(os.path.join(ROOT, e['bitmap'])) else None
+        if e.get('bitmap'):
+            if not os.path.exists(os.path.join(ROOT, e['bitmap'])): return None
+            _ORIGEN_RETALL[e['bitmap']] = (src, None); return e['bitmap']
         if bin(int(_dhash(im), 16) ^ int(e['dh'], 16)).count('1') > 18: return None
         sha = hashlib.sha1(open(orig, 'rb').read()).hexdigest()
         dest_rel = os.path.join('treball', 'img-recortades', 'o-' + sha[:12] + '-' + hashlib.md5(repr(e['rect']).encode()).hexdigest()[:8] + '.jpg')
         dest = os.path.join(ROOT, dest_rel)
+        _ORIGEN_RETALL[dest_rel] = (src, tuple(e['rect']))
         if os.path.exists(dest): return dest_rel
         im = im.convert('RGB'); w, h = im.size; x0, y0, x1, y1 = e['rect']
         os.makedirs(os.path.dirname(dest), exist_ok=True)
@@ -205,6 +209,7 @@ def recorta_pub(src, portada=False, clau=None):
         alfa = im.mode in ('RGBA', 'LA') or 'transparency' in im.info          # portades: PNG amb transparència, es conserva
         dest_rel = os.path.join('treball', 'img-recortades', sha + '-' + hashlib.md5(repr(r['rect']).encode()).hexdigest()[:8] + ('.png' if alfa else '.jpg'))
         dest = os.path.join(ROOT, dest_rel)
+        _ORIGEN_RETALL[dest_rel] = (src, tuple(r['rect']))
         if os.path.exists(dest): return dest_rel
         if alfa: im = im.convert('RGBA')
         else: im = im.convert('RGB')
@@ -569,7 +574,10 @@ def pagina_index(ctx, p, n):
         for f in t['fotos']:
             fp = f['pos']
             aj = ';object-fit:contain' if f.get('ajust') == 'contain' else ''   # fotos d'Odoo (targetes automàtiques)
-            h += f'<img class="abs" style="left:{fp["x"]}cm;top:{fp["y"]}cm;width:{fp["w"]}cm;height:{fp["h"]}cm{aj}" src="{BASE}{redueix(f["asset"])}">'
+            a = f['asset']
+            # requadre del .pub molt més estret (o baix) que la foto: el .pub en mostrava només el producte; sense els marges blancs no queda petita
+            if fp.get('w') and fp.get('h') and abs(_aspecte(a) / (fp['w'] / fp['h']) - 1) > .25: a = retalla(a)
+            h += f'<img class="abs" style="left:{fp["x"]}cm;top:{fp["y"]}cm;width:{fp["w"]}cm;height:{fp["h"]}cm{aj}" src="{BASE}{redueix(a)}">'
     return h + peu(ctx, p, n) + '</div>'
 
 
@@ -1308,6 +1316,74 @@ def recolora_pdf(src, dst, grup):
     return r.returncode in (0, 3)
 
 
+def retalls_pagina(ctx, p):
+    """[(asset original, còpia retallada, rect o None)] de les fotos d'una pàgina d'informació que porten el retall de la tarifa original."""
+    out = []
+    for b in p.get('blocs') or []:
+        if b['k'] == 'fotos':
+            for f in b['fotos']:          # blocs_html() ja ha posat la còpia retallada a f['asset']
+                o = _ORIGEN_RETALL.get(f['asset'])
+                if o: out.append((o[0], f['asset'], o[1]))
+    for i_, f in enumerate(p.get('fotos', []), 1):
+        r = recorta_pub(f['asset'], clau=(ctx.grup, p['n'], f['referencia'] if f.get('referencia') is not None else i_))
+        o = _ORIGEN_RETALL.get(r)
+        if o: out.append((o[0], r, o[1]))
+    return out
+
+
+def _rect_aspecte(w, h, rect, asp):
+    """Rectangle (px) que conté el retall `rect` (fraccions) amb l'aspecte `asp` (ample/alt): s'eixampla dins de la foto i, si no hi cap, es retalla."""
+    x0, y0, x1, y1 = rect[0] * w, rect[1] * h, rect[2] * w, rect[3] * h
+    cx, cy = (x0 + x1) / 2, (y0 + y1) / 2
+    nw, nh = (y1 - y0) * asp, y1 - y0
+    if nw < x1 - x0: nw, nh = x1 - x0, (x1 - x0) / asp
+    if nw > w: nw, nh = w, w / asp
+    if nh > h: nw, nh = h * asp, h
+    cx = min(max(cx, nw / 2), w - nw / 2); cy = min(max(cy, nh / 2), h - nh / 2)
+    return (round(cx - nw / 2), round(cy - nh / 2), round(cx + nw / 2), round(cy + nh / 2))
+
+
+def retalla_fotos_slide(src, dst, retalls):
+    """Una diapositiva de Google Slides porta les fotos tal com eren quan es va fer, sense el retall de la tarifa original (i substitueix la pàgina
+    generada, que sí que el porta). Aquí cada bitmap de la diapositiva que és la mateixa foto (dHash <= 18) que un asset amb retall es canvia pel
+    retall, ajustat a l'aspecte del marc de la diapositiva (no es deforma ni es mou res). Una foto que ja és el retall es deixa. Torna quantes en canvia."""
+    import io
+    import fitz
+    from PIL import Image
+    cands = []
+    for orig, talla, rect in retalls:
+        try: cands.append((int(_dhash(Image.open(os.path.join(ROOT, orig))), 16), int(_dhash(Image.open(os.path.join(ROOT, talla))), 16), orig, talla, rect))
+        except Exception: pass
+    if not cands: return 0
+    dist = lambda a, b: bin(a ^ b).count('1')
+    doc = fitz.open(src); pg = doc[0]; n = 0; vistos = set()
+    for x in pg.get_images(full=True):
+        xref = x[0]
+        if xref in vistos: continue
+        vistos.add(xref)
+        try:
+            rs = pg.get_image_rects(xref)
+            if not rs or rs[0].width < 5 or rs[0].height < 5: continue
+            pm = fitz.Pixmap(doc, xref)
+            if pm.colorspace is None or pm.colorspace.n not in (1, 3) or pm.alpha: pm = fitz.Pixmap(fitz.csRGB, pm)
+            dh = int(_dhash(Image.open(io.BytesIO(pm.tobytes('png')))), 16)
+            d, c = min(((dist(dh, c[0]), c) for c in cands), key=lambda t: t[0])
+            if d > 18 or dist(dh, c[1]) <= d: continue           # no és cap d'aquestes fotos, o ja és el retall
+            asp = rs[0].width / rs[0].height
+            if c[4]:
+                im = Image.open(os.path.join(ROOT, c[2])).convert('RGB'); im = im.crop(_rect_aspecte(im.width, im.height, c[4], asp))
+            else:
+                im = Image.open(os.path.join(ROOT, c[3])).convert('RGB'); im = im.crop(_rect_aspecte(im.width, im.height, (0, 0, 1, 1), asp))
+            im.thumbnail((MAX_PX, MAX_PX))
+            b = io.BytesIO(); im.save(b, 'JPEG', quality=88, optimize=True)
+            pg.replace_image(xref, stream=b.getvalue()); n += 1
+        except Exception:
+            continue
+    if n: doc.save(dst, garbage=3, deflate=True)
+    doc.close()
+    return n
+
+
 def posa_pagines_slides(ctx, pdf):
     """Pàgines dissenyades a Google Slides (slides-pagines.yaml: grup -> {pàgina renderitzada: id de la presentació}).
     El PDF de la diapositiva substitueix aquella pàgina tal qual; el peu (data, número de pàgina, enllaç) el posa el generador
@@ -1341,13 +1417,19 @@ def posa_pagines_slides(ctx, pdf):
             ctx.avisos.append(f'p{pag}: no hi ha el PDF de la diapositiva {sid}; es deixa la pàgina generada'); continue
         rec = pdf + f'.rec{pag}.pdf'      # colors del grup (fred = blau, neutres/campanes = lila); als grups de cocció no fa res
         if recolora_pdf(src, rec, ctx.grup): src = rec
+        q = ctx.pagines[pag - 1]
+        if q['tipus'] == 'informacio_general':        # fotos amb el retall de la tarifa original (la diapositiva porta la foto sencera)
+            ret = pdf + f'.ret{pag}.pdf'
+            k = retalla_fotos_slide(src, ret, retalls_pagina(ctx, q))
+            if k: src = ret; print(f'p{pag}: {k} foto(s) de la diapositiva {sid} amb el retall de la tarifa original')
         tmp = pdf + '.tmp.pdf'
         parts = ([pdf, f'1-{pag - 1}'] if pag > 1 else []) + [src, '1'] + [pdf, f'{pag + 1}-z']
         r = subprocess.run(['qpdf', '--empty', '--pages'] + parts + ['--', tmp], capture_output=True, text=True)
         if r.returncode not in (0, 3):
             ctx.avisos.append(f'p{pag}: no s\'ha pogut posar la diapositiva ({r.stderr.strip()[:200]})'); continue
         os.replace(tmp, pdf)
-        if os.path.exists(pdf + f'.rec{pag}.pdf'): os.remove(pdf + f'.rec{pag}.pdf')
+        for f_ in (pdf + f'.rec{pag}.pdf', pdf + f'.ret{pag}.pdf'):
+            if os.path.exists(f_): os.remove(f_)
         fetes.append(pag)
     if not fetes: return
     fetes.sort()
