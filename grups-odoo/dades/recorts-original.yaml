@@ -44,11 +44,12 @@ g10:p14:2:
   h_cm: 4.072
   pdf_pag: 404
   rect:
-  - 0.4914
-  - 0.024
-  - 0.6043
-  - 0.1377
-  score: 0.833
+  - 0.0
+  - 0.0
+  - 0.9996
+  - 0.9994
+  score: 0.835
+  sift: 67
   w_cm: 5.698
 g10:p14:3:
   ar: 2.5094
@@ -58,10 +59,11 @@ g10:p14:3:
   pdf_pag: 404
   rect:
   - 0.0
-  - 0.8244
-  - 0.1157
-  - 0.9391
-  score: 0.921
+  - 0.0
+  - 0.9995
+  - 0.9994
+  score: 0.99
+  sift: 104
   w_cm: 5.698
 g10:p14:4:
   ar: 0.6495
@@ -104,21 +106,31 @@ g10:p14:6:
   w_cm: 5.698
 g10:p14:7:
   ar: 1.845
-  bitmap: assets/original-pdf/g10-p404-x3256.png
   dh: 0813e9134a13060304030c031803180310033003e0036803c003c007c0068003
   font: G10 p14 info-p14-7.jpg
   h_cm: 3.852
   pdf_pag: 404
-  score: 0.645
+  rect:
+  - 0.0
+  - 0.0
+  - 1.0
+  - 0.9995
+  score: 0.99
+  sift: 107
   w_cm: 7.104
 g10:p14:8:
   ar: 1.4245
-  bitmap: assets/original-pdf/g10-p404-x3535.png
   dh: 000006431a4112411241324636262432081a180d3004200620660f0407028604
   font: G10 p14 info-p14-6.jpg
   h_cm: 4.005
   pdf_pag: 404
-  score: 0.689
+  rect:
+  - 0.0
+  - 0.0
+  - 0.9996
+  - 0.9991
+  score: 0.99
+  sift: 178
   w_cm: 5.698
 g10:p23:2:
   ar: 1.5384
@@ -200,12 +212,17 @@ g10:p4:3:
   w_cm: 3.996
 g10:p4:5:
   ar: 1.0619
-  bitmap: assets/original-pdf/g10-p394-x3290.png
   dh: c1c886a905858f4dcea56ea432ac198c0cb70606030d018d00cd006500350018
   font: G10 p4 info-p04-3.jpg
   h_cm: 3.768
   pdf_pag: 394
-  score: 0.774
+  rect:
+  - 0.0
+  - 0.0
+  - 0.9993
+  - 0.9993
+  score: 0.99
+  sift: 140
   w_cm: 3.996
 g10:p4:6:
   ar: 1.3975
@@ -214,11 +231,12 @@ g10:p4:6:
   h_cm: 2.862
   pdf_pag: 394
   rect:
-  - 0.4914
-  - 0.024
-  - 0.6043
-  - 0.1377
-  score: 0.833
+  - 0.0
+  - 0.0
+  - 1.0
+  - 1.0
+  score: 0.65
+  sift: 30
   w_cm: 3.996
 g10:p4:7:
   ar: 2.5129
@@ -227,11 +245,12 @@ g10:p4:7:
   h_cm: 1.592
   pdf_pag: 394
   rect:
-  - 0.0029
-  - 0.8315
-  - 0.1157
-  - 0.9427
-  score: 0.919
+  - 0.0
+  - 0.0
+  - 1.0
+  - 0.9986
+  score: 0.77
+  sift: 54
   w_cm: 3.996
 g10:p4:8:
   ar: 0.6495
@@ -266,11 +285,12 @@ g10:p7:3:
   h_cm: 2.862
   pdf_pag: 397
   rect:
-  - 0.4914
-  - 0.024
-  - 0.6043
-  - 0.1377
-  score: 0.833
+  - 0.0
+  - 0.0
+  - 0.9996
+  - 0.9994
+  score: 0.835
+  sift: 67
   w_cm: 3.996
 g10:p7:4:
   ar: 2.5094
@@ -280,10 +300,11 @@ g10:p7:4:
   pdf_pag: 397
   rect:
   - 0.0
-  - 0.8244
-  - 0.1157
-  - 0.9391
-  score: 0.921
+  - 0.0
+  - 0.9995
+  - 0.9994
+  score: 0.99
+  sift: 104
   w_cm: 3.996
 g10:p7:5:
   ar: 1.0
@@ -324,19 +345,6 @@ g10:p7:7:
   - 0.9957
   score: 0.976
   w_cm: 3.996
-g11:p100:2:
-  ar: 1.6393
-  dh: 0000000000004000079e1038f8601bc220c63fce21ce354e07ce304e0bce49ce
-  font: G11 p100 info-p100-2.png
-  h_cm: 3.192
-  pdf_pag: 441
-  rect:
-  - 0.0286
-  - 0.5272
-  - 0.1414
-  - 0.6789
-  score: 0.907
-  w_cm: 3.895
 g11:p100:3:
   ar: 1.0
   dh: 838003830387330f121f067707f003f8007e601fe383c38083c003f003fe83fe
@@ -376,19 +384,6 @@ g11:p102:1:
   - 0.9894
   score: 0.991
   w_cm: 3.234
-g11:p102:2:
-  ar: 1.0
-  dh: 000000001800f8188078d838dc2adc32cc08cc08fe0e9f2c0078000800000000
-  font: G11 p102 info-p102-2.jpg
-  h_cm: 3.192
-  pdf_pag: 441
-  rect:
-  - 0.7929
-  - 0.7659
-  - 0.9057
-  - 0.8584
-  score: 0.888
-  w_cm: 3.895
 g11:p102:3:
   ar: 0.9625
   dh: c07881e0c7008006901f907e91ff91db91bf917f917f917f817f81bf817f81df
@@ -456,13 +451,18 @@ g11:p104:4:
   w_cm: 6.011
 g11:p104:5:
   ar: 1.031
-  bitmap: assets/original-pdf/g11-p430-x4033.png
   dh: f80279c0dce08efc9d3099bcf1e1d1c3edb7fdff73fff3ffc3ff8d079c079bf6
   font: G11 p104 info-p104-5.jpg
-  h_cm: 4.995
-  pdf_pag: 430
-  score: 0.433
-  w_cm: 5.046
+  h_cm: 5.004
+  pdf_pag: 468
+  rect:
+  - 0
+  - 0
+  - 0.999
+  - 0.9991
+  score: 0.99
+  sift: 652
+  w_cm: 5.156
 g11:p107:1:
   ar: 1.0
   dh: 838003830387330f121f067707f003f8007e601fe383c38083c003f003fe83fe
@@ -515,32 +515,6 @@ g11:p107:4:
   - 0.9931
   score: 0.97
   w_cm: 6.011
-g11:p107:5:
-  ar: 1.031
-  dh: f80279c0dce08efc9d3099bcf1e1d1c3edb7fdff73fff3ffc3ff8d079c079bf6
-  font: G11 p107 info-p104-5.jpg
-  h_cm: 5.004
-  pdf_pag: 467
-  rect:
-  - 0.2729
-  - 0.6512
-  - 0.3957
-  - 0.7554
-  score: 0.88
-  w_cm: 6.079
-g11:p107:6:
-  ar: 0.9436
-  dh: e04de071e0f1e051e04de04de04de0cde04de44de6cde04de0cde0cdfecf8fd7
-  font: G11 p107 info-p107-6.jpg
-  h_cm: 5.004
-  pdf_pag: 467
-  rect:
-  - 0.2451
-  - 0.3545
-  - 0.3646
-  - 0.447
-  score: 0.884
-  w_cm: 6.079
 g11:p110:1:
   ar: 1.0
   dh: 838003830387330f121f067707f003f8007e601fe383c38083c003f003fe83fe
@@ -595,13 +569,18 @@ g11:p110:4:
   w_cm: 6.011
 g11:p110:5:
   ar: 1.031
-  bitmap: assets/original-pdf/g11-p430-x4033.png
   dh: f80279c0dce08efc9d3099bcf1e1d1c3edb7fdff73fff3ffc3ff8d079c079bf6
   font: G11 p110 info-p104-5.jpg
-  h_cm: 4.995
-  pdf_pag: 430
-  score: 0.433
-  w_cm: 5.046
+  h_cm: 5.004
+  pdf_pag: 468
+  rect:
+  - 0
+  - 0
+  - 0.999
+  - 0.9991
+  score: 0.99
+  sift: 652
+  w_cm: 5.156
 g11:p114:1:
   ar: 1.0
   dh: 838003830387330f121f067707f003f8007e601fe383c38083c003f003fe83fe
@@ -641,19 +620,6 @@ g11:p114:3:
   - 0.8947
   score: 0.998
   w_cm: 6.088
-g11:p114:4:
-  ar: 1.0
-  dh: 19401e401e001d001a801a801a801a801a801a801a801880188018801f800880
-  font: G11 p114 info-p114-4.jpg
-  h_cm: 5.004
-  pdf_pag: 467
-  rect:
-  - 0.6386
-  - 0.7659
-  - 0.7514
-  - 0.8585
-  score: 0.904
-  w_cm: 6.079
 g11:p114:5:
   ar: 1.2014
   dh: c68cec6c3c603c603c603c607c60686260b0819ec18ecb93662134415c814501
@@ -669,78 +635,18 @@ g11:p114:5:
   w_cm: 6.011
 g11:p114:6:
   ar: 1.031
-  bitmap: assets/original-pdf/g11-p428-x4024.png
   dh: f80279c0dce08efc9d3099bcf1e1d1c3edb7fdff73fff3ffc3ff8d079c079bf6
   font: G11 p114 info-p104-5.jpg
   h_cm: 5.004
-  pdf_pag: 428
-  score: 0.686
-  w_cm: 5.046
-g11:p117:1:
-  ar: 1.0
-  dh: 101438701994b056ac6eac6eac6eac6eeceeeceeec66ec66ec46fc429ef20019
-  font: G11 p117 info-p117-1.jpg
-  h_cm: 5.004
-  pdf_pag: 467
+  pdf_pag: 468
   rect:
-  - 0.39
-  - 0.2731
-  - 0.5029
-  - 0.3656
-  score: 0.906
-  w_cm: 6.079
-g11:p117:2:
-  ar: 1.0
-  dh: 101438701994b056ac6eac6eac6eac6eeceeeceeec66ec66ec46fc429ef20019
-  font: G11 p117 info-p117-1.jpg
-  h_cm: 5.004
-  pdf_pag: 467
-  rect:
-  - 0.39
-  - 0.2731
-  - 0.5029
-  - 0.3656
-  score: 0.906
-  w_cm: 6.079
-g11:p117:3:
-  ar: 1.0
-  dh: 101438701994b056ac6eac6eac6eac6eeceeeceeec66ec66ec46fc429ef20019
-  font: G11 p117 info-p117-1.jpg
-  h_cm: 5.004
-  pdf_pag: 467
-  rect:
-  - 0.39
-  - 0.2731
-  - 0.5029
-  - 0.3656
-  score: 0.906
-  w_cm: 6.079
-g11:p117:4:
-  ar: 1.0
-  dh: 0c800cc00cc00c800c800c800c800c800c800c800c800c800dc009000a600260
-  font: G11 p117 info-p117-4.jpg
-  h_cm: 5.004
-  pdf_pag: 467
-  rect:
-  - 0.4329
-  - 0.8817
-  - 0.5457
-  - 0.9742
-  score: 0.819
-  w_cm: 6.079
-g11:p117:5:
-  ar: 1.031
-  dh: f80279c0dce08efc9d3099bcf1e1d1c3edb7fdff73fff3ffc3ff8d079c079bf6
-  font: G11 p117 info-p104-5.jpg
-  h_cm: 5.004
-  pdf_pag: 467
-  rect:
-  - 0.2729
-  - 0.6512
-  - 0.3957
-  - 0.7554
-  score: 0.88
-  w_cm: 6.079
+  - 0
+  - 0
+  - 0.999
+  - 0.9991
+  score: 0.99
+  sift: 652
+  w_cm: 5.156
 g11:p120:1:
   ar: 1.1344
   dh: f016f116f116f016f016f016f016f216f016f416f116f2b6f7f6f004f00ce01c
@@ -793,32 +699,6 @@ g11:p120:4:
   - 0.9931
   score: 0.97
   w_cm: 6.011
-g11:p120:5:
-  ar: 1.0
-  dh: 38f06bc06f806f406f406f406f406f406f607f607f607f406e10760876001800
-  font: G11 p120 info-p120-5.jpg
-  h_cm: 5.004
-  pdf_pag: 467
-  rect:
-  - 0.74
-  - 0.106
-  - 0.8871
-  - 0.227
-  score: 0.913
-  w_cm: 6.079
-g11:p120:6:
-  ar: 1.0288
-  dh: 9c67ac67ace79ce7bc67bc67bce7bce79cf39c63b867b8e7bce79cd28c639c67
-  font: G11 p120 info-p120-6.png
-  h_cm: 5.004
-  pdf_pag: 467
-  rect:
-  - 0.7086
-  - 0.89
-  - 0.8386
-  - 0.9999
-  score: 0.91
-  w_cm: 6.079
 g11:p123:1:
   ar: 1.1344
   dh: f016f116f116f016f016f016f016f216f016f416f116f2b6f7f6f004f00ce01c
@@ -873,26 +753,18 @@ g11:p123:4:
   w_cm: 6.011
 g11:p123:5:
   ar: 1.031
-  bitmap: assets/original-pdf/g11-p428-x4024.png
   dh: f80279c0dce08efc9d3099bcf1e1d1c3edb7fdff73fff3ffc3ff8d079c079bf6
   font: G11 p123 info-p104-5.jpg
   h_cm: 5.004
-  pdf_pag: 428
-  score: 0.686
-  w_cm: 5.046
-g11:p123:6:
-  ar: 1.0288
-  dh: 9c67ac67ace79ce7bc67bc67bce7bce79cf39c63b867b8e7bce79cd28c639c67
-  font: G11 p123 info-p120-6.png
-  h_cm: 5.004
-  pdf_pag: 467
+  pdf_pag: 468
   rect:
-  - 0.7086
-  - 0.89
-  - 0.8386
-  - 0.9999
-  score: 0.91
-  w_cm: 6.079
+  - 0
+  - 0
+  - 0.999
+  - 0.9991
+  score: 0.99
+  sift: 652
+  w_cm: 5.156
 g11:p126:1:
   ar: 0.7065
   dh: 1c181c183c187c185c1804183c18bc58fc18fc187e1805d82f587e187e187e18
@@ -958,32 +830,6 @@ g11:p126:5:
   - 0.9971
   score: 0.98
   w_cm: 3.996
-g11:p126:6:
-  ar: 1.4233
-  dh: 1c01f8018a01d984c9c4e0dcf430f43875303c380f31032101c01833a62cb72c
-  font: G11 p126 info-p126-6.jpg
-  h_cm: 3.192
-  pdf_pag: 441
-  rect:
-  - 0.01
-  - 0.5714
-  - 0.1257
-  - 0.7071
-  score: 0.896
-  w_cm: 3.895
-g11:p126:7:
-  ar: 1.2833
-  dh: be7dbe7dbfdd9ffda3ffbc7e9e1adee6dffed7f4d9fc4cfc473c67986fe866f8
-  font: G11 p126 info-p126-7.jpg
-  h_cm: 5.004
-  pdf_pag: 467
-  rect:
-  - 0.8629
-  - 0.5563
-  - 0.9857
-  - 0.6861
-  score: 0.849
-  w_cm: 6.079
 g11:p126:8:
   ar: 1.0
   dh: 0000000018003800f100d840f018b7808ff0e1f03c640f9803d000e000200000
@@ -1049,19 +895,6 @@ g11:p133:4:
   - 0.9971
   score: 0.98
   w_cm: 3.996
-g11:p133:5:
-  ar: 1.0
-  dh: c04c8186037302490269021906310d4119013601340131113b413a41b4b2ca4c
-  font: G11 p133 icona-foto-h-db78f4bf7e.jpg
-  h_cm: 5.004
-  pdf_pag: 467
-  rect:
-  - 0.77
-  - 0.2145
-  - 0.8829
-  - 0.307
-  score: 0.874
-  w_cm: 6.079
 g11:p133:6:
   ar: 1.4565
   dh: 7b00739874687bd071f873f873ec67f0e3f4e3f4e3e4e7fce7fee7f4e3f4e3fc
@@ -1075,19 +908,6 @@ g11:p133:6:
   - 0.9979
   score: 0.984
   w_cm: 5.825
-g11:p133:7:
-  ar: 1.2833
-  dh: be7dbe7dbfdd9ffda3ffbc7e9e1adee6dffed7f4d9fc4cfc473c67986fe866f8
-  font: G11 p133 info-p126-7.jpg
-  h_cm: 5.004
-  pdf_pag: 467
-  rect:
-  - 0.8629
-  - 0.5563
-  - 0.9857
-  - 0.6861
-  score: 0.849
-  w_cm: 6.079
 g11:p138:1:
   ar: 1.1344
   dh: f016f116f116f016f016f016f016f216f016f416f116f2b6f7f6f004f00ce01c
@@ -1142,13 +962,18 @@ g11:p138:4:
   w_cm: 6.011
 g11:p138:5:
   ar: 1.031
-  bitmap: assets/original-pdf/g11-p428-x4024.png
   dh: f80279c0dce08efc9d3099bcf1e1d1c3edb7fdff73fff3ffc3ff8d079c079bf6
   font: G11 p138 info-p104-5.jpg
   h_cm: 5.004
-  pdf_pag: 428
-  score: 0.686
-  w_cm: 5.046
+  pdf_pag: 468
+  rect:
+  - 0
+  - 0
+  - 0.999
+  - 0.9991
+  score: 0.99
+  sift: 652
+  w_cm: 5.156
 g11:p13:1:
   ar: 1.0
   dh: 00000000000400040004000400045ffe000e050080040084000c00fc0f5c423c
@@ -1188,19 +1013,6 @@ g11:p13:3:
   - 0.8947
   score: 0.998
   w_cm: 6.088
-g11:p13:4:
-  ar: 1.4368
-  dh: 004000a001b001900018000c000c00040006c006b386bb86b306800660060006
-  font: G11 p13 info-p13-4.jpg
-  h_cm: 3.192
-  pdf_pag: 442
-  rect:
-  - 0.4861
-  - 0.6509
-  - 0.68
-  - 0.8809
-  score: 0.845
-  w_cm: 3.886
 g11:p13:6:
   ar: 1.0
   dh: 0000000000003c00e60ee03ec0e6c382c700cc00c000c000c000000000000000
@@ -1266,19 +1078,6 @@ g11:p144:4:
   - 0.9931
   score: 0.97
   w_cm: 6.011
-g11:p144:5:
-  ar: 1.031
-  dh: f80279c0dce08efc9d3099bcf1e1d1c3edb7fdff73fff3ffc3ff8d079c079bf6
-  font: G11 p144 info-p104-5.jpg
-  h_cm: 5.004
-  pdf_pag: 467
-  rect:
-  - 0.2729
-  - 0.6512
-  - 0.3957
-  - 0.7554
-  score: 0.88
-  w_cm: 6.079
 g11:p144:6:
   ar: 1.003
   dh: e004a01420253ff0fff0ffe4781078100cd10991c590ff90481109904591ff90
@@ -1331,19 +1130,6 @@ g11:p147:3:
   - 0.8947
   score: 0.998
   w_cm: 6.088
-g11:p147:4:
-  ar: 0.9436
-  dh: e04de071e0f1e051e04de04de04de0cde04de44de6cde04de0cde0cdfecf8fd7
-  font: G11 p147 info-p107-6.jpg
-  h_cm: 5.004
-  pdf_pag: 467
-  rect:
-  - 0.2451
-  - 0.3545
-  - 0.3646
-  - 0.447
-  score: 0.884
-  w_cm: 6.079
 g11:p147:5:
   ar: 1.2014
   dh: c68cec6c3c603c603c603c607c60686260b0819ec18ecb93662134415c814501
@@ -1359,13 +1145,18 @@ g11:p147:5:
   w_cm: 6.011
 g11:p147:6:
   ar: 1.031
-  bitmap: assets/original-pdf/g11-p428-x4024.png
   dh: f80279c0dce08efc9d3099bcf1e1d1c3edb7fdff73fff3ffc3ff8d079c079bf6
   font: G11 p147 info-p104-5.jpg
   h_cm: 5.004
-  pdf_pag: 428
-  score: 0.686
-  w_cm: 5.046
+  pdf_pag: 468
+  rect:
+  - 0
+  - 0
+  - 0.999
+  - 0.9991
+  score: 0.99
+  sift: 652
+  w_cm: 5.156
 g11:p150:1:
   ar: 1.1344
   dh: f016f116f116f016f016f016f016f216f016f416f116f2b6f7f6f004f00ce01c
@@ -1405,19 +1196,6 @@ g11:p150:3:
   - 0.8947
   score: 0.998
   w_cm: 6.088
-g11:p150:4:
-  ar: 1.2134
-  dh: ab34a4662466a466a466b466b824b33cb0a6b0a6b0b6b0b6b8a680a480a4bf1f
-  font: G11 p150 info-p150-4.png
-  h_cm: 3.192
-  pdf_pag: 441
-  rect:
-  - 0.3686
-  - 0.5566
-  - 0.4971
-  - 0.6844
-  score: 0.883
-  w_cm: 3.895
 g11:p150:5:
   ar: 1.2014
   dh: c68cec6c3c603c603c603c607c60686260b0819ec18ecb93662134415c814501
@@ -1431,19 +1209,6 @@ g11:p150:5:
   - 0.9931
   score: 0.97
   w_cm: 6.011
-g11:p150:6:
-  ar: 1.031
-  dh: f80279c0dce08efc9d3099bcf1e1d1c3edb7fdff73fff3ffc3ff8d079c079bf6
-  font: G11 p150 info-p104-5.jpg
-  h_cm: 5.004
-  pdf_pag: 467
-  rect:
-  - 0.2729
-  - 0.6512
-  - 0.3957
-  - 0.7554
-  score: 0.88
-  w_cm: 6.079
 g11:p155:1:
   ar: 1.1344
   dh: f016f116f116f016f016f016f016f216f016f416f116f2b6f7f6f004f00ce01c
@@ -1509,19 +1274,6 @@ g11:p155:5:
   - 0.9931
   score: 0.97
   w_cm: 6.011
-g11:p155:6:
-  ar: 1.031
-  dh: f80279c0dce08efc9d3099bcf1e1d1c3edb7fdff73fff3ffc3ff8d079c079bf6
-  font: G11 p155 info-p104-5.jpg
-  h_cm: 5.004
-  pdf_pag: 467
-  rect:
-  - 0.2729
-  - 0.6512
-  - 0.3957
-  - 0.7554
-  score: 0.88
-  w_cm: 6.079
 g11:p158:1:
   ar: 1.1344
   dh: f016f116f116f016f016f016f016f216f016f416f116f2b6f7f6f004f00ce01c
@@ -1576,26 +1328,18 @@ g11:p158:4:
   w_cm: 6.011
 g11:p158:5:
   ar: 1.031
-  bitmap: assets/original-pdf/g11-p428-x4024.png
   dh: f80279c0dce08efc9d3099bcf1e1d1c3edb7fdff73fff3ffc3ff8d079c079bf6
   font: G11 p158 info-p104-5.jpg
   h_cm: 5.004
-  pdf_pag: 428
-  score: 0.686
-  w_cm: 5.046
-g11:p158:6:
-  ar: 0.9436
-  dh: e04de071e0f1e051e04de04de04de0cde04de44de6cde04de0cde0cdfecf8fd7
-  font: G11 p158 info-p107-6.jpg
-  h_cm: 5.004
-  pdf_pag: 467
+  pdf_pag: 468
   rect:
-  - 0.2451
-  - 0.3545
-  - 0.3646
-  - 0.447
-  score: 0.884
-  w_cm: 6.079
+  - 0
+  - 0
+  - 0.999
+  - 0.9991
+  score: 0.99
+  sift: 652
+  w_cm: 5.156
 g11:p162:1:
   ar: 1.1344
   dh: f016f116f116f016f016f016f016f216f016f416f116f2b6f7f6f004f00ce01c
@@ -1648,19 +1392,6 @@ g11:p162:4:
   - 0.9931
   score: 0.97
   w_cm: 6.011
-g11:p162:5:
-  ar: 1.0
-  dh: 00000000bc00f280e386e682e382e282c38681fa9b1eaa80ea80400000000000
-  font: G11 p162 info-p162-5.jpg
-  h_cm: 5.004
-  pdf_pag: 467
-  rect:
-  - 0.5629
-  - 0.4288
-  - 0.6757
-  - 0.5213
-  score: 0.878
-  w_cm: 6.079
 g11:p165:1:
   ar: 1.1344
   dh: f016f116f116f016f016f016f016f216f016f416f116f2b6f7f6f004f00ce01c
@@ -1700,19 +1431,6 @@ g11:p165:3:
   - 0.8947
   score: 0.998
   w_cm: 6.088
-g11:p165:4:
-  ar: 0.7646
-  dh: cf12c812c812c812cc12c812c832cc12c812c812c812c9b2cc02cf0213f21bbd
-  font: G11 p165 info-p165-4.jpg
-  h_cm: 3.192
-  pdf_pag: 441
-  rect:
-  - 0.7607
-  - 0.7887
-  - 0.8748
-  - 0.8599
-  score: 0.87
-  w_cm: 3.895
 g11:p165:5:
   ar: 1.2014
   dh: c68cec6c3c603c603c603c607c60686260b0819ec18ecb93662134415c814501
@@ -1830,19 +1548,6 @@ g11:p22:1:
   - 0.9894
   score: 0.991
   w_cm: 3.234
-g11:p22:2:
-  ar: 1.3514
-  dh: 78c0f180c380c280c380c20004006006c60cc40cd80cc994a898c990c9f090e0
-  font: G11 p22 info-p22-2.jpg
-  h_cm: 5.004
-  pdf_pag: 428
-  rect:
-  - 0.8743
-  - 0.5524
-  - 0.99
-  - 0.6813
-  score: 0.899
-  w_cm: 6.088
 g11:p22:3:
   ar: 1.0788
   dh: 6fc0bf00f046f040f040fc40ce40de40fc40fc40e640d840c1209f383f1c3104
@@ -1908,32 +1613,6 @@ g11:p25:1:
   - 0.998
   score: 0.998
   w_cm: 5.656
-g11:p25:2:
-  ar: 1.3566
-  dh: 9d603cf00b38059e11661dbe0cfe0f7e0bbf8b7cc3cccb26e332731b39071d83
-  font: G11 p25 info-p25-2.png
-  h_cm: 5.004
-  pdf_pag: 467
-  rect:
-  - 0.0986
-  - 0.3821
-  - 0.2114
-  - 0.5076
-  score: 0.9
-  w_cm: 6.079
-g11:p25:3:
-  ar: 1.3529
-  dh: 77d0325033d03cd07f11fc24f864fde6f1e4f3e4f3e53bc41d80071803100018
-  font: G11 p25 info-p25-3.jpg
-  h_cm: 5.004
-  pdf_pag: 467
-  rect:
-  - 0.72
-  - 0.1667
-  - 0.8514
-  - 0.3132
-  score: 0.899
-  w_cm: 6.079
 g11:p28:1:
   ar: 1.0
   dh: 838003830387330f121f067707f003f8007e601fe383c38083c003f003fe83fe
@@ -1986,19 +1665,6 @@ g11:p28:4:
   - 0.8947
   score: 0.998
   w_cm: 6.088
-g11:p32:1:
-  ar: 1.3529
-  dh: 77d0325033d03cd07f11fc24f864fde6f1e4f3e4f3e53bc41d80071803100018
-  font: G11 p32 info-p25-3.jpg
-  h_cm: 5.004
-  pdf_pag: 467
-  rect:
-  - 0.72
-  - 0.1667
-  - 0.8514
-  - 0.3132
-  score: 0.899
-  w_cm: 6.079
 g11:p32:2:
   ar: 1.4139
   dh: 98f09c7c9e1a9b1b199f389a30993098789e689e709e3c9e1e9e069fc39d919d
@@ -2012,19 +1678,6 @@ g11:p32:2:
   - 0.998
   score: 0.998
   w_cm: 5.656
-g11:p32:3:
-  ar: 1.3566
-  dh: 9d603cf00b38059e11661dbe0cfe0f7e0bbf8b7cc3cccb26e332731b39071d83
-  font: G11 p32 info-p25-2.png
-  h_cm: 5.004
-  pdf_pag: 467
-  rect:
-  - 0.0986
-  - 0.3821
-  - 0.2114
-  - 0.5076
-  score: 0.9
-  w_cm: 6.079
 g11:p35:1:
   ar: 0.9789
   dh: fc38e3f03ed8f0f0c3c903c10fc33f833fa37f867f147c50f860e0c8c1cce7c4
@@ -2066,13 +1719,18 @@ g11:p38:2:
   w_cm: 4.157
 g11:p38:3:
   ar: 0.9625
-  bitmap: assets/original-pdf/g11-p468-x4360.png
   dh: c07881e0c7008006901f907e91ff91db91bf917f917f917f817f81bf817f81df
   font: G11 p38 info-p07-3.jpg
   h_cm: 5.004
-  pdf_pag: 468
-  score: 0.738
-  w_cm: 6.011
+  pdf_pag: 467
+  rect:
+  - 0
+  - 0.1035
+  - 0.9987
+  - 0.8982
+  score: 0.7
+  sift: 40
+  w_cm: 6.079
 g11:p38:4:
   ar: 1.5019
   dh: 99f4703cfe00ff86fd06fd0ef41ce479c8f3c1e2e3c623cbd394f09cc0090012
@@ -2255,32 +1913,6 @@ g11:p50:1:
   - 0.8624
   score: 0.985
   w_cm: 5.419
-g11:p50:2:
-  ar: 1.2
-  dh: f79bfe9fffcfff0dfd0dfd0ff948f809c7c9d806d096e026e036660060006000
-  font: G11 p50 info-p50-2.jpg
-  h_cm: 5.004
-  pdf_pag: 467
-  rect:
-  - 0.1187
-  - 0.8353
-  - 0.2371
-  - 0.9708
-  score: 0.846
-  w_cm: 5.283
-g11:p50:3:
-  ar: 1.0
-  dh: 8000b300bf00af00b3008b00a5008521a0e0a0e080c480c6a0c29b818f800180
-  font: G11 p50 info-p50-3.jpg
-  h_cm: 5.004
-  pdf_pag: 467
-  rect:
-  - 0.5443
-  - 0.2217
-  - 0.6743
-  - 0.3284
-  score: 0.903
-  w_cm: 6.079
 g11:p50:4:
   ar: 1.0
   dh: 00003000e000bf8087f880fc80fc80fc81bc818cb9c61fce01c8003800180000
@@ -2294,32 +1926,6 @@ g11:p50:4:
   - 0.9306
   score: 0.906
   w_cm: 8.771
-g11:p53:1:
-  ar: 1.0
-  dh: c0008f7e8ff889de8bc28fec9dec95ec9dde9dec9dcc9dc295908b86c3067000
-  font: G11 p53 info-p53-1.jpg
-  h_cm: 3.192
-  pdf_pag: 441
-  rect:
-  - 0.1614
-  - 0.2202
-  - 0.2829
-  - 0.3198
-  score: 0.882
-  w_cm: 3.895
-g11:p53:2:
-  ar: 1.0
-  dh: 00000000000080069b6eacecace6bce6a4e6a4e6a4e6acc4c800c00000000000
-  font: G11 p53 info-p53-2.jpg
-  h_cm: 5.004
-  pdf_pag: 467
-  rect:
-  - 0.3914
-  - 0.5131
-  - 0.5143
-  - 0.6142
-  score: 0.878
-  w_cm: 6.079
 g11:p53:3:
   ar: 1.0
   dh: 838003830387330f121f067707f003f8007e601fe383c38083c003f003fe83fe
@@ -2333,19 +1939,6 @@ g11:p53:3:
   - 0.9894
   score: 0.991
   w_cm: 3.234
-g11:p53:4:
-  ar: 1.0
-  dh: 00000000000080069bfeae5cae1cbe1ca61ca63ca630a600c800c00000000000
-  font: G11 p53 info-p53-4.jpg
-  h_cm: 5.004
-  pdf_pag: 467
-  rect:
-  - 0.3287
-  - 0.6529
-  - 0.4514
-  - 0.7686
-  score: 0.827
-  w_cm: 5.283
 g11:p56:1:
   ar: 1.5015
   dh: 03f0e07e1c0f03810078001e0027802f880700316011f8893e310f8127e109f9
@@ -2359,45 +1952,20 @@ g11:p56:1:
   - 0.9979
   score: 0.961
   w_cm: 4.809
-g11:p56:2:
-  ar: 1.0
-  dh: 30e06cc8c8d8c4f8c8c8cccccc0cf0e4ccecc4b8c09cc19ce0f8e0e870e01e80
-  font: G11 p56 icona-produccio-cubets.jpg
-  h_cm: 5.004
-  pdf_pag: 467
+g11:p59:3:
+  ar: 1.4714
+  dh: e98c85c8374a330e1f1ac74ab342c98ef34af106cd0e071a070e070acd88e0e0
+  font: G11 p59 info-p59-3.jpg
+  h_cm: 2.591
+  pdf_pag: 443
   rect:
-  - 0.8486
-  - 0.3246
-  - 0.9843
-  - 0.437
-  score: 0.898
-  w_cm: 6.079
-g11:p59:1:
-  ar: 1.0
-  dh: 000020008002c41891f881f8a5f9a5f887f8c7e8c7c2e7823f8003f800180000
-  font: G11 p59 info-p59-1.jpg
-  h_cm: 5.004
-  pdf_pag: 467
-  rect:
-  - 0.1929
-  - 0.356
-  - 0.3557
-  - 0.4898
-  score: 0.899
-  w_cm: 6.079
-g11:p59:2:
-  ar: 1.0
-  dh: 2000e402c00282088000a000fff880068006800680068002b8009ff880380008
-  font: G11 p59 info-p59-2.jpg
-  h_cm: 5.004
-  pdf_pag: 467
-  rect:
-  - 0.8471
-  - 0.2074
-  - 0.96
-  - 0.2999
-  score: 0.906
-  w_cm: 6.079
+  - 0.4198
+  - 0.0
+  - 1.0
+  - 0.9997
+  score: 0.99
+  sift: 140
+  w_cm: 2.261
 g11:p61:1:
   ar: 1.5015
   dh: 03f0e07e1c0f03810078001e0027802f880700316011f8893e310f8127e109f9
@@ -2411,45 +1979,6 @@ g11:p61:1:
   - 0.9979
   score: 0.961
   w_cm: 4.809
-g11:p63:1:
-  ar: 0.661
-  dh: 7e00ffe0dfe0ffe0bfc08348aa80a2408040844080488048a040c040cfc040c0
-  font: G11 p63 info-p63-1.jpg
-  h_cm: 5.004
-  pdf_pag: 467
-  rect:
-  - 0.6458
-  - 0.6859
-  - 0.7667
-  - 0.7513
-  score: 0.901
-  w_cm: 6.079
-g11:p63:2:
-  ar: 0.862
-  dh: 3c00f0009ff2bff2bfd2ffd0f9c2d1c6d00cb00cc00ca40ec01ce00cf8081ff0
-  font: G11 p63 info-p63-2.jpg
-  h_cm: 3.192
-  pdf_pag: 441
-  rect:
-  - 0.743
-  - 0.3159
-  - 0.8607
-  - 0.3984
-  score: 0.888
-  w_cm: 3.895
-g11:p65:2:
-  ar: 0.5749
-  dh: ed0ce564e7f4f3bcf3bcf3b83fb01fb03fd03f503f703e703ff03ff03fe07320
-  font: G11 p65 info-p65-2.png
-  h_cm: 5.004
-  pdf_pag: 467
-  rect:
-  - 0.7463
-  - 0.7873
-  - 0.8781
-  - 0.8499
-  score: 0.92
-  w_cm: 6.079
 g11:p67:1:
   ar: 1.4139
   dh: 98f09c7c9e1a9b1b199f389a30993098789e689e709e3c9e1e9e069fc39d919d
@@ -2465,12 +1994,17 @@ g11:p67:1:
   w_cm: 5.656
 g11:p67:2:
   ar: 1.0
-  bitmap: assets/original-pdf/g11-p427-x4014.png
   dh: 838003830387330f121f067707f003f8007e601fe383c38083c003f003fe83fe
   font: G11 p67 info-p04-2.jpg
   h_cm: 4.005
-  pdf_pag: 427
-  score: 0.577
+  pdf_pag: 460
+  rect:
+  - 0.0
+  - 0.0
+  - 1.0
+  - 1.0
+  score: 0.715
+  sift: 43
   w_cm: 3.996
 g11:p67:3:
   ar: 1.0788
@@ -2589,19 +2123,6 @@ g11:p71:5:
   - 0.9983
   score: 0.998
   w_cm: 4.648
-g11:p71:6:
-  ar: 1.0431
-  dh: 0000000039fc34043410349034b33e103ec836b4327337727f447740727f7180
-  font: G11 p71 info-p71-6.png
-  h_cm: 5.004
-  pdf_pag: 467
-  rect:
-  - 0.2914
-  - 0.8751
-  - 0.4286
-  - 0.9924
-  score: 0.883
-  w_cm: 6.079
 g11:p74:1:
   ar: 1.4139
   dh: 98f09c7c9e1a9b1b199f389a30993098789e689e709e3c9e1e9e069fc39d919d
@@ -2680,32 +2201,6 @@ g11:p74:6:
   - 0.9983
   score: 0.998
   w_cm: 4.648
-g11:p77:1:
-  ar: 1.6105
-  dh: 18001000132212021302130231c2e003d5203ff8381c7c0c000cf80e3fde03f0
-  font: G11 p77 info-p77-1.jpg
-  h_cm: 5.004
-  pdf_pag: 467
-  rect:
-  - 0.26
-  - 0.0716
-  - 0.3729
-  - 0.2205
-  score: 0.904
-  w_cm: 6.079
-g11:p77:2:
-  ar: 1.3132
-  dh: 70007000e8609ce0068406c406f806f006f03f003bc0bff0c0ffe800dfa0c1bf
-  font: G11 p77 info-p77-2.jpg
-  h_cm: 5.004
-  pdf_pag: 467
-  rect:
-  - 0.3987
-  - 0.5947
-  - 0.5214
-  - 0.7467
-  score: 0.858
-  w_cm: 5.283
 g11:p77:3:
   ar: 1.0
   dh: 838003830387330f121f067707f003f8007e601fe383c38083c003f003fe83fe
@@ -2823,19 +2318,6 @@ g11:p80:4:
   - 0.9983
   score: 0.998
   w_cm: 4.648
-g11:p80:5:
-  ar: 1.2549
-  dh: 0000000bbb7fe3ffe7aee6bde35ae95a9fb7c557b6ff8e049a8c8a04883c89fc
-  font: G11 p80 info-p80-5.png
-  h_cm: 5.004
-  pdf_pag: 467
-  rect:
-  - 0.84
-  - 0.8157
-  - 0.96
-  - 0.9389
-  score: 0.926
-  w_cm: 6.079
 g11:p80:6:
   ar: 1.6175
   dh: fbf0236037d82c84461f071f076c8b6d8b6cc76c4368c368cb68db28fb37d717
@@ -3443,14 +2925,15 @@ g12:p30:2:
   ar: 1.0
   dh: c51ee496c406c92cd03a90ca956ad00a95fa906a95ea906a92aec28ee40ee002
   font: G12 p30 info-p30-1.jpg
-  h_cm: 3.421
+  h_cm: 3.514
   pdf_pag: 527
   rect:
-  - 0.0164
-  - 0.3377
-  - 0.7385
-  - 0.6909
-  score: 0.967
+  - 0.3574
+  - 0.6834
+  - 0.9669
+  - 0.9869
+  score: 0.71
+  sift: 42
   w_cm: 6.993
 g12:p30:3:
   ar: 1.0
@@ -3751,6 +3234,20 @@ g12:p5:3:
   - 0.9979
   score: 0.998
   w_cm: 6.198
+g12:p5:4:
+  ar: 2.7737
+  dh: 0000940094e994889c9e94e491ea398a6c9cc4c284e88d88d990d1e0e0606000
+  font: G12 p5 info-p05-2.jpg
+  h_cm: 3.607
+  pdf_pag: 502
+  rect:
+  - 0.0
+  - 0.0
+  - 0.9993
+  - 0.9975
+  score: 0.99
+  sift: 234
+  w_cm: 10.008
 g12:p63:1:
   ar: 0.818
   dh: fa71d939f839fa39da393a39ba19da19d0d9d9d9d97ddb89d8c9d8d9d88dd9dd
@@ -4117,26 +3614,18 @@ g12:p81:4:
   w_cm: 8.602
 g12:p81:5:
   ar: 1.0
-  bitmap: assets/original-pdf/g12-p578-x5271.png
   dh: 1e8072f0e768c274c0e2c1cef19ff29fd29fd19bd0ced0cedae4fa707b601f00
   font: G12 p81 info-p81-5.png
   h_cm: 3.327
   pdf_pag: 578
-  score: 0.729
-  w_cm: 3.319
-g12:p81:6:
-  ar: 1.0
-  dh: 000000007000b000dc02bf0c83f2801e801e301e1e4e07e800f0006000200000
-  font: G12 p81 info-p81-6.jpg
-  h_cm: 2.074
-  pdf_pag: 525
   rect:
-  - 0.2729
-  - 0.5257
-  - 0.3871
-  - 0.6229
-  score: 0.824
-  w_cm: 2.447
+  - 0.0
+  - 0.0
+  - 1.0
+  - 1.0
+  score: 0.99
+  sift: 244
+  w_cm: 3.319
 g12:p81:7:
   ar: 1.5898
   dh: 3079281f440dc4375c1725934c3084378427c867d86738cf8dcf619f045f8a1f
@@ -4191,12 +3680,17 @@ g12:p85:3:
   w_cm: 6.46
 g12:p85:4:
   ar: 1.0
-  bitmap: assets/original-pdf/g12-p582-x5307.png
   dh: 000000000000000803f8280e83f8ca0852d04670460060003000000000000000
   font: G12 p85 info-p85-4.jpg
   h_cm: 4.504
   pdf_pag: 582
-  score: 0.695
+  rect:
+  - 0.0
+  - 0.2248
+  - 0.9996
+  - 0.8082
+  score: 0.99
+  sift: 369
   w_cm: 7.73
 g12:p85:5:
   ar: 5.1237
@@ -4250,19 +3744,6 @@ g13:p18:4:
   - 0.9652
   score: 0.979
   w_cm: 4.597
-g13:p18:5:
-  ar: 1.0
-  dh: 0000000000000000f99801545146c0826d33f9b3510350008000000000000000
-  font: G13 p18 info-p18-7.jpg
-  h_cm: 4.343
-  pdf_pag: 656
-  rect:
-  - 0.6414
-  - 0.529
-  - 0.7814
-  - 0.6512
-  score: 0.823
-  w_cm: 4.995
 g13:p18:6:
   ar: 1.0
   dh: 070004c00c400c600c400c800d800d000c000c000e000e000c000c000c000c00
@@ -4306,14 +3787,15 @@ g13:p22:2:
   ar: 1.268
   dh: 0180018001804380c600a980c9d0f9809c0e860e860e860ee61876001e000c00
   font: G13 p22 info-p22-1.jpg
-  h_cm: 4.25
+  h_cm: 4.301
   pdf_pag: 611
   rect:
-  - 0.0117
-  - 0.22
-  - 0.4598
-  - 0.7566
-  score: 0.988
+  - 0.3351
+  - 0.0142
+  - 0.9932
+  - 0.8133
+  score: 0.87
+  sift: 74
   w_cm: 4.496
 g13:p22:3:
   ar: 1.0
@@ -4408,12 +3890,17 @@ g13:p27:4:
   w_cm: 5.52
 g13:p31:2:
   ar: 0.9838
-  bitmap: assets/original-pdf/g13-p620-x6076.png
   dh: 40b340f38ee38ccf8d9d8e399c7399efd1c7e3178e0e188e30af629692ce12ff
   font: G13 p31 info-p31-1.png
   h_cm: 4.682
   pdf_pag: 620
-  score: 0.721
+  rect:
+  - 0.0
+  - 0.0
+  - 0.9993
+  - 0.999
+  score: 0.755
+  sift: 51
   w_cm: 4.597
 g13:p31:3:
   ar: 1.0063
@@ -5340,12 +4827,17 @@ g14:p62:4:
   w_cm: 3.505
 g14:p62:5:
   ar: 1.0152
-  bitmap: assets/original-pdf/g14-p723-x7339.png
   dh: c0ebeaaf6b2c2b2d2b2dab2dab2dab2da92ca924ad24ad24ad252d64e53cfc02
   font: G14 p62 info-p62-4.jpg
   h_cm: 3.446
   pdf_pag: 723
-  score: 0.727
+  rect:
+  - 0.0
+  - 0.0
+  - 0.999
+  - 1.0
+  score: 0.845
+  sift: 69
   w_cm: 3.505
 g14:p62:6:
   ar: 1.5776
@@ -6140,19 +5632,6 @@ g15:p56:8:
   - 0.9406
   score: 0.975
   w_cm: 8.001
-g15:p56:9:
-  ar: 1.0
-  dh: e178e178c0a0c6a0cca0cea0cfe0cc00e07cc07cc47cecfcc8e8e80c60002000
-  font: G15 p56 info-p56-10.jpg
-  h_cm: 8.314
-  pdf_pag: 788
-  rect:
-  - 0.84
-  - 0.4671
-  - 0.9643
-  - 0.5957
-  score: 0.831
-  w_cm: 8.001
 g15:p63:1:
   ar: 1.8898
   dh: 806088e4c8e4cce2cce588e68060000000008020846038e438e434e71ce58060
@@ -6335,6 +5814,20 @@ g15:p69:8:
   - 0.5684
   score: 0.968
   w_cm: 8.001
+g15:p69:9:
+  ar: 1.5699
+  dh: 01840145016d01ad198d3c847c8d610d614460cd7c4d63c5e9046ffc61fc617c
+  font: G15 p69 info-p69-8.jpg
+  h_cm: 4.487
+  pdf_pag: 801
+  rect:
+  - 0.0
+  - 0.0
+  - 0.9995
+  - 0.9996
+  score: 0.99
+  sift: 297
+  w_cm: 7.036
 g15:p77:2:
   ar: 1.3245
   dh: c013c013c033c013c003c013f013dc13cf13039301e3007b001f000600020006
@@ -6361,45 +5854,6 @@ g15:p77:3:
   - 0.8884
   score: 0.999
   w_cm: 6.993
-g15:p85:1:
-  ar: 1.0
-  dh: 0000000000000f00fc809c800c800c846d8666cc00cc00ce006c003000000000
-  font: G15 p85 info-p85-1.jpg
-  h_cm: 4.106
-  pdf_pag: 736
-  rect:
-  - 0.4629
-  - 0.186
-  - 0.5769
-  - 0.2413
-  score: 0.907
-  w_cm: 8.492
-g15:p85:2:
-  ar: 1.001
-  dh: 000001607fe0ff20e00683fec3fce018e8e86b34731032181808180008000000
-  font: G15 p85 info-p85-2.jpg
-  h_cm: 8.314
-  pdf_pag: 788
-  rect:
-  - 0.8243
-  - 0.5708
-  - 0.9543
-  - 0.7053
-  score: 0.882
-  w_cm: 8.001
-g15:p85:3:
-  ar: 1.0
-  dh: 000003f8ffecc0fccff2cc0e83bee78ce05869e06b2073103818180018000000
-  font: G15 p85 foto-p54-0d21e2.jpg
-  h_cm: 8.314
-  pdf_pag: 788
-  rect:
-  - 0.8143
-  - 0.6314
-  - 0.9271
-  - 0.7486
-  score: 0.887
-  w_cm: 8.001
 g15:p85:4:
   ar: 1.0
   dh: 1f207338f338f334e70cc71cc71cc71cc71cc71cc71cc71ce70c670833103610
@@ -6426,57 +5880,19 @@ g15:p88:10:
   - 0.8884
   score: 0.999
   w_cm: 6.993
-g15:p88:4:
-  ar: 1.0
-  dh: d400d180c080c0c0c040584090209020103060106018e018d00cd00cd004e802
-  font: G15 p88 info-p88-1.jpg
-  h_cm: 0.576
-  pdf_pag: 813
-  rect:
-  - 0.44
-  - 0.46
-  - 0.9929
-  - 0.5386
-  score: 0.823
-  w_cm: 4.005
-g15:p88:5:
-  ar: 1.0
-  dh: 00000000000000000000036ef20e8006820a8000800000000000000000000000
-  font: G15 p88 icona-wok-242e30.jpg
-  h_cm: 3.505
-  pdf_pag: 809
-  rect:
-  - 0.2116
-  - 0.5916
-  - 0.3369
-  - 0.6542
-  score: 0.838
-  w_cm: 6.993
-g15:p88:6:
-  ar: 1.642
-  dh: 000004000d003949f0ee803e03e31e00e66006607e60fec0ff00d800e000e000
-  font: G15 p88 info-p88-4.jpg
-  h_cm: 8.314
-  pdf_pag: 788
-  rect:
-  - 0.6786
-  - 0.507
-  - 0.7929
-  - 0.7019
-  score: 0.875
-  w_cm: 8.001
 g15:p88:7:
   ar: 2.0326
   dh: 00000000e000e002b60497fdb0059405b805f801bff982f8a306befc8ffc87fc
   font: G15 p88 foto-p66.png
-  h_cm: 1.575
+  h_cm: 1.558
   pdf_pag: 798
   rect:
-  - 0.519
-  - 0.1544
-  - 0.9842
-  - 0.4854
-  score: 0.99
+  - 0.5145
+  - 0.4867
+  - 0.9849
+  - 0.8183
+  score: 0.76
+  sift: 52
   w_cm: 4.496
 g15:p88:8:
   ar: 1.8315
@@ -6987,21 +6403,31 @@ g16:p32:11:
   w_cm: 2.32
 g16:p32:3:
   ar: 1.413
-  bitmap: assets/original-pdf/g16-p848-x8473.png
   dh: c20cad5050d45001000100011aa136a139611951000100010001000100018002
   font: G16 p32 info-p32-1.jpg
   h_cm: 3.531
   pdf_pag: 848
-  score: 0.727
+  rect:
+  - 0.0
+  - 0.0
+  - 1.0
+  - 0.9983
+  score: 0.77
+  sift: 54
   w_cm: 4.995
 g16:p32:4:
   ar: 1.7787
-  bitmap: assets/original-pdf/g16-p848-x8474.png
   dh: f24078892889655168a92aa91001000114213c213ab1aaa9f254a31e2ba91057
   font: G16 p32 info-p32-2.jpg
   h_cm: 2.811
   pdf_pag: 848
-  score: 0.775
+  rect:
+  - 0.0
+  - 0.0003
+  - 1.0
+  - 0.9991
+  score: 0.99
+  sift: 160
   w_cm: 4.995
 g16:p32:5:
   ar: 1.0
@@ -7460,12 +6886,17 @@ g1:p29:3:
   w_cm: 3.996
 g1:p29:4:
   ar: 1.0
-  bitmap: assets/original-pdf/g1-p29-x1018.png
   dh: 0006a006a00e3c1c201c201c301c361c307430b431bc345c3e2030b830983038
   font: G1 p29 info-p29-3.png
   h_cm: 4.047
   pdf_pag: 29
-  score: 0.739
+  rect:
+  - 0.0
+  - 0.0
+  - 1.0
+  - 1.0
+  score: 0.965
+  sift: 93
   w_cm: 4.013
 g1:p30:5:
   ar: 1.0
@@ -7807,12 +7238,17 @@ g2:p9:1:
   w_cm: 3.404
 g2:p9:10:
   ar: 1.0
-  bitmap: assets/original-pdf/g2-p55-x1217.png
   dh: 00000000000010003400cea09caf99ebf94b0fd301f2003e0002000000000000
   font: G2 p9 info-p09-10.jpg
   h_cm: 1.761
   pdf_pag: 55
-  score: 0.74
+  rect:
+  - 0.0
+  - 0.2406
+  - 0.9993
+  - 0.757
+  score: 0.76
+  sift: 52
   w_cm: 3.404
 g2:p9:2:
   ar: 0.7991
@@ -8308,19 +7744,6 @@ g4:p22:3:
   - 0.998
   score: 0.99
   w_cm: 6.198
-g4:p22:4:
-  ar: 1.0
-  dh: 0000000000000002001e00f803c09ec0d000c000c00060006000000000000000
-  font: G4 p22 info-p22-4.jpg
-  h_cm: 4.741
-  pdf_pag: 122
-  rect:
-  - 0.5344
-  - 0.3887
-  - 0.6914
-  - 0.4956
-  score: 0.884
-  w_cm: 7.002
 g4:p30:1:
   ar: 0.9831
   dh: 03001f0038c07a18ce38cbf491fc91fe8bfee7a4c1c4ebe8639037c00f800300
@@ -8414,12 +7837,17 @@ g4:p30:7:
   w_cm: 7.002
 g4:p30:8:
   ar: 0.9521
-  bitmap: assets/original-pdf/g4-p122-x1664.png
   dh: 00e007807e10dd30e0c0a770dd186ccc37221b0c8e43c33c230c1b340e700710
   font: G4 p30 info-p30-8.jpg
   h_cm: 4.123
   pdf_pag: 122
-  score: 0.725
+  rect:
+  - 0.0
+  - 0.1679
+  - 0.999
+  - 0.728
+  score: 0.99
+  sift: 164
   w_cm: 7.002
 g4:p35:1:
   ar: 0.9613
@@ -8605,12 +8033,17 @@ g4:p48:1:
   w_cm: 3.996
 g4:p48:2:
   ar: 1.0421
-  bitmap: assets/original-pdf/g4-p140-x1735.png
   dh: 00800380030003f04690cef08db0ac70cbc0c990eda0578401b400b000600040
   font: G4 p48 info-p48-2.jpg
   h_cm: 3.844
   pdf_pag: 140
-  score: 0.793
+  rect:
+  - 0.0
+  - 0.0
+  - 1.0
+  - 1.0
+  score: 0.99
+  sift: 875
   w_cm: 3.996
 g4:p48:3:
   ar: 0.893
@@ -8963,19 +8396,6 @@ g5:p21:3:
   - 0.998
   score: 0.99
   w_cm: 6.198
-g5:p21:4:
-  ar: 1.0
-  dh: 0000000000000002001e00f803c09ec0d000c000c00060006000000000000000
-  font: G5 p21 info-p21-4.jpg
-  h_cm: 4.741
-  pdf_pag: 179
-  rect:
-  - 0.5344
-  - 0.3887
-  - 0.6914
-  - 0.4956
-  score: 0.884
-  w_cm: 7.002
 g5:p29:1:
   ar: 0.9831
   dh: 03001f0038c07a18ce38cbf491fc91fe8bfee7a4c1c4ebe8639037c00f800300
@@ -9069,12 +8489,17 @@ g5:p29:7:
   w_cm: 7.002
 g5:p29:8:
   ar: 0.9521
-  bitmap: assets/original-pdf/g5-p179-x1664.png
   dh: 00e007807e10dd30e0c0a770dd186ccc37221b0c8e43c33c230c1b340e700710
   font: G5 p29 info-p29-8.jpg
   h_cm: 4.123
   pdf_pag: 179
-  score: 0.725
+  rect:
+  - 0.0
+  - 0.1679
+  - 0.999
+  - 0.728
+  score: 0.99
+  sift: 164
   w_cm: 7.002
 g5:p35:1:
   ar: 0.9613
@@ -9234,12 +8659,17 @@ g5:p42:4:
   w_cm: 5.004
 g5:p42:5:
   ar: 1.0013
-  bitmap: assets/original-pdf/g5-p192-x1989.png
   dh: 0f0030706c4cc634d18cc0e4e030dc08c318c118c918c918c818411870f01e00
   font: G5 p42 info-p42-5.png
   h_cm: 4.995
   pdf_pag: 192
-  score: 0.545
+  rect:
+  - 0.0
+  - 0.0
+  - 1.0
+  - 1.0
+  score: 0.625
+  sift: 25
   w_cm: 5.004
 g5:p46:1:
   ar: 1.0627
@@ -9256,12 +8686,17 @@ g5:p46:1:
   w_cm: 3.996
 g5:p46:2:
   ar: 1.0421
-  bitmap: assets/original-pdf/g5-p196-x1735.png
   dh: 00800380030003f04690cef08db0ac70cbc0c990eda0578401b400b000600040
   font: G5 p46 info-p46-2.jpg
   h_cm: 3.844
   pdf_pag: 196
-  score: 0.793
+  rect:
+  - 0.0
+  - 0.0
+  - 1.0
+  - 1.0
+  score: 0.99
+  sift: 875
   w_cm: 3.996
 g5:p46:3:
   ar: 0.893
@@ -9536,19 +8971,6 @@ g5:p59:4:
   - 0.998
   score: 0.99
   w_cm: 6.198
-g5:p59:5:
-  ar: 1.0
-  dh: 0000000000000002001e00f803c09ec0d000c000c00060006000000000000000
-  font: G5 p59 info-p21-4.jpg
-  h_cm: 4.741
-  pdf_pag: 179
-  rect:
-  - 0.5344
-  - 0.3887
-  - 0.6914
-  - 0.4956
-  score: 0.884
-  w_cm: 7.002
 g5:p59:6:
   ar: 0.9831
   dh: 03001f0038c07a18ce38cbf491fc91fe8bfee7a4c1c4ebe8639037c00f800300
@@ -9634,11 +9056,12 @@ g6:p11:5:
   h_cm: 2.938
   pdf_pag: 217
   rect:
-  - 0.0014
-  - 0.09
-  - 0.9957
-  - 0.9435
-  score: 0.905
+  - 0.0
+  - 0.0
+  - 1.0
+  - 1.0
+  score: 0.99
+  sift: 148
   w_cm: 5.004
 g6:p17:1:
   ar: 1.0
@@ -9861,19 +9284,6 @@ g6:p33:3:
   - 0.9971
   score: 0.97
   w_cm: 6.502
-g6:p33:4:
-  ar: 1.0
-  dh: 0000000000000002001e00f803c09ec0d000c000c00060006000000000000000
-  font: G6 p33 info-p33-3.jpg
-  h_cm: 6.909
-  pdf_pag: 210
-  rect:
-  - 0.8373
-  - 0.0447
-  - 0.9514
-  - 0.277
-  score: 0.848
-  w_cm: 3.395
 g6:p4:1:
   ar: 1.0
   dh: 8000e01ef89ef831b63b9a19ed86e6b3f306d10fd807cc87c60fc64fcf9fcd9e
@@ -10474,12 +9884,17 @@ g8:p16:4:
   w_cm: 7.891
 g8:p16:5:
   ar: 3.2573
-  bitmap: assets/original-pdf/g8-p301-x2706.png
   dh: b372cea28e868f2a86e8c6cc6ccc6f4c4ecc4fcc66ccc78cc768cea2ce8ab2a2
   font: G8 p16 info-p16-5.jpg
   h_cm: 3.505
   pdf_pag: 301
-  score: 0.764
+  rect:
+  - 0.0
+  - 0.0
+  - 1.0
+  - 0.9985
+  score: 0.98
+  sift: 96
   w_cm: 11.396
 g8:p16:6:
   ar: 1.0
@@ -10951,12 +10366,17 @@ g8:p45:8:
   w_cm: 4.022
 g8:p45:9:
   ar: 1.3864
-  bitmap: assets/original-pdf/g8-p330-x2863.png
   dh: 363c0e1d28ada887a317c24bbcf68d9ee41e661e39ae3e6e773e5f191fd91fd1
   font: G8 p45 info-p45-7.jpg
   h_cm: 3.802
   pdf_pag: 330
-  score: 0.748
+  rect:
+  - 0.0
+  - 0.0
+  - 0.9994
+  - 0.9993
+  score: 0.99
+  sift: 861
   w_cm: 5.834
 g8:p4:1:
   ar: 1.3454
@@ -11038,12 +10458,17 @@ g8:p5:6:
   w_cm: 4.005
 g8:p9:1:
   ar: 1.2887
-  bitmap: assets/original-pdf/g8-p294-x2662.png
   dh: c9c0cde0e4f03458f898b0d8fc58b4d8fc98dc586c5accda6cdaccd2ce520a1a
   font: G8 p9 info-p09-1.jpg
   h_cm: 5.994
   pdf_pag: 294
-  score: 0.771
+  rect:
+  - 0.2118
+  - 0.0
+  - 0.9999
+  - 0.9995
+  score: 0.99
+  sift: 449
   w_cm: 6.088
 g8:p9:2:
   ar: 0.7923
@@ -11162,19 +10587,6 @@ g9:p29:4:
   - 0.9958
   score: 0.962
   w_cm: 8.001
-g9:p29:5:
-  ar: 1.0
-  dh: 000000000000c01c809cc13cce304d34325c5698e318d2960421000000000000
-  font: G9 p29 info-p29-5.jpg
-  h_cm: 8.306
-  pdf_pag: 385
-  rect:
-  - 0.0943
-  - 0.15
-  - 0.2171
-  - 0.2743
-  score: 0.912
-  w_cm: 8.204
 g9:p29:6:
   ar: 1.6706
   dh: bc9809b93b1c033cff9bf99b98d996d1d896c336df16c33eef3c9e9c2878c599
@@ -11385,12 +10797,17 @@ g9:p39:5:
   w_cm: 3.886
 g9:p40:1:
   ar: 1.4889
-  bitmap: assets/original-pdf/g9-p381-x3152.png
   dh: 16790e3b28bba18fa327c6569cb4cd3c649c763c38fc3e7c173c1f1a1f921fd2
   font: G9 p40 info-p40-1.png
   h_cm: 2.024
   pdf_pag: 381
-  score: 0.791
+  rect:
+  - 0.0
+  - 0.0
+  - 1.0
+  - 1.0
+  score: 0.99
+  sift: 326
   w_cm: 2.997
 g9:p40:10:
   ar: 1.0
@@ -11433,12 +10850,17 @@ g9:p40:7:
   w_cm: 4.945
 g9:p40:8:
   ar: 1.6471
-  bitmap: assets/original-pdf/g9-p381-x3151.png
   dh: 9de68d92e11e823eccaec11d623ca67a8cf881fc21f649e1c9f0cd9c63ce7361
   font: G9 p40 info-p40-5.png
   h_cm: 2.007
   pdf_pag: 381
-  score: 0.788
+  rect:
+  - 0.0
+  - 0.0
+  - 1.0
+  - 1.0
+  score: 0.99
+  sift: 388
   w_cm: 3.294
 g9:p5:1:
   ar: 1.0
