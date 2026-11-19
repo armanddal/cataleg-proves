@@ -1,0 +1,15 @@
+# Colors per grup, mesurats píxel a píxel al PDF de la tarifa original (cataleg_original_web.pdf):
+#   cocció (G1-G9)            vermell  (és el que porten les plantilles gN.yaml: granat #772f32 / títols #a22b2d / icones #bf5130)
+#   campanes, rentat, elements neutres, drop-in, maquinària auxiliar (G10, G13-G16)  lila
+#   fred industrial i vitrines (G11, G12)  blau
+# Rols (estil.css): granat = franja lateral i barres «GN PAG.»; vermell_titols = capçalera i caixa del número de pàgina (var --cap);
+# titol = títols de text (h3/h4) i data del peu; chip = pestanya de la sèrie sota la capçalera; taronja_icones = capçalera de taula i caixes d'equivalència;
+# vermell_referencies = requadre/número de les referències de les fotos; taronja_portada = número de grup i títol de la portada.
+grups:
+  10: &lila {granat: '#600060', vermell_titols: '#600060', titol: '#800080', chip: '#800080', taronja_icones: '#b164b1', vermell_referencies: '#800080', taronja_portada: '#600060'}
+  13: *lila
+  14: *lila
+  15: *lila
+  16: *lila
+  11: &blau {granat: '#006998', vermell_titols: '#006998', titol: '#006599', chip: '#004364', taronja_icones: '#64a0bd', vermell_referencies: '#006599', taronja_portada: '#006599'}
+  12: *blau

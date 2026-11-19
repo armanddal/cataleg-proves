@@ -111,10 +111,49 @@ def _dhash(im):
     return f'{bits:064x}'
 
 
-def recorta_pub(src, portada=False):
+_ORIG = None
+
+
+def recorts_original(clau):
+    """Entrada de dades/recorts-original.yaml per a (grup, pàgina, referència) o None. Aquest fitxer el genera scripts/recorts_original.py llegint el PDF de la tarifa
+    ORIGINAL: el retall exacte de cada foto de cada pàgina d'informació (sense template matching sobre el render)."""
+    global _ORIG
+    if _ORIG is None:
+        f = os.path.join(ROOT, 'dades', 'recorts-original.yaml')
+        try: _ORIG = (yaml.safe_load(open(f, encoding='utf8')) or {}) if os.path.exists(f) else {}
+        except Exception: _ORIG = {}
+    return _ORIG.get('g%s:p%s:%s' % clau) if clau else None
+
+
+def recorta_original(src, clau):
+    """Foto d'una pàgina d'informació tal com surt a la tarifa original (retall exacte per grup + pàgina + número de referència). Torna el camí relatiu
+    d'una còpia retallada, o None si no n'hi ha entrada o l'asset no és la mateixa foto (distància dHash > 18: foto canviada a Odoo -> es deixa tal qual)."""
+    e = recorts_original(clau)
+    if not e: return None
+    try:
+        from PIL import Image
+        orig = os.path.join(ROOT, src); im = Image.open(orig)
+        if e.get('bitmap'): return e['bitmap'] if os.path.exists(os.path.join(ROOT, e['bitmap'])) else None
+        if bin(int(_dhash(im), 16) ^ int(e['dh'], 16)).count('1') > 18: return None
+        sha = hashlib.sha1(open(orig, 'rb').read()).hexdigest()
+        dest_rel = os.path.join('treball', 'img-recortades', 'o-' + sha[:12] + '-' + hashlib.md5(repr(e['rect']).encode()).hexdigest()[:8] + '.jpg')
+        dest = os.path.join(ROOT, dest_rel)
+        if os.path.exists(dest): return dest_rel
+        im = im.convert('RGB'); w, h = im.size; x0, y0, x1, y1 = e['rect']
+        os.makedirs(os.path.dirname(dest), exist_ok=True)
+        im.crop((round(x0 * w), round(y0 * h), round(x1 * w), round(y1 * h))).save(dest, 'JPEG', quality=90, optimize=True)
+        return dest_rel
+    except Exception:
+        return None
+
+
+def recorta_pub(src, portada=False, clau=None):
     """Foto d'una pàgina d'informació tal com la retalla la tarifa publicada (marc + zoom del .pub): dades/recorts-fotos.yaml, clau = sha1 de
     l'asset (portada=True: només els recorts de portada; el troba scripts/recorts_pub.py comparant amb el PDF publicat). Torna una còpia retallada a treball/img-recortades/ o l'original si no n'hi ha."""
     global _RECORTS
+    if clau and not portada:
+        r = recorta_original(src, clau)         # 1r: retall exacte llegit del PDF original (grup, pàgina, referència)
+        if r: return r
     try:
         if _RECORTS is None:
             f = os.path.join(ROOT, 'dades', 'recorts-fotos.yaml')
@@ -191,6 +230,16 @@ def codi_html(codi, trossos=None, destacats=None):
     return E(codi)
 
 
+def colors_grup(base, grup):
+    """Colors de la plantilla (comuns, els vermells dels grups de cocció) + els del grup segons dades/colors-grup.yaml: fred = blau, neutres/rentat/campanes = lila (mesurats al PDF original)."""
+    try:
+        f = os.path.join(ROOT, 'dades', 'colors-grup.yaml')
+        extra = ((yaml.safe_load(open(f, encoding='utf8')) or {}).get('grups') or {}).get(int(grup)) if os.path.exists(f) else None
+    except Exception:
+        extra = None
+    return dict(base, **extra) if extra else dict(base)
+
+
 class Ctx:
     def __init__(self, dades, preus):
         self.d = dades; self.preus = preus
@@ -200,7 +249,7 @@ class Ctx:
         self.avisos = []
         self.data = dades['grup']['data_edicio']
         self.grup = dades['grup']['numero']
-        self.colors = dades['plantilla']['colors']
+        self.colors = colors_grup(dades['plantilla']['colors'], dades['grup']['numero'])
 
     def pag(self, n): return self.num_de.get(n, n)
 
@@ -514,12 +563,12 @@ def _aspecte(src):
         return 1.0
 
 
-def blocs_html(blocs):
+def blocs_html(blocs, grup=None, pag=None):
     """Pàgina d'informació en mode «blocs» (dades d'Odoo: pagines_odoo.blocs_de): files de fotos amb la seva referència i blocs imatge + text per idioma."""
     W_, GAP = 18.6, 0.5                                          # ample útil (cm) i separació entre fotos
     files = [b for b in blocs if b['k'] == 'fotos']
     for b in files:
-        for f in b['fotos']: f = f.update(asset=recorta_pub(f['asset']))      # recorte de la tarifa publicada (si en té)
+        for i_, f in enumerate(b['fotos'], 1): f.update(asset=recorta_pub(f['asset'], clau=(grup, pag, f['referencia'] if f.get('referencia') is not None else i_) if pag is not None else None))      # retall de la tarifa original (si en té)
     asps = [[_aspecte(f['asset']) for f in b['fotos']] for b in files]
     alt = min([6.2] + [(W_ - GAP * 2) / max(sum(a), 3 * 0.9) for a in asps])         # totes les files de fotos tenen la mateixa alçada (la que faci caber la més ampla)
     h = '<div class="bl-cos">'
@@ -550,7 +599,7 @@ def blocs_html(blocs):
 
 def pagina_info(ctx, p, n):
     if p.get('blocs'):
-        return '<div class="page info blocs">' + capcalera(ctx, p) + blocs_html(p['blocs']) + peu(ctx, p, n) + '</div>'
+        return '<div class="page info blocs">' + capcalera(ctx, p) + blocs_html(p['blocs'], ctx.grup, p['n']) + peu(ctx, p, n) + '</div>'
     h = '<div class="page info">' + capcalera(ctx, p)
     for c in p['columnes']:
         pos = c['pos']
@@ -560,9 +609,9 @@ def pagina_info(ctx, p, n):
         marc = f'<div class="col-lang"><span class="lt">{c["idioma"][0].upper()}</span></div>' if c['idioma'] != 'es' else ''
         h += (f'<div class="info-col" style="left:{pos["x"]}cm;top:{pos["y"]}cm;width:{pos["w"]}cm;font-size:{(mida or 10.5) * 0.93:.1f}pt">'
               f'{marc}{parag_html(c["paragrafs"])}</div>')
-    for f in p.get('fotos', []):
+    for i_, f in enumerate(p.get('fotos', []), 1):
         pos = f['pos']
-        h += f'<div class="abs foto-ref" style="left:{pos["x"]}cm;top:{pos["y"]}cm;width:{pos["w"]}cm;height:{pos["h"]}cm"><img src="{BASE}{redueix(recorta_pub(f["asset"]))}">'
+        h += f'<div class="abs foto-ref" style="left:{pos["x"]}cm;top:{pos["y"]}cm;width:{pos["w"]}cm;height:{pos["h"]}cm"><img src="{BASE}{redueix(recorta_pub(f["asset"], clau=(ctx.grup, p["n"], f["referencia"] if f.get("referencia") is not None else i_)))}">'
         if f.get('referencia'): h += f'<i class="ref big">{f["referencia"]}</i>'
         h += '</div>'
     for i in p.get('insignies', []):
