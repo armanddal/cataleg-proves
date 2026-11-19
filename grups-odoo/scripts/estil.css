@@ -19,7 +19,7 @@ img { display: block }
 
 /* peu */
 .peu { position: absolute; left: 0; bottom: 0; width: 21cm; height: 1.4cm }
-.peu .data { position: absolute; left: 4cm; top: .5cm; color: var(--titol, var(--vermell-titols)); font-size: 10pt }
+.peu .data { position: absolute; left: 4cm; top: .5cm; color: var(--data-peu, var(--titol, var(--vermell-titols))); font-size: 10pt }
 .peu .logo { position: absolute; left: 7.5cm; top: .3cm; width: 2.2cm }
 .peu .num { position: absolute; left: 10cm; top: .1cm; width: 1cm; height: 1.2cm; background: var(--cap, var(--vermell-titols)); color: #fff; text-align: center; line-height: 1.2cm; font-size: 11pt }
 .peu-enllac { position: absolute; left: 11.8cm; top: .2cm; width: 8.4cm; height: 1cm; background: var(--beix-etiqueta); display: flex; align-items: center; gap: .15cm; padding: 0 .2cm }
@@ -89,27 +89,30 @@ figure img { flex: 1; min-height: 0; max-width: 100%; object-fit: contain; objec
 .info-col ul { list-style: none; margin: 0; padding: 0 }
 .info-col li { position: relative; padding-left: .35cm; margin-bottom: .09cm }
 .info-col li::before { content: '\2022'; position: absolute; left: .08cm }
-i.ref { display: inline-block; font-style: normal; border: 1px solid var(--vermell-referencies); color: var(--vermell-referencies); border-radius: 50%; width: 1.1em; height: 1.1em; line-height: 1em; text-align: center; font-size: .8em; font-weight: bold; margin-left: 2px; vertical-align: 1px }
-.foto-ref { display: flex; overflow: visible }
+i.ref { display: inline-block; font-style: normal; border: 1px solid var(--vermell-referencies); color: var(--vermell-referencies); border-radius: 2px; width: 1.1em; height: 1.1em; line-height: 1em; text-align: center; font-size: .8em; font-weight: bold; margin-left: 2px; vertical-align: 1px }
+.foto-ref { display: flex; overflow: visible; border: .7pt solid var(--vermell-referencies); box-sizing: border-box }     /* la tarifa publicada: vora fina del color del grup + etiqueta quadrada de cantonades arrodonides, enganxada fora de l'angle superior esquerre */
 .foto-ref img { width: 100%; height: 100%; object-fit: contain }
-i.ref.big { position: absolute; z-index: 5; left: -.55cm; top: 0; width: .7cm; height: .7cm; line-height: .62cm; font-size: 13pt; margin: 0; background: #fff }
+i.ref.big { position: absolute; z-index: 5; left: calc(-.46cm - .7pt); top: -.7pt; box-sizing: border-box; width: .46cm; height: .46cm; line-height: .4cm; font-size: 11pt; font-weight: normal; border-width: .6pt; border-radius: .08cm; margin: 0; background: #fff }
 
 /* portada */
 .portada img.abs { }
 .grup-et { position: absolute; right: .5cm; top: .6cm; color: #999; font: 31pt 'Avenir Next Condensed', 'Arial Narrow', Arial, sans-serif; letter-spacing: .03em; display: flex; align-items: center; gap: .5cm; text-transform: uppercase }
-.grup-num { border: 1.5px solid var(--taronja-portada); color: var(--taronja-portada); font-size: 35pt; width: 2.35cm; text-align: center; line-height: 1.5cm; height: 1.5cm; margin-top: .2cm }
+.grup-num { font-style: italic; border: 1.5px solid var(--taronja-portada); color: var(--taronja-portada); font-size: 35pt; width: 2.35cm; text-align: center; line-height: 1.5cm; height: 1.5cm; margin-top: .2cm }
 .grup-nom { position: absolute; right: .6cm; bottom: 1.6cm; writing-mode: vertical-rl; transform: rotate(180deg); font: bold 33pt 'Avenir Next Condensed', 'Arial Narrow', Arial, sans-serif; white-space: nowrap; line-height: 1.1; text-transform: uppercase }
 .grup-nom .fl { margin: .5cm 0; font-size: 28pt }
 .cat-tit { position: absolute; left: 1.05cm; bottom: .55cm; color: var(--taronja-portada); font: italic bold 13.5pt 'Avenir Next Condensed', 'Arial Narrow', Arial, sans-serif; line-height: 1.43 }
 .cat-tit .lt { font: normal 11.5pt 'Avenir Next Condensed', Arial, sans-serif; width: .5cm; height: .5cm; line-height: .46cm; text-align: center; padding: 0; margin-right: .3cm; border-radius: 4px; vertical-align: .02cm }
 .cat-tit .e0 { }
-.segell { position: absolute; border: .17cm solid #ff0000; border-radius: 50%; color: #ff0000; font: 900 23pt 'Arial Black', Impact, sans-serif; display: flex; flex-direction: column; align-items: center; justify-content: center; line-height: 1.12; letter-spacing: .02em }
-.segell span { display: block; transform: scaleX(1.85) }      /* la xifra de la tarifa publicada és molt ampla (tipus Eurostile Black Extended) */
+.segell { position: absolute; display: block }     /* SVG (renderitza.segell_svg): cercle + xifres dibuixades; la lletra de la tarifa original no és instal·lada */
 .grup-nom .fl { display: inline-block; line-height: 0; vertical-align: middle; margin: .12cm 0 } .grup-nom .fl-svg { display: block }
 .ser-top { position: absolute; left: 4.7cm; top: 2.12cm; display: flex; align-items: center; gap: .2cm; z-index: 3 }
+.ser-mig { grid-column: 1 / -1; display: flex; align-items: center; gap: .2cm; margin: .15cm .6cm .1cm 3.2cm }
+.ser-mig .mat { flex: 1 1 auto; min-width: 0 }
+.ser-mig .ser, .ser-top .ser { flex: none; white-space: nowrap }
+.ser-mig .mat.buit { background: none; padding: .12cm 0 }
 .ser-top .mat.buit { background: none; padding: .12cm 0 }
-.ser-top .mat { min-width: 2.45cm; box-sizing: border-box; background: #7b2f33; color: #fff; font: 11pt Arial, sans-serif; padding: .12cm .3cm; line-height: 1.1 }
-.ser-top .ser { color: #7b2f33; font: 900 11.5pt 'Arial Black', sans-serif; letter-spacing: .03em; display: inline-block; transform: scaleX(1.1); transform-origin: left }
+.ser-top .mat, .ser-mig .mat { min-width: 2.45cm; box-sizing: border-box; background: #7b2f33; color: #fff; font: 11pt Arial, sans-serif; padding: .12cm .3cm; line-height: 1.1 }
+.ser-top .ser, .ser-mig .ser { color: #7b2f33; font: 900 11.5pt 'Arial Black', sans-serif; letter-spacing: .03em; display: inline-block; transform: scaleX(1.1); transform-origin: left }
 
 /* index */
 .franja { position: absolute; top: 0; width: 4cm; height: 29.7cm; background: var(--granat) }
@@ -217,7 +220,7 @@ th.ban .l-es { font: bold 8pt Arial, sans-serif } th.ban .l-x { font: bold 6.5pt
 .page.fluid .fl-body { position: absolute; left: 1.2cm; right: 1.2cm; top: 2.9cm }
 .page.fluid .fl-fotos { display: flex; flex-wrap: wrap; justify-content: center; align-items: flex-start; gap: .25cm .4cm; margin-bottom: .45cm }
 .page.fluid .foto-ref { position: relative; flex: none }
-.page.fluid i.ref.big { left: .05cm; top: .05cm }
+.page.fluid i.ref.big { left: .05cm; top: .05cm; border-radius: .08cm }
 .page.fluid .fl-text { column-count: 2; column-gap: .8cm; text-align: justify }
 .page.fluid .info-col { position: static; width: auto; text-align: justify; break-inside: auto }
 .page.fluid .col-lang { margin: .15cm 0 .1cm; break-after: avoid }

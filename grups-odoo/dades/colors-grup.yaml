@@ -3,13 +3,13 @@
 #   campanes, rentat, elements neutres, drop-in, maquinària auxiliar (G10, G13-G16)  lila
 #   fred industrial i vitrines (G11, G12)  blau
 # Rols (estil.css): granat = franja lateral i barres «GN PAG.»; vermell_titols = capçalera i caixa del número de pàgina (var --cap);
-# titol = títols de text (h3/h4) i data del peu; chip = pestanya de la sèrie sota la capçalera; taronja_icones = capçalera de taula i caixes d'equivalència;
+# titol = títols de text (h3/h4; a les diapositives, el text que a la plantilla és #a22b2d); data_peu = data del peu (a la tarifa original és vermell #a22b2d als grups lila i #006998 al blau); chip = pestanya de la sèrie sota la capçalera; taronja_icones = capçalera de taula i caixes d'equivalència;
 # vermell_referencies = requadre/número de les referències de les fotos; taronja_portada = número de grup i títol de la portada.
 grups:
-  10: &lila {granat: '#600060', vermell_titols: '#600060', titol: '#800080', chip: '#800080', taronja_icones: '#b164b1', vermell_referencies: '#800080', taronja_portada: '#600060'}
+  10: &lila {granat: '#600060', vermell_titols: '#600060', titol: '#800080', chip: '#800080', taronja_icones: '#b164b1', vermell_referencies: '#800080', taronja_portada: '#600060', data_peu: '#a22b2d'}
   13: *lila
   14: *lila
   15: *lila
   16: *lila
-  11: &blau {granat: '#006998', vermell_titols: '#006998', titol: '#006599', chip: '#004364', taronja_icones: '#64a0bd', vermell_referencies: '#006599', taronja_portada: '#006599'}
+  11: &blau {granat: '#006998', vermell_titols: '#006998', titol: '#006599', chip: '#004364', taronja_icones: '#64a0bd', vermell_referencies: '#006599', taronja_portada: '#006599', data_peu: '#006998'}
   12: *blau

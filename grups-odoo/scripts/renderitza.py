@@ -62,7 +62,37 @@ def fmt_preu(v):
 
 
 # ----------------------------------------------------------------------------- utilitats HTML
+ICONA_BG = None      # color de fons de les icones de capçalera del grup (només grups amb colors propis: lila/blau); les icones dels .pub porten el taronja de cocció
+
+
+def recolora_icona(src):
+    """Les icones de columna (assets/gN/icona-*.jpg) són lletra blanca sobre el taronja de cocció #bf5130; als grups lila/blau la tarifa original les porta
+    sobre el color del grup. Es fa una còpia PNG amb el fons canviat (barreja blanc <-> fons conservada via el canal verd, així les vores suaus queden bé)."""
+    if not ICONA_BG or not re.search(r'(^|/)icona-[^/]*\.(jpg|png)$', src or ''): return src
+    try:
+        from PIL import Image
+        orig = os.path.join(ROOT, src)
+        dest_rel = os.path.join('treball', 'img-icones', hashlib.md5(f'{src}:{os.path.getmtime(orig)}:{ICONA_BG}:v1'.encode()).hexdigest() + '.png')
+        dest = os.path.join(ROOT, dest_rel)
+        if os.path.exists(dest): return dest_rel
+        im = Image.open(orig)
+        if im.mode != 'RGB': return src
+        r, g, b = im.split()
+        antic = (191, 81, 48); nou = tuple(int(ICONA_BG[i:i + 2], 16) for i in (1, 3, 5))
+        # el fons ha de ser el taronja de cocció (si la icona és d'un altre color, es deixa com està)
+        fons = max(im.getcolors(maxcolors=1 << 24), key=lambda x: x[0])[1]
+        if max(abs(a - c) for a, c in zip(fons, antic)) > 6: return src
+        lut = lambda k: [max(0, min(255, round(nou[k] + (255 - nou[k]) * max(0.0, min(1.0, (v - antic[1]) / (255 - antic[1])))))) for v in range(256)]
+        out = Image.merge('RGB', [g.point(lut(0)), g.point(lut(1)), g.point(lut(2))])
+        os.makedirs(os.path.dirname(dest), exist_ok=True)
+        out.save(dest, 'PNG', optimize=True)
+        return dest_rel
+    except Exception:
+        return src
+
+
 def img(src, cls='', alt=''):
+    if src: src = recolora_icona(src)
     if src and src.endswith('.bin') and os.path.exists(os.path.join(ROOT, src[:-4] + '.png')):
         src = src[:-4] + '.png'          # icones TIFF extretes del .pub: el navegador no les mostra; se'n fa servir la còpia PNG
     if src: src = redueix(src)
@@ -250,10 +280,54 @@ class Ctx:
         self.data = dades['grup']['data_edicio']
         self.grup = dades['grup']['numero']
         self.colors = colors_grup(dades['plantilla']['colors'], dades['grup']['numero'])
+        global ICONA_BG
+        ICONA_BG = (colors_grup({}, dades['grup']['numero']) or {}).get('taronja_icones')
 
     def pag(self, n): return self.num_de.get(n, n)
 
     def enllac_pags(self, ns): return '/'.join('%02d' % self.num_de[n] for n in ns if n in self.num_de)   # una pàgina que ja no hi és (grup sense productes marcats) no s'enllaça
+
+
+# ----------------------------------------------------------------------------- segell de data de la portada
+# Xifres dibuixades a mà (barres amb cantonades arrodonides, cel·la 91 x 61) per imitar la lletra molt ampla i gruixuda del segell de la tarifa original
+# (tipus Eurostile Black Extended; no n'hi ha cap d'instal·lada). Mesurat sobre el segell 2026/03 de les portades originals (0, 2, 3, 6 i 9);
+# l'1, 4, 5, 7 i 8 són dibuixats amb les mateixes proporcions. (x, y, w, h) per barra; 'o' = forat de la xifra (evenodd).
+_XIFRES = {
+    '0': dict(r=[(0, 0, 91, 61, 14)], o=[(31, 17, 29, 27, 3)]),
+    '1': dict(r=[(40, 0, 29, 61, 6), (10, 0, 44, 19, 6)]),
+    '2': dict(r=[(0, 0, 91, 17, 7), (62, 0, 29, 29, 5), (0, 22, 91, 16, 4), (0, 22, 29, 39, 5), (0, 45, 91, 16, 7)]),
+    '3': dict(r=[(0, 0, 91, 17, 7), (62, 0, 29, 61, 7), (26, 22, 65, 17, 3), (0, 44, 91, 17, 7)]),
+    '4': dict(r=[(56, 0, 35, 61, 7), (0, 0, 31, 45, 7), (0, 28, 91, 17, 5)]),
+    '5': dict(r=[(0, 0, 91, 16, 7), (0, 0, 29, 39, 5), (0, 23, 91, 16, 4), (62, 23, 29, 38, 5), (0, 45, 91, 16, 7)]),
+    '6': dict(r=[(0, 0, 91, 16, 7), (0, 0, 29, 61, 7), (0, 23, 91, 16, 4), (62, 23, 29, 38, 5), (0, 45, 91, 16, 7)]),
+    '7': dict(r=[(0, 0, 91, 17, 7), (62, 0, 29, 61, 7)]),
+    '8': dict(r=[(0, 0, 91, 61, 14)], o=[(29, 14, 33, 10, 2), (29, 37, 33, 10, 2)]),
+    '9': dict(r=[(0, 45, 91, 16, 7), (62, 0, 29, 61, 7), (0, 22, 91, 16, 4), (0, 0, 29, 38, 5), (0, 0, 91, 16, 7)]),
+}
+
+
+def _rect_path(x, y, w, h, r):
+    return (f'M{x + r} {y}H{x + w - r}A{r} {r} 0 0 1 {x + w} {y + r}V{y + h - r}A{r} {r} 0 0 1 {x + w - r} {y + h}'
+            f'H{x + r}A{r} {r} 0 0 1 {x} {y + h - r}V{y + r}A{r} {r} 0 0 1 {x + r} {y}Z')
+
+
+def segell_svg(any_, mes, pos):
+    """Segell de la data d'edició (cercle vermell + «2026» / «03») com a SVG vectorial, amb les proporcions mesurades al de la tarifa original (D = 457)."""
+    def linia(txt, cy):
+        w = 91 * len(txt) + 10 * (len(txt) - 1); x0 = (457 - w) / 2; y0 = cy - 30.5; out = ''
+        for k, ch in enumerate(txt):
+            g = _XIFRES.get(ch)
+            if not g: continue
+            ox = x0 + k * 101
+            d = ''.join(_rect_path(ox + x, y0 + y, w_, h_, rr) for x, y, w_, h_, rr in g['r'])
+            if g.get('o'):      # xifra amb forats (0, 8): un sol traçat evenodd
+                d += ''.join(_rect_path(ox + x, y0 + y, w_, h_, rr) for x, y, w_, h_, rr in g['o'])
+                out += f'<path d="{d}" fill-rule="evenodd"/>'
+            else: out += f'<path d="{d}"/>'
+        return out
+    return (f'<svg class="segell" viewBox="0 0 457 457" style="left:{pos["x"]}cm;top:{pos["y"]}cm;width:{pos["w"]}cm;height:{pos["h"]}cm" fill="#ff0000">'
+            f'<circle cx="228.5" cy="228.5" r="220" fill="none" stroke="#ff0000" stroke-width="17"/>'
+            f'{linia(re.sub(r"[^0-9]", "", any_)[:4], 215.5)}{linia(re.sub(r"[^0-9]", "", mes).zfill(2)[:2], 317)}</svg>')
 
 
 # ----------------------------------------------------------------------------- peu i capçalera
@@ -439,8 +513,7 @@ def pagina_portada(ctx, p, n):
         pos = im['pos']; rol = im.get('rol')
         if rol == 'segell_data':
             a, b = ctx.data.split('/')
-            h += (f'<div class="segell" style="left:{pos["x"]}cm;top:{pos["y"]}cm;width:{pos["w"]}cm;height:{pos["h"]}cm">'
-                  f'<span>{a}</span><span>{b}</span></div>')
+            h += segell_svg(a, b, pos)
             continue
         h += f'<img class="abs {rol}" style="left:{pos["x"]}cm;top:{pos["y"]}cm;width:{pos["w"]}cm;height:{pos["h"]}cm" src="{BASE}{redueix(recorta_pub(im["asset"], True))}">'
     if davant:
@@ -645,20 +718,45 @@ def titols_pagina_html(p):
     return ''.join(f'<div class="titol-pag">{E(q["text"].strip())}</div>' for q in (p.get('textos_pagina') or []) if es_titol_pagina(q))
 
 
+def series_g1(tx):
+    """G1: textos de la llegenda -> [(y, material, 'SERIE n')] ordenats per y; cada text que no és «SERIE n» s'assigna a la sèrie més propera
+    (la pàgina G1 p.37 en té dues: «SERIE 5 + CON TEMPORIZADOR» i «SERIE 8 + CON REGULADORES»). Llista buida si els textos no són només això."""
+    els = [(q['pos']['y'], re.sub(r'\s+', ' ', q['text']).strip()) for q in tx]
+    sers = [[y, '', t] for y, t in els if re.fullmatch(r'SERIE \d', t, re.I)]
+    if not sers: return []
+    for y, t in els:
+        if re.fullmatch(r'SERIE \d', t, re.I): continue
+        s_ = min(sers, key=lambda e: abs(e[0] - y))
+        if s_[1]: return []                 # dos textos per a la mateixa sèrie: no és aquest cas
+        s_[1] = t
+    return sorted(sers)
+
+
+def banner_ser(mat, ser, cls):
+    return (f'<div class="{cls}">' + (f'<span class="mat">{E(mat)}</span>' if mat else '<span class="mat buit"></span>') + f'<span class="ser">{E(ser.upper())}</span></div>')
+
+
 def ser_g1(tx):
-    """G1: la tarifa publicada posa «Fe 15 mm  SERIE 5» (material en caixa granat + sèrie en lletra gruixuda) sota la barra del títol, no sobre la taula."""
-    txt = [re.sub(r'\s+', ' ', q['text']).strip() for q in tx]
-    ser = next((t for t in txt if re.fullmatch(r'SERIE \d', t, re.I)), None)
-    if not ser or len(txt) > 2: return ''
-    mat = next((t for t in txt if t is not ser), '')
-    return (f'<div class="ser-top">' + (f'<span class="mat">{E(mat)}</span>' if mat else '<span class="mat buit"></span>') + f'<span class="ser">{E(ser.upper())}</span></div>')
+    """G1: la tarifa publicada posa «Fe 15 mm  SERIE 5» (material en caixa granat + sèrie en lletra gruixuda) sota la barra del títol, no sobre la taula.
+    Aquí només la primera sèrie de la pàgina; les altres (series_extra_g1) surten al mig, davant la seva foto."""
+    ss = series_g1(tx)
+    return banner_ser(ss[0][1], ss[0][2], 'ser-top') if ss else ''
+
+
+def llegenda_tx(p):
+    return sorted([q for q in (p.get('textos_pagina') or []) if not (q['pos']['y'] < 1.0 and q['pos']['w'] > 10) and not es_titol_pagina(q) and len(U.net(q.get('text'))) > 6],
+                  key=lambda q: q['pos']['y'])
+
+
+def series_extra_g1(p):
+    """Sèries 2a, 3a... d'una pàgina G1: [(y de la sèrie a la tarifa, html del banner)]."""
+    return [(y, banner_ser(m, t, 'ser-mig')) for y, m, t in series_g1(llegenda_tx(p))[1:]]
 
 
 def llegenda_html(p):
     """Llegenda del quadre de comandes electrònic (textos_pagina + imatge «sense classificar»): ES / E / F amb els números en cercle."""
     # G11+: el títol de la pàgina i les etiquetes soltes («700») també són a textos_pagina; no són llegenda
-    tx = sorted([q for q in (p.get('textos_pagina') or []) if not (q['pos']['y'] < 1.0 and q['pos']['w'] > 10) and not es_titol_pagina(q) and len(U.net(q.get('text'))) > 6],
-                key=lambda q: q['pos']['y'])
+    tx = llegenda_tx(p)
     if not tx: return ''
     cos = tx[-1]['text']
     titol = tx[0]['text'] if len(tx) > 1 else ''
@@ -798,10 +896,13 @@ def pagina_producte(ctx, p, n):
             return min(ii) if ii else 99
         fotos = agrupa_fotos(sorted(p.get('fotos', []), key=idx))
         files_tau = sum(CAP_TAULA_CM + FILA_CM * len(t['files']) for t in p.get('taules', []) if t['format'] == 'taula_producte')
-        alt_fotos = ALT_UTIL_CM - files_tau - (LLEGENDA_CM if llegenda_html(p) and not llegenda_html(p).startswith('<div class="ser-top"') else 0) - .6
+        alt_fotos = ALT_UTIL_CM - files_tau - .8 * len(series_extra_g1(p)) - (LLEGENDA_CM if llegenda_html(p) and not llegenda_html(p).startswith('<div class="ser-top"') else 0) - .6
         nc = columnes_fotos(len(fotos), [ratio_foto(f['asset']) for f in fotos], alt_fotos)
         h += f'<div class="fotos n{len(fotos)} c{nc}" style="grid-template-columns:repeat({nc},1fr)">'
+        extra = series_extra_g1(p)
         for k, f in enumerate(fotos):
+            while extra and ((f.get('pos') or {}).get('y', 99) >= extra[0][0] - 1.5):      # G1: banner de la 2a sèrie, a tot l'ample, davant la seva foto
+                h += extra.pop(0)[1]
             # l'última foto d'una fila incompleta s'estira fins al final de la fila (centrada), com abans amb 3, 5, 7...
             sobra = len(fotos) % nc
             est = f' style="grid-column:span {nc - sobra + 1}"' if sobra and k == len(fotos) - 1 else ''
@@ -1174,18 +1275,27 @@ def recolora_pdf(src, dst, grup):
     if not c or not all(k in c for k in ('chip', 'vermell_titols', 'vermell_referencies', 'taronja_icones')):
         return False
     def rgb(h): return tuple(int(h[i:i + 2], 16) for i in (1, 3, 5))
-    mapa = [(rgb('#772f32'), rgb(c['chip'])), (rgb('#a22b2d'), rgb(c['vermell_titols'])),
-            (rgb('#cc0000'), rgb(c['vermell_referencies'])), (rgb('#bf5130'), rgb(c['taronja_icones']))]
+    # (color de la plantilla, color si pinta una forma, color si pinta text). A la tarifa publicada la capçalera és #600060 però els
+    # títols de text són #800080 (rol «titol»); a la diapositiva tots dos són #a22b2d, i només es distingeixen pel que pinten.
+    mapa = [(rgb('#772f32'), rgb(c['chip']), rgb(c['chip'])), (rgb('#a22b2d'), rgb(c['vermell_titols']), rgb(c.get('titol', c['vermell_titols']))),
+            (rgb('#cc0000'), rgb(c['vermell_referencies']), rgb(c['vermell_referencies'])), (rgb('#bf5130'), rgb(c['taronja_icones']), rgb(c['taronja_icones']))]
     r = subprocess.run(['qpdf', '--qdf', '--object-streams=disable', src, '-'], capture_output=True)
     if r.returncode not in (0, 3): return False
     pat = re.compile(rb'(?<![\w.])(-?\d*\.?\d+)(\s+)(-?\d*\.?\d+)(\s+)(-?\d*\.?\d+)(\s+)(rg|RG)\b')
     canvis = [0]
     def fmt(x): return (b'%.6f' % (x / 255)).rstrip(b'0').rstrip(b'.') or b'0'
+    # primer operador de pintat que ve després d'un «rg» (saltant cadenes de text): Tj/TJ = el color és de text
+    pinta = re.compile(rb'\((?:\\.|[^\\()])*\)|<[0-9a-fA-F\s]*>|(?<![\w.])(Tj|TJ|f\*|f|F|B\*|B|b\*|b)(?![\w.])')
+    def es_text(dades, pos):
+        for q in pinta.finditer(dades, pos):
+            if q.group(1): return q.group(1) in (b'Tj', b'TJ')
+        return False
     def sub(m):
         v = tuple(round(float(m.group(i)) * 255) for i in (1, 3, 5))
-        for o, n in mapa:
+        for o, n_forma, n_text in mapa:
             if max(abs(a - b) for a, b in zip(v, o)) <= 3:      # variants properes (arrodoniments de l'exportador)
                 canvis[0] += 1
+                n = n_text if (m.group(7) == b'rg' and es_text(m.string, m.end())) else n_forma
                 return fmt(n[0]) + m.group(2) + fmt(n[1]) + m.group(4) + fmt(n[2]) + m.group(6) + m.group(7)
         return m.group(0)
     dades = pat.sub(sub, r.stdout)
