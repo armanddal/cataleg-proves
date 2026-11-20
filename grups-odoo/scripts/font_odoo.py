@@ -318,6 +318,9 @@ class Constructor:
             clau = CLAU_RENDER.get(c['origen'], c['codi'])
             col = {'idx': i, 'ample_cm': amples.get(c['codi'], defecte.get(clau, gen)), 'clau': clau, 'columna': c['codi'], 'origen': c['origen']}
             asset = self.icones.get(c['icona']) if c['icona'] else None
+            if c['icona'] and not asset:      # Sergi 20/11 («a tot arreu els símbols»): icona de la columna que no és al diccionari -> el fitxer icona-<clau> del grup
+                asset = next((a for n_ in dict.fromkeys(['icona-' + c['icona'].replace('_', '-'), 'icona-' + c['icona']])
+                              for a in [U.cerca_asset(self.grup, n_, glob_ext=True)] if a and not a.endswith('.bin')), None)
             if c['icona'] and not asset:
                 self.av_un_cop(f"columna «{c['codi']}»: la icona «{c['icona']}» no és a dades/icones-grups.yaml; surt el nom")
             tx = _unics(fc['etiqueta'] or c['noms'])
