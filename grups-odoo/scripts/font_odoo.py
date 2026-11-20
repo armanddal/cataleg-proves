@@ -318,8 +318,16 @@ class Constructor:
             clau = CLAU_RENDER.get(c['origen'], c['codi'])
             col = {'idx': i, 'ample_cm': amples.get(c['codi'], defecte.get(clau, gen)), 'clau': clau, 'columna': c['codi'], 'origen': c['origen']}
             asset = self.icones.get(c['icona']) if c['icona'] else None
-            if c['icona'] and not asset:      # Sergi 20/11 («a tot arreu els símbols»): icona de la columna que no és al diccionari -> el fitxer icona-<clau> del grup
-                asset = next((a for n_ in dict.fromkeys(['icona-' + c['icona'].replace('_', '-'), 'icona-' + c['icona']])
+            # Sergi 20/11 («a tot arreu els símbols»): icona que no és al diccionari -> el fitxer icona-<clau> del grup; una variant (ventilador_2)
+            # sense icona pròpia hereta la de la columna base
+            claus_ic = [k for k in dict.fromkeys([c['icona'], re.sub(r'_\d+$', '', c['icona'] or ''), c['codi'], re.sub(r'_\d+$', '', c['codi'] or '')]) if k]
+            # símbol retallat de la capçalera de la tarifa original (icona-<clau>-original.png): mana per davant del diccionari (p. ex. «wok», que hi és buida)
+            orig_ = next((a for k in claus_ic for a in [U.cerca_asset(self.grup, 'icona-' + k.replace('_', '-') + '-original.png')] if a), None)
+            if orig_: asset = orig_
+            if not asset:
+                asset = next((self.icones[k] for k in claus_ic if self.icones.get(k)), None)
+            if not asset:
+                asset = next((a for k in claus_ic for n_ in dict.fromkeys(['icona-' + k.replace('_', '-'), 'icona-' + k])
                               for a in [U.cerca_asset(self.grup, n_, glob_ext=True)] if a and not a.endswith('.bin')), None)
             if c['icona'] and not asset:
                 self.av_un_cop(f"columna «{c['codi']}»: la icona «{c['icona']}» no és a dades/icones-grups.yaml; surt el nom")

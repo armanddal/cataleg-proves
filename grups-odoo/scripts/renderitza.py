@@ -626,7 +626,7 @@ def pagina_index(ctx, p, n):
         llarg = max(len(x) for x in linies)
         h += f'<div class="vt" style="font-size:{max(18, min(34, 50 * 18 / llarg)):.1f}pt;line-height:1.1">' + '<br>'.join(E(x) for x in linies) + '</div>'
     else:
-        mida = f' style="font-size:{max(22, min(58, 58 * 23 / len(lateral))):.1f}pt"' if de_nom else (
+        mida = f' style="font-size:{max(22, min(52, 52 * 23 / len(lateral))):.1f}pt"' if de_nom else (
             f' style="font-size:{max(22, min(50, 50 * 13 / len(lateral))):.1f}pt"' if len(lateral) > 13 else '')
         h += f'<div class="vt"{mida}>{E(lateral)}</div>' + ''.join(img(l['asset'], 'bl') for l in bl)
     h += '</div>'

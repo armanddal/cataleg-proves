@@ -5,7 +5,7 @@
 #   sencera: true  -> tota la pàgina és l'original (portada); segell: true -> s'hi torna a posar el segell de data del catàleg (no el de l'original)
 #   rects          -> [x0, y0, x1, y1]: es pinta de blanc i s'hi posa el mateix tros de l'original
 # Sergi 20/11 (G1 revisat pàgina per pàgina): portada idèntica a la del PDF de grup; títols amb la línia D (alemany) també a les pàgines de Slides;
-# fotos de detall correctes a les p.14 (rascador), p.24 (graelles ampliades), p.38 (tirador) i p.39.
+# fotos de detall correctes a les p.13, p.14 (rascador), p.24 (graelles ampliades), p.30 (cistelles), p.38 (tirador) i p.39.
 # Clau «portada»: la portada del grup (pàgina amb el segell de data), no depèn dels ids d'Odoo. Sergi 20/11: les línies grises i taronja
 # de les portades generades no són com les originals (cosa «genèrica de les portades») -> totes les portades són l'original (cataleg_original_web.pdf).
 1:
@@ -14,16 +14,16 @@
   '4:1': {font: g1-p6.pdf, rects: [[3.6, 0, 21, 1.98]]}
   '5:1': {font: g1-p8.pdf, rects: [[3.6, 0, 21, 1.98]]}
   '5:2': {font: g1-p9.pdf, rects: [[3.6, 0, 21, 1.98]]}
-  '6:1': {font: g1-p13.pdf, rects: [[3.6, 0, 21, 1.98]]}
+  '6:1': {font: g1-p13.pdf, rects: [[3.6, 0, 21, 1.98], [3.4, 20.7, 17.2, 27.95]]}
   '6:2': {font: g1-p14.pdf, rects: [[3.6, 0, 21, 1.98], [0, 20.9, 21, 28.25]]}
   '7:1': {font: g1-p16.pdf, rects: [[3.6, 0, 21, 1.98]]}
   '7:2': {font: g1-p17.pdf, rects: [[3.6, 0, 21, 1.98]]}
   '8:1': {font: g1-p24.pdf, rects: [[3.6, 0, 21, 1.98], [0, 22.35, 21, 28.25], [0, 28.25, 9.6, 28.6], [11.4, 28.25, 21, 28.6]]}
   '9:1': {font: g1-p27.pdf, rects: [[3.6, 0, 21, 1.98]]}
   '10:1': {font: g1-p29.pdf, rects: [[3.6, 0, 21, 1.98]]}
-  '10:2': {font: g1-p30.pdf, rects: [[3.6, 0, 21, 1.98]]}
+  '10:2': {font: g1-p30.pdf, rects: [[3.6, 0, 21, 1.98], [0, 23.73, 21, 27.95]]}
   '11:1': {font: g1-p35.pdf, rects: [[3.6, 0, 21, 1.98]]}
-  '12:1': {font: g1-p38.pdf, rects: [[3.6, 0, 21, 1.98], [0, 18.8, 21, 28.25], [0, 28.25, 9.6, 28.45], [11.4, 28.25, 21, 28.45]]}
+  '12:1': {font: g1-p38.pdf, rects: [[3.6, 0, 21, 1.98], [0, 19.25, 7.3, 28.25], [7.3, 18.9, 21, 28.25], [0, 28.25, 9.6, 28.45], [11.4, 28.25, 21, 28.45]]}
   '12:2': {font: g1-p39.pdf, rects: [[3.6, 0, 21, 1.98], [0, 22.2, 21, 28.1]]}
 2:
   portada: {font: g2-portada.pdf, sencera: true, segell: true}
