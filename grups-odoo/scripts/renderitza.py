@@ -368,6 +368,9 @@ def capcalera(ctx, p):
     if de and tit.get('en') and tit.get('fr'):
         tit['de'] = de
         h = h.replace('<div class="cap-tit">', '<div class="cap-tit amb-de">')
+        n_es = len(tit['es'])
+        if n_es > 50:     # Sergi 20/11 (G1 p37): un títol ES de dues línies empeny la línia D fora de la franja; en una línia, com a l'original
+            h = h.replace('<div class="t-es">', f'<div class="t-es" style="font-size:{max(10.5, 14 * 46 / n_es):.1f}pt;white-space:nowrap">', 1)
     for l in ('en', 'fr', 'de'):
         if tit.get(l): h += f'<div class="t-x"><span class="lt lt-w">{l[0].upper()}</span>{E(tit[l])}</div>'
     h += '</div></div>'
@@ -1568,9 +1571,13 @@ def aplica_pegats(ctx, pdf):
     CM = 72 / 2.54
     doc = fitz.open(pdf); fets = []; segells = []
     for k, pg_cfg in cfg.items():
-        if str(k) not in clau_de:
+        if str(k) == 'portada':      # clau fixa: la portada del grup (la pàgina amb el segell de data), no depèn dels ids d'Odoo
+            i = next((j for j, q in enumerate(ctx.pagines) if any(x.get('rol') == 'segell_data' for x in q.get('imatges', []) or [])), None)
+            if i is None:
+                ctx.avisos.append('pegat portada: el grup no té portada amb segell de data; no es fa servir'); continue
+        elif str(k) not in clau_de:
             ctx.avisos.append(f'pegat {k}: aquesta pàgina d\'Odoo ja no és al catàleg; no es fa servir'); continue
-        i = clau_de.index(str(k))
+        else: i = clau_de.index(str(k))
         src_p = os.path.join(ROOT, 'assets', 'pagines-originals', pg_cfg['font'])
         if not os.path.exists(src_p):
             ctx.avisos.append(f'pegat {k}: falta {src_p}'); continue

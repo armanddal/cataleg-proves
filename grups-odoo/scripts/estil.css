@@ -266,3 +266,7 @@ i.bl-n { position: absolute; z-index: 5; left: -.02cm; top: -.02cm; min-width: .
 .titol-pag.avis { padding: .1cm 1cm .05cm }
 /* capçalera amb la línia D (alemany): 4 línies dins dels 2 cm de la barra */
 .cap-tit.amb-de { top: .1cm } .cap-tit.amb-de .t-es { margin-bottom: .04cm; line-height: 1.15 } .cap-tit.amb-de .t-x { margin-top: .015cm; line-height: 1.08 }
+/* Sergi 20/11 (G1 p37): banner de sèrie sense material = línia doble de separació, SERIE al mig i la nota al marge dret, com a l'original */
+.ser-mig:has(> .mat.buit) { align-self: center; margin: .2cm .2cm .1cm .2cm; padding-top: .2cm; border-top: 3px double #555 }
+.ser-mig > .mat.buit { flex: 0 0 0; min-width: 0; padding: 0 }
+.ser-mig:has(> .mat.buit) > .ser { margin-left: auto }

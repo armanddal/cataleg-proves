@@ -6,8 +6,10 @@
 #   rects          -> [x0, y0, x1, y1]: es pinta de blanc i s'hi posa el mateix tros de l'original
 # Sergi 20/11 (G1 revisat pàgina per pàgina): portada idèntica a la del PDF de grup; títols amb la línia D (alemany) també a les pàgines de Slides;
 # fotos de detall correctes a les p.14 (rascador), p.24 (graelles ampliades), p.38 (tirador) i p.39.
+# Clau «portada»: la portada del grup (pàgina amb el segell de data), no depèn dels ids d'Odoo. Sergi 20/11: les línies grises i taronja
+# de les portades generades no són com les originals (cosa «genèrica de les portades») -> totes les portades són l'original (cataleg_original_web.pdf).
 1:
-  '1:1': {font: g1-portada.pdf, sencera: true, segell: true}
+  portada: {font: g1-portada.pdf, sencera: true, segell: true}
   '3:1': {font: g1-p4.pdf, rects: [[3.6, 0, 21, 1.98]]}
   '4:1': {font: g1-p6.pdf, rects: [[3.6, 0, 21, 1.98]]}
   '5:1': {font: g1-p8.pdf, rects: [[3.6, 0, 21, 1.98]]}
@@ -23,3 +25,33 @@
   '11:1': {font: g1-p35.pdf, rects: [[3.6, 0, 21, 1.98]]}
   '12:1': {font: g1-p38.pdf, rects: [[3.6, 0, 21, 1.98], [0, 18.8, 21, 28.25], [0, 28.25, 9.6, 28.45], [11.4, 28.25, 21, 28.45]]}
   '12:2': {font: g1-p39.pdf, rects: [[3.6, 0, 21, 1.98], [0, 22.2, 21, 28.1]]}
+2:
+  portada: {font: g2-portada.pdf, sencera: true, segell: true}
+3:
+  portada: {font: g3-portada.pdf, sencera: true, segell: true}
+4:
+  portada: {font: g4-portada.pdf, sencera: true, segell: true}
+5:
+  portada: {font: g5-portada.pdf, sencera: true, segell: true}
+6:
+  portada: {font: g6-portada.pdf, sencera: true, segell: true}
+7:
+  portada: {font: g7-portada.pdf, sencera: true, segell: true}
+8:
+  portada: {font: g8-portada.pdf, sencera: true, segell: true}
+9:
+  portada: {font: g9-portada.pdf, sencera: true, segell: true}
+10:
+  portada: {font: g10-portada.pdf, sencera: true, segell: true}
+11:
+  portada: {font: g11-portada.pdf, sencera: true, segell: true}
+12:
+  portada: {font: g12-portada.pdf, sencera: true, segell: true}
+13:
+  portada: {font: g13-portada.pdf, sencera: true, segell: true}
+14:
+  portada: {font: g14-portada.pdf, sencera: true, segell: true}
+15:
+  portada: {font: g15-portada.pdf, sencera: true, segell: true}
+16:
+  portada: {font: g16-portada.pdf, sencera: true, segell: true}
