@@ -31,8 +31,14 @@
   portada: {font: g3-portada.pdf, sencera: true, segell: true}
 4:
   portada: {font: g4-portada.pdf, sencera: true, segell: true}
+  # Sergi 20/11: la diapositiva de BARBACOAS no du el títol ES (el «BARBACOAS» és a la línia E) -> capçalera de l'original
+  '35:1': {font: g4-p122.pdf, rects: [[3.6, 0, 21, 1.98]]}
+  '35:2': {font: g4-p123.pdf, rects: [[3.6, 0, 21, 1.98]]}
 5:
   portada: {font: g5-portada.pdf, sencera: true, segell: true}
+  # Sergi 20/11: la diapositiva de BARBACOAS no du el títol ES (el «BARBACOAS» és a la línia E) -> capçalera de l'original
+  '47:1': {font: g5-p179.pdf, rects: [[3.6, 0, 21, 1.98]]}
+  '47:2': {font: g5-p180.pdf, rects: [[3.6, 0, 21, 1.98]]}
 6:
   portada: {font: g6-portada.pdf, sencera: true, segell: true}
 7:

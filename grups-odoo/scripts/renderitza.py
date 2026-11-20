@@ -1361,7 +1361,33 @@ def renderitza(dades, preus, sortida):
     genera_pdf(sortida + '.html', sortida + '.pdf')
     posa_pagines_slides(ctx, sortida + '.pdf')
     aplica_pegats(ctx, sortida + '.pdf')
+    etiqueta_serie_visible(ctx, sortida + '.pdf')
     return ctx
+
+
+def etiqueta_serie_visible(ctx, pdf):
+    """Diapositives de Slides (G2-G5) amb l'etiqueta de sèrie («600 SNACK», «700», «900») a sota del logo SERIE MASTER, on no es veu:
+    es torna a escriure, igual que a les pàgines generades (blanc, negreta 12 pt, a sota del logo). Les pàgines generades no es toquen."""
+    import fitz
+    CM = 72 / 2.54
+    doc = fitz.open(pdf); fets = []
+    for i, pg in enumerate(doc):
+        logos = [fitz.Rect(im['bbox']) for im in pg.get_image_info() if im['bbox'][1] < 1.5 * CM and im['bbox'][0] < 4 * CM and im['bbox'][3] > .8 * CM]
+        if not logos: continue
+        for b in pg.get_text('dict')['blocks']:
+            for l in b.get('lines', []):
+                t = ''.join(s['text'] for s in l['spans']).strip(); r = fitz.Rect(l['bbox'])
+                if not t or r.x0 > 3.6 * CM or r.y0 > 1.5 * CM or not any(r.intersects(lg) for lg in logos): continue
+                if not re.fullmatch(r'\d{3}(?: [A-Z]+)?', t): continue
+                lg = next(lg for lg in logos if r.intersects(lg))
+                mida = 12 if fitz.get_text_length(t, 'hebo', 12) < lg.width - 4 else 10.5
+                amp = fitz.get_text_length(t, 'hebo', mida)
+                pg.insert_text(fitz.Point((lg.x0 + lg.x1) / 2 - amp / 2, 1.7 * CM), t, fontsize=mida, fontname='hebo', color=(1, 1, 1), overlay=True)
+                fets.append(i + 1)
+    if fets:
+        tmp = pdf + '.ser.pdf'; doc.save(tmp, garbage=3, deflate=True); doc.close(); os.replace(tmp, pdf)
+        print(f'etiqueta de sèrie tornada a escriure a les pàgines {fets}')
+    else: doc.close()
 
 
 def baixa_slide(sid, ctx, pag):
