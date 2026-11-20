@@ -45,6 +45,12 @@
   portada: {font: g10-portada.pdf, sencera: true, segell: true}
 11:
   portada: {font: g11-portada.pdf, sencera: true, segell: true}
+  # Sergi 20/11 (G11 SERIE 2): el text FR porta ①-⑤ però ni les fotos ni el text ES/EN no tenen el número (la SERIE 8 sí) -> marques: cercle vermell
+  '119:1': {marques: [{busca: 'desagüe en la base.', n: 1}, {busca: 'supera los 95 grados.', n: 2}, {busca: 'substituibles.', n: 3},
+                      {busca: 'limpieza del condensador.', n: 4}, {busca: 'inferior de las puertas.', n: 5},
+                      {foto: [1.65, 17.39], n: 1}, {foto: [7.91, 17.39], n: 2}, {foto: [14.49, 17.39], n: 3}, {foto: [3.04, 24.25], n: 4}, {foto: [13.57, 24.25], n: 5}]}
+  '119:2': {marques: [{busca: 'drainage at the base.', n: 1}, {busca: 'exceeds 95 degrees.', n: 2}, {busca: 'Easily replaceable.', n: 3},
+                      {busca: 'of the condenser.', n: 4}, {busca: 'bottom of the doors.', n: 5}]}
 12:
   portada: {font: g12-portada.pdf, sencera: true, segell: true}
 13:

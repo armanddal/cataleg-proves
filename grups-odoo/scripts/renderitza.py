@@ -630,7 +630,16 @@ def pagina_index(ctx, p, n):
             f' style="font-size:{max(22, min(50, 50 * 13 / len(lateral))):.1f}pt"' if len(lateral) > 13 else '')
         h += f'<div class="vt"{mida}>{E(lateral)}</div>' + ''.join(img(l['asset'], 'bl') for l in bl)
     h += '</div>'
+    # Sergi 20/11 (G11): targetes que envaeixen la franja (les automàtiques ocupen tota l'amplada) -> es comprimeixen en horitzontal dins l'espai lliure
+    xs = [t['pos'] for t in p['targetes']] + [f['pos'] for t in p['targetes'] for f in t['fotos']]
+    lliure = (0.6, 16.6) if dreta else (4.4, 20.4)
+    x0 = min(q['x'] for q in xs) if xs else 0; x1 = max(q['x'] + q['w'] for q in xs) if xs else 0
+    esc = None
+    if xs and (x0 < lliure[0] - .05 or x1 > lliure[1] + .05):
+        s = min(1.0, (lliure[1] - lliure[0]) / (x1 - x0))
+        esc = lambda q: dict(q, x=round(lliure[0] + (q['x'] - x0) * s, 3), w=round(q['w'] * s, 3))
     for t in p['targetes']:
+        if esc: t = dict(t, pos=esc(t['pos']), fotos=[dict(f, pos=esc(f['pos'])) for f in t['fotos']])
         pos = t['pos']
         pg = ctx.enllac_pags(t['enllac_pagines'])
         et = t.get('etiqueta', {}).get('es')
@@ -642,6 +651,7 @@ def pagina_index(ctx, p, n):
             a = f['asset']
             # requadre del .pub molt més estret (o baix) que la foto: el .pub en mostrava només el producte; sense els marges blancs no queda petita
             if fp.get('w') and fp.get('h') and abs(_aspecte(a) / (fp['w'] / fp['h']) - 1) > .25: a = retalla(a)
+            elif f.get('ajust') == 'contain': a = retalla(a)      # Sergi 20/11 (G11): sense marges blancs, cap miniatura no queda minúscula al costat de les altres
             h += f'<img class="abs" style="left:{fp["x"]}cm;top:{fp["y"]}cm;width:{fp["w"]}cm;height:{fp["h"]}cm{aj}" src="{BASE}{redueix(a)}">'
     return h + peu(ctx, p, n) + '</div>'
 
@@ -1578,10 +1588,22 @@ def aplica_pegats(ctx, pdf):
         elif str(k) not in clau_de:
             ctx.avisos.append(f'pegat {k}: aquesta pàgina d\'Odoo ja no és al catàleg; no es fa servir'); continue
         else: i = clau_de.index(str(k))
+        pg = doc[i]
+        for m in pg_cfg.get('marques') or []:      # número de referència (cercle vermell): al final d'una frase del text o a la cantonada d'una foto
+            if m.get('busca'):
+                trobats = pg.search_for(m['busca'])
+                if not trobats: ctx.avisos.append(f'pegat {k}: no trobo «{m["busca"]}» per posar-hi el {m["n"]}'); continue
+                r_ = trobats[-1]; d_ = r_.height * .95; c_ = fitz.Point(r_.x1 + d_ * .75, (r_.y0 + r_.y1) / 2)
+            else:
+                d_ = .5 * CM; c_ = fitz.Point(m['foto'][0] * CM + d_ / 2, m['foto'][1] * CM + d_ / 2)
+            vm = (.75, .1, .12)
+            pg.draw_circle(c_, d_ / 2, color=vm, fill=(1, 1, 1), width=max(.6, d_ / 14), overlay=True)
+            pg.insert_textbox(fitz.Rect(c_.x - d_, c_.y - d_ * .42, c_.x + d_, c_.y + d_), str(m['n']), fontsize=d_ * .72, fontname='hebo', color=vm, align=1)
+        if pg_cfg.get('marques') and not pg_cfg.get('font'): fets.append(i + 1); continue
         src_p = os.path.join(ROOT, 'assets', 'pagines-originals', pg_cfg['font'])
         if not os.path.exists(src_p):
             ctx.avisos.append(f'pegat {k}: falta {src_p}'); continue
-        src = fitz.open(src_p); pg = doc[i]
+        src = fitz.open(src_p)
         if pg_cfg.get('sencera'):
             pg.draw_rect(pg.rect, color=None, fill=(1, 1, 1), overlay=True)
             pg.show_pdf_page(pg.rect, src, 0)
