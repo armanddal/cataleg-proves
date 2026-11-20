@@ -1615,7 +1615,7 @@ const GROUPS = [
 // sencers en segon pla — primera pàgina molt més ràpida en mòbil/4G. Si el
 // servidor no suporta Range (http.server local), pdf.js ho detecta i baixa
 // el fitxer sencer com abans.
-const task = pdfjsLib.getDocument({ url: 'cataleg.pdf', rangeChunkSize: 65536, disableAutoFetch: true });
+const task = pdfjsLib.getDocument({ url: 'cataleg.pdf', rangeChunkSize: 262144, disableAutoFetch: true });
 task.onProgress = ({ loaded, total }) => {
   if (!total) return;
   const pct = Math.round(loaded / total * 100);

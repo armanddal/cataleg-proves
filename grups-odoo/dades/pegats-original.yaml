@@ -23,8 +23,9 @@
   '10:1': {font: g1-p29.pdf, rects: [[3.6, 0, 21, 1.98]]}
   '10:2': {font: g1-p30.pdf, rects: [[3.6, 0, 21, 1.98], [0, 23.73, 21, 27.95]]}
   '11:1': {font: g1-p35.pdf, rects: [[3.6, 0, 21, 1.98]]}
-  '12:1': {font: g1-p38.pdf, rects: [[3.6, 0, 21, 1.98], [0, 19.25, 7.3, 28.25], [7.3, 18.9, 21, 28.25], [0, 28.25, 9.6, 28.45], [11.4, 28.25, 21, 28.45]]}
-  '12:2': {font: g1-p39.pdf, rects: [[3.6, 0, 21, 1.98], [0, 22.2, 21, 28.1]]}
+  # Sergi 20/11: p.38-39 senceres de l'original (menys el peu): fotos ①-⑥, títol FR «CRÊPIÈRES» i números ben posats
+  '12:1': {font: g1-p38.pdf, rects: [[0, 0, 21, 28.45]]}
+  '12:2': {font: g1-p39.pdf, rects: [[0, 0, 21, 28.45]]}
 2:
   portada: {font: g2-portada.pdf, sencera: true, segell: true}
 3:
