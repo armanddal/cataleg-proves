@@ -255,4 +255,14 @@ i.bl-n { position: absolute; z-index: 5; left: -.02cm; top: -.02cm; min-width: .
 /* retoc 4: capçalera només amb símbol */
 .tau.hct thead th.hc.sol .hci { height: .75cm; max-width: 1.6cm; margin: 0 auto }
 .accessoris .tau.hct thead th.hc.sol .hci { height: .5cm; max-width: 1.1cm }
-.tau td .tic { color: #1a9a3a; font-weight: bold; font-size: 11pt; font-family: 'Apple Symbols','Zapf Dingbats','DejaVu Sans',sans-serif } .tau td .creu { color: #d32017; font-weight: bold; font-size: 11pt; font-family: 'Apple Symbols','Zapf Dingbats','DejaVu Sans',sans-serif }
+.tau td .tic { color: #000; font-weight: bold; font-size: 11pt; font-family: 'Apple Symbols','Zapf Dingbats','DejaVu Sans',sans-serif } .tau td .creu { color: #d32017; font-weight: bold; font-size: 11pt; font-family: 'Apple Symbols','Zapf Dingbats','DejaVu Sans',sans-serif }
+
+/* G1 (Sergi 20/11): notes multillengua al costat de la sèrie (p.36-37) o soles sobre la taula (p.28), amb les lletres E/F/D en requadre com a l'original */
+.ser-top { right: .6cm }
+.ser-nota { margin-left: auto; flex: none; max-width: 6cm; border: 1.2pt solid var(--vermell-titols, #a22b2d); padding: .06cm .15cm; background: #fff; font: 6.5pt Arial, sans-serif; line-height: 1.25; color: #333 }
+.ser-nota .ni-es, .nota-sola .ni-es { font-weight: bold; color: #111 }
+.ser-nota .lt, .nota-sola .lt { display: inline-block; border: .6pt solid currentColor; font-size: .85em; line-height: 1; padding: 0 .04cm; margin-right: .08cm }
+.nota-sola { flex: none; align-self: flex-start; margin: .15cm 0 .1cm .6cm; max-width: 11cm; border: 1.2pt solid var(--vermell-titols, #a22b2d); padding: .08cm .2cm; font: 7pt Arial, sans-serif; line-height: 1.3; color: #333 }
+.titol-pag.avis { padding: .1cm 1cm .05cm }
+/* capçalera amb la línia D (alemany): 4 línies dins dels 2 cm de la barra */
+.cap-tit.amb-de { top: .1cm } .cap-tit.amb-de .t-es { margin-bottom: .04cm; line-height: 1.15 } .cap-tit.amb-de .t-x { margin-top: .015cm; line-height: 1.08 }

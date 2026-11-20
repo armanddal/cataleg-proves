@@ -364,10 +364,32 @@ def capcalera(ctx, p):
     if c.get('titol') and not c['titol'].get('fr') and tit['fr'] == tit['es']: tit.pop('fr')
     h = '<div class="cap">' + chip + '<div class="cap-tit">'
     if tit.get('es'): h += f'<div class="t-es">{E(U.repara_faltes_es(tit["es"]))}</div>'
-    for l in ('en', 'fr'):
+    de = titol_de(tit) if tit.get('es') else None
+    if de and tit.get('en') and tit.get('fr'):
+        tit['de'] = de
+        h = h.replace('<div class="cap-tit">', '<div class="cap-tit amb-de">')
+    for l in ('en', 'fr', 'de'):
         if tit.get(l): h += f'<div class="t-x"><span class="lt lt-w">{l[0].upper()}</span>{E(tit[l])}</div>'
     h += '</div></div>'
     return h
+
+
+_TITOLS_DE = None
+
+
+def titol_de(tit):
+    """Línia «D» (alemany) del títol de capçalera: Odoo només té ES/EN/FR; es pren de la tarifa publicada (dades/titols-de.yaml, scripts/titols_de.py),
+    buscant pel títol ES (o l'EN). Sense coincidència no es posa res (com a l'original, on molts grups no duien DE)."""
+    global _TITOLS_DE
+    if _TITOLS_DE is None:
+        f = os.path.join(ROOT, 'dades', 'titols-de.yaml')
+        _TITOLS_DE = (yaml.safe_load(open(f, encoding='utf8')) or {}) if os.path.exists(f) else {}
+    import unicodedata
+    def clau(t): return re.sub(r'[^\w ]', '', unicodedata.normalize('NFC', re.sub(r'\s+', ' ', t or '')).strip().upper()).strip()
+    for l in ('es', 'en'):
+        k = clau(tit.get(l))
+        if k in _TITOLS_DE: return _TITOLS_DE[k]
+    return None
 
 
 # ----------------------------------------------------------------------------- taules
@@ -380,7 +402,7 @@ def lang_inline(d, cls='ml-i'):
     return f'<div class="{cls}">{h.strip()}</div>'
 
 
-TIC_CREU = True     # retoc 3: els «ü»/«û» (caràcters de Wingdings que arriben d'Odoo) es pinten com a tic verd / creu vermella; False = es veu el caràcter cru
+TIC_CREU = True     # retoc 3: els «ü»/«û» (caràcters de Wingdings que arriben d'Odoo) es pinten com a tic negre (Sergi 20/11) / creu vermella; False = es veu el caràcter cru
 
 
 def cella_valor(v, inline=False):
@@ -401,10 +423,41 @@ def icona_std(ctx, c):
     return U.icona_estandard(_STD['est'], ctx.grup, c['columna'])
 
 
+_ICO_PAG = None
+_BUIDA = {}
+
+
+def _icona_buida(asset):
+    """Icona del .pub que va quedar com un quadre llis (p. ex. «icona-wok.jpg»): no serveix de símbol."""
+    if asset not in _BUIDA:
+        try:
+            from PIL import Image, ImageStat
+            im = Image.open(os.path.join(ROOT, asset)).convert('RGBA')
+            c = Image.alpha_composite(Image.new('RGBA', im.size, (191, 81, 48, 255)), im).convert('L')
+            _BUIDA[asset] = ImageStat.Stat(c).stddev[0] < 3
+        except Exception:
+            _BUIDA[asset] = True
+    return _BUIDA[asset]
+
+
+def icona_pagina(ctx, c):
+    """Símbol d'una columna per a la pàgina que s'està pintant (dades/icones-columna-pagina.yaml), o None."""
+    global _ICO_PAG
+    if _ICO_PAG is None:
+        f = os.path.join(ROOT, 'dades', 'icones-columna-pagina.yaml')
+        _ICO_PAG = (yaml.safe_load(open(f, encoding='utf8')) or {}) if os.path.exists(f) else {}
+    return (_ICO_PAG.get(ctx.grup) or {}).get(f'p{getattr(ctx, "pag_actual", None)}:{c.get("columna")}')
+
+
 def th_text(ctx, c, nom=None):
     """Capçalera «text primer»: nom sempre; icona estàndard petita damunt, només si la columna en té."""
     ic = icona_std(ctx, c)
     nom = nom if nom is not None else nom_capcalera(c)
+    ov = icona_pagina(ctx, c)
+    if ov and OPC['capcalera_simbol']: return f'<th class="hc sol" title="{E(nom)}">' + img(ov, 'hic') + '</th>'
+    if not ic and OPC['capcalera_simbol'] and c.get('icones_capcalera') and not any(_icona_buida(i['asset']) for i in c['icones_capcalera']):
+        # sense icona estàndard: el símbol de la tarifa original (.pub) en lloc de la paraula (Sergi 20/11); si l'extracció el va deixar buit, la paraula
+        return f'<th class="hc sol" title="{E(nom)}">' + ''.join(img(i['asset'], 'hic') for i in c['icones_capcalera']) + '</th>'
     if ic and OPC['capcalera_simbol']:       # només el símbol (el significat és a la pàgina de simbologia); sense símbol, es manté el nom
         return f'<th class="hc sol" title="{E(nom)}">' + img(ic, 'hci') + '</th>'
     return ('<th class="hc">' + (img(ic, 'hci') if ic else '') + f'<div class="hcn" lang="{OPC["idioma"]}">{E(nom)}</div></th>')
@@ -554,15 +607,24 @@ def pagina_index(ctx, p, n):
     if bl: dreta = bl[0]['pos']['x'] > 10
     else: dreta = bool(p.get('targetes')) and min(t['pos']['x'] for t in p['targetes']) < 4     # G3-G5: la franja és a l'altra banda de les targetes
     lateral = p.get('banda_lateral', '')
-    if not lateral.strip() and not bl:      # G1, G6-G16: l'extracció no porta el text lateral; hi va el nom del grup (part en castellà)
-        lateral = re.split(r'\s+/\s+|\s+-\s+', ctx.d['grup'].get('nom', ''))[0].strip()
+    linies, de_nom = None, False
+    if not lateral.strip() and not bl:
+        de_nom = True      # G1, G6-G16: l'extracció no porta el text lateral; hi va el nom sencer del grup, com a l'original (Sergi 20/11: «MÁQUINAS - MACHINES BAR», no «MÁQUINAS»)
+        lateral = re.sub(r'\s+', ' ', ctx.d['grup'].get('nom', '')).strip()
+        if len(lateral) > 26:               # nom llarg (G6 «EQUIPOS GRAN PRODUCCIÓN / HIGH-PRODUCTION EQUIPMENT»): dues línies, ES i EN, com a l'original
+            m = re.split(r'\s+/\s+|\s+-\s+', lateral, maxsplit=1)
+            if len(m) == 2: linies = m
     toks = lateral.split()
     h = '<div class="page index">'
     h += f'<div class="franja {"dreta" if dreta else "esq"}">'
     if len(bl) == 2 and len(toks) == 3:
         h += f'<div class="vt">{toks[2]} {toks[1]}</div>{img(bl[0]["asset"], "bl")}<div class="vt">{toks[0]}</div>{img(bl[1]["asset"], "bl")}'
+    elif linies:
+        llarg = max(len(x) for x in linies)
+        h += f'<div class="vt" style="font-size:{max(18, min(34, 50 * 18 / llarg)):.1f}pt;line-height:1.1">' + '<br>'.join(E(x) for x in linies) + '</div>'
     else:
-        mida = f' style="font-size:{max(22, min(50, 50 * 13 / len(lateral))):.1f}pt"' if len(lateral) > 13 else ''
+        mida = f' style="font-size:{max(22, min(58, 58 * 23 / len(lateral))):.1f}pt"' if de_nom else (
+            f' style="font-size:{max(22, min(50, 50 * 13 / len(lateral))):.1f}pt"' if len(lateral) > 13 else '')
         h += f'<div class="vt"{mida}>{E(lateral)}</div>' + ''.join(img(l['asset'], 'bl') for l in bl)
     h += '</div>'
     for t in p['targetes']:
@@ -726,29 +788,72 @@ def titols_pagina_html(p):
     return ''.join(f'<div class="titol-pag">{E(q["text"].strip())}</div>' for q in (p.get('textos_pagina') or []) if es_titol_pagina(q))
 
 
+def _es_avis(t):
+    """Text gran sense números ni idiomes («HASTA FIN DE EXISTENCIAS»): és un avís de la pàgina, no material ni nota."""
+    return t.upper() == t and len(t) > 6 and not re.search(r'\d', t) and not re.search(r'\s[EFD]\s', t) and ' / ' not in t
+
+
+def _es_nota(t):
+    """Nota multillengua («CON TEMPORIZADOR E WITH TIMER F ... D ...», «MANDOS ... / E CONTROLS ... »): caixa a part, mai dins el requadre de material."""
+    return len(t) > 16 and not _es_avis(t)
+
+
+def parteix_idiomes(t):
+    """«ES E en F fr D de» (o amb « / ») -> [('', es), ('E', en), ('F', fr), ('D', de)]."""
+    parts = re.split(r'\s*/?\s+([EFD])\s+(?=[A-ZÁÉÍÓÚÀÈÒÇÑÜ])', ' ' + t.strip())
+    out = [('', parts[0].strip(' /'))]
+    for k in range(1, len(parts) - 1, 2): out.append((parts[k], parts[k + 1].strip(' /')))
+    return [x for x in out if x[1]]
+
+
+def nota_idiomes_html(t, cls):
+    ll = parteix_idiomes(t)
+    return (f'<div class="{cls}">' + ''.join((f'<div class="ni-es">{E(x)}</div>' if not l else f'<div class="ni-x"><span class="lt">{l}</span>{E(x)}</div>') for l, x in ll) + '</div>')
+
+
 def series_g1(tx):
-    """G1: textos de la llegenda -> [(y, material, 'SERIE n')] ordenats per y; cada text que no és «SERIE n» s'assigna a la sèrie més propera
-    (la pàgina G1 p.37 en té dues: «SERIE 5 + CON TEMPORIZADOR» i «SERIE 8 + CON REGULADORES»). Llista buida si els textos no són només això."""
+    """G1: textos de la llegenda -> [(y, material, 'SERIE n', nota)] ordenats per y. Material = text curt («Cr.D 12 mm») de la sèrie més propera;
+    nota = text multillengua llarg a menys de 2 cm d'una sèrie (G1 p.36-37: «CON TEMPORIZADOR...», al costat de la sèrie com a l'original).
+    Els avisos («HASTA FIN DE EXISTENCIAS») i les notes lluny de tota sèrie no hi entren (notes_soltes_g1). Llista buida si no hi ha cap «SERIE n»."""
     els = [(q['pos']['y'], re.sub(r'\s+', ' ', q['text']).strip()) for q in tx]
-    sers = [[y, '', t] for y, t in els if re.fullmatch(r'SERIE \d', t, re.I)]
+    sers = [[y, '', t, ''] for y, t in els if re.fullmatch(r'SERIE \d', t, re.I)]
     if not sers: return []
     for y, t in els:
-        if re.fullmatch(r'SERIE \d', t, re.I): continue
+        if re.fullmatch(r'SERIE \d', t, re.I) or _es_avis(t): continue
         s_ = min(sers, key=lambda e: abs(e[0] - y))
-        if s_[1]: return []                 # dos textos per a la mateixa sèrie: no és aquest cas
+        if _es_nota(t):
+            if abs(s_[0] - y) < 2 and not s_[3]: s_[3] = t
+            continue
+        if s_[1]: return []                 # dos materials per a la mateixa sèrie: no és aquest cas
         s_[1] = t
     return sorted(sers)
 
 
-def banner_ser(mat, ser, cls):
-    return (f'<div class="{cls}">' + (f'<span class="mat">{E(mat)}</span>' if mat else '<span class="mat buit"></span>') + f'<span class="ser">{E(ser.upper())}</span></div>')
+def notes_soltes_g1(p):
+    """Notes i avisos d'una pàgina G1 que no van amb cap sèrie: (html, alçada en cm). G1 p.28 «MANDOS EN EL FRONTAL...» (a baix, sobre la taula,
+    com a l'original, i no a dalt tapant les fotos i la sèrie); G1 p.15 «HASTA FIN DE EXISTENCIAS» a baix."""
+    tx = llegenda_tx(p)
+    ss = series_g1(tx)
+    if not ss: return '', 0
+    usades = {s_[3] for s_ in ss}
+    h, alt = '', 0
+    for q in tx:
+        t = re.sub(r'\s+', ' ', q['text']).strip()
+        if _es_avis(t): h += f'<div class="titol-pag avis">{E(t)}</div>'; alt += 1.0
+        elif _es_nota(t) and t not in usades: h += nota_idiomes_html(t, 'nota-sola'); alt += .45 * len(parteix_idiomes(t)) + .3
+    return h, alt
+
+
+def banner_ser(mat, ser, cls, nota=''):
+    return (f'<div class="{cls}">' + (f'<span class="mat">{E(mat)}</span>' if mat else '<span class="mat buit"></span>') + f'<span class="ser">{E(ser.upper())}</span>'
+            + (nota_idiomes_html(nota, 'ser-nota') if nota else '') + '</div>')
 
 
 def ser_g1(tx):
     """G1: la tarifa publicada posa «Fe 15 mm  SERIE 5» (material en caixa granat + sèrie en lletra gruixuda) sota la barra del títol, no sobre la taula.
-    Aquí només la primera sèrie de la pàgina; les altres (series_extra_g1) surten al mig, davant la seva foto."""
+    Regla fixa (Sergi 20/11): el material i la sèrie van SEMPRE a dalt. Aquí només la primera sèrie de la pàgina; les altres (series_extra_g1) surten al mig, davant la seva foto."""
     ss = series_g1(tx)
-    return banner_ser(ss[0][1], ss[0][2], 'ser-top') if ss else ''
+    return banner_ser(ss[0][1], ss[0][2], 'ser-top', ss[0][3]) if ss else ''
 
 
 def llegenda_tx(p):
@@ -758,7 +863,7 @@ def llegenda_tx(p):
 
 def series_extra_g1(p):
     """Sèries 2a, 3a... d'una pàgina G1: [(y de la sèrie a la tarifa, html del banner)]."""
-    return [(y, banner_ser(m, t, 'ser-mig')) for y, m, t in series_g1(llegenda_tx(p))[1:]]
+    return [(y, banner_ser(m, t, 'ser-mig', nt)) for y, m, t, nt in series_g1(llegenda_tx(p))[1:]]
 
 
 def llegenda_html(p):
@@ -891,6 +996,7 @@ def parteix_pagina(p, k=0):
 
 
 def pagina_producte(ctx, p, n):
+    ctx.pag_actual = p.get('n')
     h = '<div class="page producte' + (' cont' if p.get('continuacio') else '') + '">' + capcalera(ctx, p)
     ordre_codis = [r['cel_les'].get('codi') for t in p.get('taules', []) if t['format'] == 'taula_producte' for r in t['files'] if r['cel_les'].get('codi')]
     if not p.get('continuacio'):
@@ -904,7 +1010,8 @@ def pagina_producte(ctx, p, n):
             return min(ii) if ii else 99
         fotos = agrupa_fotos(sorted(p.get('fotos', []), key=idx))
         files_tau = sum(CAP_TAULA_CM + FILA_CM * len(t['files']) for t in p.get('taules', []) if t['format'] == 'taula_producte')
-        alt_fotos = ALT_UTIL_CM - files_tau - .8 * len(series_extra_g1(p)) - (LLEGENDA_CM if llegenda_html(p) and not llegenda_html(p).startswith('<div class="ser-top"') else 0) - .6
+        notes_h, notes_alt = notes_soltes_g1(p)
+        alt_fotos = ALT_UTIL_CM - files_tau - .8 * len(series_extra_g1(p)) - (LLEGENDA_CM if llegenda_html(p) and not llegenda_html(p).startswith('<div class="ser-top"') else 0) - notes_alt - .6
         nc = columnes_fotos(len(fotos), [ratio_foto(f['asset']) for f in fotos], alt_fotos)
         h += f'<div class="fotos n{len(fotos)} c{nc}" style="grid-template-columns:repeat({nc},1fr)">'
         extra = series_extra_g1(p)
@@ -921,7 +1028,7 @@ def pagina_producte(ctx, p, n):
         if sense_foto: ctx.avisos.append(f'p{p["n"]}: codis sense foto (només a la taula): {", ".join(sense_foto)}')
         for t in p.get('taules', []):
             if t['format'] == 'nota': h += nota_html(t)
-        h += llegenda_html(p)
+        h += llegenda_html(p) + notes_h
     for t in p.get('taules', []):
         if t['format'] == 'taula_producte': h += '<div class="tau-box">' + taula_html(ctx, t) + '</div>'
     return h + peu(ctx, p, n) + '</div>'
@@ -1240,6 +1347,7 @@ def renderitza(dades, preus, sortida):
     if os.path.exists(sortida + '.pdf'): os.remove(sortida + '.pdf')
     genera_pdf(sortida + '.html', sortida + '.pdf')
     posa_pagines_slides(ctx, sortida + '.pdf')
+    aplica_pegats(ctx, sortida + '.pdf')
     return ctx
 
 
@@ -1445,6 +1553,58 @@ def posa_pagines_slides(ctx, pdf):
     else: ctx.avisos.append(f'no s\'han pogut posar els peus de les diapositives ({r.stderr.strip()[:200]})')
     for f in (sob_html, sob_pdf):
         if os.path.exists(f): os.remove(f)
+
+
+def aplica_pegats(ctx, pdf):
+    """Trossos de la tarifa original (dades/pegats-original.yaml) enganxats damunt les pàgines del grup: es pinta de blanc el rectangle i s'hi
+    posa el mateix rectangle de la pàgina original (vectorial, fitz.show_pdf_page). «sencera» substitueix tota la pàgina (portada) i «segell»
+    hi torna a posar el segell de data del catàleg. Es fa al final (després de les diapositives i els peus), perquè cap altra passa no ho desfaci."""
+    f = os.path.join(ROOT, 'dades', 'pegats-original.yaml')
+    if not os.path.exists(f): return
+    cfg = (yaml.safe_load(open(f, encoding='utf8')) or {}).get(ctx.grup) or {}
+    if not cfg: return
+    import fitz
+    clau_de = clau_pagines_slides(ctx)
+    CM = 72 / 2.54
+    doc = fitz.open(pdf); fets = []; segells = []
+    for k, pg_cfg in cfg.items():
+        if str(k) not in clau_de:
+            ctx.avisos.append(f'pegat {k}: aquesta pàgina d\'Odoo ja no és al catàleg; no es fa servir'); continue
+        i = clau_de.index(str(k))
+        src_p = os.path.join(ROOT, 'assets', 'pagines-originals', pg_cfg['font'])
+        if not os.path.exists(src_p):
+            ctx.avisos.append(f'pegat {k}: falta {src_p}'); continue
+        src = fitz.open(src_p); pg = doc[i]
+        if pg_cfg.get('sencera'):
+            pg.draw_rect(pg.rect, color=None, fill=(1, 1, 1), overlay=True)
+            pg.show_pdf_page(pg.rect, src, 0)
+            if pg_cfg.get('segell'): segells.append(i)
+        for x0, y0, x1, y1 in pg_cfg.get('rects') or []:
+            r = fitz.Rect(x0 * CM, y0 * CM, x1 * CM, y1 * CM)
+            pg.draw_rect(r, color=None, fill=(1, 1, 1), overlay=True)
+            pg.show_pdf_page(r, src, 0, clip=r)
+        src.close(); fets.append(i + 1)
+    if not fets: doc.close(); return
+    tmp = pdf + '.peg.pdf'; doc.save(tmp, garbage=3, deflate=True); doc.close(); os.replace(tmp, pdf)
+    print(f'pegats de la tarifa original a les pàgines {fets}')
+    for i in segells:       # segell de data del catàleg (no el de l'original) damunt la portada original, amb un disc blanc que tapa el vell
+        im = next((x for x in ctx.pagines[i].get('imatges', []) if x.get('rol') == 'segell_data'), None)
+        if not im: continue
+        pos = im['pos']; a_, m_ = ctx.data.split('/')
+        html_p = pdf[:-4] + '.html'
+        cap = open(html_p, encoding='utf8').read().split('<body', 1)[0]
+        dsc = (f'<div style="position:absolute;left:{pos["x"] + .12}cm;top:{pos["y"] + .12}cm;width:{pos["w"] - .24}cm;height:{pos["h"] - .24}cm;'
+               f'border-radius:50%;background:#fff"></div>')
+        sob_html = pdf[:-4] + '.seg.html'; sob_pdf = pdf[:-4] + '.seg.pdf'
+        open(sob_html, 'w', encoding='utf8').write(cap + '<body><style>html,body{background:transparent !important}</style>'
+                                                   '<div class="page portada" style="background:transparent !important">' + dsc + segell_svg(a_, m_, pos) + '</div></body></html>')
+        genera_pdf(sob_html, sob_pdf)
+        tmp = pdf + '.tmp.pdf'
+        r = subprocess.run(['qpdf', pdf, '--overlay', sob_pdf, '--from=1', f'--to={i + 1}', '--', tmp], capture_output=True, text=True)
+        if r.returncode in (0, 3): os.replace(tmp, pdf)
+        else: ctx.avisos.append(f'no s\'ha pogut posar el segell a la portada ({r.stderr.strip()[:200]})')
+        for x in (sob_html, sob_pdf):
+            if os.path.exists(x): os.remove(x)
 
 
 def prepara(a):

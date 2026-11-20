@@ -1,0 +1,25 @@
+# Trossos de la tarifa original enganxats (vectorials) damunt la pàgina generada, quan ni Odoo ni la diapositiva de Slides no ho reprodueixen bé.
+# Fonts: assets/pagines-originals/<font> (una pàgina de la tarifa publicada o del PDF de grup). Coordenades en cm sobre l'A4, iguals a origen i destí.
+# Clau de pàgina = la de slides-pagines.yaml («<id de la pàgina d'Odoo>:<k>»): afegir o treure productes no la mou. Si Staging es refà de zero
+# (ids nous), cal re-clavar aquest fitxer igual que slides-pagines.yaml (DUMP_CLAUS_SLIDES=1).
+#   sencera: true  -> tota la pàgina és l'original (portada); segell: true -> s'hi torna a posar el segell de data del catàleg (no el de l'original)
+#   rects          -> [x0, y0, x1, y1]: es pinta de blanc i s'hi posa el mateix tros de l'original
+# Sergi 20/11 (G1 revisat pàgina per pàgina): portada idèntica a la del PDF de grup; títols amb la línia D (alemany) també a les pàgines de Slides;
+# fotos de detall correctes a les p.14 (rascador), p.24 (graelles ampliades), p.38 (tirador) i p.39.
+1:
+  '1:1': {font: g1-portada.pdf, sencera: true, segell: true}
+  '3:1': {font: g1-p4.pdf, rects: [[3.6, 0, 21, 1.98]]}
+  '4:1': {font: g1-p6.pdf, rects: [[3.6, 0, 21, 1.98]]}
+  '5:1': {font: g1-p8.pdf, rects: [[3.6, 0, 21, 1.98]]}
+  '5:2': {font: g1-p9.pdf, rects: [[3.6, 0, 21, 1.98]]}
+  '6:1': {font: g1-p13.pdf, rects: [[3.6, 0, 21, 1.98]]}
+  '6:2': {font: g1-p14.pdf, rects: [[3.6, 0, 21, 1.98], [0, 20.9, 21, 28.25]]}
+  '7:1': {font: g1-p16.pdf, rects: [[3.6, 0, 21, 1.98]]}
+  '7:2': {font: g1-p17.pdf, rects: [[3.6, 0, 21, 1.98]]}
+  '8:1': {font: g1-p24.pdf, rects: [[3.6, 0, 21, 1.98], [0, 22.35, 21, 28.25], [0, 28.25, 9.6, 28.6], [11.4, 28.25, 21, 28.6]]}
+  '9:1': {font: g1-p27.pdf, rects: [[3.6, 0, 21, 1.98]]}
+  '10:1': {font: g1-p29.pdf, rects: [[3.6, 0, 21, 1.98]]}
+  '10:2': {font: g1-p30.pdf, rects: [[3.6, 0, 21, 1.98]]}
+  '11:1': {font: g1-p35.pdf, rects: [[3.6, 0, 21, 1.98]]}
+  '12:1': {font: g1-p38.pdf, rects: [[3.6, 0, 21, 1.98], [0, 18.8, 21, 28.25], [0, 28.25, 9.6, 28.45], [11.4, 28.25, 21, 28.45]]}
+  '12:2': {font: g1-p39.pdf, rects: [[3.6, 0, 21, 1.98], [0, 22.2, 21, 28.1]]}

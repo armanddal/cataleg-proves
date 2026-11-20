@@ -1,0 +1,7 @@
+# Símbol de capçalera d'una columna en una pàgina concreta, quan la mateixa columna d'Odoo du símbols diferents segons la pàgina a la tarifa original.
+# grup -> «p<pàgina del .pub>:<columna d'Odoo>»: asset. Símbols retallats de la tarifa publicada.
+# G1 (Sergi 20/11): la columna «wok» (a Odoo «Wok») és la quantitat de gofres a la p.41 i de planxes de crepes a les p.42-43, no «Wok».
+1:
+  p41:wok: assets/g1/icona-gofres.png
+  p42:wok: assets/g1/icona-crepera.png
+  p43:wok: assets/g1/icona-crepera.png
